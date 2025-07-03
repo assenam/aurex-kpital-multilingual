@@ -88,14 +88,13 @@ const Services = () => {
               onMouseLeave={() => setHoveredCard(null)}
             >
               <Card className={`
-                hover-lift tilt-card h-full transition-all duration-500 border overflow-hidden
+                hover-lift tilt-card h-full transition-all duration-500 border-0 overflow-hidden
                 ${hoveredCard === index ? 'scale-105 shadow-hover z-10' : ''}
-                bg-background/95 backdrop-blur-sm shadow-elegant
-                border-border/50 hover:border-primary/20
+                ${service.bgColor}
               `}>
                 {/* Card Glow Effect */}
                 <div className={`
-                  absolute inset-0 bg-gradient-to-r ${service.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-500
+                  absolute inset-0 bg-gradient-to-r ${service.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500
                 `}></div>
                 
                 {/* Shimmer Effect */}
