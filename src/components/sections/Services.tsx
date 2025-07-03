@@ -110,7 +110,10 @@ const Services = () => {
                   `}>
                     <service.icon className="h-16 w-16 text-primary group-hover:text-accent transition-colors duration-300" />
                   </div>
-                  <CardTitle className="text-2xl font-bold mb-3 text-primary group-hover:text-accent transition-colors duration-300">
+                  <CardTitle className={`
+                    text-2xl font-bold mb-3 transition-all duration-300
+                    ${hoveredCard === index ? 'bg-gradient-to-r ' + service.gradient + ' bg-clip-text text-transparent' : 'text-primary'}
+                  `}>
                     {service.title}
                   </CardTitle>
                   <CardDescription className="text-muted-foreground text-base leading-relaxed">
