@@ -3,6 +3,7 @@ import Footer from '@/components/layout/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { useTranslation } from '@/contexts/TranslationContext';
 import { 
   Users, Briefcase, MapPin, Clock, Euro, GraduationCap, 
   TrendingUp, Heart, Coffee, Gamepad2, Car, Plane,
@@ -10,6 +11,7 @@ import {
 } from 'lucide-react';
 
 const Careers = () => {
+  const { t } = useTranslation();
   const openPositions = [
     {
       title: "Senior Data Scientist",
