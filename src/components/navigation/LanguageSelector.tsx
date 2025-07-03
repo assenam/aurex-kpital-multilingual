@@ -24,8 +24,10 @@ export const LanguageSelector = () => {
 
   const handleLanguageChange = (language: typeof languages[0]) => {
     setCurrentLang(language);
-    // TODO: Implement actual language routing logic
-    console.log('Language changed to:', language.code);
+    // Store language preference
+    localStorage.setItem('preferredLanguage', language.code);
+    // Trigger page refresh to apply translation
+    window.location.reload();
   };
 
   return (

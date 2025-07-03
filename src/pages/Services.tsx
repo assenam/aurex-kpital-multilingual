@@ -9,8 +9,10 @@ import {
   CheckCircle, ArrowRight, Clock, Users, Award, Calculator,
   FileText, PiggyBank, Banknote, CreditCard, Home, Briefcase
 } from 'lucide-react';
+import { useTranslationLogic } from '@/hooks/useTranslation';
 
 const Services = () => {
+  const { t } = useTranslationLogic();
   const mainServices = [
     {
       title: "Prêts Personnels Premium",
