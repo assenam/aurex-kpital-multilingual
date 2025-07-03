@@ -233,6 +233,14 @@ const translations = {
             subtitle: "Transformative Wirkung"
           }
         }
+      },
+      services: {
+        badge: "Dienstleistungen",
+        title: "Lösungen",
+        subtitle: "Innovativ",
+        description: "Entdecken Sie unsere revolutionären",
+        description2: "Finanzlösungen",
+        description3: "für Ihre Projekte"
       }
     },
     services: {
@@ -334,6 +342,14 @@ const translations = {
             subtitle: "Impacto transformador"
           }
         }
+      },
+      services: {
+        badge: "Servicios",
+        title: "Soluciones",
+        subtitle: "Innovadoras",
+        description: "Descubra nuestras soluciones financieras",
+        description2: "revolucionarias",
+        description3: "para sus proyectos"
       }
     },
     services: {
@@ -435,6 +451,14 @@ const translations = {
             subtitle: "Impatto trasformativo"
           }
         }
+      },
+      services: {
+        badge: "Servizi",
+        title: "Soluzioni",
+        subtitle: "Innovative",
+        description: "Scopri le nostre soluzioni finanziarie",
+        description2: "rivoluzionarie",
+        description3: "per i tuoi progetti"
       }
     },
     services: {
@@ -536,6 +560,14 @@ const translations = {
             subtitle: "Transformacyjny wpływ"
           }
         }
+      },
+      services: {
+        badge: "Usługi",
+        title: "Rozwiązania",
+        subtitle: "Innowacyjne",
+        description: "Odkryj nasze rewolucyjne",
+        description2: "rozwiązania finansowe",
+        description3: "dla Twoich projektów"
       }
     },
     services: {
@@ -637,6 +669,14 @@ const translations = {
             subtitle: "Muutosvaikutus"
           }
         }
+      },
+      services: {
+        badge: "Palvelut",
+        title: "Ratkaisut",
+        subtitle: "Innovatiiviset",
+        description: "Tutustu vallankumouksellisiin",
+        description2: "rahoitusratkaisuihimme",
+        description3: "projekteillesi"
       }
     },
     services: {
@@ -738,6 +778,14 @@ const translations = {
             subtitle: "Impacto transformador"
           }
         }
+      },
+      services: {
+        badge: "Serviços",
+        title: "Soluções",
+        subtitle: "Inovadoras",
+        description: "Descubra as nossas soluções financeiras",
+        description2: "revolucionárias",
+        description3: "para os seus projetos"
       }
     },
     services: {
@@ -839,6 +887,14 @@ const translations = {
             subtitle: "Μεταμορφωτικός αντίκτυπος"
           }
         }
+      },
+      services: {
+        badge: "Υπηρεσίες",
+        title: "Λύσεις",
+        subtitle: "Καινοτόμες",
+        description: "Ανακαλύψτε τις επαναστατικές",
+        description2: "χρηματοοικονομικές λύσεις μας",
+        description3: "για τα έργα σας"
       }
     },
     services: {
