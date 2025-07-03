@@ -95,7 +95,11 @@ const translations = {
       terms: "Conditions générales",
       mentions: "Mentions légales",
       gdpr: "RGPD",
-      rights: "© 2024 Aurex K-pital. Tous droits réservés."
+      rights: "© 2024 Aurex K-pital. Tous droits réservés.",
+      description: "Votre partenaire financier de confiance depuis 1997. Excellence, innovation et expertise pour tous vos projets financiers en Europe.",
+      services: "Services",
+      copyright: "© 2024 Aurex K-pital. Tous droits réservés.",
+      establishment: "Établissement financier agréé en Europe"
     },
     home: {
       hero: {
@@ -132,6 +136,54 @@ const translations = {
         description: "Découvrez nos solutions financières",
         description2: "révolutionnaires",
         description3: "pour vos projets"
+      },
+      about: {
+        badge: "À propos",
+        title: "Votre partenaire",
+        subtitle: "financier",
+        subtitle2: "de confiance",
+        description1: {
+          highlight: "Depuis 1997,",
+          text: " Aurex K-pital accompagne particuliers et entreprises dans leurs projets financiers avec une approche alliant",
+          expertise: "expertise humaine",
+          and: "et",
+          technology: "innovation technologique"
+        },
+        description2: {
+          text: "Notre mission : démocratiser l'accès au financement grâce à des solutions",
+          highlight: "rapides, transparentes et sur-mesure",
+          success: "pour concrétiser vos ambitions"
+        },
+        stats: {
+          founded: "Année de création",
+          location: "Siège social",
+          certified: "Registre",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Votre confiance, notre priorité",
+          description: "Certifiés et régulés par les autorités européennes"
+        },
+        buttons: {
+          history: "Notre histoire",
+          contact: "Nous contacter"
+        }
+      },
+      cta: {
+        title: "Prêt à transformer",
+        titleHighlight: "vos projets",
+        titleEnd: "en réalité ?",
+        description: "Nos experts vous accompagnent à chaque étape pour concrétiser vos ambitions financières.",
+        buttons: {
+          request: "Faire une demande",
+          simulate: "Simuler un prêt",
+          contact: "Nous contacter"
+        },
+        contact: {
+          phone: "Téléphone",
+          address: "Adresse",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne"
+        }
       }
     },
     services: {
@@ -204,7 +256,11 @@ const translations = {
       terms: "Allgemeine Geschäftsbedingungen",
       mentions: "Impressum",
       gdpr: "DSGVO",
-      rights: "© 2024 Aurex K-pital. Alle Rechte vorbehalten."
+      rights: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
+      description: "Ihr vertrauensvoller Finanzpartner seit 1997. Exzellenz, Innovation und Expertise für all Ihre Finanzprojekte in Europa.",
+      services: "Dienstleistungen",
+      copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
+      establishment: "Lizenzierte Finanzinstitution in Europa"
     },
     home: {
       hero: {
@@ -241,6 +297,54 @@ const translations = {
         description: "Entdecken Sie unsere revolutionären",
         description2: "Finanzlösungen",
         description3: "für Ihre Projekte"
+      },
+      about: {
+        badge: "Über uns",
+        title: "Ihr Partner",
+        subtitle: "für Finanzen",
+        subtitle2: "des Vertrauens",
+        description1: {
+          highlight: "Seit 1997",
+          text: " begleitet Aurex K-pital Privatpersonen und Unternehmen bei ihren Finanzprojekten mit einem Ansatz, der",
+          expertise: "menschliche Expertise",
+          and: "und",
+          technology: "technologische Innovation"
+        },
+        description2: {
+          text: "Unsere Mission: Den Zugang zu Finanzierungen demokratisieren durch",
+          highlight: "schnelle, transparente und maßgeschneiderte Lösungen",
+          success: "zur Verwirklichung Ihrer Ambitionen"
+        },
+        stats: {
+          founded: "Gründungsjahr",
+          location: "Hauptsitz",
+          certified: "Register",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Ihr Vertrauen, unsere Priorität",
+          description: "Zertifiziert und reguliert von europäischen Behörden"
+        },
+        buttons: {
+          history: "Unsere Geschichte",
+          contact: "Kontakt aufnehmen"
+        }
+      },
+      cta: {
+        title: "Bereit, Ihre Projekte",
+        titleHighlight: "in die Realität",
+        titleEnd: "umzusetzen?",
+        description: "Unsere Experten begleiten Sie bei jedem Schritt zur Verwirklichung Ihrer finanziellen Ambitionen.",
+        buttons: {
+          request: "Anfrage stellen",
+          simulate: "Kredit simulieren",
+          contact: "Kontakt aufnehmen"
+        },
+        contact: {
+          phone: "Telefon",
+          address: "Adresse",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
+        }
       }
     },
     services: {
@@ -313,7 +417,11 @@ const translations = {
       terms: "Términos y condiciones",
       mentions: "Aviso legal",
       gdpr: "RGPD",
-      rights: "© 2024 Aurex K-pital. Todos los derechos reservados."
+      rights: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      description: "Su socio financiero de confianza desde 1997. Excelencia, innovación y experiencia para todos sus proyectos financieros en Europa.",
+      services: "Servicios",
+      copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      establishment: "Institución financiera autorizada en Europa"
     },
     home: {
       hero: {
@@ -350,6 +458,54 @@ const translations = {
         description: "Descubra nuestras soluciones financieras",
         description2: "revolucionarias",
         description3: "para sus proyectos"
+      },
+      about: {
+        badge: "Sobre nosotros",
+        title: "Su socio",
+        subtitle: "financiero",
+        subtitle2: "de confianza",
+        description1: {
+          highlight: "Desde 1997,",
+          text: " Aurex K-pital acompaña a particulares y empresas en sus proyectos financieros con un enfoque que combina",
+          expertise: "experiencia humana",
+          and: "e",
+          technology: "innovación tecnológica"
+        },
+        description2: {
+          text: "Nuestra misión: democratizar el acceso a la financiación gracias a soluciones",
+          highlight: "rápidas, transparentes y a medida",
+          success: "para hacer realidad sus ambiciones"
+        },
+        stats: {
+          founded: "Año de fundación",
+          location: "Sede social",
+          certified: "Registro",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Su confianza, nuestra prioridad",
+          description: "Certificados y regulados por las autoridades europeas"
+        },
+        buttons: {
+          history: "Nuestra historia",
+          contact: "Contáctanos"
+        }
+      },
+      cta: {
+        title: "¿Listo para transformar",
+        titleHighlight: "sus proyectos",
+        titleEnd: "en realidad?",
+        description: "Nuestros expertos le acompañan en cada paso para hacer realidad sus ambiciones financieras.",
+        buttons: {
+          request: "Hacer una solicitud",
+          simulate: "Simular un préstamo",
+          contact: "Contáctanos"
+        },
+        contact: {
+          phone: "Teléfono",
+          address: "Dirección",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+        }
       }
     },
     services: {
@@ -422,7 +578,11 @@ const translations = {
       terms: "Termini e condizioni",
       mentions: "Note legali",
       gdpr: "GDPR",
-      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati."
+      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
+      services: "Servizi",
+      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      establishment: "Istituzione finanziaria autorizzata in Europa"
     },
     home: {
       hero: {
@@ -459,6 +619,54 @@ const translations = {
         description: "Scopri le nostre soluzioni finanziarie",
         description2: "rivoluzionarie",
         description3: "per i tuoi progetti"
+      },
+      about: {
+        badge: "Chi siamo",
+        title: "Il vostro partner",
+        subtitle: "finanziario",
+        subtitle2: "di fiducia",
+        description1: {
+          highlight: "Dal 1997,",
+          text: " Aurex K-pital accompagna privati e aziende nei loro progetti finanziari con un approccio che combina",
+          expertise: "esperienza umana",
+          and: "e",
+          technology: "innovazione tecnologica"
+        },
+        description2: {
+          text: "La nostra missione: democratizzare l'accesso ai finanziamenti grazie a soluzioni",
+          highlight: "rapide, trasparenti e su misura",
+          success: "per concretizzare le vostre ambizioni"
+        },
+        stats: {
+          founded: "Anno di fondazione",
+          location: "Sede sociale",
+          certified: "Registro",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "La vostra fiducia, la nostra priorità",
+          description: "Certificati e regolamentati dalle autorità europee"
+        },
+        buttons: {
+          history: "La nostra storia",
+          contact: "Contattaci"
+        }
+      },
+      cta: {
+        title: "Pronti a trasformare",
+        titleHighlight: "i vostri progetti",
+        titleEnd: "in realtà?",
+        description: "I nostri esperti vi accompagnano in ogni passaggio per concretizzare le vostre ambizioni finanziarie.",
+        buttons: {
+          request: "Fare una richiesta",
+          simulate: "Simulare un prestito",
+          contact: "Contattaci"
+        },
+        contact: {
+          phone: "Telefono",
+          address: "Indirizzo",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+        }
       }
     },
     services: {
@@ -531,7 +739,11 @@ const translations = {
       terms: "Regulamin",
       mentions: "Informacje prawne",
       gdpr: "RODO",
-      rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone."
+      rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      description: "Wasz zaufany partner finansowy od 1997 roku. Doskonałość, innowacyjność i doświadczenie dla wszystkich projektów finansowych w Europie.",
+      services: "Usługi",
+      copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      establishment: "Licencjonowana instytucja finansowa w Europie"
     },
     home: {
       hero: {
@@ -568,6 +780,54 @@ const translations = {
         description: "Odkryj nasze rewolucyjne",
         description2: "rozwiązania finansowe",
         description3: "dla Twoich projektów"
+      },
+      about: {
+        badge: "O nas",
+        title: "Wasz partner",
+        subtitle: "finansowy",
+        subtitle2: "zaufania",
+        description1: {
+          highlight: "Od 1997 roku",
+          text: " Aurex K-pital towarzyszy osobom prywatnym i firmom w ich projektach finansowych, łącząc",
+          expertise: "ludzką wiedzę specjalistyczną",
+          and: "z",
+          technology: "innowacjami technologicznymi"
+        },
+        description2: {
+          text: "Nasza misja: demokratyzacja dostępu do finansowania dzięki rozwiązaniom",
+          highlight: "szybkim, przejrzystym i szytym na miarę",
+          success: "aby zrealizować Wasze ambicje"
+        },
+        stats: {
+          founded: "Rok założenia",
+          location: "Siedziba",
+          certified: "Rejestr",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Wasze zaufanie, nasz priorytet",
+          description: "Certyfikowani i regulowani przez władze europejskie"
+        },
+        buttons: {
+          history: "Nasza historia",
+          contact: "Skontaktuj się"
+        }
+      },
+      cta: {
+        title: "Gotowi przekształcić",
+        titleHighlight: "wasze projekty",
+        titleEnd: "w rzeczywistość?",
+        description: "Nasi eksperci towarzyszą Wam na każdym kroku w realizacji finansowych ambicji.",
+        buttons: {
+          request: "Złożyć wniosek",
+          simulate: "Symulować kredyt",
+          contact: "Skontaktuj się"
+        },
+        contact: {
+          phone: "Telefon",
+          address: "Adres",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
+        }
       }
     },
     services: {
@@ -640,7 +900,11 @@ const translations = {
       terms: "Käyttöehdot",
       mentions: "Oikeudellinen ilmoitus",
       gdpr: "GDPR",
-      rights: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään."
+      rights: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      description: "Luotettava rahoituskumppanisi vuodesta 1997. Huippuosaamista, innovaatiota ja asiantuntemusta kaikkiin rahoitusprojekteihisi Euroopassa.",
+      services: "Palvelut",
+      copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      establishment: "Lisensoitu rahoituslaitos Euroopassa"
     },
     home: {
       hero: {
@@ -677,6 +941,54 @@ const translations = {
         description: "Tutustu vallankumouksellisiin",
         description2: "rahoitusratkaisuihimme",
         description3: "projekteillesi"
+      },
+      about: {
+        badge: "Tietoa meistä",
+        title: "Rahoituskumppanisi",
+        subtitle: "joka ansaitsee",
+        subtitle2: "luottamuksenne",
+        description1: {
+          highlight: "Vuodesta 1997",
+          text: " Aurex K-pital on tukenut yksityishenkilöitä ja yrityksiä heidän rahoitusprojekteissaan yhdistäen",
+          expertise: "inhimillisen asiantuntemuksen",
+          and: "ja",
+          technology: "teknologisen innovaation"
+        },
+        description2: {
+          text: "Missiomme: demokratisoida rahoituksen saatavuus",
+          highlight: "nopeiden, läpinäkyvien ja räätälöityjen ratkaisujen",
+          success: "avulla kunnianhimojesi toteuttamiseksi"
+        },
+        stats: {
+          founded: "Perustamisvuosi",
+          location: "Päämaja",
+          certified: "Rekisteri",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Luottamuksenne, prioriteettimme",
+          description: "Sertifioitu ja säännelty eurooppalaisten viranomaisten toimesta"
+        },
+        buttons: {
+          history: "Tarinamme",
+          contact: "Ota yhteyttä"
+        }
+      },
+      cta: {
+        title: "Valmiita muuttamaan",
+        titleHighlight: "projektinne",
+        titleEnd: "todeksi?",
+        description: "Asiantuntijamme tukevat teitä joka askeleella rahoituskunnianhimojenne toteuttamisessa.",
+        buttons: {
+          request: "Tehdä hakemus",
+          simulate: "Simuloida laina",
+          contact: "Ota yhteyttä"
+        },
+        contact: {
+          phone: "Puhelin",
+          address: "Osoite",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Saksa"
+        }
       }
     },
     services: {
@@ -749,7 +1061,11 @@ const translations = {
       terms: "Termos e condições",
       mentions: "Informações legais",
       gdpr: "RGPD",
-      rights: "© 2024 Aurex K-pital. Todos os direitos reservados."
+      rights: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      description: "O vosso parceiro financeiro de confiança desde 1997. Excelência, inovação e experiência para todos os vossos projetos financeiros na Europa.",
+      services: "Serviços",
+      copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      establishment: "Instituição financeira licenciada na Europa"
     },
     home: {
       hero: {
@@ -786,6 +1102,54 @@ const translations = {
         description: "Descubra as nossas soluções financeiras",
         description2: "revolucionárias",
         description3: "para os seus projetos"
+      },
+      about: {
+        badge: "Sobre nós",
+        title: "O vosso parceiro",
+        subtitle: "financeiro",
+        subtitle2: "de confiança",
+        description1: {
+          highlight: "Desde 1997,",
+          text: " a Aurex K-pital acompanha particulares e empresas nos seus projetos financeiros com uma abordagem que combina",
+          expertise: "experiência humana",
+          and: "e",
+          technology: "inovação tecnológica"
+        },
+        description2: {
+          text: "A nossa missão: democratizar o acesso ao financiamento graças a soluções",
+          highlight: "rápidas, transparentes e à medida",
+          success: "para concretizar as vossas ambições"
+        },
+        stats: {
+          founded: "Ano de fundação",
+          location: "Sede social",
+          certified: "Registo",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "A vossa confiança, a nossa prioridade",
+          description: "Certificados e regulamentados pelas autoridades europeias"
+        },
+        buttons: {
+          history: "A nossa história",
+          contact: "Contactar-nos"
+        }
+      },
+      cta: {
+        title: "Prontos para transformar",
+        titleHighlight: "os vossos projetos",
+        titleEnd: "em realidade?",
+        description: "Os nossos especialistas acompanham-vos em cada etapa para concretizar as vossas ambições financeiras.",
+        buttons: {
+          request: "Fazer um pedido",
+          simulate: "Simular um empréstimo",
+          contact: "Contactar-nos"
+        },
+        contact: {
+          phone: "Telefone",
+          address: "Morada",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
+        }
       }
     },
     services: {
@@ -858,7 +1222,11 @@ const translations = {
       terms: "Όροι Χρήσης",
       mentions: "Νομική Ειδοποίηση",
       gdpr: "GDPR",
-      rights: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος."
+      rights: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
+      description: "Ο αξιόπιστος χρηματοοικονομικός σας εταίρος από το 1997. Αριστεία, καινοτομία και εμπειρία για όλα τα χρηματοοικονομικά σας έργα στην Ευρώπη.",
+      services: "Υπηρεσίες",
+      copyright: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
+      establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη"
     },
     home: {
       hero: {
@@ -894,9 +1262,57 @@ const translations = {
         subtitle: "Καινοτόμες",
         description: "Ανακαλύψτε τις επαναστατικές",
         description2: "χρηματοοικονομικές λύσεις μας",
-        description3: "για τα έργα σας"
-      }
-    },
+         description3: "για τα έργα σας"
+       },
+       about: {
+         badge: "Σχετικά με εμάς",
+         title: "Ο εταίρος σας",
+         subtitle: "για χρηματοοικονομικά",
+         subtitle2: "θέματα",
+         description1: {
+           highlight: "Από το 1997,",
+           text: " η Aurex K-pital συνοδεύει ιδιώτες και επιχειρήσεις στα χρηματοοικονομικά τους έργα με προσέγγιση που συνδυάζει",
+           expertise: "ανθρώπινη εμπειρία",
+           and: "και",
+           technology: "τεχνολογική καινοτομία"
+         },
+         description2: {
+           text: "Η αποστολή μας: εκδημοκρατισμός της πρόσβασης στη χρηματοδότηση μέσω λύσεων",
+           highlight: "γρήγορων, διαφανών και εξατομικευμένων",
+           success: "για την υλοποίηση των φιλοδοξιών σας"
+         },
+         stats: {
+           founded: "Έτος ίδρυσης",
+           location: "Έδρα",
+           certified: "Μητρώο",
+           security: "Safe-Nummer"
+         },
+         trust: {
+           title: "Η εμπιστοσύνη σας, προτεραιότητά μας",
+           description: "Πιστοποιημένοι και ρυθμιζόμενοι από ευρωπαϊκές αρχές"
+         },
+         buttons: {
+           history: "Η ιστορία μας",
+           contact: "Επικοινωνήστε μαζί μας"
+         }
+       },
+       cta: {
+         title: "Έτοιμοι να μεταμορφώσετε",
+         titleHighlight: "τα έργα σας",
+         titleEnd: "σε πραγματικότητα;",
+         description: "Οι ειδικοί μας σας συνοδεύουν σε κάθε βήμα για την υλοποίηση των χρηματοοικονομικών σας φιλοδοξιών.",
+         buttons: {
+           request: "Υποβολή αίτησης",
+           simulate: "Προσομοίωση δανείου",
+           contact: "Επικοινωνήστε μαζί μας"
+         },
+         contact: {
+           phone: "Τηλέφωνο",
+           address: "Διεύθυνση",
+           addressValue: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
+         }
+       }
+     },
     services: {
       personalLoan: {
         title: "Προσωπικά δάνεια",
