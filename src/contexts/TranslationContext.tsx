@@ -437,6 +437,18 @@ const translations = {
     'faq.questions.1.a': 'Ja, Sie können Ihren Kredit jederzeit ohne Strafgebühren vorzeitig zurückzahlen.',
     'faq.questions.2.q': 'Wie funktioniert der Kreditsimulator?',
     'faq.questions.2.a': 'Sie geben Betrag, Laufzeit und Kreditart ein. Sie erhalten sofort eine unverbindliche Schätzung.',
+    // Simulator structure
+    'simulator.title': 'Kreditrechner',
+    'simulator.subtitle': 'Schätzen Sie Ihre monatlichen Raten in wenigen Klicks',
+    'simulator.form.loanType': 'Kreditart',
+    'simulator.form.amount': 'Gewünschter Betrag (€)',
+    'simulator.form.duration': 'Laufzeit (Monate)',
+    'simulator.form.calculate': 'Berechnen',
+    'simulator.form.reset': 'Zurücksetzen',
+    'simulator.result.monthlyPayment': 'Geschätzte Monatsrate',
+    'simulator.result.totalRepayment': 'Gesamtrückzahlungsbetrag',
+    'simulator.result.interestRate': 'Geschätzter Zinssatz',
+    'simulator.result.disclaimer': 'Unverbindliche Schätzung.',
     // Services structure with dot notation for German
     'services.personalLoan.title': 'Persönliche Darlehen',
     'services.personalLoan.description': 'Ultra-personalisierte Finanzierungslösungen mit revolutionären Bedingungen.',

@@ -9,8 +9,10 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Slider } from '@/components/ui/slider';
 import { useState } from 'react';
 import { Calculator, TrendingUp, CheckCircle, Info, Sparkles, Euro, Calendar, Percent } from 'lucide-react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Simulator = () => {
+  const { t } = useTranslation();
   const [loanAmount, setLoanAmount] = useState([25000]);
   const [duration, setDuration] = useState([60]);
   const [loanType, setLoanType] = useState('');
@@ -94,13 +96,12 @@ const Simulator = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Simulateur de Prêt
+              {t('simulator.title')}
               <span className="text-gold block">Intelligent</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Obtenez en quelques clics une estimation personnalisée de votre financement 
-              avec nos conditions privilégiées.
+              {t('simulator.subtitle')}
             </p>
           </div>
         </div>
@@ -128,7 +129,7 @@ const Simulator = () => {
                   {/* Type de prêt */}
                   <div>
                     <Label className="text-lg font-semibold text-primary mb-4 block">
-                      Type de financement
+                      {t('simulator.form.loanType')}
                     </Label>
                     <Select value={loanType} onValueChange={setLoanType}>
                       <SelectTrigger className="h-12">
@@ -150,7 +151,7 @@ const Simulator = () => {
                   {/* Montant */}
                   <div>
                     <Label className="text-lg font-semibold text-primary mb-4 block">
-                      Montant souhaité : {loanAmount[0].toLocaleString()}€
+                      {t('simulator.form.amount').replace('(€)', '')}: {loanAmount[0].toLocaleString()}€
                     </Label>
                     <Slider
                       value={loanAmount}
@@ -169,7 +170,7 @@ const Simulator = () => {
                   {/* Durée */}
                   <div>
                     <Label className="text-lg font-semibold text-primary mb-4 block">
-                      Durée : {duration[0]} mois ({Math.round(duration[0]/12)} ans)
+                      {t('simulator.form.duration').replace('(mois)', '')}: {duration[0]} mois ({Math.round(duration[0]/12)} ans)
                     </Label>
                     <Slider
                       value={duration}
@@ -239,13 +240,13 @@ const Simulator = () => {
                       {results.monthlyPayment}€
                     </div>
                     <div className="text-sm opacity-90">
-                      Mensualité estimée
+                      {t('simulator.result.monthlyPayment')}
                     </div>
                   </div>
 
                   <div className="space-y-4">
                     <div className="flex justify-between items-center p-3 bg-secondary/50 rounded-lg">
-                      <span className="text-muted-foreground">Taux estimé (TAEG)</span>
+                      <span className="text-muted-foreground">{t('simulator.result.interestRate')}</span>
                       <span className="font-bold text-accent">{results.rate}%</span>
                     </div>
                     
@@ -255,7 +256,7 @@ const Simulator = () => {
                     </div>
                     
                     <div className="flex justify-between items-center p-3 bg-secondary/50 rounded-lg">
-                      <span className="text-muted-foreground">Montant total à rembourser</span>
+                      <span className="text-muted-foreground">{t('simulator.result.totalRepayment')}</span>
                       <span className="font-bold">{results.totalPayment.toLocaleString()}€</span>
                     </div>
                   </div>
@@ -279,8 +280,7 @@ const Simulator = () => {
                     <div className="flex items-start gap-2">
                       <Info className="h-5 w-5 text-amber-600 mt-0.5 flex-shrink-0" />
                       <div className="text-sm text-amber-800">
-                        <strong>Information :</strong> Cette simulation est indicative. 
-                        Les conditions définitives seront confirmées après étude de votre dossier.
+                        <strong>Information :</strong> {t('simulator.result.disclaimer')}
                       </div>
                     </div>
                   </div>
