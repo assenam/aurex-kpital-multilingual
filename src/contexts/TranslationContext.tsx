@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode, useMemo, useCallback } from 'react';
+import React, { createContext, useContext, useState, ReactNode, useMemo, useCallback, useRef } from 'react';
 
 export type Language = 'fr' | 'de' | 'pl' | 'fi' | 'es' | 'pt' | 'el' | 'it';
 
@@ -16,20 +16,64 @@ interface TranslationProviderProps {
   children: ReactNode;
 }
 
+// Pre-computed translations cache for instant access
+const translationCache = new Map<string, string>();
+
+// Pre-populate cache for all languages and keys
+const populateCache = () => {
+  const allLanguages: Language[] = ['fr', 'de', 'pl', 'fi', 'es', 'pt', 'el', 'it'];
+  
+  const extractKeys = (obj: any, prefix = '', lang: Language) => {
+    for (const key in obj) {
+      if (typeof obj[key] === 'object' && obj[key] !== null) {
+        extractKeys(obj[key], prefix ? `${prefix}.${key}` : key, lang);
+      } else if (typeof obj[key] === 'string') {
+        const cacheKey = `${lang}:${prefix ? `${prefix}.${key}` : key}`;
+        translationCache.set(cacheKey, obj[key]);
+      }
+    }
+  };
+
+  allLanguages.forEach(lang => {
+    if (translations[lang]) {
+      extractKeys(translations[lang], '', lang);
+    }
+  });
+};
+
 export const TranslationProvider: React.FC<TranslationProviderProps> = ({ children }) => {
   const [language, setLanguage] = useState<Language>(() => {
     return (localStorage.getItem('preferredLanguage') as Language) || 'fr';
   });
   const [isLoading] = useState(false);
+  const cacheInitialized = useRef(false);
+
+  // Initialize cache on first render
+  if (!cacheInitialized.current) {
+    populateCache();
+    cacheInitialized.current = true;
+  }
 
   const changeLanguage = useCallback((newLanguage: Language) => {
     if (newLanguage === language) return;
     
-    setLanguage(newLanguage);
-    localStorage.setItem('preferredLanguage', newLanguage);
+    // Use requestAnimationFrame to ensure smooth transition
+    requestAnimationFrame(() => {
+      setLanguage(newLanguage);
+      localStorage.setItem('preferredLanguage', newLanguage);
+    });
   }, [language]);
   
   const t = useCallback((key: string): string => {
+    // Try cache first for instant lookup
+    const cacheKey = `${language}:${key}`;
+    const cachedValue = translationCache.get(cacheKey);
+    
+    if (cachedValue) {
+      return cachedValue;
+    }
+
+    // Fallback to original method if not in cache
     const keys = key.split('.');
     let current: any = translations[language];
     
@@ -38,6 +82,13 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
         current = current[k];
       } else {
         // Fallback to French if translation not found
+        const fallbackCacheKey = `fr:${key}`;
+        const fallbackCached = translationCache.get(fallbackCacheKey);
+        
+        if (fallbackCached) {
+          return fallbackCached;
+        }
+
         let fallback: any = translations.fr;
         for (const fallbackKey of keys) {
           if (fallback && typeof fallback === 'object' && fallbackKey in fallback) {
@@ -50,19 +101,25 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
       }
     }
     
-    return typeof current === 'string' ? current : key;
+    const result = typeof current === 'string' ? current : key;
+    
+    // Cache the result for future use
+    translationCache.set(cacheKey, result);
+    
+    return result;
   }, [language]);
 
-  const value = useMemo(() => ({
+  // Stable context value to prevent unnecessary re-renders
+  const contextValue = useMemo(() => ({
     language,
     setLanguage,
     changeLanguage,
     isLoading,
     t
-  }), [language, changeLanguage, isLoading, t]);
+  }), [language, changeLanguage, t]);
 
   return (
-    <TranslationContext.Provider value={value}>
+    <TranslationContext.Provider value={contextValue}>
       {children}
     </TranslationContext.Provider>
   );
