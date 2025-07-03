@@ -267,4 +267,22 @@ All colors MUST be HSL.
   .tilt-card:hover {
     transform: perspective(1000px) rotateX(2deg) rotateY(2deg);
   }
+
+  /* Scrolling Background Animation */
+  @keyframes scrollBackground {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .animate-scroll-bg {
+    animation: scrollBackground 30s linear infinite;
+  }
+
+  /* Fade In Out Text Animation */
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    10%, 90% { opacity: 1; }
+  }
+  .animate-fade-in-out {
+    animation: fadeInOut 5s infinite;
+  }
 }

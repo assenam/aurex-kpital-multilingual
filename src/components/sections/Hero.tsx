@@ -3,44 +3,38 @@ import { Card } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
 import { ArrowDown, Sparkles, TrendingUp } from 'lucide-react';
 import { useParallax } from '@/hooks/useScrollAnimation';
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
+import { useState, useEffect } from 'react';
 
 const Hero = () => {
   const offsetY = useParallax();
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+
+  const texts = [
+    "Lancez votre projet avec Aurex K-pital",
+    "Obtenez un financement sans apport",
+    "Investissez dès aujourd'hui dans votre avenir"
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentTextIndex((prev) => (prev + 1) % texts.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [texts.length]);
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden pt-20">
-      {/* Background Carousel - Full Screen */}
-      <Carousel className="absolute inset-0 w-full h-full" opts={{ loop: true }}>
-        <CarouselContent className="h-screen w-full">
-          <CarouselItem className="w-full h-full p-0 basis-full">
-            <img 
-              src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1920&h=1080" 
-              alt="Conseil financier professionnel" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-hero/80"></div>
-          </CarouselItem>
-          <CarouselItem className="w-full h-full p-0 basis-full">
-            <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1920&h=1080" 
-              alt="Excellence en financement" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-hero/80"></div>
-          </CarouselItem>
-          <CarouselItem className="w-full h-full p-0 basis-full">
-            <img 
-              src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1920&h=1080" 
-              alt="Innovation et technologie financière" 
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-hero/80"></div>
-          </CarouselItem>
-        </CarouselContent>
-        <CarouselPrevious className="absolute left-4 top-1/2 z-30 bg-white/10 border-white/20 text-white hover:bg-white/20" />
-        <CarouselNext className="absolute right-4 top-1/2 z-30 bg-white/10 border-white/20 text-white hover:bg-white/20" />
-      </Carousel>
+      {/* Moving Background Image */}
+      <div className="absolute inset-0 w-full h-full">
+        <div 
+          className="absolute w-[200%] h-full bg-cover bg-center animate-scroll-bg"
+          style={{
+            backgroundImage: `url('/lovable-uploads/1c67119d-ec8e-4012-9732-890e885d44a1.png')`
+          }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-hero/80"></div>
+      </div>
 
       {/* Content Layer */}
       <div className="relative z-20 min-h-screen flex items-center justify-center">
@@ -59,27 +53,15 @@ const Hero = () => {
           <div className="max-w-5xl mx-auto text-center">
             {/* Main Content with Enhanced Animations */}
             <div className="space-y-8">
+              {/* Carousel Text */}
               <div 
-                className="scroll-fade-in"
-                data-scroll-id="hero-title"
+                className="scroll-fade-in relative z-10"
+                data-scroll-id="hero-carousel-text"
                 style={{ transform: `translateY(${offsetY * 0.2}px)` }}
               >
-                <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-primary-foreground mb-6 leading-tight">
-                  Votre partenaire 
-                  <span className="gradient-text block"> financier </span>
-                  <span className="text-gold animate-glow">de confiance</span>
+                <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in-out">
+                  {texts[currentTextIndex]}
                 </h1>
-              </div>
-              
-              <div 
-                className="scroll-slide-right"
-                data-scroll-id="hero-subtitle"
-                style={{ transform: `translateY(${offsetY * 0.15}px)` }}
-              >
-                <p className="text-xl md:text-2xl lg:text-3xl text-primary-foreground/90 mb-8 leading-relaxed max-w-4xl mx-auto">
-                  Depuis 1997, Aurex K-pital révolutionne l'accompagnement financier avec 
-                  <span className="text-gold font-semibold"> innovation et excellence</span>
-                </p>
               </div>
 
               {/* Enhanced CTA Buttons */}
