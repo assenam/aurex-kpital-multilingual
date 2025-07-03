@@ -13,49 +13,53 @@ const Services = () => {
 
   const services = useMemo(() => [
     {
-      title: t('home.services.personalLoans.title'),
-      description: t('home.services.personalLoans.description'),
+      title: t('services.personalLoan.title'),
+      description: t('services.personalLoan.description'),
       features: [
-        t('home.services.personalLoans.feature1'),
-        t('home.services.personalLoans.feature2'), 
-        t('home.services.personalLoans.feature3')
+        t('services.personalLoan.points.0'),
+        t('services.personalLoan.points.1'), 
+        t('services.personalLoan.points.2')
       ],
+      cta: t('services.personalLoan.cta'),
       icon: Gem,
       gradient: "from-blue-500 to-purple-600",
       bgColor: "bg-gradient-to-br from-blue-50 to-purple-50"
     },
     {
-      title: t('home.services.businessFinancing.title'), 
-      description: t('home.services.businessFinancing.description'),
+      title: t('services.businessLoan.title'), 
+      description: t('services.businessLoan.description'),
       features: [
-        t('home.services.businessFinancing.feature1'),
-        t('home.services.businessFinancing.feature2'),
-        t('home.services.businessFinancing.feature3')
+        t('services.businessLoan.points.0'),
+        t('services.businessLoan.points.1'),
+        t('services.businessLoan.points.2')
       ],
+      cta: t('services.businessLoan.cta'),
       icon: Building2,
       gradient: "from-emerald-500 to-teal-600",
       bgColor: "bg-gradient-to-br from-emerald-50 to-teal-50"
     },
     {
-      title: t('home.services.smartInvestments.title'),
-      description: t('home.services.smartInvestments.description'),
+      title: t('services.investment.title'),
+      description: t('services.investment.description'),
       features: [
-        t('home.services.smartInvestments.feature1'),
-        t('home.services.smartInvestments.feature2'),
-        t('home.services.smartInvestments.feature3')
+        t('services.investment.points.0'),
+        t('services.investment.points.1'),
+        t('services.investment.points.2')
       ],
+      cta: t('services.investment.cta'),
       icon: TrendingUp,
       gradient: "from-amber-500 to-orange-600",
       bgColor: "bg-gradient-to-br from-amber-50 to-orange-50"
     },
     {
-      title: t('home.services.insurance360.title'),
-      description: t('home.services.insurance360.description'),
+      title: t('services.insurance.title'),
+      description: t('services.insurance.description'),
       features: [
-        t('home.services.insurance360.feature1'),
-        t('home.services.insurance360.feature2'),
-        t('home.services.insurance360.feature3')
+        t('services.insurance.points.0'),
+        t('services.insurance.points.1'),
+        t('services.insurance.points.2')
       ],
+      cta: t('services.insurance.cta'),
       icon: Shield,
       gradient: "from-rose-500 to-pink-600",
       bgColor: "bg-gradient-to-br from-rose-50 to-pink-50"
@@ -160,7 +164,7 @@ const Services = () => {
                     asChild
                   >
                     <Link to="/services">
-                      {t('home.services.discoverBtn')} 
+                      {service.cta}
                     </Link>
                   </Button>
                 </CardContent>
@@ -181,7 +185,7 @@ const Services = () => {
           >
             <Link to="/services" className="flex items-center gap-2">
               <Target className="h-5 w-5" />
-              {t('home.services.exploreBtn')}
+              {t('services.explore')}
             </Link>
           </Button>
         </div>
