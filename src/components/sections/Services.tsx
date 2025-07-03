@@ -4,40 +4,42 @@ import { Link } from 'react-router-dom';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { useState } from 'react';
 import { Gem, Building2, TrendingUp, Shield, Sparkles, Target } from 'lucide-react';
+import { useTranslationLogic } from '@/hooks/useTranslation';
 
 const Services = () => {
   const { visibleElements } = useScrollAnimation();
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  const { t } = useTranslationLogic();
 
   const services = [
     {
-      title: "Prêts Personnels",
-      description: "Solutions de financement ultra-personnalisées avec des conditions révolutionnaires.",
-      features: ["IA pour taux optimal", "Réponse en 2h", "Flexibilité maximale"],
+      title: t('home.services.personalLoans.title'),
+      description: t('home.services.personalLoans.description'),
+      features: t('home.services.personalLoans.features'),
       icon: Gem,
       gradient: "from-blue-500 to-purple-600",
       bgColor: "bg-gradient-to-br from-blue-50 to-purple-50"
     },
     {
-      title: "Financements Pro", 
-      description: "Propulsez votre entreprise vers l'excellence avec nos solutions innovantes.",
-      features: ["Financement express", "Accompagnement expert", "Solutions sur mesure"],
+      title: t('home.services.businessFinancing.title'), 
+      description: t('home.services.businessFinancing.description'),
+      features: t('home.services.businessFinancing.features'),
       icon: Building2,
       gradient: "from-emerald-500 to-teal-600",
       bgColor: "bg-gradient-to-br from-emerald-50 to-teal-50"
     },
     {
-      title: "Investissements Smart",
-      description: "Optimisation patrimoniale avec intelligence artificielle et expertise humaine.",
-      features: ["Portfolio intelligent", "Conseils premium", "Rendement optimisé"],
+      title: t('home.services.smartInvestments.title'),
+      description: t('home.services.smartInvestments.description'),
+      features: t('home.services.smartInvestments.features'),
       icon: TrendingUp,
       gradient: "from-amber-500 to-orange-600",
       bgColor: "bg-gradient-to-br from-amber-50 to-orange-50"
     },
     {
-      title: "Assurances 360°",
-      description: "Protection totale et innovative pour tous vos projets de vie et business.",
-      features: ["Couverture complète", "Claims en 24h", "Support premium"],
+      title: t('home.services.insurance360.title'),
+      description: t('home.services.insurance360.description'),
+      features: t('home.services.insurance360.features'),
       icon: Shield,
       gradient: "from-rose-500 to-pink-600",
       bgColor: "bg-gradient-to-br from-rose-50 to-pink-50"
@@ -63,16 +65,16 @@ const Services = () => {
           <div className="inline-block mb-4">
             <span className="px-6 py-2 bg-gradient-gold rounded-full text-primary font-semibold text-sm tracking-wide uppercase flex items-center gap-2 justify-center">
               <Sparkles className="h-4 w-4" />
-              Innovation Financière
+              {t('home.services.badge')}
             </span>
           </div>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight">
-            Services 
-            <span className="gradient-text block">Nouvelle Génération</span>
+            {t('home.services.title')} 
+            <span className="gradient-text block">{t('home.services.subtitle')}</span>
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            L'avenir de la finance est ici. Découvrez nos solutions révolutionnaires 
-            <span className="text-accent font-semibold"> alimentées par l'IA</span> et l'expertise humaine.
+            {t('home.services.description')} 
+            <span className="text-accent font-semibold"> {t('home.services.description2')}</span> {t('home.services.description3')}
           </p>
         </div>
 
@@ -142,7 +144,7 @@ const Services = () => {
                     asChild
                   >
                     <Link to="/services">
-                      Découvrir → 
+                      {t('home.services.discoverBtn')} 
                     </Link>
                   </Button>
                 </CardContent>
@@ -163,7 +165,7 @@ const Services = () => {
           >
             <Link to="/services" className="flex items-center gap-2">
               <Target className="h-5 w-5" />
-              Explorer tous nos services
+              {t('home.services.exploreBtn')}
             </Link>
           </Button>
         </div>
