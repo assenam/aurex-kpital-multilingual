@@ -88,13 +88,14 @@ const Services = () => {
               onMouseLeave={() => setHoveredCard(null)}
             >
               <Card className={`
-                hover-lift tilt-card h-full transition-all duration-500 border-0 overflow-hidden
+                hover-lift tilt-card h-full transition-all duration-500 border overflow-hidden
                 ${hoveredCard === index ? 'scale-105 shadow-hover z-10' : ''}
-                ${service.bgColor}
+                bg-background/95 backdrop-blur-sm shadow-elegant
+                border-border/50 hover:border-primary/20
               `}>
                 {/* Card Glow Effect */}
                 <div className={`
-                  absolute inset-0 bg-gradient-to-r ${service.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500
+                  absolute inset-0 bg-gradient-to-r ${service.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-500
                 `}></div>
                 
                 {/* Shimmer Effect */}
@@ -107,15 +108,12 @@ const Services = () => {
                     mb-6 transition-all duration-500 transform flex justify-center
                     ${hoveredCard === index ? 'scale-125 rotate-12' : ''}
                   `}>
-                    <service.icon className="h-16 w-16 text-primary" />
+                    <service.icon className="h-16 w-16 text-primary group-hover:text-accent transition-colors duration-300" />
                   </div>
-                  <CardTitle className={`
-                    text-2xl font-bold mb-3 transition-all duration-300
-                    bg-gradient-to-r ${service.gradient} bg-clip-text text-transparent
-                  `}>
+                  <CardTitle className="text-2xl font-bold mb-3 text-primary group-hover:text-accent transition-colors duration-300">
                     {service.title}
                   </CardTitle>
-                  <CardDescription className="text-foreground/80 text-base leading-relaxed">
+                  <CardDescription className="text-muted-foreground text-base leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardHeader>

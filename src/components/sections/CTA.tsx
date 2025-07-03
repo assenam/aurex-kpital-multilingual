@@ -9,15 +9,15 @@ const CTA = () => {
       <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <Card className="bg-background/10 backdrop-blur border-primary-foreground/20 max-w-4xl mx-auto">
+        <Card className="bg-background/95 backdrop-blur-lg border-primary-foreground/30 max-w-4xl mx-auto shadow-elegant">
           <CardContent className="p-8 md:p-12 text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6">
               Prêt à concrétiser 
-              <span className="bg-gradient-gold bg-clip-text text-transparent"> vos projets </span>
+              <span className="gradient-text"> vos projets </span>
               ?
             </h2>
             
-            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
               Nos experts sont à votre disposition pour étudier votre situation 
               et vous proposer les meilleures solutions de financement.
             </p>
@@ -34,7 +34,7 @@ const CTA = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 text-lg backdrop-blur"
+                className="border-primary/30 text-primary hover:bg-primary/10 px-8 py-4 text-lg backdrop-blur"
                 asChild
               >
                 <Link to="/simulateur">Simuler un prêt</Link>
@@ -43,7 +43,7 @@ const CTA = () => {
               <Button 
                 size="lg" 
                 variant="ghost" 
-                className="text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 text-lg"
+                className="text-primary hover:bg-primary/10 px-8 py-4 text-lg"
                 asChild
               >
                 <Link to="/contact">Nous contacter</Link>
@@ -51,12 +51,12 @@ const CTA = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="mt-8 pt-8 border-t border-primary-foreground/20">
-              <p className="text-primary-foreground/80 mb-2">
-                <strong>Téléphone :</strong> +49 40 710 97523
+            <div className="mt-8 pt-8 border-t border-primary/20">
+              <p className="text-muted-foreground mb-2">
+                <strong className="text-primary">Téléphone :</strong> +49 40 710 97523
               </p>
-              <p className="text-primary-foreground/80">
-                <strong>Adresse :</strong> Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne
+              <p className="text-muted-foreground">
+                <strong className="text-primary">Adresse :</strong> Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne
               </p>
             </div>
           </CardContent>
