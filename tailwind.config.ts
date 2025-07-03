@@ -124,7 +124,13 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-gold': 'var(--gradient-gold)',
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-glass': 'var(--gradient-glass)'
+				'gradient-glass': 'var(--gradient-glass)',
+				'gradient-soft-blue': 'var(--gradient-soft-blue)',
+				'gradient-soft-gold': 'var(--gradient-soft-gold)',
+				'gradient-soft-gray': 'var(--gradient-soft-gray)',
+				'gradient-premium-dark': 'var(--gradient-premium-dark)',
+				'gradient-elegant': 'var(--gradient-elegant)',
+				'gradient-section': 'var(--gradient-section)'
 			},
 			boxShadow: {
 				'elegant': 'var(--shadow-elegant)',

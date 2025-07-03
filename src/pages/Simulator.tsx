@@ -79,8 +79,10 @@ const Simulator = () => {
       
       {/* Hero Section */}
       <section className="relative min-h-[60vh] pt-20 pb-16 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-primary"></div>
-        <div className="absolute inset-0 grid-pattern opacity-10"></div>
+        <div className="absolute inset-0 bg-gradient-premium-dark"></div>
+        <div className="absolute inset-0 grid-pattern opacity-15"></div>
+        <div className="absolute top-10 left-10 w-32 h-32 bg-gold/20 rounded-full blur-2xl float"></div>
+        <div className="absolute bottom-10 right-10 w-40 h-40 bg-gold/15 rounded-full blur-3xl float" style={{ animationDelay: '1.5s' }}></div>
         
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
@@ -105,8 +107,9 @@ const Simulator = () => {
       </section>
 
       {/* Simulator */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-soft-gray relative overflow-hidden">
+        <div className="absolute inset-0 grid-pattern opacity-5"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Configuration */}
             <div className="lg:col-span-2">
@@ -309,8 +312,10 @@ const Simulator = () => {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-secondary/30">
-        <div className="container mx-auto px-4 text-center">
+      <section className="py-20 bg-gradient-elegant relative overflow-hidden">
+        <div className="absolute top-20 right-10 w-32 h-32 bg-gold/10 rounded-full blur-2xl float"></div>
+        <div className="absolute bottom-20 left-10 w-40 h-40 bg-primary/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
+        <div className="container mx-auto px-4 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               Prêt à concrétiser votre projet ?

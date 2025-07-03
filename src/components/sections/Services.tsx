@@ -45,10 +45,10 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-32 relative overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 via-background to-muted/20"></div>
-      <div className="absolute top-0 left-0 w-full h-full grid-pattern opacity-5"></div>
+    <section className="py-32 relative overflow-hidden bg-gradient-section">
+      {/* Enhanced Animated Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 via-muted/10 to-gold/5"></div>
+      <div className="absolute top-0 left-0 w-full h-full grid-pattern opacity-10"></div>
       
       {/* Floating Elements */}
       <div className="absolute top-20 right-10 w-40 h-40 bg-gold/10 rounded-full blur-2xl float"></div>
@@ -76,8 +76,8 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Enhanced Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+      {/* Enhanced Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 relative z-10">
           {services.map((service, index) => (
             <div
               key={service.title}

@@ -153,8 +153,11 @@ const About = () => {
       </section>
 
       {/* Story */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-soft-blue relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20">
+          <div className="grid-pattern"></div>
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
@@ -229,8 +232,10 @@ const About = () => {
       </section>
 
       {/* Values */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-elegant relative">
+        <div className="absolute top-0 left-0 w-40 h-40 bg-gold/10 rounded-full blur-3xl float"></div>
+        <div className="absolute bottom-0 right-0 w-32 h-32 bg-primary/15 rounded-full blur-2xl float" style={{ animationDelay: '2s' }}></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               Nos Valeurs
@@ -303,8 +308,9 @@ const About = () => {
       </section>
 
       {/* Certifications */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-soft-gray relative overflow-hidden">
+        <div className="absolute inset-0 grid-pattern opacity-5"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               Certifications & Accréditations

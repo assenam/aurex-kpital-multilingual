@@ -16,12 +16,13 @@ const AboutPreview = () => {
   ];
 
   return (
-    <section className="py-32 relative overflow-hidden">
-      {/* Parallax Background Effects */}
+    <section className="py-32 relative overflow-hidden bg-gradient-elegant">
+      {/* Enhanced Parallax Background Effects */}
       <div 
-        className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-secondary/10"
+        className="absolute inset-0 bg-gradient-to-br from-primary/8 via-gold/5 to-secondary/15"
         style={{ transform: `translateY(${offsetY * 0.3}px)` }}
       ></div>
+      <div className="absolute inset-0 grid-pattern opacity-10"></div>
       
       {/* Floating Elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 bg-gold/20 rounded-full blur-xl float" style={{ animationDelay: '0.5s' }}></div>

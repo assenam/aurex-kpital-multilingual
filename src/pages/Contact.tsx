@@ -152,8 +152,10 @@ const Contact = () => {
       </section>
 
       {/* Contact Methods */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-soft-gold relative overflow-hidden">
+        <div className="absolute top-10 right-10 w-32 h-32 bg-gold/15 rounded-full blur-2xl float"></div>
+        <div className="absolute bottom-10 left-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl float" style={{ animationDelay: '1.5s' }}></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               Comment Nous Joindre
@@ -413,8 +415,9 @@ const Contact = () => {
       </section>
 
       {/* Map & Address */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-elegant relative overflow-hidden">
+        <div className="absolute inset-0 grid-pattern opacity-5"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               Nous Localiser
