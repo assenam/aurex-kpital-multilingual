@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom';
 import { ArrowDown, Sparkles, TrendingUp } from 'lucide-react';
 import { useParallax } from '@/hooks/useScrollAnimation';
 import { useState, useEffect } from 'react';
+import { useTranslationLogic } from '@/hooks/useTranslation';
 
 const Hero = () => {
+  const { t } = useTranslationLogic();
   const offsetY = useParallax();
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
@@ -76,7 +78,7 @@ const Hero = () => {
                 >
                   <Link to="/simulateur" className="flex items-center gap-2">
                     <Sparkles className="h-5 w-5" />
-                    Simuler mon prêt
+                    {t('home.hero.simulateBtn')}
                   </Link>
                 </Button>
                 
@@ -87,7 +89,7 @@ const Hero = () => {
                 >
                   <Link to="/demande" className="flex items-center gap-2">
                     <TrendingUp className="h-5 w-5" />
-                    Demander un prêt
+                    {t('home.hero.ctaBtn')}
                   </Link>
                 </Button>
               </div>

@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
+import { useTranslationLogic } from '@/hooks/useTranslation';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -20,14 +21,20 @@ const languages = [
 ];
 
 export const LanguageSelector = () => {
-  const [currentLang, setCurrentLang] = useState(languages[0]);
+  const { language, setLanguage } = useTranslationLogic();
+  const [currentLang, setCurrentLang] = useState(() => {
+    return languages.find(lang => lang.code === language) || languages[0];
+  });
 
-  const handleLanguageChange = (language: typeof languages[0]) => {
-    setCurrentLang(language);
-    // Store language preference
-    localStorage.setItem('preferredLanguage', language.code);
-    // Trigger page refresh to apply translation
-    window.location.reload();
+  useEffect(() => {
+    const newLang = languages.find(lang => lang.code === language) || languages[0];
+    setCurrentLang(newLang);
+  }, [language]);
+
+  const handleLanguageChange = (selectedLanguage: typeof languages[0]) => {
+    setCurrentLang(selectedLanguage);
+    setLanguage(selectedLanguage.code as any);
+    localStorage.setItem('preferredLanguage', selectedLanguage.code);
   };
 
   return (

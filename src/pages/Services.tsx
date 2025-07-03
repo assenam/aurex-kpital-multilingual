@@ -176,10 +176,10 @@ const Services = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Nos Services Phares
+              {t('services.main.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Une gamme complète de solutions financières adaptées à chaque situation
+              {t('services.main.subtitle')}
             </p>
           </div>
 
@@ -246,10 +246,10 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Produits Spécialisés
+              {t('services.specialized.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Solutions ciblées pour des besoins spécifiques
+              {t('services.specialized.subtitle')}
             </p>
           </div>
 

@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom';
 import PartnersCarousel from '@/components/sections/PartnersCarousel';
+import { useTranslationLogic } from '@/hooks/useTranslation';
 
 const Footer = () => {
+  const { t } = useTranslationLogic();
   const footerSections = [
     {
-      title: "Services",
+      title: t('footer.services'),
       links: [
         { name: "Prêts personnels", href: "/services#prets" },
         { name: "Financements pro", href: "/services#pro" },
@@ -13,7 +15,7 @@ const Footer = () => {
       ]
     },
     {
-      title: "Outils",
+      title: t('footer.tools'),
       links: [
         { name: "Simulateur de prêt", href: "/simulateur" },
         { name: "Demande de financement", href: "/demande" },
@@ -22,7 +24,7 @@ const Footer = () => {
       ]
     },
     {
-      title: "Entreprise",
+      title: t('footer.company'),
       links: [
         { name: "À propos", href: "/a-propos" },
         { name: "Nos partenaires", href: "/partenaires" },
@@ -31,7 +33,7 @@ const Footer = () => {
       ]
     },
     {
-      title: "Légal",
+      title: t('footer.legal'),
       links: [
         { name: "Mentions légales", href: "/mentions-legales" },
         { name: "Politique de confidentialité", href: "/mentions-legales#privacy" },
@@ -60,8 +62,7 @@ const Footer = () => {
               </div>
               
               <p className="text-primary-foreground/80 mb-6 leading-relaxed">
-                Depuis 1997, Aurex K-pital accompagne particuliers et entreprises 
-                dans leurs projets financiers avec expertise et confiance.
+                {t('footer.description')}
               </p>
               
               <div className="space-y-2 text-sm text-primary-foreground/70">
@@ -101,12 +102,12 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/60 text-sm">
-              © 2024 Aurex K-pital. Tous droits réservés.
+              {t('footer.copyright')}
             </p>
             
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
               <p className="text-primary-foreground/60 text-xs">
-                Établissement financier agréé - Allemagne
+                {t('footer.establishment')}
               </p>
             </div>
           </div>
