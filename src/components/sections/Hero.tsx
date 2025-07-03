@@ -3,22 +3,63 @@ import { Card } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
 import { ArrowDown, Sparkles, TrendingUp } from 'lucide-react';
 import { useParallax } from '@/hooks/useScrollAnimation';
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel';
 
 const Hero = () => {
   const offsetY = useParallax();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden pt-20">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      {/* Background Carousel */}
+      <div className="absolute inset-0 z-0">
+        <Carousel className="w-full h-full" opts={{ loop: true }}>
+          <CarouselContent className="w-full h-full -ml-0">
+            <CarouselItem className="pl-0 w-full h-full">
+              <div className="relative w-full h-full">
+                <img 
+                  src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=1920&h=1080" 
+                  alt="Innovation financière" 
+                  className="w-full h-full object-cover opacity-20"
+                />
+                <div className="absolute inset-0 bg-gradient-hero/60"></div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="pl-0 w-full h-full">
+              <div className="relative w-full h-full">
+                <img 
+                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1920&h=1080" 
+                  alt="Excellence technologique" 
+                  className="w-full h-full object-cover opacity-20"
+                />
+                <div className="absolute inset-0 bg-gradient-hero/60"></div>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="pl-0 w-full h-full">
+              <div className="relative w-full h-full">
+                <img 
+                  src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&h=1080" 
+                  alt="Accompagnement personnalisé" 
+                  className="w-full h-full object-cover opacity-20"
+                />
+                <div className="absolute inset-0 bg-gradient-hero/60"></div>
+              </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious className="absolute left-4 top-1/2 z-20 bg-white/10 border-white/20 text-white hover:bg-white/20" />
+          <CarouselNext className="absolute right-4 top-1/2 z-20 bg-white/10 border-white/20 text-white hover:bg-white/20" />
+        </Carousel>
+      </div>
+
       {/* Animated Background Elements */}
       <div 
-        className="absolute inset-0 grid-pattern opacity-10"
+        className="absolute inset-0 grid-pattern opacity-10 z-5"
         style={{ transform: `translateY(${offsetY * 0.5}px)` }}
       ></div>
       
       {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-32 h-32 bg-gold/10 rounded-full blur-xl float"></div>
-      <div className="absolute bottom-32 right-20 w-24 h-24 bg-primary/20 rounded-full blur-lg float" style={{ animationDelay: '1s' }}></div>
-      <div className="absolute top-1/2 right-10 w-16 h-16 bg-accent/30 rounded-full blur-md float" style={{ animationDelay: '2s' }}></div>
+      <div className="absolute top-20 left-10 w-32 h-32 bg-gold/10 rounded-full blur-xl float z-5"></div>
+      <div className="absolute bottom-32 right-20 w-24 h-24 bg-primary/20 rounded-full blur-lg float z-5" style={{ animationDelay: '1s' }}></div>
+      <div className="absolute top-1/2 right-10 w-16 h-16 bg-accent/30 rounded-full blur-md float z-5" style={{ animationDelay: '2s' }}></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
