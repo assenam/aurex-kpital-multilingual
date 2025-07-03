@@ -406,15 +406,37 @@ const translations = {
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
       }
     },
-    footer: {
-      description: "Seit 1997 begleitet Aurex K-pital Privatpersonen und Unternehmen bei ihren Finanzprojekten mit Expertise und Vertrauen.",
-      services: "Dienstleistungen",
-      tools: "Tools",
-      company: "Unternehmen", 
-      legal: "Rechtliches",
-      copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
-      establishment: "Zugelassenes Finanzinstitut - Deutschland"
-    },
+    // Menu structure  
+    'menu.home': 'Startseite',
+    'menu.services': 'Dienstleistungen',
+    'menu.simulator': 'Simulator',
+    'menu.request': 'Anfrage',
+    'menu.about': 'Über uns',
+    'menu.contact': 'Kontakt',
+    'menu.faq': 'FAQ',
+    'menu.careers': 'Karriere',
+    'menu.partners': 'Unsere Partner',
+    'menu.blog': 'Blog',
+    // Footer structure
+    'footer.tools': 'Tools',
+    'footer.company': 'Unternehmen', 
+    'footer.legal': 'Rechtliches',
+    'footer.privacyPolicy': 'Datenschutzrichtlinie',
+    'footer.terms': 'AGB',
+    'footer.mentions': 'Impressum',
+    'footer.gdpr': 'DSGVO',
+    'footer.rights': '© 2024 Aurex K-pital. Alle Rechte vorbehalten.',
+    // About structure
+    'about.title': 'Wer sind wir?',
+    'about.description': 'Aurex K-pital ist ein europäisches Finanzinstitut, das sich auf maßgeschneiderte Kredit-, Investment- und Versicherungslösungen spezialisiert hat. Wir kombinieren KI und menschliche Expertise für außergewöhnliche Kundenerfahrungen.',
+    // FAQ structure
+    'faq.title': 'Häufig gestellte Fragen',
+    'faq.questions.0.q': 'Welche Arten von Krediten bieten Sie an?',
+    'faq.questions.0.a': 'Wir bieten Personal-, Geschäfts- und Immobilienkredite, alle auf Ihre spezifischen Bedürfnisse zugeschnitten.',
+    'faq.questions.1.q': 'Kann ich vorzeitig zurückzahlen?',
+    'faq.questions.1.a': 'Ja, Sie können Ihren Kredit jederzeit ohne Strafgebühren vorzeitig zurückzahlen.',
+    'faq.questions.2.q': 'Wie funktioniert der Kreditsimulator?',
+    'faq.questions.2.a': 'Sie geben Betrag, Laufzeit und Kreditart ein. Sie erhalten sofort eine unverbindliche Schätzung.',
     // Services structure with dot notation for German
     'services.personalLoan.title': 'Persönliche Darlehen',
     'services.personalLoan.description': 'Ultra-personalisierte Finanzierungslösungen mit revolutionären Bedingungen.',
