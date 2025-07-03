@@ -124,6 +124,14 @@ const translations = {
             subtitle: "Impact transformateur"
           }
         }
+      },
+      services: {
+        badge: "Services",
+        title: "Solutions",
+        subtitle: "Innovantes",
+        description: "Découvrez nos solutions financières",
+        description2: "révolutionnaires",
+        description3: "pour vos projets"
       }
     },
     services: {
