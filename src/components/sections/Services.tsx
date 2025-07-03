@@ -2,7 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { Gem, Building2, TrendingUp, Shield, Sparkles, Target } from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
@@ -11,7 +11,7 @@ const Services = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const { t } = useTranslation();
 
-  const services = [
+  const services = useMemo(() => [
     {
       title: t('home.services.personalLoans.title'),
       description: t('home.services.personalLoans.description'),
@@ -60,7 +60,7 @@ const Services = () => {
       gradient: "from-rose-500 to-pink-600",
       bgColor: "bg-gradient-to-br from-rose-50 to-pink-50"
     }
-  ];
+  ], [t]);
 
   return (
     <section className="py-32 relative overflow-hidden bg-gradient-section">
