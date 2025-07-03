@@ -21,6 +21,7 @@ const Request = () => {
     firstName: '',
     lastName: '',
     email: '',
+    emailConfirmation: '',
     phone: '',
     birthDate: '',
     nationality: '',
@@ -63,6 +64,13 @@ const Request = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    
+    // Vérification que les emails correspondent
+    if (formData.email !== formData.emailConfirmation) {
+      alert('Les adresses email ne correspondent pas. Veuillez vérifier.');
+      return;
+    }
+    
     // Ici on traiterait la soumission du formulaire
     alert('Votre demande a été envoyée avec succès ! Nous vous contacterons sous 24h.');
   };
@@ -199,7 +207,7 @@ const Request = () => {
                       </div>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 gap-4">
                       <div>
                         <Label htmlFor="email">Email *</Label>
                         <Input
@@ -210,6 +218,35 @@ const Request = () => {
                           required
                         />
                       </div>
+                      <div>
+                        <Label htmlFor="emailConfirmation">Confirmation email *</Label>
+                        <Input
+                          id="emailConfirmation"
+                          type="email"
+                          value={formData.emailConfirmation}
+                          onChange={(e) => updateFormData('emailConfirmation', e.target.value)}
+                          onPaste={(e) => e.preventDefault()}
+                          onDrop={(e) => e.preventDefault()}
+                          onDragOver={(e) => e.preventDefault()}
+                          placeholder="Retapez votre email pour confirmation"
+                          required
+                        />
+                        {formData.email && formData.emailConfirmation && formData.email !== formData.emailConfirmation && (
+                          <p className="text-sm text-red-600 mt-1 flex items-center gap-1">
+                            <AlertCircle className="h-4 w-4" />
+                            Les adresses email ne correspondent pas
+                          </p>
+                        )}
+                        {formData.email && formData.emailConfirmation && formData.email === formData.emailConfirmation && (
+                          <p className="text-sm text-green-600 mt-1 flex items-center gap-1">
+                            <CheckCircle className="h-4 w-4" />
+                            Adresses email confirmées
+                          </p>
+                        )}
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
                         <Label htmlFor="phone">Téléphone *</Label>
                         <Input
@@ -568,7 +605,7 @@ const Request = () => {
                     <Button 
                       type="submit" 
                       className="w-full bg-gradient-primary hover:shadow-lg text-lg py-4"
-                      disabled={!formData.acceptsTerms}
+                      disabled={!formData.acceptsTerms || (formData.email !== formData.emailConfirmation)}
                     >
                       <Sparkles className="h-5 w-5 mr-2" />
                       Envoyer ma demande
