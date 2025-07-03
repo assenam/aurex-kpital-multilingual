@@ -15,24 +15,24 @@ const Hero = () => {
         <CarouselContent className="h-screen w-full">
           <CarouselItem className="w-full h-full p-0 basis-full">
             <img 
-              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=1920&h=1080" 
-              alt="Innovation financière" 
+              src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1920&h=1080" 
+              alt="Conseil financier professionnel" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-hero/80"></div>
           </CarouselItem>
           <CarouselItem className="w-full h-full p-0 basis-full">
             <img 
-              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1920&h=1080" 
-              alt="Excellence technologique" 
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1920&h=1080" 
+              alt="Excellence en financement" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-hero/80"></div>
           </CarouselItem>
           <CarouselItem className="w-full h-full p-0 basis-full">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&h=1080" 
-              alt="Accompagnement personnalisé" 
+              src="https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&w=1920&h=1080" 
+              alt="Innovation et technologie financière" 
               className="w-full h-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-hero/80"></div>
