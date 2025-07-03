@@ -2,16 +2,17 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { useScrollAnimation, useParallax } from '@/hooks/useScrollAnimation';
+import { Calendar, Globe, FileText, Shield, Trophy, Target, MessageCircle } from 'lucide-react';
 
 const AboutPreview = () => {
   const { visibleElements } = useScrollAnimation();
   const offsetY = useParallax();
 
   const stats = [
-    { value: "1997", label: "Fondée avec vision", icon: "🏛️", gradient: "from-blue-500 to-indigo-600" },
-    { value: "Hamburg", label: "Cœur de l'Europe", icon: "🌍", gradient: "from-emerald-500 to-teal-600" },
-    { value: "HRB 80635", label: "Excellence certifiée", icon: "📋", gradient: "from-purple-500 to-violet-600" },
-    { value: "DE00976259", label: "Sécurité garantie", icon: "🛡️", gradient: "from-amber-500 to-orange-600" }
+    { value: "1997", label: "Fondée avec vision", icon: Calendar, gradient: "from-blue-500 to-indigo-600" },
+    { value: "Hamburg", label: "Cœur de l'Europe", icon: Globe, gradient: "from-emerald-500 to-teal-600" },
+    { value: "HRB 80635", label: "Excellence certifiée", icon: FileText, gradient: "from-purple-500 to-violet-600" },
+    { value: "DE00976259", label: "Sécurité garantie", icon: Shield, gradient: "from-amber-500 to-orange-600" }
   ];
 
   return (
@@ -35,8 +36,9 @@ const AboutPreview = () => {
             style={{ transform: `translateY(${offsetY * 0.1}px)` }}
           >
             <div className="inline-block mb-6">
-              <span className="px-6 py-3 glass-card text-primary font-semibold text-sm tracking-wide uppercase rounded-full">
-                🚀 Pionniers depuis 25 ans
+              <span className="px-6 py-3 glass-card text-primary font-semibold text-sm tracking-wide uppercase rounded-full flex items-center gap-2">
+                <Target className="h-4 w-4" />
+                Pionniers depuis 25 ans
               </span>
             </div>
 
@@ -67,8 +69,9 @@ const AboutPreview = () => {
                 className="btn-magnetic hover-glow bg-gradient-primary hover:shadow-hover text-white font-bold px-8 py-4 text-lg transition-all duration-500 hover:scale-105 rounded-xl"
                 asChild
               >
-                <Link to="/a-propos">
-                  🎯 Notre Histoire
+                <Link to="/a-propos" className="flex items-center gap-2">
+                  <Target className="h-5 w-5" />
+                  Notre Histoire
                 </Link>
               </Button>
               
@@ -77,8 +80,9 @@ const AboutPreview = () => {
                 className="glass-card hover-lift text-primary border-primary/20 font-semibold px-8 py-4 text-lg rounded-xl"
                 asChild
               >
-                <Link to="/contact">
-                  💬 Parlons Projet
+                <Link to="/contact" className="flex items-center gap-2">
+                  <MessageCircle className="h-5 w-5" />
+                  Parlons Projet
                 </Link>
               </Button>
             </div>
@@ -106,8 +110,8 @@ const AboutPreview = () => {
                   `}></div>
                   
                   <CardContent className="p-0 relative z-10">
-                    <div className="text-4xl mb-4 group-hover:animate-glow transition-all duration-300">
-                      {stat.icon}
+                    <div className="mb-4 group-hover:animate-glow transition-all duration-300 flex justify-center">
+                      <stat.icon className="h-10 w-10 text-primary" />
                     </div>
                     <div className={`
                       text-2xl md:text-3xl font-bold mb-3 transition-all duration-300
@@ -125,7 +129,9 @@ const AboutPreview = () => {
 
             {/* Additional Trust Element */}
             <div className="mt-8 p-6 glass-card rounded-2xl text-center">
-              <div className="text-3xl mb-3">🏆</div>
+              <div className="mb-3 flex justify-center">
+                <Trophy className="h-8 w-8 text-gold" />
+              </div>
               <div className="text-lg font-semibold text-primary mb-2">
                 Leader Européen Certifié
               </div>

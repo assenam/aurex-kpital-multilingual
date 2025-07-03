@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { useState } from 'react';
+import { Gem, Building2, TrendingUp, Shield, Sparkles, Target } from 'lucide-react';
 
 const Services = () => {
   const { visibleElements } = useScrollAnimation();
@@ -13,7 +14,7 @@ const Services = () => {
       title: "Prêts Personnels",
       description: "Solutions de financement ultra-personnalisées avec des conditions révolutionnaires.",
       features: ["IA pour taux optimal", "Réponse en 2h", "Flexibilité maximale"],
-      icon: "💎",
+      icon: Gem,
       gradient: "from-blue-500 to-purple-600",
       bgColor: "bg-gradient-to-br from-blue-50 to-purple-50"
     },
@@ -21,7 +22,7 @@ const Services = () => {
       title: "Financements Pro", 
       description: "Propulsez votre entreprise vers l'excellence avec nos solutions innovantes.",
       features: ["Financement express", "Accompagnement expert", "Solutions sur mesure"],
-      icon: "🚀",
+      icon: Building2,
       gradient: "from-emerald-500 to-teal-600",
       bgColor: "bg-gradient-to-br from-emerald-50 to-teal-50"
     },
@@ -29,7 +30,7 @@ const Services = () => {
       title: "Investissements Smart",
       description: "Optimisation patrimoniale avec intelligence artificielle et expertise humaine.",
       features: ["Portfolio intelligent", "Conseils premium", "Rendement optimisé"],
-      icon: "📊",
+      icon: TrendingUp,
       gradient: "from-amber-500 to-orange-600",
       bgColor: "bg-gradient-to-br from-amber-50 to-orange-50"
     },
@@ -37,7 +38,7 @@ const Services = () => {
       title: "Assurances 360°",
       description: "Protection totale et innovative pour tous vos projets de vie et business.",
       features: ["Couverture complète", "Claims en 24h", "Support premium"],
-      icon: "🛡️",
+      icon: Shield,
       gradient: "from-rose-500 to-pink-600",
       bgColor: "bg-gradient-to-br from-rose-50 to-pink-50"
     }
@@ -60,8 +61,9 @@ const Services = () => {
           data-scroll-id="services-header"
         >
           <div className="inline-block mb-4">
-            <span className="px-6 py-2 bg-gradient-gold rounded-full text-primary font-semibold text-sm tracking-wide uppercase">
-              ✨ Innovation Financière
+            <span className="px-6 py-2 bg-gradient-gold rounded-full text-primary font-semibold text-sm tracking-wide uppercase flex items-center gap-2 justify-center">
+              <Sparkles className="h-4 w-4" />
+              Innovation Financière
             </span>
           </div>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight">
@@ -102,10 +104,10 @@ const Services = () => {
 
                 <CardHeader className="text-center pb-4 relative z-10">
                   <div className={`
-                    text-6xl mb-6 transition-all duration-500 transform
+                    mb-6 transition-all duration-500 transform flex justify-center
                     ${hoveredCard === index ? 'scale-125 rotate-12' : ''}
                   `}>
-                    {service.icon}
+                    <service.icon className="h-16 w-16 text-primary" />
                   </div>
                   <CardTitle className={`
                     text-2xl font-bold mb-3 transition-all duration-300
@@ -159,8 +161,9 @@ const Services = () => {
             className="btn-magnetic hover-glow bg-gradient-primary hover:shadow-hover text-white font-bold px-12 py-6 text-xl transition-all duration-500 hover:scale-110 rounded-2xl"
             asChild
           >
-            <Link to="/services">
-              🎯 Explorer tous nos services
+            <Link to="/services" className="flex items-center gap-2">
+              <Target className="h-5 w-5" />
+              Explorer tous nos services
             </Link>
           </Button>
         </div>

@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
-import { ArrowDown } from 'lucide-react';
+import { ArrowDown, Sparkles, TrendingUp } from 'lucide-react';
 import { useParallax } from '@/hooks/useScrollAnimation';
 
 const Hero = () => {
@@ -57,8 +57,9 @@ const Hero = () => {
                 className="btn-magnetic hover-glow bg-gradient-gold hover:shadow-gold text-primary font-bold px-10 py-6 text-xl transition-all duration-500 hover:scale-110 rounded-2xl"
                 asChild
               >
-                <Link to="/simulateur">
-                  ✨ Simuler mon prêt
+                <Link to="/simulateur" className="flex items-center gap-2">
+                  <Sparkles className="h-5 w-5" />
+                  Simuler mon prêt
                 </Link>
               </Button>
               
@@ -67,8 +68,9 @@ const Hero = () => {
                 className="glass-card hover-lift text-primary-foreground font-semibold px-10 py-6 text-xl rounded-2xl border-2 border-primary-foreground/30"
                 asChild
               >
-                <Link to="/services">
-                  🚀 Découvrir l'innovation
+                <Link to="/services" className="flex items-center gap-2">
+                  <TrendingUp className="h-5 w-5" />
+                  Découvrir l'innovation
                 </Link>
               </Button>
             </div>
