@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import PartnersCarousel from '@/components/sections/PartnersCarousel';
-import { useTranslationLogic } from '@/hooks/useTranslation';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Footer = () => {
-  const { t } = useTranslationLogic();
+  const { t } = useTranslation();
   const footerSections = [
     {
       title: t('footer.services'),

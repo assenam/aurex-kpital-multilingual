@@ -5,6 +5,7 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, ChevronDown } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
 import { useTranslation } from '@/contexts/TranslationContext';
+import { useMemo } from 'react';
 
 const Header = () => {
   const { t } = useTranslation();
@@ -20,12 +21,12 @@ const Header = () => {
   }, []);
 
   const navigation = [
-    { name: t('nav.home'), href: '/' },
-    { name: t('nav.services'), href: '/services' },
-    { name: t('nav.simulator'), href: '/simulateur' },
-    { name: t('nav.about'), href: '/a-propos' },
-    { name: t('nav.blog'), href: '/blog' },
-    { name: t('nav.contact'), href: '/contact' }
+    { name: t('menu.home'), href: '/' },
+    { name: t('menu.services'), href: '/services' },
+    { name: t('menu.simulator'), href: '/simulateur' },
+    { name: t('menu.about'), href: '/a-propos' },
+    { name: t('menu.blog'), href: '/blog' },
+    { name: t('menu.contact'), href: '/contact' }
   ];
 
   return (
@@ -72,7 +73,7 @@ const Header = () => {
               className="hidden sm:inline-flex bg-gradient-primary hover:shadow-elegant transition-all duration-300"
               asChild
             >
-              <Link to="/demande">{t('nav.quickRequest')}</Link>
+              <Link to="/demande">{t('menu.request')}</Link>
             </Button>
 
             {/* Mobile menu */}
@@ -106,7 +107,7 @@ const Header = () => {
                       asChild
                     >
                       <Link to="/demande" onClick={() => setIsOpen(false)}>
-                        {t('nav.quickRequest')}
+                        {t('menu.request')}
                       </Link>
                     </Button>
                   </div>
