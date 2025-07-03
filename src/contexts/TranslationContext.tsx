@@ -81,7 +81,27 @@ const translations = {
         subtitle: "depuis 1997",
         description: "Excellence, innovation et confiance pour tous vos projets financiers",
         ctaBtn: "Découvrir nos solutions",
-        simulateBtn: "Simuler un prêt"
+        simulateBtn: "Simuler un prêt",
+        carousel: {
+          text1: "Lancez votre projet avec Aurex K-pital",
+          text2: "Obtenez un financement sans apport",
+          text3: "Investissez dès aujourd'hui dans votre avenir"
+        },
+        stats: {
+          experience: {
+            title: "Années d'excellence",
+            subtitle: "Innovation continue"
+          },
+          clients: {
+            title: "Clients conquis",
+            subtitle: "Satisfaction garantie"
+          },
+          funding: {
+            title: "Financements réalisés",
+            subtitle: "Impact transformateur"
+          }
+        },
+        scrollText: "Découvrir"
       },
       services: {
         badge: "Innovation Financière",
@@ -126,22 +146,31 @@ const translations = {
         title: "Un quart de siècle",
         subtitle: "d'innovation",
         subtitle2: "financière",
-        description: "Depuis Hamburg 1997",
-        description2: "Aurex K-pital révolutionne l'accompagnement financier en combinant",
-        description3: "expertise traditionnelle",
-        description4: "technologies de pointe",
-        description5: "Notre approche unique allie intelligence artificielle, analyses prédictives et conseil humain personnalisé pour des solutions qui transforment",
-        description6: "réellement vos projets",
-        description7: "en succès.",
-        ourStoryBtn: "Notre Histoire",
-        talkProjectBtn: "Parlons Projet",
+        description1: {
+          highlight: "Depuis Hamburg 1997",
+          text: ", Aurex K-pital révolutionne l'accompagnement financier en combinant ",
+          expertise: "expertise traditionnelle",
+          and: " et ",
+          technology: "technologies de pointe"
+        },
+        description2: {
+          text: "Notre approche unique allie intelligence artificielle, analyses prédictives et conseil humain personnalisé pour des solutions qui transforment ",
+          highlight: "réellement vos projets",
+          success: " en succès"
+        },
+        buttons: {
+          history: "Notre Histoire",
+          contact: "Parlons Projet"
+        },
         stats: {
           founded: "Fondée avec vision",
           location: "Cœur de l'Europe",
           certified: "Excellence certifiée",
-          security: "Sécurité garantie",
-          leader: "Leader Européen Certifié",
-          excellence: "Excellence reconnue en financement innovant"
+          security: "Sécurité garantie"
+        },
+        trust: {
+          title: "Leader Européen Certifié",
+          description: "Excellence reconnue en financement innovant"
         }
       },
       cta: {
@@ -219,7 +248,27 @@ const translations = {
         subtitle: "seit 1997",
         description: "Exzellenz, Innovation und Vertrauen für all Ihre Finanzprojekte",
         ctaBtn: "Unsere Lösungen entdecken",
-        simulateBtn: "Kredit simulieren"
+        simulateBtn: "Kredit simulieren",
+        carousel: {
+          text1: "Starten Sie Ihr Projekt mit Aurex K-pital",
+          text2: "Erhalten Sie Finanzierung ohne Eigenkapital",
+          text3: "Investieren Sie heute in Ihre Zukunft"
+        },
+        stats: {
+          experience: {
+            title: "Jahre der Exzellenz",
+            subtitle: "Kontinuierliche Innovation"
+          },
+          clients: {
+            title: "Zufriedene Kunden",
+            subtitle: "Garantierte Zufriedenheit"
+          },
+          funding: {
+            title: "Realisierte Finanzierungen",
+            subtitle: "Transformative Wirkung"
+          }
+        },
+        scrollText: "Entdecken"
       },
       services: {
         badge: "Finanzinnovation",
@@ -357,7 +406,27 @@ const translations = {
         subtitle: "od 1997 roku",
         description: "Doskonałość, innowacja i zaufanie dla wszystkich Twoich projektów finansowych",
         ctaBtn: "Odkryj nasze rozwiązania",
-        simulateBtn: "Symuluj kredyt"
+        simulateBtn: "Symuluj kredyt",
+        carousel: {
+          text1: "Uruchom swój projekt z Aurex K-pital",
+          text2: "Uzyskaj finansowanie bez wkładu własnego",
+          text3: "Inwestuj już dziś w swoją przyszłość"
+        },
+        stats: {
+          experience: {
+            title: "Lata doskonałości",
+            subtitle: "Ciągła innowacja"
+          },
+          clients: {
+            title: "Zadowoleni klienci",
+            subtitle: "Gwarantowana satysfakcja"
+          },
+          funding: {
+            title: "Zrealizowane finansowania",
+            subtitle: "Transformacyjny wpływ"
+          }
+        },
+        scrollText: "Odkryj"
       },
       services: {
         badge: "Innowacje finansowe",
@@ -495,7 +564,27 @@ const translations = {
         subtitle: "vuodesta 1997",
         description: "Huippuosaamista, innovaatiota ja luottamusta kaikille rahoitusprojekteillesi",
         ctaBtn: "Tutustu ratkaisuihimme",
-        simulateBtn: "Simuloi lainaa"
+        simulateBtn: "Simuloi lainaa",
+        carousel: {
+          text1: "Käynnistä projektisi Aurex K-pipalin kanssa",
+          text2: "Hanki rahoitusta ilman omaa panosta",
+          text3: "Sijoita tänään tulevaisuuteesi"
+        },
+        stats: {
+          experience: {
+            title: "Vuosia huippuosaamista",
+            subtitle: "Jatkuva innovaatio"
+          },
+          clients: {
+            title: "Tyytyväisiä asiakkaita",
+            subtitle: "Taattu tyytyväisyys"
+          },
+          funding: {
+            title: "Toteutettuja rahoituksia",
+            subtitle: "Muokkaava vaikutus"
+          }
+        },
+        scrollText: "Tutustu"
       },
       services: {
         badge: "Rahoitusinnovaatio",
@@ -633,7 +722,27 @@ const translations = {
         subtitle: "desde 1997",
         description: "Excelencia, innovación y confianza para todos tus proyectos financieros",
         ctaBtn: "Descubre nuestras soluciones",
-        simulateBtn: "Simular préstamo"
+        simulateBtn: "Simular préstamo",
+        carousel: {
+          text1: "Lanza tu proyecto con Aurex K-pital",
+          text2: "Obtén financiación sin aporte",
+          text3: "Invierte hoy en tu futuro"
+        },
+        stats: {
+          experience: {
+            title: "Años de excelencia",
+            subtitle: "Innovación continua"
+          },
+          clients: {
+            title: "Clientes satisfechos",
+            subtitle: "Satisfacción garantizada"
+          },
+          funding: {
+            title: "Financiaciones realizadas",
+            subtitle: "Impacto transformador"
+          }
+        },
+        scrollText: "Descubrir"
       },
       services: {
         badge: "Innovación Financiera",
@@ -771,7 +880,27 @@ const translations = {
         subtitle: "desde 1997",
         description: "Excelência, inovação e confiança para todos os seus projetos financeiros",
         ctaBtn: "Descubra nossas soluções",
-        simulateBtn: "Simular empréstimo"
+        simulateBtn: "Simular empréstimo",
+        carousel: {
+          text1: "Lance seu projeto com Aurex K-pital",
+          text2: "Obtenha financiamento sem aporte",
+          text3: "Invista hoje em seu futuro"
+        },
+        stats: {
+          experience: {
+            title: "Anos de excelência",
+            subtitle: "Inovação contínua"
+          },
+          clients: {
+            title: "Clientes satisfeitos",
+            subtitle: "Satisfação garantida"
+          },
+          funding: {
+            title: "Financiamentos realizados",
+            subtitle: "Impacto transformador"
+          }
+        },
+        scrollText: "Descobrir"
       },
       services: {
         badge: "Inovação Financeira",
@@ -909,7 +1038,27 @@ const translations = {
         subtitle: "από το 1997",
         description: "Αριστεία, καινοτομία και εμπιστοσύνη για όλα τα χρηματοοικονομικά σας έργα",
         ctaBtn: "Ανακαλύψτε τις λύσεις μας",
-        simulateBtn: "Προσομοιώστε δάνειο"
+        simulateBtn: "Προσομοιώστε δάνειο",
+        carousel: {
+          text1: "Ξεκινήστε το έργο σας με την Aurex K-pital",
+          text2: "Αποκτήστε χρηματοδότηση χωρίς ίδια κεφάλαια",
+          text3: "Επενδύστε σήμερα στο μέλλον σας"
+        },
+        stats: {
+          experience: {
+            title: "Χρόνια αριστείας",
+            subtitle: "Συνεχής καινοτομία"
+          },
+          clients: {
+            title: "Ικανοποιημένοι πελάτες",
+            subtitle: "Εγγυημένη ικανοποίηση"
+          },
+          funding: {
+            title: "Πραγματοποιημένες χρηματοδοτήσεις",
+            subtitle: "Μετασχηματιστικός αντίκτυπος"
+          }
+        },
+        scrollText: "Ανακαλύψτε"
       },
       services: {
         badge: "Χρηματοοικονομική Καινοτομία",
@@ -1047,7 +1196,27 @@ const translations = {
         subtitle: "dal 1997",
         description: "Eccellenza, innovazione e fiducia per tutti i tuoi progetti finanziari",
         ctaBtn: "Scopri le nostre soluzioni",
-        simulateBtn: "Simula prestito"
+        simulateBtn: "Simula prestito",
+        carousel: {
+          text1: "Lancia il tuo progetto con Aurex K-pital",
+          text2: "Ottieni finanziamenti senza contributo",
+          text3: "Investi oggi nel tuo futuro"
+        },
+        stats: {
+          experience: {
+            title: "Anni di eccellenza",
+            subtitle: "Innovazione continua"
+          },
+          clients: {
+            title: "Clienti soddisfatti",
+            subtitle: "Soddisfazione garantita"
+          },
+          funding: {
+            title: "Finanziamenti realizzati",
+            subtitle: "Impatto trasformativo"
+          }
+        },
+        scrollText: "Scopri"
       },
       services: {
         badge: "Innovazione Finanziaria",
