@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import PartnersCarousel from '@/components/sections/PartnersCarousel';
 
 const Footer = () => {
   const footerSections = [
@@ -41,7 +42,9 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <>
+      <PartnersCarousel />
+      <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-16">
@@ -110,6 +113,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
+    </>
   );
 };
 
