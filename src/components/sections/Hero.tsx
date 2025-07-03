@@ -9,39 +9,33 @@ const Hero = () => {
   const offsetY = useParallax();
 
   return (
-    <section className="relative min-h-screen overflow-hidden pt-20">
-      {/* Background Carousel - Full Width */}
+    <section className="relative min-h-screen w-full overflow-hidden pt-20">
+      {/* Background Carousel - Full Screen */}
       <Carousel className="absolute inset-0 w-full h-full" opts={{ loop: true }}>
-        <CarouselContent className="h-full">
-          <CarouselItem className="w-full h-full">
-            <div className="relative w-full h-full">
-              <img 
-                src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=1920&h=1080" 
-                alt="Innovation financière" 
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-hero/80"></div>
-            </div>
+        <CarouselContent className="h-screen w-full">
+          <CarouselItem className="w-full h-full p-0 basis-full">
+            <img 
+              src="https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=1920&h=1080" 
+              alt="Innovation financière" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-hero/80"></div>
           </CarouselItem>
-          <CarouselItem className="w-full h-full">
-            <div className="relative w-full h-full">
-              <img 
-                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1920&h=1080" 
-                alt="Excellence technologique" 
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-hero/80"></div>
-            </div>
+          <CarouselItem className="w-full h-full p-0 basis-full">
+            <img 
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=1920&h=1080" 
+              alt="Excellence technologique" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-hero/80"></div>
           </CarouselItem>
-          <CarouselItem className="w-full h-full">
-            <div className="relative w-full h-full">
-              <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&h=1080" 
-                alt="Accompagnement personnalisé" 
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-hero/80"></div>
-            </div>
+          <CarouselItem className="w-full h-full p-0 basis-full">
+            <img 
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&h=1080" 
+              alt="Accompagnement personnalisé" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-hero/80"></div>
           </CarouselItem>
         </CarouselContent>
         <CarouselPrevious className="absolute left-4 top-1/2 z-30 bg-white/10 border-white/20 text-white hover:bg-white/20" />
