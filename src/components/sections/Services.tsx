@@ -2,11 +2,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { useState, useMemo } from 'react';
+import { useState, memo } from 'react';
 import { Gem, Building2, TrendingUp, Shield, Sparkles, Target } from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
-const Services = () => {
+const Services = memo(() => {
   const { visibleElements } = useScrollAnimation();
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const { t } = useTranslation();
@@ -192,6 +192,8 @@ const Services = () => {
       </div>
     </section>
   );
-};
+});
+
+Services.displayName = 'Services';
 
 export default Services;
