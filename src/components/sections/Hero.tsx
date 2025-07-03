@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 import { ArrowDown, Sparkles, TrendingUp } from 'lucide-react';
 import { useParallax } from '@/hooks/useScrollAnimation';
 import { useState, useEffect } from 'react';
-import { useTranslationLogic } from '@/hooks/useTranslation';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Hero = () => {
-  const { t } = useTranslationLogic();
+  const { t } = useTranslation();
   const offsetY = useParallax();
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
   const texts = [
-    "Lancez votre projet avec Aurex K-pital",
-    "Obtenez un financement sans apport",
-    "Investissez dès aujourd'hui dans votre avenir"
+    t('home.hero.carousel.text1'),
+    t('home.hero.carousel.text2'),
+    t('home.hero.carousel.text3')
   ];
 
   useEffect(() => {
@@ -102,20 +102,20 @@ const Hero = () => {
               >
                 <Card className="glass-card hover-lift tilt-card p-8 text-center group cursor-pointer">
                   <div className="text-5xl font-bold gradient-text mb-3 group-hover:animate-glow transition-all duration-300">25+</div>
-                  <div className="text-primary-foreground/90 text-lg font-medium">Années d'excellence</div>
-                  <div className="text-primary-foreground/60 text-sm mt-2">Innovation continue</div>
+                  <div className="text-primary-foreground/90 text-lg font-medium">{t('home.hero.stats.experience.title')}</div>
+                  <div className="text-primary-foreground/60 text-sm mt-2">{t('home.hero.stats.experience.subtitle')}</div>
                 </Card>
                 
                 <Card className="glass-card hover-lift tilt-card p-8 text-center group cursor-pointer">
                   <div className="text-5xl font-bold gradient-text mb-3 group-hover:animate-glow transition-all duration-300">50K+</div>
-                  <div className="text-primary-foreground/90 text-lg font-medium">Clients conquis</div>
-                  <div className="text-primary-foreground/60 text-sm mt-2">Satisfaction garantie</div>
+                  <div className="text-primary-foreground/90 text-lg font-medium">{t('home.hero.stats.clients.title')}</div>
+                  <div className="text-primary-foreground/60 text-sm mt-2">{t('home.hero.stats.clients.subtitle')}</div>
                 </Card>
                 
                 <Card className="glass-card hover-lift tilt-card p-8 text-center group cursor-pointer">
                   <div className="text-5xl font-bold gradient-text mb-3 group-hover:animate-glow transition-all duration-300">€5B+</div>
-                  <div className="text-primary-foreground/90 text-lg font-medium">Financements réalisés</div>
-                  <div className="text-primary-foreground/60 text-sm mt-2">Impact transformateur</div>
+                  <div className="text-primary-foreground/90 text-lg font-medium">{t('home.hero.stats.funding.title')}</div>
+                  <div className="text-primary-foreground/60 text-sm mt-2">{t('home.hero.stats.funding.subtitle')}</div>
                 </Card>
               </div>
             </div>
@@ -124,7 +124,7 @@ const Hero = () => {
             <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
               <div className="animate-bounce hover:animate-glow transition-all duration-300 cursor-pointer">
                 <ArrowDown className="h-8 w-8 text-gold opacity-80 hover:opacity-100" />
-                <div className="text-primary-foreground/60 text-sm mt-2 font-medium">Découvrir</div>
+                <div className="text-primary-foreground/60 text-sm mt-2 font-medium">{t('home.hero.scrollText')}</div>
               </div>
             </div>
           </div>
