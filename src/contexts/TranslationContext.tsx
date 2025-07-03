@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, ReactNode, useMemo, useCallback } from 'react';
 
 export type Language = 'fr' | 'de' | 'pl' | 'fi' | 'es' | 'pt' | 'el' | 'it';
 
@@ -22,14 +22,14 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
   });
   const [isLoading] = useState(false);
 
-  const changeLanguage = (newLanguage: Language) => {
+  const changeLanguage = useCallback((newLanguage: Language) => {
     if (newLanguage === language) return;
     
     setLanguage(newLanguage);
     localStorage.setItem('preferredLanguage', newLanguage);
-  };
+  }, [language]);
   
-  const t = (key: string): string => {
+  const t = useCallback((key: string): string => {
     const keys = key.split('.');
     let current: any = translations[language];
     
@@ -51,10 +51,18 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
     }
     
     return typeof current === 'string' ? current : key;
-  };
+  }, [language]);
+
+  const value = useMemo(() => ({
+    language,
+    setLanguage,
+    changeLanguage,
+    isLoading,
+    t
+  }), [language, changeLanguage, isLoading, t]);
 
   return (
-    <TranslationContext.Provider value={{ language, setLanguage, changeLanguage, isLoading, t }}>
+    <TranslationContext.Provider value={value}>
       {children}
     </TranslationContext.Provider>
   );
