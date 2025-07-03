@@ -21,7 +21,7 @@ const languages = [
 ];
 
 export const LanguageSelector = () => {
-  const { language, setLanguage } = useTranslationLogic();
+  const { language, changeLanguage } = useTranslationLogic();
   const [currentLang, setCurrentLang] = useState(() => {
     return languages.find(lang => lang.code === language) || languages[0];
   });
@@ -33,8 +33,7 @@ export const LanguageSelector = () => {
 
   const handleLanguageChange = (selectedLanguage: typeof languages[0]) => {
     setCurrentLang(selectedLanguage);
-    setLanguage(selectedLanguage.code as any);
-    localStorage.setItem('preferredLanguage', selectedLanguage.code);
+    changeLanguage(selectedLanguage.code as any);
   };
 
   return (

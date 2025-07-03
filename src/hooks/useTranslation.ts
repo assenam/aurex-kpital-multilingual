@@ -6,6 +6,17 @@ export const useTranslationLogic = () => {
   const [language, setLanguage] = useState<Language>(() => {
     return (localStorage.getItem('preferredLanguage') as Language) || 'fr';
   });
+  const [isLoading, setIsLoading] = useState(false);
+
+  const changeLanguage = (newLanguage: Language) => {
+    setIsLoading(true);
+    // Simulation du temps de chargement pour l'animation
+    setTimeout(() => {
+      setLanguage(newLanguage);
+      localStorage.setItem('preferredLanguage', newLanguage);
+      setIsLoading(false);
+    }, 1500);
+  };
   
   const t = (key: string): string => {
     const keys = key.split('.');
@@ -22,7 +33,7 @@ export const useTranslationLogic = () => {
     return typeof current === 'string' ? current : key;
   };
 
-  return { language, setLanguage, t };
+  return { language, setLanguage, changeLanguage, isLoading, t };
 };
 
 const translations = {
