@@ -8,7 +8,7 @@ const Hero = () => {
   const offsetY = useParallax();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden pt-20">
       {/* Animated Background Elements */}
       <div 
         className="absolute inset-0 grid-pattern opacity-10"
