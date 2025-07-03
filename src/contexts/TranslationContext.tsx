@@ -527,16 +527,6 @@ const translations = {
     'services.insurance.cta': 'Entdecken',
     'services.explore': 'Alle Services erkunden'
   },
-  pl: {
-    nav: {
-      home: "Strona główna",
-      services: "Usługi",
-      simulator: "Symulator",
-      about: "O nas",
-      blog: "Blog",
-      contact: "Kontakt",
-      quickRequest: "Szybka prośba"
-    },
     home: {
       hero: {
         title: "Twój Partner Finansowy",
@@ -841,6 +831,57 @@ const translations = {
       legal: "Oikeudellinen",
       copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
       establishment: "Lisensoitu rahoituslaitos - Saksa"
+    }
+  },
+  pl: {
+    menu: {
+      home: "Strona główna",
+      services: "Usługi",
+      simulator: "Symulator",
+      request: "Wniosek",
+      about: "O nas",
+      contact: "Kontakt",
+      faq: "FAQ",
+      careers: "Kariera",
+      partners: "Partnerzy",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Narzędzia",
+      company: "Firma",
+      legal: "Informacje prawne",
+      privacyPolicy: "Polityka prywatności",
+      terms: "Regulamin",
+      mentions: "Informacje prawne",
+      gdpr: "RODO",
+      rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone."
+    },
+    services: {
+      personalLoan: {
+        title: "Kredyty osobiste",
+        description: "Spersonalizowane rozwiązania finansowe z rewolucyjnymi warunkami.",
+        points: ["Sztuczna inteligencja do optymalnych stawek", "Odpowiedź w 2 godziny", "Maksymalna elastyczność"],
+        cta: "Odkryj"
+      },
+      businessLoan: {
+        title: "Finansowanie biznesu", 
+        description: "Rozwiń firmę dzięki naszym innowacyjnym rozwiązaniom.",
+        points: ["Ekspresowe finansowanie", "Wsparcie ekspertów", "Rozwiązania szyte na miarę"],
+        cta: "Odkryj"
+      },
+      investment: {
+        title: "Inteligentne inwestycje",
+        description: "Optymalizacja majątku z wykorzystaniem AI i wiedzy eksperckiej.",
+        points: ["Inteligentne portfolio", "Konsultacje premium", "Zoptymalizowany zwrot"],
+        cta: "Odkryj"
+      },
+      insurance: {
+        title: "Ubezpieczenia 360°",
+        description: "Pełna ochrona dla Twojego życia i biznesu.",
+        points: ["Pełna ochrona", "Reklamacje w 24h", "Wsparcie premium"],
+        cta: "Odkryj"
+      },
+      explore: "Poznaj wszystkie nasze usługi"
     }
   },
   es: {
@@ -1717,6 +1758,73 @@ const translations = {
       legal: "Legale",
       copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
       establishment: "Istituto finanziario autorizzato - Germania"
+    }
+  },
+  pl: {
+    menu: {
+      home: "Strona główna",
+      services: "Usługi",
+      simulator: "Symulator",
+      request: "Wniosek",
+      about: "O nas",
+      contact: "Kontakt",
+      faq: "FAQ",
+      careers: "Kariera",
+      partners: "Partnerzy",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Narzędzia",
+      company: "Firma",
+      legal: "Informacje prawne",
+      privacyPolicy: "Polityka prywatności",
+      terms: "Regulamin",
+      mentions: "Informacje prawne",
+      gdpr: "RODO",
+      rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone."
+    },
+    services: {
+      personalLoan: {
+        title: "Kredyty osobiste",
+        description: "Spersonalizowane rozwiązania finansowe z rewolucyjnymi warunkami.",
+        points: [
+          "Sztuczna inteligencja do optymalnych stawek",
+          "Odpowiedź w 2 godziny",
+          "Maksymalna elastyczność"
+        ],
+        cta: "Odkryj"
+      },
+      businessLoan: {
+        title: "Finansowanie biznesu",
+        description: "Rozwiń firmę dzięki naszym innowacyjnym rozwiązaniom.",
+        points: [
+          "Ekspresowe finansowanie",
+          "Wsparcie ekspertów",
+          "Rozwiązania szyte na miarę"
+        ],
+        cta: "Odkryj"
+      },
+      investment: {
+        title: "Inteligentne inwestycje",
+        description: "Optymalizacja majątku z wykorzystaniem AI i wiedzy eksperckiej.",
+        points: [
+          "Inteligentne portfolio",
+          "Konsultacje premium",
+          "Zoptymalizowany zwrot"
+        ],
+        cta: "Odkryj"
+      },
+      insurance: {
+        title: "Ubezpieczenia 360°",
+        description: "Pełna ochrona dla Twojego życia i biznesu.",
+        points: [
+          "Pełna ochrona",
+          "Reklamacje w 24h",
+          "Wsparcie premium"
+        ],
+        cta: "Odkryj"
+      },
+      explore: "Poznaj wszystkie nasze usługi"
     }
   }
 };
