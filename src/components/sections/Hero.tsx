@@ -85,9 +85,9 @@ const Hero = () => {
                   className="glass-card hover-lift text-primary-foreground font-semibold px-10 py-6 text-xl rounded-2xl border-2 border-primary-foreground/30"
                   asChild
                 >
-                  <Link to="/services" className="flex items-center gap-2">
+                  <Link to="/demande" className="flex items-center gap-2">
                     <TrendingUp className="h-5 w-5" />
-                    Découvrir l'innovation
+                    Demander un prêt
                   </Link>
                 </Button>
               </div>
