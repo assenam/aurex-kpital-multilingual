@@ -11,13 +11,15 @@ export const LoadingOverlay = ({ isVisible, onComplete }: LoadingOverlayProps) =
   useEffect(() => {
     if (isVisible) {
       setIsAnimating(true);
-      // Animation complète après 300ms
+      // Animation très courte
       const timer = setTimeout(() => {
         setIsAnimating(false);
         onComplete?.();
-      }, 300);
+      }, 200);
       
       return () => clearTimeout(timer);
+    } else {
+      setIsAnimating(false);
     }
   }, [isVisible, onComplete]);
 
@@ -47,12 +49,7 @@ export const LoadingOverlay = ({ isVisible, onComplete }: LoadingOverlayProps) =
         
         {/* Barre de progression */}
         <div className="w-48 h-1 bg-muted rounded-full overflow-hidden">
-          <div 
-            className="h-full bg-gradient-gold animate-shimmer rounded-full"
-            style={{
-              animation: 'shimmer 0.3s ease-in-out'
-            }}
-          />
+          <div className="h-full bg-gradient-gold rounded-full animate-pulse" />
         </div>
         
         {/* Texte de chargement */}

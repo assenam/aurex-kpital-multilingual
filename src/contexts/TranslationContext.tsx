@@ -23,13 +23,17 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
   const [isLoading, setIsLoading] = useState(false);
 
   const changeLanguage = (newLanguage: Language) => {
+    if (newLanguage === language) return; // Évite les changements inutiles
+    
     setIsLoading(true);
-    // Animation courte pour le changement de langue
+    // Changement immédiat de la langue avec animation courte
+    setLanguage(newLanguage);
+    localStorage.setItem('preferredLanguage', newLanguage);
+    
+    // Animation courte juste pour le feedback visuel
     setTimeout(() => {
-      setLanguage(newLanguage);
-      localStorage.setItem('preferredLanguage', newLanguage);
       setIsLoading(false);
-    }, 300); // Réduit de 1500ms à 300ms
+    }, 200);
   };
   
   const t = (key: string): string => {
