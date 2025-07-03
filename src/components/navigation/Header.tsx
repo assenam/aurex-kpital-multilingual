@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -7,18 +7,33 @@ import { LanguageSelector } from './LanguageSelector';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 50);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navigation = [
     { name: 'Accueil', href: '/' },
-    { name: 'Nos Services', href: '/services' },
+    { name: 'Services', href: '/services' },
     { name: 'Simulateur', href: '/simulateur' },
-    { name: 'Demande de Financement', href: '/demande' },
+    { name: 'Demande', href: '/demande' },
     { name: 'À Propos', href: '/a-propos' },
     { name: 'Contact', href: '/contact' }
   ];
 
   return (
-    <header className="bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b border-border/40">
+    <header className={`
+      sticky top-0 z-50 w-full transition-all duration-500
+      ${isScrolled 
+        ? 'glass-card shadow-elegant backdrop-blur-md' 
+        : 'bg-transparent'
+      }
+    `}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}

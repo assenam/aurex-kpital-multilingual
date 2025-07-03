@@ -1,92 +1,167 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import { useState } from 'react';
 
 const Services = () => {
+  const { visibleElements } = useScrollAnimation();
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+
   const services = [
     {
       title: "Prêts Personnels",
-      description: "Solutions de financement adaptées à vos besoins personnels avec des conditions privilégiées.",
-      features: ["Taux préférentiels", "Étude personnalisée", "Réponse rapide"],
-      icon: "💰"
+      description: "Solutions de financement ultra-personnalisées avec des conditions révolutionnaires.",
+      features: ["IA pour taux optimal", "Réponse en 2h", "Flexibilité maximale"],
+      icon: "💎",
+      gradient: "from-blue-500 to-purple-600",
+      bgColor: "bg-gradient-to-br from-blue-50 to-purple-50"
     },
     {
-      title: "Financements Professionnels", 
-      description: "Accompagnement des entreprises dans leurs projets de développement et d'investissement.",
-      features: ["Crédit professionnel", "Leasing", "Affacturage"],
-      icon: "🏢"
+      title: "Financements Pro", 
+      description: "Propulsez votre entreprise vers l'excellence avec nos solutions innovantes.",
+      features: ["Financement express", "Accompagnement expert", "Solutions sur mesure"],
+      icon: "🚀",
+      gradient: "from-emerald-500 to-teal-600",
+      bgColor: "bg-gradient-to-br from-emerald-50 to-teal-50"
     },
     {
-      title: "Investissements",
-      description: "Conseils en placement et gestion de patrimoine pour optimiser vos investissements.",
-      features: ["Gestion de portefeuille", "Conseils patrimoniaux", "Placements diversifiés"],
-      icon: "📈"
+      title: "Investissements Smart",
+      description: "Optimisation patrimoniale avec intelligence artificielle et expertise humaine.",
+      features: ["Portfolio intelligent", "Conseils premium", "Rendement optimisé"],
+      icon: "📊",
+      gradient: "from-amber-500 to-orange-600",
+      bgColor: "bg-gradient-to-br from-amber-50 to-orange-50"
     },
     {
-      title: "Assurances",
-      description: "Couvertures complètes pour protéger vos biens, votre famille et votre activité.",
-      features: ["Assurance vie", "Assurance entreprise", "Protection juridique"],
-      icon: "🛡️"
+      title: "Assurances 360°",
+      description: "Protection totale et innovative pour tous vos projets de vie et business.",
+      features: ["Couverture complète", "Claims en 24h", "Support premium"],
+      icon: "🛡️",
+      gradient: "from-rose-500 to-pink-600",
+      bgColor: "bg-gradient-to-br from-rose-50 to-pink-50"
     }
   ];
 
   return (
-    <section className="py-20 bg-secondary/30">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 animate-slide-up">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
-            Nos Services Premium
+    <section className="py-32 relative overflow-hidden">
+      {/* Animated Background */}
+      <div className="absolute inset-0 bg-gradient-to-br from-secondary/30 via-background to-muted/20"></div>
+      <div className="absolute top-0 left-0 w-full h-full grid-pattern opacity-5"></div>
+      
+      {/* Floating Elements */}
+      <div className="absolute top-20 right-10 w-40 h-40 bg-gold/10 rounded-full blur-2xl float"></div>
+      <div className="absolute bottom-20 left-20 w-32 h-32 bg-primary/15 rounded-full blur-xl float" style={{ animationDelay: '1.5s' }}></div>
+
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        {/* Enhanced Header */}
+        <div 
+          className="text-center mb-20 scroll-fade-in"
+          data-scroll-id="services-header"
+        >
+          <div className="inline-block mb-4">
+            <span className="px-6 py-2 bg-gradient-gold rounded-full text-primary font-semibold text-sm tracking-wide uppercase">
+              ✨ Innovation Financière
+            </span>
+          </div>
+          <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 leading-tight">
+            Services 
+            <span className="gradient-text block">Nouvelle Génération</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Des solutions financières sur mesure pour particuliers et professionnels, 
-            avec l'expertise et la confiance d'un établissement reconnu.
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+            L'avenir de la finance est ici. Découvrez nos solutions révolutionnaires 
+            <span className="text-accent font-semibold"> alimentées par l'IA</span> et l'expertise humaine.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        {/* Enhanced Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {services.map((service, index) => (
-            <Card 
-              key={service.title} 
-              className="group hover:shadow-elegant transition-all duration-300 hover:-translate-y-2 border-border/50"
-              style={{ animationDelay: `${index * 100}ms` }}
+            <div
+              key={service.title}
+              className={`scroll-slide-right group relative`}
+              data-scroll-id={`service-${index}`}
+              style={{ animationDelay: `${index * 200}ms` }}
+              onMouseEnter={() => setHoveredCard(index)}
+              onMouseLeave={() => setHoveredCard(null)}
             >
-              <CardHeader className="text-center pb-4">
-                <div className="text-4xl mb-4">{service.icon}</div>
-                <CardTitle className="text-xl font-semibold text-primary group-hover:text-accent transition-colors">
-                  {service.title}
-                </CardTitle>
-                <CardDescription className="text-muted-foreground">
-                  {service.description}
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <ul className="space-y-2 mb-6">
-                  {service.features.map((feature, idx) => (
-                    <li key={idx} className="flex items-center text-sm text-foreground/80">
-                      <span className="text-accent mr-2">✓</span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <Button 
-                  variant="outline" 
-                  className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300"
-                  asChild
-                >
-                  <Link to="/services">En savoir plus</Link>
-                </Button>
-              </CardContent>
-            </Card>
+              <Card className={`
+                hover-lift tilt-card h-full transition-all duration-500 border-0 overflow-hidden
+                ${hoveredCard === index ? 'scale-105 shadow-hover z-10' : ''}
+                ${service.bgColor}
+              `}>
+                {/* Card Glow Effect */}
+                <div className={`
+                  absolute inset-0 bg-gradient-to-r ${service.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500
+                `}></div>
+                
+                {/* Shimmer Effect */}
+                <div className="absolute inset-0 group-hover:animate-shimmer">
+                  <div className="h-full w-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full"></div>
+                </div>
+
+                <CardHeader className="text-center pb-4 relative z-10">
+                  <div className={`
+                    text-6xl mb-6 transition-all duration-500 transform
+                    ${hoveredCard === index ? 'scale-125 rotate-12' : ''}
+                  `}>
+                    {service.icon}
+                  </div>
+                  <CardTitle className={`
+                    text-2xl font-bold mb-3 transition-all duration-300
+                    bg-gradient-to-r ${service.gradient} bg-clip-text text-transparent
+                  `}>
+                    {service.title}
+                  </CardTitle>
+                  <CardDescription className="text-foreground/80 text-base leading-relaxed">
+                    {service.description}
+                  </CardDescription>
+                </CardHeader>
+
+                <CardContent className="relative z-10">
+                  <ul className="space-y-3 mb-8">
+                    {service.features.map((feature, idx) => (
+                      <li key={idx} className="flex items-center text-sm text-foreground/90">
+                        <span className={`
+                          mr-3 w-2 h-2 rounded-full bg-gradient-to-r ${service.gradient}
+                          ${hoveredCard === index ? 'animate-glow' : ''}
+                        `}></span>
+                        <span className="font-medium">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  
+                  <Button 
+                    className={`
+                      w-full btn-magnetic transition-all duration-500 border-0
+                      bg-gradient-to-r ${service.gradient} hover:shadow-2xl hover:scale-105
+                      text-white font-semibold rounded-xl py-3
+                    `}
+                    asChild
+                  >
+                    <Link to="/services">
+                      Découvrir → 
+                    </Link>
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
           ))}
         </div>
 
-        <div className="text-center">
+        {/* Enhanced CTA */}
+        <div 
+          className="text-center scroll-scale-in"
+          data-scroll-id="services-cta"
+        >
           <Button 
             size="lg" 
-            className="bg-gradient-primary hover:shadow-elegant transition-all duration-300"
+            className="btn-magnetic hover-glow bg-gradient-primary hover:shadow-hover text-white font-bold px-12 py-6 text-xl transition-all duration-500 hover:scale-110 rounded-2xl"
             asChild
           >
-            <Link to="/services">Voir tous nos services</Link>
+            <Link to="/services">
+              🎯 Explorer tous nos services
+            </Link>
           </Button>
         </div>
       </div>
