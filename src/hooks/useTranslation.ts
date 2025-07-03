@@ -65,22 +65,30 @@ const translations = {
         personalLoans: {
           title: "Prêts Personnels",
           description: "Solutions de financement ultra-personnalisées avec des conditions révolutionnaires.",
-          features: ["IA pour taux optimal", "Réponse en 2h", "Flexibilité maximale"]
+          feature1: "IA pour taux optimal",
+          feature2: "Réponse en 2h", 
+          feature3: "Flexibilité maximale"
         },
         businessFinancing: {
           title: "Financements Pro",
           description: "Propulsez votre entreprise vers l'excellence avec nos solutions innovantes.",
-          features: ["Financement express", "Accompagnement expert", "Solutions sur mesure"]
+          feature1: "Financement express",
+          feature2: "Accompagnement expert",
+          feature3: "Solutions sur mesure"
         },
         smartInvestments: {
           title: "Investissements Smart",
           description: "Optimisation patrimoniale avec intelligence artificielle et expertise humaine.",
-          features: ["Portfolio intelligent", "Conseils premium", "Rendement optimisé"]
+          feature1: "Portfolio intelligent",
+          feature2: "Conseils premium", 
+          feature3: "Rendement optimisé"
         },
         insurance360: {
           title: "Assurances 360°",
           description: "Protection totale et innovative pour tous vos projets de vie et business.",
-          features: ["Couverture complète", "Claims en 24h", "Support premium"]
+          feature1: "Couverture complète",
+          feature2: "Claims en 24h",
+          feature3: "Support premium"
         },
         discoverBtn: "Découvrir →",
         exploreBtn: "Explorer tous nos services"

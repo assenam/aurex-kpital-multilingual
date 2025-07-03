@@ -15,7 +15,11 @@ const Services = () => {
     {
       title: t('home.services.personalLoans.title'),
       description: t('home.services.personalLoans.description'),
-      features: t('home.services.personalLoans.features'),
+      features: [
+        t('home.services.personalLoans.feature1'),
+        t('home.services.personalLoans.feature2'), 
+        t('home.services.personalLoans.feature3')
+      ],
       icon: Gem,
       gradient: "from-blue-500 to-purple-600",
       bgColor: "bg-gradient-to-br from-blue-50 to-purple-50"
@@ -23,7 +27,11 @@ const Services = () => {
     {
       title: t('home.services.businessFinancing.title'), 
       description: t('home.services.businessFinancing.description'),
-      features: t('home.services.businessFinancing.features'),
+      features: [
+        t('home.services.businessFinancing.feature1'),
+        t('home.services.businessFinancing.feature2'),
+        t('home.services.businessFinancing.feature3')
+      ],
       icon: Building2,
       gradient: "from-emerald-500 to-teal-600",
       bgColor: "bg-gradient-to-br from-emerald-50 to-teal-50"
@@ -31,7 +39,11 @@ const Services = () => {
     {
       title: t('home.services.smartInvestments.title'),
       description: t('home.services.smartInvestments.description'),
-      features: t('home.services.smartInvestments.features'),
+      features: [
+        t('home.services.smartInvestments.feature1'),
+        t('home.services.smartInvestments.feature2'),
+        t('home.services.smartInvestments.feature3')
+      ],
       icon: TrendingUp,
       gradient: "from-amber-500 to-orange-600",
       bgColor: "bg-gradient-to-br from-amber-50 to-orange-50"
@@ -39,7 +51,11 @@ const Services = () => {
     {
       title: t('home.services.insurance360.title'),
       description: t('home.services.insurance360.description'),
-      features: t('home.services.insurance360.features'),
+      features: [
+        t('home.services.insurance360.feature1'),
+        t('home.services.insurance360.feature2'),
+        t('home.services.insurance360.feature3')
+      ],
       icon: Shield,
       gradient: "from-rose-500 to-pink-600",
       bgColor: "bg-gradient-to-br from-rose-50 to-pink-50"
