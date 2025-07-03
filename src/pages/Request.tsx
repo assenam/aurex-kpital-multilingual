@@ -236,13 +236,81 @@ const Request = () => {
                         <Label htmlFor="nationality">Nationalité</Label>
                         <Select value={formData.nationality} onValueChange={(value) => updateFormData('nationality', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Sélectionnez" />
+                            <SelectValue placeholder="Sélectionnez votre nationalité" />
                           </SelectTrigger>
-                          <SelectContent>
+                          <SelectContent className="max-h-60 overflow-y-auto bg-background z-50">
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted">Europe</div>
                             <SelectItem value="allemande">Allemande</SelectItem>
+                            <SelectItem value="autrichienne">Autrichienne</SelectItem>
+                            <SelectItem value="belge">Belge</SelectItem>
+                            <SelectItem value="bulgare">Bulgare</SelectItem>
+                            <SelectItem value="chypriote">Chypriote</SelectItem>
+                            <SelectItem value="croate">Croate</SelectItem>
+                            <SelectItem value="danoise">Danoise</SelectItem>
+                            <SelectItem value="espagnole">Espagnole</SelectItem>
+                            <SelectItem value="estonienne">Estonienne</SelectItem>
+                            <SelectItem value="finlandaise">Finlandaise</SelectItem>
                             <SelectItem value="française">Française</SelectItem>
-                            <SelectItem value="autre-ue">Autre UE</SelectItem>
-                            <SelectItem value="autre">Autre</SelectItem>
+                            <SelectItem value="grecque">Grecque</SelectItem>
+                            <SelectItem value="hongroise">Hongroise</SelectItem>
+                            <SelectItem value="irlandaise">Irlandaise</SelectItem>
+                            <SelectItem value="italienne">Italienne</SelectItem>
+                            <SelectItem value="lettone">Lettone</SelectItem>
+                            <SelectItem value="lituanienne">Lituanienne</SelectItem>
+                            <SelectItem value="luxembourgeoise">Luxembourgeoise</SelectItem>
+                            <SelectItem value="maltaise">Maltaise</SelectItem>
+                            <SelectItem value="neerlandaise">Néerlandaise</SelectItem>
+                            <SelectItem value="polonaise">Polonaise</SelectItem>
+                            <SelectItem value="portugaise">Portugaise</SelectItem>
+                            <SelectItem value="roumaine">Roumaine</SelectItem>
+                            <SelectItem value="slovaque">Slovaque</SelectItem>
+                            <SelectItem value="slovene">Slovène</SelectItem>
+                            <SelectItem value="suedoise">Suédoise</SelectItem>
+                            <SelectItem value="tcheque">Tchèque</SelectItem>
+                            <SelectItem value="britannique">Britannique</SelectItem>
+                            <SelectItem value="suisse">Suisse</SelectItem>
+                            <SelectItem value="norvegienne">Norvégienne</SelectItem>
+                            <SelectItem value="islandaise">Islandaise</SelectItem>
+                            <SelectItem value="serbe">Serbe</SelectItem>
+                            <SelectItem value="montenegrine">Monténégrine</SelectItem>
+                            <SelectItem value="bosniaque">Bosniaque</SelectItem>
+                            <SelectItem value="albanaise">Albanaise</SelectItem>
+                            <SelectItem value="macedonienne">Macédonienne</SelectItem>
+                            <SelectItem value="moldave">Moldave</SelectItem>
+                            <SelectItem value="ukrainienne">Ukrainienne</SelectItem>
+                            <SelectItem value="bielorusse">Biélorusse</SelectItem>
+                            <SelectItem value="russe">Russe</SelectItem>
+                            
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Amérique du Nord</div>
+                            <SelectItem value="americaine">Américaine (États-Unis)</SelectItem>
+                            <SelectItem value="canadienne">Canadienne</SelectItem>
+                            <SelectItem value="mexicaine">Mexicaine</SelectItem>
+                            
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Amérique Centrale</div>
+                            <SelectItem value="guatémaltèque">Guatémaltèque</SelectItem>
+                            <SelectItem value="belizienne">Bélizienne</SelectItem>
+                            <SelectItem value="salvadorienne">Salvadorienne</SelectItem>
+                            <SelectItem value="hondurienne">Hondurienne</SelectItem>
+                            <SelectItem value="nicaraguayenne">Nicaraguayenne</SelectItem>
+                            <SelectItem value="costaricaine">Costaricaine</SelectItem>
+                            <SelectItem value="panameenne">Panaméenne</SelectItem>
+                            
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Amérique du Sud</div>
+                            <SelectItem value="argentine">Argentine</SelectItem>
+                            <SelectItem value="bolivienne">Bolivienne</SelectItem>
+                            <SelectItem value="bresilienne">Brésilienne</SelectItem>
+                            <SelectItem value="chilienne">Chilienne</SelectItem>
+                            <SelectItem value="colombienne">Colombienne</SelectItem>
+                            <SelectItem value="equatorienne">Équatorienne</SelectItem>
+                            <SelectItem value="guyanienne">Guyanienne</SelectItem>
+                            <SelectItem value="paraguayenne">Paraguayenne</SelectItem>
+                            <SelectItem value="peruvienne">Péruvienne</SelectItem>
+                            <SelectItem value="surinamaise">Surinamaise</SelectItem>
+                            <SelectItem value="uruguayenne">Uruguayenne</SelectItem>
+                            <SelectItem value="venezuelienne">Vénézuélienne</SelectItem>
+                            
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Autre</div>
+                            <SelectItem value="autre">Autre nationalité</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
