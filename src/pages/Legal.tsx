@@ -5,10 +5,12 @@ import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { 
   Shield, FileText, Scale, AlertCircle, Calendar, 
-  Building, Mail, Phone, Globe, CheckCircle
+  Building, Mail, Phone, Globe, CheckCircle, Lock
 } from 'lucide-react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Legal = () => {
+  const { t } = useTranslation();
   return (
     <div className="min-h-screen">
       <Header />
