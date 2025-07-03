@@ -23,14 +23,12 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
   const [isLoading, setIsLoading] = useState(false);
 
   const changeLanguage = (newLanguage: Language) => {
-    if (newLanguage === language) return; // Évite les changements inutiles
+    if (newLanguage === language) return;
     
     setIsLoading(true);
-    // Changement immédiat de la langue avec animation courte
     setLanguage(newLanguage);
     localStorage.setItem('preferredLanguage', newLanguage);
     
-    // Animation courte juste pour le feedback visuel
     setTimeout(() => {
       setIsLoading(false);
     }, 200);
@@ -159,6 +157,42 @@ const translations = {
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne"
       }
     },
+    services: {
+      hero: {
+        badge: "Innovation Financière depuis 1997",
+        title: "Solutions Financières",
+        subtitle: "Nouvelle Génération",
+        description: "Découvrez nos services premium combinant expertise humaine et intelligence artificielle pour des solutions financières qui dépassent vos attentes.",
+        simulateBtn: "Simuler mon projet",
+        requestBtn: "Demande personnalisée"
+      },
+      main: {
+        title: "Nos Services Phares",
+        subtitle: "Une gamme complète de solutions financières adaptées à chaque situation",
+        featuresLabel: "Caractéristiques principales :",
+        useCasesLabel: "Cas d'usage :",
+        learnMoreBtn: "En savoir plus"
+      },
+      specialized: {
+        title: "Produits Spécialisés",
+        subtitle: "Solutions ciblées pour des besoins spécifiques",
+        discoverBtn: "Découvrir"
+      },
+      process: {
+        title: "Notre Processus",
+        subtitle: "Une approche structurée pour des résultats optimaux"
+      },
+      cta: {
+        title: "Prêt à concrétiser vos projets ?",
+        subtitle: "Nos experts vous accompagnent dans la réalisation de tous vos objectifs financiers",
+        advisorBtn: "Rencontrer un conseiller",
+        appointmentBtn: "Prendre rendez-vous",
+        phone: "Téléphone :",
+        address: "Adresse :",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne"
+      }
+    },
     footer: {
       description: "Depuis 1997, Aurex K-pital accompagne particuliers et entreprises dans leurs projets financiers avec expertise et confiance.",
       services: "Services",
@@ -261,6 +295,42 @@ const translations = {
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
       }
     },
+    services: {
+      hero: {
+        badge: "Finanzinnovation seit 1997",
+        title: "Finanzlösungen",
+        subtitle: "Neue Generation",
+        description: "Entdecken Sie unsere Premium-Services, die menschliche Expertise und künstliche Intelligenz für Finanzlösungen kombinieren, die Ihre Erwartungen übertreffen.",
+        simulateBtn: "Mein Projekt simulieren",
+        requestBtn: "Persönliche Anfrage"
+      },
+      main: {
+        title: "Unsere Hauptservices",
+        subtitle: "Eine vollständige Palette von Finanzlösungen für jede Situation",
+        featuresLabel: "Hauptmerkmale:",
+        useCasesLabel: "Anwendungsfälle:",
+        learnMoreBtn: "Mehr erfahren"
+      },
+      specialized: {
+        title: "Spezialisierte Produkte",
+        subtitle: "Zielgerichtete Lösungen für spezifische Bedürfnisse",
+        discoverBtn: "Entdecken"
+      },
+      process: {
+        title: "Unser Prozess",
+        subtitle: "Ein strukturierter Ansatz für optimale Ergebnisse"
+      },
+      cta: {
+        title: "Bereit, Ihre Projekte zu verwirklichen?",
+        subtitle: "Unsere Experten begleiten Sie bei der Realisierung all Ihrer finanziellen Ziele",
+        advisorBtn: "Berater treffen",
+        appointmentBtn: "Termin vereinbaren",
+        phone: "Telefon:",
+        address: "Adresse:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
+      }
+    },
     footer: {
       description: "Seit 1997 begleitet Aurex K-pital Privatpersonen und Unternehmen bei ihren Finanzprojekten mit Expertise und Vertrauen.",
       services: "Dienstleistungen",
@@ -270,6 +340,833 @@ const translations = {
       copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
       establishment: "Zugelassenes Finanzinstitut - Deutschland"
     }
+  },
+  pl: {
+    nav: {
+      home: "Strona główna",
+      services: "Usługi",
+      simulator: "Symulator",
+      about: "O nas",
+      blog: "Blog",
+      contact: "Kontakt",
+      quickRequest: "Szybka prośba"
+    },
+    home: {
+      hero: {
+        title: "Twój Partner Finansowy",
+        subtitle: "od 1997 roku",
+        description: "Doskonałość, innowacja i zaufanie dla wszystkich Twoich projektów finansowych",
+        ctaBtn: "Odkryj nasze rozwiązania",
+        simulateBtn: "Symuluj kredyt"
+      },
+      services: {
+        badge: "Innowacje finansowe",
+        title: "Usługi",
+        subtitle: "Nowej Generacji",
+        description: "Przyszłość finansów jest tutaj. Odkryj nasze rewolucyjne rozwiązania",
+        description2: "zasilane przez AI",
+        description3: "i ludzką ekspertyzę.",
+        personalLoans: {
+          title: "Pożyczki Osobiste",
+          description: "Ultra-spersonalizowane rozwiązania finansowania z rewolucyjnymi warunkami.",
+          feature1: "AI dla optymalnej stopy",
+          feature2: "Odpowiedź w 2h",
+          feature3: "Maksymalna elastyczność"
+        },
+        businessFinancing: {
+          title: "Finansowanie Biznesowe",
+          description: "Poprowadź swoją firmę do doskonałości z naszymi innowacyjnymi rozwiązaniami.",
+          feature1: "Ekspresowe finansowanie",
+          feature2: "Wsparcie eksperta",
+          feature3: "Rozwiązania na miarę"
+        },
+        smartInvestments: {
+          title: "Inteligentne Inwestycje",
+          description: "Optymalizacja majątku ze sztuczną inteligencją i ludzką ekspertyzą.",
+          feature1: "Inteligentne portfolio",
+          feature2: "Doradztwo premium",
+          feature3: "Zoptymalizowany zwrot"
+        },
+        insurance360: {
+          title: "Ubezpieczenia 360°",
+          description: "Kompleksowa i innowacyjna ochrona dla wszystkich projektów życiowych i biznesowych.",
+          feature1: "Pełne pokrycie",
+          feature2: "Roszczenia w 24h",
+          feature3: "Wsparcie premium"
+        },
+        discoverBtn: "Odkryj →",
+        exploreBtn: "Poznaj wszystkie usługi"
+      },
+      about: {
+        badge: "Pionierzy od 25 lat",
+        title: "Ćwierć wieku",
+        subtitle: "innowacji",
+        subtitle2: "finansowych",
+        description: "Od Hamburg 1997",
+        description2: "Aurex K-pital rewolucjonizuje wsparcie finansowe łącząc",
+        description3: "tradycyjną ekspertyzę",
+        description4: "najnowocześniejsze technologie",
+        description5: "Nasze unikalne podejście łączy sztuczną inteligencję, analizy predykcyjne i spersonalizowane doradztwo ludzkie dla rozwiązań, które",
+        description6: "naprawdę przekształcają Twoje projekty",
+        description7: "w sukces.",
+        ourStoryBtn: "Nasza Historia",
+        talkProjectBtn: "Porozmawiajmy o projekcie",
+        stats: {
+          founded: "Założona z wizją",
+          location: "Serce Europy",
+          certified: "Certyfikowana doskonałość",
+          security: "Gwarantowane bezpieczeństwo",
+          leader: "Certyfikowany Europejski Lider",
+          excellence: "Uznana doskonałość w innowacyjnym finansowaniu"
+        }
+      },
+      cta: {
+        title: "Gotowy zrealizować",
+        subtitle: "swoje projekty",
+        description: "Nasi eksperci są do Twojej dyspozycji, aby przeanalizować Twoją sytuację i zaproponować najlepsze rozwiązania finansowania.",
+        requestBtn: "Złóż wniosek",
+        simulateBtn: "Symuluj kredyt",
+        contactBtn: "Skontaktuj się z nami",
+        phone: "Telefon:",
+        address: "Adres:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
+      }
+    },
+    services: {
+      hero: {
+        badge: "Innowacje finansowe od 1997",
+        title: "Rozwiązania Finansowe",
+        subtitle: "Nowej Generacji",
+        description: "Odkryj nasze usługi premium łączące ludzką ekspertyzę i sztuczną inteligencję dla rozwiązań finansowych przewyższających Twoje oczekiwania.",
+        simulateBtn: "Symuluj mój projekt",
+        requestBtn: "Spersonalizowana prośba"
+      },
+      main: {
+        title: "Nasze Główne Usługi",
+        subtitle: "Kompletna gama rozwiązań finansowych dostosowanych do każdej sytuacji",
+        featuresLabel: "Główne cechy:",
+        useCasesLabel: "Przypadki użycia:",
+        learnMoreBtn: "Dowiedz się więcej"
+      },
+      specialized: {
+        title: "Produkty Specjalistyczne",
+        subtitle: "Celowe rozwiązania dla konkretnych potrzeb",
+        discoverBtn: "Odkryj"
+      },
+      process: {
+        title: "Nasz Proces",
+        subtitle: "Strukturalne podejście dla optymalnych rezultatów"
+      },
+      cta: {
+        title: "Gotowy zrealizować swoje projekty?",
+        subtitle: "Nasi eksperci towarzyszą Ci w realizacji wszystkich Twoich celów finansowych",
+        advisorBtn: "Spotkaj doradcę",
+        appointmentBtn: "Umów spotkanie",
+        phone: "Telefon:",
+        address: "Adres:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
+      }
+    },
+    footer: {
+      description: "Od 1997 roku Aurex K-pital towarzyszy osobom prywatnym i firmom w ich projektach finansowych z ekspertyzą i zaufaniem.",
+      services: "Usługi",
+      tools: "Narzędzia",
+      company: "Firma",
+      legal: "Prawne",
+      copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      establishment: "Licencjonowana instytucja finansowa - Niemcy"
+    }
+  },
+  fi: {
+    nav: {
+      home: "Koti",
+      services: "Palvelut",
+      simulator: "Simulaattori",
+      about: "Tietoa meistä",
+      blog: "Blogi",
+      contact: "Ota yhteyttä",
+      quickRequest: "Nopea pyyntö"
+    },
+    home: {
+      hero: {
+        title: "Rahoituskumppanisi",
+        subtitle: "vuodesta 1997",
+        description: "Huippuosaamista, innovaatiota ja luottamusta kaikille rahoitusprojekteillesi",
+        ctaBtn: "Tutustu ratkaisuihimme",
+        simulateBtn: "Simuloi lainaa"
+      },
+      services: {
+        badge: "Rahoitusinnovaatio",
+        title: "Palvelut",
+        subtitle: "Uuden Sukupolven",
+        description: "Rahoituksen tulevaisuus on täällä. Tutustu vallankumouksellisiin",
+        description2: "AI-pohjaisiin",
+        description3: "ratkaisuihin ja ihmisosaamiseen.",
+        personalLoans: {
+          title: "Henkilökohtaiset Lainat",
+          description: "Ultra-henkilökohtaiset rahoitusratkaisut vallankumouksellisilla ehdoilla.",
+          feature1: "AI optimaaliselle korolle",
+          feature2: "Vastaus 2h:ssa",
+          feature3: "Maksimaalinen joustavuus"
+        },
+        businessFinancing: {
+          title: "Yritysrahoitus",
+          description: "Vie yrityksesi huippuun innovatiivisilla ratkaisuillamme.",
+          feature1: "Pikirahoitus",
+          feature2: "Asiantuntija-apu",
+          feature3: "Räätälöidyt ratkaisut"
+        },
+        smartInvestments: {
+          title: "Älykkäät Sijoitukset",
+          description: "Varallisuuden optimointi tekoälyn ja ihmisosaamisen avulla.",
+          feature1: "Älykäs portfolio",
+          feature2: "Premium-neuvonta",
+          feature3: "Optimoitu tuotto"
+        },
+        insurance360: {
+          title: "Vakuutukset 360°",
+          description: "Täydellinen ja innovatiivinen suoja kaikille elämän- ja liiketoimintaprojekteille.",
+          feature1: "Täydellinen kattavuus",
+          feature2: "Korvaukset 24h:ssa",
+          feature3: "Premium-tuki"
+        },
+        discoverBtn: "Tutustu →",
+        exploreBtn: "Tutustu kaikkiin palveluihin"
+      },
+      about: {
+        badge: "Pioneerit 25 vuotta",
+        title: "Neljäsosa vuosisataa",
+        subtitle: "rahoitusinnovaatiota",
+        subtitle2: "",
+        description: "Hampurista 1997 lähtien",
+        description2: "Aurex K-pital mullistaa rahoitustukea yhdistämällä",
+        description3: "perinteisen osaamisen",
+        description4: "huipputeknologioihin",
+        description5: "Ainutlaatuinen lähestymistapamme yhdistää tekoälyn, ennakoivat analytiikka ja henkilökohtaisen neuvonnan ratkaisuihin, jotka",
+        description6: "todella muuttavat projektisi",
+        description7: "menestykseksi.",
+        ourStoryBtn: "Meidän Tarinmme",
+        talkProjectBtn: "Keskustellaan Projektista",
+        stats: {
+          founded: "Perustettu visiolla",
+          location: "Euroopan sydän",
+          certified: "Sertifioitu huippuosaaminen",
+          security: "Taattu turvallisuus",
+          leader: "Sertifioitu Eurooppalainen Johtaja",
+          excellence: "Tunnustettu huippuosaaminen innovatiivisessa rahoituksessa"
+        }
+      },
+      cta: {
+        title: "Valmis toteuttamaan",
+        subtitle: "projektisi",
+        description: "Asiantuntijamme ovat käytettävissäsi analysoimaan tilannettasi ja tarjoamaan parhaat rahoitusratkaisut.",
+        requestBtn: "Tee hakemus",
+        simulateBtn: "Simuloi lainaa",
+        contactBtn: "Ota meihin yhteyttä",
+        phone: "Puhelin:",
+        address: "Osoite:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hampuri, Saksa"
+      }
+    },
+    services: {
+      hero: {
+        badge: "Rahoitusinnovaatio vuodesta 1997",
+        title: "Rahoitusratkaisut",
+        subtitle: "Uuden Sukupolven",
+        description: "Tutustu premium-palveluihimme, jotka yhdistävät ihmisosaamisen ja tekoälyn rahoitusratkaisuiksi, jotka ylittävät odotuksesi.",
+        simulateBtn: "Simuloi projektini",
+        requestBtn: "Henkilökohtainen pyyntö"
+      },
+      main: {
+        title: "Pääpalvelumme",
+        subtitle: "Täydellinen valikoima rahoitusratkaisuja jokaiseen tilanteeseen",
+        featuresLabel: "Pääominaisuudet:",
+        useCasesLabel: "Käyttötapaukset:",
+        learnMoreBtn: "Lue lisää"
+      },
+      specialized: {
+        title: "Erikoistuotteet",
+        subtitle: "Kohdennettuja ratkaisuja erityistarpeisiin",
+        discoverBtn: "Tutustu"
+      },
+      process: {
+        title: "Prosessimme",
+        subtitle: "Jäsennelty lähestymistapa optimaalisiin tuloksiin"
+      },
+      cta: {
+        title: "Valmis toteuttamaan projektisi?",
+        subtitle: "Asiantuntijamme auttavat sinua saavuttamaan kaikki taloudelliset tavoitteesi",
+        advisorBtn: "Tapaa neuvonantaja",
+        appointmentBtn: "Varaa aika",
+        phone: "Puhelin:",
+        address: "Osoite:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hampuri, Saksa"
+      }
+    },
+    footer: {
+      description: "Vuodesta 1997 Aurex K-pital on tukenut yksityishenkilöitä ja yrityksiä heidän rahoitusprojekteissaan asiantuntemuksella ja luottamuksella.",
+      services: "Palvelut",
+      tools: "Työkalut",
+      company: "Yritys",
+      legal: "Oikeudellinen",
+      copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      establishment: "Lisensoitu rahoituslaitos - Saksa"
+    }
+  },
+  es: {
+    nav: {
+      home: "Inicio",
+      services: "Servicios",
+      simulator: "Simulador",
+      about: "Acerca de",
+      blog: "Blog",
+      contact: "Contacto",
+      quickRequest: "Solicitud rápida"
+    },
+    home: {
+      hero: {
+        title: "Tu Socio Financiero",
+        subtitle: "desde 1997",
+        description: "Excelencia, innovación y confianza para todos tus proyectos financieros",
+        ctaBtn: "Descubre nuestras soluciones",
+        simulateBtn: "Simular préstamo"
+      },
+      services: {
+        badge: "Innovación Financiera",
+        title: "Servicios",
+        subtitle: "Nueva Generación",
+        description: "El futuro de las finanzas está aquí. Descubre nuestras soluciones revolucionarias",
+        description2: "impulsadas por IA",
+        description3: "y experiencia humana.",
+        personalLoans: {
+          title: "Préstamos Personales",
+          description: "Soluciones de financiación ultra-personalizadas con condiciones revolucionarias.",
+          feature1: "IA para tasa óptima",
+          feature2: "Respuesta en 2h",
+          feature3: "Flexibilidad máxima"
+        },
+        businessFinancing: {
+          title: "Financiación Empresarial",
+          description: "Impulsa tu empresa hacia la excelencia con nuestras soluciones innovadoras.",
+          feature1: "Financiación express",
+          feature2: "Acompañamiento experto",
+          feature3: "Soluciones a medida"
+        },
+        smartInvestments: {
+          title: "Inversiones Inteligentes",
+          description: "Optimización patrimonial con inteligencia artificial y experiencia humana.",
+          feature1: "Portafolio inteligente",
+          feature2: "Asesoramiento premium",
+          feature3: "Rendimiento optimizado"
+        },
+        insurance360: {
+          title: "Seguros 360°",
+          description: "Protección total e innovadora para todos tus proyectos de vida y negocio.",
+          feature1: "Cobertura completa",
+          feature2: "Reclamaciones en 24h",
+          feature3: "Soporte premium"
+        },
+        discoverBtn: "Descubrir →",
+        exploreBtn: "Explorar todos los servicios"
+      },
+      about: {
+        badge: "Pioneros desde hace 25 años",
+        title: "Un cuarto de siglo",
+        subtitle: "de innovación",
+        subtitle2: "financiera",
+        description: "Desde Hamburgo 1997",
+        description2: "Aurex K-pital revoluciona el acompañamiento financiero combinando",
+        description3: "experiencia tradicional",
+        description4: "tecnologías de vanguardia",
+        description5: "Nuestro enfoque único combina inteligencia artificial, análisis predictivos y asesoramiento humano personalizado para soluciones que",
+        description6: "realmente transforman tus proyectos",
+        description7: "en éxito.",
+        ourStoryBtn: "Nuestra Historia",
+        talkProjectBtn: "Hablemos del Proyecto",
+        stats: {
+          founded: "Fundada con visión",
+          location: "Corazón de Europa",
+          certified: "Excelencia certificada",
+          security: "Seguridad garantizada",
+          leader: "Líder Europeo Certificado",
+          excellence: "Excelencia reconocida en financiación innovadora"
+        }
+      },
+      cta: {
+        title: "Listo para materializar",
+        subtitle: "tus proyectos",
+        description: "Nuestros expertos están a tu disposición para estudiar tu situación y proponerte las mejores soluciones de financiación.",
+        requestBtn: "Hacer solicitud",
+        simulateBtn: "Simular préstamo",
+        contactBtn: "Contáctanos",
+        phone: "Teléfono:",
+        address: "Dirección:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+      }
+    },
+    services: {
+      hero: {
+        badge: "Innovación Financiera desde 1997",
+        title: "Soluciones Financieras",
+        subtitle: "Nueva Generación",
+        description: "Descubre nuestros servicios premium que combinan experiencia humana e inteligencia artificial para soluciones financieras que superan tus expectativas.",
+        simulateBtn: "Simular mi proyecto",
+        requestBtn: "Solicitud personalizada"
+      },
+      main: {
+        title: "Nuestros Servicios Principales",
+        subtitle: "Una gama completa de soluciones financieras adaptadas a cada situación",
+        featuresLabel: "Características principales:",
+        useCasesLabel: "Casos de uso:",
+        learnMoreBtn: "Saber más"
+      },
+      specialized: {
+        title: "Productos Especializados",
+        subtitle: "Soluciones dirigidas para necesidades específicas",
+        discoverBtn: "Descubrir"
+      },
+      process: {
+        title: "Nuestro Proceso",
+        subtitle: "Un enfoque estructurado para resultados óptimos"
+      },
+      cta: {
+        title: "¿Listo para materializar tus proyectos?",
+        subtitle: "Nuestros expertos te acompañan en la realización de todos tus objetivos financieros",
+        advisorBtn: "Conocer un asesor",
+        appointmentBtn: "Pedir cita",
+        phone: "Teléfono:",
+        address: "Dirección:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+      }
+    },
+    footer: {
+      description: "Desde 1997, Aurex K-pital acompaña a particulares y empresas en sus proyectos financieros con experiencia y confianza.",
+      services: "Servicios",
+      tools: "Herramientas",
+      company: "Empresa",
+      legal: "Legal",
+      copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      establishment: "Institución financiera autorizada - Alemania"
+    }
+  },
+  pt: {
+    nav: {
+      home: "Início",
+      services: "Serviços",
+      simulator: "Simulador",
+      about: "Sobre nós",
+      blog: "Blog",
+      contact: "Contato",
+      quickRequest: "Solicitação rápida"
+    },
+    home: {
+      hero: {
+        title: "Seu Parceiro Financeiro",
+        subtitle: "desde 1997",
+        description: "Excelência, inovação e confiança para todos os seus projetos financeiros",
+        ctaBtn: "Descubra nossas soluções",
+        simulateBtn: "Simular empréstimo"
+      },
+      services: {
+        badge: "Inovação Financeira",
+        title: "Serviços",
+        subtitle: "Nova Geração",
+        description: "O futuro das finanças está aqui. Descubra nossas soluções revolucionárias",
+        description2: "impulsionadas por IA",
+        description3: "e expertise humana.",
+        personalLoans: {
+          title: "Empréstimos Pessoais",
+          description: "Soluções de financiamento ultra-personalizadas com condições revolucionárias.",
+          feature1: "IA para taxa ótima",
+          feature2: "Resposta em 2h",
+          feature3: "Flexibilidade máxima"
+        },
+        businessFinancing: {
+          title: "Financiamento Empresarial",
+          description: "Impulsione sua empresa rumo à excelência com nossas soluções inovadoras.",
+          feature1: "Financiamento expresso",
+          feature2: "Acompanhamento especializado",
+          feature3: "Soluções sob medida"
+        },
+        smartInvestments: {
+          title: "Investimentos Inteligentes",
+          description: "Otimização patrimonial com inteligência artificial e expertise humana.",
+          feature1: "Portfólio inteligente",
+          feature2: "Consultoria premium",
+          feature3: "Retorno otimizado"
+        },
+        insurance360: {
+          title: "Seguros 360°",
+          description: "Proteção total e inovadora para todos os seus projetos de vida e negócios.",
+          feature1: "Cobertura completa",
+          feature2: "Sinistros em 24h",
+          feature3: "Suporte premium"
+        },
+        discoverBtn: "Descobrir →",
+        exploreBtn: "Explorar todos os serviços"
+      },
+      about: {
+        badge: "Pioneiros há 25 anos",
+        title: "Um quarto de século",
+        subtitle: "de inovação",
+        subtitle2: "financeira",
+        description: "Desde Hamburgo 1997",
+        description2: "a Aurex K-pital revoluciona o acompanhamento financeiro combinando",
+        description3: "expertise tradicional",
+        description4: "tecnologias de ponta",
+        description5: "Nossa abordagem única combina inteligência artificial, análises preditivas e consultoria humana personalizada para soluções que",
+        description6: "realmente transformam seus projetos",
+        description7: "em sucesso.",
+        ourStoryBtn: "Nossa História",
+        talkProjectBtn: "Vamos Falar do Projeto",
+        stats: {
+          founded: "Fundada com visão",
+          location: "Coração da Europa",
+          certified: "Excelência certificada",
+          security: "Segurança garantida",
+          leader: "Líder Europeu Certificado",
+          excellence: "Excelência reconhecida em financiamento inovador"
+        }
+      },
+      cta: {
+        title: "Pronto para concretizar",
+        subtitle: "seus projetos",
+        description: "Nossos especialistas estão à sua disposição para estudar sua situação e propor as melhores soluções de financiamento.",
+        requestBtn: "Fazer solicitação",
+        simulateBtn: "Simular empréstimo",
+        contactBtn: "Entre em contato",
+        phone: "Telefone:",
+        address: "Endereço:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
+      }
+    },
+    services: {
+      hero: {
+        badge: "Inovação Financeira desde 1997",
+        title: "Soluções Financeiras",
+        subtitle: "Nova Geração",
+        description: "Descubra nossos serviços premium que combinam expertise humana e inteligência artificial para soluções financeiras que superam suas expectativas.",
+        simulateBtn: "Simular meu projeto",
+        requestBtn: "Solicitação personalizada"
+      },
+      main: {
+        title: "Nossos Principais Serviços",
+        subtitle: "Uma gama completa de soluções financeiras adaptadas a cada situação",
+        featuresLabel: "Características principais:",
+        useCasesLabel: "Casos de uso:",
+        learnMoreBtn: "Saiba mais"
+      },
+      specialized: {
+        title: "Produtos Especializados",
+        subtitle: "Soluções direcionadas para necessidades específicas",
+        discoverBtn: "Descobrir"
+      },
+      process: {
+        title: "Nosso Processo",
+        subtitle: "Uma abordagem estruturada para resultados ótimos"
+      },
+      cta: {
+        title: "Pronto para concretizar seus projetos?",
+        subtitle: "Nossos especialistas o acompanham na realização de todos os seus objetivos financeiros",
+        advisorBtn: "Conhecer um consultor",
+        appointmentBtn: "Marcar consulta",
+        phone: "Telefone:",
+        address: "Endereço:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
+      }
+    },
+    footer: {
+      description: "Desde 1997, a Aurex K-pital acompanha particulares e empresas em seus projetos financeiros com expertise e confiança.",
+      services: "Serviços",
+      tools: "Ferramentas",
+      company: "Empresa",
+      legal: "Legal",
+      copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      establishment: "Instituição financeira autorizada - Alemanha"
+    }
+  },
+  el: {
+    nav: {
+      home: "Αρχική",
+      services: "Υπηρεσίες",
+      simulator: "Προσομοιωτής",
+      about: "Σχετικά με εμάς",
+      blog: "Blog",
+      contact: "Επικοινωνία",
+      quickRequest: "Γρήγορη αίτηση"
+    },
+    home: {
+      hero: {
+        title: "Ο Χρηματοοικονομικός Σας Εταίρος",
+        subtitle: "από το 1997",
+        description: "Αριστεία, καινοτομία και εμπιστοσύνη για όλα τα χρηματοοικονομικά σας έργα",
+        ctaBtn: "Ανακαλύψτε τις λύσεις μας",
+        simulateBtn: "Προσομοιώστε δάνειο"
+      },
+      services: {
+        badge: "Χρηματοοικονομική Καινοτομία",
+        title: "Υπηρεσίες",
+        subtitle: "Νέας Γενιάς",
+        description: "Το μέλλον των χρηματοοικονομικών είναι εδώ. Ανακαλύψτε τις επαναστατικές μας λύσεις",
+        description2: "που τροφοδοτούνται από AI",
+        description3: "και ανθρώπινη εμπειρογνωμοσύνη.",
+        personalLoans: {
+          title: "Προσωπικά Δάνεια",
+          description: "Υπέρ-εξατομικευμένες χρηματοδοτικές λύσεις με επαναστατικούς όρους.",
+          feature1: "AI για βέλτιστο επιτόκιο",
+          feature2: "Απάντηση σε 2ω",
+          feature3: "Μέγιστη ευελιξία"
+        },
+        businessFinancing: {
+          title: "Επιχειρηματική Χρηματοδότηση",
+          description: "Προωθήστε την επιχείρησή σας στην αριστεία με τις καινοτόμες μας λύσεις.",
+          feature1: "Εξπρές χρηματοδότηση",
+          feature2: "Εξειδικευμένη συνοδεία",
+          feature3: "Εξατομικευμένες λύσεις"
+        },
+        smartInvestments: {
+          title: "Έξυπνες Επενδύσεις",
+          description: "Βελτιστοποίηση περιουσίας με τεχνητή νοημοσύνη και ανθρώπινη εμπειρογνωμοσύνη.",
+          feature1: "Έξυπνο χαρτοφυλάκιο",
+          feature2: "Premium συμβουλές",
+          feature3: "Βελτιστοποιημένη απόδοση"
+        },
+        insurance360: {
+          title: "Ασφάλειες 360°",
+          description: "Ολική και καινοτόμα προστασία για όλα τα έργα ζωής και επιχείρησής σας.",
+          feature1: "Πλήρης κάλυψη",
+          feature2: "Αποζημιώσεις σε 24ω",
+          feature3: "Premium υποστήριξη"
+        },
+        discoverBtn: "Ανακαλύψτε →",
+        exploreBtn: "Εξερευνήστε όλες τις υπηρεσίες"
+      },
+      about: {
+        badge: "Πρωτοπόροι εδώ και 25 χρόνια",
+        title: "Ένα τέταρτο του αιώνα",
+        subtitle: "χρηματοοικονομικής",
+        subtitle2: "καινοτομίας",
+        description: "Από την Αμβούργο 1997",
+        description2: "η Aurex K-pital επαναστατεί στη χρηματοοικονομική συνοδεία συνδυάζοντας",
+        description3: "παραδοσιακή εμπειρογνωμοσύνη",
+        description4: "τεχνολογίες αιχμής",
+        description5: "Η μοναδική μας προσέγγιση συνδυάζει τεχνητή νοημοσύνη, προβλεπτικές αναλύσεις και εξατομικευμένη ανθρώπινη συμβουλευτική για λύσεις που",
+        description6: "πραγματικά μετατρέπουν τα έργα σας",
+        description7: "σε επιτυχία.",
+        ourStoryBtn: "Η Ιστορία Μας",
+        talkProjectBtn: "Ας Μιλήσουμε για το Έργο",
+        stats: {
+          founded: "Ιδρύθηκε με όραμα",
+          location: "Καρδιά της Ευρώπης",
+          certified: "Πιστοποιημένη αριστεία",
+          security: "Εγγυημένη ασφάλεια",
+          leader: "Πιστοποιημένος Ευρωπαίος Ηγέτης",
+          excellence: "Αναγνωρισμένη αριστεία σε καινοτόμα χρηματοδότηση"
+        }
+      },
+      cta: {
+        title: "Έτοιμοι να υλοποιήσετε",
+        subtitle: "τα έργα σας",
+        description: "Οι ειδικοί μας είναι στη διάθεσή σας για να μελετήσουν την κατάστασή σας και να σας προτείνουν τις καλύτερες χρηματοδοτικές λύσεις.",
+        requestBtn: "Κάντε αίτηση",
+        simulateBtn: "Προσομοιώστε δάνειο",
+        contactBtn: "Επικοινωνήστε μαζί μας",
+        phone: "Τηλέφωνο:",
+        address: "Διεύθυνση:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
+      }
+    },
+    services: {
+      hero: {
+        badge: "Χρηματοοικονομική Καινοτομία από το 1997",
+        title: "Χρηματοοικονομικές Λύσεις",
+        subtitle: "Νέας Γενιάς",
+        description: "Ανακαλύψτε τις premium υπηρεσίες μας που συνδυάζουν ανθρώπινη εμπειρογνωμοσύνη και τεχνητή νοημοσύνη για χρηματοοικονομικές λύσεις που ξεπερνούν τις προσδοκίες σας.",
+        simulateBtn: "Προσομοιώστε το έργο μου",
+        requestBtn: "Εξατομικευμένη αίτηση"
+      },
+      main: {
+        title: "Οι Κύριες Υπηρεσίες Μας",
+        subtitle: "Μια πλήρης γκάμα χρηματοοικονομικών λύσεων προσαρμοσμένη σε κάθε κατάσταση",
+        featuresLabel: "Κύρια χαρακτηριστικά:",
+        useCasesLabel: "Περιπτώσεις χρήσης:",
+        learnMoreBtn: "Μάθετε περισσότερα"
+      },
+      specialized: {
+        title: "Εξειδικευμένα Προϊόντα",
+        subtitle: "Στοχευμένες λύσεις για συγκεκριμένες ανάγκες",
+        discoverBtn: "Ανακαλύψτε"
+      },
+      process: {
+        title: "Η Διαδικασία Μας",
+        subtitle: "Μια δομημένη προσέγγιση για βέλτιστα αποτελέσματα"
+      },
+      cta: {
+        title: "Έτοιμοι να υλοποιήσετε τα έργα σας;",
+        subtitle: "Οι ειδικοί μας σας συνοδεύουν στην υλοποίηση όλων των χρηματοοικονομικών σας στόχων",
+        advisorBtn: "Συναντήστε έναν σύμβουλο",
+        appointmentBtn: "Κλείστε ραντεβού",
+        phone: "Τηλέφωνο:",
+        address: "Διεύθυνση:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
+      }
+    },
+    footer: {
+      description: "Από το 1997, η Aurex K-pital συνοδεύει ιδιώτες και επιχειρήσεις στα χρηματοοικονομικά τους έργα με εμπειρογνωμοσύνη και εμπιστοσύνη.",
+      services: "Υπηρεσίες",
+      tools: "Εργαλεία",
+      company: "Εταιρεία",
+      legal: "Νομικά",
+      copyright: "© 2024 Aurex K-pital. Όλα τα δικαιώματα διατηρούνται.",
+      establishment: "Εξουσιοδοτημένο χρηματοπιστωτικό ίδρυμα - Γερμανία"
+    }
+  },
+  it: {
+    nav: {
+      home: "Home",
+      services: "Servizi",
+      simulator: "Simulatore",
+      about: "Chi siamo",
+      blog: "Blog",
+      contact: "Contatti",
+      quickRequest: "Richiesta rapida"
+    },
+    home: {
+      hero: {
+        title: "Il Tuo Partner Finanziario",
+        subtitle: "dal 1997",
+        description: "Eccellenza, innovazione e fiducia per tutti i tuoi progetti finanziari",
+        ctaBtn: "Scopri le nostre soluzioni",
+        simulateBtn: "Simula prestito"
+      },
+      services: {
+        badge: "Innovazione Finanziaria",
+        title: "Servizi",
+        subtitle: "Nuova Generazione",
+        description: "Il futuro della finanza è qui. Scopri le nostre soluzioni rivoluzionarie",
+        description2: "alimentate dall'IA",
+        description3: "e competenza umana.",
+        personalLoans: {
+          title: "Prestiti Personali",
+          description: "Soluzioni di finanziamento ultra-personalizzate con condizioni rivoluzionarie.",
+          feature1: "IA per tasso ottimale",
+          feature2: "Risposta in 2h",
+          feature3: "Flessibilità massima"
+        },
+        businessFinancing: {
+          title: "Finanziamenti Aziendali",
+          description: "Porta la tua azienda verso l'eccellenza con le nostre soluzioni innovative.",
+          feature1: "Finanziamento express",
+          feature2: "Accompagnamento esperto",
+          feature3: "Soluzioni su misura"
+        },
+        smartInvestments: {
+          title: "Investimenti Smart",
+          description: "Ottimizzazione patrimoniale con intelligenza artificiale e competenza umana.",
+          feature1: "Portfolio intelligente",
+          feature2: "Consulenza premium",
+          feature3: "Rendimento ottimizzato"
+        },
+        insurance360: {
+          title: "Assicurazioni 360°",
+          description: "Protezione totale e innovativa per tutti i tuoi progetti di vita e business.",
+          feature1: "Copertura completa",
+          feature2: "Sinistri in 24h",
+          feature3: "Supporto premium"
+        },
+        discoverBtn: "Scopri →",
+        exploreBtn: "Esplora tutti i servizi"
+      },
+      about: {
+        badge: "Pionieri da 25 anni",
+        title: "Un quarto di secolo",
+        subtitle: "di innovazione",
+        subtitle2: "finanziaria",
+        description: "Da Amburgo 1997",
+        description2: "Aurex K-pital rivoluziona l'accompagnamento finanziario combinando",
+        description3: "competenza tradizionale",
+        description4: "tecnologie all'avanguardia",
+        description5: "Il nostro approccio unico combina intelligenza artificiale, analisi predittive e consulenza umana personalizzata per soluzioni che",
+        description6: "trasformano realmente i tuoi progetti",
+        description7: "in successo.",
+        ourStoryBtn: "La Nostra Storia",
+        talkProjectBtn: "Parliamo del Progetto",
+        stats: {
+          founded: "Fondata con visione",
+          location: "Cuore d'Europa",
+          certified: "Eccellenza certificata",
+          security: "Sicurezza garantita",
+          leader: "Leader Europeo Certificato",
+          excellence: "Eccellenza riconosciuta nel finanziamento innovativo"
+        }
+      },
+      cta: {
+        title: "Pronto a concretizzare",
+        subtitle: "i tuoi progetti",
+        description: "I nostri esperti sono a tua disposizione per studiare la tua situazione e proporti le migliori soluzioni di finanziamento.",
+        requestBtn: "Fai richiesta",
+        simulateBtn: "Simula prestito",
+        contactBtn: "Contattaci",
+        phone: "Telefono:",
+        address: "Indirizzo:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+      }
+    },
+    services: {
+      hero: {
+        badge: "Innovazione Finanziaria dal 1997",
+        title: "Soluzioni Finanziarie",
+        subtitle: "Nuova Generazione",
+        description: "Scopri i nostri servizi premium che combinano competenza umana e intelligenza artificiale per soluzioni finanziarie che superano le tue aspettative.",
+        simulateBtn: "Simula il mio progetto",
+        requestBtn: "Richiesta personalizzata"
+      },
+      main: {
+        title: "I Nostri Servizi Principali",
+        subtitle: "Una gamma completa di soluzioni finanziarie adattate a ogni situazione",
+        featuresLabel: "Caratteristiche principali:",
+        useCasesLabel: "Casi d'uso:",
+        learnMoreBtn: "Scopri di più"
+      },
+      specialized: {
+        title: "Prodotti Specializzati",
+        subtitle: "Soluzioni mirate per esigenze specifiche",
+        discoverBtn: "Scopri"
+      },
+      process: {
+        title: "Il Nostro Processo",
+        subtitle: "Un approccio strutturato per risultati ottimali"
+      },
+      cta: {
+        title: "Pronto a concretizzare i tuoi progetti?",
+        subtitle: "I nostri esperti ti accompagnano nella realizzazione di tutti i tuoi obiettivi finanziari",
+        advisorBtn: "Incontra un consulente",
+        appointmentBtn: "Prenota appuntamento",
+        phone: "Telefono:",
+        address: "Indirizzo:",
+        phoneNumber: "+49 40 710 97523",
+        addressText: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+      }
+    },
+    footer: {
+      description: "Dal 1997, Aurex K-pital accompagna privati e aziende nei loro progetti finanziari con competenza e fiducia.",
+      services: "Servizi",
+      tools: "Strumenti",
+      company: "Azienda",
+      legal: "Legale",
+      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      establishment: "Istituto finanziario autorizzato - Germania"
+    }
   }
-  // ... autres langues (abrégées pour la longueur)
 };
