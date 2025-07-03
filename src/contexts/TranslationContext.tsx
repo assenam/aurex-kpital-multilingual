@@ -42,7 +42,16 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
       if (current && typeof current === 'object' && k in current) {
         current = current[k];
       } else {
-        return key;
+        // Fallback to French if translation not found
+        let fallback: any = translations.fr;
+        for (const fallbackKey of keys) {
+          if (fallback && typeof fallback === 'object' && fallbackKey in fallback) {
+            fallback = fallback[fallbackKey];
+          } else {
+            return key; // Return key if no fallback found
+          }
+        }
+        return typeof fallback === 'string' ? fallback : key;
       }
     }
     
@@ -88,6 +97,35 @@ const translations = {
       gdpr: "RGPD",
       rights: "© 2024 Aurex K-pital. Tous droits réservés."
     },
+    home: {
+      hero: {
+        title: "Votre Partenaire Financier",
+        subtitle: "depuis 1997",
+        description: "Excellence, innovation et confiance pour tous vos projets financiers",
+        ctaBtn: "Découvrir nos solutions",
+        simulateBtn: "Simuler un prêt",
+        scrollText: "Découvrir",
+        carousel: {
+          text1: "Lancez votre projet avec Aurex K-pital",
+          text2: "Obtenez un financement sans apport",
+          text3: "Investissez dès aujourd'hui dans votre avenir"
+        },
+        stats: {
+          experience: {
+            title: "Années d'excellence",
+            subtitle: "Innovation continue"
+          },
+          clients: {
+            title: "Clients conquis",
+            subtitle: "Satisfaction garantie"
+          },
+          funding: {
+            title: "Financements réalisés",
+            subtitle: "Impact transformateur"
+          }
+        }
+      }
+    },
     services: {
       personalLoan: {
         title: "Prêts Personnels",
@@ -114,6 +152,27 @@ const translations = {
         cta: "Découvrir"
       },
       explore: "Explorer tous nos services"
+    },
+    testimonials: {
+      title: "Ils nous font confiance",
+      subtitle: "Ce que disent nos clients satisfaits",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, France",
+          feedback: "Service rapide et sérieux. Mon crédit a été approuvé en 48h ! Merci Aurex K-pital."
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paris, France",
+          feedback: "Équipe professionnelle, plateforme claire et un accompagnement vraiment personnalisé."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, France",
+          feedback: "Le simulateur était très clair et j'ai obtenu de meilleures conditions qu'à ma banque."
+        }
+      ]
     }
   },
   de: {
@@ -138,6 +197,35 @@ const translations = {
       mentions: "Impressum",
       gdpr: "DSGVO",
       rights: "© 2024 Aurex K-pital. Alle Rechte vorbehalten."
+    },
+    home: {
+      hero: {
+        title: "Ihr Finanzpartner",
+        subtitle: "seit 1997",
+        description: "Exzellenz, Innovation und Vertrauen für all Ihre Finanzprojekte",
+        ctaBtn: "Unsere Lösungen entdecken",
+        simulateBtn: "Kredit simulieren",
+        scrollText: "Entdecken",
+        carousel: {
+          text1: "Starten Sie Ihr Projekt mit Aurex K-pital",
+          text2: "Erhalten Sie Finanzierung ohne Eigenkapital",
+          text3: "Investieren Sie heute in Ihre Zukunft"
+        },
+        stats: {
+          experience: {
+            title: "Jahre der Exzellenz",
+            subtitle: "Kontinuierliche Innovation"
+          },
+          clients: {
+            title: "Zufriedene Kunden",
+            subtitle: "Garantierte Zufriedenheit"
+          },
+          funding: {
+            title: "Realisierte Finanzierungen",
+            subtitle: "Transformative Wirkung"
+          }
+        }
+      }
     },
     services: {
       personalLoan: {
@@ -165,6 +253,27 @@ const translations = {
         cta: "Entdecken"
       },
       explore: "Alle unsere Services entdecken"
+    },
+    testimonials: {
+      title: "Vertrauen Sie uns",
+      subtitle: "Was unsere zufriedenen Kunden sagen",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Frankreich",
+          feedback: "Schneller und seriöser Service. Mein Kredit wurde in 48 Stunden genehmigt. Danke Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paris, Frankreich",
+          feedback: "Professionelles Team, einfache Plattform und wirklich individuelle Betreuung."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, Frankreich",
+          feedback: "Der Simulator war sehr klar, und ich erhielt bessere Konditionen als bei meiner Bank."
+        }
+      ]
     }
   },
   es: {
@@ -189,6 +298,35 @@ const translations = {
       mentions: "Aviso legal",
       gdpr: "RGPD",
       rights: "© 2024 Aurex K-pital. Todos los derechos reservados."
+    },
+    home: {
+      hero: {
+        title: "Su Socio Financiero",
+        subtitle: "desde 1997",
+        description: "Excelencia, innovación y confianza para todos sus proyectos financieros",
+        ctaBtn: "Descubrir nuestras soluciones",
+        simulateBtn: "Simular un préstamo",
+        scrollText: "Descubrir",
+        carousel: {
+          text1: "Lance su proyecto con Aurex K-pital",
+          text2: "Obtenga financiación sin aporte",
+          text3: "Invierta hoy en su futuro"
+        },
+        stats: {
+          experience: {
+            title: "Años de excelencia",
+            subtitle: "Innovación continua"
+          },
+          clients: {
+            title: "Clientes satisfechos",
+            subtitle: "Satisfacción garantizada"
+          },
+          funding: {
+            title: "Financiaciones realizadas",
+            subtitle: "Impacto transformador"
+          }
+        }
+      }
     },
     services: {
       personalLoan: {
@@ -216,6 +354,27 @@ const translations = {
         cta: "Descubrir"
       },
       explore: "Explorar todos nuestros servicios"
+    },
+    testimonials: {
+      title: "Confían en nosotros",
+      subtitle: "Lo que dicen nuestros clientes satisfechos",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Francia",
+          feedback: "Servicio rápido y confiable. ¡Mi crédito fue aprobado en 48 horas! Gracias Aurex K-pital."
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "París, Francia",
+          feedback: "Equipo profesional, plataforma clara y una atención realmente personalizada."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, Francia",
+          feedback: "El simulador fue muy claro y obtuve mejores condiciones que en mi banco."
+        }
+      ]
     }
   },
   it: {
@@ -240,6 +399,35 @@ const translations = {
       mentions: "Note legali",
       gdpr: "GDPR",
       rights: "© 2024 Aurex K-pital. Tutti i diritti riservati."
+    },
+    home: {
+      hero: {
+        title: "Il tuo Partner Finanziario",
+        subtitle: "dal 1997",
+        description: "Eccellenza, innovazione e fiducia per tutti i tuoi progetti finanziari",
+        ctaBtn: "Scopri le nostre soluzioni",
+        simulateBtn: "Simula un prestito",
+        scrollText: "Scopri",
+        carousel: {
+          text1: "Lancia il tuo progetto con Aurex K-pital",
+          text2: "Ottieni finanziamenti senza anticipo",
+          text3: "Investi oggi nel tuo futuro"
+        },
+        stats: {
+          experience: {
+            title: "Anni di eccellenza",
+            subtitle: "Innovazione continua"
+          },
+          clients: {
+            title: "Clienti soddisfatti",
+            subtitle: "Soddisfazione garantita"
+          },
+          funding: {
+            title: "Finanziamenti realizzati",
+            subtitle: "Impatto trasformativo"
+          }
+        }
+      }
     },
     services: {
       personalLoan: {
@@ -267,6 +455,27 @@ const translations = {
         cta: "Scopri"
       },
       explore: "Esplora tutti i nostri servizi"
+    },
+    testimonials: {
+      title: "Ci danno fiducia",
+      subtitle: "Cosa dicono i nostri clienti soddisfatti",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lione, Francia",
+          feedback: "Servizio veloce e professionale. Il mio prestito è stato approvato in 48 ore. Grazie Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Parigi, Francia",
+          feedback: "Team competente, interfaccia semplice e assistenza davvero personalizzata."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Tolosa, Francia",
+          feedback: "Il simulatore è chiaro e ho ottenuto condizioni migliori rispetto alla mia banca."
+        }
+      ]
     }
   },
   pl: {
@@ -291,6 +500,35 @@ const translations = {
       mentions: "Informacje prawne",
       gdpr: "RODO",
       rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone."
+    },
+    home: {
+      hero: {
+        title: "Twój Partner Finansowy",
+        subtitle: "od 1997",
+        description: "Doskonałość, innowacyjność i zaufanie dla wszystkich Twoich projektów finansowych",
+        ctaBtn: "Odkryj nasze rozwiązania",
+        simulateBtn: "Symuluj kredyt",
+        scrollText: "Odkryj",
+        carousel: {
+          text1: "Rozpocznij swój projekt z Aurex K-pital",
+          text2: "Uzyskaj finansowanie bez wkładu własnego",
+          text3: "Inwestuj już dziś w swoją przyszłość"
+        },
+        stats: {
+          experience: {
+            title: "Lat doskonałości",
+            subtitle: "Ciągła innowacja"
+          },
+          clients: {
+            title: "Zadowolonych klientów",
+            subtitle: "Gwarantowane zadowolenie"
+          },
+          funding: {
+            title: "Zrealizowanych finansowań",
+            subtitle: "Transformacyjny wpływ"
+          }
+        }
+      }
     },
     services: {
       personalLoan: {
@@ -318,6 +556,27 @@ const translations = {
         cta: "Odkryj"
       },
       explore: "Poznaj wszystkie nasze usługi"
+    },
+    testimonials: {
+      title: "Zaufali nam",
+      subtitle: "Opinie naszych zadowolonych klientów",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Francja",
+          feedback: "Szybka i rzetelna obsługa. Mój kredyt został zatwierdzony w 48 godzin. Dziękuję Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paryż, Francja",
+          feedback: "Profesjonalny zespół, przejrzysty interfejs i naprawdę spersonalizowane wsparcie."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Tuluza, Francja",
+          feedback: "Symulator był bardzo przejrzysty, a warunki lepsze niż w moim banku."
+        }
+      ]
     }
   },
   fi: {
@@ -342,6 +601,35 @@ const translations = {
       mentions: "Oikeudellinen ilmoitus",
       gdpr: "GDPR",
       rights: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään."
+    },
+    home: {
+      hero: {
+        title: "Rahoituskumppanisi",
+        subtitle: "vuodesta 1997",
+        description: "Huippuosaamista, innovaatiota ja luottamusta kaikkiin rahoitusprojekteihisi",
+        ctaBtn: "Tutustu ratkaisuihimme",
+        simulateBtn: "Simuloi laina",
+        scrollText: "Tutustu",
+        carousel: {
+          text1: "Käynnistä projektisi Aurex K-pitalin kanssa",
+          text2: "Hanki rahoitus ilman omarahoitusta",
+          text3: "Sijoita tänään tulevaisuuteesi"
+        },
+        stats: {
+          experience: {
+            title: "Vuotta huippuosaamista",
+            subtitle: "Jatkuva innovaatio"
+          },
+          clients: {
+            title: "Tyytyväistä asiakasta",
+            subtitle: "Taattu tyytyväisyys"
+          },
+          funding: {
+            title: "Toteutettua rahoitusta",
+            subtitle: "Muutosvaikutus"
+          }
+        }
+      }
     },
     services: {
       personalLoan: {
@@ -369,6 +657,27 @@ const translations = {
         cta: "Tutustu"
       },
       explore: "Tutustu kaikkiin palveluihimme"
+    },
+    testimonials: {
+      title: "Asiakkaamme luottavat meihin",
+      subtitle: "Tyytyväisten asiakkaidemme palautteet",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Ranska",
+          feedback: "Nopea ja luotettava palvelu. Lainani hyväksyttiin 48 tunnissa. Kiitos Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Pariisi, Ranska",
+          feedback: "Ammattimainen tiimi, helppo käyttöliittymä ja yksilöllinen tuki."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, Ranska",
+          feedback: "Laskuri oli selkeä ja sain paremmat ehdot kuin pankistani."
+        }
+      ]
     }
   },
   pt: {
@@ -393,6 +702,35 @@ const translations = {
       mentions: "Informações legais",
       gdpr: "RGPD",
       rights: "© 2024 Aurex K-pital. Todos os direitos reservados."
+    },
+    home: {
+      hero: {
+        title: "Seu Parceiro Financeiro",
+        subtitle: "desde 1997",
+        description: "Excelência, inovação e confiança para todos os seus projetos financeiros",
+        ctaBtn: "Descobrir nossas soluções",
+        simulateBtn: "Simular um empréstimo",
+        scrollText: "Descobrir",
+        carousel: {
+          text1: "Lance o seu projeto com a Aurex K-pital",
+          text2: "Obtenha financiamento sem entrada",
+          text3: "Invista hoje no seu futuro"
+        },
+        stats: {
+          experience: {
+            title: "Anos de excelência",
+            subtitle: "Inovação contínua"
+          },
+          clients: {
+            title: "Clientes satisfeitos",
+            subtitle: "Satisfação garantida"
+          },
+          funding: {
+            title: "Financiamentos realizados",
+            subtitle: "Impacto transformador"
+          }
+        }
+      }
     },
     services: {
       personalLoan: {
@@ -420,6 +758,27 @@ const translations = {
         cta: "Descobrir"
       },
       explore: "Explorar todos os nossos serviços"
+    },
+    testimonials: {
+      title: "Confiam em nós",
+      subtitle: "O que dizem os nossos clientes satisfeitos",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, França",
+          feedback: "Serviço rápido e sério. O meu crédito foi aprovado em 48h! Obrigado Aurex K-pital."
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paris, França",
+          feedback: "Equipa profissional, plataforma clara e um acompanhamento verdadeiramente personalizado."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, França",
+          feedback: "O simulador foi muito claro e obtive melhores condições que no meu banco."
+        }
+      ]
     }
   },
   el: {
@@ -445,101 +804,33 @@ const translations = {
       gdpr: "GDPR",
       rights: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος."
     },
-    simulator: {
-      title: "Υπολογιστής Δανείου",
-      subtitle: "Υπολογίστε τη μηνιαία δόση σας με λίγα κλικ",
-      form: {
-        loanType: "Τύπος δανείου",
-        amount: "Επιθυμητό ποσό (€)",
-        duration: "Διάρκεια (μήνες)",
-        calculate: "Υπολογισμός",
-        reset: "Επαναφορά"
-      },
-      result: {
-        monthlyPayment: "Εκτιμώμενη μηνιαία δόση",
-        totalRepayment: "Συνολικό ποσό αποπληρωμής",
-        interestRate: "Εκτιμώμενο επιτόκιο",
-        disclaimer: "Μη δεσμευτική εκτίμηση."
-      }
-    },
-    testimonials: {
-      title: "Μας εμπιστεύονται",
-      subtitle: "Τι λένε οι ικανοποιημένοι πελάτες μας",
-      clients: [
-        {
-          name: "Jean-Marc Rousseau",
-          location: "Λυών, Γαλλία",
-          feedback: "Γρήγορη και αξιόπιστη εξυπηρέτηση. Το δάνειό μου εγκρίθηκε σε 48 ώρες. Ευχαριστώ Aurex K-pital!"
+    home: {
+      hero: {
+        title: "Ο Χρηματοοικονομικός σας Εταίρος",
+        subtitle: "από το 1997",
+        description: "Αριστεία, καινοτομία και εμπιστοσύνη για όλα τα χρηματοοικονομικά σας έργα",
+        ctaBtn: "Ανακαλύψτε τις λύσεις μας",
+        simulateBtn: "Προσομοιώστε ένα δάνειο",
+        scrollText: "Ανακαλύψτε",
+        carousel: {
+          text1: "Ξεκινήστε το έργο σας με την Aurex K-pital",
+          text2: "Αποκτήστε χρηματοδότηση χωρίς προκαταβολή",
+          text3: "Επενδύστε σήμερα στο μέλλον σας"
         },
-        {
-          name: "Amélie Blanchard",
-          location: "Παρίσι, Γαλλία",
-          feedback: "Επαγγελματική ομάδα, απλό περιβάλλον και πραγματικά εξατομικευμένη υποστήριξη."
-        },
-        {
-          name: "Thomas Bonnet",
-          location: "Τουλούζη, Γαλλία",
-          feedback: "Ο υπολογιστής ήταν ξεκάθαρος και πήρα καλύτερους όρους από την τράπεζά μου."
+        stats: {
+          experience: {
+            title: "Χρόνια αριστείας",
+            subtitle: "Συνεχής καινοτομία"
+          },
+          clients: {
+            title: "Ικανοποιημένοι πελάτες",
+            subtitle: "Εγγυημένη ικανοποίηση"
+          },
+          funding: {
+            title: "Πραγματοποιημένες χρηματοδοτήσεις",
+            subtitle: "Μεταμορφωτικός αντίκτυπος"
+          }
         }
-      ]
-    },
-    loanRequest: {
-      title: "Υποβολή αίτησης δανείου",
-      subtitle: "Συμπληρώστε τη φόρμα για να ξεκινήσετε την αίτησή σας",
-      form: {
-        fullName: "Ονοματεπώνυμο",
-        email: "Ηλεκτρονικό ταχυδρομείο",
-        phone: "Τηλέφωνο",
-        loanType: "Τύπος δανείου",
-        amount: "Αιτούμενο ποσό (€)",
-        duration: "Επιθυμητή διάρκεια (μήνες)",
-        message: "Μήνυμα ή σημείωση (προαιρετικά)",
-        submit: "Υποβολή αίτησης",
-        success: "Η αίτηση υποβλήθηκε επιτυχώς. Θα επικοινωνήσουμε μαζί σας εντός 24 ωρών."
-      }
-    },
-    careers: {
-      title: "Γίνε μέλος της ομάδας μας",
-      subtitle: "Δημιουργούμε το μέλλον των χρηματοοικονομικών στην Ευρώπη",
-      intro: "Η Aurex K-pital αναζητά φιλόδοξα άτομα με πάθος για το fintech, την καινοτομία και την εξυπηρέτηση πελατών.",
-      positions: [
-        {
-          title: "Οικονομικός σύμβουλος",
-          location: "Παρίσι ή απομακρυσμένα",
-          type: "Πλήρης απασχόληση",
-          apply: "Αίτηση"
-        },
-        {
-          title: "Υπεύθυνος συνεργασιών",
-          location: "Λισαβόνα ή απομακρυσμένα",
-          type: "Freelance",
-          apply: "Αίτηση"
-        }
-      ],
-      cta: "Προβολή διαθέσιμων θέσεων"
-    },
-    partners: {
-      title: "Οι συνεργάτες μας",
-      subtitle: "Αξιόπιστοι φορείς στον χρηματοοικονομικό και τεχνολογικό τομέα",
-      logosTitle: "Συνεργάζονται μαζί μας",
-      cta: "Γίνε συνεργάτης"
-    },
-    legal: {
-      mentions: {
-        title: "Νομική ειδοποίηση",
-        content: "Η Aurex K-pital είναι εταιρεία εγγεγραμμένη στην Ευρωπαϊκή Ένωση. Όλες οι νομικές πληροφορίες είναι διαθέσιμες κατόπιν αιτήματος."
-      },
-      privacy: {
-        title: "Πολιτική απορρήτου",
-        content: "Σεβόμαστε το απόρρητό σας. Διαβάστε την πλήρη πολιτική μας εδώ."
-      },
-      terms: {
-        title: "Όροι χρήσης",
-        content: "Η χρήση του ιστότοπου προϋποθέτει αποδοχή των όρων."
-      },
-      gdpr: {
-        title: "Προστασία δεδομένων (GDPR)",
-        content: "Σύμφωνα με τον GDPR, έχετε δικαίωμα πρόσβασης, διόρθωσης και διαγραφής των προσωπικών σας δεδομένων."
       }
     },
     services: {
@@ -568,6 +859,27 @@ const translations = {
         cta: "Ανακάλυψε"
       },
       explore: "Εξερευνήστε όλες τις υπηρεσίες μας"
+    },
+    testimonials: {
+      title: "Μας εμπιστεύονται",
+      subtitle: "Τι λένε οι ικανοποιημένοι πελάτες μας",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Λυών, Γαλλία",
+          feedback: "Γρήγορη και αξιόπιστη εξυπηρέτηση. Το δάνειό μου εγκρίθηκε σε 48 ώρες. Ευχαριστώ Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Παρίσι, Γαλλία",
+          feedback: "Επαγγελματική ομάδα, απλό περιβάλλον και πραγματικά εξατομικευμένη υποστήριξη."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Τουλούζη, Γαλλία",
+          feedback: "Ο υπολογιστής ήταν ξεκάθαρος και πήρα καλύτερους όρους από την τράπεζά μου."
+        }
+      ]
     }
   }
 };
