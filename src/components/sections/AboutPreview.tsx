@@ -4,18 +4,19 @@ import { Link } from 'react-router-dom';
 import { useScrollAnimation, useParallax } from '@/hooks/useScrollAnimation';
 import { useTranslation } from '@/contexts/TranslationContext';
 import { Calendar, Globe, FileText, Shield, Trophy, Target, MessageCircle } from 'lucide-react';
+import { useMemo } from 'react';
 
 const AboutPreview = () => {
   const { visibleElements } = useScrollAnimation();
   const offsetY = useParallax();
   const { t } = useTranslation();
 
-  const stats = [
+  const stats = useMemo(() => [
     { value: "1997", label: t('home.about.stats.founded'), icon: Calendar, gradient: "from-blue-500 to-indigo-600" },
     { value: "Hamburg", label: t('home.about.stats.location'), icon: Globe, gradient: "from-emerald-500 to-teal-600" },
     { value: "HRB 80635", label: t('home.about.stats.certified'), icon: FileText, gradient: "from-purple-500 to-violet-600" },
     { value: "DE00976259", label: t('home.about.stats.security'), icon: Shield, gradient: "from-amber-500 to-orange-600" }
-  ];
+  ], [t]);
 
   return (
     <section className="py-32 relative overflow-hidden bg-gradient-elegant">

@@ -3,7 +3,7 @@ import { Card } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
 import { ArrowDown, Sparkles, TrendingUp } from 'lucide-react';
 import { useParallax } from '@/hooks/useScrollAnimation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Hero = () => {
@@ -11,11 +11,11 @@ const Hero = () => {
   const offsetY = useParallax();
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
-  const texts = [
+  const texts = useMemo(() => [
     t('home.hero.carousel.text1'),
     t('home.hero.carousel.text2'),
     t('home.hero.carousel.text3')
-  ];
+  ], [t]);
 
   useEffect(() => {
     const interval = setInterval(() => {
