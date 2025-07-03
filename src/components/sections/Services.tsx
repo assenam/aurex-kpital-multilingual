@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { useState } from 'react';
 import { Gem, Building2, TrendingUp, Shield, Sparkles, Target } from 'lucide-react';
-import { useTranslationLogic } from '@/hooks/useTranslation';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Services = () => {
   const { visibleElements } = useScrollAnimation();
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
-  const { t } = useTranslationLogic();
+  const { t } = useTranslation();
 
   const services = [
     {

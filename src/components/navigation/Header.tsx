@@ -4,10 +4,10 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, ChevronDown } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
-import { useTranslationLogic } from '@/hooks/useTranslation';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Header = () => {
-  const { t } = useTranslationLogic();
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { useTranslationLogic } from '@/hooks/useTranslation';
+import { useTranslation } from '@/contexts/TranslationContext';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -21,7 +21,7 @@ const languages = [
 ];
 
 export const LanguageSelector = () => {
-  const { language, changeLanguage } = useTranslationLogic();
+  const { language, changeLanguage } = useTranslation();
   const [currentLang, setCurrentLang] = useState(() => {
     return languages.find(lang => lang.code === language) || languages[0];
   });

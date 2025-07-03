@@ -4,7 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { LoadingOverlay } from "@/components/ui/loading-overlay";
-import { useTranslationLogic } from "@/hooks/useTranslation";
+import { TranslationProvider, useTranslation } from "@/contexts/TranslationContext";
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
@@ -21,8 +21,8 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-const App = () => {
-  const { isLoading } = useTranslationLogic();
+const AppContent = () => {
+  const { isLoading } = useTranslation();
   
   return (
     <QueryClientProvider client={queryClient}>
@@ -52,5 +52,11 @@ const App = () => {
   </QueryClientProvider>
   );
 };
+
+const App = () => (
+  <TranslationProvider>
+    <AppContent />
+  </TranslationProvider>
+);
 
 export default App;
