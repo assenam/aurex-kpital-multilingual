@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const CTA = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className="py-20 bg-gradient-primary relative overflow-hidden">
       {/* Background Pattern */}
@@ -16,14 +18,13 @@ const CTA = () => {
         <Card className="glass-card border-primary-foreground/30 max-w-4xl mx-auto shadow-hover hover-lift">
           <CardContent className="p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
-              Prêt à concrétiser 
-              <span className="gradient-text"> vos projets </span>
-              ?
+              {t('home.cta.title')} 
+              <span className="gradient-text"> {t('home.cta.titleHighlight')} </span>
+              {t('home.cta.titleEnd')}
             </h2>
             
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Nos experts sont à votre disposition pour étudier votre situation 
-              et vous proposer les meilleures solutions de financement.
+              {t('home.cta.description')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -32,7 +33,7 @@ const CTA = () => {
                 className="bg-gradient-gold hover:shadow-gold text-primary font-semibold px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
                 asChild
               >
-                <Link to="/demande">Faire une demande</Link>
+                <Link to="/demande">{t('home.cta.buttons.request')}</Link>
               </Button>
               
               <Button 
@@ -41,7 +42,7 @@ const CTA = () => {
                 className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 text-lg backdrop-blur btn-magnetic"
                 asChild
               >
-                <Link to="/simulateur">Simuler un prêt</Link>
+                <Link to="/simulateur">{t('home.cta.buttons.simulate')}</Link>
               </Button>
               
               <Button 
@@ -50,17 +51,17 @@ const CTA = () => {
                 className="text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 text-lg hover-glow"
                 asChild
               >
-                <Link to="/contact">Nous contacter</Link>
+                <Link to="/contact">{t('home.cta.buttons.contact')}</Link>
               </Button>
             </div>
 
             {/* Contact Info */}
             <div className="mt-8 pt-8 border-t border-primary-foreground/20">
               <p className="text-primary-foreground/80 mb-2">
-                <strong className="text-gold">Téléphone :</strong> +49 40 710 97523
+                <strong className="text-gold">{t('home.cta.contact.phone')}:</strong> +49 40 710 97523
               </p>
               <p className="text-primary-foreground/80">
-                <strong className="text-gold">Adresse :</strong> Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne
+                <strong className="text-gold">{t('home.cta.contact.address')}:</strong> {t('home.cta.contact.addressValue')}
               </p>
             </div>
           </CardContent>

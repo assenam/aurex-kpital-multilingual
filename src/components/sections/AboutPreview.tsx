@@ -8,12 +8,13 @@ import { Calendar, Globe, FileText, Shield, Trophy, Target, MessageCircle } from
 const AboutPreview = () => {
   const { visibleElements } = useScrollAnimation();
   const offsetY = useParallax();
+  const { t } = useTranslation();
 
   const stats = [
-    { value: "1997", label: "Fondée avec vision", icon: Calendar, gradient: "from-blue-500 to-indigo-600" },
-    { value: "Hamburg", label: "Cœur de l'Europe", icon: Globe, gradient: "from-emerald-500 to-teal-600" },
-    { value: "HRB 80635", label: "Excellence certifiée", icon: FileText, gradient: "from-purple-500 to-violet-600" },
-    { value: "DE00976259", label: "Sécurité garantie", icon: Shield, gradient: "from-amber-500 to-orange-600" }
+    { value: "1997", label: t('home.about.stats.founded'), icon: Calendar, gradient: "from-blue-500 to-indigo-600" },
+    { value: "Hamburg", label: t('home.about.stats.location'), icon: Globe, gradient: "from-emerald-500 to-teal-600" },
+    { value: "HRB 80635", label: t('home.about.stats.certified'), icon: FileText, gradient: "from-purple-500 to-violet-600" },
+    { value: "DE00976259", label: t('home.about.stats.security'), icon: Shield, gradient: "from-amber-500 to-orange-600" }
   ];
 
   return (
@@ -40,28 +41,27 @@ const AboutPreview = () => {
             <div className="inline-block mb-6">
               <span className="px-6 py-3 glass-card text-primary font-semibold text-sm tracking-wide uppercase rounded-full flex items-center gap-2">
                 <Target className="h-4 w-4" />
-                Pionniers depuis 25 ans
+                {t('home.about.badge')}
               </span>
             </div>
 
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight">
-              Un quart de siècle 
-              <span className="gradient-text block">d'innovation</span>
-              <span className="text-accent">financière</span>
+              {t('home.about.title')} 
+              <span className="gradient-text block">{t('home.about.subtitle')}</span>
+              <span className="text-accent">{t('home.about.subtitle2')}</span>
             </h2>
             
             <div className="space-y-6 text-lg leading-relaxed">
               <p className="text-muted-foreground">
-                <span className="text-accent font-semibold">Depuis Hamburg 1997</span>, 
-                Aurex K-pital révolutionne l'accompagnement financier en combinant 
-                <span className="text-primary font-semibold"> expertise traditionnelle</span> et 
-                <span className="gradient-text font-semibold"> technologies de pointe</span>.
+                <span className="text-accent font-semibold">{t('home.about.description1.highlight')}</span>
+                {t('home.about.description1.text')}
+                <span className="text-primary font-semibold"> {t('home.about.description1.expertise')}</span> {t('home.about.description1.and')} 
+                <span className="gradient-text font-semibold"> {t('home.about.description1.technology')}</span>.
               </p>
 
               <p className="text-muted-foreground">
-                Notre approche unique allie intelligence artificielle, analyses prédictives 
-                et conseil humain personnalisé pour des solutions qui transforment 
-                <span className="text-accent font-semibold"> réellement vos projets</span> en succès.
+                {t('home.about.description2.text')}
+                <span className="text-accent font-semibold"> {t('home.about.description2.highlight')}</span> {t('home.about.description2.success')}.
               </p>
             </div>
 
@@ -73,7 +73,7 @@ const AboutPreview = () => {
               >
                 <Link to="/a-propos" className="flex items-center gap-2">
                   <Target className="h-5 w-5" />
-                  Notre Histoire
+                  {t('home.about.buttons.history')}
                 </Link>
               </Button>
               
@@ -84,7 +84,7 @@ const AboutPreview = () => {
               >
                 <Link to="/contact" className="flex items-center gap-2">
                   <MessageCircle className="h-5 w-5" />
-                  Parlons Projet
+                  {t('home.about.buttons.contact')}
                 </Link>
               </Button>
             </div>
@@ -135,10 +135,10 @@ const AboutPreview = () => {
                 <Trophy className="h-8 w-8 text-gold" />
               </div>
               <div className="text-lg font-semibold text-primary mb-2">
-                Leader Européen Certifié
+                {t('home.about.trust.title')}
               </div>
               <div className="text-sm text-muted-foreground">
-                Excellence reconnue en financement innovant
+                {t('home.about.trust.description')}
               </div>
             </div>
           </div>
