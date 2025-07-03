@@ -24,6 +24,7 @@ const Request = () => {
     phone: '',
     birthDate: '',
     nationality: '',
+    otherNationality: '',
     maritalStatus: '',
     dependents: '',
     
@@ -313,6 +314,20 @@ const Request = () => {
                             <SelectItem value="autre">Autre nationalité</SelectItem>
                           </SelectContent>
                         </Select>
+                        
+                        {/* Champ conditionnel pour autre nationalité */}
+                        {formData.nationality === 'autre' && (
+                          <div className="mt-3">
+                            <Label htmlFor="otherNationality">Précisez votre nationalité</Label>
+                            <Input
+                              id="otherNationality"
+                              value={formData.otherNationality}
+                              onChange={(e) => updateFormData('otherNationality', e.target.value)}
+                              placeholder="Ex: Japonaise, Australienne, Marocaine..."
+                              required={formData.nationality === 'autre'}
+                            />
+                          </div>
+                        )}
                       </div>
                       <div>
                         <Label htmlFor="maritalStatus">Situation familiale</Label>
