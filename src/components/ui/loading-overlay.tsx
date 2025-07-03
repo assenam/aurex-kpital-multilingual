@@ -11,11 +11,11 @@ export const LoadingOverlay = ({ isVisible, onComplete }: LoadingOverlayProps) =
   useEffect(() => {
     if (isVisible) {
       setIsAnimating(true);
-      // Animation complète après 1.5 secondes
+      // Animation complète après 300ms
       const timer = setTimeout(() => {
         setIsAnimating(false);
         onComplete?.();
-      }, 1500);
+      }, 300);
       
       return () => clearTimeout(timer);
     }
@@ -50,7 +50,7 @@ export const LoadingOverlay = ({ isVisible, onComplete }: LoadingOverlayProps) =
           <div 
             className="h-full bg-gradient-gold animate-shimmer rounded-full"
             style={{
-              animation: 'shimmer 1.5s ease-in-out'
+              animation: 'shimmer 0.3s ease-in-out'
             }}
           />
         </div>

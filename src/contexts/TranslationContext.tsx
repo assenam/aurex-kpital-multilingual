@@ -24,12 +24,12 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
 
   const changeLanguage = (newLanguage: Language) => {
     setIsLoading(true);
-    // Simulation du temps de chargement pour l'animation
+    // Animation courte pour le changement de langue
     setTimeout(() => {
       setLanguage(newLanguage);
       localStorage.setItem('preferredLanguage', newLanguage);
       setIsLoading(false);
-    }, 1500);
+    }, 300); // Réduit de 1500ms à 300ms
   };
   
   const t = (key: string): string => {
