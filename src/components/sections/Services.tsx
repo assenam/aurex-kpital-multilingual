@@ -11,7 +11,7 @@ const Services = () => {
   const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const { t } = useTranslation();
 
-  const services = useMemo(() => [
+  const services = [
     {
       title: t('services.personalLoan.title'),
       description: t('services.personalLoan.description'),
@@ -64,7 +64,7 @@ const Services = () => {
       gradient: "from-rose-500 to-pink-600",
       bgColor: "bg-gradient-to-br from-rose-50 to-pink-50"
     }
-  ], [t]);
+  ];
 
   return (
     <section className="py-32 relative overflow-hidden bg-gradient-section">
