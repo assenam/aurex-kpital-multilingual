@@ -20,18 +20,13 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
   const [language, setLanguage] = useState<Language>(() => {
     return (localStorage.getItem('preferredLanguage') as Language) || 'fr';
   });
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading] = useState(false);
 
   const changeLanguage = (newLanguage: Language) => {
     if (newLanguage === language) return;
     
-    setIsLoading(true);
     setLanguage(newLanguage);
     localStorage.setItem('preferredLanguage', newLanguage);
-    
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 200);
   };
   
   const t = (key: string): string => {
