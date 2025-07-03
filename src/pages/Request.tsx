@@ -14,8 +14,10 @@ import {
   Phone, Euro, Calendar, Building, MapPin, Briefcase, GraduationCap,
   AlertCircle, Sparkles, Users, Target
 } from 'lucide-react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Request = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     // Informations personnelles
     firstName: '',
