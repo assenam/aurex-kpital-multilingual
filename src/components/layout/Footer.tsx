@@ -33,9 +33,9 @@ const Footer = () => {
       title: "Légal",
       links: [
         { name: "Mentions légales", href: "/mentions-legales" },
-        { name: "Politique de confidentialité", href: "/confidentialite" },
-        { name: "Conditions générales", href: "/cgv" },
-        { name: "RGPD", href: "/rgpd" }
+        { name: "Politique de confidentialité", href: "/mentions-legales#privacy" },
+        { name: "Conditions générales", href: "/mentions-legales#terms" },
+        { name: "RGPD", href: "/mentions-legales#gdpr" }
       ]
     }
   ];
