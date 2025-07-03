@@ -99,27 +99,20 @@ const AboutPreview = () => {
                 <Card 
                   key={stat.label} 
                   className={`
-                    group tilt-card hover-lift p-8 text-center transition-all duration-500 border-0 overflow-hidden
-                    bg-gradient-to-br from-background/80 to-secondary/30 backdrop-blur-sm
+                    group tilt-card hover-lift p-6 text-center transition-all duration-500 border overflow-hidden
+                    bg-background/95 backdrop-blur-sm shadow-elegant hover:shadow-hover
+                    border-border/50 hover:border-primary/20
                   `}
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
-                  {/* Gradient Overlay */}
-                  <div className={`
-                    absolute inset-0 bg-gradient-to-r ${stat.gradient} opacity-0 group-hover:opacity-5 transition-opacity duration-500
-                  `}></div>
-                  
                   <CardContent className="p-0 relative z-10">
                     <div className="mb-4 group-hover:animate-glow transition-all duration-300 flex justify-center">
-                      <stat.icon className="h-10 w-10 text-primary" />
+                      <stat.icon className="h-8 w-8 text-primary group-hover:text-accent transition-colors duration-300" />
                     </div>
-                    <div className={`
-                      text-2xl md:text-3xl font-bold mb-3 transition-all duration-300
-                      bg-gradient-to-r ${stat.gradient} bg-clip-text text-transparent
-                    `}>
+                    <div className="text-xl md:text-2xl font-bold mb-2 text-primary group-hover:text-accent transition-colors duration-300">
                       {stat.value}
                     </div>
-                    <div className="text-sm text-muted-foreground font-medium">
+                    <div className="text-xs text-muted-foreground font-medium leading-tight">
                       {stat.label}
                     </div>
                   </CardContent>
