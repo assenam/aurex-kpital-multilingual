@@ -59,7 +59,7 @@ const Hero = () => {
                 data-scroll-id="hero-carousel-text"
                 style={{ transform: `translateY(${offsetY * 0.2}px)` }}
               >
-                <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-primary-foreground mb-6 leading-tight animate-fade-in-out">
+                <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-gold mb-6 leading-tight animate-fade-in-out drop-shadow-2xl">
                   {texts[currentTextIndex]}
                 </h1>
               </div>
