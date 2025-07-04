@@ -159,7 +159,30 @@ const translations = {
       description: "Votre partenaire financier de confiance depuis 1997. Excellence, innovation et expertise pour tous vos projets financiers en Europe.",
       services: "Services",
       copyright: "© 2024 Aurex K-pital. Tous droits réservés.",
-      establishment: "Établissement financier agréé en Europe"
+      establishment: "Établissement financier agréé en Europe",
+      links: {
+        personalLoans: "Prêts personnels",
+        proFinancing: "Financements pro",
+        investments: "Investissements",
+        insurance: "Assurances",
+        simulator: "Simulateur de prêt",
+        request: "Demande de financement",
+        faq: "FAQ",
+        contact: "Contact",
+        about: "À propos",
+        partners: "Nos partenaires",
+        careers: "Carrières",
+        blog: "Blog",
+        legal: "Mentions légales",
+        privacy: "Politique de confidentialité",
+        terms: "Conditions générales",
+        gdpr: "RGPD"
+      }
+    },
+    partners: {
+      title: "Nos Partenaires de Confiance",
+      description: "Un réseau d'excellence européen pour vous offrir les meilleures solutions financières",
+      stats: "Plus de 25 partenaires européens • 27 pays couverts • 2.5Md€ de volume traité"
     },
     home: {
       hero: {
@@ -320,7 +343,30 @@ const translations = {
       description: "Ihr vertrauensvoller Finanzpartner seit 1997. Exzellenz, Innovation und Expertise für all Ihre Finanzprojekte in Europa.",
       services: "Dienstleistungen",
       copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
-      establishment: "Lizenzierte Finanzinstitution in Europa"
+      establishment: "Lizenzierte Finanzinstitution in Europa",
+      links: {
+        personalLoans: "Privatkredite",
+        proFinancing: "Unternehmensfinanzierung",
+        investments: "Investitionen",
+        insurance: "Versicherungen",
+        simulator: "Kreditrechner",
+        request: "Finanzierungsanfrage",
+        faq: "FAQ",
+        contact: "Kontakt",
+        about: "Über uns",
+        partners: "Unsere Partner",
+        careers: "Karriere",
+        blog: "Blog",
+        legal: "Impressum",
+        privacy: "Datenschutzrichtlinie",
+        terms: "Allgemeine Geschäftsbedingungen",
+        gdpr: "DSGVO"
+      }
+    },
+    partners: {
+      title: "Unsere Vertrauenspartner",
+      description: "Ein europäisches Exzellenznetzwerk für die besten Finanzlösungen",
+      stats: "Über 25 europäische Partner • 27 abgedeckte Länder • 2,5 Mrd€ Handelsvolumen"
     },
     home: {
       hero: {
@@ -481,7 +527,30 @@ const translations = {
       description: "Su socio financiero de confianza desde 1997. Excelencia, innovación y experiencia para todos sus proyectos financieros en Europa.",
       services: "Servicios",
       copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
-      establishment: "Institución financiera autorizada en Europa"
+      establishment: "Institución financiera autorizada en Europa",
+      links: {
+        personalLoans: "Préstamos personales",
+        proFinancing: "Financiación empresarial",
+        investments: "Inversiones",
+        insurance: "Seguros",
+        simulator: "Simulador de préstamos",
+        request: "Solicitud de financiación",
+        faq: "FAQ",
+        contact: "Contacto",
+        about: "Sobre nosotros",
+        partners: "Nuestros socios",
+        careers: "Carreras",
+        blog: "Blog",
+        legal: "Aviso legal",
+        privacy: "Política de privacidad",
+        terms: "Términos y condiciones",
+        gdpr: "RGPD"
+      }
+    },
+    partners: {
+      title: "Nuestros Socios de Confianza",
+      description: "Una red de excelencia europea para ofrecerle las mejores soluciones financieras",
+      stats: "Más de 25 socios europeos • 27 países cubiertos • 2,5 mil millones € de volumen tratado"
     },
     home: {
       hero: {
@@ -642,7 +711,30 @@ const translations = {
       description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
       services: "Servizi",
       copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
-      establishment: "Istituzione finanziaria autorizzata in Europa"
+      establishment: "Istituzione finanziaria autorizzata in Europa",
+      links: {
+        personalLoans: "Prestiti personali",
+        proFinancing: "Finanziamento aziendale",
+        investments: "Investimenti",
+        insurance: "Assicurazioni",
+        simulator: "Simulatore di prestito",
+        request: "Richiesta di finanziamento",
+        faq: "FAQ",
+        contact: "Contatto",
+        about: "Chi siamo",
+        partners: "I nostri partner",
+        careers: "Carriere",
+        blog: "Blog",
+        legal: "Note legali",
+        privacy: "Politica sulla privacy",
+        terms: "Termini e condizioni",
+        gdpr: "GDPR"
+      }
+    },
+    partners: {
+      title: "I Nostri Partner di Fiducia",
+      description: "Una rete europea di eccellenza per offrire le migliori soluzioni finanziarie",
+      stats: "Oltre 25 partner europei • 27 paesi coperti • 2,5 miliardi € di volume trattato"
     },
     home: {
       hero: {
@@ -803,7 +895,30 @@ const translations = {
       description: "Wasz zaufany partner finansowy od 1997 roku. Doskonałość, innowacyjność i doświadczenie dla wszystkich projektów finansowych w Europie.",
       services: "Usługi",
       copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
-      establishment: "Licencjonowana instytucja finansowa w Europie"
+      establishment: "Licencjonowana instytucja finansowa w Europie",
+      links: {
+        personalLoans: "Kredyty osobiste",
+        proFinancing: "Finansowanie biznesu",
+        investments: "Inwestycje",
+        insurance: "Ubezpieczenia",
+        simulator: "Symulator kredytu",
+        request: "Wniosek o finansowanie",
+        faq: "FAQ",
+        contact: "Kontakt",
+        about: "O nas",
+        partners: "Nasi partnerzy",
+        careers: "Kariera",
+        blog: "Blog",
+        legal: "Informacje prawne",
+        privacy: "Polityka prywatności",
+        terms: "Regulamin",
+        gdpr: "RODO"
+      }
+    },
+    partners: {
+      title: "Nasi Zaufani Partnerzy",
+      description: "Europejska sieć doskonałości, aby zapewnić najlepsze rozwiązania finansowe",
+      stats: "Ponad 25 europejskich partnerów • 27 krajów objętych • 2,5 mld € wolumenu transakcji"
     },
     home: {
       hero: {
@@ -964,7 +1079,30 @@ const translations = {
       description: "Luotettava rahoituskumppanisi vuodesta 1997. Huippuosaamista, innovaatiota ja asiantuntemusta kaikkiin rahoitusprojekteihisi Euroopassa.",
       services: "Palvelut",
       copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
-      establishment: "Lisensoitu rahoituslaitos Euroopassa"
+      establishment: "Lisensoitu rahoituslaitos Euroopassa",
+      links: {
+        personalLoans: "Henkilökohtaiset lainat",
+        proFinancing: "Yritysrahoitus",
+        investments: "Sijoitukset",
+        insurance: "Vakuutukset",
+        simulator: "Lainasimulator",
+        request: "Rahoitushakemus",
+        faq: "UKK",
+        contact: "Yhteystiedot",
+        about: "Tietoa meistä",
+        partners: "Yhteistyökumppanit",
+        careers: "Ura",
+        blog: "Blogi",
+        legal: "Oikeudellinen ilmoitus",
+        privacy: "Tietosuojakäytäntö",
+        terms: "Käyttöehdot",
+        gdpr: "GDPR"
+      }
+    },
+    partners: {
+      title: "Luotettavat Kumppanimme",
+      description: "Eurooppalainen huippuosaamisen verkosto parhaimpia rahoitusratkaisuja varten",
+      stats: "Yli 25 eurooppalaista kumppania • 27 maata katettu • 2,5 miljardia € käsitelty volyymi"
     },
     home: {
       hero: {
@@ -1125,7 +1263,30 @@ const translations = {
       description: "O vosso parceiro financeiro de confiança desde 1997. Excelência, inovação e experiência para todos os vossos projetos financeiros na Europa.",
       services: "Serviços",
       copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
-      establishment: "Instituição financeira licenciada na Europa"
+      establishment: "Instituição financeira licenciada na Europa",
+      links: {
+        personalLoans: "Empréstimos pessoais",
+        proFinancing: "Financiamento empresarial",
+        investments: "Investimentos",
+        insurance: "Seguros",
+        simulator: "Simulador de empréstimo",
+        request: "Pedido de financiamento",
+        faq: "FAQ",
+        contact: "Contacto",
+        about: "Sobre nós",
+        partners: "Nossos parceiros",
+        careers: "Carreiras",
+        blog: "Blog",
+        legal: "Informações legais",
+        privacy: "Política de privacidade",
+        terms: "Termos e condições",
+        gdpr: "RGPD"
+      }
+    },
+    partners: {
+      title: "Nossos Parceiros de Confiança",
+      description: "Uma rede europeia de excelência para oferecer as melhores soluções financeiras",
+      stats: "Mais de 25 parceiros europeus • 27 países cobertos • 2,5 mil milhões € de volume tratado"
     },
     home: {
       hero: {
@@ -1286,7 +1447,30 @@ const translations = {
       description: "Ο αξιόπιστος χρηματοοικονομικός σας εταίρος από το 1997. Αριστεία, καινοτομία και εμπειρία για όλα τα χρηματοοικονομικά σας έργα στην Ευρώπη.",
       services: "Υπηρεσίες",
       copyright: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
-      establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη"
+      establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη",
+      links: {
+        personalLoans: "Προσωπικά δάνεια",
+        proFinancing: "Επιχειρηματική χρηματοδότηση",
+        investments: "Επενδύσεις",
+        insurance: "Ασφάλειες",
+        simulator: "Προσομοιωτής δανείου",
+        request: "Αίτηση χρηματοδότησης",
+        faq: "Συχνές ερωτήσεις",
+        contact: "Επικοινωνία",
+        about: "Σχετικά με εμάς",
+        partners: "Οι συνεργάτες μας",
+        careers: "Καριέρα",
+        blog: "Ιστολόγιο",
+        legal: "Νομική ειδοποίηση",
+        privacy: "Πολιτική απορρήτου",
+        terms: "Όροι χρήσης",
+        gdpr: "GDPR"
+      }
+    },
+    partners: {
+      title: "Οι Αξιόπιστοι Συνεργάτες μας",
+      description: "Ένα ευρωπαϊκό δίκτυο αριστείας για τις καλύτερες χρηματοοικονομικές λύσεις",
+      stats: "Πάνω από 25 ευρωπαίους συνεργάτες • 27 χώρες κάλυψης • 2,5 δισ. € όγκος συναλλαγών"
     },
     home: {
       hero: {
