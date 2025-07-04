@@ -7,8 +7,10 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const PartnersCarousel = () => {
+  const { t } = useTranslation();
   const partners = [
     {
       name: "Deutsche Bank",
@@ -73,10 +75,10 @@ const PartnersCarousel = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4">
-            Nos Partenaires de Confiance
+            {t('partners.title')}
           </h3>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Un réseau d'excellence européen pour vous offrir les meilleures solutions financières
+            {t('partners.description')}
           </p>
         </div>
 
@@ -115,7 +117,7 @@ const PartnersCarousel = () => {
 
         <div className="text-center mt-8">
           <p className="text-sm text-muted-foreground">
-            Plus de 25 partenaires européens • 27 pays couverts • 2.5Md€ de volume traité
+            {t('partners.stats')}
           </p>
         </div>
       </div>

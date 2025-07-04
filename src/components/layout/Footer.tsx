@@ -8,37 +8,37 @@ const Footer = () => {
     {
       title: t('footer.services'),
       links: [
-        { name: "Prêts personnels", href: "/services#prets" },
-        { name: "Financements pro", href: "/services#pro" },
-        { name: "Investissements", href: "/services#investissements" },
-        { name: "Assurances", href: "/services#assurances" }
+        { name: t('footer.links.personalLoans'), href: "/services#prets" },
+        { name: t('footer.links.proFinancing'), href: "/services#pro" },
+        { name: t('footer.links.investments'), href: "/services#investissements" },
+        { name: t('footer.links.insurance'), href: "/services#assurances" }
       ]
     },
     {
       title: t('footer.tools'),
       links: [
-        { name: "Simulateur de prêt", href: "/simulateur" },
-        { name: "Demande de financement", href: "/demande" },
-        { name: "FAQ", href: "/faq" },
-        { name: "Contact", href: "/contact" }
+        { name: t('footer.links.simulator'), href: "/simulateur" },
+        { name: t('footer.links.request'), href: "/demande" },
+        { name: t('footer.links.faq'), href: "/faq" },
+        { name: t('footer.links.contact'), href: "/contact" }
       ]
     },
     {
       title: t('footer.company'),
       links: [
-        { name: "À propos", href: "/a-propos" },
-        { name: "Nos partenaires", href: "/partenaires" },
-        { name: "Carrières", href: "/carrieres" },
-        { name: "Blog", href: "/blog" }
+        { name: t('footer.links.about'), href: "/a-propos" },
+        { name: t('footer.links.partners'), href: "/partenaires" },
+        { name: t('footer.links.careers'), href: "/carrieres" },
+        { name: t('footer.links.blog'), href: "/blog" }
       ]
     },
     {
       title: t('footer.legal'),
       links: [
-        { name: "Mentions légales", href: "/mentions-legales" },
-        { name: "Politique de confidentialité", href: "/mentions-legales#privacy" },
-        { name: "Conditions générales", href: "/mentions-legales#terms" },
-        { name: "RGPD", href: "/mentions-legales#gdpr" }
+        { name: t('footer.links.legal'), href: "/mentions-legales" },
+        { name: t('footer.links.privacy'), href: "/mentions-legales#privacy" },
+        { name: t('footer.links.terms'), href: "/mentions-legales#terms" },
+        { name: t('footer.links.gdpr'), href: "/mentions-legales#gdpr" }
       ]
     }
   ];
