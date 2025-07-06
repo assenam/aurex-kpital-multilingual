@@ -34,6 +34,78 @@ export const fr = {
       description: "Nos experts analysent votre situation pour vous proposer",
       description2: "les meilleures conditions",
       description3: "du marché européen."
+    },
+    hero: {
+      carousel: {
+        text1: "Excellence Financière",
+        text2: "Innovation Européenne", 
+        text3: "Votre Réussite"
+      },
+      simulateBtn: "Simuler mon projet",
+      ctaBtn: "Demande express",
+      scrollText: "Découvrir",
+      stats: {
+        experience: {
+          title: "Années",
+          subtitle: "d'excellence"
+        },
+        clients: {
+          title: "Clients",
+          subtitle: "satisfaits"
+        },
+        funding: {
+          title: "Financés",
+          subtitle: "en Europe"
+        }
+      }
+    },
+    about: {
+      badge: "Excellence Européenne",
+      title: "Innovation financière",
+      subtitle: "depuis 1997",
+      subtitle2: "Votre partenaire de confiance",
+      description1: {
+        highlight: "Depuis plus de 25 ans,",
+        text: " CreditSafe révolutionne le secteur financier européen en combinant",
+        expertise: "expertise humaine",
+        and: "et", 
+        technology: "intelligence artificielle"
+      },
+      description2: {
+        text: "Notre mission est simple : transformer vos projets les plus ambitieux en",
+        highlight: "réalité financière",
+        success: "grâce à des solutions sur mesure"
+      },
+      buttons: {
+        history: "Notre histoire",
+        contact: "Nous contacter"
+      },
+      trust: {
+        title: "Certification Européenne",
+        description: "Agréé et régulé par les autorités financières européennes"
+      },
+      stats: {
+        founded: "Fondé",
+        location: "Hambourg, Allemagne",
+        certified: "Certifié",
+        security: "Sécurisé"
+      }
+    },
+    cta: {
+      title: "Prêt à transformer",
+      titleHighlight: "vos projets",
+      titleEnd: "en réalité ?",
+      description: "Rejoignez plus de 50 000 clients qui nous font confiance pour leurs projets financiers les plus importants.",
+      buttons: {
+        request: "Demande express",
+        simulate: "Simuler mon projet", 
+        contact: "Nous contacter"
+      },
+      contact: {
+        phone: "Téléphone",
+        address: "Adresse",
+        addressValue: "Neuer Wall 50, 20354 Hamburg, Allemagne"
+      }
     }
   },
   services: {
@@ -237,6 +309,33 @@ export const fr = {
     title: "Nos Partenaires de Confiance",
     description: "Nous collaborons avec les plus grandes institutions financières européennes pour vous offrir les meilleures conditions.",
     stats: "Plus de 50 partenaires financiers dans toute l'Europe"
+  },
+  testimonials: {
+    title: "Ce que disent nos clients",
+    subtitle: "Plus de 50 000 clients nous font confiance à travers l'Europe",
+    clients: [
+      {
+        name: "Marie Dubois",
+        location: "Paris, France",
+        feedback: "Service exceptionnel ! CreditSafe m'a aidée à obtenir le financement de mes rêves en moins de 48h. Une équipe professionnelle et des conditions imbattables."
+      },
+      {
+        name: "Klaus Weber",
+        location: "Berlin, Allemagne", 
+        feedback: "25 ans d'expertise qui se ressentent. Leur accompagnement personnalisé et leur technologie de pointe font la différence. Je recommande vivement !"
+      },
+      {
+        name: "Elena Rodriguez",
+        location: "Madrid, Espagne",
+        feedback: "Enfin une solution financière qui comprend mes besoins d'entrepreneur. Processus rapide, transparent et des taux très compétitifs."
+      }
+    ],
+    stats: {
+      satisfaction: "Satisfaction client",
+      clients: "Clients satisfaits", 
+      funding: "Financements accordés",
+      experience: "Années d'expertise"
+    }
   },
   footer: {
     description: "Leader européen du crédit depuis 1997, CreditSafe vous accompagne dans tous vos projets financiers avec expertise et innovation.",

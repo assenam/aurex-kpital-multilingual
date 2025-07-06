@@ -26,13 +26,44 @@ export const translations = {
       partners: "Socios",
       legal: "Aviso legal"
     },
-    hero: {
-      badge: "Líder Europeo del Crédito desde 1997",
-      title: "Transforme sus sueños",
-      subtitle: "en realidad financiera",
-      description: "Descubra la excelencia del crédito europeo con CreditSafe, su socio de confianza desde hace más de 25 años.",
-      cta: "Comenzar ahora",
-      ctaSecondary: "Saber más"
+    testimonials: {
+      title: "Lo que dicen nuestros clientes",
+      subtitle: "Más de 50,000 clientes confían en nosotros en toda Europa",
+      stats: {
+        satisfaction: "Satisfacción del cliente",
+        clients: "Clientes satisfechos",
+        funding: "Financiamientos otorgados",
+        experience: "Años de experiencia"
+      }
+    },
+    home: {
+      hero: {
+        carousel: {
+          text1: "Excelencia Financiera",
+          text2: "Innovación Europea",
+          text3: "Su Éxito"
+        },
+        simulateBtn: "Simular mi proyecto",
+        ctaBtn: "Solicitud express",
+        scrollText: "Descubrir",
+        stats: {
+          experience: { title: "Años", subtitle: "de excelencia" },
+          clients: { title: "Clientes", subtitle: "satisfechos" },
+          funding: { title: "Financiado", subtitle: "en Europa" }
+        }
+      },
+      about: {
+        badge: "Excelencia Europea",
+        title: "Innovación financiera",
+        subtitle: "desde 1997",
+        subtitle2: "Su socio de confianza"
+      },
+      cta: {
+        title: "Listo para transformar",
+        titleHighlight: "sus proyectos",
+        titleEnd: "en realidad?",
+        description: "Únase a más de 50,000 clientes que confían en nosotros para sus proyectos financieros más importantes."
+      }
     }
   }),
   pl: createTranslationFromFrench({

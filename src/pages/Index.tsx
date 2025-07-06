@@ -4,6 +4,7 @@ import Services from '@/components/sections/Services';
 import AboutPreview from '@/components/sections/AboutPreview';
 import Testimonials from '@/components/sections/Testimonials';
 import CTA from '@/components/sections/CTA';
+import PartnersCarousel from '@/components/sections/PartnersCarousel';
 import Footer from '@/components/layout/Footer';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { useEffect } from 'react';
@@ -27,6 +28,7 @@ const Index = () => {
         <Services />
         <AboutPreview />
         <Testimonials />
+        <PartnersCarousel />
         <CTA />
       </main>
       <Footer />
