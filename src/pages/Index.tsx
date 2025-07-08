@@ -3,6 +3,7 @@ import Hero from '@/components/sections/Hero';
 import Services from '@/components/sections/Services';
 import AboutPreview from '@/components/sections/AboutPreview';
 import Testimonials from '@/components/sections/Testimonials';
+import PartnersCarousel from '@/components/sections/PartnersCarousel';
 import CTA from '@/components/sections/CTA';
 import Footer from '@/components/layout/Footer';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
@@ -27,6 +28,7 @@ const Index = () => {
         <Services />
         <AboutPreview />
         <Testimonials />
+        <PartnersCarousel />
         <CTA />
       </main>
       <Footer />
