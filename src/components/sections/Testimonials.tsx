@@ -97,19 +97,19 @@ const Testimonials = () => {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2">4.9/5</div>
-              <div className="text-sm text-muted-foreground">{t('testimonials.stats.satisfaction')}</div>
+              <div className="text-sm text-muted-foreground">Satisfaction client</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2">50K+</div>
-              <div className="text-sm text-muted-foreground">{t('testimonials.stats.clients')}</div>
+              <div className="text-sm text-muted-foreground">Clients satisfaits</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2">€5B+</div>
-              <div className="text-sm text-muted-foreground">{t('testimonials.stats.funding')}</div>
+              <div className="text-sm text-muted-foreground">Financements accordés</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary mb-2">25</div>
-              <div className="text-sm text-muted-foreground">{t('testimonials.stats.experience')}</div>
+              <div className="text-sm text-muted-foreground">Années d'expertise</div>
             </div>
           </div>
         </div>
