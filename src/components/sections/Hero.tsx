@@ -11,11 +11,15 @@ const Hero = memo(() => {
   const offsetY = useParallax();
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
-  const texts = [
+  const texts = useMemo(() => [
     t('home.hero.carousel.text1'),
     t('home.hero.carousel.text2'),
     t('home.hero.carousel.text3')
-  ];
+  ], [t]);
+
+  useEffect(() => {
+    setCurrentTextIndex(0);
+  }, [t]);
 
   useEffect(() => {
     const interval = setInterval(() => {
