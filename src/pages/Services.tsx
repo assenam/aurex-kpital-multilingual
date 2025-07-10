@@ -16,134 +16,126 @@ const Services = () => {
   const { t } = useTranslation();
   const mainServices = useMemo(() => [
     {
-      title: t('services.page.personal.title'),
-      description: t('services.page.personal.description'),
+      title: t('services.personalLoan.title'),
+      description: t('services.personalLoan.description'),
       icon: Gem,
       gradient: "from-blue-500 to-purple-600",
       features: [
-        t('services.page.personal.features.0'),
-        t('services.page.personal.features.1'),
-        t('services.page.personal.features.2'),
-        t('services.page.personal.features.3'),
-        t('services.page.personal.features.4')
+        t('services.personalLoan.points.0'),
+        t('services.personalLoan.points.1'), 
+        t('services.personalLoan.points.2')
       ],
       useCases: [
-        t('services.page.personal.useCases.0'),
-        t('services.page.personal.useCases.1'),
-        t('services.page.personal.useCases.2'),
-        t('services.page.personal.useCases.3'),
-        t('services.page.personal.useCases.4')
+        "Travaux de rénovation",
+        "Voyage de rêve", 
+        "Mariage",
+        "Études",
+        "Achat de véhicule"
       ]
     },
     {
-      title: t('services.page.business.title'),
-      description: t('services.page.business.description'),
+      title: t('services.businessLoan.title'),
+      description: t('services.businessLoan.description'),
       icon: Building2,
       gradient: "from-emerald-500 to-teal-600",
       features: [
-        t('services.page.business.features.0'),
-        t('services.page.business.features.1'),
-        t('services.page.business.features.2'),
-        t('services.page.business.features.3'),
-        t('services.page.business.features.4')
+        t('services.businessLoan.points.0'),
+        t('services.businessLoan.points.1'),
+        t('services.businessLoan.points.2')
       ],
       useCases: [
-        t('services.page.business.useCases.0'),
-        t('services.page.business.useCases.1'),
-        t('services.page.business.useCases.2'),
-        t('services.page.business.useCases.3'),
-        t('services.page.business.useCases.4')
+        "Création d'entreprise",
+        "Expansion commerciale",
+        "Achat d'équipement",
+        "Trésorerie",
+        "Rachat de parts"
       ]
     },
     {
-      title: t('services.page.investment.title'),
-      description: t('services.page.investment.description'),
+      title: t('services.investment.title'),
+      description: t('services.investment.description'),
       icon: TrendingUp,
       gradient: "from-amber-500 to-orange-600",
       features: [
-        t('services.page.investment.features.0'),
-        t('services.page.investment.features.1'),
-        t('services.page.investment.features.2'),
-        t('services.page.investment.features.3'),
-        t('services.page.investment.features.4')
+        t('services.investment.points.0'),
+        t('services.investment.points.1'),
+        t('services.investment.points.2')
       ],
       useCases: [
-        t('services.page.investment.useCases.0'),
-        t('services.page.investment.useCases.1'),
-        t('services.page.investment.useCases.2'),
-        t('services.page.investment.useCases.3'),
-        t('services.page.investment.useCases.4')
+        "Placement immobilier",
+        "Diversification patrimoniale",
+        "Préparation retraite",
+        "Optimisation fiscale",
+        "Investissement ESG"
       ]
     },
     {
-      title: t('services.page.insurance.title'),
-      description: t('services.page.insurance.description'),
+      title: t('services.insurance.title'),
+      description: t('services.insurance.description'),
       icon: Shield,
       gradient: "from-rose-500 to-pink-600",
       features: [
-        t('services.page.insurance.features.0'),
-        t('services.page.insurance.features.1'),
-        t('services.page.insurance.features.2'),
-        t('services.page.insurance.features.3'),
-        t('services.page.insurance.features.4')
+        t('services.insurance.points.0'),
+        t('services.insurance.points.1'),
+        t('services.insurance.points.2')
       ],
       useCases: [
-        t('services.page.insurance.useCases.0'),
-        t('services.page.insurance.useCases.1'),
-        t('services.page.insurance.useCases.2'),
-        t('services.page.insurance.useCases.3'),
-        t('services.page.insurance.useCases.4')
+        "Protection famille",
+        "Assurance professionnelle",
+        "Garantie emprunt",
+        "Responsabilité civile",
+        "Prévoyance santé"
       ]
     }
   ], [t]);
 
   const specializedProducts = useMemo(() => [
     {
-      title: t('services.page.specialized.mortgage.title'),
-      description: t('services.page.specialized.mortgage.description'),
+      title: "Prêt immobilier",
+      description: "Financez votre projet immobilier aux meilleures conditions",
       icon: Home,
-      rate: t('services.page.specialized.mortgage.rate')
+      rate: "À partir de 1,2% TAEG"
     },
     {
-      title: t('services.page.specialized.student.title'),
-      description: t('services.page.specialized.student.description'),
+      title: "Prêt étudiant",
+      description: "Solutions adaptées pour financer vos études",
       icon: FileText,
-      rate: t('services.page.specialized.student.rate')
+      rate: "0% pendant les études"
     },
     {
-      title: t('services.page.specialized.savings.title'),
-      description: t('services.page.specialized.savings.description'),
+      title: "Livret épargne+",
+      description: "Épargne rémunérée et disponible",
       icon: PiggyBank,
-      rate: t('services.page.specialized.savings.rate')
+      rate: "Jusqu'à 4% net"
     },
     {
-      title: t('services.page.specialized.card.title'),
-      description: t('services.page.specialized.card.description'),
+      title: "Carte Premium",
+      description: "Avantages exclusifs et services haut de gamme",
       icon: CreditCard,
-      rate: t('services.page.specialized.card.rate')
+      rate: "Sans frais la 1ère année"
     }
   ], [t]);
 
   const processSteps = useMemo(() => [
     {
       step: "01",
-      title: t('services.page.process.step1.title'),
-      description: t('services.page.process.step1.description')
+      title: "Analyse de votre projet",
+      description: "Étude personnalisée de vos besoins et capacités financières"
     },
     {
       step: "02", 
-      title: t('services.page.process.step2.title'),
-      description: t('services.page.process.step2.description')
+      title: "Proposition sur-mesure",
+      description: "Solutions adaptées avec conditions optimisées par IA"
     },
     {
       step: "03",
-      title: t('services.page.process.step3.title'),
-      description: t('services.page.process.step3.description')
+      title: "Validation express",
+      description: "Réponse de principe en moins de 2h ouvrées"
     },
     {
       step: "04",
-      title: t('services.page.process.step4.title'),
-      description: t('services.page.process.step4.description')
+      title: "Déblocage des fonds",
+      description: "Mise à disposition rapide et accompagnement continu"
     }
   ], [t]);
 
@@ -163,30 +155,30 @@ const Services = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Sparkles className="h-4 w-4 mr-2" />
-                {t('services.page.hero.badge')}
+                {t('home.services.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              {t('services.hero.title')}
-              <span className="text-gold block">{t('services.hero.subtitle')}</span>
+              {t('home.services.title')}
+              <span className="text-gold block">{t('home.services.subtitle')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              {t('services.page.hero.description')}
+              {t('home.services.description')} <span className="text-gold">{t('home.services.description2')}</span> {t('home.services.description3')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
                 <Link to="/simulateur">
                   <Calculator className="h-5 w-5 mr-2" />
-                  {t('services.page.hero.cta1')}
+                  {t('home.cta.buttons.simulate')}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <Link to="/demande">
                   <FileText className="h-5 w-5 mr-2" />
-                  {t('services.page.hero.cta2')}
+                  {t('home.cta.buttons.request')}
                 </Link>
               </Button>
             </div>
@@ -200,10 +192,10 @@ const Services = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('services.main.title')}
+              {t('home.services.title')} {t('home.services.subtitle')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('services.main.subtitle')}
+              {t('home.services.description')} {t('home.services.description2')} {t('home.services.description3')}
             </p>
           </div>
 
@@ -229,7 +221,7 @@ const Services = () => {
                 <CardContent>
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold text-primary mb-3">{t('services.page.main.features')} :</h4>
+                      <h4 className="font-semibold text-primary mb-3">Caractéristiques :</h4>
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2">
@@ -241,7 +233,7 @@ const Services = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-primary mb-3">{t('services.page.main.useCases')} :</h4>
+                      <h4 className="font-semibold text-primary mb-3">Cas d'usage :</h4>
                       <div className="flex flex-wrap gap-2">
                         {service.useCases.map((useCase, idx) => (
                           <Badge key={idx} variant="secondary" className="text-xs">
@@ -253,7 +245,7 @@ const Services = () => {
 
                     <Button className={`w-full bg-gradient-to-r ${service.gradient} hover:shadow-lg`} asChild>
                       <Link to="/demande">
-                        {t('services.page.main.cta')}
+                        {t('home.cta.buttons.request')}
                         <ArrowRight className="h-4 w-4 ml-2" />
                       </Link>
                     </Button>
@@ -270,10 +262,10 @@ const Services = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('services.specialized.title')}
+              Produits spécialisés
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('services.specialized.subtitle')}
+              Solutions expertes pour vos besoins spécifiques
             </p>
           </div>
 
@@ -290,7 +282,7 @@ const Services = () => {
                 <CardContent>
                   <div className="text-2xl font-bold text-accent mb-4">{product.rate}</div>
                   <Button variant="outline" size="sm" className="w-full" asChild>
-                    <Link to="/demande">{t('services.page.specialized.cta')}</Link>
+                    <Link to="/demande">Découvrir</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -306,10 +298,10 @@ const Services = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('services.page.process.title')}
+              Notre processus
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('services.page.process.subtitle')}
+              Un parcours simplifié pour concrétiser vos projets
             </p>
           </div>
 
@@ -337,33 +329,33 @@ const Services = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-4xl mx-auto text-primary-foreground">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              {t('services.page.cta.title')}
+              {t('home.cta.title')} {t('home.cta.titleHighlight')} {t('home.cta.titleEnd')}
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90">
-              {t('services.page.cta.description')}
+              {t('home.cta.description')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
                 <Link to="/demande">
                   <Users className="h-5 w-5 mr-2" />
-                  {t('services.page.cta.btn1')}
+                  {t('home.cta.buttons.request')}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <Link to="/contact">
                   <Clock className="h-5 w-5 mr-2" />
-                  {t('services.page.cta.btn2')}
+                  {t('home.cta.buttons.contact')}
                 </Link>
               </Button>
             </div>
 
             <div className="mt-8 pt-8 border-t border-primary-foreground/20">
               <p className="text-primary-foreground/80 mb-2">
-                <strong className="text-gold">{t('footer.contact.phone')} :</strong> +49 40 710 97523
+                <strong className="text-gold">{t('home.cta.contact.phone')} :</strong> +49 40 710 97523
               </p>
               <p className="text-primary-foreground/80">
-                <strong className="text-gold">{t('footer.contact.address')} :</strong> Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne
+                <strong className="text-gold">{t('home.cta.contact.address')} :</strong> {t('home.cta.contact.addressValue')}
               </p>
             </div>
           </div>
