@@ -9,11 +9,12 @@ import {
   CheckCircle, ArrowRight, Clock, Users, Award, Calculator,
   FileText, PiggyBank, Banknote, CreditCard, Home, Briefcase
 } from 'lucide-react';
-import { useTranslationLogic } from '@/hooks/useTranslation';
+import { useTranslation } from '@/contexts/TranslationContext';
+import { useMemo } from 'react';
 
 const Services = () => {
-  const { t } = useTranslationLogic();
-  const mainServices = [
+  const { t } = useTranslation();
+  const mainServices = useMemo(() => [
     {
       title: t('services.page.personal.title'),
       description: t('services.page.personal.description'),
@@ -94,9 +95,9 @@ const Services = () => {
         t('services.page.insurance.useCases.4')
       ]
     }
-  ];
+  ], [t]);
 
-  const specializedProducts = [
+  const specializedProducts = useMemo(() => [
     {
       title: t('services.page.specialized.mortgage.title'),
       description: t('services.page.specialized.mortgage.description'),
@@ -121,9 +122,9 @@ const Services = () => {
       icon: CreditCard,
       rate: t('services.page.specialized.card.rate')
     }
-  ];
+  ], [t]);
 
-  const processSteps = [
+  const processSteps = useMemo(() => [
     {
       step: "01",
       title: t('services.page.process.step1.title'),
@@ -144,7 +145,7 @@ const Services = () => {
       title: t('services.page.process.step4.title'),
       description: t('services.page.process.step4.description')
     }
-  ];
+  ], [t]);
 
   return (
     <div className="min-h-screen">
