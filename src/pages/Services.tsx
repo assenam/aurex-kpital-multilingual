@@ -4,13 +4,24 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
-import { 
-  Gem, Building2, TrendingUp, Shield, Sparkles, 
-  CheckCircle, ArrowRight, Clock, Users, Calculator,
-  FileText, PiggyBank, CreditCard, Home
-} from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
 import { useMemo } from 'react';
+
+// Import icons individually to avoid bundling issues
+import { Gem } from 'lucide-react';
+import { Building2 } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
+import { Shield } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
+import { CheckCircle } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import { Clock } from 'lucide-react';
+import { Users } from 'lucide-react';
+import { Calculator } from 'lucide-react';
+import { FileText } from 'lucide-react';
+import { PiggyBank } from 'lucide-react';
+import { CreditCard } from 'lucide-react';
+import { Home } from 'lucide-react';
 
 const Services = () => {
   const { t } = useTranslation();
@@ -220,8 +231,8 @@ const Services = () => {
 
                 <CardContent>
                   <div className="space-y-6">
-                     <div>
-                       <h4 className="font-semibold text-primary mb-3">{t('services.features')} :</h4>
+                    <div>
+                      <h4 className="font-semibold text-primary mb-3">{t('services.features')} :</h4>
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2">
@@ -232,8 +243,8 @@ const Services = () => {
                       </ul>
                     </div>
 
-                     <div>
-                       <h4 className="font-semibold text-primary mb-3">{t('services.useCases')} :</h4>
+                    <div>
+                      <h4 className="font-semibold text-primary mb-3">{t('services.useCases')} :</h4>
                       <div className="flex flex-wrap gap-2">
                         {service.useCases.map((useCase, idx) => (
                           <Badge key={idx} variant="secondary" className="text-xs">
@@ -260,14 +271,14 @@ const Services = () => {
       {/* Specialized Products */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
-           <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-               {t('services.specialized.title')}
-             </h2>
-             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-               {t('services.specialized.description')}
-             </p>
-           </div>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
+              {t('services.specialized.title')}
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              {t('services.specialized.description')}
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {specializedProducts.map((product, index) => (
@@ -281,9 +292,9 @@ const Services = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold text-accent mb-4">{product.rate}</div>
-                   <Button variant="outline" size="sm" className="w-full" asChild>
-                     <Link to="/demande">{t('services.discover')}</Link>
-                   </Button>
+                  <Button variant="outline" size="sm" className="w-full" asChild>
+                    <Link to="/demande">{t('services.discover')}</Link>
+                  </Button>
                 </CardContent>
               </Card>
             ))}
@@ -296,14 +307,14 @@ const Services = () => {
         <div className="absolute top-20 left-10 w-32 h-32 bg-gold/10 rounded-full blur-2xl float"></div>
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
         <div className="container mx-auto px-4 relative z-10">
-           <div className="text-center mb-16">
-             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-               {t('services.process.title')}
-             </h2>
-             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-               {t('services.process.description')}
-             </p>
-           </div>
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
+              {t('services.process.title')}
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              {t('services.process.description')}
+            </p>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {processSteps.map((step, index) => (
