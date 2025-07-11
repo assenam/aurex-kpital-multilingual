@@ -792,27 +792,102 @@ const translations = {
         title: "Préstamos personales",
         description: "Soluciones de financiación personalizadas con condiciones revolucionarias.",
         points: ["IA para tasas óptimas", "Respuesta en 2h", "Máxima flexibilidad"],
-        cta: "Descubrir"
+        cta: "Descubrir",
+        useCases: [
+          "Trabajos de renovación",
+          "Viaje de ensueño",
+          "Boda",
+          "Estudios", 
+          "Compra de vehículo"
+        ]
       },
       businessLoan: {
         title: "Financiamiento para empresas",
         description: "Impulsa tu empresa con nuestras soluciones innovadoras.",
         points: ["Financiamiento exprés", "Acompañamiento experto", "Soluciones a medida"],
-        cta: "Descubrir"
+        cta: "Descubrir",
+        useCases: [
+          "Creación de empresa",
+          "Expansión comercial",
+          "Compra de equipos",
+          "Tesorería",
+          "Compra de participaciones"
+        ]
       },
       investment: {
         title: "Inversiones inteligentes",
         description: "Optimización patrimonial con inteligencia artificial y experiencia humana.",
         points: ["Cartera inteligente", "Asesoría premium", "Rendimiento optimizado"],
-        cta: "Descubrir"
+        cta: "Descubrir",
+        useCases: [
+          "Inversión inmobiliaria",
+          "Diversificación patrimonial",
+          "Preparación jubilación",
+          "Optimización fiscal",
+          "Inversión ESG"
+        ]
       },
       insurance: {
         title: "Seguros 360°",
         description: "Protección total e innovadora para todos tus proyectos de vida y negocio.",
         points: ["Cobertura completa", "Gestión de reclamos en 24h", "Atención premium"],
-        cta: "Descubrir"
+        cta: "Descubrir",
+        useCases: [
+          "Protección familiar",
+          "Seguro profesional",
+          "Garantía préstamo",
+          "Responsabilidad civil",
+          "Previsión salud"
+        ]
       },
-      explore: "Explorar todos nuestros servicios"
+      explore: "Explorar todos nuestros servicios",
+      features: "Características",
+      useCases: "Casos de uso",
+      discover: "Descubrir",
+      specialized: {
+        title: "Productos especializados", 
+        description: "Soluciones expertas para sus necesidades específicas",
+        mortgage: {
+          title: "Préstamo inmobiliario",
+          description: "Financie su proyecto inmobiliario en las mejores condiciones",
+          rate: "Desde 1,2% TAE"
+        },
+        student: {
+          title: "Préstamo estudiantil",
+          description: "Soluciones adaptadas para financiar sus estudios",
+          rate: "0% durante los estudios"
+        },
+        savings: {
+          title: "Libreta de ahorro+",
+          description: "Ahorro remunerado y disponible",
+          rate: "Hasta 4% neto"
+        },
+        premium: {
+          title: "Tarjeta Premium",
+          description: "Ventajas exclusivas y servicios de alta gama",
+          rate: "Sin costos el primer año"
+        }
+      },
+      process: {
+        title: "Nuestro proceso",
+        description: "Un recorrido simplificado para concretar sus proyectos",
+        step1: {
+          title: "Análisis de su proyecto",
+          description: "Estudio personalizado de sus necesidades y capacidades financieras"
+        },
+        step2: {
+          title: "Propuesta a medida",
+          description: "Soluciones adaptadas con condiciones optimizadas por IA"
+        },
+        step3: {
+          title: "Validación exprés",
+          description: "Respuesta de principio en menos de 2h laborables"
+        },
+        step4: {
+          title: "Desbloqueo de fondos",
+          description: "Puesta a disposición rápida y acompañamiento continuo"
+        }
+      }
     },
     testimonials: {
       title: "Confían en nosotros",
@@ -976,27 +1051,102 @@ const translations = {
         title: "Prestiti personali",
         description: "Soluzioni di finanziamento personalizzate con condizioni rivoluzionarie.",
         points: ["IA per tassi ottimali", "Risposta in 2h", "Massima flessibilità"],
-        cta: "Scopri"
+        cta: "Scopri",
+        useCases: [
+          "Lavori di ristrutturazione",
+          "Viaggio da sogno",
+          "Matrimonio",
+          "Studi",
+          "Acquisto veicolo"
+        ]
       },
       businessLoan: {
         title: "Finanziamenti aziendali",
         description: "Potenzia la tua azienda con le nostre soluzioni innovative.",
         points: ["Finanziamento express", "Accompagnamento esperto", "Soluzioni su misura"],
-        cta: "Scopri"
+        cta: "Scopri",
+        useCases: [
+          "Creazione d'impresa",
+          "Espansione commerciale",
+          "Acquisto attrezzature",
+          "Tesoreria",
+          "Acquisto quote"
+        ]
       },
       investment: {
         title: "Investimenti intelligenti",
         description: "Ottimizzazione patrimoniale con intelligenza artificiale ed esperienza umana.",
         points: ["Portfolio intelligente", "Consulenza premium", "Rendimento ottimizzato"],
-        cta: "Scopri"
+        cta: "Scopri",
+        useCases: [
+          "Investimento immobiliare",
+          "Diversificazione patrimoniale",
+          "Preparazione pensione",
+          "Ottimizzazione fiscale",
+          "Investimento ESG"
+        ]
       },
       insurance: {
         title: "Assicurazioni 360°",
         description: "Protezione totale e innovativa per tutti i tuoi progetti di vita e business.",
         points: ["Copertura completa", "Gestione sinistri 24h", "Supporto premium"],
-        cta: "Scopri"
+        cta: "Scopri",
+        useCases: [
+          "Protezione famiglia",
+          "Assicurazione professionale",
+          "Garanzia prestito",
+          "Responsabilità civile",
+          "Previdenza salute"
+        ]
       },
-      explore: "Esplora tutti i nostri servizi"
+      explore: "Esplora tutti i nostri servizi",
+      features: "Caratteristiche",
+      useCases: "Casi d'uso",
+      discover: "Scopri",
+      specialized: {
+        title: "Prodotti specializzati",
+        description: "Soluzioni esperte per le vostre esigenze specifiche",
+        mortgage: {
+          title: "Mutuo immobiliare",
+          description: "Finanziate il vostro progetto immobiliare alle migliori condizioni",
+          rate: "A partire dall'1,2% TAEG"
+        },
+        student: {
+          title: "Prestito studenti",
+          description: "Soluzioni adatte per finanziare i vostri studi",
+          rate: "0% durante gli studi"
+        },
+        savings: {
+          title: "Libretto risparmio+",
+          description: "Risparmio remunerato e disponibile",
+          rate: "Fino al 4% netto"
+        },
+        premium: {
+          title: "Carta Premium",
+          description: "Vantaggi esclusivi e servizi di alta gamma",
+          rate: "Senza spese il primo anno"
+        }
+      },
+      process: {
+        title: "Il nostro processo",
+        description: "Un percorso semplificato per concretizzare i vostri progetti",
+        step1: {
+          title: "Analisi del vostro progetto",
+          description: "Studio personalizzato delle vostre esigenze e capacità finanziarie"
+        },
+        step2: {
+          title: "Proposta su misura",
+          description: "Soluzioni adatte con condizioni ottimizzate dall'IA"
+        },
+        step3: {
+          title: "Validazione express",
+          description: "Risposta di principio in meno di 2h lavorative"
+        },
+        step4: {
+          title: "Sblocco dei fondi",
+          description: "Messa a disposizione rapida e accompagnamento continuo"
+        }
+      }
     },
     testimonials: {
       title: "Ci danno fiducia",
@@ -1160,27 +1310,102 @@ const translations = {
         title: "Kredyty osobiste",
         description: "Spersonalizowane rozwiązania finansowe z rewolucyjnymi warunkami.",
         points: ["Sztuczna inteligencja do optymalnych stawek", "Odpowiedź w 2 godziny", "Maksymalna elastyczność"],
-        cta: "Odkryj"
+        cta: "Odkryj",
+        useCases: [
+          "Prace remontowe",
+          "Wymarzona podróż",
+          "Wesele",
+          "Studia",
+          "Zakup pojazdu"
+        ]
       },
       businessLoan: {
         title: "Finansowanie biznesu",
         description: "Rozwiń firmę dzięki naszym innowacyjnym rozwiązaniom.",
         points: ["Ekspresowe finansowanie", "Wsparcie ekspertów", "Rozwiązania szyte na miarę"],
-        cta: "Odkryj"
+        cta: "Odkryj",
+        useCases: [
+          "Założenie firmy",
+          "Rozwój biznesu",
+          "Zakup sprzętu",
+          "Płynność finansowa",
+          "Zakup udziałów"
+        ]
       },
       investment: {
         title: "Inteligentne inwestycje",
         description: "Optymalizacja majątku z wykorzystaniem AI i wiedzy eksperckiej.",
         points: ["Inteligentne portfolio", "Konsultacje premium", "Zoptymalizowany zwrot"],
-        cta: "Odkryj"
+        cta: "Odkryj",
+        useCases: [
+          "Inwestycje nieruchomościowe",
+          "Dywersyfikacja portfela",
+          "Przygotowanie emerytury",
+          "Optymalizacja podatkowa",
+          "Inwestycje ESG"
+        ]
       },
       insurance: {
         title: "Ubezpieczenia 360°",
         description: "Pełna ochrona dla Twojego życia i biznesu.",
         points: ["Pełna ochrona", "Reklamacje w 24h", "Wsparcie premium"],
-        cta: "Odkryj"
+        cta: "Odkryj",
+        useCases: [
+          "Ochrona rodziny",
+          "Ubezpieczenie zawodowe",
+          "Gwarancja kredytu",
+          "Odpowiedzialność cywilna",
+          "Ubezpieczenie zdrowotne"
+        ]
       },
-      explore: "Poznaj wszystkie nasze usługi"
+      explore: "Poznaj wszystkie nasze usługi",
+      features: "Cechy",
+      useCases: "Przypadki użycia",
+      discover: "Odkryj",
+      specialized: {
+        title: "Produkty specjalistyczne",
+        description: "Ekspertowe rozwiązania dla Twoich specyficznych potrzeb",
+        mortgage: {
+          title: "Kredyt hipoteczny",
+          description: "Sfinansuj swój projekt nieruchomościowy na najlepszych warunkach",
+          rate: "Od 1,2% RRSO"
+        },
+        student: {
+          title: "Kredyt studencki",
+          description: "Dostosowane rozwiązania finansowania studiów",
+          rate: "0% w czasie studiów"
+        },
+        savings: {
+          title: "Konto oszczędnościowe+",
+          description: "Oprocentowane i dostępne oszczędności",
+          rate: "Do 4% netto"
+        },
+        premium: {
+          title: "Karta Premium",
+          description: "Ekskluzywne korzyści i usługi najwyższej klasy",
+          rate: "Bez opłat w pierwszym roku"
+        }
+      },
+      process: {
+        title: "Nasz proces",
+        description: "Uproszczona ścieżka realizacji Twoich projektów",
+        step1: {
+          title: "Analiza Twojego projektu",
+          description: "Spersonalizowane badanie Twoich potrzeb i możliwości finansowych"
+        },
+        step2: {
+          title: "Propozycja szyta na miarę",
+          description: "Dostosowane rozwiązania z warunkami zoptymalizowanymi przez AI"
+        },
+        step3: {
+          title: "Ekspresowa walidacja",
+          description: "Wstępna odpowiedź w mniej niż 2 godziny robocze"
+        },
+        step4: {
+          title: "Uwolnienie środków",
+          description: "Szybkie udostępnienie i ciągłe wsparcie"
+        }
+      }
     },
     testimonials: {
       title: "Zaufali nam",
@@ -1344,27 +1569,102 @@ const translations = {
         title: "Henkilökohtaiset lainat",
         description: "Räätälöidyt rahoitusratkaisut vallankumouksellisilla ehdoilla.",
         points: ["Älykäs korkolaskenta", "Vastaus 2 tunnissa", "Maksimaalinen joustavuus"],
-        cta: "Tutustu"
+        cta: "Tutustu",
+        useCases: [
+          "Remonttityöt",
+          "Unelmien matka",
+          "Häät",
+          "Opinnot",
+          "Ajoneuvon osto"
+        ]
       },
       businessLoan: {
         title: "Yritysrahoitus",
         description: "Vie yrityksesi uudelle tasolle innovatiivisilla ratkaisuilla.",
         points: ["Pikainen rahoitus", "Asiantuntijatuki", "Räätälöidyt ratkaisut"],
-        cta: "Tutustu"
+        cta: "Tutustu",
+        useCases: [
+          "Yrityksen perustaminen",
+          "Liiketoiminnan laajentaminen",
+          "Laitteiden hankinta",
+          "Kassavirta",
+          "Osuuksien osto"
+        ]
       },
       investment: {
         title: "Älykkäät sijoitukset",
         description: "Varallisuuden optimointi tekoälyllä ja asiantuntijuudella.",
         points: ["Älykäs salkku", "Premium-neuvonta", "Optimoitu tuotto"],
-        cta: "Tutustu"
+        cta: "Tutustu",
+        useCases: [
+          "Kiinteistösijoitus",
+          "Salkun hajauttaminen",
+          "Eläkevalmistelu",
+          "Verooptimointi",
+          "ESG-sijoitus"
+        ]
       },
       insurance: {
         title: "360° vakuutukset",
         description: "Täydellinen suoja elämäsi ja liiketoimintasi projekteille.",
         points: ["Kattava suoja", "Korvaus 24h kuluessa", "Premium-tuki"],
-        cta: "Tutustu"
+        cta: "Tutustu",
+        useCases: [
+          "Perheen suoja",
+          "Ammattivakuutus",
+          "Lainatakuu",
+          "Vastuuvakuutus",
+          "Terveysvakuutus"
+        ]
       },
-      explore: "Tutustu kaikkiin palveluihimme"
+      explore: "Tutustu kaikkiin palveluihimme",
+      features: "Ominaisuudet",
+      useCases: "Käyttötapaukset",
+      discover: "Tutustu",
+      specialized: {
+        title: "Erikoistuotteet",
+        description: "Asiantuntijaratkaisut erityistarpeisiinne",
+        mortgage: {
+          title: "Asuntolaina",
+          description: "Rahoita kiinteistöprojektisi parhailla ehdoilla",
+          rate: "Alkaen 1,2% todellinen vuosikorko"
+        },
+        student: {
+          title: "Opintolaina",
+          description: "Räätälöidyt ratkaisut opintojen rahoittamiseen",
+          rate: "0% opintojen aikana"
+        },
+        savings: {
+          title: "Säästötili+",
+          description: "Korkoa tuottava ja käytettävissä oleva säästö",
+          rate: "Jopa 4% netto"
+        },
+        premium: {
+          title: "Premium-kortti",
+          description: "Eksklusiiviset edut ja premium-palvelut",
+          rate: "Maksuton ensimmäinen vuosi"
+        }
+      },
+      process: {
+        title: "Prosessimme",
+        description: "Yksinkertaistettu polku projektienne toteuttamiseen",
+        step1: {
+          title: "Projektinne analysointi",
+          description: "Henkilökohtainen tutkimus tarpeistanne ja taloudellisista mahdollisuuksistanne"
+        },
+        step2: {
+          title: "Räätälöity ehdotus",
+          description: "Mukautetut ratkaisut AI:n optimoimilla ehdoilla"
+        },
+        step3: {
+          title: "Pikavalidointi",
+          description: "Periaatevastaus alle 2 työajassa tunnissa"
+        },
+        step4: {
+          title: "Varojen vapautus",
+          description: "Nopea käyttöönotto ja jatkuva tuki"
+        }
+      }
     },
     testimonials: {
       title: "Asiakkaamme luottavat meihin",
@@ -1528,27 +1828,102 @@ const translations = {
         title: "Créditos pessoais",
         description: "Soluções de financiamento à medida com condições revolucionárias.",
         points: ["IA para taxas otimais", "Resposta em 2h", "Flexibilidade máxima"],
-        cta: "Descobrir"
+        cta: "Descobrir",
+        useCases: [
+          "Trabalhos de renovação",
+          "Viagem de sonho",
+          "Casamento",
+          "Estudos",
+          "Compra de veículo"
+        ]
       },
       businessLoan: {
         title: "Financiamento empresarial",
         description: "Impulsione a sua empresa com as nossas soluções inovadoras.",
         points: ["Financiamento expresso", "Acompanhamento especializado", "Soluções à medida"],
-        cta: "Descobrir"
+        cta: "Descobrir",
+        useCases: [
+          "Criação de empresa",
+          "Expansão comercial",
+          "Compra de equipamentos",
+          "Tesouraria",
+          "Compra de participações"
+        ]
       },
       investment: {
         title: "Investimentos inteligentes",
         description: "Otimização patrimonial com inteligência artificial e experiência humana.",
         points: ["Carteira inteligente", "Consultoria premium", "Rendimento otimizado"],
-        cta: "Descobrir"
+        cta: "Descobrir",
+        useCases: [
+          "Investimento imobiliário",
+          "Diversificação patrimonial",
+          "Preparação reforma",
+          "Otimização fiscal",
+          "Investimento ESG"
+        ]
       },
       insurance: {
         title: "Seguros 360°",
         description: "Proteção total e inovadora para todos os seus projetos de vida e negócio.",
         points: ["Cobertura completa", "Gestão de sinistros 24h", "Suporte premium"],
-        cta: "Descobrir"
+        cta: "Descobrir",
+        useCases: [
+          "Proteção familiar",
+          "Seguro profissional",
+          "Garantia empréstimo",
+          "Responsabilidade civil",
+          "Previdência saúde"
+        ]
       },
-      explore: "Explorar todos os nossos serviços"
+      explore: "Explorar todos os nossos serviços",
+      features: "Características",
+      useCases: "Casos de uso",
+      discover: "Descobrir",
+      specialized: {
+        title: "Produtos especializados",
+        description: "Soluções especializadas para as suas necessidades específicas",
+        mortgage: {
+          title: "Crédito habitação",
+          description: "Financie o seu projeto imobiliário nas melhores condições",
+          rate: "A partir de 1,2% TAEG"
+        },
+        student: {
+          title: "Crédito estudante",
+          description: "Soluções adaptadas para financiar os seus estudos",
+          rate: "0% durante os estudos"
+        },
+        savings: {
+          title: "Conta poupança+",
+          description: "Poupança remunerada e disponível",
+          rate: "Até 4% líquidos"
+        },
+        premium: {
+          title: "Cartão Premium",
+          description: "Vantagens exclusivas e serviços de alta gama",
+          rate: "Sem custos no 1º ano"
+        }
+      },
+      process: {
+        title: "O nosso processo",
+        description: "Um percurso simplificado para concretizar os seus projetos",
+        step1: {
+          title: "Análise do seu projeto",
+          description: "Estudo personalizado das suas necessidades e capacidades financeiras"
+        },
+        step2: {
+          title: "Proposta à medida",
+          description: "Soluções adaptadas com condições otimizadas por IA"
+        },
+        step3: {
+          title: "Validação expressa",
+          description: "Resposta de princípio em menos de 2h úteis"
+        },
+        step4: {
+          title: "Desbloqueio dos fundos",
+          description: "Disponibilização rápida e acompanhamento contínuo"
+        }
+      }
     },
     testimonials: {
       title: "Confiam em nós",
@@ -1712,27 +2087,102 @@ const translations = {
         title: "Προσωπικά δάνεια",
         description: "Εξατομικευμένες χρηματοδοτικές λύσεις με επαναστατικούς όρους.",
         points: ["AI για βέλτιστα επιτόκια", "Απάντηση σε 2 ώρες", "Μέγιστη ευελιξία"],
-        cta: "Ανακάλυψε"
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Εργασίες ανακαίνισης",
+          "Ταξίδι των ονείρων",
+          "Γάμος",
+          "Σπουδές",
+          "Αγορά οχήματος"
+        ]
       },
       businessLoan: {
         title: "Επιχειρηματικά δάνεια",
         description: "Αναπτύξτε την επιχείρησή σας με τις καινοτόμες λύσεις μας.",
         points: ["Άμεση χρηματοδότηση", "Υποστήριξη από ειδικούς", "Εξατομικευμένες λύσεις"],
-        cta: "Ανακάλυψε"
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Δημιουργία επιχείρησης",
+          "Εμπορική επέκταση",
+          "Αγορά εξοπλισμού",
+          "Ταμείο",
+          "Αγορά μετοχών"
+        ]
       },
       investment: {
         title: "Έξυπνες επενδύσεις",
         description: "Βελτιστοποίηση περιουσίας με τεχνητή νοημοσύνη και ανθρώπινη εμπειρία.",
         points: ["Έξυπνο χαρτοφυλάκιο", "Premium συμβουλευτική", "Βελτιστοποιημένες αποδόσεις"],
-        cta: "Ανακάλυψε"
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Επένδυση ακινήτων",
+          "Διαφοροποίηση περιουσίας",
+          "Προετοιμασία συνταξιοδότησης",
+          "Φορολογική βελτιστοποίηση",
+          "Επένδυση ESG"
+        ]
       },
       insurance: {
         title: "Ασφάλειες 360°",
         description: "Πλήρης και καινοτόμα κάλυψη για τη ζωή και τις επιχειρήσεις σας.",
         points: ["Πλήρης κάλυψη", "Αποζημίωση σε 24 ώρες", "Premium υποστήριξη"],
-        cta: "Ανακάλυψε"
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Προστασία οικογένειας",
+          "Επαγγελματική ασφάλιση",
+          "Εγγύηση δανείου",
+          "Αστική ευθύνη",
+          "Υγειονομική πρόνοια"
+        ]
       },
-      explore: "Εξερευνήστε όλες τις υπηρεσίες μας"
+      explore: "Εξερευνήστε όλες τις υπηρεσίες μας",
+      features: "Χαρακτηριστικά",
+      useCases: "Περιπτώσεις χρήσης",
+      discover: "Ανακάλυψε",
+      specialized: {
+        title: "Εξειδικευμένα προϊόντα",
+        description: "Εξειδικευμένες λύσεις για τις συγκεκριμένες ανάγκες σας",
+        mortgage: {
+          title: "Στεγαστικό δάνειο",
+          description: "Χρηματοδοτήστε το ακίνητο έργο σας με τους καλύτερους όρους",
+          rate: "Από 1,2% ΕΠΣ"
+        },
+        student: {
+          title: "Φοιτητικό δάνειο",
+          description: "Προσαρμοσμένες λύσεις για τη χρηματοδότηση των σπουδών σας",
+          rate: "0% κατά τη διάρκεια των σπουδών"
+        },
+        savings: {
+          title: "Λογαριασμός αποταμίευσης+",
+          description: "Επικερδής και διαθέσιμη αποταμίευση",
+          rate: "Έως 4% καθαρά"
+        },
+        premium: {
+          title: "Κάρτα Premium",
+          description: "Αποκλειστικά πλεονεκτήματα και υπηρεσίες υψηλής ποιότητας",
+          rate: "Χωρίς χρέωση τον 1ο χρόνο"
+        }
+      },
+      process: {
+        title: "Η διαδικασία μας",
+        description: "Μια απλοποιημένη διαδρομή για την υλοποίηση των έργων σας",
+        step1: {
+          title: "Ανάλυση του έργου σας",
+          description: "Εξατομικευμένη μελέτη των αναγκών και χρηματοδοτικών δυνατοτήτων σας"
+        },
+        step2: {
+          title: "Εξατομικευμένη πρόταση",
+          description: "Προσαρμοσμένες λύσεις με όρους βελτιστοποιημένους από AI"
+        },
+        step3: {
+          title: "Ταχεία επικύρωση",
+          description: "Απάντηση αρχής σε λιγότερο από 2 εργάσιμες ώρες"
+        },
+        step4: {
+          title: "Απελευθέρωση κεφαλαίων",
+          description: "Ταχεία διάθεση και συνεχής υποστήριξη"
+        }
+      }
     },
     testimonials: {
       title: "Μας εμπιστεύονται",
