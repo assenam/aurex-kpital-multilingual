@@ -232,7 +232,7 @@ const Services = () => {
                 <CardContent>
                   <div className="space-y-6">
                     <div>
-                      <h4 className="font-semibold text-primary mb-3">{t('services.features')} :</h4>
+                      <h4 className="font-semibold text-primary mb-3">{t('services.features')}</h4>
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2">
@@ -244,7 +244,7 @@ const Services = () => {
                     </div>
 
                     <div>
-                      <h4 className="font-semibold text-primary mb-3">{t('services.useCases')} :</h4>
+                      <h4 className="font-semibold text-primary mb-3">{t('services.useCases')}</h4>
                       <div className="flex flex-wrap gap-2">
                         {service.useCases.map((useCase, idx) => (
                           <Badge key={idx} variant="secondary" className="text-xs">
@@ -363,10 +363,10 @@ const Services = () => {
 
             <div className="mt-8 pt-8 border-t border-primary-foreground/20">
               <p className="text-primary-foreground/80 mb-2">
-                <strong className="text-gold">{t('home.cta.contact.phone')} :</strong> +49 40 710 97523
+                <strong className="text-gold">{t('home.cta.contact.phone')}</strong> +49 40 710 97523
               </p>
               <p className="text-primary-foreground/80">
-                <strong className="text-gold">{t('home.cta.contact.address')} :</strong> {t('home.cta.contact.addressValue')}
+                <strong className="text-gold">{t('home.cta.contact.address')}</strong> {t('home.cta.contact.addressValue')}
               </p>
             </div>
           </div>
