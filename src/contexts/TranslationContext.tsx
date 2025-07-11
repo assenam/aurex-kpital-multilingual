@@ -274,27 +274,102 @@ const translations = {
         title: "Prêts Personnels",
         description: "Solutions de financement sur-mesure avec des conditions révolutionnaires.",
         points: ["IA pour taux optimaux", "Réponse en 2h", "Flexibilité maximale"],
-        cta: "Découvrir"
+        cta: "Découvrir",
+        useCases: [
+          "Travaux de rénovation",
+          "Voyage de rêve", 
+          "Mariage",
+          "Études",
+          "Achat de véhicule"
+        ]
       },
       businessLoan: {
         title: "Financement entreprise",
         description: "Boostez votre entreprise avec nos solutions innovantes.",
         points: ["Financement express", "Accompagnement expert", "Solutions sur-mesure"],
-        cta: "Découvrir"
+        cta: "Découvrir",
+        useCases: [
+          "Création d'entreprise",
+          "Expansion commerciale",
+          "Achat d'équipement", 
+          "Trésorerie",
+          "Rachat de parts"
+        ]
       },
       investment: {
         title: "Investissements intelligents",
         description: "Optimisation patrimoniale avec intelligence artificielle et expertise humaine.",
         points: ["Portefeuille intelligent", "Conseil premium", "Rendement optimisé"],
-        cta: "Découvrir"
+        cta: "Découvrir",
+        useCases: [
+          "Placement immobilier",
+          "Diversification patrimoniale",
+          "Préparation retraite",
+          "Optimisation fiscale",
+          "Investissement ESG"
+        ]
       },
       insurance: {
         title: "Assurances 360°",
         description: "Protection totale et innovante pour tous vos projets de vie et business.",
         points: ["Couverture complète", "Gestion sinistres 24h", "Support premium"],
-        cta: "Découvrir"
+        cta: "Découvrir",
+        useCases: [
+          "Protection famille",
+          "Assurance professionnelle",
+          "Garantie emprunt",
+          "Responsabilité civile",
+          "Prévoyance santé"
+        ]
       },
-      explore: "Explorer tous nos services"
+      explore: "Explorer tous nos services",
+      features: "Caractéristiques",
+      useCases: "Cas d'usage",
+      discover: "Découvrir",
+      specialized: {
+        title: "Produits spécialisés",
+        description: "Solutions expertes pour vos besoins spécifiques",
+        mortgage: {
+          title: "Prêt immobilier",
+          description: "Financez votre projet immobilier aux meilleures conditions",
+          rate: "À partir de 1,2% TAEG"
+        },
+        student: {
+          title: "Prêt étudiant", 
+          description: "Solutions adaptées pour financer vos études",
+          rate: "0% pendant les études"
+        },
+        savings: {
+          title: "Livret épargne+",
+          description: "Épargne rémunérée et disponible", 
+          rate: "Jusqu'à 4% net"
+        },
+        premium: {
+          title: "Carte Premium",
+          description: "Avantages exclusifs et services haut de gamme",
+          rate: "Sans frais la 1ère année"
+        }
+      },
+      process: {
+        title: "Notre processus",
+        description: "Un parcours simplifié pour concrétiser vos projets",
+        step1: {
+          title: "Analyse de votre projet",
+          description: "Étude personnalisée de vos besoins et capacités financières"
+        },
+        step2: {
+          title: "Proposition sur-mesure", 
+          description: "Solutions adaptées avec conditions optimisées par IA"
+        },
+        step3: {
+          title: "Validation express",
+          description: "Réponse de principe en moins de 2h ouvrées"
+        },
+        step4: {
+          title: "Déblocage des fonds",
+          description: "Mise à disposition rapide et accompagnement continu"
+        }
+      }
     },
     testimonials: {
       title: "Ils nous font confiance",
@@ -458,27 +533,102 @@ const translations = {
         title: "Privatkredite",
         description: "Maßgeschneiderte Finanzierungslösungen mit revolutionären Konditionen.",
         points: ["KI für optimale Zinssätze", "Antwort in 2 Stunden", "Maximale Flexibilität"],
-        cta: "Entdecken"
+        cta: "Entdecken",
+        useCases: [
+          "Renovierungsarbeiten",
+          "Traumreise",
+          "Hochzeit", 
+          "Studium",
+          "Fahrzeugkauf"
+        ]
       },
       businessLoan: {
         title: "Unternehmensfinanzierung",
         description: "Bringen Sie Ihr Geschäft mit unseren innovativen Lösungen voran.",
         points: ["Express-Finanzierung", "Expertenbegleitung", "Maßgeschneiderte Lösungen"],
-        cta: "Entdecken"
+        cta: "Entdecken",
+        useCases: [
+          "Unternehmensgründung",
+          "Geschäftserweiterung",
+          "Ausrüstungskauf",
+          "Liquidität",
+          "Anteilsübernahme"
+        ]
       },
       investment: {
         title: "Intelligente Investments",
         description: "Vermögensoptimierung mit KI und menschlicher Expertise.",
         points: ["Intelligentes Portfolio", "Premium-Beratung", "Optimierte Rendite"],
-        cta: "Entdecken"
+        cta: "Entdecken",
+        useCases: [
+          "Immobilieninvestition",
+          "Vermögensdiversifikation",
+          "Rentenvorbereitung",
+          "Steueroptimierung",
+          "ESG-Investment"
+        ]
       },
       insurance: {
         title: "360° Versicherungen",
         description: "Umfassender Schutz für Ihre Lebens- und Geschäftsprojekte.",
         points: ["Vollständiger Schutz", "Schadenregulierung in 24h", "Premium-Support"],
-        cta: "Entdecken"
+        cta: "Entdecken",
+        useCases: [
+          "Familienschutz",
+          "Berufsversicherung", 
+          "Kreditgarantie",
+          "Haftpflicht",
+          "Gesundheitsvorsorge"
+        ]
       },
-      explore: "Alle unsere Services entdecken"
+      explore: "Alle unsere Services entdecken",
+      features: "Eigenschaften",
+      useCases: "Anwendungsfälle", 
+      discover: "Entdecken",
+      specialized: {
+        title: "Spezialisierte Produkte",
+        description: "Expertenlösungen für Ihre spezifischen Bedürfnisse",
+        mortgage: {
+          title: "Immobilienkredit",
+          description: "Finanzieren Sie Ihr Immobilienprojekt zu besten Konditionen",
+          rate: "Ab 1,2% effektiver Jahreszins"
+        },
+        student: {
+          title: "Studentenkredit",
+          description: "Angepasste Lösungen zur Finanzierung Ihres Studiums",
+          rate: "0% während des Studiums"
+        },
+        savings: {
+          title: "Sparkonto+",
+          description: "Verzinste und verfügbare Ersparnisse",
+          rate: "Bis zu 4% netto"
+        },
+        premium: {
+          title: "Premium-Karte", 
+          description: "Exklusive Vorteile und erstklassige Services",
+          rate: "Gebührenfrei im 1. Jahr"
+        }
+      },
+      process: {
+        title: "Unser Prozess",
+        description: "Ein vereinfachter Weg zur Verwirklichung Ihrer Projekte",
+        step1: {
+          title: "Analyse Ihres Projekts",
+          description: "Personalisierte Studie Ihrer Bedürfnisse und finanziellen Möglichkeiten"
+        },
+        step2: {
+          title: "Maßgeschneidertes Angebot",
+          description: "Angepasste Lösungen mit KI-optimierten Konditionen"
+        },
+        step3: {
+          title: "Express-Validierung", 
+          description: "Grundsätzliche Antwort in weniger als 2 Arbeitsstunden"
+        },
+        step4: {
+          title: "Freigabe der Mittel",
+          description: "Schnelle Bereitstellung und kontinuierliche Begleitung"
+        }
+      }
     },
     testimonials: {
       title: "Vertrauen Sie uns",

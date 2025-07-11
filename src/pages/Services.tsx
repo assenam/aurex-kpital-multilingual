@@ -26,11 +26,11 @@ const Services = () => {
         t('services.personalLoan.points.2')
       ],
       useCases: [
-        "Travaux de rénovation",
-        "Voyage de rêve", 
-        "Mariage",
-        "Études",
-        "Achat de véhicule"
+        t('services.personalLoan.useCases.0'),
+        t('services.personalLoan.useCases.1'), 
+        t('services.personalLoan.useCases.2'),
+        t('services.personalLoan.useCases.3'),
+        t('services.personalLoan.useCases.4')
       ]
     },
     {
@@ -44,11 +44,11 @@ const Services = () => {
         t('services.businessLoan.points.2')
       ],
       useCases: [
-        "Création d'entreprise",
-        "Expansion commerciale",
-        "Achat d'équipement",
-        "Trésorerie",
-        "Rachat de parts"
+        t('services.businessLoan.useCases.0'),
+        t('services.businessLoan.useCases.1'),
+        t('services.businessLoan.useCases.2'),
+        t('services.businessLoan.useCases.3'),
+        t('services.businessLoan.useCases.4')
       ]
     },
     {
@@ -62,11 +62,11 @@ const Services = () => {
         t('services.investment.points.2')
       ],
       useCases: [
-        "Placement immobilier",
-        "Diversification patrimoniale",
-        "Préparation retraite",
-        "Optimisation fiscale",
-        "Investissement ESG"
+        t('services.investment.useCases.0'),
+        t('services.investment.useCases.1'),
+        t('services.investment.useCases.2'),
+        t('services.investment.useCases.3'),
+        t('services.investment.useCases.4')
       ]
     },
     {
@@ -80,62 +80,62 @@ const Services = () => {
         t('services.insurance.points.2')
       ],
       useCases: [
-        "Protection famille",
-        "Assurance professionnelle",
-        "Garantie emprunt",
-        "Responsabilité civile",
-        "Prévoyance santé"
+        t('services.insurance.useCases.0'),
+        t('services.insurance.useCases.1'),
+        t('services.insurance.useCases.2'),
+        t('services.insurance.useCases.3'),
+        t('services.insurance.useCases.4')
       ]
     }
   ], [t]);
 
   const specializedProducts = useMemo(() => [
     {
-      title: "Prêt immobilier",
-      description: "Financez votre projet immobilier aux meilleures conditions",
+      title: t('services.specialized.mortgage.title'),
+      description: t('services.specialized.mortgage.description'),
       icon: Home,
-      rate: "À partir de 1,2% TAEG"
+      rate: t('services.specialized.mortgage.rate')
     },
     {
-      title: "Prêt étudiant",
-      description: "Solutions adaptées pour financer vos études",
+      title: t('services.specialized.student.title'),
+      description: t('services.specialized.student.description'),
       icon: FileText,
-      rate: "0% pendant les études"
+      rate: t('services.specialized.student.rate')
     },
     {
-      title: "Livret épargne+",
-      description: "Épargne rémunérée et disponible",
+      title: t('services.specialized.savings.title'),
+      description: t('services.specialized.savings.description'),
       icon: PiggyBank,
-      rate: "Jusqu'à 4% net"
+      rate: t('services.specialized.savings.rate')
     },
     {
-      title: "Carte Premium",
-      description: "Avantages exclusifs et services haut de gamme",
+      title: t('services.specialized.premium.title'),
+      description: t('services.specialized.premium.description'),
       icon: CreditCard,
-      rate: "Sans frais la 1ère année"
+      rate: t('services.specialized.premium.rate')
     }
   ], [t]);
 
   const processSteps = useMemo(() => [
     {
       step: "01",
-      title: "Analyse de votre projet",
-      description: "Étude personnalisée de vos besoins et capacités financières"
+      title: t('services.process.step1.title'),
+      description: t('services.process.step1.description')
     },
     {
       step: "02", 
-      title: "Proposition sur-mesure",
-      description: "Solutions adaptées avec conditions optimisées par IA"
+      title: t('services.process.step2.title'),
+      description: t('services.process.step2.description')
     },
     {
       step: "03",
-      title: "Validation express",
-      description: "Réponse de principe en moins de 2h ouvrées"
+      title: t('services.process.step3.title'),
+      description: t('services.process.step3.description')
     },
     {
       step: "04",
-      title: "Déblocage des fonds",
-      description: "Mise à disposition rapide et accompagnement continu"
+      title: t('services.process.step4.title'),
+      description: t('services.process.step4.description')
     }
   ], [t]);
 
@@ -220,8 +220,8 @@ const Services = () => {
 
                 <CardContent>
                   <div className="space-y-6">
-                    <div>
-                      <h4 className="font-semibold text-primary mb-3">Caractéristiques :</h4>
+                     <div>
+                       <h4 className="font-semibold text-primary mb-3">{t('services.features')} :</h4>
                       <ul className="space-y-2">
                         {service.features.map((feature, idx) => (
                           <li key={idx} className="flex items-start gap-2">
@@ -232,8 +232,8 @@ const Services = () => {
                       </ul>
                     </div>
 
-                    <div>
-                      <h4 className="font-semibold text-primary mb-3">Cas d'usage :</h4>
+                     <div>
+                       <h4 className="font-semibold text-primary mb-3">{t('services.useCases')} :</h4>
                       <div className="flex flex-wrap gap-2">
                         {service.useCases.map((useCase, idx) => (
                           <Badge key={idx} variant="secondary" className="text-xs">
@@ -260,14 +260,14 @@ const Services = () => {
       {/* Specialized Products */}
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Produits spécialisés
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Solutions expertes pour vos besoins spécifiques
-            </p>
-          </div>
+           <div className="text-center mb-16">
+             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
+               {t('services.specialized.title')}
+             </h2>
+             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+               {t('services.specialized.description')}
+             </p>
+           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {specializedProducts.map((product, index) => (
@@ -281,9 +281,9 @@ const Services = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="text-2xl font-bold text-accent mb-4">{product.rate}</div>
-                  <Button variant="outline" size="sm" className="w-full" asChild>
-                    <Link to="/demande">Découvrir</Link>
-                  </Button>
+                   <Button variant="outline" size="sm" className="w-full" asChild>
+                     <Link to="/demande">{t('services.discover')}</Link>
+                   </Button>
                 </CardContent>
               </Card>
             ))}
@@ -296,14 +296,14 @@ const Services = () => {
         <div className="absolute top-20 left-10 w-32 h-32 bg-gold/10 rounded-full blur-2xl float"></div>
         <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Notre processus
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Un parcours simplifié pour concrétiser vos projets
-            </p>
-          </div>
+           <div className="text-center mb-16">
+             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
+               {t('services.process.title')}
+             </h2>
+             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+               {t('services.process.description')}
+             </p>
+           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {processSteps.map((step, index) => (
