@@ -5,9 +5,9 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
 import { 
-  Gem, Building2, TrendingUp, Shield, Sparkles, Target, 
-  CheckCircle, ArrowRight, Clock, Users, Award, Calculator,
-  FileText, PiggyBank, Banknote, CreditCard, Home, Briefcase
+  Gem, Building2, TrendingUp, Shield, Sparkles, 
+  CheckCircle, ArrowRight, Clock, Users, Calculator,
+  FileText, PiggyBank, CreditCard, Home
 } from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
 import { useMemo } from 'react';
