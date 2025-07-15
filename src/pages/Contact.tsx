@@ -13,10 +13,8 @@ import {
   Users, Headphones, AlertCircle, CheckCircle, Sparkles,
   Building, Globe, Shield, Award
 } from 'lucide-react';
-import { useTranslation } from '@/contexts/TranslationContext';
 
 const Contact = () => {
-  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -29,7 +27,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(t('contactPage.form.successMessage'));
+    alert('Votre message a été envoyé avec succès ! Nous vous contacterons rapidement.');
   };
 
   const updateFormData = (field: string, value: string) => {
@@ -39,81 +37,69 @@ const Contact = () => {
   const contactMethods = [
     {
       icon: Phone,
-      title: t('contactPage.methods.phone.title'),
-      description: t('contactPage.methods.phone.description'),
-      value: t('contactPage.methods.phone.value'),
-      hours: t('contactPage.methods.phone.hours'),
+      title: "Téléphone",
+      description: "Parlez directement à nos conseillers",
+      value: "+49 40 710 97523",
+      hours: "Lun-Ven: 8h-19h, Sam: 9h-17h",
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: Mail,
-      title: t('contactPage.methods.email.title'),
-      description: t('contactPage.methods.email.description'),
-      value: t('contactPage.methods.email.value'),
-      hours: t('contactPage.methods.email.hours'),
+      title: "Email",
+      description: "Envoyez-nous vos questions",
+      value: "contact@aurex-kpital.de",
+      hours: "Réponse sous 4h en moyenne",
       color: "from-emerald-500 to-emerald-600"
     },
     {
       icon: MapPin,
-      title: t('contactPage.methods.address.title'),
-      description: t('contactPage.methods.address.description'),
-      value: t('contactPage.methods.address.value'),
-      hours: t('contactPage.methods.address.hours'),
+      title: "Adresse",
+      description: "Visitez nos bureaux à Hamburg",
+      value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
+      hours: "Sur rendez-vous uniquement",
       color: "from-purple-500 to-purple-600"
     },
     {
       icon: MessageCircle,
-      title: t('contactPage.methods.chat.title'),
-      description: t('contactPage.methods.chat.description'),
-      value: t('contactPage.methods.chat.value'),
-      hours: t('contactPage.methods.chat.hours'),
+      title: "Chat en ligne",
+      description: "Assistance instantanée",
+      value: "Disponible 24h/7j",
+      hours: "Réponse immédiate",
       color: "from-amber-500 to-amber-600"
     }
   ];
 
   const departments = [
     {
-      name: t('contactPage.departments.commercial.name'),
-      description: t('contactPage.departments.commercial.description'),
-      contact: t('contactPage.departments.commercial.email'),
-      phone: t('contactPage.departments.commercial.phone')
+      name: "Service Commercial",
+      description: "Nouvelles demandes et informations",
+      contact: "commercial@aurex-kpital.de",
+      phone: "+49 40 710 97523"
     },
     {
-      name: t('contactPage.departments.client.name'),
-      description: t('contactPage.departments.client.description'),
-      contact: t('contactPage.departments.client.email'), 
-      phone: t('contactPage.departments.client.phone')
+      name: "Service Client",
+      description: "Suivi de dossiers existants",
+      contact: "client@aurex-kpital.de", 
+      phone: "+49 40 710 97524"
     },
     {
-      name: t('contactPage.departments.support.name'),
-      description: t('contactPage.departments.support.description'),
-      contact: t('contactPage.departments.support.email'),
-      phone: t('contactPage.departments.support.phone')
+      name: "Support Technique",
+      description: "Assistance plateforme et outils",
+      contact: "support@aurex-kpital.de",
+      phone: "+49 40 710 97525"
     },
     {
-      name: t('contactPage.departments.management.name'),
-      description: t('contactPage.departments.management.description'),
-      contact: t('contactPage.departments.management.email'),
-      phone: t('contactPage.departments.management.phone')
+      name: "Direction",
+      description: "Réclamations et suggestions",
+      contact: "direction@aurex-kpital.de",
+      phone: "+49 40 710 97520"
     }
   ];
 
   const officeHours = [
-    { 
-      day: t('contactPage.officeHours.monday'), 
-      hours: t('contactPage.officeHours.mondayHours'), 
-      type: t('contactPage.officeHours.mondayType') 
-    },
-    { 
-      day: t('contactPage.officeHours.saturday'), 
-      hours: t('contactPage.officeHours.saturdayHours'), 
-      type: t('contactPage.officeHours.saturdayType') 
-    },
-    { 
-      day: t('contactPage.officeHours.sunday'), 
-      hours: t('contactPage.officeHours.sundayHours'), 
-      type: t('contactPage.officeHours.sundayType') 
-    }
+    { day: "Lundi - Vendredi", hours: "8h00 - 19h00", type: "Conseillers disponibles" },
+    { day: "Samedi", hours: "9h00 - 17h00", type: "Service réduit" },
+    { day: "Dimanche", hours: "Fermé", type: "Urgences uniquement" }
   ];
 
   return (
@@ -130,34 +116,35 @@ const Contact = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <MessageCircle className="h-4 w-4 mr-2" />
-                {t('contactPage.hero.badge')}
+                Support Excellence
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              {t('contactPage.hero.title')}
-              <span className="text-gold block">{t('contactPage.hero.titleSpan')}</span>
+              Contactez Nos
+              <span className="text-gold block">Experts</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              {t('contactPage.hero.description')}
+              Notre équipe dédiée vous accompagne à chaque étape de votre projet financier. 
+              Plusieurs moyens pour nous joindre selon vos préférences.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               <div className="text-center">
                 <Headphones className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-lg">{t('contactPage.hero.stats.satisfaction.value')}</div>
-                <div className="text-sm opacity-90">{t('contactPage.hero.stats.satisfaction.label')}</div>
+                <div className="font-bold text-lg">97%</div>
+                <div className="text-sm opacity-90">Satisfaction client</div>
               </div>
               <div className="text-center">
                 <Clock className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-lg">{t('contactPage.hero.stats.response.value')}</div>
-                <div className="text-sm opacity-90">{t('contactPage.hero.stats.response.label')}</div>
+                <div className="font-bold text-lg">2h</div>
+                <div className="text-sm opacity-90">Temps de réponse moyen</div>
               </div>
               <div className="text-center">
                 <Users className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-lg">{t('contactPage.hero.stats.advisors.value')}</div>
-                <div className="text-sm opacity-90">{t('contactPage.hero.stats.advisors.label')}</div>
+                <div className="font-bold text-lg">25+</div>
+                <div className="text-sm opacity-90">Conseillers experts</div>
               </div>
             </div>
           </div>
@@ -171,10 +158,10 @@ const Contact = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('contactPage.methods.title')}
+              Comment Nous Joindre
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('contactPage.methods.description')}
+              Choisissez le canal qui vous convient le mieux
             </p>
           </div>
 
@@ -213,10 +200,10 @@ const Contact = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl font-bold text-primary flex items-center gap-2">
                     <MessageCircle className="h-6 w-6" />
-                    {t('contactPage.form.title')}
+                    Envoyez-nous un message
                   </CardTitle>
                   <CardDescription>
-                    {t('contactPage.form.description')}
+                    Nous vous répondons rapidement et de manière personnalisée
                   </CardDescription>
                 </CardHeader>
                 
@@ -224,7 +211,7 @@ const Contact = () => {
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="name">{t('contactPage.form.fields.name')} *</Label>
+                        <Label htmlFor="name">Nom complet *</Label>
                         <Input
                           id="name"
                           value={formData.name}
@@ -233,7 +220,7 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <Label htmlFor="email">{t('contactPage.form.fields.email')} *</Label>
+                        <Label htmlFor="email">Email *</Label>
                         <Input
                           id="email"
                           type="email"
@@ -246,7 +233,7 @@ const Contact = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="phone">{t('contactPage.form.fields.phone')}</Label>
+                        <Label htmlFor="phone">Téléphone</Label>
                         <Input
                           id="phone"
                           type="tel"
@@ -255,19 +242,19 @@ const Contact = () => {
                         />
                       </div>
                       <div>
-                        <Label htmlFor="subject">{t('contactPage.form.fields.subject')}</Label>
+                        <Label htmlFor="subject">Sujet</Label>
                         <Select value={formData.subject} onValueChange={(value) => updateFormData('subject', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder={t('contactPage.form.placeholders.subject')} />
+                            <SelectValue placeholder="Choisissez un sujet" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="loan-request">{t('contactPage.form.subjects.loanRequest')}</SelectItem>
-                            <SelectItem value="investment">{t('contactPage.form.subjects.investment')}</SelectItem>
-                            <SelectItem value="insurance">{t('contactPage.form.subjects.insurance')}</SelectItem>
-                            <SelectItem value="existing-client">{t('contactPage.form.subjects.existingClient')}</SelectItem>
-                            <SelectItem value="partnership">{t('contactPage.form.subjects.partnership')}</SelectItem>
-                            <SelectItem value="complaint">{t('contactPage.form.subjects.complaint')}</SelectItem>
-                            <SelectItem value="other">{t('contactPage.form.subjects.other')}</SelectItem>
+                            <SelectItem value="loan-request">Demande de prêt</SelectItem>
+                            <SelectItem value="investment">Conseil en investissement</SelectItem>
+                            <SelectItem value="insurance">Assurance</SelectItem>
+                            <SelectItem value="existing-client">Client existant</SelectItem>
+                            <SelectItem value="partnership">Partenariat</SelectItem>
+                            <SelectItem value="complaint">Réclamation</SelectItem>
+                            <SelectItem value="other">Autre</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -275,40 +262,40 @@ const Contact = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="preferredContact">{t('contactPage.form.fields.preferredContact')}</Label>
+                        <Label htmlFor="preferredContact">Mode de contact préféré</Label>
                         <Select value={formData.preferredContact} onValueChange={(value) => updateFormData('preferredContact', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder={t('contactPage.form.placeholders.preferredContact')} />
+                            <SelectValue placeholder="Comment préférez-vous être contacté ?" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="phone">{t('contactPage.form.contactMethods.phone')}</SelectItem>
-                            <SelectItem value="email">{t('contactPage.form.contactMethods.email')}</SelectItem>
-                            <SelectItem value="appointment">{t('contactPage.form.contactMethods.appointment')}</SelectItem>
+                            <SelectItem value="phone">Téléphone</SelectItem>
+                            <SelectItem value="email">Email</SelectItem>
+                            <SelectItem value="appointment">Rendez-vous</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                       <div>
-                        <Label htmlFor="urgency">{t('contactPage.form.fields.urgency')}</Label>
+                        <Label htmlFor="urgency">Niveau d'urgence</Label>
                         <Select value={formData.urgency} onValueChange={(value) => updateFormData('urgency', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder={t('contactPage.form.placeholders.urgency')} />
+                            <SelectValue placeholder="Sélectionnez" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="low">{t('contactPage.form.urgencyLevels.low')}</SelectItem>
-                            <SelectItem value="medium">{t('contactPage.form.urgencyLevels.medium')}</SelectItem>
-                            <SelectItem value="high">{t('contactPage.form.urgencyLevels.high')}</SelectItem>
+                            <SelectItem value="low">Normal (48h)</SelectItem>
+                            <SelectItem value="medium">Urgent (24h)</SelectItem>
+                            <SelectItem value="high">Très urgent (4h)</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                     </div>
 
                     <div>
-                      <Label htmlFor="message">{t('contactPage.form.fields.message')} *</Label>
+                      <Label htmlFor="message">Votre message *</Label>
                       <Textarea
                         id="message"
                         value={formData.message}
                         onChange={(e) => updateFormData('message', e.target.value)}
-                        placeholder={t('contactPage.form.placeholders.message')}
+                        placeholder="Décrivez votre demande en détail..."
                         rows={6}
                         required
                       />
@@ -316,14 +303,15 @@ const Contact = () => {
 
                     <Button type="submit" className="w-full bg-gradient-primary hover:shadow-lg text-lg py-3">
                       <Sparkles className="h-5 w-5 mr-2" />
-                      {t('contactPage.form.submit')}
+                      Envoyer le message
                     </Button>
 
                     <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                       <div className="flex items-start gap-2">
                         <CheckCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
                         <div className="text-sm text-blue-800">
-                          <strong>Engagement :</strong> {t('contactPage.form.commitment')}
+                          <strong>Engagement :</strong> Nous nous engageons à vous répondre 
+                          dans les délais indiqués selon le niveau d'urgence sélectionné.
                         </div>
                       </div>
                     </div>
@@ -339,7 +327,7 @@ const Contact = () => {
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                     <Building className="h-5 w-5" />
-                    {t('contactPage.departments.title')}
+                    Nos Départements
                   </CardTitle>
                 </CardHeader>
                 
@@ -370,7 +358,7 @@ const Contact = () => {
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                     <Clock className="h-5 w-5" />
-                    {t('contactPage.officeHours.title')}
+                    Horaires d'ouverture
                   </CardTitle>
                 </CardHeader>
                 
@@ -396,7 +384,7 @@ const Contact = () => {
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                     <Award className="h-5 w-5" />
-                    {t('contactPage.certifications.title')}
+                    Garanties & Certifications
                   </CardTitle>
                 </CardHeader>
                 
@@ -404,15 +392,15 @@ const Contact = () => {
                   <div className="space-y-3">
                     <div className="flex items-center gap-2">
                       <Shield className="h-5 w-5 text-emerald-500" />
-                      <span className="text-sm">{t('contactPage.certifications.iso')}</span>
+                      <span className="text-sm">Données sécurisées ISO 27001</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <CheckCircle className="h-5 w-5 text-emerald-500" />
-                      <span className="text-sm">{t('contactPage.certifications.gdpr')}</span>
+                      <span className="text-sm">Conformité RGPD</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Globe className="h-5 w-5 text-emerald-500" />
-                      <span className="text-sm">{t('contactPage.certifications.eu')}</span>
+                      <span className="text-sm">Agréé Union Européenne</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <Users className="h-5 w-5 text-emerald-500" />
