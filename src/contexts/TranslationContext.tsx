@@ -513,6 +513,142 @@ const translations = {
           title: "Responsabilité",
           description: "Aurex K-pital s'efforce de fournir des informations exactes et à jour. Cependant, la société ne peut garantir l'exactitude, la complétude ou l'actualité des informations diffusées sur ce site. L'utilisation des informations se fait sous la responsabilité exclusive de l'utilisateur."
         }
+      },
+      contactPage: {
+        hero: {
+          badge: "Support Excellence",
+          title: "Contactez Nos",
+          titleSpan: "Experts",
+          description: "Notre équipe dédiée vous accompagne à chaque étape de votre projet financier. Plusieurs moyens pour nous joindre selon vos préférences.",
+          stats: {
+            satisfaction: {
+              value: "97%",
+              label: "Satisfaction client"
+            },
+            response: {
+              value: "2h",
+              label: "Temps de réponse moyen"
+            },
+            advisors: {
+              value: "25+",
+              label: "Conseillers experts"
+            }
+          }
+        },
+        methods: {
+          title: "Comment Nous Joindre",
+          description: "Choisissez le canal qui vous convient le mieux",
+          phone: {
+            title: "Téléphone",
+            description: "Parlez directement à nos conseillers",
+            value: "+49 40 710 97523",
+            hours: "Lun-Ven: 8h-19h, Sam: 9h-17h"
+          },
+          email: {
+            title: "Email",
+            description: "Envoyez-nous vos questions",
+            value: "contact@aurex-kpital.de",
+            hours: "Réponse sous 4h en moyenne"
+          },
+          address: {
+            title: "Adresse",
+            description: "Visitez nos bureaux à Hamburg",
+            value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
+            hours: "Sur rendez-vous uniquement"
+          },
+          chat: {
+            title: "Chat en ligne",
+            description: "Assistance instantanée",
+            value: "Disponible 24h/7j",
+            hours: "Réponse immédiate"
+          }
+        },
+        form: {
+          title: "Envoyez-nous un message",
+          description: "Nous vous répondons rapidement et de manière personnalisée",
+          fields: {
+            name: "Nom complet",
+            email: "Email",
+            phone: "Téléphone",
+            subject: "Sujet",
+            message: "Votre message",
+            preferredContact: "Mode de contact préféré",
+            urgency: "Niveau d'urgence"
+          },
+          placeholders: {
+            subject: "Choisissez un sujet",
+            message: "Décrivez votre demande en détail...",
+            preferredContact: "Comment préférez-vous être contacté ?",
+            urgency: "Sélectionnez"
+          },
+          subjects: {
+            loanRequest: "Demande de prêt",
+            investment: "Conseil en investissement",
+            insurance: "Assurance",
+            existingClient: "Client existant",
+            partnership: "Partenariat",
+            complaint: "Réclamation",
+            other: "Autre"
+          },
+          contactMethods: {
+            phone: "Téléphone",
+            email: "Email",
+            appointment: "Rendez-vous"
+          },
+          urgencyLevels: {
+            low: "Normal (48h)",
+            medium: "Urgent (24h)",
+            high: "Très urgent (4h)"
+          },
+          submit: "Envoyer le message",
+          commitment: "Nous nous engageons à vous répondre dans les délais indiqués selon le niveau d'urgence sélectionné.",
+          successMessage: "Votre message a été envoyé avec succès ! Nous vous contacterons rapidement."
+        },
+        departments: {
+          title: "Nos Départements",
+          commercial: {
+            name: "Service Commercial",
+            description: "Nouvelles demandes et informations",
+            email: "commercial@aurex-kpital.de",
+            phone: "+49 40 710 97523"
+          },
+          client: {
+            name: "Service Client",
+            description: "Suivi de dossiers existants",
+            email: "client@aurex-kpital.de",
+            phone: "+49 40 710 97524"
+          },
+          support: {
+            name: "Support Technique",
+            description: "Assistance plateforme et outils",
+            email: "support@aurex-kpital.de",
+            phone: "+49 40 710 97525"
+          },
+          management: {
+            name: "Direction",
+            description: "Réclamations et suggestions",
+            email: "direction@aurex-kpital.de",
+            phone: "+49 40 710 97520"
+          }
+        },
+        officeHours: {
+          title: "Horaires d'ouverture",
+          monday: "Lundi - Vendredi",
+          mondayHours: "8h00 - 19h00",
+          mondayType: "Conseillers disponibles",
+          saturday: "Samedi",
+          saturdayHours: "9h00 - 17h00",
+          saturdayType: "Service réduit",
+          sunday: "Dimanche",
+          sundayHours: "Fermé",
+          sundayType: "Urgences uniquement"
+        },
+        certifications: {
+          title: "Garanties & Certifications",
+          iso: "Données sécurisées ISO 27001",
+          gdpr: "Conformité RGPD",
+          eu: "Agréé Union Européenne"
+        }
       }
     },
     about: {
