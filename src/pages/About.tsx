@@ -43,33 +43,6 @@ const About = () => {
     }
   ];
 
-  const milestones = [
-    {
-      year: "1997",
-      title: t('about.history.milestone1.title'),
-      description: t('about.history.milestone1.description')
-    },
-    {
-      year: "2005",
-      title: t('about.history.milestone2.title'),
-      description: t('about.history.milestone2.description')
-    },
-    {
-      year: "2012",
-      title: t('about.history.milestone3.title'),
-      description: t('about.history.milestone3.description')
-    },
-    {
-      year: "2018",
-      title: t('about.history.milestone4.title'),
-      description: t('about.history.milestone4.description')
-    },
-    {
-      year: "2023",
-      title: t('about.history.milestone5.title'),
-      description: t('about.history.milestone5.description')
-    }
-  ];
 
 
   return (
@@ -195,45 +168,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Notre Histoire */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <Badge className="mb-4">
-              <Clock className="h-4 w-4 mr-2" />
-              {t('about.history.badge')}
-            </Badge>
-            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.history.title')}
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('about.history.description')}
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {milestones.map((milestone, index) => (
-                <div key={index} className="flex flex-col md:flex-row gap-6 items-start">
-                  <div className="flex-shrink-0">
-                    <Badge variant="outline" className="text-lg px-4 py-2 font-bold">
-                      {milestone.year}
-                    </Badge>
-                  </div>
-                  <Card className="flex-1 hover:shadow-lg transition-shadow">
-                    <CardHeader>
-                      <CardTitle className="text-xl">{milestone.title}</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <CardDescription className="text-base">{milestone.description}</CardDescription>
-                    </CardContent>
-                  </Card>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       {/* Call to Action */}
