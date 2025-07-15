@@ -3,12 +3,14 @@ import Footer from '@/components/layout/Footer';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
+import { useTranslation } from '@/contexts/TranslationContext';
 import { 
   Calendar, User, Clock, TrendingUp, BookOpen, Tag,
   ArrowRight, Search, Filter, Share2, Eye, Heart
 } from 'lucide-react';
 
 const Blog = () => {
+  const { t } = useTranslation();
   const featuredArticle = {
     title: "L'Intelligence Artificielle Révolutionne l'Analyse de Crédit en 2024",
     excerpt: "Découvrez comment nos algorithmes propriétaires d'IA permettent une évaluation du risque plus précise et des décisions de financement plus rapides, tout en maintenant l'équité et la transparence.",
@@ -111,40 +113,39 @@ const Blog = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <BookOpen className="h-4 w-4 mr-2" />
-                Expertise & Insights
+                {t('blog.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Blog Aurex
-              <span className="text-gold block">K-pital</span>
+              {t('blog.title')}
+              <span className="text-gold block">{t('blog.subtitle')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Analyses d'experts, tendances du marché et conseils pratiques pour optimiser 
-              vos décisions financières et d'investissement.
+              {t('blog.description')}
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
               <div className="text-center">
                 <BookOpen className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-2xl">150+</div>
-                <div className="text-sm opacity-90">Articles publiés</div>
+                <div className="font-bold text-2xl">{t('blog.stats.articles.value')}</div>
+                <div className="text-sm opacity-90">{t('blog.stats.articles.label')}</div>
               </div>
               <div className="text-center">
                 <User className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-2xl">8</div>
-                <div className="text-sm opacity-90">Experts auteurs</div>
+                <div className="font-bold text-2xl">{t('blog.stats.experts.value')}</div>
+                <div className="text-sm opacity-90">{t('blog.stats.experts.label')}</div>
               </div>
               <div className="text-center">
                 <Eye className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-2xl">50K+</div>
-                <div className="text-sm opacity-90">Lecteurs mensuels</div>
+                <div className="font-bold text-2xl">{t('blog.stats.readers.value')}</div>
+                <div className="text-sm opacity-90">{t('blog.stats.readers.label')}</div>
               </div>
               <div className="text-center">
                 <TrendingUp className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-2xl">95%</div>
-                <div className="text-sm opacity-90">Satisfaction lecteurs</div>
+                <div className="font-bold text-2xl">{t('blog.stats.satisfaction.value')}</div>
+                <div className="text-sm opacity-90">{t('blog.stats.satisfaction.label')}</div>
               </div>
             </div>
           </div>
@@ -156,7 +157,7 @@ const Blog = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6">
-              Article à la Une
+              {t('blog.featured.title')}
             </h2>
           </div>
 
@@ -211,13 +212,13 @@ const Blog = () => {
                     </div>
                     <div className="flex items-center gap-1 mt-1">
                       <Clock className="h-4 w-4" />
-                      {featuredArticle.readTime} de lecture
+                      {featuredArticle.readTime} {t('blog.actions.readTime')}
                     </div>
                   </div>
                 </div>
                 
                 <Button className="bg-gradient-primary hover:shadow-lg group">
-                  Lire l'article complet
+                  {t('blog.actions.readMore')}
                   <ArrowRight className="h-4 w-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>
@@ -235,7 +236,7 @@ const Blog = () => {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground" />
               <input
                 type="text"
-                placeholder="Rechercher un article..."
+                placeholder={t('blog.search.placeholder')}
                 className="w-full pl-10 pr-4 py-3 border border-secondary rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
               />
             </div>
@@ -244,7 +245,7 @@ const Blog = () => {
             <div className="flex flex-wrap gap-2">
               <Button variant="outline" size="sm" className="gap-2">
                 <Filter className="h-4 w-4" />
-                Toutes les catégories
+                {t('blog.search.allCategories')}
               </Button>
               {categories.map((category, index) => (
                 <Button key={category.name} variant="outline" size="sm">
@@ -301,7 +302,7 @@ const Blog = () => {
                           </div>
                           
                           <Button variant="ghost" size="sm" className="gap-2">
-                            Lire
+                            {t('blog.actions.read')}
                             <ArrowRight className="h-4 w-4" />
                           </Button>
                         </div>
@@ -314,7 +315,7 @@ const Blog = () => {
               {/* Load More */}
               <div className="text-center mt-12">
                 <Button variant="outline" size="lg">
-                  Charger plus d'articles
+                  {t('blog.actions.loadMore')}
                 </Button>
               </div>
             </div>
@@ -326,7 +327,7 @@ const Blog = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-primary">
                     <Tag className="h-5 w-5" />
-                    Catégories
+                    {t('blog.categories.title')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -349,7 +350,7 @@ const Blog = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-primary">
                     <TrendingUp className="h-5 w-5" />
-                    Tendances
+                    {t('blog.trending.title')}
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
@@ -369,23 +370,23 @@ const Blog = () => {
               {/* Newsletter */}
               <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5">
                 <CardHeader>
-                  <CardTitle className="text-primary">Newsletter</CardTitle>
+                  <CardTitle className="text-primary">{t('blog.newsletter.title')}</CardTitle>
                   <CardDescription>
-                    Recevez nos derniers articles et analyses directement dans votre boîte mail
+                    {t('blog.newsletter.description')}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-3">
                     <input
                       type="email"
-                      placeholder="Votre email"
+                      placeholder={t('blog.newsletter.placeholder')}
                       className="w-full px-3 py-2 border border-secondary rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
                     />
                     <Button className="w-full bg-gradient-primary hover:shadow-lg">
-                      S'abonner
+                      {t('blog.newsletter.subscribe')}
                     </Button>
                     <p className="text-xs text-muted-foreground">
-                      1 email par semaine maximum. Désabonnement facile.
+                      {t('blog.newsletter.disclaimer')}
                     </p>
                   </div>
                 </CardContent>

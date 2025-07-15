@@ -614,6 +614,62 @@ const translations = {
         description: "Rejoignez plus de 50 000 entreprises qui nous font confiance pour leurs besoins de financement.",
         simulate: "Commencer la simulation",
         expert: "Parler à un expert"
+      },
+      blog: {
+        badge: "Expertise & Insights",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Analyses d'experts, tendances du marché et conseils pratiques pour optimiser vos décisions financières et d'investissement.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Articles publiés"
+          },
+          experts: {
+            value: "8",
+            label: "Experts auteurs"
+          },
+          readers: {
+            value: "50K+",
+            label: "Lecteurs mensuels"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Satisfaction lecteurs"
+          }
+        },
+        featured: {
+          title: "Article à la Une"
+        },
+        search: {
+          placeholder: "Rechercher un article...",
+          allCategories: "Toutes les catégories"
+        },
+        categories: {
+          title: "Catégories",
+          innovation: "Innovation",
+          realEstate: "Immobilier",
+          regulation: "Réglementation",
+          economy: "Économie",
+          esg: "ESG",
+          education: "Éducation"
+        },
+        trending: {
+          title: "Tendances"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Recevez nos derniers articles et analyses directement dans votre boîte mail",
+          placeholder: "Votre email",
+          subscribe: "S'abonner",
+          disclaimer: "1 email par semaine maximum. Désabonnement facile."
+        },
+        actions: {
+          readMore: "Lire l'article complet",
+          read: "Lire",
+          loadMore: "Charger plus d'articles",
+          readTime: "de lecture"
+        }
       }
     }
   },
@@ -972,6 +1028,62 @@ const translations = {
         description: "Schließen Sie sich mehr als 50.000 Unternehmen an, die uns für ihre Finanzierungsbedürfnisse vertrauen.",
         simulate: "Simulation starten",
         expert: "Mit einem Experten sprechen"
+      },
+      blog: {
+        badge: "Expertise & Einblicke",
+        title: "Aurex Blog",
+        subtitle: "K-pital",
+        description: "Expertenanalysen, Markttrends und praktische Tipps zur Optimierung Ihrer Finanz- und Investitionsentscheidungen.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Veröffentlichte Artikel"
+          },
+          experts: {
+            value: "8",
+            label: "Experten-Autoren"
+          },
+          readers: {
+            value: "50K+",
+            label: "Monatliche Leser"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Leserzufriedenheit"
+          }
+        },
+        featured: {
+          title: "Hauptartikel"
+        },
+        search: {
+          placeholder: "Artikel suchen...",
+          allCategories: "Alle Kategorien"
+        },
+        categories: {
+          title: "Kategorien",
+          innovation: "Innovation",
+          realEstate: "Immobilien",
+          regulation: "Regulierung",
+          economy: "Wirtschaft",
+          esg: "ESG",
+          education: "Bildung"
+        },
+        trending: {
+          title: "Trends"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Erhalten Sie unsere neuesten Artikel und Analysen direkt in Ihr Postfach",
+          placeholder: "Ihre E-Mail",
+          subscribe: "Abonnieren",
+          disclaimer: "Maximal 1 E-Mail pro Woche. Einfach abbestellbar."
+        },
+        actions: {
+          readMore: "Vollständigen Artikel lesen",
+          read: "Lesen",
+          loadMore: "Weitere Artikel laden",
+          readTime: "Lesezeit"
+        }
       },
       certifications: {
         title: "Zertifizierungen & Akkreditierungen",
@@ -1789,6 +1901,62 @@ const translations = {
         description: "Únase a más de 50.000 empresas que confían en nosotros para sus necesidades de financiación.",
         simulate: "Comenzar la simulación",
         expert: "Hablar con un experto"
+      },
+      blog: {
+        badge: "Experiencia y Perspectivas",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Análisis de expertos, tendencias del mercado y consejos prácticos para optimizar sus decisiones financieras y de inversión.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Artículos publicados"
+          },
+          experts: {
+            value: "8",
+            label: "Expertos autores"
+          },
+          readers: {
+            value: "50K+",
+            label: "Lectores mensuales"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Satisfacción de lectores"
+          }
+        },
+        featured: {
+          title: "Artículo Destacado"
+        },
+        search: {
+          placeholder: "Buscar un artículo...",
+          allCategories: "Todas las categorías"
+        },
+        categories: {
+          title: "Categorías",
+          innovation: "Innovación",
+          realEstate: "Inmobiliario",
+          regulation: "Regulación",
+          economy: "Economía",
+          esg: "ESG",
+          education: "Educación"
+        },
+        trending: {
+          title: "Tendencias"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Reciba nuestros últimos artículos y análisis directamente en su buzón",
+          placeholder: "Su email",
+          subscribe: "Suscribirse",
+          disclaimer: "Máximo 1 email por semana. Fácil cancelación."
+        },
+        actions: {
+          readMore: "Leer el artículo completo",
+          read: "Leer",
+          loadMore: "Cargar más artículos",
+          readTime: "de lectura"
+        }
       }
     }
   },
@@ -2191,6 +2359,62 @@ const translations = {
         description: "Unitevi a oltre 50.000 aziende che si fidano di noi per le loro esigenze di finanziamento.",
         simulate: "Inizia la simulazione",
         expert: "Parla con un esperto"
+      },
+      blog: {
+        badge: "Competenza e Approfondimenti",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Analisi di esperti, tendenze di mercato e consigli pratici per ottimizzare le vostre decisioni finanziarie e di investimento.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Articoli pubblicati"
+          },
+          experts: {
+            value: "8",
+            label: "Esperti autori"
+          },
+          readers: {
+            value: "50K+",
+            label: "Lettori mensili"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Soddisfazione lettori"
+          }
+        },
+        featured: {
+          title: "Articolo in Evidenza"
+        },
+        search: {
+          placeholder: "Cerca un articolo...",
+          allCategories: "Tutte le categorie"
+        },
+        categories: {
+          title: "Categorie",
+          innovation: "Innovazione",
+          realEstate: "Immobiliare",
+          regulation: "Regolamentazione",
+          economy: "Economia",
+          esg: "ESG",
+          education: "Educazione"
+        },
+        trending: {
+          title: "Tendenze"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Ricevi i nostri ultimi articoli e analisi direttamente nella tua casella di posta",
+          placeholder: "La tua email",
+          subscribe: "Iscriviti",
+          disclaimer: "Massimo 1 email a settimana. Facile cancellazione."
+        },
+        actions: {
+          readMore: "Leggi l'articolo completo",
+          read: "Leggi",
+          loadMore: "Carica più articoli",
+          readTime: "di lettura"
+        }
       }
     }
       },
@@ -3579,6 +3803,62 @@ const translations = {
           consultant: "Μιλήστε με σύμβουλο",
           officialRequest: "Κάντε επίσημη αίτηση",
           allServices: "Δείτε όλες τις υπηρεσίες μας"
+        }
+      },
+      blog: {
+        badge: "Εμπειρία & Ανάλυση",
+        title: "Blog Aurex",
+        subtitle: "K-pital", 
+        description: "Αναλύσεις ειδικών, τάσεις της αγοράς και πρακτικές συμβουλές για τη βελτιστοποίηση των χρηματοοικονομικών και επενδυτικών σας αποφάσεων.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Δημοσιευμένα άρθρα"
+          },
+          experts: {
+            value: "8", 
+            label: "Συγγραφείς ειδικοί"
+          },
+          readers: {
+            value: "50K+",
+            label: "Μηνιαίοι αναγνώστες"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Ικανοποίηση αναγνωστών"
+          }
+        },
+        featured: {
+          title: "Κύριο Άρθρο"
+        },
+        search: {
+          placeholder: "Αναζήτηση άρθρου...",
+          allCategories: "Όλες οι κατηγορίες"
+        },
+        categories: {
+          title: "Κατηγορίες",
+          innovation: "Καινοτομία",
+          realEstate: "Ακίνητα",
+          regulation: "Κανονισμοί",
+          economy: "Οικονομία",
+          esg: "ESG",
+          education: "Εκπαίδευση"
+        },
+        trending: {
+          title: "Τάσεις"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Λάβετε τα τελευταία μας άρθρα και αναλύσεις απευθείας στο γραμματοκιβώτιό σας",
+          placeholder: "Το email σας",
+          subscribe: "Εγγραφή",
+          disclaimer: "Μέγιστο 1 email την εβδομάδα. Εύκολη ακύρωση."
+        },
+        actions: {
+          readMore: "Διαβάστε το πλήρες άρθρο",
+          read: "Διαβάστε",
+          loadMore: "Φορτώστε περισσότερα άρθρα",
+          readTime: "ανάγνωσης"
         }
       }
     }
