@@ -12,7 +12,12 @@ import {
 } from 'lucide-react';
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
+  
+  // Debug logs
+  console.log('About page - Current language:', language);
+  console.log('About page - Sample translation test:', t('about.badge'));
+  console.log('About page - Timeline title test:', t('about.timeline.title'));
 
   const milestones = [
     {
