@@ -780,6 +780,588 @@ const translations = {
       }
     }
   },
+  es: {
+    menu: {
+      home: "Inicio",
+      services: "Servicios",
+      simulator: "Simulador",
+      request: "Solicitud",
+      about: "Sobre nosotros",
+      contact: "Contacto",
+      faq: "FAQ",
+      careers: "Carreras",
+      partners: "Socios",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Herramientas",
+      company: "Empresa",
+      legal: "Legal",
+      privacyPolicy: "Política de privacidad",
+      terms: "Términos y condiciones",
+      mentions: "Aviso legal",
+      gdpr: "RGPD",
+      rights: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      description: "Su socio financiero de confianza desde 1997. Excelencia, innovación y experiencia para todos sus proyectos financieros en Europa.",
+      services: "Servicios",
+      copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      establishment: "Institución financiera autorizada en Europa",
+      links: {
+        personalLoans: "Préstamos personales",
+        proFinancing: "Financiación empresarial",
+        investments: "Inversiones",
+        insurance: "Seguros",
+        simulator: "Simulador de préstamos",
+        request: "Solicitud de financiación",
+        faq: "FAQ",
+        contact: "Contacto",
+        about: "Sobre nosotros",
+        partners: "Nuestros socios",
+        careers: "Carreras",
+        blog: "Blog",
+        legal: "Aviso legal",
+        privacy: "Política de privacidad",
+        terms: "Términos y condiciones",
+        gdpr: "RGPD"
+      }
+    },
+    partners: {
+      title: "Nuestros Socios de Confianza",
+      description: "Una red de excelencia europea para ofrecerle las mejores soluciones financieras",
+      stats: "Más de 25 socios europeos • 27 países cubiertos • 2,5 mil millones € de volumen tratado"
+    },
+    home: {
+      hero: {
+        title: "Su Socio Financiero",
+        subtitle: "desde 1997",
+        description: "Excelencia, innovación y confianza para todos sus proyectos financieros",
+        ctaBtn: "Descubrir nuestras soluciones",
+        simulateBtn: "Simular un préstamo",
+        scrollText: "Descubrir",
+        carousel: {
+          text1: "Lance su proyecto con Aurex K-pital",
+          text2: "Obtenga financiación sin aporte",
+          text3: "Invierta hoy en su futuro"
+        },
+        stats: {
+          experience: {
+            title: "Años de excelencia",
+            subtitle: "Innovación continua"
+          },
+          clients: {
+            title: "Clientes satisfechos",
+            subtitle: "Satisfacción garantizada"
+          },
+          funding: {
+            title: "Financiaciones realizadas",
+            subtitle: "Impacto transformador"
+          }
+        }
+      },
+      services: {
+        badge: "Servicios",
+        title: "Soluciones",
+        subtitle: "Innovadoras",
+        description: "Descubra nuestras soluciones financieras",
+        description2: "revolucionarias",
+        description3: "para sus proyectos"
+      },
+      about: {
+        badge: "Sobre nosotros",
+        title: "Su socio",
+        subtitle: "financiero",
+        subtitle2: "de confianza",
+        description1: {
+          highlight: "Desde 1997,",
+          text: " Aurex K-pital acompaña a particulares y empresas en sus proyectos financieros con un enfoque que combina",
+          expertise: "experiencia humana",
+          and: "e",
+          technology: "innovación tecnológica"
+        },
+        description2: {
+          text: "Nuestra misión: democratizar el acceso a la financiación gracias a soluciones",
+          highlight: "rápidas, transparentes y a medida",
+          success: "para hacer realidad sus ambiciones"
+        },
+        stats: {
+          founded: "Año de fundación",
+          location: "Sede social",
+          certified: "Registro",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Su confianza, nuestra prioridad",
+          description: "Certificados y regulados por las autoridades europeas"
+        },
+        buttons: {
+          history: "Nuestra historia",
+          contact: "Contáctanos"
+        }
+      },
+      cta: {
+        title: "¿Listo para transformar",
+        titleHighlight: "sus proyectos",
+        titleEnd: "en realidad?",
+        description: "Nuestros expertos le acompañan en cada paso para hacer realidad sus ambiciones financieras.",
+        buttons: {
+          request: "Hacer una solicitud",
+          simulate: "Simular un préstamo",
+          contact: "Contáctanos"
+        },
+        contact: {
+          phone: "Teléfono",
+          address: "Dirección",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+        }
+      }
+    },
+    services: {
+      personalLoan: {
+        title: "Préstamos personales",
+        description: "Soluciones de financiación personalizadas con condiciones revolucionarias.",
+        points: ["IA para tasas óptimas", "Respuesta en 2h", "Máxima flexibilidad"],
+        cta: "Descubrir",
+        useCases: [
+          "Trabajos de renovación",
+          "Viaje de ensueño",
+          "Boda",
+          "Estudios", 
+          "Compra de vehículo"
+        ]
+      },
+      businessLoan: {
+        title: "Financiamiento para empresas",
+        description: "Impulsa tu empresa con nuestras soluciones innovadoras.",
+        points: ["Financiamiento exprés", "Acompañamiento experto", "Soluciones a medida"],
+        cta: "Descubrir",
+        useCases: [
+          "Creación de empresa",
+          "Expansión comercial",
+          "Compra de equipos",
+          "Tesorería",
+          "Compra de participaciones"
+        ]
+      },
+      investment: {
+        title: "Inversiones inteligentes",
+        description: "Optimización patrimonial con inteligencia artificial y experiencia humana.",
+        points: ["Cartera inteligente", "Asesoría premium", "Rendimiento optimizado"],
+        cta: "Descubrir",
+        useCases: [
+          "Inversión inmobiliaria",
+          "Diversificación patrimonial",
+          "Preparación jubilación",
+          "Optimización fiscal",
+          "Inversión ESG"
+        ]
+      },
+      insurance: {
+        title: "Seguros 360°",
+        description: "Protección total e innovadora para todos tus proyectos de vida y negocio.",
+        points: ["Cobertura completa", "Gestión de reclamos en 24h", "Atención premium"],
+        cta: "Descubrir",
+        useCases: [
+          "Protección familiar",
+          "Seguro profesional",
+          "Garantía préstamo",
+          "Responsabilidad civil",
+          "Previsión salud"
+        ]
+      },
+      explore: "Explorar todos nuestros servicios",
+      features: "Características",
+      useCases: "Casos de uso",
+      discover: "Descubrir",
+      specialized: {
+        title: "Productos especializados", 
+        description: "Soluciones expertas para sus necesidades específicas",
+        mortgage: {
+          title: "Préstamo inmobiliario",
+          description: "Financie su proyecto inmobiliario en las mejores condiciones",
+          rate: "Desde 1,2% TAE"
+        },
+        student: {
+          title: "Préstamo estudiantil",
+          description: "Soluciones adaptadas para financiar sus estudios",
+          rate: "0% durante los estudios"
+        },
+        savings: {
+          title: "Libreta de ahorro+",
+          description: "Ahorro remunerado y disponible",
+          rate: "Hasta 4% neto"
+        },
+        premium: {
+          title: "Tarjeta Premium",
+          description: "Ventajas exclusivas y servicios de alta gama",
+          rate: "Sin costos el primer año"
+        }
+      },
+      process: {
+        title: "Nuestro proceso",
+        description: "Un recorrido simplificado para concretar sus proyectos",
+        step1: {
+          title: "Análisis de su proyecto",
+          description: "Estudio personalizado de sus necesidades y capacidades financieras"
+        },
+        step2: {
+          title: "Propuesta a medida",
+          description: "Soluciones adaptadas con condiciones optimizadas por IA"
+        },
+        step3: {
+          title: "Validación exprés",
+          description: "Respuesta de principio en menos de 2h laborables"
+        },
+        step4: {
+          title: "Desbloqueo de fondos",
+          description: "Puesta a disposición rápida y acompañamiento continuo"
+        }
+      }
+    },
+    testimonials: {
+      title: "Confían en nosotros",
+      subtitle: "Lo que dicen nuestros clientes satisfechos",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Francia",
+          feedback: "Servicio rápido y confiable. ¡Mi crédito fue aprobado en 48 horas! Gracias Aurex K-pital."
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "París, Francia",
+          feedback: "Equipo profesional, plataforma clara y una atención realmente personalizada."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, Francia",
+          feedback: "El simulador fue muy claro y obtuve mejores condiciones que en mi banco."
+        }
+      ]
+    },
+    legal: {
+      badge: "Información Legal",
+      title: {
+        main: "Aviso",
+        subtitle: "Legal"
+      },
+      description: "Toda la información legal y reglamentaria sobre Aurex K-pital y el uso de nuestros servicios.",
+      tabs: {
+        mentions: "Aviso Legal",
+        privacy: "Privacidad",
+        terms: "Términos",
+        gdpr: "RGPD"
+      },
+      mentions: {
+        title: "Aviso Legal",
+        description: "Información de la empresa y responsabilidades legales",
+        company: {
+          title: "Identificación de la Empresa",
+          name: "Denominación social",
+          type: "Forma jurídica",
+          typeValue: "Sociedad de responsabilidad limitada (GmbH)",
+          capital: "Capital social",
+          address: "Sede social",
+          register: "Registro mercantil",
+          vat: "Número de IVA",
+          siren: "Número SIREN"
+        },
+        management: {
+          title: "Dirección",
+          ceo: "Director General",
+          cio: "Directora de Innovación",
+          cro: "Director de Riesgos"
+        },
+        activity: {
+          title: "Actividad",
+          description: "Aurex K-pital es una institución financiera autorizada por la BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) bajo el número de autorización 147-FS-2015. Nuestras actividades incluyen:",
+          services: {
+            banking: "Intermediación en operaciones bancarias y servicios de pago",
+            investment: "Asesoramiento en inversiones financieras",
+            insurance: "Intermediación en seguros",
+            wealth: "Servicios de gestión patrimonial"
+          }
+        },
+        contact: {
+          title: "Contacto",
+          phone: "Teléfono",
+          email: "Email",
+          hours: "Horarios",
+          schedule: "Lunes-Viernes 8h-19h, Sábado 9h-17h"
+        },
+        hosting: {
+          title: "Alojamiento",
+          description: "Este sitio está alojado por:"
+        },
+        intellectual: {
+          title: "Propiedad Intelectual",
+          description: "Todos los contenidos presentes en este sitio (textos, imágenes, logos, gráficos, etc.) están protegidos por derechos de autor y pertenecen a Aurex K-pital o a sus socios. Cualquier reproducción, incluso parcial, está prohibida sin autorización escrita previa."
+        },
+        responsibility: {
+          title: "Responsabilidad",
+          description: "Aurex K-pital se esfuerza por proporcionar información precisa y actualizada. Sin embargo, la empresa no puede garantizar la exactitud, integridad o actualidad de la información difundida en este sitio. El uso de la información se hace bajo la responsabilidad exclusiva del usuario."
+        }
+      }
+    }
+  },
+  it: {
+    menu: {
+      home: "Home",
+      services: "Servizi",
+      simulator: "Simulatore",
+      request: "Richiesta",
+      about: "Chi siamo",
+      contact: "Contatto",
+      faq: "FAQ",
+      careers: "Carriere",
+      partners: "Partner",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Strumenti",
+      company: "Azienda",
+      legal: "Legale",
+      privacyPolicy: "Politica sulla privacy",
+      terms: "Termini e condizioni",
+      mentions: "Note legali",
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
+      services: "Servizi",
+      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      establishment: "Istituzione finanziaria autorizzata in Europa",
+      links: {
+        personalLoans: "Prestiti personali",
+        proFinancing: "Finanziamento aziendale",
+        investments: "Investimenti",
+        insurance: "Assicurazioni",
+        simulator: "Simulatore di prestito",
+        request: "Richiesta di finanziamento",
+        faq: "FAQ",
+        contact: "Contatto",
+        about: "Chi siamo",
+        partners: "I nostri partner",
+        careers: "Carriere",
+        blog: "Blog",
+        legal: "Note legali",
+        privacy: "Politica sulla privacy",
+        terms: "Termini e condizioni",
+        gdpr: "GDPR"
+      }
+    },
+    partners: {
+      title: "I Nostri Partner di Fiducia",
+      description: "Una rete europea di eccellenza per offrire le migliori soluzioni finanziarie",
+      stats: "Oltre 25 partner europei • 27 paesi coperti • 2,5 miliardi € di volume trattato"
+    },
+    home: {
+      hero: {
+        title: "Il tuo Partner Finanziario",
+        subtitle: "dal 1997",
+        description: "Eccellenza, innovazione e fiducia per tutti i tuoi progetti finanziari",
+        ctaBtn: "Scopri le nostre soluzioni",
+        simulateBtn: "Simula un prestito",
+        scrollText: "Scopri",
+        carousel: {
+          text1: "Lancia il tuo progetto con Aurex K-pital",
+          text2: "Ottieni finanziamenti senza anticipo",
+          text3: "Investi oggi nel tuo futuro"
+        },
+        stats: {
+          experience: {
+            title: "Anni di eccellenza",
+            subtitle: "Innovazione continua"
+          },
+          clients: {
+            title: "Clienti soddisfatti",
+            subtitle: "Soddisfazione garantita"
+          },
+          funding: {
+            title: "Finanziamenti realizzati",
+            subtitle: "Impatto trasformativo"
+          }
+        }
+      },
+      services: {
+        badge: "Servizi",
+        title: "Soluzioni",
+        subtitle: "Innovative",
+        description: "Scopri le nostre soluzioni finanziarie",
+        description2: "rivoluzionarie",
+        description3: "per i tuoi progetti"
+      },
+      about: {
+        badge: "Chi siamo",
+        title: "Il vostro partner",
+        subtitle: "finanziario",
+        subtitle2: "di fiducia",
+        description1: {
+          highlight: "Dal 1997,",
+          text: " Aurex K-pital accompagna privati e aziende nei loro progetti finanziari con un approccio che combina",
+          expertise: "esperienza umana",
+          and: "e",
+          technology: "innovazione tecnologica"
+        },
+        description2: {
+          text: "La nostra missione: democratizzare l'accesso ai finanziamenti grazie a soluzioni",
+          highlight: "rapide, trasparenti e su misura",
+          success: "per concretizzare le vostre ambizioni"
+        },
+        stats: {
+          founded: "Anno di fondazione",
+          location: "Sede sociale",
+          certified: "Registro",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "La vostra fiducia, la nostra priorità",
+          description: "Certificati e regolamentati dalle autorità europee"
+        },
+        buttons: {
+          history: "La nostra storia",
+          contact: "Contattaci"
+        }
+      },
+      cta: {
+        title: "Pronti a trasformare",
+        titleHighlight: "i vostri progetti",
+        titleEnd: "in realtà?",
+        description: "I nostri esperti vi accompagnano in ogni passaggio per concretizzare le vostre ambizioni finanziarie.",
+        buttons: {
+          request: "Fare una richiesta",
+          simulate: "Simulare un prestito",
+          contact: "Contattaci"
+        },
+        contact: {
+          phone: "Telefono",
+          address: "Indirizzo",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+        }
+      }
+    },
+    services: {
+      personalLoan: {
+        title: "Prestiti personali",
+        description: "Soluzioni di finanziamento personalizzate con condizioni rivoluzionarie.",
+        points: ["IA per tassi ottimali", "Risposta in 2h", "Massima flessibilità"],
+        cta: "Scopri",
+        useCases: [
+          "Lavori di ristrutturazione",
+          "Viaggio da sogno",
+          "Matrimonio",
+          "Studi",
+          "Acquisto veicolo"
+        ]
+      },
+      businessLoan: {
+        title: "Finanziamenti aziendali",
+        description: "Potenzia la tua azienda con le nostre soluzioni innovative.",
+        points: ["Finanziamento express", "Accompagnamento esperto", "Soluzioni su misura"],
+        cta: "Scopri",
+        useCases: [
+          "Creazione d'impresa",
+          "Espansione commerciale",
+          "Acquisto attrezzature",
+          "Tesoreria",
+          "Acquisto quote"
+        ]
+      },
+      investment: {
+        title: "Investimenti intelligenti",
+        description: "Ottimizzazione patrimoniale con intelligenza artificiale ed esperienza umana.",
+        points: ["Portfolio intelligente", "Consulenza premium", "Rendimento ottimizzato"],
+        cta: "Scopri",
+        useCases: [
+          "Investimento immobiliare",
+          "Diversificazione patrimoniale",
+          "Preparazione pensione",
+          "Ottimizzazione fiscale",
+          "Investimento ESG"
+        ]
+      },
+      insurance: {
+        title: "Assicurazioni 360°",
+        description: "Protezione totale e innovativa per tutti i tuoi progetti di vita e business.",
+        points: ["Copertura completa", "Gestione sinistri 24h", "Supporto premium"],
+        cta: "Scopri",
+        useCases: [
+          "Protezione famiglia",
+          "Assicurazione professionale",
+          "Garanzia prestito",
+          "Responsabilità civile",
+          "Previdenza salute"
+        ]
+      },
+      explore: "Esplora tutti i nostri servizi",
+      features: "Caratteristiche",
+      useCases: "Casi d'uso",
+      discover: "Scopri",
+      specialized: {
+        title: "Prodotti specializzati",
+        description: "Soluzioni esperte per le vostre esigenze specifiche",
+        mortgage: {
+          title: "Mutuo immobiliare",
+          description: "Finanziate il vostro progetto immobiliare alle migliori condizioni",
+          rate: "A partire dall'1,2% TAEG"
+        },
+        student: {
+          title: "Prestito studenti",
+          description: "Soluzioni adatte per finanziare i vostri studi",
+          rate: "0% durante gli studi"
+        },
+        savings: {
+          title: "Libretto risparmio+",
+          description: "Risparmio remunerato e disponibile",
+          rate: "Fino al 4% netto"
+        },
+        premium: {
+          title: "Carta Premium",
+          description: "Vantaggi esclusivi e servizi di alta gamma",
+          rate: "Senza spese il primo anno"
+        }
+      },
+      process: {
+        title: "Il nostro processo",
+        description: "Un percorso semplificato per concretizzare i vostri progetti",
+        step1: {
+          title: "Analisi del vostro progetto",
+          description: "Studio personalizzato delle vostre esigenze e capacità finanziarie"
+        },
+        step2: {
+          title: "Proposta su misura",
+          description: "Soluzioni adatte con condizioni ottimizzate dall'IA"
+        },
+        step3: {
+          title: "Validazione express",
+          description: "Risposta di principio in meno di 2h lavorative"
+        },
+        step4: {
+          title: "Sblocco dei fondi",
+          description: "Messa a disposizione rapida e accompagnamento continuo"
+        }
+      }
+    },
+    testimonials: {
+      title: "Ci danno fiducia",
+      subtitle: "Cosa dicono i nostri clienti soddisfatti",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lione, Francia",
+          feedback: "Servizio veloce e professionale. Il mio prestito è stato approvato in 48 ore. Grazie Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Parigi, Francia",
+          feedback: "Team competente, interfaccia semplice e assistenza davvero personalizzata."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Tolosa, Francia",
+          feedback: "Il simulatore è chiaro e ho ottenuto condizioni migliori rispetto alla mia banca."
+        }
+      ]
+    }
+  },
   pl: {
     menu: {
       home: "Strona główna",
@@ -796,22 +1378,22 @@ const translations = {
     footer: {
       tools: "Narzędzia",
       company: "Firma",
-      legal: "Prawne",
+      legal: "Informacje prawne",
       privacyPolicy: "Polityka prywatności",
-      terms: "Warunki ogólne",
+      terms: "Regulamin",
       mentions: "Informacje prawne",
       gdpr: "RODO",
       rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
-      description: "Twój zaufany partner finansowy od 1997 roku. Doskonałość, innowacyjność i ekspertyza dla wszystkich Twoich projektów finansowych w Europie.",
+      description: "Wasz zaufany partner finansowy od 1997 roku. Doskonałość, innowacyjność i doświadczenie dla wszystkich projektów finansowych w Europie.",
       services: "Usługi",
       copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
       establishment: "Licencjonowana instytucja finansowa w Europie",
       links: {
-        personalLoans: "Pożyczki osobiste",
-        proFinancing: "Finansowanie biznesowe",
+        personalLoans: "Kredyty osobiste",
+        proFinancing: "Finansowanie biznesu",
         investments: "Inwestycje",
         insurance: "Ubezpieczenia",
-        simulator: "Symulator pożyczki",
+        simulator: "Symulator kredytu",
         request: "Wniosek o finansowanie",
         faq: "FAQ",
         contact: "Kontakt",
@@ -821,98 +1403,247 @@ const translations = {
         blog: "Blog",
         legal: "Informacje prawne",
         privacy: "Polityka prywatności",
-        terms: "Warunki ogólne",
+        terms: "Regulamin",
         gdpr: "RODO"
       }
     },
-    legal: {
-      badge: "Informacje Prawne",
-      title: {
-        main: "Informacje",
-        subtitle: "Prawne"
-      },
-      description: "Wszystkie informacje prawne i regulacyjne dotyczące Aurex K-pital i korzystania z naszych usług.",
-      tabs: {
-        mentions: "Informacje Prawne",
-        privacy: "Prywatność",
-        terms: "Regulamin",
-        gdpr: "RODO"
-      },
-      mentions: {
-        title: "Informacje Prawne",
-        description: "Informacje o firmie i odpowiedzialności prawnej",
-        company: {
-          title: "Identyfikacja Spółki",
-          name: "Nazwa firmy",
-          type: "Forma prawna",
-          typeValue: "Spółka z ograniczoną odpowiedzialnością (GmbH)",
-          capital: "Kapitał społeczny",
-          address: "Siedziba",
-          register: "Rejestr handlowy",
-          vat: "Numer VAT",
-          siren: "Numer SIREN"
+    partners: {
+      title: "Nasi Zaufani Partnerzy",
+      description: "Europejska sieć doskonałości, aby zapewnić najlepsze rozwiązania finansowe",
+      stats: "Ponad 25 europejskich partnerów • 27 krajów objętych • 2,5 mld € wolumenu transakcji"
+    },
+    home: {
+      hero: {
+        title: "Twój Partner Finansowy",
+        subtitle: "od 1997",
+        description: "Doskonałość, innowacyjność i zaufanie dla wszystkich Twoich projektów finansowych",
+        ctaBtn: "Odkryj nasze rozwiązania",
+        simulateBtn: "Symuluj kredyt",
+        scrollText: "Odkryj",
+        carousel: {
+          text1: "Rozpocznij swój projekt z Aurex K-pital",
+          text2: "Uzyskaj finansowanie bez wkładu własnego",
+          text3: "Inwestuj już dziś w swoją przyszłość"
         },
-        management: {
-          title: "Zarząd",
-          ceo: "Dyrektor Generalny",
-          cio: "Dyrektor ds. Innowacji",
-          cro: "Dyrektor ds. Ryzyka"
-        },
-        activity: {
-          title: "Działalność",
-          description: "Aurex K-pital to instytucja finansowa autoryzowana przez BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) pod numerem autoryzacji 147-FS-2015. Nasze działania obejmują:",
-          services: {
-            banking: "Pośrednictwo w operacjach bankowych i usługach płatniczych",
-            investment: "Doradztwo w zakresie inwestycji finansowych",
-            insurance: "Pośrednictwo ubezpieczeniowe",
-            wealth: "Usługi zarządzania majątkiem"
+        stats: {
+          experience: {
+            title: "Lat doskonałości",
+            subtitle: "Ciągła innowacja"
+          },
+          clients: {
+            title: "Zadowolonych klientów",
+            subtitle: "Gwarantowane zadowolenie"
+          },
+          funding: {
+            title: "Zrealizowanych finansowań",
+            subtitle: "Transformacyjny wpływ"
           }
+        }
+      },
+      services: {
+        badge: "Usługi",
+        title: "Rozwiązania",
+        subtitle: "Innowacyjne",
+        description: "Odkryj nasze rewolucyjne",
+        description2: "rozwiązania finansowe",
+        description3: "dla Twoich projektów"
+      },
+      about: {
+        badge: "O nas",
+        title: "Wasz partner",
+        subtitle: "finansowy",
+        subtitle2: "zaufania",
+        description1: {
+          highlight: "Od 1997 roku",
+          text: " Aurex K-pital towarzyszy osobom prywatnym i firmom w ich projektach finansowych, łącząc",
+          expertise: "ludzką wiedzę specjalistyczną",
+          and: "z",
+          technology: "innowacjami technologicznymi"
+        },
+        description2: {
+          text: "Nasza misja: demokratyzacja dostępu do finansowania dzięki rozwiązaniom",
+          highlight: "szybkim, przejrzystym i szytym na miarę",
+          success: "aby zrealizować Wasze ambicje"
+        },
+        stats: {
+          founded: "Rok założenia",
+          location: "Siedziba",
+          certified: "Rejestr",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Wasze zaufanie, nasz priorytet",
+          description: "Certyfikowani i regulowani przez władze europejskie"
+        },
+        buttons: {
+          history: "Nasza historia",
+          contact: "Skontaktuj się"
+        }
+      },
+      cta: {
+        title: "Gotowi przekształcić",
+        titleHighlight: "wasze projekty",
+        titleEnd: "w rzeczywistość?",
+        description: "Nasi eksperci towarzyszą Wam na każdym kroku w realizacji finansowych ambicji.",
+        buttons: {
+          request: "Złożyć wniosek",
+          simulate: "Symulować kredyt",
+          contact: "Skontaktuj się"
         },
         contact: {
-          title: "Kontakt",
           phone: "Telefon",
-          email: "Email",
-          hours: "Godziny pracy",
-          schedule: "Poniedziałek-Piątek 8-19, Sobota 9-17"
-        },
-        hosting: {
-          title: "Hosting",
-          description: "Ta strona jest hostowana przez:"
-        },
-        intellectual: {
-          title: "Własność Intelektualna",
-          description: "Wszystkie treści obecne na tej stronie (teksty, obrazy, logotypy, grafiki, itp.) są chronione prawem autorskim i należą do Aurex K-pital lub jego partnerów. Jakiekolwiek powielanie, nawet częściowe, jest zabronione bez wcześniejszej pisemnej autoryzacji."
-        },
-        responsibility: {
-          title: "Odpowiedzialność",
-          description: "Aurex K-pital stara się dostarczać dokładne i aktualne informacje. Jednak firma nie może zagwarantować dokładności, kompletności lub aktualności informacji rozpowszechnianych na tej stronie. Korzystanie z informacji odbywa się na wyłączną odpowiedzialność użytkownika."
+          address: "Adres",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
         }
       }
+    },
+    services: {
+      personalLoan: {
+        title: "Kredyty osobiste",
+        description: "Spersonalizowane rozwiązania finansowe z rewolucyjnymi warunkami.",
+        points: ["Sztuczna inteligencja do optymalnych stawek", "Odpowiedź w 2 godziny", "Maksymalna elastyczność"],
+        cta: "Odkryj",
+        useCases: [
+          "Prace remontowe",
+          "Wymarzona podróż",
+          "Wesele",
+          "Studia",
+          "Zakup pojazdu"
+        ]
+      },
+      businessLoan: {
+        title: "Finansowanie biznesu",
+        description: "Rozwiń firmę dzięki naszym innowacyjnym rozwiązaniom.",
+        points: ["Ekspresowe finansowanie", "Wsparcie ekspertów", "Rozwiązania szyte na miarę"],
+        cta: "Odkryj",
+        useCases: [
+          "Założenie firmy",
+          "Rozwój biznesu",
+          "Zakup sprzętu",
+          "Płynność finansowa",
+          "Zakup udziałów"
+        ]
+      },
+      investment: {
+        title: "Inteligentne inwestycje",
+        description: "Optymalizacja majątku z wykorzystaniem AI i wiedzy eksperckiej.",
+        points: ["Inteligentne portfolio", "Konsultacje premium", "Zoptymalizowany zwrot"],
+        cta: "Odkryj",
+        useCases: [
+          "Inwestycje nieruchomościowe",
+          "Dywersyfikacja portfela",
+          "Przygotowanie emerytury",
+          "Optymalizacja podatkowa",
+          "Inwestycje ESG"
+        ]
+      },
+      insurance: {
+        title: "Ubezpieczenia 360°",
+        description: "Pełna ochrona dla Twojego życia i biznesu.",
+        points: ["Pełna ochrona", "Reklamacje w 24h", "Wsparcie premium"],
+        cta: "Odkryj",
+        useCases: [
+          "Ochrona rodziny",
+          "Ubezpieczenie zawodowe",
+          "Gwarancja kredytu",
+          "Odpowiedzialność cywilna",
+          "Ubezpieczenie zdrowotne"
+        ]
+      },
+      explore: "Poznaj wszystkie nasze usługi",
+      features: "Cechy",
+      useCases: "Przypadki użycia",
+      discover: "Odkryj",
+      specialized: {
+        title: "Produkty specjalistyczne",
+        description: "Ekspertowe rozwiązania dla Twoich specyficznych potrzeb",
+        mortgage: {
+          title: "Kredyt hipoteczny",
+          description: "Sfinansuj swój projekt nieruchomościowy na najlepszych warunkach",
+          rate: "Od 1,2% RRSO"
+        },
+        student: {
+          title: "Kredyt studencki",
+          description: "Dostosowane rozwiązania finansowania studiów",
+          rate: "0% w czasie studiów"
+        },
+        savings: {
+          title: "Konto oszczędnościowe+",
+          description: "Oprocentowane i dostępne oszczędności",
+          rate: "Do 4% netto"
+        },
+        premium: {
+          title: "Karta Premium",
+          description: "Ekskluzywne korzyści i usługi najwyższej klasy",
+          rate: "Bez opłat w pierwszym roku"
+        }
+      },
+      process: {
+        title: "Nasz proces",
+        description: "Uproszczona ścieżka realizacji Twoich projektów",
+        step1: {
+          title: "Analiza Twojego projektu",
+          description: "Spersonalizowane badanie Twoich potrzeb i możliwości finansowych"
+        },
+        step2: {
+          title: "Propozycja szyta na miarę",
+          description: "Dostosowane rozwiązania z warunkami zoptymalizowanymi przez AI"
+        },
+        step3: {
+          title: "Ekspresowa walidacja",
+          description: "Wstępna odpowiedź w mniej niż 2 godziny robocze"
+        },
+        step4: {
+          title: "Uwolnienie środków",
+          description: "Szybkie udostępnienie i ciągłe wsparcie"
+        }
+      }
+    },
+    testimonials: {
+      title: "Zaufali nam",
+      subtitle: "Opinie naszych zadowolonych klientów",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Francja",
+          feedback: "Szybka i rzetelna obsługa. Mój kredyt został zatwierdzony w 48 godzin. Dziękuję Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paryż, Francja",
+          feedback: "Profesjonalny zespół, przejrzysty interfejs i naprawdę spersonalizowane wsparcie."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Tuluza, Francja",
+          feedback: "Symulator był bardzo przejrzysty, a warunki lepsze niż w moim banku."
+        }
+      ]
     }
   },
   fi: {
     menu: {
       home: "Etusivu",
       services: "Palvelut",
-      simulator: "Simulaattori",
+      simulator: "Lainalaskuri",
       request: "Hakemus",
       about: "Tietoa meistä",
       contact: "Yhteystiedot",
       faq: "UKK",
       careers: "Ura",
-      partners: "Kumppanit",
+      partners: "Yhteistyökumppanit",
       blog: "Blogi"
     },
     footer: {
       tools: "Työkalut",
       company: "Yritys",
-      legal: "Juridinen",
+      legal: "Oikeudelliset",
       privacyPolicy: "Tietosuojakäytäntö",
-      terms: "Yleiset ehdot",
-      mentions: "Oikeudelliset tiedot",
+      terms: "Käyttöehdot",
+      mentions: "Oikeudellinen ilmoitus",
       gdpr: "GDPR",
       rights: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
-      description: "Luotettava rahoituskumppanisi vuodesta 1997. Erinomaisuutta, innovaatiota ja asiantuntemusta kaikille rahoitusprojekteillesi Euroopassa.",
+      description: "Luotettava rahoituskumppanisi vuodesta 1997. Huippuosaamista, innovaatiota ja asiantuntemusta kaikkiin rahoitusprojekteihisi Euroopassa.",
       services: "Palvelut",
       copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
       establishment: "Lisensoitu rahoituslaitos Euroopassa",
@@ -926,78 +1657,227 @@ const translations = {
         faq: "UKK",
         contact: "Yhteystiedot",
         about: "Tietoa meistä",
-        partners: "Kumppanimme",
+        partners: "Yhteistyökumppanit",
         careers: "Ura",
         blog: "Blogi",
-        legal: "Oikeudelliset tiedot",
+        legal: "Oikeudellinen ilmoitus",
         privacy: "Tietosuojakäytäntö",
-        terms: "Yleiset ehdot",
+        terms: "Käyttöehdot",
         gdpr: "GDPR"
       }
     },
-    legal: {
-      badge: "Oikeudelliset Tiedot",
-      title: {
-        main: "Oikeudelliset",
-        subtitle: "Tiedot"
-      },
-      description: "Kaikki oikeudelliset ja säännöstöä koskevat tiedot Aurex K-pitalista ja palvelujemme käytöstä.",
-      tabs: {
-        mentions: "Oikeudelliset Tiedot",
-        privacy: "Yksityisyys",
-        terms: "Käyttöehdot",
-        gdpr: "GDPR"
-      },
-      mentions: {
-        title: "Oikeudelliset Tiedot",
-        description: "Yritystiedot ja oikeudelliset vastuut",
-        company: {
-          title: "Yrityksen Tunnistaminen",
-          name: "Yritysnimi",
-          type: "Oikeudellinen muoto",
-          typeValue: "Osakeyhtiö (GmbH)",
-          capital: "Osakepääoma",
-          address: "Pääkonttori",
-          register: "Kaupparekisteri",
-          vat: "ALV-numero",
-          siren: "SIREN-numero"
+    partners: {
+      title: "Luotettavat Kumppanimme",
+      description: "Eurooppalainen huippuosaamisen verkosto parhaimpia rahoitusratkaisuja varten",
+      stats: "Yli 25 eurooppalaista kumppania • 27 maata katettu • 2,5 miljardia € käsitelty volyymi"
+    },
+    home: {
+      hero: {
+        title: "Rahoituskumppanisi",
+        subtitle: "vuodesta 1997",
+        description: "Huippuosaamista, innovaatiota ja luottamusta kaikkiin rahoitusprojekteihisi",
+        ctaBtn: "Tutustu ratkaisuihimme",
+        simulateBtn: "Simuloi laina",
+        scrollText: "Tutustu",
+        carousel: {
+          text1: "Käynnistä projektisi Aurex K-pitalin kanssa",
+          text2: "Hanki rahoitus ilman omarahoitusta",
+          text3: "Sijoita tänään tulevaisuuteesi"
         },
-        management: {
-          title: "Johto",
-          ceo: "Toimitusjohtaja",
-          cio: "Innovaatiojohtaja",
-          cro: "Riskijohtaja"
-        },
-        activity: {
-          title: "Toiminta",
-          description: "Aurex K-pital on BaFin:n (Bundesanstalt für Finanzdienstleistungsaufsicht) valtuuttama rahoituslaitos luvan numerolla 147-FS-2015. Toimintamme sisältää:",
-          services: {
-            banking: "Pankkitoimintojen ja maksupalvelujen välitys",
-            investment: "Rahoitussijoitusten neuvonta",
-            insurance: "Vakuutusvälitys",
-            wealth: "Varallisuudenhoitopalvelut"
+        stats: {
+          experience: {
+            title: "Vuotta huippuosaamista",
+            subtitle: "Jatkuva innovaatio"
+          },
+          clients: {
+            title: "Tyytyväistä asiakasta",
+            subtitle: "Taattu tyytyväisyys"
+          },
+          funding: {
+            title: "Toteutettua rahoitusta",
+            subtitle: "Muutosvaikutus"
           }
+        }
+      },
+      services: {
+        badge: "Palvelut",
+        title: "Ratkaisut",
+        subtitle: "Innovatiiviset",
+        description: "Tutustu vallankumouksellisiin",
+        description2: "rahoitusratkaisuihimme",
+        description3: "projekteillesi"
+      },
+      about: {
+        badge: "Tietoa meistä",
+        title: "Rahoituskumppanisi",
+        subtitle: "joka ansaitsee",
+        subtitle2: "luottamuksenne",
+        description1: {
+          highlight: "Vuodesta 1997",
+          text: " Aurex K-pital on tukenut yksityishenkilöitä ja yrityksiä heidän rahoitusprojekteissaan yhdistäen",
+          expertise: "inhimillisen asiantuntemuksen",
+          and: "ja",
+          technology: "teknologisen innovaation"
+        },
+        description2: {
+          text: "Missiomme: demokratisoida rahoituksen saatavuus",
+          highlight: "nopeiden, läpinäkyvien ja räätälöityjen ratkaisujen",
+          success: "avulla kunnianhimojesi toteuttamiseksi"
+        },
+        stats: {
+          founded: "Perustamisvuosi",
+          location: "Päämaja",
+          certified: "Rekisteri",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Luottamuksenne, prioriteettimme",
+          description: "Sertifioitu ja säännelty eurooppalaisten viranomaisten toimesta"
+        },
+        buttons: {
+          history: "Tarinamme",
+          contact: "Ota yhteyttä"
+        }
+      },
+      cta: {
+        title: "Valmiita muuttamaan",
+        titleHighlight: "projektinne",
+        titleEnd: "todeksi?",
+        description: "Asiantuntijamme tukevat teitä joka askeleella rahoituskunnianhimojenne toteuttamisessa.",
+        buttons: {
+          request: "Tehdä hakemus",
+          simulate: "Simuloida laina",
+          contact: "Ota yhteyttä"
         },
         contact: {
-          title: "Yhteystiedot",
           phone: "Puhelin",
-          email: "Sähköposti",
-          hours: "Aukioloajat",
-          schedule: "Maanantai-Perjantai 8-19, Lauantai 9-17"
-        },
-        hosting: {
-          title: "Hosting",
-          description: "Tämä sivusto on isännöity:"
-        },
-        intellectual: {
-          title: "Henkinen Omaisuus",
-          description: "Kaikki tällä sivustolla olevat sisällöt (tekstit, kuvat, logot, grafiikat jne.) ovat tekijänoikeuksien suojaamia ja kuuluvat Aurex K-pitalille tai sen kumppaneille. Kaikenlainen jäljentäminen, myös osittainen, on kielletty ilman etukäteen annettua kirjallista lupaa."
-        },
-        responsibility: {
-          title: "Vastuu",
-          description: "Aurex K-pital pyrkii tarjoamaan tarkkoja ja ajantasaisia tietoja. Yritys ei kuitenkaan voi taata tällä sivustolla levitettyjen tietojen tarkkuutta, täydellisyyttä tai ajankohtaisuutta. Tietojen käyttö tapahtuu käyttäjän omalla vastuulla."
+          address: "Osoite",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Saksa"
         }
       }
+    },
+    services: {
+      personalLoan: {
+        title: "Henkilökohtaiset lainat",
+        description: "Räätälöidyt rahoitusratkaisut vallankumouksellisilla ehdoilla.",
+        points: ["Älykäs korkolaskenta", "Vastaus 2 tunnissa", "Maksimaalinen joustavuus"],
+        cta: "Tutustu",
+        useCases: [
+          "Remonttityöt",
+          "Unelmien matka",
+          "Häät",
+          "Opinnot",
+          "Ajoneuvon osto"
+        ]
+      },
+      businessLoan: {
+        title: "Yritysrahoitus",
+        description: "Vie yrityksesi uudelle tasolle innovatiivisilla ratkaisuilla.",
+        points: ["Pikainen rahoitus", "Asiantuntijatuki", "Räätälöidyt ratkaisut"],
+        cta: "Tutustu",
+        useCases: [
+          "Yrityksen perustaminen",
+          "Liiketoiminnan laajentaminen",
+          "Laitteiden hankinta",
+          "Kassavirta",
+          "Osuuksien osto"
+        ]
+      },
+      investment: {
+        title: "Älykkäät sijoitukset",
+        description: "Varallisuuden optimointi tekoälyllä ja asiantuntijuudella.",
+        points: ["Älykäs salkku", "Premium-neuvonta", "Optimoitu tuotto"],
+        cta: "Tutustu",
+        useCases: [
+          "Kiinteistösijoitus",
+          "Salkun hajauttaminen",
+          "Eläkevalmistelu",
+          "Verooptimointi",
+          "ESG-sijoitus"
+        ]
+      },
+      insurance: {
+        title: "360° vakuutukset",
+        description: "Täydellinen suoja elämäsi ja liiketoimintasi projekteille.",
+        points: ["Kattava suoja", "Korvaus 24h kuluessa", "Premium-tuki"],
+        cta: "Tutustu",
+        useCases: [
+          "Perheen suoja",
+          "Ammattivakuutus",
+          "Lainatakuu",
+          "Vastuuvakuutus",
+          "Terveysvakuutus"
+        ]
+      },
+      explore: "Tutustu kaikkiin palveluihimme",
+      features: "Ominaisuudet",
+      useCases: "Käyttötapaukset",
+      discover: "Tutustu",
+      specialized: {
+        title: "Erikoistuotteet",
+        description: "Asiantuntijaratkaisut erityistarpeisiinne",
+        mortgage: {
+          title: "Asuntolaina",
+          description: "Rahoita kiinteistöprojektisi parhailla ehdoilla",
+          rate: "Alkaen 1,2% todellinen vuosikorko"
+        },
+        student: {
+          title: "Opintolaina",
+          description: "Räätälöidyt ratkaisut opintojen rahoittamiseen",
+          rate: "0% opintojen aikana"
+        },
+        savings: {
+          title: "Säästötili+",
+          description: "Korkoa tuottava ja käytettävissä oleva säästö",
+          rate: "Jopa 4% netto"
+        },
+        premium: {
+          title: "Premium-kortti",
+          description: "Eksklusiiviset edut ja premium-palvelut",
+          rate: "Maksuton ensimmäinen vuosi"
+        }
+      },
+      process: {
+        title: "Prosessimme",
+        description: "Yksinkertaistettu polku projektienne toteuttamiseen",
+        step1: {
+          title: "Projektinne analysointi",
+          description: "Henkilökohtainen tutkimus tarpeistanne ja taloudellisista mahdollisuuksistanne"
+        },
+        step2: {
+          title: "Räätälöity ehdotus",
+          description: "Mukautetut ratkaisut AI:n optimoimilla ehdoilla"
+        },
+        step3: {
+          title: "Pikavalidointi",
+          description: "Periaatevastaus alle 2 työajassa tunnissa"
+        },
+        step4: {
+          title: "Varojen vapautus",
+          description: "Nopea käyttöönotto ja jatkuva tuki"
+        }
+      }
+    },
+    testimonials: {
+      title: "Asiakkaamme luottavat meihin",
+      subtitle: "Tyytyväisten asiakkaidemme palautteet",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Ranska",
+          feedback: "Nopea ja luotettava palvelu. Lainani hyväksyttiin 48 tunnissa. Kiitos Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Pariisi, Ranska",
+          feedback: "Ammattimainen tiimi, helppo käyttöliittymä ja yksilöllinen tuki."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, Ranska",
+          feedback: "Laskuri oli selkeä ja sain paremmat ehdot kuin pankistani."
+        }
+      ]
     }
   },
   pt: {
@@ -1018,11 +1898,11 @@ const translations = {
       company: "Empresa",
       legal: "Legal",
       privacyPolicy: "Política de privacidade",
-      terms: "Termos gerais",
+      terms: "Termos e condições",
       mentions: "Informações legais",
       gdpr: "RGPD",
       rights: "© 2024 Aurex K-pital. Todos os direitos reservados.",
-      description: "O seu parceiro financeiro de confiança desde 1997. Excelência, inovação e expertise para todos os seus projetos financeiros na Europa.",
+      description: "O vosso parceiro financeiro de confiança desde 1997. Excelência, inovação e experiência para todos os vossos projetos financeiros na Europa.",
       services: "Serviços",
       copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
       establishment: "Instituição financeira licenciada na Europa",
@@ -1036,105 +1916,254 @@ const translations = {
         faq: "FAQ",
         contact: "Contacto",
         about: "Sobre nós",
-        partners: "Os nossos parceiros",
+        partners: "Nossos parceiros",
         careers: "Carreiras",
         blog: "Blog",
         legal: "Informações legais",
         privacy: "Política de privacidade",
-        terms: "Termos gerais",
+        terms: "Termos e condições",
         gdpr: "RGPD"
       }
     },
-    legal: {
-      badge: "Informações Legais",
-      title: {
-        main: "Informações",
-        subtitle: "Legais"
-      },
-      description: "Todas as informações legais e regulamentares relativas à Aurex K-pital e à utilização dos nossos serviços.",
-      tabs: {
-        mentions: "Informações Legais",
-        privacy: "Confidencialidade",
-        terms: "CGU",
-        gdpr: "RGPD"
-      },
-      mentions: {
-        title: "Informações Legais",
-        description: "Informações sobre a sociedade e responsabilidades legais",
-        company: {
-          title: "Identificação da Sociedade",
-          name: "Denominação social",
-          type: "Forma jurídica",
-          typeValue: "Sociedade por quotas (GmbH)",
-          capital: "Capital social",
-          address: "Sede",
-          register: "Registo comercial",
-          vat: "Número de IVA",
-          siren: "Número SIREN"
+    partners: {
+      title: "Nossos Parceiros de Confiança",
+      description: "Uma rede europeia de excelência para oferecer as melhores soluções financeiras",
+      stats: "Mais de 25 parceiros europeus • 27 países cobertos • 2,5 mil milhões € de volume tratado"
+    },
+    home: {
+      hero: {
+        title: "Seu Parceiro Financeiro",
+        subtitle: "desde 1997",
+        description: "Excelência, inovação e confiança para todos os seus projetos financeiros",
+        ctaBtn: "Descobrir nossas soluções",
+        simulateBtn: "Simular um empréstimo",
+        scrollText: "Descobrir",
+        carousel: {
+          text1: "Lance o seu projeto com a Aurex K-pital",
+          text2: "Obtenha financiamento sem entrada",
+          text3: "Invista hoje no seu futuro"
         },
-        management: {
-          title: "Direção",
-          ceo: "Diretor Geral",
-          cio: "Diretora de Inovação",
-          cro: "Diretor de Riscos"
-        },
-        activity: {
-          title: "Atividade",
-          description: "A Aurex K-pital é uma instituição financeira autorizada pela BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) sob o número de autorização 147-FS-2015. As nossas atividades incluem:",
-          services: {
-            banking: "Mediação em operações bancárias e serviços de pagamento",
-            investment: "Aconselhamento em investimentos financeiros",
-            insurance: "Mediação em seguros",
-            wealth: "Serviços de gestão patrimonial"
+        stats: {
+          experience: {
+            title: "Anos de excelência",
+            subtitle: "Inovação contínua"
+          },
+          clients: {
+            title: "Clientes satisfeitos",
+            subtitle: "Satisfação garantida"
+          },
+          funding: {
+            title: "Financiamentos realizados",
+            subtitle: "Impacto transformador"
           }
+        }
+      },
+      services: {
+        badge: "Serviços",
+        title: "Soluções",
+        subtitle: "Inovadoras",
+        description: "Descubra as nossas soluções financeiras",
+        description2: "revolucionárias",
+        description3: "para os seus projetos"
+      },
+      about: {
+        badge: "Sobre nós",
+        title: "O vosso parceiro",
+        subtitle: "financeiro",
+        subtitle2: "de confiança",
+        description1: {
+          highlight: "Desde 1997,",
+          text: " a Aurex K-pital acompanha particulares e empresas nos seus projetos financeiros com uma abordagem que combina",
+          expertise: "experiência humana",
+          and: "e",
+          technology: "inovação tecnológica"
+        },
+        description2: {
+          text: "A nossa missão: democratizar o acesso ao financiamento graças a soluções",
+          highlight: "rápidas, transparentes e à medida",
+          success: "para concretizar as vossas ambições"
+        },
+        stats: {
+          founded: "Ano de fundação",
+          location: "Sede social",
+          certified: "Registo",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "A vossa confiança, a nossa prioridade",
+          description: "Certificados e regulamentados pelas autoridades europeias"
+        },
+        buttons: {
+          history: "A nossa história",
+          contact: "Contactar-nos"
+        }
+      },
+      cta: {
+        title: "Prontos para transformar",
+        titleHighlight: "os vossos projetos",
+        titleEnd: "em realidade?",
+        description: "Os nossos especialistas acompanham-vos em cada etapa para concretizar as vossas ambições financeiras.",
+        buttons: {
+          request: "Fazer um pedido",
+          simulate: "Simular um empréstimo",
+          contact: "Contactar-nos"
         },
         contact: {
-          title: "Contacto",
           phone: "Telefone",
-          email: "Email",
-          hours: "Horários",
-          schedule: "Segunda-Sexta 8h-19h, Sábado 9h-17h"
-        },
-        hosting: {
-          title: "Alojamento",
-          description: "Este site está alojado por:"
-        },
-        intellectual: {
-          title: "Propriedade Intelectual",
-          description: "Todos os conteúdos presentes neste site (textos, imagens, logotipos, gráficos, etc.) estão protegidos por direitos de autor e pertencem à Aurex K-pital ou aos seus parceiros. Qualquer reprodução, mesmo parcial, é proibida sem autorização escrita prévia."
-        },
-        responsibility: {
-          title: "Responsabilidade",
-          description: "A Aurex K-pital esforça-se por fornecer informações exatas e atualizadas. No entanto, a sociedade não pode garantir a exatidão, completude ou atualidade das informações difundidas neste site. A utilização das informações faz-se sob a responsabilidade exclusiva do utilizador."
+          address: "Morada",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
         }
       }
+    },
+    services: {
+      personalLoan: {
+        title: "Créditos pessoais",
+        description: "Soluções de financiamento à medida com condições revolucionárias.",
+        points: ["IA para taxas otimais", "Resposta em 2h", "Flexibilidade máxima"],
+        cta: "Descobrir",
+        useCases: [
+          "Trabalhos de renovação",
+          "Viagem de sonho",
+          "Casamento",
+          "Estudos",
+          "Compra de veículo"
+        ]
+      },
+      businessLoan: {
+        title: "Financiamento empresarial",
+        description: "Impulsione a sua empresa com as nossas soluções inovadoras.",
+        points: ["Financiamento expresso", "Acompanhamento especializado", "Soluções à medida"],
+        cta: "Descobrir",
+        useCases: [
+          "Criação de empresa",
+          "Expansão comercial",
+          "Compra de equipamentos",
+          "Tesouraria",
+          "Compra de participações"
+        ]
+      },
+      investment: {
+        title: "Investimentos inteligentes",
+        description: "Otimização patrimonial com inteligência artificial e experiência humana.",
+        points: ["Carteira inteligente", "Consultoria premium", "Rendimento otimizado"],
+        cta: "Descobrir",
+        useCases: [
+          "Investimento imobiliário",
+          "Diversificação patrimonial",
+          "Preparação reforma",
+          "Otimização fiscal",
+          "Investimento ESG"
+        ]
+      },
+      insurance: {
+        title: "Seguros 360°",
+        description: "Proteção total e inovadora para todos os seus projetos de vida e negócio.",
+        points: ["Cobertura completa", "Gestão de sinistros 24h", "Suporte premium"],
+        cta: "Descobrir",
+        useCases: [
+          "Proteção familiar",
+          "Seguro profissional",
+          "Garantia empréstimo",
+          "Responsabilidade civil",
+          "Previdência saúde"
+        ]
+      },
+      explore: "Explorar todos os nossos serviços",
+      features: "Características",
+      useCases: "Casos de uso",
+      discover: "Descobrir",
+      specialized: {
+        title: "Produtos especializados",
+        description: "Soluções especializadas para as suas necessidades específicas",
+        mortgage: {
+          title: "Crédito habitação",
+          description: "Financie o seu projeto imobiliário nas melhores condições",
+          rate: "A partir de 1,2% TAEG"
+        },
+        student: {
+          title: "Crédito estudante",
+          description: "Soluções adaptadas para financiar os seus estudos",
+          rate: "0% durante os estudos"
+        },
+        savings: {
+          title: "Conta poupança+",
+          description: "Poupança remunerada e disponível",
+          rate: "Até 4% líquidos"
+        },
+        premium: {
+          title: "Cartão Premium",
+          description: "Vantagens exclusivas e serviços de alta gama",
+          rate: "Sem custos no 1º ano"
+        }
+      },
+      process: {
+        title: "O nosso processo",
+        description: "Um percurso simplificado para concretizar os seus projetos",
+        step1: {
+          title: "Análise do seu projeto",
+          description: "Estudo personalizado das suas necessidades e capacidades financeiras"
+        },
+        step2: {
+          title: "Proposta à medida",
+          description: "Soluções adaptadas com condições otimizadas por IA"
+        },
+        step3: {
+          title: "Validação expressa",
+          description: "Resposta de princípio em menos de 2h úteis"
+        },
+        step4: {
+          title: "Desbloqueio dos fundos",
+          description: "Disponibilização rápida e acompanhamento contínuo"
+        }
+      }
+    },
+    testimonials: {
+      title: "Confiam em nós",
+      subtitle: "O que dizem os nossos clientes satisfeitos",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, França",
+          feedback: "Serviço rápido e sério. O meu crédito foi aprovado em 48h! Obrigado Aurex K-pital."
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paris, França",
+          feedback: "Equipa profissional, plataforma clara e um acompanhamento verdadeiramente personalizado."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, França",
+          feedback: "O simulador foi muito claro e obtive melhores condições que no meu banco."
+        }
+      ]
     }
   },
   el: {
     menu: {
       home: "Αρχική",
       services: "Υπηρεσίες",
-      simulator: "Προσομοιωτής",
+      simulator: "Υπολογιστής Δανείου",
       request: "Αίτηση",
       about: "Σχετικά με εμάς",
       contact: "Επικοινωνία",
-      faq: "Συχνές Ερωτήσεις",
+      faq: "Συχνές ερωτήσεις",
       careers: "Καριέρα",
       partners: "Συνεργάτες",
-      blog: "Blog"
+      blog: "Ιστολόγιο"
     },
     footer: {
       tools: "Εργαλεία",
       company: "Εταιρεία",
       legal: "Νομικά",
-      privacyPolicy: "Πολιτική απορρήτου",
-      terms: "Γενικοί όροι",
-      mentions: "Νομικές πληροφορίες",
+      privacyPolicy: "Πολιτική Απορρήτου",
+      terms: "Όροι Χρήσης",
+      mentions: "Νομική Ειδοποίηση",
       gdpr: "GDPR",
-      rights: "© 2024 Aurex K-pital. Όλα τα δικαιώματα διατηρούνται.",
-      description: "Ο αξιόπιστος χρηματοοικονομικός συνεργάτης σας από το 1997. Αριστεία, καινοτομία και εμπειρία για όλα τα χρηματοοικονομικά σας έργα στην Ευρώπη.",
+      rights: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
+      description: "Ο αξιόπιστος χρηματοοικονομικός σας εταίρος από το 1997. Αριστεία, καινοτομία και εμπειρία για όλα τα χρηματοοικονομικά σας έργα στην Ευρώπη.",
       services: "Υπηρεσίες",
-      copyright: "© 2024 Aurex K-pital. Όλα τα δικαιώματα διατηρούνται.",
+      copyright: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
       establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη",
       links: {
         personalLoans: "Προσωπικά δάνεια",
@@ -1143,191 +2172,230 @@ const translations = {
         insurance: "Ασφάλειες",
         simulator: "Προσομοιωτής δανείου",
         request: "Αίτηση χρηματοδότησης",
-        faq: "Συχνές Ερωτήσεις",
+        faq: "Συχνές ερωτήσεις",
         contact: "Επικοινωνία",
         about: "Σχετικά με εμάς",
         partners: "Οι συνεργάτες μας",
         careers: "Καριέρα",
-        blog: "Blog",
-        legal: "Νομικές πληροφορίες",
+        blog: "Ιστολόγιο",
+        legal: "Νομική ειδοποίηση",
         privacy: "Πολιτική απορρήτου",
-        terms: "Γενικοί όροι",
+        terms: "Όροι χρήσης",
         gdpr: "GDPR"
       }
     },
-    legal: {
-      badge: "Νομικές Πληροφορίες",
-      title: {
-        main: "Νομικές",
-        subtitle: "Πληροφορίες"
-      },
-      description: "Όλες οι νομικές και κανονιστικές πληροφορίες σχετικά με την Aurex K-pital και τη χρήση των υπηρεσιών μας.",
-      tabs: {
-        mentions: "Νομικές Πληροφορίες",
-        privacy: "Εμπιστευτικότητα",
-        terms: "Όροι Χρήσης",
-        gdpr: "GDPR"
-      },
-      mentions: {
-        title: "Νομικές Πληροφορίες",
-        description: "Πληροφορίες για την εταιρεία και νομικές ευθύνες",
-        company: {
-          title: "Ταυτοποίηση της Εταιρείας",
-          name: "Εταιρική επωνυμία",
-          type: "Νομική μορφή",
-          typeValue: "Εταιρεία περιορισμένης ευθύνης (GmbH)",
-          capital: "Εταιρικό κεφάλαιο",
-          address: "Έδρα",
-          register: "Εμπορικό μητρώο",
-          vat: "Αριθμός ΦΠΑ",
-          siren: "Αριθμός SIREN"
+    partners: {
+      title: "Οι Αξιόπιστοι Συνεργάτες μας",
+      description: "Ένα ευρωπαϊκό δίκτυο αριστείας για τις καλύτερες χρηματοοικονομικές λύσεις",
+      stats: "Πάνω από 25 ευρωπαίους συνεργάτες • 27 χώρες κάλυψης • 2,5 δισ. € όγκος συναλλαγών"
+    },
+    home: {
+      hero: {
+        title: "Ο Χρηματοοικονομικός σας Εταίρος",
+        subtitle: "από το 1997",
+        description: "Αριστεία, καινοτομία και εμπιστοσύνη για όλα τα χρηματοοικονομικά σας έργα",
+        ctaBtn: "Ανακαλύψτε τις λύσεις μας",
+        simulateBtn: "Προσομοιώστε ένα δάνειο",
+        scrollText: "Ανακαλύψτε",
+        carousel: {
+          text1: "Ξεκινήστε το έργο σας με την Aurex K-pital",
+          text2: "Αποκτήστε χρηματοδότηση χωρίς προκαταβολή",
+          text3: "Επενδύστε σήμερα στο μέλλον σας"
         },
-        management: {
-          title: "Διοίκηση",
-          ceo: "Γενικός Διευθυντής",
-          cio: "Διευθύντρια Καινοτομίας",
-          cro: "Διευθυντής Κινδύνων"
-        },
-        activity: {
-          title: "Δραστηριότητα",
-          description: "Η Aurex K-pital είναι χρηματοπιστωτικό ίδρυμα εξουσιοδοτημένο από την BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) υπό τον αριθμό εξουσιοδότησης 147-FS-2015. Οι δραστηριότητές μας περιλαμβάνουν:",
-          services: {
-            banking: "Μεσιτεία σε τραπεζικές συναλλαγές και υπηρεσίες πληρωμών",
-            investment: "Συμβουλευτική σε χρηματοοικονομικές επενδύσεις",
-            insurance: "Ασφαλιστική μεσιτεία",
-            wealth: "Υπηρεσίες διαχείρισης περιουσίας"
+        stats: {
+          experience: {
+            title: "Χρόνια αριστείας",
+            subtitle: "Συνεχής καινοτομία"
+          },
+          clients: {
+            title: "Ικανοποιημένοι πελάτες",
+            subtitle: "Εγγυημένη ικανοποίηση"
+          },
+          funding: {
+            title: "Πραγματοποιημένες χρηματοδοτήσεις",
+            subtitle: "Μεταμορφωτικός αντίκτυπος"
           }
+        }
+      },
+      services: {
+        badge: "Υπηρεσίες",
+        title: "Λύσεις",
+        subtitle: "Καινοτόμες",
+        description: "Ανακαλύψτε τις επαναστατικές",
+        description2: "χρηματοοικονομικές λύσεις μας",
+         description3: "για τα έργα σας"
+       },
+       about: {
+         badge: "Σχετικά με εμάς",
+         title: "Ο εταίρος σας",
+         subtitle: "για χρηματοοικονομικά",
+         subtitle2: "θέματα",
+         description1: {
+           highlight: "Από το 1997,",
+           text: " η Aurex K-pital συνοδεύει ιδιώτες και επιχειρήσεις στα χρηματοοικονομικά τους έργα με προσέγγιση που συνδυάζει",
+           expertise: "ανθρώπινη εμπειρία",
+           and: "και",
+           technology: "τεχνολογική καινοτομία"
+         },
+         description2: {
+           text: "Η αποστολή μας: εκδημοκρατισμός της πρόσβασης στη χρηματοδότηση μέσω λύσεων",
+           highlight: "γρήγορων, διαφανών και εξατομικευμένων",
+           success: "για την υλοποίηση των φιλοδοξιών σας"
+         },
+         stats: {
+           founded: "Έτος ίδρυσης",
+           location: "Έδρα",
+           certified: "Μητρώο",
+           security: "Safe-Nummer"
+         },
+         trust: {
+           title: "Η εμπιστοσύνη σας, προτεραιότητά μας",
+           description: "Πιστοποιημένοι και ρυθμιζόμενοι από ευρωπαϊκές αρχές"
+         },
+         buttons: {
+           history: "Η ιστορία μας",
+           contact: "Επικοινωνήστε μαζί μας"
+         }
+       },
+       cta: {
+         title: "Έτοιμοι να μεταμορφώσετε",
+         titleHighlight: "τα έργα σας",
+         titleEnd: "σε πραγματικότητα;",
+         description: "Οι ειδικοί μας σας συνοδεύουν σε κάθε βήμα για την υλοποίηση των χρηματοοικονομικών σας φιλοδοξιών.",
+         buttons: {
+           request: "Υποβολή αίτησης",
+           simulate: "Προσομοίωση δανείου",
+           contact: "Επικοινωνήστε μαζί μας"
+         },
+         contact: {
+           phone: "Τηλέφωνο",
+           address: "Διεύθυνση",
+           addressValue: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
+         }
+       }
+     },
+    services: {
+      personalLoan: {
+        title: "Προσωπικά δάνεια",
+        description: "Εξατομικευμένες χρηματοδοτικές λύσεις με επαναστατικούς όρους.",
+        points: ["AI για βέλτιστα επιτόκια", "Απάντηση σε 2 ώρες", "Μέγιστη ευελιξία"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Εργασίες ανακαίνισης",
+          "Ταξίδι των ονείρων",
+          "Γάμος",
+          "Σπουδές",
+          "Αγορά οχήματος"
+        ]
+      },
+      businessLoan: {
+        title: "Επιχειρηματικά δάνεια",
+        description: "Αναπτύξτε την επιχείρησή σας με τις καινοτόμες λύσεις μας.",
+        points: ["Άμεση χρηματοδότηση", "Υποστήριξη από ειδικούς", "Εξατομικευμένες λύσεις"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Δημιουργία επιχείρησης",
+          "Εμπορική επέκταση",
+          "Αγορά εξοπλισμού",
+          "Ταμείο",
+          "Αγορά μετοχών"
+        ]
+      },
+      investment: {
+        title: "Έξυπνες επενδύσεις",
+        description: "Βελτιστοποίηση περιουσίας με τεχνητή νοημοσύνη και ανθρώπινη εμπειρία.",
+        points: ["Έξυπνο χαρτοφυλάκιο", "Premium συμβουλευτική", "Βελτιστοποιημένες αποδόσεις"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Επένδυση ακινήτων",
+          "Διαφοροποίηση περιουσίας",
+          "Προετοιμασία συνταξιοδότησης",
+          "Φορολογική βελτιστοποίηση",
+          "Επένδυση ESG"
+        ]
+      },
+      insurance: {
+        title: "Ασφάλειες 360°",
+        description: "Πλήρης και καινοτόμα κάλυψη για τη ζωή και τις επιχειρήσεις σας.",
+        points: ["Πλήρης κάλυψη", "Αποζημίωση σε 24 ώρες", "Premium υποστήριξη"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Προστασία οικογένειας",
+          "Επαγγελματική ασφάλιση",
+          "Εγγύηση δανείου",
+          "Αστική ευθύνη",
+          "Υγειονομική πρόνοια"
+        ]
+      },
+      explore: "Εξερευνήστε όλες τις υπηρεσίες μας",
+      features: "Χαρακτηριστικά",
+      useCases: "Περιπτώσεις χρήσης",
+      discover: "Ανακάλυψε",
+      specialized: {
+        title: "Εξειδικευμένα προϊόντα",
+        description: "Εξειδικευμένες λύσεις για τις συγκεκριμένες ανάγκες σας",
+        mortgage: {
+          title: "Στεγαστικό δάνειο",
+          description: "Χρηματοδοτήστε το ακίνητο έργο σας με τους καλύτερους όρους",
+          rate: "Από 1,2% ΕΠΣ"
         },
-        contact: {
-          title: "Επικοινωνία",
-          phone: "Τηλέφωνο",
-          email: "Email",
-          hours: "Ώρες λειτουργίας",
-          schedule: "Δευτέρα-Παρασκευή 8-19, Σάββατο 9-17"
+        student: {
+          title: "Φοιτητικό δάνειο",
+          description: "Προσαρμοσμένες λύσεις για τη χρηματοδότηση των σπουδών σας",
+          rate: "0% κατά τη διάρκεια των σπουδών"
         },
-        hosting: {
-          title: "Φιλοξενία",
-          description: "Αυτή η ιστοσελίδα φιλοξενείται από:"
+        savings: {
+          title: "Λογαριασμός αποταμίευσης+",
+          description: "Επικερδής και διαθέσιμη αποταμίευση",
+          rate: "Έως 4% καθαρά"
         },
-        intellectual: {
-          title: "Πνευματική Ιδιοκτησία",
-          description: "Όλα τα περιεχόμενα αυτής της ιστοσελίδας (κείμενα, εικόνες, λογότυπα, γραφικά κ.λπ.) προστατεύονται από δικαιώματα πνευματικής ιδιοκτησίας και ανήκουν στην Aurex K-pital ή στους συνεργάτες της. Κάθε αναπαραγωγή, ακόμη και μερική, απαγορεύεται χωρίς προηγούμενη γραπτή άδεια."
+        premium: {
+          title: "Κάρτα Premium",
+          description: "Αποκλειστικά πλεονεκτήματα και υπηρεσίες υψηλής ποιότητας",
+          rate: "Χωρίς χρέωση τον 1ο χρόνο"
+        }
+      },
+      process: {
+        title: "Η διαδικασία μας",
+        description: "Μια απλοποιημένη διαδρομή για την υλοποίηση των έργων σας",
+        step1: {
+          title: "Ανάλυση του έργου σας",
+          description: "Εξατομικευμένη μελέτη των αναγκών και χρηματοδοτικών δυνατοτήτων σας"
         },
-        responsibility: {
-          title: "Ευθύνη",
-          description: "Η Aurex K-pital προσπαθεί να παρέχει ακριβείς και ενημερωμένες πληροφορίες. Ωστόσο, η εταιρεία δεν μπορεί να εγγυηθεί την ακρίβεια, πληρότητα ή επικαιρότητα των πληροφοριών που διανέμονται σε αυτήν την ιστοσελίδα. Η χρήση των πληροφοριών γίνεται με αποκλειστική ευθύνη του χρήστη."
+        step2: {
+          title: "Εξατομικευμένη πρόταση",
+          description: "Προσαρμοσμένες λύσεις με όρους βελτιστοποιημένους από AI"
+        },
+        step3: {
+          title: "Ταχεία επικύρωση",
+          description: "Απάντηση αρχής σε λιγότερο από 2 εργάσιμες ώρες"
+        },
+        step4: {
+          title: "Απελευθέρωση κεφαλαίων",
+          description: "Ταχεία διάθεση και συνεχής υποστήριξη"
         }
       }
-    }
-  },
-  it: {
-    menu: {
-      home: "Home",
-      services: "Servizi",
-      simulator: "Simulatore",
-      request: "Richiesta",
-      about: "Chi siamo",
-      contact: "Contatti",
-      faq: "FAQ",
-      careers: "Carriere",
-      partners: "Partner",
-      blog: "Blog"
     },
-    footer: {
-      tools: "Strumenti",
-      company: "Azienda",
-      legal: "Legale",
-      privacyPolicy: "Politica sulla privacy",
-      terms: "Termini generali",
-      mentions: "Informazioni legali",
-      gdpr: "GDPR",
-      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
-      description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
-      services: "Servizi",
-      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
-      establishment: "Istituzione finanziaria autorizzata in Europa",
-      links: {
-        personalLoans: "Prestiti personali",
-        proFinancing: "Finanziamenti aziendali",
-        investments: "Investimenti",
-        insurance: "Assicurazioni",
-        simulator: "Simulatore di prestito",
-        request: "Richiesta di finanziamento",
-        faq: "FAQ",
-        contact: "Contatti",
-        about: "Chi siamo",
-        partners: "I nostri partner",
-        careers: "Carriere",
-        blog: "Blog",
-        legal: "Informazioni legali",
-        privacy: "Politica sulla privacy",
-        terms: "Termini generali",
-        gdpr: "GDPR"
-      }
-    },
-    legal: {
-      badge: "Informazioni Legali",
-      title: {
-        main: "Informazioni",
-        subtitle: "Legali"
-      },
-      description: "Tutte le informazioni legali e normative riguardanti Aurex K-pital e l'utilizzo dei nostri servizi.",
-      tabs: {
-        mentions: "Informazioni Legali",
-        privacy: "Riservatezza",
-        terms: "CGU",
-        gdpr: "GDPR"
-      },
-      mentions: {
-        title: "Informazioni Legali",
-        description: "Informazioni sulla società e responsabilità legali",
-        company: {
-          title: "Identificazione della Società",
-          name: "Denominazione sociale",
-          type: "Forma giuridica",
-          typeValue: "Società a responsabilità limitata (GmbH)",
-          capital: "Capitale sociale",
-          address: "Sede legale",
-          register: "Registro delle imprese",
-          vat: "Numero IVA",
-          siren: "Numero SIREN"
+    testimonials: {
+      title: "Μας εμπιστεύονται",
+      subtitle: "Τι λένε οι ικανοποιημένοι πελάτες μας",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Λυών, Γαλλία",
+          feedback: "Γρήγορη και αξιόπιστη εξυπηρέτηση. Το δάνειό μου εγκρίθηκε σε 48 ώρες. Ευχαριστώ Aurex K-pital!"
         },
-        management: {
-          title: "Direzione",
-          ceo: "Direttore Generale",
-          cio: "Direttrice Innovazione",
-          cro: "Direttore Rischi"
+        {
+          name: "Amélie Blanchard",
+          location: "Παρίσι, Γαλλία",
+          feedback: "Επαγγελματική ομάδα, απλό περιβάλλον και πραγματικά εξατομικευμένη υποστήριξη."
         },
-        activity: {
-          title: "Attività",
-          description: "Aurex K-pital è un istituto finanziario autorizzato dalla BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) sotto il numero di autorizzazione 147-FS-2015. Le nostre attività includono:",
-          services: {
-            banking: "Intermediazione in operazioni bancarie e servizi di pagamento",
-            investment: "Consulenza in investimenti finanziari",
-            insurance: "Intermediazione assicurativa",
-            wealth: "Servizi di gestione patrimoniale"
-          }
-        },
-        contact: {
-          title: "Contatti",
-          phone: "Telefono",
-          email: "Email",
-          hours: "Orari",
-          schedule: "Lunedì-Venerdì 8-19, Sabato 9-17"
-        },
-        hosting: {
-          title: "Hosting",
-          description: "Questo sito è ospitato da:"
-        },
-        intellectual: {
-          title: "Proprietà Intellettuale",
-          description: "Tutti i contenuti presenti su questo sito (testi, immagini, loghi, grafiche, ecc.) sono protetti dal diritto d'autore e appartengono ad Aurex K-pital o ai suoi partner. Qualsiasi riproduzione, anche parziale, è vietata senza autorizzazione scritta preventiva."
-        },
-        responsibility: {
-          title: "Responsabilità",
-          description: "Aurex K-pital si sforza di fornire informazioni precise e aggiornate. Tuttavia, la società non può garantire l'accuratezza, completezza o attualità delle informazioni diffuse su questo sito. L'utilizzo delle informazioni avviene sotto la responsabilità esclusiva dell'utente."
+        {
+          name: "Thomas Bonnet",
+          location: "Τουλούζη, Γαλλία",
+          feedback: "Ο υπολογιστής ήταν ξεκάθαρος και πήρα καλύτερους όρους από την τράπεζά μου."
         }
-      }
+      ]
     }
   }
 };
