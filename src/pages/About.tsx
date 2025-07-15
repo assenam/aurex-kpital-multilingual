@@ -13,7 +13,12 @@ import {
 } from 'lucide-react';
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
+  
+  // Debug logs pour diagnostiquer le problème de traduction
+  console.log('About page - Current language:', language);
+  console.log('About page - Badge translation test:', t('about.badge'));
+  console.log('About page - Title translation test:', t('about.title'));
 
   const values = [
     {
