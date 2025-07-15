@@ -162,33 +162,24 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-                Notre Histoire
+                {t('about.story.title')}
               </h2>
               <p className="text-xl text-muted-foreground">
-                De startup hambourgeoise à leader européen de l'innovation financière
+                {t('about.story.subtitle')}
               </p>
             </div>
 
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-xl leading-relaxed mb-6">
-                <span className="text-primary font-semibold">Aurex K-pital</span> naît en 1997 de la vision 
-                audacieuse de révolutionner les services financiers européens. Basée à Hamburg, au cœur 
-                économique de l'Allemagne, notre entreprise s'est donnée pour mission de démocratiser 
-                l'accès aux solutions financières innovantes.
+                <span className="text-primary font-semibold">Aurex K-pital</span> {t('about.story.paragraph1')}
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                Pionniers dans l'intégration de <span className="text-accent font-semibold">l'intelligence artificielle</span> 
-                aux services financiers dès 2010, nous avons développé des algorithmes propriétaires qui 
-                permettent une analyse de risque ultra-précise et des recommandations personnalisées 
-                pour chaque client.
+                {t('about.story.paragraph2')}
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                Aujourd'hui, avec plus de <span className="text-primary font-semibold">50 000 clients</span> dans 
-                toute l'Europe et <span className="text-primary font-semibold">5 milliards d'euros</span> de 
-                financements accordés, nous continuons d'innover pour offrir les meilleures solutions 
-                du marché.
+                {t('about.story.paragraph3')}
               </p>
             </div>
           </div>
