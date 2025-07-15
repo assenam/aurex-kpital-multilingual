@@ -2631,7 +2631,8 @@ const translations = {
       },
       cta: { title: "Gotowy rozwijać swoją firmę?", description: "Dołącz do ponad 50 000 firm, które nam ufają.", simulate: "Rozpocznij symulację", expert: "Porozmawiaj z ekspertem" }
     }
-    },
+  },
+  fi: {
     partners: {
       title: "Luotettavat Kumppanimme",
       description: "Eurooppalainen huippuosaamisen verkosto parhaimpia rahoitusratkaisuja varten",
@@ -2945,8 +2946,7 @@ const translations = {
         member3: { name: "Elena Rodriguez", role: "Myyntijohtaja", experience: "Eurooppalaisten markkinoiden asiantuntija 12 vuoden ajalta" }
       },
       cta: { title: "Valmis kehittämään yritystäsi?", description: "Liity yli 50 000 yritykseen, jotka luottavat meihin.", simulate: "Aloita simulaatio", expert: "Keskustele asiantuntijan kanssa" }
-    }
-      },
+    },
       cta: {
         title: "Valmis toteuttamaan projektisi?",
         description: "Asiantuntijakonsulttimme auttavat sinua muuttamaan tämän simulaation todellisuudeksi",
@@ -3291,9 +3291,7 @@ const translations = {
         member3: { name: "Elena Rodriguez", role: "Directora Comercial", experience: "Especialista em mercados europeus há 12 anos" }
       },
       cta: { title: "Pronto para desenvolver a sua empresa?", description: "Junte-se a mais de 50 000 empresas que confiam em nós.", simulate: "Começar a simulação", expert: "Falar com um especialista" }
-    }
-        }
-      },
+    },
       configuration: {
         title: "Configuração do seu empréstimo",
         description: "Personalize os parâmetros conforme as suas necessidades"
