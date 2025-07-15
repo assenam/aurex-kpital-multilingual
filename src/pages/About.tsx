@@ -9,10 +9,8 @@ import {
   Sparkles, TrendingUp, Heart, Lightbulb, CheckCircle,
   Building2, Briefcase, GraduationCap, MapPin, Phone, Mail
 } from 'lucide-react';
-import { useTranslation } from '@/contexts/TranslationContext';
 
 const About = () => {
-  const { t } = useTranslation();
   const milestones = [
     {
       year: "1997",
@@ -137,17 +135,18 @@ const About = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Calendar className="h-4 w-4 mr-2" />
-                {t('about.hero.badge')}
+                Excellence depuis 1997
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              {t('about.hero.title')}
-              <span className="text-gold block">{t('about.hero.titleHighlight')}</span>
+              Un Quart de Siècle
+              <span className="text-gold block">d'Innovation Financière</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              {t('about.hero.description')}
+              Depuis Hamburg, nous révolutionnons l'accompagnement financier en combinant 
+              expertise humaine traditionnelle et technologies de pointe.
             </p>
           </div>
         </div>
@@ -162,24 +161,33 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-                {t('about.story.title')}
+                Notre Histoire
               </h2>
               <p className="text-xl text-muted-foreground">
-                {t('about.story.subtitle')}
+                De startup hambourgeoise à leader européen de l'innovation financière
               </p>
             </div>
 
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-xl leading-relaxed mb-6">
-                <span className="text-primary font-semibold">Aurex K-pital</span> {t('about.story.paragraph1')}
+                <span className="text-primary font-semibold">Aurex K-pital</span> naît en 1997 de la vision 
+                audacieuse de révolutionner les services financiers européens. Basée à Hamburg, au cœur 
+                économique de l'Allemagne, notre entreprise s'est donnée pour mission de démocratiser 
+                l'accès aux solutions financières innovantes.
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                {t('about.story.paragraph2')}
+                Pionniers dans l'intégration de <span className="text-accent font-semibold">l'intelligence artificielle</span> 
+                aux services financiers dès 2010, nous avons développé des algorithmes propriétaires qui 
+                permettent une analyse de risque ultra-précise et des recommandations personnalisées 
+                pour chaque client.
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                {t('about.story.paragraph3')}
+                Aujourd'hui, avec plus de <span className="text-primary font-semibold">50 000 clients</span> dans 
+                toute l'Europe et <span className="text-primary font-semibold">5 milliards d'euros</span> de 
+                financements accordés, nous continuons d'innover pour offrir les meilleures solutions 
+                du marché.
               </p>
             </div>
           </div>
@@ -191,7 +199,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.timeline.title')}
+              Nos Grandes Étapes
             </h2>
           </div>
 
@@ -204,11 +212,11 @@ const About = () => {
                       <CardHeader>
                         <div className="flex items-center gap-4">
                           <div className="text-3xl font-bold text-accent">{milestone.year}</div>
-                          <CardTitle className="text-xl text-primary">{t(`about.timeline.milestones.${milestone.year}.title`)}</CardTitle>
+                          <CardTitle className="text-xl text-primary">{milestone.title}</CardTitle>
                         </div>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-muted-foreground">{t(`about.timeline.milestones.${milestone.year}.description`)}</p>
+                        <p className="text-muted-foreground">{milestone.description}</p>
                       </CardContent>
                     </Card>
                   </div>
@@ -230,66 +238,29 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.values.title')}
+              Nos Valeurs
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('about.values.subtitle')}
+              Les principes qui guident chacune de nos actions
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <Card className="hover-lift border-0 shadow-md">
-              <CardHeader>
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-gradient-primary rounded-xl">
-                    <Heart className="h-8 w-8 text-primary-foreground" />
+            {values.map((value, index) => (
+              <Card key={value.title} className="hover-lift border-0 shadow-md">
+                <CardHeader>
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="p-3 bg-gradient-primary rounded-xl">
+                      <value.icon className="h-8 w-8 text-primary-foreground" />
+                    </div>
+                    <CardTitle className="text-xl text-primary">{value.title}</CardTitle>
                   </div>
-                  <CardTitle className="text-xl text-primary">{t('about.values.excellence.title')}</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{t('about.values.excellence.description')}</p>
-              </CardContent>
-            </Card>
-            <Card className="hover-lift border-0 shadow-md">
-              <CardHeader>
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-gradient-primary rounded-xl">
-                    <Shield className="h-8 w-8 text-primary-foreground" />
-                  </div>
-                  <CardTitle className="text-xl text-primary">{t('about.values.security.title')}</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{t('about.values.security.description')}</p>
-              </CardContent>
-            </Card>
-            <Card className="hover-lift border-0 shadow-md">
-              <CardHeader>
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-gradient-primary rounded-xl">
-                    <Lightbulb className="h-8 w-8 text-primary-foreground" />
-                  </div>
-                  <CardTitle className="text-xl text-primary">{t('about.values.innovation.title')}</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{t('about.values.innovation.description')}</p>
-              </CardContent>
-            </Card>
-            <Card className="hover-lift border-0 shadow-md">
-              <CardHeader>
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="p-3 bg-gradient-primary rounded-xl">
-                    <CheckCircle className="h-8 w-8 text-primary-foreground" />
-                  </div>
-                  <CardTitle className="text-xl text-primary">{t('about.values.transparency.title')}</CardTitle>
-                </div>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground">{t('about.values.transparency.description')}</p>
-              </CardContent>
-            </Card>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">{value.description}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
@@ -299,10 +270,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.team.title')}
+              Notre Équipe Dirigeante
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('about.team.subtitle')}
+              Des experts reconnus au service de votre réussite
             </p>
           </div>
 
@@ -319,7 +290,7 @@ const About = () => {
                 <CardContent className="space-y-2">
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <Briefcase className="h-4 w-4" />
-                    {member.experience} {t('about.team.experienceLabel')}
+                    {member.experience} d'expérience
                   </div>
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <Target className="h-4 w-4" />
@@ -342,10 +313,10 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.certifications.title')}
+              Certifications & Accréditations
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('about.certifications.subtitle')}
+              Reconnaissance officielle de notre excellence opérationnelle
             </p>
           </div>
 
@@ -360,7 +331,7 @@ const About = () => {
                   <CardDescription className="text-sm">{cert.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-sm text-accent font-semibold">{t('about.certifications.sinceLabel')} {cert.year}</div>
+                  <div className="text-sm text-accent font-semibold">Depuis {cert.year}</div>
                 </CardContent>
               </Card>
             ))}
@@ -373,40 +344,40 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              {t('about.contact.title')}
+              Nous Rencontrer
             </h2>
             <p className="text-xl mb-12 text-primary-foreground/90">
-              {t('about.contact.subtitle')}
+              Nos bureaux vous accueillent au cœur de Hamburg
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="text-center">
                 <MapPin className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{t('about.contact.address.title')}</h3>
+                <h3 className="text-xl font-bold mb-2">Adresse</h3>
                 <p className="text-primary-foreground/80">
-                  {t('about.contact.address.line1')}<br />
-                  {t('about.contact.address.line2')}<br />
-                  {t('about.contact.address.line3')}
+                  Irma-Keilhack-Ring 24<br />
+                  22145 Hamburg<br />
+                  Allemagne
                 </p>
               </div>
               
               <div className="text-center">
                 <Phone className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{t('about.contact.phone.title')}</h3>
+                <h3 className="text-xl font-bold mb-2">Téléphone</h3>
                 <p className="text-primary-foreground/80">
-                  {t('about.contact.phone.number')}<br />
-                  {t('about.contact.phone.hours1')}<br />
-                  {t('about.contact.phone.hours2')}
+                  +49 40 710 97523<br />
+                  Lun-Ven: 8h-19h<br />
+                  Sam: 9h-17h
                 </p>
               </div>
               
               <div className="text-center">
                 <Mail className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{t('about.contact.email.title')}</h3>
+                <h3 className="text-xl font-bold mb-2">Email</h3>
                 <p className="text-primary-foreground/80">
-                  {t('about.contact.email.contact')}<br />
-                  {t('about.contact.email.info')}<br />
-                  {t('about.contact.email.support')}
+                  contact@aurex-kpital.de<br />
+                  info@aurex-kpital.de<br />
+                  support@aurex-kpital.de
                 </p>
               </div>
             </div>
@@ -415,13 +386,13 @@ const About = () => {
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
                 <Link to="/contact">
                   <Users className="h-5 w-5 mr-2" />
-                  {t('about.contact.buttons.meeting')}
+                  Prendre rendez-vous
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <Link to="/demande">
                   <Sparkles className="h-5 w-5 mr-2" />
-                  {t('about.contact.buttons.request')}
+                  Demande personnalisée
                 </Link>
               </Button>
             </div>
