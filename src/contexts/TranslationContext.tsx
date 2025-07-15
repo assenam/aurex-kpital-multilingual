@@ -1144,11 +1144,81 @@ const translations = {
       }
     }
   },
-  fi: { menu: { blog: "Blogi" }, blog: { badge: "Asiantuntemus", title: "Aurex Blogi", categories: { innovation: "Innovaatio", realEstate: "Kiinteistöt", regulation: "Säännökset", economy: "Talous", esg: "ESG", education: "Koulutus" }, actions: { readTime: "lukuaika" } } },
-  es: { menu: { blog: "Blog" }, blog: { badge: "Experiencia", title: "Blog Aurex", categories: { innovation: "Innovación", realEstate: "Inmobiliario", regulation: "Regulación", economy: "Economía", esg: "ESG", education: "Educación" }, actions: { readTime: "de lectura" } } },
-  pt: { menu: { blog: "Blog" }, blog: { badge: "Perícia", title: "Blog Aurex", categories: { innovation: "Inovação", realEstate: "Imobiliário", regulation: "Regulamentação", economy: "Economia", esg: "ESG", education: "Educação" }, actions: { readTime: "de leitura" } } },
-  el: { menu: { blog: "Ιστολόγιο" }, blog: { badge: "Εμπειρογνωμοσύνη", title: "Aurex Blog", categories: { innovation: "Καινοτομία", realEstate: "Ακίνητα", regulation: "Κανονισμοί", economy: "Οικονομία", esg: "ESG", education: "Εκπαίδευση" }, actions: { readTime: "ανάγνωσης" } } },
-  it: { menu: { blog: "Blog" }, blog: { badge: "Competenza", title: "Blog Aurex", categories: { innovation: "Innovazione", realEstate: "Immobiliare", regulation: "Regolamentazione", economy: "Economia", esg: "ESG", education: "Educazione" }, actions: { readTime: "di lettura" } } }
+  fi: { 
+    menu: { blog: "Blogi" }, 
+    blog: { 
+      badge: "Asiantuntemus", 
+      title: "Aurex Blogi", 
+      subtitle: "K-pital",
+      description: "Asiantuntija-analyysit, markkinatrendit ja käytännön neuvot rahoitus- ja investointipäätöstenne optimointiin.",
+      featured: { title: "Pääartikkeli" },
+      search: { placeholder: "Etsi artikkeli...", allCategories: "Kaikki kategoriat" },
+      categories: { title: "Kategoriat", innovation: "Innovaatio", realEstate: "Kiinteistöt", regulation: "Säännökset", economy: "Talous", esg: "ESG", education: "Koulutus" }, 
+      trending: { title: "Trendit" },
+      newsletter: { title: "Uutiskirje", description: "Saa uusimmat artikkelit ja analyysit suoraan sähköpostiisi", placeholder: "Sähköpostisi", subscribe: "Tilaa", disclaimer: "Enintään 1 sähköposti viikossa." },
+      actions: { readMore: "Lue koko artikkeli", read: "Lue", loadMore: "Lataa lisää artikkeleita", readTime: "lukuaika" } 
+    } 
+  },
+  es: { 
+    menu: { blog: "Blog" }, 
+    blog: { 
+      badge: "Experiencia", 
+      title: "Blog Aurex", 
+      subtitle: "K-pital",
+      description: "Análisis de expertos, tendencias del mercado y consejos prácticos para optimizar sus decisiones financieras e inversiones.",
+      featured: { title: "Artículo destacado" },
+      search: { placeholder: "Buscar artículo...", allCategories: "Todas las categorías" },
+      categories: { title: "Categorías", innovation: "Innovación", realEstate: "Inmobiliario", regulation: "Regulación", economy: "Economía", esg: "ESG", education: "Educación" }, 
+      trending: { title: "Tendencias" },
+      newsletter: { title: "Newsletter", description: "Reciba nuestros últimos artículos y análisis directamente en su buzón", placeholder: "Su email", subscribe: "Suscribirse", disclaimer: "Máximo 1 email por semana." },
+      actions: { readMore: "Leer artículo completo", read: "Leer", loadMore: "Cargar más artículos", readTime: "de lectura" } 
+    } 
+  },
+  pt: { 
+    menu: { blog: "Blog" }, 
+    blog: { 
+      badge: "Perícia", 
+      title: "Blog Aurex", 
+      subtitle: "K-pital",
+      description: "Análises de especialistas, tendências de mercado e conselhos práticos para otimizar suas decisões financeiras e investimentos.",
+      featured: { title: "Artigo em destaque" },
+      search: { placeholder: "Procurar artigo...", allCategories: "Todas as categorias" },
+      categories: { title: "Categorias", innovation: "Inovação", realEstate: "Imobiliário", regulation: "Regulamentação", economy: "Economia", esg: "ESG", education: "Educação" }, 
+      trending: { title: "Tendências" },
+      newsletter: { title: "Newsletter", description: "Receba os nossos últimos artigos e análises diretamente na sua caixa de correio", placeholder: "O seu email", subscribe: "Subscrever", disclaimer: "Máximo 1 email por semana." },
+      actions: { readMore: "Ler artigo completo", read: "Ler", loadMore: "Carregar mais artigos", readTime: "de leitura" } 
+    } 
+  },
+  el: { 
+    menu: { blog: "Ιστολόγιο" }, 
+    blog: { 
+      badge: "Εμπειρογνωμοσύνη", 
+      title: "Aurex Blog", 
+      subtitle: "K-pital",
+      description: "Αναλύσεις ειδικών, τάσεις αγοράς και πρακτικές συμβουλές για τη βελτιστοποίηση των χρηματοοικονομικών και επενδυτικών σας αποφάσεων.",
+      featured: { title: "Κύριο άρθρο" },
+      search: { placeholder: "Αναζήτηση άρθρου...", allCategories: "Όλες οι κατηγορίες" },
+      categories: { title: "Κατηγορίες", innovation: "Καινοτομία", realEstate: "Ακίνητα", regulation: "Κανονισμοί", economy: "Οικονομία", esg: "ESG", education: "Εκπαίδευση" }, 
+      trending: { title: "Τάσεις" },
+      newsletter: { title: "Newsletter", description: "Λάβετε τα τελευταία μας άρθρα και αναλύσεις απευθείας στο γραμματοκιβώτιό σας", placeholder: "Το email σας", subscribe: "Εγγραφή", disclaimer: "Μέγιστο 1 email την εβδομάδα." },
+      actions: { readMore: "Διαβάστε το πλήρες άρθρο", read: "Διαβάστε", loadMore: "Φορτώστε περισσότερα άρθρα", readTime: "ανάγνωσης" } 
+    } 
+  },
+  it: { 
+    menu: { blog: "Blog" }, 
+    blog: { 
+      badge: "Competenza", 
+      title: "Blog Aurex", 
+      subtitle: "K-pital",
+      description: "Analisi di esperti, tendenze di mercato e consigli pratici per ottimizzare le vostre decisioni finanziarie e di investimento.",
+      featured: { title: "Articolo in evidenza" },
+      search: { placeholder: "Cerca articolo...", allCategories: "Tutte le categorie" },
+      categories: { title: "Categorie", innovation: "Innovazione", realEstate: "Immobiliare", regulation: "Regolamentazione", economy: "Economia", esg: "ESG", education: "Educazione" }, 
+      trending: { title: "Tendenze" },
+      newsletter: { title: "Newsletter", description: "Ricevete i nostri ultimi articoli e analisi direttamente nella vostra casella di posta", placeholder: "La vostra email", subscribe: "Iscriversi", disclaimer: "Massimo 1 email a settimana." },
+      actions: { readMore: "Leggi l'articolo completo", read: "Leggi", loadMore: "Carica più articoli", readTime: "di lettura" } 
+    } 
+  }
 };
 
 export default translations;
