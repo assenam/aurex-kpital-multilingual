@@ -9,8 +9,10 @@ import {
   Sparkles, TrendingUp, Heart, Lightbulb, CheckCircle,
   Building2, Briefcase, GraduationCap, MapPin, Phone, Mail
 } from 'lucide-react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const About = () => {
+  const { t } = useTranslation();
   const milestones = [
     {
       year: "1997",
@@ -135,18 +137,17 @@ const About = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Calendar className="h-4 w-4 mr-2" />
-                Excellence depuis 1997
+                {t('about.hero.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Un Quart de Siècle
-              <span className="text-gold block">d'Innovation Financière</span>
+              {t('about.hero.title')}
+              <span className="text-gold block">{t('about.hero.titleHighlight')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Depuis Hamburg, nous révolutionnons l'accompagnement financier en combinant 
-              expertise humaine traditionnelle et technologies de pointe.
+              {t('about.hero.description')}
             </p>
           </div>
         </div>
