@@ -2790,6 +2790,24 @@ const translations = {
           officialRequest: "Złożyć oficjalny wniosek",
           allServices: "Zobacz wszystkie nasze usługi"
         }
+      },
+      blog: {
+        badge: "Ekspertyza i Spostrzeżenia",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Analizy ekspertów, trendy rynkowe i praktyczne porady do optymalizacji Twoich decyzji finansowych i inwestycyjnych.",
+        stats: {
+          articles: { value: "150+", label: "Opublikowane artykuły" },
+          experts: { value: "8", label: "Eksperci autorzy" },
+          readers: { value: "50K+", label: "Miesięczni czytelnicy" },
+          satisfaction: { value: "95%", label: "Zadowolenie czytelników" }
+        },
+        featured: { title: "Artykuł na Wyróżnienie" },
+        search: { placeholder: "Szukaj artykułu...", allCategories: "Wszystkie kategorie" },
+        categories: { title: "Kategorie", innovation: "Innowacje", realEstate: "Nieruchomości", regulation: "Regulacje", economy: "Ekonomia", esg: "ESG", education: "Edukacja" },
+        trending: { title: "Trendy" },
+        newsletter: { title: "Newsletter", description: "Otrzymuj nasze najnowsze artykuły i analizy bezpośrednio do skrzynki pocztowej", placeholder: "Twój email", subscribe: "Zapisz się", disclaimer: "Maksymalnie 1 email tygodniowo. Łatwa rezygnacja." },
+        actions: { readMore: "Przeczytaj pełny artykuł", read: "Czytaj", loadMore: "Załaduj więcej artykułów", readTime: "czytania" }
       }
     }
   },
@@ -3129,7 +3147,25 @@ const translations = {
           allServices: "Katso kaikki palvelumme"
         }
       }
-    }
+      },
+      blog: {
+        badge: "Asiantuntemus ja Näkemykset",
+        title: "Aurex Blog",
+        subtitle: "K-pital",
+        description: "Asiantuntija-analyysejä, markkinatrendejä ja käytännön neuvoja talous- ja sijoituspäätöstesi optimointiin.",
+        stats: {
+          articles: { value: "150+", label: "Julkaistuja artikkeleita" },
+          experts: { value: "8", label: "Asiantuntijakirjoittajia" },
+          readers: { value: "50K+", label: "Kuukausittaisia lukijoita" },
+          satisfaction: { value: "95%", label: "Lukijatyytyväisyys" }
+        },
+        featured: { title: "Pääartikkeli" },
+        search: { placeholder: "Etsi artikkeli...", allCategories: "Kaikki kategoriat" },
+        categories: { title: "Kategoriat", innovation: "Innovaatio", realEstate: "Kiinteistöt", regulation: "Säännökset", economy: "Talous", esg: "ESG", education: "Koulutus" },
+        trending: { title: "Trendit" },
+        newsletter: { title: "Uutiskirje", description: "Saa uusimmat artikkelimme ja analyysimme suoraan sähköpostiisi", placeholder: "Sähköpostisi", subscribe: "Tilaa", disclaimer: "Enintään 1 sähköposti viikossa. Helppo peruuttaa." },
+        actions: { readMore: "Lue koko artikkeli", read: "Lue", loadMore: "Lataa lisää artikkeleita", readTime: "lukuaikaa" }
+      }
   },
   pt: {
     menu: {
@@ -3467,7 +3503,25 @@ const translations = {
           allServices: "Ver todos os nossos serviços"
         }
       }
-    }
+      },
+      blog: {
+        badge: "Perícia e Insights",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Análises de especialistas, tendências do mercado e conselhos práticos para otimizar as suas decisões financeiras e de investimento.",
+        stats: {
+          articles: { value: "150+", label: "Artigos publicados" },
+          experts: { value: "8", label: "Especialistas autores" },
+          readers: { value: "50K+", label: "Leitores mensais" },
+          satisfaction: { value: "95%", label: "Satisfação dos leitores" }
+        },
+        featured: { title: "Artigo em Destaque" },
+        search: { placeholder: "Procurar um artigo...", allCategories: "Todas as categorias" },
+        categories: { title: "Categorias", innovation: "Inovação", realEstate: "Imobiliário", regulation: "Regulamentação", economy: "Economia", esg: "ESG", education: "Educação" },
+        trending: { title: "Tendências" },
+        newsletter: { title: "Newsletter", description: "Receba os nossos últimos artigos e análises diretamente na sua caixa de correio", placeholder: "O seu email", subscribe: "Subscrever", disclaimer: "Máximo 1 email por semana. Fácil cancelamento." },
+        actions: { readMore: "Ler o artigo completo", read: "Ler", loadMore: "Carregar mais artigos", readTime: "de leitura" }
+      }
   },
   el: {
     menu: {
