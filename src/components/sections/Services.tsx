@@ -64,8 +64,9 @@ const Services = memo(() => {
   ], [t]);
 
   return (
-    <section className="py-32 bg-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-32 bg-gradient-section relative">
+      <div className="absolute inset-0 bg-gradient-elegant opacity-50"></div>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header */}
         <div className="text-center mb-20">
           <div className="inline-block mb-4">
