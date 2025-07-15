@@ -65,15 +65,7 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
   }, [language]);
   
   const t = useCallback((key: string): string => {
-    // Try cache first for instant lookup
-    const cacheKey = `${language}:${key}`;
-    const cachedValue = translationCache.get(cacheKey);
-    
-    if (cachedValue) {
-      return cachedValue;
-    }
-
-    // Fallback to original method if not in cache
+    // Direct translation without problematic cache
     const keys = key.split('.');
     let current: any = translations[language];
     
@@ -82,13 +74,6 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
         current = current[k];
       } else {
         // Fallback to French if translation not found
-        const fallbackCacheKey = `fr:${key}`;
-        const fallbackCached = translationCache.get(fallbackCacheKey);
-        
-        if (fallbackCached) {
-          return fallbackCached;
-        }
-
         let fallback: any = translations.fr;
         for (const fallbackKey of keys) {
           if (fallback && typeof fallback === 'object' && fallbackKey in fallback) {
@@ -101,12 +86,7 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
       }
     }
     
-    const result = typeof current === 'string' ? current : key;
-    
-    // Cache the result for future use
-    translationCache.set(cacheKey, result);
-    
-    return result;
+    return typeof current === 'string' ? current : key;
   }, [language]);
 
   // Stable context value to prevent unnecessary re-renders

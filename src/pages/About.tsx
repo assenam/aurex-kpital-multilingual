@@ -13,23 +13,6 @@ import {
 
 const About = () => {
   const { t, language } = useTranslation();
-  
-  // Debug pour vérifier si les traductions fonctionnent
-  console.log('About page - Current language:', language);
-  console.log('About page - t function:', typeof t);
-  console.log('About page - about.badge:', t('about.badge'));
-  console.log('About page - about.title:', t('about.title'));
-  
-  // Test de traduction directe en cas de problème avec le cache
-  const testBadge = language === 'fr' ? 'Excellence depuis 1997' : 
-                   language === 'de' ? 'Exzellenz seit 1997' :
-                   language === 'es' ? 'Excelencia desde 1997' : 
-                   'Excellence depuis 1997';
-  
-  console.log('About page - Direct test badge:', testBadge);
-  
-  // Utilisation du système de traduction centralisé
-  // Plus de logique de switch - tout vient du TranslationContext
 
   return (
     <div className="min-h-screen">
