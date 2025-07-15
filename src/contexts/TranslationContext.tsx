@@ -616,59 +616,82 @@ const translations = {
         expert: "Parler à un expert"
       },
       blog: {
-        badge: "Expertise & Insights",
+        badge: "Expertise et Insights",
         title: "Blog Aurex",
         subtitle: "K-pital",
         description: "Analyses d'experts, tendances du marché et conseils pratiques pour optimiser vos décisions financières et d'investissement.",
         stats: {
-          articles: {
-            value: "150+",
-            label: "Articles publiés"
+          articles: { value: "150+", label: "Articles publiés" },
+          experts: { value: "8", label: "Experts auteurs" },
+          readers: { value: "50K+", label: "Lecteurs mensuels" },
+          satisfaction: { value: "95%", label: "Satisfaction des lecteurs" }
+        },
+        featured: { title: "Article Vedette" },
+        search: { placeholder: "Rechercher un article...", allCategories: "Toutes les catégories" },
+        categories: { title: "Catégories", innovation: "Innovation", realEstate: "Immobilier", regulation: "Réglementation", economy: "Économie", esg: "ESG", education: "Éducation" },
+        trending: { title: "Tendances" },
+        newsletter: { title: "Newsletter", description: "Recevez nos derniers articles et analyses directement dans votre boîte mail", placeholder: "Votre email", subscribe: "S'abonner", disclaimer: "Maximum 1 email par semaine. Désabonnement facile." },
+        actions: { readMore: "Lire l'article complet", read: "Lire", loadMore: "Charger plus d'articles", readTime: "de lecture" },
+        content: {
+          featuredArticle: {
+            title: "L'Intelligence Artificielle Révolutionne l'Analyse de Crédit en 2024",
+            excerpt: "Découvrez comment nos algorithmes propriétaires d'IA permettent une évaluation du risque plus précise et des décisions de financement plus rapides, tout en maintenant l'équité et la transparence.",
+            author: "Dr. Sophie Laurent",
+            role: "Directrice Innovation",
+            date: "15 Décembre 2024",
+            category: "innovation"
           },
-          experts: {
-            value: "8",
-            label: "Experts auteurs"
-          },
-          readers: {
-            value: "50K+",
-            label: "Lecteurs mensuels"
-          },
-          satisfaction: {
-            value: "95%",
-            label: "Satisfaction lecteurs"
-          }
-        },
-        featured: {
-          title: "Article à la Une"
-        },
-        search: {
-          placeholder: "Rechercher un article...",
-          allCategories: "Toutes les catégories"
-        },
-        categories: {
-          title: "Catégories",
-          innovation: "Innovation",
-          realEstate: "Immobilier",
-          regulation: "Réglementation",
-          economy: "Économie",
-          esg: "ESG",
-          education: "Éducation"
-        },
-        trending: {
-          title: "Tendances"
-        },
-        newsletter: {
-          title: "Newsletter",
-          description: "Recevez nos derniers articles et analyses directement dans votre boîte mail",
-          placeholder: "Votre email",
-          subscribe: "S'abonner",
-          disclaimer: "1 email par semaine maximum. Désabonnement facile."
-        },
-        actions: {
-          readMore: "Lire l'article complet",
-          read: "Lire",
-          loadMore: "Charger plus d'articles",
-          readTime: "de lecture"
+          articles: [
+            {
+              title: "Guide Complet : Investir dans l'Immobilier en 2024",
+              excerpt: "Stratégies, fiscalité et opportunités pour optimiser vos investissements immobiliers en Europe.",
+              author: "Marco Antonelli",
+              date: "12 Décembre 2024",
+              category: "realEstate"
+            },
+            {
+              title: "RGPD et Services Financiers : Bilan 6 Ans Après",
+              excerpt: "Analyse de l'impact du RGPD sur l'innovation financière et les meilleures pratiques adoptées.",
+              author: "Elena Rodriguez",
+              date: "8 Décembre 2024",
+              category: "regulation"
+            },
+            {
+              title: "Épargne Digitale : Les Nouveaux Comportements des Européens",
+              excerpt: "Étude exclusive sur l'évolution des habitudes d'épargne à l'ère du numérique.",
+              author: "Dr. Klaus Müller",
+              date: "5 Décembre 2024",
+              category: "economy"
+            },
+            {
+              title: "Prêts Étudiants : Financer ses Études sans Stress",
+              excerpt: "Conseils pratiques et solutions innovantes pour financer ses études supérieures en Europe.",
+              author: "Sophie Laurent",
+              date: "2 Décembre 2024",
+              category: "education"
+            },
+            {
+              title: "Cryptomonnaies et Finance Traditionnelle : Vers une Convergence ?",
+              excerpt: "Analyse des opportunités et défis de l'intégration des actifs numériques dans les portefeuilles.",
+              author: "Marco Antonelli",
+              date: "28 Novembre 2024",
+              category: "innovation"
+            },
+            {
+              title: "ESG et Investissement Responsable : Guide Pratique 2024",
+              excerpt: "Comment intégrer les critères ESG dans vos décisions d'investissement pour un impact positif.",
+              author: "Elena Rodriguez",
+              date: "25 Novembre 2024",
+              category: "esg"
+            }
+          ],
+          trending: [
+            { title: "Taux immobiliers 2024" },
+            { title: "IA et finance" },
+            { title: "Investissement ESG" },
+            { title: "Épargne inflation" },
+            { title: "Prêts sans apport" }
+          ]
         }
       }
     }
