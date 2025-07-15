@@ -194,13 +194,13 @@ const Simulator = () => {
                     <Input
                       id="income"
                       type="number"
-                      placeholder="Ex: 3500"
+                      placeholder={t('simulator.form.income').includes('Ex:') ? t('simulator.form.income').split('Ex:')[1] : "3500"}
                       value={monthlyIncome}
                       onChange={(e) => setMonthlyIncome(e.target.value)}
                       className="h-12"
                     />
                     <p className="text-sm text-muted-foreground mt-2">
-                      Information utilisée pour optimiser votre taux
+                      {t('simulator.form.incomeHelper')}
                     </p>
                   </div>
 
@@ -211,12 +211,12 @@ const Simulator = () => {
                     </Label>
                     <Select value={hasGuarantee} onValueChange={setHasGuarantee}>
                       <SelectTrigger className="h-12">
-                        <SelectValue placeholder="Sélectionnez une option" />
+                        <SelectValue placeholder={t('simulator.form.guarantee')} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="yes">Oui, j'ai une garantie</SelectItem>
-                        <SelectItem value="no">Non, pas de garantie</SelectItem>
-                        <SelectItem value="maybe">À évaluer selon l'offre</SelectItem>
+                        <SelectItem value="yes">{t('simulator.form.guaranteeOptions.yes')}</SelectItem>
+                        <SelectItem value="no">{t('simulator.form.guaranteeOptions.no')}</SelectItem>
+                        <SelectItem value="maybe">{t('simulator.form.guaranteeOptions.maybe')}</SelectItem>
                       </SelectContent>
                     </Select>
                   </div>
@@ -251,7 +251,7 @@ const Simulator = () => {
                     </div>
                     
                     <div className="flex justify-between items-center p-3 bg-secondary/50 rounded-lg">
-                      <span className="text-muted-foreground">Coût total du crédit</span>
+                      <span className="text-muted-foreground">{t('simulator.result.totalCost')}</span>
                       <span className="font-bold">{results.totalInterest.toLocaleString()}€</span>
                     </div>
                     
@@ -265,13 +265,13 @@ const Simulator = () => {
                     <Button className="w-full bg-gradient-primary hover:shadow-lg text-lg py-3" asChild>
                       <a href="/demande">
                         <Sparkles className="h-5 w-5 mr-2" />
-                        Faire ma demande
+                        {t('simulator.cta.buttons.request')}
                       </a>
                     </Button>
                     
                     <Button variant="outline" className="w-full" asChild>
                       <a href="/contact">
-                        Parler à un conseiller
+                        {t('simulator.cta.buttons.consultant')}
                       </a>
                     </Button>
                   </div>
@@ -321,20 +321,20 @@ const Simulator = () => {
               {t('simulator.cta.title')}
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
-              Nos conseillers experts vous accompagnent pour transformer cette simulation en réalité
+              {t('simulator.cta.description')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-primary hover:shadow-lg font-bold px-8 py-4" asChild>
                 <a href="/demande">
                   <Euro className="h-5 w-5 mr-2" />
-                  Faire ma demande officielle
+                  {t('simulator.cta.buttons.officialRequest')}
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
                 <a href="/services">
                   <Calculator className="h-5 w-5 mr-2" />
-                  Voir tous nos services
+                  {t('simulator.cta.buttons.allServices')}
                 </a>
               </Button>
             </div>
