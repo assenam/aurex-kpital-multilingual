@@ -60,19 +60,19 @@ const Simulator = () => {
   const results = calculateResults();
 
   const loanTypes = [
-    { value: 'personal', label: 'Prêt Personnel', description: 'Pour tous vos projets personnels' },
-    { value: 'auto', label: 'Crédit Auto', description: 'Financement véhicule neuf ou occasion' },
-    { value: 'real-estate', label: 'Crédit Immobilier', description: 'Achat, construction ou rénovation' },
-    { value: 'professional', label: 'Financement Pro', description: 'Investissement professionnel' },
-    { value: 'student', label: 'Prêt Étudiant', description: 'Financement études supérieures' },
-    { value: 'consolidation', label: 'Rachat de Crédits', description: 'Regroupement de dettes existantes' }
+    { value: 'personal', label: t('simulator.form.loanTypes.personal.label'), description: t('simulator.form.loanTypes.personal.description') },
+    { value: 'auto', label: t('simulator.form.loanTypes.auto.label'), description: t('simulator.form.loanTypes.auto.description') },
+    { value: 'real-estate', label: t('simulator.form.loanTypes.realEstate.label'), description: t('simulator.form.loanTypes.realEstate.description') },
+    { value: 'professional', label: t('simulator.form.loanTypes.professional.label'), description: t('simulator.form.loanTypes.professional.description') },
+    { value: 'student', label: t('simulator.form.loanTypes.student.label'), description: t('simulator.form.loanTypes.student.description') },
+    { value: 'consolidation', label: t('simulator.form.loanTypes.consolidation.label'), description: t('simulator.form.loanTypes.consolidation.description') }
   ];
 
   const advantages = [
-    { text: "Taux préférentiels négociés", icon: Percent },
-    { text: "Remboursement anticipé sans frais", icon: Calendar },
-    { text: "Réponse sous 24h garantie", icon: CheckCircle },
-    { text: "Accompagnement personnalisé", icon: TrendingUp }
+    { text: t('simulator.advantages.items.rates'), icon: Percent },
+    { text: t('simulator.advantages.items.earlyRepayment'), icon: Calendar },
+    { text: t('simulator.advantages.items.response'), icon: CheckCircle },
+    { text: t('simulator.advantages.items.support'), icon: TrendingUp }
   ];
 
   return (
@@ -91,7 +91,7 @@ const Simulator = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Calculator className="h-4 w-4 mr-2" />
-                Simulation Instantanée
+                {t('simulator.title')}
               </Badge>
             </div>
             
@@ -118,10 +118,10 @@ const Simulator = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl font-bold text-primary flex items-center gap-2">
                     <Calculator className="h-6 w-6" />
-                    Configuration de votre prêt
+                    {t('simulator.configuration.title')}
                   </CardTitle>
                   <CardDescription>
-                    Personnalisez les paramètres selon vos besoins
+                    {t('simulator.configuration.description')}
                   </CardDescription>
                 </CardHeader>
                 
@@ -133,7 +133,7 @@ const Simulator = () => {
                     </Label>
                     <Select value={loanType} onValueChange={setLoanType}>
                       <SelectTrigger className="h-12">
-                        <SelectValue placeholder="Sélectionnez le type de prêt" />
+                        <SelectValue placeholder={t('simulator.form.loanType')} />
                       </SelectTrigger>
                       <SelectContent>
                         {loanTypes.map((type) => (
@@ -189,7 +189,7 @@ const Simulator = () => {
                   {/* Revenus */}
                   <div>
                     <Label htmlFor="income" className="text-lg font-semibold text-primary mb-4 block">
-                      Revenus mensuels nets (optionnel)
+                      {t('simulator.form.income')}
                     </Label>
                     <Input
                       id="income"
@@ -207,7 +207,7 @@ const Simulator = () => {
                   {/* Garanties */}
                   <div>
                     <Label className="text-lg font-semibold text-primary mb-4 block">
-                      Avez-vous une garantie ou caution ?
+                      {t('simulator.form.guarantee')}
                     </Label>
                     <Select value={hasGuarantee} onValueChange={setHasGuarantee}>
                       <SelectTrigger className="h-12">
@@ -230,7 +230,7 @@ const Simulator = () => {
                 <CardHeader>
                   <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                     <TrendingUp className="h-5 w-5" />
-                    Votre estimation
+                    {t('simulator.result.title')}
                   </CardTitle>
                 </CardHeader>
                 
@@ -291,7 +291,7 @@ const Simulator = () => {
               <Card className="border-0 shadow-lg">
                 <CardHeader>
                   <CardTitle className="text-lg font-bold text-primary">
-                    Vos avantages Aurex K-pital
+                    {t('simulator.advantages.title')}
                   </CardTitle>
                 </CardHeader>
                 
@@ -318,7 +318,7 @@ const Simulator = () => {
         <div className="container mx-auto px-4 text-center relative z-10">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Prêt à concrétiser votre projet ?
+              {t('simulator.cta.title')}
             </h2>
             <p className="text-xl text-muted-foreground mb-8">
               Nos conseillers experts vous accompagnent pour transformer cette simulation en réalité

@@ -392,6 +392,80 @@ const translations = {
         }
       ]
     },
+    simulator: {
+      title: "Calculateur de Prêt",
+      subtitle: "Obtenez une estimation personnalisée en temps réel de votre financement",
+      form: {
+        loanType: "Type de financement",
+        amount: "Montant souhaité (€)",
+        duration: "Durée de remboursement (mois)",
+        income: "Revenus mensuels nets (optionnel)",
+        incomeHelper: "Information utilisée pour optimiser votre taux",
+        guarantee: "Avez-vous une garantie ou caution ?",
+        guaranteeOptions: {
+          yes: "Oui, j'ai une garantie",
+          no: "Non, pas de garantie",
+          maybe: "À évaluer selon l'offre"
+        },
+        loanTypes: {
+          personal: {
+            label: "Prêt Personnel",
+            description: "Pour tous vos projets personnels"
+          },
+          auto: {
+            label: "Crédit Auto",
+            description: "Financement véhicule neuf ou occasion"
+          },
+          realEstate: {
+            label: "Crédit Immobilier",
+            description: "Achat, construction ou rénovation"
+          },
+          professional: {
+            label: "Financement Pro",
+            description: "Investissement professionnel"
+          },
+          student: {
+            label: "Prêt Étudiant",
+            description: "Financement études supérieures"
+          },
+          consolidation: {
+            label: "Rachat de Crédits",
+            description: "Regroupement de dettes existantes"
+          }
+        }
+      },
+      configuration: {
+        title: "Configuration de votre prêt",
+        description: "Personnalisez les paramètres selon vos besoins"
+      },
+      result: {
+        title: "Votre estimation",
+        monthlyPayment: "Mensualité",
+        interestRate: "Taux d'intérêt",
+        totalCost: "Coût total du crédit",
+        totalRepayment: "Montant total à rembourser",
+        disclaimer: "Cette estimation est indicative et peut varier selon votre profil final. Offre soumise à acceptation."
+      },
+      advantages: {
+        title: "Vos avantages Aurex K-pital",
+        items: {
+          rates: "Taux préférentiels négociés",
+          earlyRepayment: "Remboursement anticipé sans frais",
+          response: "Réponse sous 24h garantie",
+          support: "Accompagnement personnalisé"
+        }
+      },
+      cta: {
+        title: "Prêt à concrétiser votre projet ?",
+        description: "Nos conseillers experts vous accompagnent pour transformer cette simulation en réalité",
+        buttons: {
+          request: "Faire ma demande",
+          consultant: "Parler à un conseiller",
+          officialRequest: "Faire ma demande officielle",
+          allServices: "Voir tous nos services"
+        }
+      }
+    },
     legal: {
       badge: "Informations Légales",
       title: {
@@ -714,6 +788,80 @@ const translations = {
           feedback: "Der Simulator war sehr klar, und ich erhielt bessere Konditionen als bei meiner Bank."
         }
       ]
+    },
+    simulator: {
+      title: "Kreditrechner",
+      subtitle: "Erhalten Sie eine personalisierte Echtzeitschätzung Ihrer Finanzierung",
+      form: {
+        loanType: "Finanzierungsart",
+        amount: "Gewünschter Betrag (€)",
+        duration: "Rückzahlungsdauer (Monate)",
+        income: "Monatliches Nettoeinkommen (optional)",
+        incomeHelper: "Information zur Optimierung Ihres Zinssatzes verwendet",
+        guarantee: "Haben Sie eine Garantie oder Bürgschaft?",
+        guaranteeOptions: {
+          yes: "Ja, ich habe eine Garantie",
+          no: "Nein, keine Garantie",
+          maybe: "Je nach Angebot zu bewerten"
+        },
+        loanTypes: {
+          personal: {
+            label: "Privatkredit",
+            description: "Für alle Ihre persönlichen Projekte"
+          },
+          auto: {
+            label: "Autokredit",
+            description: "Finanzierung von Neu- oder Gebrauchtfahrzeugen"
+          },
+          realEstate: {
+            label: "Immobilienkredit",
+            description: "Kauf, Bau oder Renovierung"
+          },
+          professional: {
+            label: "Unternehmensfinanzierung",
+            description: "Geschäftsinvestition"
+          },
+          student: {
+            label: "Studienkredit",
+            description: "Finanzierung des Hochschulstudiums"
+          },
+          consolidation: {
+            label: "Kreditumschuldung",
+            description: "Zusammenfassung bestehender Schulden"
+          }
+        }
+      },
+      configuration: {
+        title: "Konfiguration Ihres Kredits",
+        description: "Passen Sie die Parameter nach Ihren Bedürfnissen an"
+      },
+      result: {
+        title: "Ihre Schätzung",
+        monthlyPayment: "Monatliche Rate",
+        interestRate: "Zinssatz",
+        totalCost: "Gesamtkosten des Kredits",
+        totalRepayment: "Gesamtrückzahlungsbetrag",
+        disclaimer: "Diese Schätzung ist unverbindlich und kann je nach Ihrem endgültigen Profil variieren. Angebot vorbehaltlich Annahme."
+      },
+      advantages: {
+        title: "Ihre Aurex K-pital Vorteile",
+        items: {
+          rates: "Ausgehandelte Vorzugszinsen",
+          earlyRepayment: "Vorzeitige Rückzahlung ohne Gebühren",
+          response: "Garantierte Antwort binnen 24h",
+          support: "Persönliche Betreuung"
+        }
+      },
+      cta: {
+        title: "Bereit, Ihr Projekt zu verwirklichen?",
+        description: "Unsere Expertenberater begleiten Sie dabei, diese Simulation in die Realität umzusetzen",
+        buttons: {
+          request: "Antrag stellen",
+          consultant: "Mit einem Berater sprechen",
+          officialRequest: "Offiziellen Antrag stellen",
+          allServices: "Alle unsere Services ansehen"
+        }
+      }
     },
     legal: {
       badge: "Rechtliche Informationen",
@@ -1038,6 +1186,80 @@ const translations = {
         }
       ]
     },
+    simulator: {
+      title: "Calculadora de Préstamo",
+      subtitle: "Obtenga una estimación personalizada en tiempo real de su financiación",
+      form: {
+        loanType: "Tipo de financiación",
+        amount: "Cantidad deseada (€)",
+        duration: "Duración de reembolso (meses)",
+        income: "Ingresos mensuales netos (opcional)",
+        incomeHelper: "Información utilizada para optimizar su tasa",
+        guarantee: "¿Tiene una garantía o aval?",
+        guaranteeOptions: {
+          yes: "Sí, tengo una garantía",
+          no: "No, sin garantía",
+          maybe: "A evaluar según la oferta"
+        },
+        loanTypes: {
+          personal: {
+            label: "Préstamo Personal",
+            description: "Para todos sus proyectos personales"
+          },
+          auto: {
+            label: "Crédito Auto",
+            description: "Financiación vehículo nuevo o de ocasión"
+          },
+          realEstate: {
+            label: "Crédito Inmobiliario",
+            description: "Compra, construcción o renovación"
+          },
+          professional: {
+            label: "Financiación Profesional",
+            description: "Inversión profesional"
+          },
+          student: {
+            label: "Préstamo Estudiantil",
+            description: "Financiación estudios superiores"
+          },
+          consolidation: {
+            label: "Reunificación de Créditos",
+            description: "Agrupación de deudas existentes"
+          }
+        }
+      },
+      configuration: {
+        title: "Configuración de su préstamo",
+        description: "Personalice los parámetros según sus necesidades"
+      },
+      result: {
+        title: "Su estimación",
+        monthlyPayment: "Cuota mensual",
+        interestRate: "Tipo de interés",
+        totalCost: "Costo total del crédito",
+        totalRepayment: "Importe total a reembolsar",
+        disclaimer: "Esta estimación es indicativa y puede variar según su perfil final. Oferta sujeta a aceptación."
+      },
+      advantages: {
+        title: "Sus ventajas Aurex K-pital",
+        items: {
+          rates: "Tipos preferenciales negociados",
+          earlyRepayment: "Reembolso anticipado sin gastos",
+          response: "Respuesta garantizada en 24h",
+          support: "Acompañamiento personalizado"
+        }
+      },
+      cta: {
+        title: "¿Listo para concretar su proyecto?",
+        description: "Nuestros consejeros expertos le acompañan para transformar esta simulación en realidad",
+        buttons: {
+          request: "Hacer mi solicitud",
+          consultant: "Hablar con un consejero",
+          officialRequest: "Hacer mi solicitud oficial",
+          allServices: "Ver todos nuestros servicios"
+        }
+      }
+    },
     legal: {
       badge: "Información Legal",
       title: {
@@ -1360,6 +1582,80 @@ const translations = {
           feedback: "Il simulatore è chiaro e ho ottenuto condizioni migliori rispetto alla mia banca."
         }
       ]
+    },
+    simulator: {
+      title: "Calcolatore di Prestito",
+      subtitle: "Ottieni una stima personalizzata in tempo reale del tuo finanziamento",
+      form: {
+        loanType: "Tipo di finanziamento",
+        amount: "Importo desiderato (€)",
+        duration: "Durata di rimborso (mesi)",
+        income: "Reddito mensile netto (opzionale)",
+        incomeHelper: "Informazione utilizzata per ottimizzare il tuo tasso",
+        guarantee: "Hai una garanzia o fideiussione?",
+        guaranteeOptions: {
+          yes: "Sì, ho una garanzia",
+          no: "No, nessuna garanzia",
+          maybe: "Da valutare secondo l'offerta"
+        },
+        loanTypes: {
+          personal: {
+            label: "Prestito Personale",
+            description: "Per tutti i tuoi progetti personali"
+          },
+          auto: {
+            label: "Credito Auto",
+            description: "Finanziamento veicolo nuovo o usato"
+          },
+          realEstate: {
+            label: "Credito Immobiliare",
+            description: "Acquisto, costruzione o ristrutturazione"
+          },
+          professional: {
+            label: "Finanziamento Professionale",
+            description: "Investimento professionale"
+          },
+          student: {
+            label: "Prestito Studenti",
+            description: "Finanziamento studi universitari"
+          },
+          consolidation: {
+            label: "Consolidamento Crediti",
+            description: "Raggruppamento debiti esistenti"
+          }
+        }
+      },
+      configuration: {
+        title: "Configurazione del tuo prestito",
+        description: "Personalizza i parametri secondo le tue esigenze"
+      },
+      result: {
+        title: "La tua stima",
+        monthlyPayment: "Rata mensile",
+        interestRate: "Tasso di interesse",
+        totalCost: "Costo totale del credito",
+        totalRepayment: "Importo totale da rimborsare",
+        disclaimer: "Questa stima è indicativa e può variare secondo il tuo profilo finale. Offerta soggetta ad accettazione."
+      },
+      advantages: {
+        title: "I tuoi vantaggi Aurex K-pital",
+        items: {
+          rates: "Tassi preferenziali negoziati",
+          earlyRepayment: "Rimborso anticipato senza costi",
+          response: "Risposta garantita entro 24h",
+          support: "Accompagnamento personalizzato"
+        }
+      },
+      cta: {
+        title: "Pronto a realizzare il tuo progetto?",
+        description: "I nostri consulenti esperti ti accompagnano per trasformare questa simulazione in realtà",
+        buttons: {
+          request: "Fare domanda",
+          consultant: "Parlare con un consulente",
+          officialRequest: "Fare domanda ufficiale",
+          allServices: "Vedere tutti i nostri servizi"
+        }
+      }
     }
   },
   pl: {
@@ -1619,6 +1915,80 @@ const translations = {
           feedback: "Symulator był bardzo przejrzysty, a warunki lepsze niż w moim banku."
         }
       ]
+    },
+    simulator: {
+      title: "Kalkulator Pożyczkowy",
+      subtitle: "Otrzymaj spersonalizowane oszacowanie finansowania w czasie rzeczywistym",
+      form: {
+        loanType: "Rodzaj finansowania",
+        amount: "Żądana kwota (€)",
+        duration: "Czas spłaty (miesiące)",
+        income: "Miesięczny dochód netto (opcjonalnie)",
+        incomeHelper: "Informacja używana do optymalizacji stawki",
+        guarantee: "Czy masz gwarancję lub poręczenie?",
+        guaranteeOptions: {
+          yes: "Tak, mam gwarancję",
+          no: "Nie, bez gwarancji",
+          maybe: "Do oceny według oferty"
+        },
+        loanTypes: {
+          personal: {
+            label: "Kredyt Osobisty",
+            description: "Na wszystkie Twoje osobiste projekty"
+          },
+          auto: {
+            label: "Kredyt Samochodowy",
+            description: "Finansowanie pojazdu nowego lub używanego"
+          },
+          realEstate: {
+            label: "Kredyt Hipoteczny",
+            description: "Zakup, budowa lub remont"
+          },
+          professional: {
+            label: "Finansowanie Biznesowe",
+            description: "Inwestycja biznesowa"
+          },
+          student: {
+            label: "Kredyt Studencki",
+            description: "Finansowanie studiów wyższych"
+          },
+          consolidation: {
+            label: "Konsolidacja Kredytów",
+            description: "Łączenie istniejących długów"
+          }
+        }
+      },
+      configuration: {
+        title: "Konfiguracja Twojego kredytu",
+        description: "Dostosuj parametry według swoich potrzeb"
+      },
+      result: {
+        title: "Twoje oszacowanie",
+        monthlyPayment: "Miesięczna rata",
+        interestRate: "Stopa procentowa",
+        totalCost: "Całkowity koszt kredytu",
+        totalRepayment: "Całkowita kwota do spłaty",
+        disclaimer: "To oszacowanie jest orientacyjne i może się różnić w zależności od Twojego ostatecznego profilu. Oferta podlega akceptacji."
+      },
+      advantages: {
+        title: "Twoje korzyści Aurex K-pital",
+        items: {
+          rates: "Wynegocjowane preferencyjne stawki",
+          earlyRepayment: "Wcześniejsza spłata bez opłat",
+          response: "Gwarantowana odpowiedź w 24h",
+          support: "Spersonalizowane wsparcie"
+        }
+      },
+      cta: {
+        title: "Gotowy na realizację swojego projektu?",
+        description: "Nasi eksperci doradcy towarzyszą Ci w przekształceniu tej symulacji w rzeczywistość",
+        buttons: {
+          request: "Złożyć wniosek",
+          consultant: "Porozmawiać z doradcą",
+          officialRequest: "Złożyć oficjalny wniosek",
+          allServices: "Zobacz wszystkie nasze usługi"
+        }
+      }
     }
   },
   fi: {
@@ -1878,6 +2248,80 @@ const translations = {
           feedback: "Laskuri oli selkeä ja sain paremmat ehdot kuin pankistani."
         }
       ]
+    },
+    simulator: {
+      title: "Lainalaskuri",
+      subtitle: "Saa henkilökohtainen reaaliaikainen arvio rahoituksestasi",
+      form: {
+        loanType: "Rahoitustyyppi",
+        amount: "Haluttu summa (€)",
+        duration: "Takaisinmaksuaika (kuukausia)",
+        income: "Kuukausittaiset nettotulot (valinnainen)",
+        incomeHelper: "Tieto käytetään korkosi optimointiin",
+        guarantee: "Onko sinulla takuuta tai takausta?",
+        guaranteeOptions: {
+          yes: "Kyllä, minulla on takuu",
+          no: "Ei, ei takuuta",
+          maybe: "Arvioitava tarjouksen mukaan"
+        },
+        loanTypes: {
+          personal: {
+            label: "Henkilökohtainen Laina",
+            description: "Kaikkiin henkilökohtaisiin projekteihin"
+          },
+          auto: {
+            label: "Autolaina",
+            description: "Uuden tai käytetyn ajoneuvon rahoitus"
+          },
+          realEstate: {
+            label: "Asuntolaina",
+            description: "Osto, rakentaminen tai remontti"
+          },
+          professional: {
+            label: "Yrityslaina",
+            description: "Liiketoimintainvestointi"
+          },
+          student: {
+            label: "Opintolaina",
+            description: "Korkeakouluopintojen rahoitus"
+          },
+          consolidation: {
+            label: "Lainojen Yhdistäminen",
+            description: "Olemassa olevien velkojen yhdistäminen"
+          }
+        }
+      },
+      configuration: {
+        title: "Lainasi konfigurointi",
+        description: "Mukauta parametrit tarpeidesi mukaan"
+      },
+      result: {
+        title: "Arviosi",
+        monthlyPayment: "Kuukausierä",
+        interestRate: "Korko",
+        totalCost: "Luoton kokonaiskustannus",
+        totalRepayment: "Takaisinmaksettava kokonaissumma",
+        disclaimer: "Tämä arvio on ohjeellinen ja voi vaihdella lopullisen profiilisi mukaan. Tarjous hyväksymisen varauksella."
+      },
+      advantages: {
+        title: "Aurex K-pital -etusi",
+        items: {
+          rates: "Neuvotellut etuuskorot",
+          earlyRepayment: "Ennenaikainen takaisinmaksu ilman maksuja",
+          response: "Taattu vastaus 24h kuluessa",
+          support: "Henkilökohtainen tuki"
+        }
+      },
+      cta: {
+        title: "Valmis toteuttamaan projektisi?",
+        description: "Asiantuntijakonsulttimme auttavat sinua muuttamaan tämän simulaation todellisuudeksi",
+        buttons: {
+          request: "Tehdä hakemus",
+          consultant: "Puhua konsultin kanssa",
+          officialRequest: "Tehdä virallinen hakemus",
+          allServices: "Katso kaikki palvelumme"
+        }
+      }
     }
   },
   pt: {
@@ -2137,6 +2581,80 @@ const translations = {
           feedback: "O simulador foi muito claro e obtive melhores condições que no meu banco."
         }
       ]
+    },
+    simulator: {
+      title: "Calculadora de Empréstimo",
+      subtitle: "Obtenha uma estimativa personalizada em tempo real do seu financiamento",
+      form: {
+        loanType: "Tipo de financiamento",
+        amount: "Quantia desejada (€)",
+        duration: "Duração de reembolso (meses)",
+        income: "Rendimento mensal líquido (opcional)",
+        incomeHelper: "Informação utilizada para otimizar a sua taxa",
+        guarantee: "Tem garantia ou fiança?",
+        guaranteeOptions: {
+          yes: "Sim, tenho garantia",
+          no: "Não, sem garantia",
+          maybe: "A avaliar conforme a oferta"
+        },
+        loanTypes: {
+          personal: {
+            label: "Empréstimo Pessoal",
+            description: "Para todos os seus projetos pessoais"
+          },
+          auto: {
+            label: "Crédito Auto",
+            description: "Financiamento veículo novo ou usado"
+          },
+          realEstate: {
+            label: "Crédito Habitação",
+            description: "Compra, construção ou renovação"
+          },
+          professional: {
+            label: "Financiamento Profissional",
+            description: "Investimento profissional"
+          },
+          student: {
+            label: "Empréstimo Estudante",
+            description: "Financiamento estudos superiores"
+          },
+          consolidation: {
+            label: "Consolidação de Créditos",
+            description: "Agrupamento de dívidas existentes"
+          }
+        }
+      },
+      configuration: {
+        title: "Configuração do seu empréstimo",
+        description: "Personalize os parâmetros conforme as suas necessidades"
+      },
+      result: {
+        title: "A sua estimativa",
+        monthlyPayment: "Prestação mensal",
+        interestRate: "Taxa de juro",
+        totalCost: "Custo total do crédito",
+        totalRepayment: "Montante total a reembolsar",
+        disclaimer: "Esta estimativa é indicativa e pode variar conforme o seu perfil final. Oferta sujeita a aceitação."
+      },
+      advantages: {
+        title: "As suas vantagens Aurex K-pital",
+        items: {
+          rates: "Taxas preferenciais negociadas",
+          earlyRepayment: "Reembolso antecipado sem custos",
+          response: "Resposta garantida em 24h",
+          support: "Acompanhamento personalizado"
+        }
+      },
+      cta: {
+        title: "Pronto para concretizar o seu projeto?",
+        description: "Os nossos consultores especialistas acompanham-no para transformar esta simulação em realidade",
+        buttons: {
+          request: "Fazer pedido",
+          consultant: "Falar com um consultor",
+          officialRequest: "Fazer pedido oficial",
+          allServices: "Ver todos os nossos serviços"
+        }
+      }
     }
   },
   el: {
@@ -2396,6 +2914,80 @@ const translations = {
           feedback: "Ο υπολογιστής ήταν ξεκάθαρος και πήρα καλύτερους όρους από την τράπεζά μου."
         }
       ]
+    },
+    simulator: {
+      title: "Υπολογιστής Δανείου",
+      subtitle: "Λάβετε μια εξατομικευμένη εκτίμηση σε πραγματικό χρόνο για τη χρηματοδότησή σας",
+      form: {
+        loanType: "Τύπος χρηματοδότησης",
+        amount: "Επιθυμητό ποσό (€)",
+        duration: "Διάρκεια αποπληρωμής (μήνες)",
+        income: "Μηνιαίο καθαρό εισόδημα (προαιρετικό)",
+        incomeHelper: "Πληροφορία που χρησιμοποιείται για τη βελτιστοποίηση του επιτοκίου σας",
+        guarantee: "Έχετε εγγύηση ή εγγυητή;",
+        guaranteeOptions: {
+          yes: "Ναι, έχω εγγύηση",
+          no: "Όχι, χωρίς εγγύηση",
+          maybe: "Προς αξιολόγηση σύμφωνα με την προσφορά"
+        },
+        loanTypes: {
+          personal: {
+            label: "Προσωπικό Δάνειο",
+            description: "Για όλα σας τα προσωπικά έργα"
+          },
+          auto: {
+            label: "Δάνειο Αυτοκινήτου",
+            description: "Χρηματοδότηση καινούργιου ή μεταχειρισμένου οχήματος"
+          },
+          realEstate: {
+            label: "Στεγαστικό Δάνειο",
+            description: "Αγορά, κατασκευή ή ανακαίνιση"
+          },
+          professional: {
+            label: "Επιχειρηματική Χρηματοδότηση",
+            description: "Επιχειρηματική επένδυση"
+          },
+          student: {
+            label: "Φοιτητικό Δάνειο",
+            description: "Χρηματοδότηση τριτοβάθμιων σπουδών"
+          },
+          consolidation: {
+            label: "Ενοποίηση Δανείων",
+            description: "Ομαδοποίηση υπαρχόντων χρεών"
+          }
+        }
+      },
+      configuration: {
+        title: "Διαμόρφωση του δανείου σας",
+        description: "Προσαρμόστε τις παραμέτρους σύμφωνα με τις ανάγκες σας"
+      },
+      result: {
+        title: "Η εκτίμησή σας",
+        monthlyPayment: "Μηνιαία δόση",
+        interestRate: "Επιτόκιο",
+        totalCost: "Συνολικό κόστος πίστωσης",
+        totalRepayment: "Συνολικό ποσό προς αποπληρωμή",
+        disclaimer: "Αυτή η εκτίμηση είναι ενδεικτική και μπορεί να διαφέρει ανάλογα με το τελικό σας προφίλ. Προσφορά υπό έγκριση."
+      },
+      advantages: {
+        title: "Τα πλεονεκτήματά σας Aurex K-pital",
+        items: {
+          rates: "Διαπραγματευμένα προνομιακά επιτόκια",
+          earlyRepayment: "Πρόωρη αποπληρωμή χωρίς χρεώσεις",
+          response: "Εγγυημένη απάντηση εντός 24ώρου",
+          support: "Εξατομικευμένη υποστήριξη"
+        }
+      },
+      cta: {
+        title: "Έτοιμοι να υλοποιήσετε το έργο σας;",
+        description: "Οι ειδικοί σύμβουλοί μας σας συνοδεύουν για να μετατρέψουν αυτή τη προσομοίωση σε πραγματικότητα",
+        buttons: {
+          request: "Κάντε αίτηση",
+          consultant: "Μιλήστε με σύμβουλο",
+          officialRequest: "Κάντε επίσημη αίτηση",
+          allServices: "Δείτε όλες τις υπηρεσίες μας"
+        }
+      }
     }
   }
 };
