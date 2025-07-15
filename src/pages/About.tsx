@@ -4,6 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
+import { useTranslation } from '@/contexts/TranslationContext';
 import { 
   Calendar, Globe, Shield, Trophy, Target, Users, Award, 
   Sparkles, TrendingUp, Heart, Lightbulb, CheckCircle,
@@ -11,113 +12,115 @@ import {
 } from 'lucide-react';
 
 const About = () => {
+  const { t } = useTranslation();
+
   const milestones = [
     {
       year: "1997",
-      title: "Fondation à Hamburg",
-      description: "Création d'Aurex K-pital avec la vision de révolutionner les services financiers en Europe"
+      title: t('about.timeline.milestones.0.title'),
+      description: t('about.timeline.milestones.0.description')
     },
     {
       year: "2003",
-      title: "Expansion européenne",
-      description: "Ouverture de bureaux dans 5 pays européens et lancement des premiers services digitaux"
+      title: t('about.timeline.milestones.1.title'),
+      description: t('about.timeline.milestones.1.description')
     },
     {
       year: "2010",
-      title: "Innovation IA",
-      description: "Intégration pionnière de l'intelligence artificielle dans l'analyse de crédit"
+      title: t('about.timeline.milestones.2.title'),
+      description: t('about.timeline.milestones.2.description')
     },
     {
       year: "2015",
-      title: "Certification Excellence",
-      description: "Obtention des certifications européennes les plus strictes en matière financière"
+      title: t('about.timeline.milestones.3.title'),
+      description: t('about.timeline.milestones.3.description')
     },
     {
       year: "2020",
-      title: "Transformation digitale",
-      description: "Lancement de la plateforme 100% digitale et des algorithmes prédictifs avancés"
+      title: t('about.timeline.milestones.4.title'),
+      description: t('about.timeline.milestones.4.description')
     },
     {
       year: "2024",
-      title: "Leader marché",
-      description: "Position de leader européen avec plus de 50 000 clients satisfaits"
+      title: t('about.timeline.milestones.5.title'),
+      description: t('about.timeline.milestones.5.description')
     }
   ];
 
   const values = [
     {
       icon: Heart,
-      title: "Excellence Client",
-      description: "Chaque client est unique et mérite une attention personnalisée avec des solutions sur mesure."
+      title: t('about.values.items.0.title'),
+      description: t('about.values.items.0.description')
     },
     {
       icon: Shield,
-      title: "Sécurité Absolue",
-      description: "Protection maximale des données et des investissements avec les technologies les plus avancées."
+      title: t('about.values.items.1.title'),
+      description: t('about.values.items.1.description')
     },
     {
       icon: Lightbulb,
-      title: "Innovation Continue",
-      description: "Recherche permanente de nouvelles solutions pour anticiper les besoins de demain."
+      title: t('about.values.items.2.title'),
+      description: t('about.values.items.2.description')
     },
     {
       icon: CheckCircle,
-      title: "Transparence Totale",
-      description: "Communication claire et honnête sur tous nos produits, services et conditions."
+      title: t('about.values.items.3.title'),
+      description: t('about.values.items.3.description')
     }
   ];
 
   const team = [
     {
-      name: "Dr. Klaus Müller",
-      position: "Directeur Général",
-      experience: "25 ans",
-      specialty: "Stratégie financière",
-      education: "PhD Finance - Frankfurt School"
+      name: t('about.team.members.0.name'),
+      position: t('about.team.members.0.position'),
+      experience: t('about.team.members.0.experience'),
+      specialty: t('about.team.members.0.specialty'),
+      education: t('about.team.members.0.education')
     },
     {
-      name: "Sophie Laurent",
-      position: "Directrice Innovation",
-      experience: "15 ans",
-      specialty: "FinTech & IA",
-      education: "MIT - Intelligence Artificielle"
+      name: t('about.team.members.1.name'),
+      position: t('about.team.members.1.position'),
+      experience: t('about.team.members.1.experience'),
+      specialty: t('about.team.members.1.specialty'),
+      education: t('about.team.members.1.education')
     },
     {
-      name: "Marco Antonelli",
-      position: "Directeur Risques",
-      experience: "20 ans",
-      specialty: "Gestion des risques",
-      education: "Bocconi - Risk Management"
+      name: t('about.team.members.2.name'),
+      position: t('about.team.members.2.position'),
+      experience: t('about.team.members.2.experience'),
+      specialty: t('about.team.members.2.specialty'),
+      education: t('about.team.members.2.education')
     },
     {
-      name: "Elena Rodriguez",
-      position: "Directrice Client",
-      experience: "12 ans",
-      specialty: "Relation client",
-      education: "ESADE - Customer Experience"
+      name: t('about.team.members.3.name'),
+      position: t('about.team.members.3.position'),
+      experience: t('about.team.members.3.experience'),
+      specialty: t('about.team.members.3.specialty'),
+      education: t('about.team.members.3.education')
     }
   ];
 
   const certifications = [
     {
-      name: "ISO 27001",
-      description: "Sécurité de l'information",
-      year: "2018"
+      name: t('about.certifications.items.0.name'),
+      description: t('about.certifications.items.0.description'),
+      year: t('about.certifications.items.0.year')
     },
     {
-      name: "PCI DSS",
-      description: "Sécurité des paiements",
-      year: "2020"
+      name: t('about.certifications.items.1.name'),
+      description: t('about.certifications.items.1.description'),
+      year: t('about.certifications.items.1.year')
     },
     {
-      name: "GDPR Compliant",
-      description: "Protection des données",
-      year: "2018"
+      name: t('about.certifications.items.2.name'),
+      description: t('about.certifications.items.2.description'),
+      year: t('about.certifications.items.2.year')
     },
     {
-      name: "SOC 2 Type II",
-      description: "Contrôles organisationnels",
-      year: "2021"
+      name: t('about.certifications.items.3.name'),
+      description: t('about.certifications.items.3.description'),
+      year: t('about.certifications.items.3.year')
     }
   ];
 
@@ -135,18 +138,17 @@ const About = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Calendar className="h-4 w-4 mr-2" />
-                Excellence depuis 1997
+                {t('about.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Un Quart de Siècle
-              <span className="text-gold block">d'Innovation Financière</span>
+              {t('about.title')}
+              <span className="text-gold block">{t('about.subtitle')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Depuis Hamburg, nous révolutionnons l'accompagnement financier en combinant 
-              expertise humaine traditionnelle et technologies de pointe.
+              {t('about.description')}
             </p>
           </div>
         </div>
@@ -163,33 +165,24 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-                Notre Histoire
+                {t('about.story.title')}
               </h2>
               <p className="text-xl text-muted-foreground">
-                De startup hambourgeoise à leader européen de l'innovation financière
+                {t('about.story.subtitle')}
               </p>
             </div>
 
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-xl leading-relaxed mb-6">
-                <span className="text-primary font-semibold">Aurex K-pital</span> naît en 1997 de la vision 
-                audacieuse de révolutionner les services financiers européens. Basée à Hamburg, au cœur 
-                économique de l'Allemagne, notre entreprise s'est donnée pour mission de démocratiser 
-                l'accès aux solutions financières innovantes.
+                {t('about.story.paragraph1')}
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                Pionniers dans l'intégration de <span className="text-accent font-semibold">l'intelligence artificielle</span> 
-                aux services financiers dès 2010, nous avons développé des algorithmes propriétaires qui 
-                permettent une analyse de risque ultra-précise et des recommandations personnalisées 
-                pour chaque client.
+                {t('about.story.paragraph2')}
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                Aujourd'hui, avec plus de <span className="text-primary font-semibold">50 000 clients</span> dans 
-                toute l'Europe et <span className="text-primary font-semibold">5 milliards d'euros</span> de 
-                financements accordés, nous continuons d'innover pour offrir les meilleures solutions 
-                du marché.
+                {t('about.story.paragraph3')}
               </p>
             </div>
           </div>
@@ -203,7 +196,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Nos Grandes Étapes
+              {t('about.timeline.title')}
             </h2>
           </div>
 
@@ -242,10 +235,10 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Nos Valeurs
+              {t('about.values.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Les principes qui guident chacune de nos actions
+              {t('about.values.subtitle')}
             </p>
           </div>
 
@@ -276,10 +269,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Notre Équipe Dirigeante
+              {t('about.team.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Des experts reconnus au service de votre réussite
+              {t('about.team.subtitle')}
             </p>
           </div>
 
@@ -296,7 +289,7 @@ const About = () => {
                 <CardContent className="space-y-2">
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <Briefcase className="h-4 w-4" />
-                    {member.experience} d'expérience
+                    {member.experience} {t('about.team.experienceLabel')}
                   </div>
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <Target className="h-4 w-4" />
@@ -319,10 +312,10 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Certifications & Accréditations
+              {t('about.certifications.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Reconnaissance officielle de notre excellence opérationnelle
+              {t('about.certifications.subtitle')}
             </p>
           </div>
 
@@ -337,7 +330,7 @@ const About = () => {
                   <CardDescription className="text-sm">{cert.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-sm text-accent font-semibold">Depuis {cert.year}</div>
+                  <div className="text-sm text-accent font-semibold">{t('about.certifications.sinceLabel')} {cert.year}</div>
                 </CardContent>
               </Card>
             ))}
@@ -350,40 +343,40 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Nous Rencontrer
+              {t('about.contact.title')}
             </h2>
             <p className="text-xl mb-12 text-primary-foreground/90">
-              Nos bureaux vous accueillent au cœur de Hamburg
+              {t('about.contact.subtitle')}
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="text-center">
                 <MapPin className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Adresse</h3>
+                <h3 className="text-xl font-bold mb-2">{t('about.contact.address.title')}</h3>
                 <p className="text-primary-foreground/80">
-                  Irma-Keilhack-Ring 24<br />
-                  22145 Hamburg<br />
-                  Allemagne
+                  {t('about.contact.address.value.0')}<br />
+                  {t('about.contact.address.value.1')}<br />
+                  {t('about.contact.address.value.2')}
                 </p>
               </div>
               
               <div className="text-center">
                 <Phone className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Téléphone</h3>
+                <h3 className="text-xl font-bold mb-2">{t('about.contact.phone.title')}</h3>
                 <p className="text-primary-foreground/80">
-                  +49 40 710 97523<br />
-                  Lun-Ven: 8h-19h<br />
-                  Sam: 9h-17h
+                  {t('about.contact.phone.value')}<br />
+                  {t('about.contact.phone.schedule.0')}<br />
+                  {t('about.contact.phone.schedule.1')}
                 </p>
               </div>
               
               <div className="text-center">
                 <Mail className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Email</h3>
+                <h3 className="text-xl font-bold mb-2">{t('about.contact.email.title')}</h3>
                 <p className="text-primary-foreground/80">
-                  contact@aurex-kpital.de<br />
-                  info@aurex-kpital.de<br />
-                  support@aurex-kpital.de
+                  {t('about.contact.email.values.0')}<br />
+                  {t('about.contact.email.values.1')}<br />
+                  {t('about.contact.email.values.2')}
                 </p>
               </div>
             </div>
@@ -392,13 +385,13 @@ const About = () => {
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
                 <Link to="/contact">
                   <Users className="h-5 w-5 mr-2" />
-                  Prendre rendez-vous
+                  {t('about.contact.buttons.appointment')}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <Link to="/demande">
                   <Sparkles className="h-5 w-5 mr-2" />
-                  Demande personnalisée
+                  {t('about.contact.buttons.customRequest')}
                 </Link>
               </Button>
             </div>

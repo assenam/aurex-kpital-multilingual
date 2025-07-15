@@ -534,6 +534,159 @@ const translations = {
           description: "Aurex K-pital s'efforce de fournir des informations exactes et à jour. Cependant, la société ne peut garantir l'exactitude, la complétude ou l'actualité des informations diffusées sur ce site. L'utilisation des informations se fait sous la responsabilité exclusive de l'utilisateur."
         }
       }
+    },
+    about: {
+      badge: "Excellence depuis 1997",
+      title: "Un Quart de Siècle",
+      subtitle: "d'Innovation Financière",
+      description: "Depuis Hamburg, nous révolutionnons l'accompagnement financier en combinant expertise humaine traditionnelle et technologies de pointe.",
+      story: {
+        title: "Notre Histoire", 
+        subtitle: "De startup hambourgeoise à leader européen de l'innovation financière",
+        paragraph1: "Aurex K-pital naît en 1997 de la vision audacieuse de révolutionner les services financiers européens. Basée à Hamburg, au cœur économique de l'Allemagne, notre entreprise s'est donnée pour mission de démocratiser l'accès aux solutions financières innovantes.",
+        paragraph2: "Pionniers dans l'intégration de l'intelligence artificielle aux services financiers dès 2010, nous avons développé des algorithmes propriétaires qui permettent une analyse de risque ultra-précise et des recommandations personnalisées pour chaque client.",
+        paragraph3: "Aujourd'hui, avec plus de 50 000 clients dans toute l'Europe et 5 milliards d'euros de financements accordés, nous continuons d'innover pour offrir les meilleures solutions du marché."
+      },
+      timeline: {
+        title: "Nos Grandes Étapes",
+        milestones: [
+          {
+            year: "1997",
+            title: "Fondation à Hamburg",
+            description: "Création d'Aurex K-pital avec la vision de révolutionner les services financiers en Europe"
+          },
+          {
+            year: "2003", 
+            title: "Expansion européenne",
+            description: "Ouverture de bureaux dans 5 pays européens et lancement des premiers services digitaux"
+          },
+          {
+            year: "2010",
+            title: "Innovation IA",
+            description: "Intégration pionnière de l'intelligence artificielle dans l'analyse de crédit"
+          },
+          {
+            year: "2015",
+            title: "Certification Excellence", 
+            description: "Obtention des certifications européennes les plus strictes en matière financière"
+          },
+          {
+            year: "2020",
+            title: "Transformation digitale",
+            description: "Lancement de la plateforme 100% digitale et des algorithmes prédictifs avancés"
+          },
+          {
+            year: "2024",
+            title: "Leader marché",
+            description: "Position de leader européen avec plus de 50 000 clients satisfaits"
+          }
+        ]
+      },
+      values: {
+        title: "Nos Valeurs",
+        subtitle: "Les principes qui guident chacune de nos actions",
+        items: [
+          {
+            title: "Excellence Client",
+            description: "Chaque client est unique et mérite une attention personnalisée avec des solutions sur mesure."
+          },
+          {
+            title: "Sécurité Absolue",
+            description: "Protection maximale des données et des investissements avec les technologies les plus avancées."
+          },
+          {
+            title: "Innovation Continue",
+            description: "Recherche permanente de nouvelles solutions pour anticiper les besoins de demain."
+          },
+          {
+            title: "Transparence Totale",
+            description: "Communication claire et honnête sur tous nos produits, services et conditions."
+          }
+        ]
+      },
+      team: {
+        title: "Notre Équipe Dirigeante",
+        subtitle: "Des experts reconnus au service de votre réussite",
+        members: [
+          {
+            name: "Dr. Klaus Müller",
+            position: "Directeur Général",
+            experience: "25 ans",
+            specialty: "Stratégie financière",
+            education: "PhD Finance - Frankfurt School"
+          },
+          {
+            name: "Sophie Laurent",
+            position: "Directrice Innovation", 
+            experience: "15 ans",
+            specialty: "FinTech & IA",
+            education: "MIT - Intelligence Artificielle"
+          },
+          {
+            name: "Marco Antonelli",
+            position: "Directeur Risques",
+            experience: "20 ans",
+            specialty: "Gestion des risques",
+            education: "Bocconi - Risk Management"
+          },
+          {
+            name: "Elena Rodriguez",
+            position: "Directrice Client",
+            experience: "12 ans",
+            specialty: "Relation client", 
+            education: "ESADE - Customer Experience"
+          }
+        ],
+        experienceLabel: "d'expérience"
+      },
+      certifications: {
+        title: "Certifications & Accréditations",
+        subtitle: "Reconnaissance officielle de notre excellence opérationnelle",
+        items: [
+          {
+            name: "ISO 27001",
+            description: "Sécurité de l'information",
+            year: "2018"
+          },
+          {
+            name: "PCI DSS", 
+            description: "Sécurité des paiements",
+            year: "2020"
+          },
+          {
+            name: "GDPR Compliant",
+            description: "Protection des données",
+            year: "2018"
+          },
+          {
+            name: "SOC 2 Type II",
+            description: "Contrôles organisationnels",
+            year: "2021"
+          }
+        ],
+        sinceLabel: "Depuis"
+      },
+      contact: {
+        title: "Nous Rencontrer",
+        subtitle: "Nos bureaux vous accueillent au cœur de Hamburg",
+        address: {
+          title: "Adresse",
+          value: ["Irma-Keilhack-Ring 24", "22145 Hamburg", "Allemagne"]
+        },
+        phone: {
+          title: "Téléphone",
+          value: "+49 40 710 97523",
+          schedule: ["Lun-Ven: 8h-19h", "Sam: 9h-17h"]
+        },
+        email: {
+          title: "Email",
+          values: ["contact@aurex-kpital.de", "info@aurex-kpital.de", "support@aurex-kpital.de"]
+        },
+        buttons: {
+          appointment: "Prendre rendez-vous",
+          customRequest: "Demande personnalisée"
+        }
+      }
     }
   },
   de: {
@@ -770,8 +923,161 @@ const translations = {
         step4: {
           title: "Freigabe der Mittel",
           description: "Schnelle Bereitstellung und kontinuierliche Begleitung"
+      }
+    },
+    about: {
+      badge: "Exzellenz seit 1997",
+      title: "Ein Vierteljahrhundert",
+      subtitle: "Finanzinnovation",
+      description: "Von Hamburg aus revolutionieren wir die Finanzberatung durch die Kombination traditioneller menschlicher Expertise mit modernster Technologie.",
+      story: {
+        title: "Unsere Geschichte",
+        subtitle: "Von einem Hamburger Startup zum europäischen Marktführer der Finanzinnovation",
+        paragraph1: "Aurex K-pital entstand 1997 aus der visionären Idee, die europäischen Finanzdienstleistungen zu revolutionieren. Mit Sitz in Hamburg, im wirtschaftlichen Herzen Deutschlands, hat sich unser Unternehmen die Mission gesetzt, den Zugang zu innovativen Finanzlösungen zu demokratisieren.",
+        paragraph2: "Als Pioniere bei der Integration künstlicher Intelligenz in Finanzdienstleistungen seit 2010 haben wir proprietäre Algorithmen entwickelt, die eine hochpräzise Risikoanalyse und personalisierte Empfehlungen für jeden Kunden ermöglichen.",
+        paragraph3: "Heute, mit mehr als 50.000 Kunden in ganz Europa und 5 Milliarden Euro gewährter Finanzierungen, innovieren wir weiter, um die besten Marktlösungen zu bieten."
+      },
+      timeline: {
+        title: "Unsere Meilensteine",
+        milestones: [
+          {
+            year: "1997",
+            title: "Gründung in Hamburg",
+            description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
+          },
+          {
+            year: "2003",
+            title: "Europäische Expansion",
+            description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
+          },
+          {
+            year: "2010",
+            title: "KI-Innovation",
+            description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
+          },
+          {
+            year: "2015",
+            title: "Exzellenz-Zertifizierung",
+            description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
+          },
+          {
+            year: "2020",
+            title: "Digitale Transformation",
+            description: "Start der 100% digitalen Plattform und fortgeschrittener Vorhersagealgorithmen"
+          },
+          {
+            year: "2024",
+            title: "Marktführer",
+            description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
+          }
+        ]
+      },
+      values: {
+        title: "Unsere Werte",
+        subtitle: "Die Prinzipien, die jede unserer Handlungen leiten",
+        items: [
+          {
+            title: "Kundenexzellenz",
+            description: "Jeder Kunde ist einzigartig und verdient persönliche Aufmerksamkeit mit maßgeschneiderten Lösungen."
+          },
+          {
+            title: "Absolute Sicherheit", 
+            description: "Maximaler Schutz von Daten und Investitionen mit den fortschrittlichsten Technologien."
+          },
+          {
+            title: "Kontinuierliche Innovation",
+            description: "Permanente Suche nach neuen Lösungen zur Antizipation zukünftiger Bedürfnisse."
+          },
+          {
+            title: "Totale Transparenz",
+            description: "Klare und ehrliche Kommunikation über alle unsere Produkte, Services und Konditionen."
+          }
+        ]
+      },
+      team: {
+        title: "Unser Führungsteam",
+        subtitle: "Anerkannte Experten im Dienste Ihres Erfolgs",
+        members: [
+          {
+            name: "Dr. Klaus Müller",
+            position: "Geschäftsführer",
+            experience: "25 Jahre",
+            specialty: "Finanzstrategie",
+            education: "PhD Finanzen - Frankfurt School"
+          },
+          {
+            name: "Sophie Laurent",
+            position: "Innovationsleiterin",
+            experience: "15 Jahre",
+            specialty: "FinTech & KI",
+            education: "MIT - Künstliche Intelligenz"
+          },
+          {
+            name: "Marco Antonelli",
+            position: "Risikoleiter",
+            experience: "20 Jahre",
+            specialty: "Risikomanagement",
+            education: "Bocconi - Risk Management"
+          },
+          {
+            name: "Elena Rodriguez",
+            position: "Kundenleiterin",
+            experience: "12 Jahre",
+            specialty: "Kundenbeziehungen",
+            education: "ESADE - Customer Experience"
+          }
+        ],
+        experienceLabel: "Jahre Erfahrung"
+      },
+      certifications: {
+        title: "Zertifizierungen & Akkreditierungen",
+        subtitle: "Offizielle Anerkennung unserer operativen Exzellenz",
+        items: [
+          {
+            name: "ISO 27001",
+            description: "Informationssicherheit",
+            year: "2018"
+          },
+          {
+            name: "PCI DSS",
+            description: "Zahlungssicherheit",
+            year: "2020"
+          },
+          {
+            name: "DSGVO-Konform",
+            description: "Datenschutz",
+            year: "2018"
+          },
+          {
+            name: "SOC 2 Type II",
+            description: "Organisationskontrollen",
+            year: "2021"
+          }
+        ],
+        sinceLabel: "Seit"
+      },
+      contact: {
+        title: "Besuchen Sie uns",
+        subtitle: "Unsere Büros empfangen Sie im Herzen von Hamburg",
+        address: {
+          title: "Adresse",
+          value: ["Irma-Keilhack-Ring 24", "22145 Hamburg", "Deutschland"]
+        },
+        phone: {
+          title: "Telefon",
+          value: "+49 40 710 97523",
+          schedule: ["Mo-Fr: 8-19 Uhr", "Sa: 9-17 Uhr"]
+        },
+        email: {
+          title: "E-Mail",
+          values: ["contact@aurex-kpital.de", "info@aurex-kpital.de", "support@aurex-kpital.de"]
+        },
+        buttons: {
+          appointment: "Termin vereinbaren",
+          customRequest: "Individuelle Anfrage"
         }
       }
+    }
     },
     testimonials: {
       title: "Vertrauen Sie uns",
