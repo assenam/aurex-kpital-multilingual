@@ -517,155 +517,103 @@ const translations = {
     },
     about: {
       badge: "Excellence depuis 1997",
-      title: "Un Quart de Siècle",
-      subtitle: "d'Innovation Financière",
-      description: "Depuis Hamburg, nous révolutionnons l'accompagnement financier en combinant expertise humaine traditionnelle et technologies de pointe.",
-      story: {
-        title: "Notre Histoire", 
-        subtitle: "De startup hambourgeoise à leader européen de l'innovation financière",
-        paragraph1: "Aurex K-pital naît en 1997 de la vision audacieuse de révolutionner les services financiers européens. Basée à Hamburg, au cœur économique de l'Allemagne, notre entreprise s'est donnée pour mission de démocratiser l'accès aux solutions financières innovantes.",
-        paragraph2: "Pionniers dans l'intégration de l'intelligence artificielle aux services financiers dès 2010, nous avons développé des algorithmes propriétaires qui permettent une analyse de risque ultra-précise et des recommandations personnalisées pour chaque client.",
-        paragraph3: "Aujourd'hui, avec plus de 50 000 clients dans toute l'Europe et 5 milliards d'euros de financements accordés, nous continuons d'innover pour offrir les meilleures solutions du marché."
+      title: "Votre partenaire financier de confiance",
+      subtitle: "Depuis plus de 25 ans, nous accompagnons les entreprises européennes dans leur développement avec des solutions de financement innovantes et personnalisées.",
+      hero: {
+        cta: {
+          contact: "Nous contacter",
+          simulate: "Simuler mon financement"
+        }
       },
-      timeline: {
-        title: "Nos Grandes Étapes",
-        milestones: [
-          {
-            year: "1997",
-            title: "Fondation à Hamburg",
-            description: "Création d'Aurex K-pital avec la vision de révolutionner les services financiers en Europe"
-          },
-          {
-            year: "2003", 
-            title: "Expansion européenne",
-            description: "Ouverture de bureaux dans 5 pays européens et lancement des premiers services digitaux"
-          },
-          {
-            year: "2010",
-            title: "Innovation IA",
-            description: "Intégration pionnière de l'intelligence artificielle dans l'analyse de crédit"
-          },
-          {
-            year: "2015",
-            title: "Certification Excellence", 
-            description: "Obtention des certifications européennes les plus strictes en matière financière"
-          },
-          {
-            year: "2020",
-            title: "Transformation digitale",
-            description: "Lancement de la plateforme 100% digitale et des algorithmes prédictifs avancés"
-          },
-          {
-            year: "2024",
-            title: "Leader marché",
-            description: "Position de leader européen avec plus de 50 000 clients satisfaits"
-          }
-        ]
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Années d'expérience"
+        },
+        companies: {
+          value: "50K+",
+          label: "Entreprises accompagnées"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Financements facilités"
+        },
+        countries: {
+          value: "8",
+          label: "Pays européens"
+        }
       },
       values: {
-        title: "Nos Valeurs",
-        subtitle: "Les principes qui guident chacune de nos actions",
-        items: [
-          {
-            title: "Excellence Client",
-            description: "Chaque client est unique et mérite une attention personnalisée avec des solutions sur mesure."
-          },
-          {
-            title: "Sécurité Absolue",
-            description: "Protection maximale des données et des investissements avec les technologies les plus avancées."
-          },
-          {
-            title: "Innovation Continue",
-            description: "Recherche permanente de nouvelles solutions pour anticiper les besoins de demain."
-          },
-          {
-            title: "Transparence Totale",
-            description: "Communication claire et honnête sur tous nos produits, services et conditions."
-          }
-        ]
+        badge: "Nos Valeurs",
+        title: "Ce qui nous guide au quotidien",
+        description: "Notre réussite repose sur des valeurs fortes qui orientent chacune de nos actions et décisions.",
+        security: {
+          title: "Sécurité & Conformité",
+          description: "Nos solutions respectent les normes bancaires les plus strictes et la réglementation RGPD."
+        },
+        innovation: {
+          title: "Innovation Continue",
+          description: "Nous développons constamment de nouvelles solutions pour anticiper vos besoins futurs."
+        },
+        support: {
+          title: "Accompagnement Personnel",
+          description: "Chaque client bénéficie d'un conseiller dédié pour un service sur mesure."
+        },
+        excellence: {
+          title: "Excellence Reconnue",
+          description: "Plus de 25 ans d'expertise et la confiance de milliers d'entreprises."
+        }
+      },
+      history: {
+        badge: "Notre Histoire",
+        title: "Plus de 25 ans d'innovation",
+        description: "Découvrez les moments clés qui ont façonné notre entreprise et notre expertise.",
+        milestone1: {
+          title: "Création de l'entreprise",
+          description: "Fondation avec la vision de démocratiser l'accès au financement pour les PME."
+        },
+        milestone2: {
+          title: "Expansion européenne",
+          description: "Ouverture de bureaux en Allemagne, Pologne et Espagne."
+        },
+        milestone3: {
+          title: "Innovation digitale",
+          description: "Lancement de notre plateforme de simulation en ligne révolutionnaire."
+        },
+        milestone4: {
+          title: "50 000ème client",
+          description: "Franchissement du cap des 50 000 entreprises accompagnées."
+        },
+        milestone5: {
+          title: "€5 milliards financés",
+          description: "Atteinte du record de 5 milliards d'euros de financements facilités."
+        }
       },
       team: {
-        title: "Notre Équipe Dirigeante",
-        subtitle: "Des experts reconnus au service de votre réussite",
-        members: [
-          {
-            name: "Dr. Klaus Müller",
-            position: "Directeur Général",
-            experience: "25 ans",
-            specialty: "Stratégie financière",
-            education: "PhD Finance - Frankfurt School"
-          },
-          {
-            name: "Sophie Laurent",
-            position: "Directrice Innovation", 
-            experience: "15 ans",
-            specialty: "FinTech & IA",
-            education: "MIT - Intelligence Artificielle"
-          },
-          {
-            name: "Marco Antonelli",
-            position: "Directeur Risques",
-            experience: "20 ans",
-            specialty: "Gestion des risques",
-            education: "Bocconi - Risk Management"
-          },
-          {
-            name: "Elena Rodriguez",
-            position: "Directrice Client",
-            experience: "12 ans",
-            specialty: "Relation client", 
-            education: "ESADE - Customer Experience"
-          }
-        ],
-        experienceLabel: "d'expérience"
-      },
-      certifications: {
-        title: "Certifications & Accréditations",
-        subtitle: "Reconnaissance officielle de notre excellence opérationnelle",
-        items: [
-          {
-            name: "ISO 27001",
-            description: "Sécurité de l'information",
-            year: "2018"
-          },
-          {
-            name: "PCI DSS", 
-            description: "Sécurité des paiements",
-            year: "2020"
-          },
-          {
-            name: "GDPR Compliant",
-            description: "Protection des données",
-            year: "2018"
-          },
-          {
-            name: "SOC 2 Type II",
-            description: "Contrôles organisationnels",
-            year: "2021"
-          }
-        ],
-        sinceLabel: "Depuis"
-      },
-      contact: {
-        title: "Nous Rencontrer",
-        subtitle: "Nos bureaux vous accueillent au cœur de Hamburg",
-        address: {
-          title: "Adresse",
-          value: ["Irma-Keilhack-Ring 24", "22145 Hamburg", "Allemagne"]
+        badge: "Notre Équipe",
+        title: "L'expertise au service de votre réussite",
+        description: "Rencontrez les experts qui pilotent notre vision et accompagnent votre croissance.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Directrice Générale",
+          experience: "15 ans d'expérience en financement d'entreprise"
         },
-        phone: {
-          title: "Téléphone",
-          value: "+49 40 710 97523",
-          schedule: ["Lun-Ven: 8h-19h", "Sam: 9h-17h"]
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Directeur Technique",
+          experience: "Expert en solutions fintech et sécurité bancaire"
         },
-        email: {
-          title: "Email",
-          values: ["contact@aurex-kpital.de", "info@aurex-kpital.de", "support@aurex-kpital.de"]
-        },
-        buttons: {
-          appointment: "Prendre rendez-vous",
-          customRequest: "Demande personnalisée"
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Directrice Commerciale",
+          experience: "Spécialiste des marchés européens depuis 12 ans"
         }
+      },
+      cta: {
+        title: "Prêt à développer votre entreprise ?",
+        description: "Rejoignez plus de 50 000 entreprises qui nous font confiance pour leurs besoins de financement.",
+        simulate: "Commencer la simulation",
+        expert: "Parler à un expert"
       }
     }
   },
@@ -1121,7 +1069,108 @@ const translations = {
             label: "Kreditumschuldung",
             description: "Zusammenfassung bestehender Schulden"
           }
+    },
+    about: {
+      badge: "Exzellenz seit 1997",
+      title: "Ihr vertrauensvoller Finanzpartner",
+      subtitle: "Seit über 25 Jahren begleiten wir europäische Unternehmen bei ihrer Entwicklung mit innovativen und personalisierten Finanzierungslösungen.",
+      hero: {
+        cta: {
+          contact: "Kontakt aufnehmen",
+          simulate: "Finanzierung simulieren"
         }
+      },
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Jahre Erfahrung"
+        },
+        companies: {
+          value: "50K+",
+          label: "Begleitete Unternehmen"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Finanzierungen ermöglicht"
+        },
+        countries: {
+          value: "8",
+          label: "Europäische Länder"
+        }
+      },
+      values: {
+        badge: "Unsere Werte",
+        title: "Was uns täglich leitet",
+        description: "Unser Erfolg basiert auf starken Werten, die jede unserer Handlungen und Entscheidungen lenken.",
+        security: {
+          title: "Sicherheit & Compliance",
+          description: "Unsere Lösungen entsprechen den strengsten Bankenstandards und der DSGVO-Verordnung."
+        },
+        innovation: {
+          title: "Kontinuierliche Innovation",
+          description: "Wir entwickeln ständig neue Lösungen, um Ihre zukünftigen Bedürfnisse zu antizipieren."
+        },
+        support: {
+          title: "Persönliche Betreuung",
+          description: "Jeder Kunde profitiert von einem dedizierten Berater für einen maßgeschneiderten Service."
+        },
+        excellence: {
+          title: "Anerkannte Exzellenz",
+          description: "Über 25 Jahre Expertise und das Vertrauen von Tausenden von Unternehmen."
+        }
+      },
+      history: {
+        badge: "Unsere Geschichte",
+        title: "Über 25 Jahre Innovation",
+        description: "Entdecken Sie die Schlüsselmomente, die unser Unternehmen und unsere Expertise geprägt haben.",
+        milestone1: {
+          title: "Unternehmensgründung",
+          description: "Gründung mit der Vision, den Zugang zu Finanzierungen für KMU zu demokratisieren."
+        },
+        milestone2: {
+          title: "Europäische Expansion",
+          description: "Eröffnung von Büros in Deutschland, Polen und Spanien."
+        },
+        milestone3: {
+          title: "Digitale Innovation",
+          description: "Start unserer revolutionären Online-Simulationsplattform."
+        },
+        milestone4: {
+          title: "50.000ster Kunde",
+          description: "Erreichen der Marke von 50.000 begleiteten Unternehmen."
+        },
+        milestone5: {
+          title: "€5 Milliarden finanziert",
+          description: "Erreichen des Rekords von 5 Milliarden Euro erleichterte Finanzierungen."
+        }
+      },
+      team: {
+        badge: "Unser Team",
+        title: "Expertise im Dienste Ihres Erfolgs",
+        description: "Lernen Sie die Experten kennen, die unsere Vision vorantreiben und Ihr Wachstum begleiten.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Geschäftsführerin",
+          experience: "15 Jahre Erfahrung in der Unternehmensfinanzierung"
+        },
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Technischer Direktor",
+          experience: "Experte für Fintech-Lösungen und Bankensicherheit"
+        },
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Vertriebsleiterin",
+          experience: "Spezialistin für europäische Märkte seit 12 Jahren"
+        }
+      },
+      cta: {
+        title: "Bereit, Ihr Unternehmen zu entwickeln?",
+        description: "Schließen Sie sich über 50.000 Unternehmen an, die uns für ihre Finanzierungsbedürfnisse vertrauen.",
+        simulate: "Simulation starten",
+        expert: "Mit einem Experten sprechen"
+      }
+    }
       },
       configuration: {
         title: "Konfiguration Ihres Kredits",
@@ -1624,6 +1673,107 @@ const translations = {
           description: "Aurex K-pital se esfuerza por proporcionar información precisa y actualizada. Sin embargo, la empresa no puede garantizar la exactitud, integridad o actualidad de la información difundida en este sitio. El uso de la información se hace bajo la responsabilidad exclusiva del usuario."
         }
       }
+    },
+    about: {
+      badge: "Excelencia desde 1997",
+      title: "Su socio financiero de confianza",
+      subtitle: "Desde hace más de 25 años, acompañamos a las empresas europeas en su desarrollo con soluciones de financiación innovadoras y personalizadas.",
+      hero: {
+        cta: {
+          contact: "Contactarnos",
+          simulate: "Simular mi financiación"
+        }
+      },
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Años de experiencia"
+        },
+        companies: {
+          value: "50K+",
+          label: "Empresas acompañadas"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Financiaciones facilitadas"
+        },
+        countries: {
+          value: "8",
+          label: "Países europeos"
+        }
+      },
+      values: {
+        badge: "Nuestros Valores",
+        title: "Lo que nos guía cada día",
+        description: "Nuestro éxito se basa en valores sólidos que orientan cada una de nuestras acciones y decisiones.",
+        security: {
+          title: "Seguridad y Cumplimiento",
+          description: "Nuestras soluciones respetan las normas bancarias más estrictas y la regulación RGPD."
+        },
+        innovation: {
+          title: "Innovación Continua",
+          description: "Desarrollamos constantemente nuevas soluciones para anticipar sus necesidades futuras."
+        },
+        support: {
+          title: "Acompañamiento Personal",
+          description: "Cada cliente se beneficia de un asesor dedicado para un servicio a medida."
+        },
+        excellence: {
+          title: "Excelencia Reconocida",
+          description: "Más de 25 años de experiencia y la confianza de miles de empresas."
+        }
+      },
+      history: {
+        badge: "Nuestra Historia",
+        title: "Más de 25 años de innovación",
+        description: "Descubra los momentos clave que han forjado nuestra empresa y nuestra experiencia.",
+        milestone1: {
+          title: "Creación de la empresa",
+          description: "Fundación con la visión de democratizar el acceso a la financiación para las PYME."
+        },
+        milestone2: {
+          title: "Expansión europea",
+          description: "Apertura de oficinas en Alemania, Polonia y España."
+        },
+        milestone3: {
+          title: "Innovación digital",
+          description: "Lanzamiento de nuestra plataforma de simulación en línea revolucionaria."
+        },
+        milestone4: {
+          title: "Cliente número 50.000",
+          description: "Franqueo del hito de 50.000 empresas acompañadas."
+        },
+        milestone5: {
+          title: "€5 mil millones financiados",
+          description: "Alcance del récord de 5 mil millones de euros de financiaciones facilitadas."
+        }
+      },
+      team: {
+        badge: "Nuestro Equipo",
+        title: "La experiencia al servicio de su éxito",
+        description: "Conozca a los expertos que impulsan nuestra visión y acompañan su crecimiento.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Directora General",
+          experience: "15 años de experiencia en financiación empresarial"
+        },
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Director Técnico",
+          experience: "Experto en soluciones fintech y seguridad bancaria"
+        },
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Directora Comercial",
+          experience: "Especialista en mercados europeos desde hace 12 años"
+        }
+      },
+      cta: {
+        title: "¿Listo para desarrollar su empresa?",
+        description: "Únase a más de 50.000 empresas que confían en nosotros para sus necesidades de financiación.",
+        simulate: "Comenzar la simulación",
+        expert: "Hablar con un experto"
+      }
     }
   },
   it: {
@@ -1925,7 +2075,108 @@ const translations = {
             label: "Consolidamento Crediti",
             description: "Raggruppamento debiti esistenti"
           }
+    },
+    about: {
+      badge: "Eccellenza dal 1997",
+      title: "Il vostro partner finanziario di fiducia",
+      subtitle: "Da oltre 25 anni, accompagniamo le aziende europee nel loro sviluppo con soluzioni di finanziamento innovative e personalizzate.",
+      hero: {
+        cta: {
+          contact: "Contattaci",
+          simulate: "Simula il mio finanziamento"
         }
+      },
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Anni di esperienza"
+        },
+        companies: {
+          value: "50K+",
+          label: "Aziende accompagnate"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Finanziamenti facilitati"
+        },
+        countries: {
+          value: "8",
+          label: "Paesi europei"
+        }
+      },
+      values: {
+        badge: "I Nostri Valori",
+        title: "Ciò che ci guida ogni giorno",
+        description: "Il nostro successo si basa su valori forti che orientano ogni nostra azione e decisione.",
+        security: {
+          title: "Sicurezza e Conformità",
+          description: "Le nostre soluzioni rispettano le norme bancarie più rigorose e la regolamentazione GDPR."
+        },
+        innovation: {
+          title: "Innovazione Continua",
+          description: "Sviluppiamo costantemente nuove soluzioni per anticipare le vostre esigenze future."
+        },
+        support: {
+          title: "Accompagnamento Personale",
+          description: "Ogni cliente beneficia di un consulente dedicato per un servizio su misura."
+        },
+        excellence: {
+          title: "Eccellenza Riconosciuta",
+          description: "Oltre 25 anni di competenza e la fiducia di migliaia di aziende."
+        }
+      },
+      history: {
+        badge: "La Nostra Storia",
+        title: "Oltre 25 anni di innovazione",
+        description: "Scoprite i momenti chiave che hanno plasmato la nostra azienda e la nostra competenza.",
+        milestone1: {
+          title: "Creazione dell'azienda",
+          description: "Fondazione con la visione di democratizzare l'accesso ai finanziamenti per le PMI."
+        },
+        milestone2: {
+          title: "Espansione europea",
+          description: "Apertura di uffici in Germania, Polonia e Spagna."
+        },
+        milestone3: {
+          title: "Innovazione digitale",
+          description: "Lancio della nostra piattaforma di simulazione online rivoluzionaria."
+        },
+        milestone4: {
+          title: "50.000º cliente",
+          description: "Raggiungimento del traguardo di 50.000 aziende accompagnate."
+        },
+        milestone5: {
+          title: "€5 miliardi finanziati",
+          description: "Raggiungimento del record di 5 miliardi di euro di finanziamenti facilitati."
+        }
+      },
+      team: {
+        badge: "Il Nostro Team",
+        title: "L'expertise al servizio del vostro successo",
+        description: "Incontrate gli esperti che guidano la nostra visione e accompagnano la vostra crescita.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Direttrice Generale",
+          experience: "15 anni di esperienza nel finanziamento aziendale"
+        },
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Direttore Tecnico",
+          experience: "Esperto in soluzioni fintech e sicurezza bancaria"
+        },
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Direttrice Commerciale",
+          experience: "Specialista dei mercati europei da 12 anni"
+        }
+      },
+      cta: {
+        title: "Pronti a sviluppare la vostra azienda?",
+        description: "Unitevi a oltre 50.000 aziende che si fidano di noi per le loro esigenze di finanziamento.",
+        simulate: "Inizia la simulazione",
+        expert: "Parla con un esperto"
+      }
+    }
       },
       configuration: {
         title: "Configurazione del tuo prestito",

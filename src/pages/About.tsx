@@ -18,71 +18,71 @@ const About = () => {
   const values = [
     {
       icon: Shield,
-      title: "Sécurité & Conformité",
-      description: "Nos solutions respectent les normes bancaires les plus strictes et la réglementation RGPD."
+      title: t('about.values.security.title'),
+      description: t('about.values.security.description')
     },
     {
       icon: Sparkles,
-      title: "Innovation Continue",
-      description: "Nous développons constamment de nouvelles solutions pour anticiper vos besoins futurs."
+      title: t('about.values.innovation.title'),
+      description: t('about.values.innovation.description')
     },
     {
       icon: HandHeart,
-      title: "Accompagnement Personnel",
-      description: "Chaque client bénéficie d'un conseiller dédié pour un service sur mesure."
+      title: t('about.values.support.title'),
+      description: t('about.values.support.description')
     },
     {
       icon: Trophy,
-      title: "Excellence Reconnue",
-      description: "Plus de 25 ans d'expertise et la confiance de milliers d'entreprises."
+      title: t('about.values.excellence.title'),
+      description: t('about.values.excellence.description')
     }
   ];
 
   const milestones = [
     {
       year: "1997",
-      title: "Création de l'entreprise",
-      description: "Fondation avec la vision de démocratiser l'accès au financement pour les PME."
+      title: t('about.history.milestone1.title'),
+      description: t('about.history.milestone1.description')
     },
     {
       year: "2005",
-      title: "Expansion européenne",
-      description: "Ouverture de bureaux en Allemagne, Pologne et Espagne."
+      title: t('about.history.milestone2.title'),
+      description: t('about.history.milestone2.description')
     },
     {
       year: "2012",
-      title: "Innovation digitale",
-      description: "Lancement de notre plateforme de simulation en ligne révolutionnaire."
+      title: t('about.history.milestone3.title'),
+      description: t('about.history.milestone3.description')
     },
     {
       year: "2018",
-      title: "50 000ème client",
-      description: "Franchissement du cap des 50 000 entreprises accompagnées."
+      title: t('about.history.milestone4.title'),
+      description: t('about.history.milestone4.description')
     },
     {
       year: "2023",
-      title: "€5 milliards financés",
-      description: "Atteinte du record de 5 milliards d'euros de financements facilités."
+      title: t('about.history.milestone5.title'),
+      description: t('about.history.milestone5.description')
     }
   ];
 
   const team = [
     {
-      name: "Marie Dubois",
-      role: "Directrice Générale",
-      experience: "15 ans d'expérience en financement d'entreprise",
+      name: t('about.team.member1.name'),
+      role: t('about.team.member1.role'),
+      experience: t('about.team.member1.experience'),
       image: "/lovable-uploads/69b3a7b9-1742-4f7a-a667-105c31f57852.png"
     },
     {
-      name: "Thomas Schmidt",
-      role: "Directeur Technique",
-      experience: "Expert en solutions fintech et sécurité bancaire",
+      name: t('about.team.member2.name'),
+      role: t('about.team.member2.role'),
+      experience: t('about.team.member2.experience'),
       image: "/lovable-uploads/905a3520-c947-4b78-93c5-4b4623d63973.png"
     },
     {
-      name: "Elena Rodriguez",
-      role: "Directrice Commerciale",
-      experience: "Spécialiste des marchés européens depuis 12 ans",
+      name: t('about.team.member3.name'),
+      role: t('about.team.member3.role'),
+      experience: t('about.team.member3.experience'),
       image: "/lovable-uploads/cda4e48e-825c-4b6b-9301-54221400e47d.png"
     }
   ];
@@ -101,16 +101,16 @@ const About = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Calendar className="h-4 w-4 mr-2" />
-                Excellence depuis 1997
+                {t('about.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Votre partenaire financier de confiance
+              {t('about.title')}
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Depuis plus de 25 ans, nous accompagnons les entreprises européennes dans leur développement avec des solutions de financement innovantes et personnalisées.
+              {t('about.subtitle')}
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -121,7 +121,7 @@ const About = () => {
               >
                 <Link to="/contact">
                   <Mail className="h-5 w-5 mr-2" />
-                  Nous contacter
+                  {t('about.hero.cta.contact')}
                 </Link>
               </Button>
               
@@ -133,7 +133,7 @@ const About = () => {
               >
                 <Link to="/simulateur">
                   <Rocket className="h-5 w-5 mr-2" />
-                  Simuler mon financement
+                  {t('about.hero.cta.simulate')}
                 </Link>
               </Button>
             </div>
@@ -147,29 +147,29 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <Card className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <div className="text-4xl font-bold text-primary mb-2">25+</div>
-                <div className="text-muted-foreground">Années d'expérience</div>
+                <div className="text-4xl font-bold text-primary mb-2">{t('about.stats.experience.value')}</div>
+                <div className="text-muted-foreground">{t('about.stats.experience.label')}</div>
               </CardContent>
             </Card>
             
             <Card className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <div className="text-4xl font-bold text-primary mb-2">50K+</div>
-                <div className="text-muted-foreground">Entreprises accompagnées</div>
+                <div className="text-4xl font-bold text-primary mb-2">{t('about.stats.companies.value')}</div>
+                <div className="text-muted-foreground">{t('about.stats.companies.label')}</div>
               </CardContent>
             </Card>
             
             <Card className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <div className="text-4xl font-bold text-primary mb-2">€5B+</div>
-                <div className="text-muted-foreground">Financements facilités</div>
+                <div className="text-4xl font-bold text-primary mb-2">{t('about.stats.funding.value')}</div>
+                <div className="text-muted-foreground">{t('about.stats.funding.label')}</div>
               </CardContent>
             </Card>
             
             <Card className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <div className="text-4xl font-bold text-primary mb-2">8</div>
-                <div className="text-muted-foreground">Pays européens</div>
+                <div className="text-4xl font-bold text-primary mb-2">{t('about.stats.countries.value')}</div>
+                <div className="text-muted-foreground">{t('about.stats.countries.label')}</div>
               </CardContent>
             </Card>
           </div>
@@ -182,13 +182,13 @@ const About = () => {
           <div className="text-center mb-16">
             <Badge className="mb-4">
               <Heart className="h-4 w-4 mr-2" />
-              Nos Valeurs
+              {t('about.values.badge')}
             </Badge>
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Ce qui nous guide au quotidien
+              {t('about.values.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Notre réussite repose sur des valeurs fortes qui orientent chacune de nos actions et décisions.
+              {t('about.values.description')}
             </p>
           </div>
 
@@ -216,13 +216,13 @@ const About = () => {
           <div className="text-center mb-16">
             <Badge className="mb-4">
               <Clock className="h-4 w-4 mr-2" />
-              Notre Histoire
+              {t('about.history.badge')}
             </Badge>
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Plus de 25 ans d'innovation
+              {t('about.history.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Découvrez les moments clés qui ont façonné notre entreprise et notre expertise.
+              {t('about.history.description')}
             </p>
           </div>
 
@@ -256,13 +256,13 @@ const About = () => {
           <div className="text-center mb-16">
             <Badge className="mb-4">
               <Users className="h-4 w-4 mr-2" />
-              Notre Équipe
+              {t('about.team.badge')}
             </Badge>
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              L'expertise au service de votre réussite
+              {t('about.team.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Rencontrez les experts qui pilotent notre vision et accompagnent votre croissance.
+              {t('about.team.description')}
             </p>
           </div>
 
@@ -294,10 +294,10 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Prêt à développer votre entreprise ?
+              {t('about.cta.title')}
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Rejoignez plus de 50 000 entreprises qui nous font confiance pour leurs besoins de financement.
+              {t('about.cta.description')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
@@ -308,7 +308,7 @@ const About = () => {
               >
                 <Link to="/simulateur">
                   <Zap className="h-5 w-5 mr-2" />
-                  Commencer la simulation
+                  {t('about.cta.simulate')}
                 </Link>
               </Button>
               
@@ -320,7 +320,7 @@ const About = () => {
               >
                 <Link to="/contact">
                   <Phone className="h-5 w-5 mr-2" />
-                  Parler à un expert
+                  {t('about.cta.expert')}
                 </Link>
               </Button>
             </div>
