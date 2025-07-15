@@ -967,15 +967,11 @@ const translations = {
           description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
         }
       },
-          {
-            name: "Elena Rodriguez",
-            position: "Kundenleiterin",
-            experience: "12 Jahre",
-            specialty: "Kundenbeziehungen",
-            education: "ESADE - Customer Experience"
-          }
-        ],
-        experienceLabel: "Jahre Erfahrung"
+      cta: {
+        title: "Bereit, Ihr Unternehmen zu entwickeln?",
+        description: "Schließen Sie sich mehr als 50.000 Unternehmen an, die uns für ihre Finanzierungsbedürfnisse vertrauen.",
+        simulate: "Simulation starten",
+        expert: "Mit einem Experten sprechen"
       },
       certifications: {
         title: "Zertifizierungen & Akkreditierungen",
