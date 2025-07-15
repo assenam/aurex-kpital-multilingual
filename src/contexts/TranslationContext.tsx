@@ -1129,94 +1129,391 @@ const translations = {
   pl: {
     menu: { home: "Strona główna", services: "Usługi", simulator: "Symulator", request: "Wniosek", about: "O nas", contact: "Kontakt", faq: "FAQ", careers: "Kariery", partners: "Partnerzy", blog: "Blog" },
     blog: {
-      badge: "Ekspertyza i Analiza", title: "Blog Aurex", subtitle: "K-pital", description: "Analizy ekspertów, trendy rynkowe i praktyczne porady dla optymalizacji decyzji finansowych.",
-      stats: { articles: { value: "150+", label: "Opublikowane artykuły" }, experts: { value: "8", label: "Eksperci autorzy" }, readers: { value: "50K+", label: "Miesięczni czytelnicy" }, satisfaction: { value: "95%", label: "Satysfakcja czytelników" } },
-      featured: { title: "Artykuł główny" }, search: { placeholder: "Szukaj artykułu...", allCategories: "Wszystkie kategorie" },
-      categories: { title: "Kategorie", innovation: "Innowacje", realEstate: "Nieruchomości", regulation: "Regulacje", economy: "Ekonomia", esg: "ESG", education: "Edukacja" },
-      trending: { title: "Trendy" }, newsletter: { title: "Newsletter", description: "Otrzymuj nasze najnowsze artykuły bezpośrednio na email", placeholder: "Twój email", subscribe: "Zapisz się", disclaimer: "Maksymalnie 1 email tygodniowo." },
-      actions: { readMore: "Czytaj pełny artykuł", read: "Czytaj", loadMore: "Załaduj więcej artykułów", readTime: "czytania" },
+      badge: "Ekspertyza i Analiza",
+      title: "Blog Aurex",
+      subtitle: "K-pital",
+      description: "Analizy ekspertów, trendy rynkowe i praktyczne porady dla optymalizacji decyzji finansowych i inwestycyjnych.",
+      stats: {
+        articles: { value: "150+", label: "Opublikowane artykuły" },
+        experts: { value: "8", label: "Eksperci autorzy" },
+        readers: { value: "50K+", label: "Miesięczni czytelnicy" },
+        satisfaction: { value: "95%", label: "Satysfakcja czytelników" }
+      },
+      featured: { title: "Artykuł główny" },
+      search: { placeholder: "Szukaj artykułu...", allCategories: "Wszystkie kategorie" },
+      categories: {
+        title: "Kategorie",
+        innovation: "Innowacje",
+        realEstate: "Nieruchomości",
+        regulation: "Regulacje",
+        economy: "Ekonomia",
+        esg: "ESG",
+        education: "Edukacja"
+      },
+      trending: { title: "Trendy" },
+      newsletter: {
+        title: "Newsletter",
+        description: "Otrzymuj nasze najnowsze artykuły i analizy bezpośrednio na email",
+        placeholder: "Twój email",
+        subscribe: "Zapisz się",
+        disclaimer: "Maksymalnie 1 email tygodniowo. Łatwa rezygnacja."
+      },
+      actions: {
+        readMore: "Czytaj pełny artykuł",
+        read: "Czytaj",
+        loadMore: "Załaduj więcej artykułów",
+        readTime: "min czytania"
+      },
       content: {
-        featuredArticle: { title: "Sztuczna inteligencja rewolucjonizuje europejski sektor finansowy", excerpt: "Odkryj, jak nowe technologie transformują usługi bankowe i inwestycyjne.", author: "Dr. Marie Dubois", role: "Dyrektor Innowacji FinTech", date: "15 stycznia 2024", category: "innovation" },
+        featuredArticle: {
+          title: "Sztuczna inteligencja rewolucjonizuje europejski sektor finansowy",
+          excerpt: "Odkryj, jak nowe technologie transformują usługi bankowe i inwestycyjne, oferując europejskim klientom bardziej spersonalizowane i efektywne rozwiązania.",
+          author: "Dr. Marie Dubois",
+          role: "Dyrektor Innowacji FinTech",
+          date: "15 stycznia 2024",
+          category: "innovation"
+        },
         articles: [
-          { title: "Kompletny przewodnik po kredycie hipotecznym 2024", excerpt: "Wszystko co musisz wiedzieć o aktualnych warunkach rynku nieruchomości.", author: "Pierre Martin", date: "12 stycznia 2024", category: "realEstate" }
+          { title: "Kompletny przewodnik po kredycie hipotecznym 2024", excerpt: "Wszystko co musisz wiedzieć o aktualnych warunkach rynku nieruchomości.", author: "Pierre Martin", date: "12 stycznia 2024", category: "realEstate" },
+          { title: "Nowe europejskie regulacje dotyczące krypto-aktywów", excerpt: "Analiza wpływu rozporządzenia MiCA na inwestorów.", author: "Sophie Bernard", date: "10 stycznia 2024", category: "regulation" },
+          { title: "Trendy ekonomiczne 2024: prognozy ekspertów", excerpt: "Główne trendy, które będą kształtować europejską gospodarkę w tym roku.", author: "Jean-Claude Moreau", date: "8 stycznia 2024", category: "economy" },
+          { title: "Inwestycje ESG: wydajność i wpływ", excerpt: "Jak połączyć rentowność z odpowiedzialnością środowiskową w inwestycjach.", author: "Émilie Rousseau", date: "5 stycznia 2024", category: "esg" },
+          { title: "Edukacja finansowa: podstawy inwestowania", excerpt: "Praktyczny przewodnik dla początkujących inwestorów.", author: "Marc Lefebvre", date: "3 stycznia 2024", category: "education" },
+          { title: "Optymalizacja podatkowa 2024: nowości i strategie", excerpt: "Najnowsze zmiany podatkowe i strategie optymalizacji.", author: "Anne Durand", date: "1 stycznia 2024", category: "economy" }
         ],
-        trending: [{ title: "Jak negocjować oprocentowanie kredytu hipotecznego" }]
+        trending: [
+          { title: "Jak negocjować oprocentowanie kredytu hipotecznego" },
+          { title: "Inwestowanie w nieruchomości na wynajem 2024" },
+          { title: "Najlepsze europejskie ubezpieczenia na życie" },
+          { title: "Zakładanie firmy: przewodnik finansowania" },
+          { title: "Emerytura: porównanie rozwiązań" }
+        ]
       }
     }
   },
   fi: { 
     menu: { blog: "Blogi" }, 
     blog: { 
-      badge: "Asiantuntemus", 
+      badge: "Asiantuntemus ja Analyysi", 
       title: "Aurex Blogi", 
       subtitle: "K-pital",
       description: "Asiantuntija-analyysit, markkinatrendit ja käytännön neuvot rahoitus- ja investointipäätöstenne optimointiin.",
+      stats: {
+        articles: { value: "150+", label: "Julkaistua artikkelia" },
+        experts: { value: "8", label: "Asiantuntija kirjoittajaa" },
+        readers: { value: "50K+", label: "Kuukausittaista lukijaa" },
+        satisfaction: { value: "95%", label: "Lukijatyytyväisyys" }
+      },
       featured: { title: "Pääartikkeli" },
       search: { placeholder: "Etsi artikkeli...", allCategories: "Kaikki kategoriat" },
-      categories: { title: "Kategoriat", innovation: "Innovaatio", realEstate: "Kiinteistöt", regulation: "Säännökset", economy: "Talous", esg: "ESG", education: "Koulutus" }, 
+      categories: { 
+        title: "Kategoriat", 
+        innovation: "Innovaatio", 
+        realEstate: "Kiinteistöt", 
+        regulation: "Säännökset", 
+        economy: "Talous", 
+        esg: "ESG", 
+        education: "Koulutus" 
+      }, 
       trending: { title: "Trendit" },
-      newsletter: { title: "Uutiskirje", description: "Saa uusimmat artikkelit ja analyysit suoraan sähköpostiisi", placeholder: "Sähköpostisi", subscribe: "Tilaa", disclaimer: "Enintään 1 sähköposti viikossa." },
-      actions: { readMore: "Lue koko artikkeli", read: "Lue", loadMore: "Lataa lisää artikkeleita", readTime: "lukuaika" } 
+      newsletter: { 
+        title: "Uutiskirje", 
+        description: "Saa uusimmat artikkelit ja analyysit suoraan sähköpostiisi", 
+        placeholder: "Sähköpostisi", 
+        subscribe: "Tilaa", 
+        disclaimer: "Enintään 1 sähköposti viikossa. Helppo peruuttaa." 
+      },
+      actions: { 
+        readMore: "Lue koko artikkeli", 
+        read: "Lue", 
+        loadMore: "Lataa lisää artikkeleita", 
+        readTime: "min lukuaika" 
+      },
+      content: {
+        featuredArticle: {
+          title: "Tekoäly mullistaa Euroopan rahoitussektorin",
+          excerpt: "Tutustu siihen, miten uudet teknologiat muuttavat pankki- ja sijoituspalveluja tarjoten eurooppalaisille asiakkaille henkilökohtaisempia ja tehokkaampia ratkaisuja.",
+          author: "Dr. Marie Dubois",
+          role: "FinTech innovaatiojohtaja",
+          date: "15. tammikuuta 2024",
+          category: "innovation"
+        },
+        articles: [
+          { title: "Täydellinen opas asuntolainaan 2024", excerpt: "Kaikki mitä sinun tarvitsee tietää nykyisistä kiinteistömarkkinoiden olosuhteista.", author: "Pierre Martin", date: "12. tammikuuta 2024", category: "realEstate" },
+          { title: "Uudet eurooppalaiset kryptoomaisuussäännökset", excerpt: "MiCA-asetuksen vaikutusten analyysi sijoittajille.", author: "Sophie Bernard", date: "10. tammikuuta 2024", category: "regulation" },
+          { title: "Taloudelliset trendit 2024: asiantuntijennusteet", excerpt: "Tärkeimmät trendit, jotka muokkaavat Euroopan taloutta tänä vuonna.", author: "Jean-Claude Moreau", date: "8. tammikuuta 2024", category: "economy" },
+          { title: "ESG-sijoittaminen: suorituskyky ja vaikutus", excerpt: "Kuinka yhdistää kannattavuus ja ympäristövastuu sijoituksissa.", author: "Émilie Rousseau", date: "5. tammikuuta 2024", category: "esg" },
+          { title: "Rahoituskoulutus: sijoittamisen perusteet", excerpt: "Käytännön opas aloitteleville sijoittajille.", author: "Marc Lefebvre", date: "3. tammikuuta 2024", category: "education" },
+          { title: "Verooptimointi 2024: uutuudet ja strategiat", excerpt: "Uusimmat verokehitykset ja optimointistrategiat.", author: "Anne Durand", date: "1. tammikuuta 2024", category: "economy" }
+        ],
+        trending: [
+          { title: "Kuinka neuvotella asuntolainan korko" },
+          { title: "Sijoittaminen vuokra-asuntoihin 2024" },
+          { title: "Parhaat eurooppalaiset henkivakuutukset" },
+          { title: "Yrityksen perustaminen: rahoitusopas" },
+          { title: "Eläke: ratkaisujen vertailu" }
+        ]
+      }
     } 
   },
   es: { 
     menu: { blog: "Blog" }, 
     blog: { 
-      badge: "Experiencia", 
+      badge: "Experiencia y Análisis", 
       title: "Blog Aurex", 
       subtitle: "K-pital",
       description: "Análisis de expertos, tendencias del mercado y consejos prácticos para optimizar sus decisiones financieras e inversiones.",
+      stats: {
+        articles: { value: "150+", label: "Artículos publicados" },
+        experts: { value: "8", label: "Autores expertos" },
+        readers: { value: "50K+", label: "Lectores mensuales" },
+        satisfaction: { value: "95%", label: "Satisfacción de lectores" }
+      },
       featured: { title: "Artículo destacado" },
       search: { placeholder: "Buscar artículo...", allCategories: "Todas las categorías" },
-      categories: { title: "Categorías", innovation: "Innovación", realEstate: "Inmobiliario", regulation: "Regulación", economy: "Economía", esg: "ESG", education: "Educación" }, 
+      categories: { 
+        title: "Categorías", 
+        innovation: "Innovación", 
+        realEstate: "Inmobiliario", 
+        regulation: "Regulación", 
+        economy: "Economía", 
+        esg: "ESG", 
+        education: "Educación" 
+      }, 
       trending: { title: "Tendencias" },
-      newsletter: { title: "Newsletter", description: "Reciba nuestros últimos artículos y análisis directamente en su buzón", placeholder: "Su email", subscribe: "Suscribirse", disclaimer: "Máximo 1 email por semana." },
-      actions: { readMore: "Leer artículo completo", read: "Leer", loadMore: "Cargar más artículos", readTime: "de lectura" } 
+      newsletter: { 
+        title: "Newsletter", 
+        description: "Reciba nuestros últimos artículos y análisis directamente en su buzón", 
+        placeholder: "Su email", 
+        subscribe: "Suscribirse", 
+        disclaimer: "Máximo 1 email por semana. Fácil cancelación." 
+      },
+      actions: { 
+        readMore: "Leer artículo completo", 
+        read: "Leer", 
+        loadMore: "Cargar más artículos", 
+        readTime: "min de lectura" 
+      },
+      content: {
+        featuredArticle: {
+          title: "La inteligencia artificial revoluciona el sector financiero europeo",
+          excerpt: "Descubra cómo las nuevas tecnologías transforman los servicios bancarios y de inversión, ofreciendo a los clientes europeos soluciones más personalizadas y eficientes.",
+          author: "Dr. Marie Dubois",
+          role: "Directora de Innovación FinTech",
+          date: "15 de enero de 2024",
+          category: "innovation"
+        },
+        articles: [
+          { title: "Guía completa del crédito hipotecario 2024", excerpt: "Todo lo que necesita saber sobre las condiciones actuales del mercado inmobiliario.", author: "Pierre Martin", date: "12 de enero de 2024", category: "realEstate" },
+          { title: "Nueva regulación europea sobre cripto-activos", excerpt: "Análisis del impacto del reglamento MiCA para los inversores.", author: "Sophie Bernard", date: "10 de enero de 2024", category: "regulation" },
+          { title: "Tendencias económicas 2024: pronósticos de expertos", excerpt: "Las principales tendencias que darán forma a la economía europea este año.", author: "Jean-Claude Moreau", date: "8 de enero de 2024", category: "economy" },
+          { title: "Inversión ESG: rendimiento e impacto", excerpt: "Cómo combinar rentabilidad y responsabilidad ambiental en las inversiones.", author: "Émilie Rousseau", date: "5 de enero de 2024", category: "esg" },
+          { title: "Educación financiera: fundamentos de la inversión", excerpt: "Guía práctica para inversores principiantes.", author: "Marc Lefebvre", date: "3 de enero de 2024", category: "education" },
+          { title: "Optimización fiscal 2024: novedades y estrategias", excerpt: "Los últimos desarrollos fiscales y estrategias de optimización.", author: "Anne Durand", date: "1 de enero de 2024", category: "economy" }
+        ],
+        trending: [
+          { title: "Cómo negociar el tipo de interés de su hipoteca" },
+          { title: "Invertir en inmuebles de alquiler 2024" },
+          { title: "Los mejores seguros de vida europeos" },
+          { title: "Crear una empresa: guía de financiación" },
+          { title: "Jubilación: comparar soluciones" }
+        ]
+      }
     } 
   },
   pt: { 
     menu: { blog: "Blog" }, 
     blog: { 
-      badge: "Perícia", 
+      badge: "Perícia e Análise", 
       title: "Blog Aurex", 
       subtitle: "K-pital",
-      description: "Análises de especialistas, tendências de mercado e conselhos práticos para otimizar suas decisões financeiras e investimentos.",
+      description: "Análises de especialistas, tendências de mercado e conselhos práticos para otimizar as suas decisões financeiras e investimentos.",
+      stats: {
+        articles: { value: "150+", label: "Artigos publicados" },
+        experts: { value: "8", label: "Autores especialistas" },
+        readers: { value: "50K+", label: "Leitores mensais" },
+        satisfaction: { value: "95%", label: "Satisfação dos leitores" }
+      },
       featured: { title: "Artigo em destaque" },
       search: { placeholder: "Procurar artigo...", allCategories: "Todas as categorias" },
-      categories: { title: "Categorias", innovation: "Inovação", realEstate: "Imobiliário", regulation: "Regulamentação", economy: "Economia", esg: "ESG", education: "Educação" }, 
+      categories: { 
+        title: "Categorias", 
+        innovation: "Inovação", 
+        realEstate: "Imobiliário", 
+        regulation: "Regulamentação", 
+        economy: "Economia", 
+        esg: "ESG", 
+        education: "Educação" 
+      }, 
       trending: { title: "Tendências" },
-      newsletter: { title: "Newsletter", description: "Receba os nossos últimos artigos e análises diretamente na sua caixa de correio", placeholder: "O seu email", subscribe: "Subscrever", disclaimer: "Máximo 1 email por semana." },
-      actions: { readMore: "Ler artigo completo", read: "Ler", loadMore: "Carregar mais artigos", readTime: "de leitura" } 
+      newsletter: { 
+        title: "Newsletter", 
+        description: "Receba os nossos últimos artigos e análises diretamente na sua caixa de correio", 
+        placeholder: "O seu email", 
+        subscribe: "Subscrever", 
+        disclaimer: "Máximo 1 email por semana. Cancelamento fácil." 
+      },
+      actions: { 
+        readMore: "Ler o artigo completo", 
+        read: "Ler", 
+        loadMore: "Carregar mais artigos", 
+        readTime: "min de leitura" 
+      },
+      content: {
+        featuredArticle: {
+          title: "A inteligência artificial revoluciona o setor financeiro europeu",
+          excerpt: "Descubra como as novas tecnologias transformam os serviços bancários e de investimento, oferecendo aos clientes europeus soluções mais personalizadas e eficientes.",
+          author: "Dr. Marie Dubois",
+          role: "Diretora de Inovação FinTech",
+          date: "15 de janeiro de 2024",
+          category: "innovation"
+        },
+        articles: [
+          { title: "Guia completo do crédito habitação 2024", excerpt: "Tudo o que precisa de saber sobre as condições atuais do mercado imobiliário.", author: "Pierre Martin", date: "12 de janeiro de 2024", category: "realEstate" },
+          { title: "Nova regulamentação europeia sobre cripto-ativos", excerpt: "Análise do impacto do regulamento MiCA para os investidores.", author: "Sophie Bernard", date: "10 de janeiro de 2024", category: "regulation" },
+          { title: "Tendências económicas 2024: previsões de especialistas", excerpt: "As principais tendências que moldarão a economia europeia este ano.", author: "Jean-Claude Moreau", date: "8 de janeiro de 2024", category: "economy" },
+          { title: "Investimento ESG: desempenho e impacto", excerpt: "Como combinar rentabilidade e responsabilidade ambiental nos investimentos.", author: "Émilie Rousseau", date: "5 de janeiro de 2024", category: "esg" },
+          { title: "Educação financeira: fundamentos do investimento", excerpt: "Guia prático para investidores iniciantes.", author: "Marc Lefebvre", date: "3 de janeiro de 2024", category: "education" },
+          { title: "Otimização fiscal 2024: novidades e estratégias", excerpt: "Os últimos desenvolvimentos fiscais e estratégias de otimização.", author: "Anne Durand", date: "1 de janeiro de 2024", category: "economy" }
+        ],
+        trending: [
+          { title: "Como negociar a taxa de juro do crédito habitação" },
+          { title: "Investir em imóveis para arrendamento 2024" },
+          { title: "Os melhores seguros de vida europeus" },
+          { title: "Criar uma empresa: guia de financiamento" },
+          { title: "Reforma: comparar soluções" }
+        ]
+      }
     } 
   },
   el: { 
     menu: { blog: "Ιστολόγιο" }, 
     blog: { 
-      badge: "Εμπειρογνωμοσύνη", 
+      badge: "Εμπειρογνωμοσύνη και Ανάλυση", 
       title: "Aurex Blog", 
       subtitle: "K-pital",
       description: "Αναλύσεις ειδικών, τάσεις αγοράς και πρακτικές συμβουλές για τη βελτιστοποίηση των χρηματοοικονομικών και επενδυτικών σας αποφάσεων.",
+      stats: {
+        articles: { value: "150+", label: "Δημοσιευμένα άρθρα" },
+        experts: { value: "8", label: "Συγγραφείς ειδικοί" },
+        readers: { value: "50K+", label: "Μηνιαίοι αναγνώστες" },
+        satisfaction: { value: "95%", label: "Ικανοποίηση αναγνωστών" }
+      },
       featured: { title: "Κύριο άρθρο" },
       search: { placeholder: "Αναζήτηση άρθρου...", allCategories: "Όλες οι κατηγορίες" },
-      categories: { title: "Κατηγορίες", innovation: "Καινοτομία", realEstate: "Ακίνητα", regulation: "Κανονισμοί", economy: "Οικονομία", esg: "ESG", education: "Εκπαίδευση" }, 
+      categories: { 
+        title: "Κατηγορίες", 
+        innovation: "Καινοτομία", 
+        realEstate: "Ακίνητα", 
+        regulation: "Κανονισμοί", 
+        economy: "Οικονομία", 
+        esg: "ESG", 
+        education: "Εκπαίδευση" 
+      }, 
       trending: { title: "Τάσεις" },
-      newsletter: { title: "Newsletter", description: "Λάβετε τα τελευταία μας άρθρα και αναλύσεις απευθείας στο γραμματοκιβώτιό σας", placeholder: "Το email σας", subscribe: "Εγγραφή", disclaimer: "Μέγιστο 1 email την εβδομάδα." },
-      actions: { readMore: "Διαβάστε το πλήρες άρθρο", read: "Διαβάστε", loadMore: "Φορτώστε περισσότερα άρθρα", readTime: "ανάγνωσης" } 
+      newsletter: { 
+        title: "Newsletter", 
+        description: "Λάβετε τα τελευταία μας άρθρα και αναλύσεις απευθείας στο γραμματοκιβώτιό σας", 
+        placeholder: "Το email σας", 
+        subscribe: "Εγγραφή", 
+        disclaimer: "Μέγιστο 1 email την εβδομάδα. Εύκολη ακύρωση." 
+      },
+      actions: { 
+        readMore: "Διαβάστε το πλήρες άρθρο", 
+        read: "Διαβάστε", 
+        loadMore: "Φορτώστε περισσότερα άρθρα", 
+        readTime: "λεπτά ανάγνωσης" 
+      },
+      content: {
+        featuredArticle: {
+          title: "Η τεχνητή νοημοσύνη επαναστατεί στον ευρωπαϊκό χρηματοπιστωτικό τομέα",
+          excerpt: "Ανακαλύψτε πώς οι νέες τεχνολογίες μεταμορφώνουν τις τραπεζικές και επενδυτικές υπηρεσίες, προσφέροντας στους ευρωπαίους πελάτες πιο εξατομικευμένες και αποτελεσματικές λύσεις.",
+          author: "Δρ. Marie Dubois",
+          role: "Διευθύντρια Καινοτομίας FinTech",
+          date: "15 Ιανουαρίου 2024",
+          category: "innovation"
+        },
+        articles: [
+          { title: "Πλήρης οδηγός στεγαστικού δανείου 2024", excerpt: "Όλα όσα χρειάζεται να γνωρίζετε για τις τρέχουσες συνθήκες της αγοράς ακινήτων.", author: "Pierre Martin", date: "12 Ιανουαρίου 2024", category: "realEstate" },
+          { title: "Νέα ευρωπαϊκή νομοθεσία για κρυπτο-περιουσιακά στοιχεία", excerpt: "Ανάλυση της επίδρασης του κανονισμού MiCA για τους επενδυτές.", author: "Sophie Bernard", date: "10 Ιανουαρίου 2024", category: "regulation" },
+          { title: "Οικονομικές τάσεις 2024: προβλέψεις ειδικών", excerpt: "Οι κύριες τάσεις που θα διαμορφώσουν την ευρωπαϊκή οικονομία φέτος.", author: "Jean-Claude Moreau", date: "8 Ιανουαρίου 2024", category: "economy" },
+          { title: "Επένδυση ESG: απόδοση και επίδραση", excerpt: "Πώς να συνδυάσετε κερδοφορία και περιβαλλοντική υπευθυνότητα στις επενδύσεις.", author: "Émilie Rousseau", date: "5 Ιανουαρίου 2024", category: "esg" },
+          { title: "Χρηματοοικονομική εκπαίδευση: βάσεις επένδυσης", excerpt: "Πρακτικός οδηγός για αρχάριους επενδυτές.", author: "Marc Lefebvre", date: "3 Ιανουαρίου 2024", category: "education" },
+          { title: "Φορολογική βελτιστοποίηση 2024: νέα και στρατηγικές", excerpt: "Οι τελευταίες φορολογικές εξελίξεις και στρατηγικές βελτιστοποίησης.", author: "Anne Durand", date: "1 Ιανουαρίου 2024", category: "economy" }
+        ],
+        trending: [
+          { title: "Πώς να διαπραγματευτείτε το επιτόκιο του στεγαστικού σας δανείου" },
+          { title: "Επένδυση σε ενοικιαζόμενα ακίνητα 2024" },
+          { title: "Οι καλύτερες ευρωπαϊκές ασφάλειες ζωής" },
+          { title: "Δημιουργία εταιρείας: οδηγός χρηματοδότησης" },
+          { title: "Σύνταξη: σύγκριση λύσεων" }
+        ]
+      }
     } 
   },
   it: { 
     menu: { blog: "Blog" }, 
     blog: { 
-      badge: "Competenza", 
+      badge: "Competenza e Analisi", 
       title: "Blog Aurex", 
       subtitle: "K-pital",
       description: "Analisi di esperti, tendenze di mercato e consigli pratici per ottimizzare le vostre decisioni finanziarie e di investimento.",
+      stats: {
+        articles: { value: "150+", label: "Articoli pubblicati" },
+        experts: { value: "8", label: "Autori esperti" },
+        readers: { value: "50K+", label: "Lettori mensili" },
+        satisfaction: { value: "95%", label: "Soddisfazione lettori" }
+      },
       featured: { title: "Articolo in evidenza" },
       search: { placeholder: "Cerca articolo...", allCategories: "Tutte le categorie" },
-      categories: { title: "Categorie", innovation: "Innovazione", realEstate: "Immobiliare", regulation: "Regolamentazione", economy: "Economia", esg: "ESG", education: "Educazione" }, 
+      categories: { 
+        title: "Categorie", 
+        innovation: "Innovazione", 
+        realEstate: "Immobiliare", 
+        regulation: "Regolamentazione", 
+        economy: "Economia", 
+        esg: "ESG", 
+        education: "Educazione" 
+      }, 
       trending: { title: "Tendenze" },
-      newsletter: { title: "Newsletter", description: "Ricevete i nostri ultimi articoli e analisi direttamente nella vostra casella di posta", placeholder: "La vostra email", subscribe: "Iscriversi", disclaimer: "Massimo 1 email a settimana." },
-      actions: { readMore: "Leggi l'articolo completo", read: "Leggi", loadMore: "Carica più articoli", readTime: "di lettura" } 
+      newsletter: { 
+        title: "Newsletter", 
+        description: "Ricevete i nostri ultimi articoli e analisi direttamente nella vostra casella di posta", 
+        placeholder: "La vostra email", 
+        subscribe: "Iscriversi", 
+        disclaimer: "Massimo 1 email a settimana. Facile cancellazione." 
+      },
+      actions: { 
+        readMore: "Leggi l'articolo completo", 
+        read: "Leggi", 
+        loadMore: "Carica più articoli", 
+        readTime: "min di lettura" 
+      },
+      content: {
+        featuredArticle: {
+          title: "L'intelligenza artificiale rivoluziona il settore finanziario europeo",
+          excerpt: "Scoprite come le nuove tecnologie trasformano i servizi bancari e di investimento, offrendo ai clienti europei soluzioni più personalizzate ed efficienti.",
+          author: "Dr. Marie Dubois",
+          role: "Direttrice Innovazione FinTech",
+          date: "15 gennaio 2024",
+          category: "innovation"
+        },
+        articles: [
+          { title: "Guida completa al mutuo casa 2024", excerpt: "Tutto quello che dovete sapere sulle condizioni attuali del mercato immobiliare.", author: "Pierre Martin", date: "12 gennaio 2024", category: "realEstate" },
+          { title: "Nuova regolamentazione europea sui cripto-asset", excerpt: "Analisi dell'impatto del regolamento MiCA per gli investitori.", author: "Sophie Bernard", date: "10 gennaio 2024", category: "regulation" },
+          { title: "Tendenze economiche 2024: previsioni degli esperti", excerpt: "Le principali tendenze che plasmeranno l'economia europea quest'anno.", author: "Jean-Claude Moreau", date: "8 gennaio 2024", category: "economy" },
+          { title: "Investimenti ESG: performance e impatto", excerpt: "Come combinare redditività e responsabilità ambientale negli investimenti.", author: "Émilie Rousseau", date: "5 gennaio 2024", category: "esg" },
+          { title: "Educazione finanziaria: fondamenti degli investimenti", excerpt: "Guida pratica per investitori principianti.", author: "Marc Lefebvre", date: "3 gennaio 2024", category: "education" },
+          { title: "Ottimizzazione fiscale 2024: novità e strategie", excerpt: "Gli ultimi sviluppi fiscali e strategie di ottimizzazione.", author: "Anne Durand", date: "1 gennaio 2024", category: "economy" }
+        ],
+        trending: [
+          { title: "Come negoziare il tasso di interesse del mutuo" },
+          { title: "Investire in immobili in affitto 2024" },
+          { title: "Le migliori assicurazioni vita europee" },
+          { title: "Creare un'azienda: guida al finanziamento" },
+          { title: "Pensione: confrontare le soluzioni" }
+        ]
+      }
     } 
   }
 };
