@@ -25,18 +25,17 @@ const Legal = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Scale className="h-4 w-4 mr-2" />
-                Informations Légales
+                {t('legal.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Mentions
-              <span className="text-gold block">Légales</span>
+              {t('legal.title.main')}
+              <span className="text-gold block">{t('legal.title.subtitle')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Toutes les informations légales et réglementaires concernant Aurex K-pital 
-              et l'utilisation de nos services.
+              {t('legal.description')}
             </p>
           </div>
         </div>
@@ -47,10 +46,10 @@ const Legal = () => {
         <div className="container mx-auto px-4">
           <Tabs defaultValue="mentions" className="max-w-6xl mx-auto">
             <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 mb-12">
-              <TabsTrigger value="mentions">Mentions Légales</TabsTrigger>
-              <TabsTrigger value="privacy">Confidentialité</TabsTrigger>
-              <TabsTrigger value="terms">CGU</TabsTrigger>
-              <TabsTrigger value="gdpr">RGPD</TabsTrigger>
+              <TabsTrigger value="mentions">{t('legal.tabs.mentions')}</TabsTrigger>
+              <TabsTrigger value="privacy">{t('legal.tabs.privacy')}</TabsTrigger>
+              <TabsTrigger value="terms">{t('legal.tabs.terms')}</TabsTrigger>
+              <TabsTrigger value="gdpr">{t('legal.tabs.gdpr')}</TabsTrigger>
             </TabsList>
 
             {/* Mentions Légales */}
@@ -59,57 +58,57 @@ const Legal = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center gap-3 text-primary">
                     <Building className="h-6 w-6" />
-                    Mentions Légales
+                    {t('legal.mentions.title')}
                   </CardTitle>
                   <CardDescription>
-                    Informations sur la société et responsabilités légales
+                    {t('legal.mentions.description')}
                   </CardDescription>
                 </CardHeader>
                 
                 <CardContent className="prose prose-lg max-w-none">
-                  <h3 className="text-xl font-bold text-primary mb-4">Identification de la Société</h3>
+                  <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.company.title')}</h3>
                   <div className="bg-secondary/30 p-6 rounded-lg mb-6">
-                    <p><strong>Dénomination sociale :</strong> Aurex K-pital GmbH</p>
-                    <p><strong>Forme juridique :</strong> Société à responsabilité limitée (GmbH)</p>
-                    <p><strong>Capital social :</strong> 2 500 000 €</p>
-                    <p><strong>Siège social :</strong> Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne</p>
-                    <p><strong>Registre du commerce :</strong> Hamburg HRB 147852</p>
-                    <p><strong>Numéro de TVA :</strong> DE 312 456 789</p>
-                    <p><strong>Numéro SIREN :</strong> 523 456 789</p>
+                    <p><strong>{t('legal.mentions.company.name')}:</strong> Aurex K-pital GmbH</p>
+                    <p><strong>{t('legal.mentions.company.type')}:</strong> {t('legal.mentions.company.typeValue')}</p>
+                    <p><strong>{t('legal.mentions.company.capital')}:</strong> 2 500 000 €</p>
+                    <p><strong>{t('legal.mentions.company.address')}:</strong> Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne</p>
+                    <p><strong>{t('legal.mentions.company.register')}:</strong> Hamburg HRB 147852</p>
+                    <p><strong>{t('legal.mentions.company.vat')}:</strong> DE 312 456 789</p>
+                    <p><strong>{t('legal.mentions.company.siren')}:</strong> 523 456 789</p>
                   </div>
 
-                  <h3 className="text-xl font-bold text-primary mb-4">Direction</h3>
-                  <p><strong>Directeur Général :</strong> Dr. Klaus Müller</p>
-                  <p><strong>Directrice Innovation :</strong> Sophie Laurent</p>
-                  <p><strong>Directeur des Risques :</strong> Marco Antonelli</p>
+                  <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.management.title')}</h3>
+                  <p><strong>{t('legal.mentions.management.ceo')}:</strong> Dr. Klaus Müller</p>
+                  <p><strong>{t('legal.mentions.management.cio')}:</strong> Sophie Laurent</p>
+                  <p><strong>{t('legal.mentions.management.cro')}:</strong> Marco Antonelli</p>
 
-                  <h3 className="text-xl font-bold text-primary mb-4">Activité</h3>
-                  <p>Aurex K-pital est un établissement financier agréé par la BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) sous le numéro d'agrément 147-FS-2015. Nos activités incluent :</p>
+                  <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.activity.title')}</h3>
+                  <p>{t('legal.mentions.activity.description')}</p>
                   <ul className="list-disc pl-6 space-y-2">
-                    <li>Courtage en opérations bancaires et services de paiement</li>
-                    <li>Conseil en investissements financiers</li>
-                    <li>Intermédiation en assurance</li>
-                    <li>Services de gestion de patrimoine</li>
+                    <li>{t('legal.mentions.activity.services.banking')}</li>
+                    <li>{t('legal.mentions.activity.services.investment')}</li>
+                    <li>{t('legal.mentions.activity.services.insurance')}</li>
+                    <li>{t('legal.mentions.activity.services.wealth')}</li>
                   </ul>
 
-                  <h3 className="text-xl font-bold text-primary mb-4">Contact</h3>
+                  <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.contact.title')}</h3>
                   <div className="bg-secondary/30 p-6 rounded-lg mb-6">
-                    <p><strong>Téléphone :</strong> +49 40 710 97523</p>
-                    <p><strong>Email :</strong> contact@aurex-kpital.de</p>
-                    <p><strong>Horaires :</strong> Lundi-Vendredi 8h-19h, Samedi 9h-17h</p>
+                    <p><strong>{t('legal.mentions.contact.phone')}:</strong> +49 40 710 97523</p>
+                    <p><strong>{t('legal.mentions.contact.email')}:</strong> contact@aurex-kpital.de</p>
+                    <p><strong>{t('legal.mentions.contact.hours')}:</strong> {t('legal.mentions.contact.schedule')}</p>
                   </div>
 
-                  <h3 className="text-xl font-bold text-primary mb-4">Hébergement</h3>
-                  <p>Ce site est hébergé par :</p>
+                  <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.hosting.title')}</h3>
+                  <p>{t('legal.mentions.hosting.description')}</p>
                   <p><strong>Amazon Web Services EMEA SARL</strong><br />
                   38 Avenue John F. Kennedy, L-1855 Luxembourg<br />
-                  Téléphone : +352 2789 0000</p>
+                  {t('legal.mentions.contact.phone')}: +352 2789 0000</p>
 
-                  <h3 className="text-xl font-bold text-primary mb-4">Propriété Intellectuelle</h3>
-                  <p>Tous les contenus présents sur ce site (textes, images, logos, graphismes, etc.) sont protégés par le droit d'auteur et appartiennent à Aurex K-pital ou à ses partenaires. Toute reproduction, même partielle, est interdite sans autorisation écrite préalable.</p>
+                  <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.intellectual.title')}</h3>
+                  <p>{t('legal.mentions.intellectual.description')}</p>
 
-                  <h3 className="text-xl font-bold text-primary mb-4">Responsabilité</h3>
-                  <p>Aurex K-pital s'efforce de fournir des informations exactes et à jour. Cependant, la société ne peut garantir l'exactitude, la complétude ou l'actualité des informations diffusées sur ce site. L'utilisation des informations se fait sous la responsabilité exclusive de l'utilisateur.</p>
+                  <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.responsibility.title')}</h3>
+                  <p>{t('legal.mentions.responsibility.description')}</p>
                 </CardContent>
               </Card>
             </TabsContent>

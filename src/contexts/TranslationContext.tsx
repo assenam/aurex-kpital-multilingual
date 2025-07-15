@@ -391,6 +391,70 @@ const translations = {
           feedback: "Le simulateur était très clair et j'ai obtenu de meilleures conditions qu'à ma banque."
         }
       ]
+    },
+    legal: {
+      badge: "Informations Légales",
+      title: {
+        main: "Mentions",
+        subtitle: "Légales"
+      },
+      description: "Toutes les informations légales et réglementaires concernant Aurex K-pital et l'utilisation de nos services.",
+      tabs: {
+        mentions: "Mentions Légales",
+        privacy: "Confidentialité",
+        terms: "CGU",
+        gdpr: "RGPD"
+      },
+      mentions: {
+        title: "Mentions Légales",
+        description: "Informations sur la société et responsabilités légales",
+        company: {
+          title: "Identification de la Société",
+          name: "Dénomination sociale",
+          type: "Forme juridique",
+          typeValue: "Société à responsabilité limitée (GmbH)",
+          capital: "Capital social",
+          address: "Siège social",
+          register: "Registre du commerce",
+          vat: "Numéro de TVA",
+          siren: "Numéro SIREN"
+        },
+        management: {
+          title: "Direction",
+          ceo: "Directeur Général",
+          cio: "Directrice Innovation",
+          cro: "Directeur des Risques"
+        },
+        activity: {
+          title: "Activité",
+          description: "Aurex K-pital est un établissement financier agréé par la BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) sous le numéro d'agrément 147-FS-2015. Nos activités incluent :",
+          services: {
+            banking: "Courtage en opérations bancaires et services de paiement",
+            investment: "Conseil en investissements financiers",
+            insurance: "Intermédiation en assurance",
+            wealth: "Services de gestion de patrimoine"
+          }
+        },
+        contact: {
+          title: "Contact",
+          phone: "Téléphone",
+          email: "Email",
+          hours: "Horaires",
+          schedule: "Lundi-Vendredi 8h-19h, Samedi 9h-17h"
+        },
+        hosting: {
+          title: "Hébergement",
+          description: "Ce site est hébergé par :"
+        },
+        intellectual: {
+          title: "Propriété Intellectuelle",
+          description: "Tous les contenus présents sur ce site (textes, images, logos, graphismes, etc.) sont protégés par le droit d'auteur et appartiennent à Aurex K-pital ou à ses partenaires. Toute reproduction, même partielle, est interdite sans autorisation écrite préalable."
+        },
+        responsibility: {
+          title: "Responsabilité",
+          description: "Aurex K-pital s'efforce de fournir des informations exactes et à jour. Cependant, la société ne peut garantir l'exactitude, la complétude ou l'actualité des informations diffusées sur ce site. L'utilisation des informations se fait sous la responsabilité exclusive de l'utilisateur."
+        }
+      }
     }
   },
   de: {
@@ -650,6 +714,70 @@ const translations = {
           feedback: "Der Simulator war sehr klar, und ich erhielt bessere Konditionen als bei meiner Bank."
         }
       ]
+    },
+    legal: {
+      badge: "Rechtliche Informationen",
+      title: {
+        main: "Impressum",
+        subtitle: "und Rechtliches"
+      },
+      description: "Alle rechtlichen und regulatorischen Informationen zu Aurex K-pital und der Nutzung unserer Dienstleistungen.",
+      tabs: {
+        mentions: "Impressum",
+        privacy: "Datenschutz",
+        terms: "AGB",
+        gdpr: "DSGVO"
+      },
+      mentions: {
+        title: "Impressum",
+        description: "Unternehmensangaben und rechtliche Verantwortlichkeiten",
+        company: {
+          title: "Unternehmensidentifikation",
+          name: "Firmenbezeichnung",
+          type: "Rechtsform",
+          typeValue: "Gesellschaft mit beschränkter Haftung (GmbH)",
+          capital: "Stammkapital",
+          address: "Firmensitz",
+          register: "Handelsregister",
+          vat: "Umsatzsteuer-ID",
+          siren: "SIREN-Nummer"
+        },
+        management: {
+          title: "Geschäftsführung",
+          ceo: "Geschäftsführer",
+          cio: "Innovationsleiterin",
+          cro: "Risikoleiter"
+        },
+        activity: {
+          title: "Tätigkeit",
+          description: "Aurex K-pital ist ein von der BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) lizenziertes Finanzinstitut mit der Lizenznummer 147-FS-2015. Unsere Aktivitäten umfassen:",
+          services: {
+            banking: "Vermittlung von Bankgeschäften und Zahlungsdienstleistungen",
+            investment: "Anlageberatung",
+            insurance: "Versicherungsvermittlung",
+            wealth: "Vermögensverwaltungsdienstleistungen"
+          }
+        },
+        contact: {
+          title: "Kontakt",
+          phone: "Telefon",
+          email: "E-Mail",
+          hours: "Öffnungszeiten",
+          schedule: "Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
+        },
+        hosting: {
+          title: "Hosting",
+          description: "Diese Website wird gehostet von:"
+        },
+        intellectual: {
+          title: "Geistiges Eigentum",
+          description: "Alle auf dieser Website vorhandenen Inhalte (Texte, Bilder, Logos, Grafiken usw.) sind urheberrechtlich geschützt und gehören Aurex K-pital oder seinen Partnern. Jede Vervielfältigung, auch auszugsweise, ist ohne vorherige schriftliche Genehmigung untersagt."
+        },
+        responsibility: {
+          title: "Haftung",
+          description: "Aurex K-pital bemüht sich, genaue und aktuelle Informationen bereitzustellen. Das Unternehmen kann jedoch nicht die Richtigkeit, Vollständigkeit oder Aktualität der auf dieser Website verbreiteten Informationen garantieren. Die Nutzung der Informationen erfolgt ausschließlich auf eigene Verantwortung des Nutzers."
+        }
+      }
     }
   },
   es: {
@@ -909,6 +1037,70 @@ const translations = {
           feedback: "El simulador fue muy claro y obtuve mejores condiciones que en mi banco."
         }
       ]
+    },
+    legal: {
+      badge: "Información Legal",
+      title: {
+        main: "Aviso",
+        subtitle: "Legal"
+      },
+      description: "Toda la información legal y reglamentaria sobre Aurex K-pital y el uso de nuestros servicios.",
+      tabs: {
+        mentions: "Aviso Legal",
+        privacy: "Privacidad",
+        terms: "Términos",
+        gdpr: "RGPD"
+      },
+      mentions: {
+        title: "Aviso Legal",
+        description: "Información de la empresa y responsabilidades legales",
+        company: {
+          title: "Identificación de la Empresa",
+          name: "Denominación social",
+          type: "Forma jurídica",
+          typeValue: "Sociedad de responsabilidad limitada (GmbH)",
+          capital: "Capital social",
+          address: "Sede social",
+          register: "Registro mercantil",
+          vat: "Número de IVA",
+          siren: "Número SIREN"
+        },
+        management: {
+          title: "Dirección",
+          ceo: "Director General",
+          cio: "Directora de Innovación",
+          cro: "Director de Riesgos"
+        },
+        activity: {
+          title: "Actividad",
+          description: "Aurex K-pital es una institución financiera autorizada por la BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) bajo el número de autorización 147-FS-2015. Nuestras actividades incluyen:",
+          services: {
+            banking: "Intermediación en operaciones bancarias y servicios de pago",
+            investment: "Asesoramiento en inversiones financieras",
+            insurance: "Intermediación en seguros",
+            wealth: "Servicios de gestión patrimonial"
+          }
+        },
+        contact: {
+          title: "Contacto",
+          phone: "Teléfono",
+          email: "Email",
+          hours: "Horarios",
+          schedule: "Lunes-Viernes 8h-19h, Sábado 9h-17h"
+        },
+        hosting: {
+          title: "Alojamiento",
+          description: "Este sitio está alojado por:"
+        },
+        intellectual: {
+          title: "Propiedad Intelectual",
+          description: "Todos los contenidos presentes en este sitio (textos, imágenes, logos, gráficos, etc.) están protegidos por derechos de autor y pertenecen a Aurex K-pital o a sus socios. Cualquier reproducción, incluso parcial, está prohibida sin autorización escrita previa."
+        },
+        responsibility: {
+          title: "Responsabilidad",
+          description: "Aurex K-pital se esfuerza por proporcionar información precisa y actualizada. Sin embargo, la empresa no puede garantizar la exactitud, integridad o actualidad de la información difundida en este sitio. El uso de la información se hace bajo la responsabilidad exclusiva del usuario."
+        }
+      }
     }
   },
   it: {
