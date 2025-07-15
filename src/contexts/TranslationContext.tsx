@@ -394,6 +394,7 @@ const translations = {
     },
     simulator: {
       title: "Calculateur de Prêt",
+      titleSecond: "Intelligent",
       subtitle: "Obtenez une estimation personnalisée en temps réel de votre financement",
       form: {
         loanType: "Type de financement",
@@ -795,6 +796,7 @@ const translations = {
     },
     simulator: {
       title: "Kreditrechner",
+      titleSecond: "Intelligent",
       subtitle: "Erhalten Sie eine personalisierte Echtzeitschätzung Ihrer Finanzierung",
       form: {
         loanType: "Finanzierungsart",
@@ -1196,6 +1198,7 @@ const translations = {
     },
     simulator: {
       title: "Calculadora de Préstamo",
+      titleSecond: "Inteligente",
       subtitle: "Obtenga una estimación personalizada en tiempo real de su financiación",
       form: {
         loanType: "Tipo de financiación",
@@ -1597,6 +1600,7 @@ const translations = {
     },
     simulator: {
       title: "Calcolatore di Prestito",
+      titleSecond: "Intelligente",
       subtitle: "Ottieni una stima personalizzata in tempo reale del tuo finanziamento",
       form: {
         loanType: "Tipo di finanziamento",
@@ -1934,6 +1938,7 @@ const translations = {
     },
     simulator: {
       title: "Kalkulator Pożyczkowy",
+      titleSecond: "Inteligentny",
       subtitle: "Otrzymaj spersonalizowane oszacowanie finansowania w czasie rzeczywistym",
       form: {
         loanType: "Rodzaj finansowania",
@@ -2271,6 +2276,7 @@ const translations = {
     },
     simulator: {
       title: "Lainalaskuri",
+      titleSecond: "Älykäs",
       subtitle: "Saa henkilökohtainen reaaliaikainen arvio rahoituksestasi",
       form: {
         loanType: "Rahoitustyyppi",
@@ -2608,6 +2614,7 @@ const translations = {
     },
     simulator: {
       title: "Calculadora de Empréstimo",
+      titleSecond: "Inteligente",
       subtitle: "Obtenha uma estimativa personalizada em tempo real do seu financiamento",
       form: {
         loanType: "Tipo de financiamento",
@@ -2945,6 +2952,7 @@ const translations = {
     },
     simulator: {
       title: "Υπολογιστής Δανείου",
+      titleSecond: "Έξυπνος",
       subtitle: "Λάβετε μια εξατομικευμένη εκτίμηση σε πραγματικό χρόνο για τη χρηματοδότησή σας",
       form: {
         loanType: "Τύπος χρηματοδότησης",

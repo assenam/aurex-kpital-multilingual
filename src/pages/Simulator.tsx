@@ -97,7 +97,7 @@ const Simulator = () => {
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               {t('simulator.title')}
-              <span className="text-gold block">Intelligent</span>
+              <span className="text-gold block">{t('simulator.titleSecond')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
