@@ -12,275 +12,117 @@ import {
 } from 'lucide-react';
 
 const About = () => {
-  const { t, language } = useTranslation();
+  const { t } = useTranslation();
   
-  // Données traduites directement selon la langue
-  const milestones = language === 'de' ? [
+  const milestones = [
     {
       year: "1997",
-      title: "Gründung in Hamburg",
-      description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
+      title: t('about.timeline.1997.title'),
+      description: t('about.timeline.1997.description')
     },
     {
       year: "2003",
-      title: "Europäische Expansion",
-      description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
+      title: t('about.timeline.2003.title'),
+      description: t('about.timeline.2003.description')
     },
     {
       year: "2010",
-      title: "KI-Innovation",
-      description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
+      title: t('about.timeline.2010.title'),
+      description: t('about.timeline.2010.description')
     },
     {
       year: "2015",
-      title: "Exzellenz-Zertifizierung",
-      description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
+      title: t('about.timeline.2015.title'),
+      description: t('about.timeline.2015.description')
     },
     {
       year: "2020",
-      title: "Digitale Transformation",
-      description: "Start der 100% digitalen Plattform und fortgeschrittener Vorhersagealgorithmen"
+      title: t('about.timeline.2020.title'),
+      description: t('about.timeline.2020.description')
     },
     {
       year: "2024",
-      title: "Marktführer",
-      description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
-    }
-  ] : [
-    {
-      year: "1997",
-      title: "Fondation à Hamburg",
-      description: "Création d'Aurex K-pital avec la vision de révolutionner les services financiers en Europe"
-    },
-    {
-      year: "2003",
-      title: "Expansion européenne",
-      description: "Ouverture de bureaux dans 5 pays européens et lancement des premiers services digitaux"
-    },
-    {
-      year: "2010",
-      title: "Innovation IA",
-      description: "Intégration pionnière de l'intelligence artificielle dans l'analyse de crédit"
-    },
-    {
-      year: "2015",
-      title: "Certification Excellence",
-      description: "Obtention des certifications européennes les plus strictes en matière financière"
-    },
-    {
-      year: "2020",
-      title: "Transformation digitale",
-      description: "Lancement de la plateforme 100% digitale et des algorithmes prédictifs avancés"
-    },
-    {
-      year: "2024",
-      title: "Leader marché",
-      description: "Position de leader européen avec plus de 50 000 clients satisfaits"
+      title: t('about.timeline.2024.title'),
+      description: t('about.timeline.2024.description')
     }
   ];
 
-  const values = language === 'de' ? [
+  const values = [
     {
       icon: Heart,
-      title: "Kundenexzellenz",
-      description: "Jeder Kunde ist einzigartig und verdient persönliche Aufmerksamkeit mit maßgeschneiderten Lösungen."
+      title: t('about.values.excellence.title'),
+      description: t('about.values.excellence.description')
     },
     {
       icon: Shield,
-      title: "Absolute Sicherheit",
-      description: "Maximaler Schutz von Daten und Investitionen mit den fortschrittlichsten Technologien."
+      title: t('about.values.security.title'),
+      description: t('about.values.security.description')
     },
     {
       icon: Lightbulb,
-      title: "Kontinuierliche Innovation",
-      description: "Permanente Suche nach neuen Lösungen zur Antizipation zukünftiger Bedürfnisse."
+      title: t('about.values.innovation.title'),
+      description: t('about.values.innovation.description')
     },
     {
       icon: CheckCircle,
-      title: "Totale Transparenz",
-      description: "Klare und ehrliche Kommunikation über alle unsere Produkte, Services und Konditionen."
-    }
-  ] : [
-    {
-      icon: Heart,
-      title: "Excellence Client",
-      description: "Chaque client est unique et mérite une attention personnalisée avec des solutions sur mesure."
-    },
-    {
-      icon: Shield,
-      title: "Sécurité Absolue",
-      description: "Protection maximale des données et des investissements avec les technologies les plus avancées."
-    },
-    {
-      icon: Lightbulb,
-      title: "Innovation Continue",
-      description: "Recherche permanente de nouvelles solutions pour anticiper les besoins de demain."
-    },
-    {
-      icon: CheckCircle,
-      title: "Transparence Totale",
-      description: "Communication claire et honnête sur tous nos produits, services et conditions."
+      title: t('about.values.transparency.title'),
+      description: t('about.values.transparency.description')
     }
   ];
 
-  const team = language === 'de' ? [
+  const team = [
     {
       name: "Dr. Klaus Müller",
-      position: "Geschäftsführer",
-      experience: "25 Jahre",
-      specialty: "Finanzstrategie",
-      education: "PhD Finanzen - Frankfurt School"
+      position: t('about.team.ceo.position'),
+      experience: t('about.team.ceo.experience'),
+      specialty: t('about.team.ceo.specialty'),
+      education: t('about.team.ceo.education')
     },
     {
       name: "Sophie Laurent",
-      position: "Innovationsleiterin",
-      experience: "15 Jahre",
-      specialty: "FinTech & KI",
-      education: "MIT - Künstliche Intelligenz"
+      position: t('about.team.innovation.position'),
+      experience: t('about.team.innovation.experience'),
+      specialty: t('about.team.innovation.specialty'),
+      education: t('about.team.innovation.education')
     },
     {
       name: "Marco Antonelli",
-      position: "Risikoleiter",
-      experience: "20 Jahre",
-      specialty: "Risikomanagement",
-      education: "Bocconi - Risk Management"
+      position: t('about.team.risk.position'),
+      experience: t('about.team.risk.experience'),
+      specialty: t('about.team.risk.specialty'),
+      education: t('about.team.risk.education')
     },
     {
       name: "Elena Rodriguez",
-      position: "Kundenleiterin",
-      experience: "12 Jahre",
-      specialty: "Kundenbeziehungen",
-      education: "ESADE - Customer Experience"
-    }
-  ] : [
-    {
-      name: "Dr. Klaus Müller",
-      position: "Directeur Général",
-      experience: "25 ans",
-      specialty: "Stratégie financière",
-      education: "PhD Finance - Frankfurt School"
-    },
-    {
-      name: "Sophie Laurent",
-      position: "Directrice Innovation",
-      experience: "15 ans",
-      specialty: "FinTech & IA",
-      education: "MIT - Intelligence Artificielle"
-    },
-    {
-      name: "Marco Antonelli",
-      position: "Directeur Risques",
-      experience: "20 ans",
-      specialty: "Gestion des risques",
-      education: "Bocconi - Risk Management"
-    },
-    {
-      name: "Elena Rodriguez",
-      position: "Directrice Client",
-      experience: "12 ans",
-      specialty: "Relation client",
-      education: "ESADE - Customer Experience"
+      position: t('about.team.customer.position'),
+      experience: t('about.team.customer.experience'),
+      specialty: t('about.team.customer.specialty'),
+      education: t('about.team.customer.education')
     }
   ];
 
-  const certifications = language === 'de' ? [
+  const certifications = [
     {
       name: "ISO 27001",
-      description: "Informationssicherheit",
+      description: t('about.certifications.iso.description'),
       year: "2018"
     },
     {
       name: "PCI DSS",
-      description: "Zahlungssicherheit",
+      description: t('about.certifications.pci.description'),
       year: "2020"
     },
     {
-      name: "DSGVO-Konform",
-      description: "Datenschutz",
+      name: t('about.certifications.gdpr.name'),
+      description: t('about.certifications.gdpr.description'),
       year: "2018"
     },
     {
       name: "SOC 2 Type II",
-      description: "Organisationskontrollen",
-      year: "2021"
-    }
-  ] : [
-    {
-      name: "ISO 27001",
-      description: "Sécurité de l'information",
-      year: "2018"
-    },
-    {
-      name: "PCI DSS",
-      description: "Sécurité des paiements",
-      year: "2020"
-    },
-    {
-      name: "GDPR Compliant",
-      description: "Protection des données",
-      year: "2018"
-    },
-    {
-      name: "SOC 2 Type II",
-      description: "Contrôles organisationnels",
+      description: t('about.certifications.soc2.description'),
       year: "2021"
     }
   ];
-
-  // Traductions directes
-  const content = language === 'de' ? {
-    badge: "Exzellenz seit 1997",
-    title: "Ein Vierteljahrhundert",
-    subtitle: "Finanzinnovation",
-    description: "Von Hamburg aus revolutionieren wir die Finanzberatung durch die Kombination traditioneller menschlicher Expertise mit modernster Technologie.",
-    storyTitle: "Unsere Geschichte",
-    storySubtitle: "Von einem Hamburger Startup zum europäischen Marktführer der Finanzinnovation",
-    storyParagraph1: "Aurex K-pital entstand 1997 aus der visionären Idee, die europäischen Finanzdienstleistungen zu revolutionieren. Mit Sitz in Hamburg, im wirtschaftlichen Herzen Deutschlands, hat sich unser Unternehmen die Mission gesetzt, den Zugang zu innovativen Finanzlösungen zu demokratisieren.",
-    storyParagraph2: "Als Pioniere bei der Integration künstlicher Intelligenz in Finanzdienstleistungen seit 2010 haben wir proprietäre Algorithmen entwickelt, die eine hochpräzise Risikoanalyse und personalisierte Empfehlungen für jeden Kunden ermöglichen.",
-    storyParagraph3: "Heute, mit mehr als 50.000 Kunden in ganz Europa und 5 Milliarden Euro gewährter Finanzierungen, innovieren wir weiter, um die besten Marktlösungen zu bieten.",
-    timelineTitle: "Unsere Meilensteine",
-    valuesTitle: "Unsere Werte",
-    valuesSubtitle: "Die Prinzipien, die jede unserer Handlungen leiten",
-    teamTitle: "Unser Führungsteam",
-    teamSubtitle: "Anerkannte Experten im Dienste Ihres Erfolgs",
-    experienceLabel: "Jahre Erfahrung",
-    certificationsTitle: "Zertifizierungen & Akkreditierungen",
-    certificationsSubtitle: "Offizielle Anerkennung unserer operativen Exzellenz",
-    sinceLabel: "Seit",
-    contactTitle: "Besuchen Sie uns",
-    contactSubtitle: "Unsere Büros empfangen Sie im Herzen von Hamburg",
-    addressTitle: "Adresse",
-    phoneTitle: "Telefon",
-    emailTitle: "E-Mail",
-    appointmentBtn: "Termin vereinbaren",
-    customRequestBtn: "Individuelle Anfrage"
-  } : {
-    badge: "Excellence depuis 1997",
-    title: "Un Quart de Siècle",
-    subtitle: "d'Innovation Financière",
-    description: "Depuis Hamburg, nous révolutionnons l'accompagnement financier en combinant expertise humaine traditionnelle et technologies de pointe.",
-    storyTitle: "Notre Histoire",
-    storySubtitle: "De startup hambourgeoise à leader européen de l'innovation financière",
-    storyParagraph1: "Aurex K-pital naît en 1997 de la vision audacieuse de révolutionner les services financiers européens. Basée à Hamburg, au cœur économique de l'Allemagne, notre entreprise s'est donnée pour mission de démocratiser l'accès aux solutions financières innovantes.",
-    storyParagraph2: "Pionniers dans l'intégration de l'intelligence artificielle aux services financiers dès 2010, nous avons développé des algorithmes propriétaires qui permettent une analyse de risque ultra-précise et des recommandations personnalisées pour chaque client.",
-    storyParagraph3: "Aujourd'hui, avec plus de 50 000 clients dans toute l'Europe et 5 milliards d'euros de financements accordés, nous continuons d'innover pour offrir les meilleures solutions du marché.",
-    timelineTitle: "Nos Grandes Étapes",
-    valuesTitle: "Nos Valeurs",
-    valuesSubtitle: "Les principes qui guident chacune de nos actions",
-    teamTitle: "Notre Équipe Dirigeante",
-    teamSubtitle: "Des experts reconnus au service de votre réussite",
-    experienceLabel: "d'expérience",
-    certificationsTitle: "Certifications & Accréditations",
-    certificationsSubtitle: "Reconnaissance officielle de notre excellence opérationnelle",
-    sinceLabel: "Depuis",
-    contactTitle: "Nous Rencontrer",
-    contactSubtitle: "Nos bureaux vous accueillent au cœur de Hamburg",
-    addressTitle: "Adresse",
-    phoneTitle: "Téléphone",
-    emailTitle: "Email",
-    appointmentBtn: "Prendre rendez-vous",
-    customRequestBtn: "Demande personnalisée"
-  };
 
   return (
     <div className="min-h-screen">
@@ -296,17 +138,17 @@ const About = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Calendar className="h-4 w-4 mr-2" />
-                {content.badge}
+                {t('about.hero.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              {content.title}
-              <span className="text-gold block">{content.subtitle}</span>
+              {t('about.hero.title')}
+              <span className="text-gold block">{t('about.hero.subtitle')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              {content.description}
+              {t('about.hero.description')}
             </p>
           </div>
         </div>
@@ -323,24 +165,24 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-                {content.storyTitle}
+                {t('about.story.title')}
               </h2>
               <p className="text-xl text-muted-foreground">
-                {content.storySubtitle}
+                {t('about.story.subtitle')}
               </p>
             </div>
 
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-xl leading-relaxed mb-6">
-                {content.storyParagraph1}
+                {t('about.story.paragraph1')}
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                {content.storyParagraph2}
+                {t('about.story.paragraph2')}
               </p>
 
               <p className="text-lg leading-relaxed mb-6">
-                {content.storyParagraph3}
+                {t('about.story.paragraph3')}
               </p>
             </div>
           </div>
@@ -354,7 +196,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {content.timelineTitle}
+              {t('about.timeline.title')}
             </h2>
           </div>
 
@@ -393,10 +235,10 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {content.valuesTitle}
+              {t('about.values.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {content.valuesSubtitle}
+              {t('about.values.subtitle')}
             </p>
           </div>
 
@@ -427,36 +269,31 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {content.teamTitle}
+              {t('about.team.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {content.teamSubtitle}
+              {t('about.team.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, index) => (
-              <Card key={member.name} className="text-center hover-lift border-0 shadow-md bg-gradient-to-t from-primary/5 to-white hover:from-primary/10 transition-all duration-300">
+              <Card key={member.name} className="hover-lift border-0 shadow-md text-center bg-gradient-to-b from-white to-gold/5 hover:from-gold/5 hover:to-primary/5 transition-all duration-300">
                 <CardHeader>
-                  <div className="w-24 h-24 mx-auto mb-4 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold ring-4 ring-gold/20">
-                    <Users className="h-12 w-12 text-primary" />
+                  <div className="mx-auto mb-4 p-4 bg-gradient-gold rounded-full w-20 h-20 flex items-center justify-center shadow-gold">
+                    <Users className="h-8 w-8 text-primary" />
                   </div>
                   <CardTitle className="text-lg text-primary">{member.name}</CardTitle>
-                  <CardDescription className="text-accent font-semibold">{member.position}</CardDescription>
+                  <CardDescription className="text-muted-foreground">{member.position}</CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-2">
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                    <Briefcase className="h-4 w-4" />
-                    {member.experience} {content.experienceLabel}
+                    <Badge variant="outline" className="bg-gold/10 text-primary border-gold/30">
+                      {member.experience} {t('about.team.experienceLabel')}
+                    </Badge>
                   </div>
-                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                    <Target className="h-4 w-4" />
-                    {member.specialty}
-                  </div>
-                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
-                    <GraduationCap className="h-4 w-4" />
-                    {member.education}
-                  </div>
+                  <p className="text-sm text-muted-foreground">{member.specialty}</p>
+                  <p className="text-xs text-muted-foreground font-medium">{member.education}</p>
                 </CardContent>
               </Card>
             ))}
@@ -465,30 +302,33 @@ const About = () => {
       </section>
 
       {/* Certifications */}
-      <section className="py-20 bg-gradient-soft-gray relative overflow-hidden">
-        <div className="absolute inset-0 grid-pattern opacity-5"></div>
-        <div className="container mx-auto px-4 relative z-10">
+      <section className="py-20 bg-gradient-soft-gold relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-48 h-48 bg-primary/15 rounded-full blur-3xl float"></div>
+        <div className="absolute bottom-0 left-0 w-32 h-32 bg-accent/20 rounded-full blur-2xl float" style={{ animationDelay: '1s' }}></div>
+        <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {content.certificationsTitle}
+              {t('about.certifications.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {content.certificationsSubtitle}
+              {t('about.certifications.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
-              <Card key={cert.name} className="text-center hover-lift border-0 shadow-md bg-gradient-to-br from-white to-accent/10 hover:from-accent/5 hover:to-accent/15 transition-all duration-300 border-t-4 border-t-accent">
+              <Card key={cert.name} className="hover-lift border-0 shadow-md text-center bg-gradient-to-b from-white to-primary/5 hover:from-gold/5 hover:to-primary/10 transition-all duration-300">
                 <CardHeader>
-                  <div className="mx-auto mb-4 p-4 bg-gradient-gold rounded-xl shadow-gold ring-2 ring-gold/30">
-                    <Award className="h-8 w-8 text-primary" />
+                  <div className="mx-auto mb-4 p-3 bg-gradient-gold rounded-lg w-16 h-16 flex items-center justify-center shadow-gold">
+                    <Award className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle className="text-lg text-primary">{cert.name}</CardTitle>
-                  <CardDescription className="text-sm">{cert.description}</CardDescription>
+                  <CardTitle className="text-base text-primary">{cert.name}</CardTitle>
+                  <CardDescription className="text-sm text-muted-foreground">{cert.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-sm text-accent font-semibold">{content.sinceLabel} {cert.year}</div>
+                  <div className="text-xs text-muted-foreground">
+                    {t('about.certifications.sinceLabel')} {cert.year}
+                  </div>
                 </CardContent>
               </Card>
             ))}
@@ -496,62 +336,78 @@ const About = () => {
         </div>
       </section>
 
-      {/* Contact Info */}
-      <section className="py-20 bg-gradient-primary">
+      {/* Contact Section */}
+      <section className="py-20 bg-gradient-section relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-56 h-56 bg-gold/15 rounded-full blur-3xl float"></div>
+        <div className="absolute bottom-0 right-0 w-40 h-40 bg-primary/20 rounded-full blur-2xl float" style={{ animationDelay: '2s' }}></div>
         <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              {content.contactTitle}
-            </h2>
-            <p className="text-xl mb-12 text-primary-foreground/90">
-              {content.contactSubtitle}
-            </p>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-              <div className="text-center">
-                <MapPin className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{content.addressTitle}</h3>
-                <p className="text-primary-foreground/80">
-                  Irma-Keilhack-Ring 24<br />
-                  22145 Hamburg<br />
-                  {language === 'de' ? 'Deutschland' : 'Allemagne'}
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <Phone className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{content.phoneTitle}</h3>
-                <p className="text-primary-foreground/80">
-                  +49 40 710 97523<br />
-                  {language === 'de' ? 'Mo-Fr: 8-19 Uhr' : 'Lun-Ven: 8h-19h'}<br />
-                  {language === 'de' ? 'Sa: 9-17 Uhr' : 'Sam: 9h-17h'}
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <Mail className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">{content.emailTitle}</h3>
-                <p className="text-primary-foreground/80">
-                  contact@aurex-kpital.de<br />
-                  info@aurex-kpital.de<br />
-                  support@aurex-kpital.de
-                </p>
-              </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
+                {t('about.contact.title')}
+              </h2>
+              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+                {t('about.contact.subtitle')}
+              </p>
             </div>
 
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
-                <Link to="/contact">
-                  <Users className="h-5 w-5 mr-2" />
-                  {content.appointmentBtn}
-                </Link>
-              </Button>
-              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
-                <Link to="/demande">
-                  <Sparkles className="h-5 w-5 mr-2" />
-                  {content.customRequestBtn}
-                </Link>
-              </Button>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <Card className="border-0 shadow-md text-center bg-gradient-to-b from-white to-gold/5 hover:from-gold/5 hover:to-primary/5 transition-all duration-300">
+                <CardHeader>
+                  <div className="mx-auto mb-4 p-3 bg-gradient-gold rounded-lg w-16 h-16 flex items-center justify-center shadow-gold">
+                    <MapPin className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg text-primary">{t('about.contact.addressTitle')}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground text-sm">
+                    Irma-Keilhack-Ring 24<br />
+                    22145 Hamburg<br />
+                    Deutschland
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-0 shadow-md text-center bg-gradient-to-b from-white to-gold/5 hover:from-gold/5 hover:to-primary/5 transition-all duration-300">
+                <CardHeader>
+                  <div className="mx-auto mb-4 p-3 bg-gradient-gold rounded-lg w-16 h-16 flex items-center justify-center shadow-gold">
+                    <Phone className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg text-primary">{t('about.contact.phoneTitle')}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">+49 40 1234 5678</p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-0 shadow-md text-center bg-gradient-to-b from-white to-gold/5 hover:from-gold/5 hover:to-primary/5 transition-all duration-300">
+                <CardHeader>
+                  <div className="mx-auto mb-4 p-3 bg-gradient-gold rounded-lg w-16 h-16 flex items-center justify-center shadow-gold">
+                    <Mail className="h-6 w-6 text-primary" />
+                  </div>
+                  <CardTitle className="text-lg text-primary">{t('about.contact.emailTitle')}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">contact@aurex-kpital.com</p>
+                </CardContent>
+              </Card>
+            </div>
+
+            <div className="text-center space-y-4">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button asChild size="lg" className="shadow-lg hover-lift">
+                  <Link to="/request">
+                    <Briefcase className="h-5 w-5 mr-2" />
+                    {t('about.contact.appointmentBtn')}
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="lg" className="shadow-lg hover-lift border-gold text-primary hover:bg-gold/10">
+                  <Link to="/contact">
+                    <Mail className="h-5 w-5 mr-2" />
+                    {t('about.contact.customRequestBtn')}
+                  </Link>
+                </Button>
+              </div>
             </div>
           </div>
         </div>

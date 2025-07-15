@@ -3335,5 +3335,1002 @@ const translations = {
         }
       }
     }
+  },
+  de: {
+    menu: {
+      home: "Startseite",
+      services: "Dienstleistungen",
+      simulator: "Kreditrechner",
+      request: "Anfrage",
+      about: "Über uns",
+      contact: "Kontakt",
+      faq: "FAQ",
+      careers: "Karriere",
+      partners: "Partner",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Werkzeuge",
+      company: "Unternehmen",
+      legal: "Rechtliches",
+      privacyPolicy: "Datenschutzrichtlinie",
+      terms: "Allgemeine Geschäftsbedingungen",
+      mentions: "Impressum",
+      gdpr: "DSGVO",
+      rights: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
+      description: "Ihr vertrauensvoller Finanzpartner seit 1997. Exzellenz, Innovation und Expertise für alle Ihre Finanzprojekte in Europa.",
+      services: "Dienstleistungen",
+      copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
+      establishment: "Autorisiertes Finanzinstitut in Europa",
+      links: {
+        personalLoans: "Privatdarlehen",
+        proFinancing: "Unternehmensfinanzierung",
+        investments: "Investitionen",
+        insurance: "Versicherungen",
+        simulator: "Kreditrechner",
+        request: "Finanzierungsantrag",
+        faq: "FAQ",
+        contact: "Kontakt",
+        about: "Über uns",
+        partners: "Unsere Partner",
+        careers: "Karriere",
+        blog: "Blog",
+        legal: "Impressum",
+        privacy: "Datenschutzrichtlinie",
+        terms: "Allgemeine Geschäftsbedingungen",
+        gdpr: "DSGVO"
+      }
+    },
+    partners: {
+      title: "Unsere Vertrauenspartner",
+      description: "Ein europäisches Exzellenznetzwerk, um Ihnen die besten Finanzlösungen zu bieten",
+      stats: "Über 25 europäische Partner • 27 abgedeckte Länder • 2,5 Mrd. € bearbeitetes Volumen"
+    },
+    home: {
+      hero: {
+        title: "Ihr Finanzpartner",
+        subtitle: "seit 1997",
+        description: "Exzellenz, Innovation und Vertrauen für alle Ihre Finanzprojekte",
+        ctaBtn: "Unsere Lösungen entdecken",
+        simulateBtn: "Kredit simulieren",
+        scrollText: "Entdecken",
+        carousel: {
+          text1: "Starten Sie Ihr Projekt mit Aurex K-pital",
+          text2: "Erhalten Sie eine Finanzierung ohne Eigenkapital",
+          text3: "Investieren Sie heute in Ihre Zukunft"
+        },
+        stats: {
+          experience: {
+            title: "Jahre Exzellenz",
+            subtitle: "Kontinuierliche Innovation"
+          },
+          clients: {
+            title: "Überzeugte Kunden",
+            subtitle: "Garantierte Zufriedenheit"
+          },
+          funding: {
+            title: "Realisierte Finanzierungen",
+            subtitle: "Transformative Wirkung"
+          }
+        }
+      },
+      services: {
+        badge: "Dienstleistungen",
+        title: "Innovative",
+        subtitle: "Lösungen",
+        description: "Entdecken Sie unsere revolutionären",
+        description2: "Finanzlösungen",
+        description3: "für Ihre Projekte"
+      },
+      about: {
+      hero: {
+        badge: "Exzellenz seit 1997",
+        title: "Ein Vierteljahrhundert",
+        subtitle: "Finanzinnovation",
+        description: "Von Hamburg aus revolutionieren wir die Finanzberatung durch die Kombination traditioneller menschlicher Expertise mit modernster Technologie."
+      },
+      story: {
+        title: "Unsere Geschichte",
+        subtitle: "Von einem Hamburger Startup zum europäischen Marktführer der Finanzinnovation",
+        paragraph1: "Aurex K-pital entstand 1997 aus der visionären Idee, die europäischen Finanzdienstleistungen zu revolutionieren. Mit Sitz in Hamburg, im wirtschaftlichen Herzen Deutschlands, hat sich unser Unternehmen die Mission gesetzt, den Zugang zu innovativen Finanzlösungen zu demokratisieren.",
+        paragraph2: "Als Pioniere bei der Integration künstlicher Intelligenz in Finanzdienstleistungen seit 2010 haben wir proprietäre Algorithmen entwickelt, die eine hochpräzise Risikoanalyse und personalisierte Empfehlungen für jeden Kunden ermöglichen.",
+        paragraph3: "Heute, mit mehr als 50.000 Kunden in ganz Europa und 5 Milliarden Euro gewährter Finanzierungen, innovieren wir weiter, um die besten Marktlösungen zu bieten."
+      },
+      timeline: {
+        title: "Unsere Meilensteine",
+        "1997": {
+          title: "Gründung in Hamburg",
+          description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
+        },
+        "2003": {
+          title: "Europäische Expansion",
+          description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
+        },
+        "2010": {
+          title: "KI-Innovation",
+          description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
+        },
+        "2015": {
+          title: "Exzellenz-Zertifizierung",
+          description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
+        },
+        "2020": {
+          title: "Digitale Transformation",
+          description: "Start der 100% digitalen Plattform und fortgeschrittener Vorhersagealgorithmen"
+        },
+        "2024": {
+          title: "Marktführer",
+          description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
+        }
+      },
+      values: {
+        title: "Unsere Werte",
+        subtitle: "Die Prinzipien, die jede unserer Handlungen leiten",
+        excellence: {
+          title: "Kundenexzellenz",
+          description: "Jeder Kunde ist einzigartig und verdient persönliche Aufmerksamkeit mit maßgeschneiderten Lösungen."
+        },
+        security: {
+          title: "Absolute Sicherheit",
+          description: "Maximaler Schutz von Daten und Investitionen mit den fortschrittlichsten Technologien."
+        },
+        innovation: {
+          title: "Kontinuierliche Innovation",
+          description: "Permanente Suche nach neuen Lösungen zur Antizipation zukünftiger Bedürfnisse."
+        },
+        transparency: {
+          title: "Totale Transparenz",
+          description: "Klare und ehrliche Kommunikation über alle unsere Produkte, Services und Konditionen."
+        }
+      },
+      team: {
+        title: "Unser Führungsteam",
+        subtitle: "Anerkannte Experten im Dienste Ihres Erfolgs",
+        experienceLabel: "Jahre Erfahrung",
+        ceo: {
+          position: "Geschäftsführer",
+          experience: "25 Jahre",
+          specialty: "Finanzstrategie",
+          education: "PhD Finanzen - Frankfurt School"
+        },
+        innovation: {
+          position: "Innovationsleiterin",
+          experience: "15 Jahre",
+          specialty: "FinTech & KI",
+          education: "MIT - Künstliche Intelligenz"
+        },
+        risk: {
+          position: "Risikoleiter",
+          experience: "20 Jahre",
+          specialty: "Risikomanagement",
+          education: "Bocconi - Risk Management"
+        },
+        customer: {
+          position: "Kundenleiterin",
+          experience: "12 Jahre",
+          specialty: "Kundenbeziehungen",
+          education: "ESADE - Customer Experience"
+        }
+      },
+      certifications: {
+        title: "Zertifizierungen & Akkreditierungen",
+        subtitle: "Offizielle Anerkennung unserer operativen Exzellenz",
+        sinceLabel: "Seit",
+        iso: {
+          description: "Informationssicherheit"
+        },
+        pci: {
+          description: "Zahlungssicherheit"
+        },
+        gdpr: {
+          name: "DSGVO-Konform",
+          description: "Datenschutz"
+        },
+        soc2: {
+          description: "Organisationskontrollen"
+        }
+      },
+      contact: {
+        title: "Besuchen Sie uns",
+        subtitle: "Unsere Büros empfangen Sie im Herzen von Hamburg",
+        addressTitle: "Adresse",
+        phoneTitle: "Telefon",
+        emailTitle: "E-Mail",
+        appointmentBtn: "Termin vereinbaren",
+        customRequestBtn: "Individuelle Anfrage"
+      }
+    }
+  },
+  pl: {
+    menu: {
+      home: "Strona główna",
+      services: "Usługi",
+      simulator: "Symulator",
+      request: "Wniosek",
+      about: "O nas",
+      contact: "Kontakt",
+      faq: "FAQ",
+      careers: "Kariera",
+      partners: "Partnerzy",
+      blog: "Blog"
+    },
+    about: {
+      hero: {
+        badge: "Doskonałość od 1997",
+        title: "Ćwierć wieku",
+        subtitle: "innowacji finansowych",
+        description: "Z Hamburga rewolucjonizujemy doradztwo finansowe, łącząc tradycyjną ludzką ekspertyzę z najnowocześniejszymi technologiami."
+      },
+      story: {
+        title: "Nasza historia",
+        subtitle: "Od hamburskiego startupu do europejskiego lidera innowacji finansowych",
+        paragraph1: "Aurex K-pital powstał w 1997 roku z śmiałej wizji rewolucjonizowania europejskich usług finansowych. Z siedzibą w Hamburgu, w sercu gospodarczym Niemiec, nasza firma postawiła sobie za misję demokratyzację dostępu do innowacyjnych rozwiązań finansowych.",
+        paragraph2: "Pionierzy w integracji sztucznej inteligencji z usługami finansowymi od 2010 roku, opracowaliśmy własne algorytmy umożliwiające ultra-precyzyjną analizę ryzyka i spersonalizowane rekomendacje dla każdego klienta.",
+        paragraph3: "Dziś, z ponad 50 000 klientów w całej Europie i 5 miliardami euro udzielonych finansowań, nadal wprowadzamy innowacje, aby oferować najlepsze rozwiązania na rynku."
+      },
+      timeline: {
+        title: "Nasze główne etapy",
+        "1997": {
+          title: "Założenie w Hamburgu",
+          description: "Utworzenie Aurex K-pital z wizją rewolucjonizowania usług finansowych w Europie"
+        },
+        "2003": {
+          title: "Ekspansja europejska",
+          description: "Otwarcie biur w 5 krajach europejskich i uruchomienie pierwszych usług cyfrowych"
+        },
+        "2010": {
+          title: "Innowacje AI",
+          description: "Pionierska integracja sztucznej inteligencji w analizie kredytowej"
+        },
+        "2015": {
+          title: "Certyfikat doskonałości",
+          description: "Uzyskanie najsurowszych europejskich certyfikatów finansowych"
+        },
+        "2020": {
+          title: "Transformacja cyfrowa",
+          description: "Uruchomienie platformy 100% cyfrowej i zaawansowanych algorytmów predykcyjnych"
+        },
+        "2024": {
+          title: "Lider rynku",
+          description: "Pozycja europejskiego lidera z ponad 50 000 zadowolonych klientów"
+        }
+      },
+      values: {
+        title: "Nasze wartości",
+        subtitle: "Zasady kierujące każdym naszym działaniem",
+        excellence: {
+          title: "Doskonałość klienta",
+          description: "Każdy klient jest wyjątkowy i zasługuje na spersonalizowaną uwagę z rozwiązaniami na miarę."
+        },
+        security: {
+          title: "Bezpieczeństwo absolutne",
+          description: "Maksymalna ochrona danych i inwestycji z najbardziej zaawansowanymi technologiami."
+        },
+        innovation: {
+          title: "Ciągłe innowacje",
+          description: "Stałe poszukiwanie nowych rozwiązań do przewidywania potrzeb jutra."
+        },
+        transparency: {
+          title: "Całkowita przejrzystość",
+          description: "Jasna i uczciwa komunikacja dotycząca wszystkich naszych produktów, usług i warunków."
+        }
+      },
+      team: {
+        title: "Nasz zespół kierowniczy",
+        subtitle: "Uznani eksperci w służbie waszego sukcesu",
+        experienceLabel: "doświadczenia",
+        ceo: {
+          position: "Dyrektor generalny",
+          experience: "25 lat",
+          specialty: "Strategia finansowa",
+          education: "PhD Finanse - Frankfurt School"
+        },
+        innovation: {
+          position: "Dyrektor ds. innowacji",
+          experience: "15 lat",
+          specialty: "FinTech i AI",
+          education: "MIT - Sztuczna inteligencja"
+        },
+        risk: {
+          position: "Dyrektor ds. ryzyka",
+          experience: "20 lat",
+          specialty: "Zarządzanie ryzykiem",
+          education: "Bocconi - Risk Management"
+        },
+        customer: {
+          position: "Dyrektor ds. klientów",
+          experience: "12 lat",
+          specialty: "Relacje z klientami",
+          education: "ESADE - Customer Experience"
+        }
+      },
+      certifications: {
+        title: "Certyfikaty i akredytacje",
+        subtitle: "Oficjalne uznanie naszej doskonałości operacyjnej",
+        sinceLabel: "Od",
+        iso: {
+          description: "Bezpieczeństwo informacji"
+        },
+        pci: {
+          description: "Bezpieczeństwo płatności"
+        },
+        gdpr: {
+          name: "RODO zgodny",
+          description: "Ochrona danych"
+        },
+        soc2: {
+          description: "Kontrole organizacyjne"
+        }
+      },
+      contact: {
+        title: "Spotkajmy się",
+        subtitle: "Nasze biura przyjmują Państwa w sercu Hamburga",
+        addressTitle: "Adres",
+        phoneTitle: "Telefon",
+        emailTitle: "Email",
+        appointmentBtn: "Umówić spotkanie",
+        customRequestBtn: "Spersonalizowane zapytanie"
+      }
+    }
+  },
+  fi: {
+    menu: {
+      home: "Koti",
+      services: "Palvelut",
+      simulator: "Lainalaskuri",
+      request: "Hakemus",
+      about: "Tietoa meistä",
+      contact: "Yhteystiedot",
+      faq: "UKK",
+      careers: "Ura",
+      partners: "Yhteistyökumppanit",
+      blog: "Blogi"
+    },
+    about: {
+      hero: {
+        badge: "Huippuosaamista vuodesta 1997",
+        title: "Neljännesvuosisata",
+        subtitle: "rahoitusinnovaatioita",
+        description: "Hampurista käsin mullistamme rahoitusneuvontaa yhdistämällä perinteisen inhimillisen asiantuntemuksen huippumoderniin teknologiaan."
+      },
+      story: {
+        title: "Meidän tarinaamme",
+        subtitle: "Hampurilaisesta startup-yrityksestä eurooppalaiseksi rahoitusinnovaatioiden johtajaksi",
+        paragraph1: "Aurex K-pital syntyi vuonna 1997 rohkeasta visiosta mullistaa eurooppalaiset rahoituspalvelut. Hampurissa, Saksan taloudellisessa sydämessä sijaitseva yrityksemme on asettanut tehtäväkseen innovatiivisten rahoitusratkaisujen demokratisoinnin.",
+        paragraph2: "Tekoälyn integroimisen pioneereina rahoituspalveluihin vuodesta 2010 lähtien olemme kehittäneet omia algoritmeja, jotka mahdollistavat erittäin tarkan riskianalyysin ja henkilökohtaiset suositukset jokaiselle asiakkaalle.",
+        paragraph3: "Tänään, yli 50 000 asiakkaan kanssa kaikkialla Euroopassa ja 5 miljardin euron myönnettyjen rahoitusten jälkeen, jatkamme innovointia tarjotaksemme markkinoiden parhaat ratkaisut."
+      },
+      timeline: {
+        title: "Tärkeimmät virstanpylväämme",
+        "1997": {
+          title: "Perustaminen Hampurissa",
+          description: "Aurex K-pitalin luominen visiolla mullistaa rahoituspalvelut Euroopassa"
+        },
+        "2003": {
+          title: "Eurooppalainen laajentuminen",
+          description: "Toimistojen avaaminen 5 eurooppalaisessa maassa ja ensimmäisten digitaalisten palveluiden käynnistäminen"
+        },
+        "2010": {
+          title: "AI-innovaatio",
+          description: "Tekoälyn uraauurtava integrointi luottoanalyysiin"
+        },
+        "2015": {
+          title: "Huippuluokan sertifiointi",
+          description: "Euroopan tiukimpien rahoitussertifikaattien hankkiminen"
+        },
+        "2020": {
+          title: "Digitaalinen muutos",
+          description: "100% digitaalisen alustan ja kehittyneiden ennustealgoritmien käynnistäminen"
+        },
+        "2024": {
+          title: "Markkinajohtaja",
+          description: "Asema eurooppalaisena johtajana yli 50 000 tyytyväisen asiakkaan kanssa"
+        }
+      },
+      values: {
+        title: "Meidän arvomme",
+        subtitle: "Periaatteet, jotka ohjaavat jokaista toimintaamme",
+        excellence: {
+          title: "Asiakkaiden huippuosaaminen",
+          description: "Jokainen asiakas on ainutlaatuinen ja ansaitsee henkilökohtaista huomiota räätälöidyillä ratkaisuilla."
+        },
+        security: {
+          title: "Ehdoton turvallisuus",
+          description: "Tietojen ja investointien maksimaalinen suojaus edistyneimmillä teknologioilla."
+        },
+        innovation: {
+          title: "Jatkuva innovaatio",
+          description: "Jatkuva uusien ratkaisujen etsintä huomisen tarpeiden ennakoimiseksi."
+        },
+        transparency: {
+          title: "Täydellinen läpinäkyvyys",
+          description: "Selkeä ja rehellinen viestintä kaikista tuotteistamme, palveluistamme ja ehdoistamme."
+        }
+      },
+      team: {
+        title: "Johtoryhmämme",
+        subtitle: "Tunnustettuja asiantuntijoita menestykseenne palvelemassa",
+        experienceLabel: "kokemusta",
+        ceo: {
+          position: "Toimitusjohtaja",
+          experience: "25 vuotta",
+          specialty: "Rahoitusstrategia",
+          education: "PhD Rahoitus - Frankfurt School"
+        },
+        innovation: {
+          position: "Innovaatiojohtaja",
+          experience: "15 vuotta",
+          specialty: "FinTech ja AI",
+          education: "MIT - Tekoäly"
+        },
+        risk: {
+          position: "Riskijohtaja",
+          experience: "20 vuotta",
+          specialty: "Riskinhallinta",
+          education: "Bocconi - Risk Management"
+        },
+        customer: {
+          position: "Asiakasjohtaja",
+          experience: "12 vuotta",
+          specialty: "Asiakassuhteet",
+          education: "ESADE - Customer Experience"
+        }
+      },
+      certifications: {
+        title: "Sertifikaatit ja akkreditoinnit",
+        subtitle: "Virallinen tunnustus toiminnallisesta huippuosaamisestamme",
+        sinceLabel: "Alkaen",
+        iso: {
+          description: "Tietoturva"
+        },
+        pci: {
+          description: "Maksuturvallisuus"
+        },
+        gdpr: {
+          name: "GDPR-yhteensopiva",
+          description: "Tietosuoja"
+        },
+        soc2: {
+          description: "Organisaation valvonta"
+        }
+      },
+      contact: {
+        title: "Tavataan",
+        subtitle: "Toimistomme ottavat teidät vastaan Hampurin sydämessä",
+        addressTitle: "Osoite",
+        phoneTitle: "Puhelin",
+        emailTitle: "Sähköposti",
+        appointmentBtn: "Varata tapaaminen",
+        customRequestBtn: "Henkilökohtainen pyyntö"
+      }
+    }
+  },
+  es: {
+    menu: {
+      home: "Inicio",
+      services: "Servicios",
+      simulator: "Simulador",
+      request: "Solicitud",
+      about: "Sobre nosotros",
+      contact: "Contacto",
+      faq: "FAQ",
+      careers: "Carreras",
+      partners: "Socios",
+      blog: "Blog"
+    },
+    about: {
+      hero: {
+        badge: "Excelencia desde 1997",
+        title: "Un cuarto de siglo",
+        subtitle: "de innovación financiera",
+        description: "Desde Hamburgo, revolucionamos el asesoramiento financiero combinando la experiencia humana tradicional con tecnologías de vanguardia."
+      },
+      story: {
+        title: "Nuestra historia",
+        subtitle: "De startup hamburguesa a líder europeo en innovación financiera",
+        paragraph1: "Aurex K-pital nació en 1997 de la visión audaz de revolucionar los servicios financieros europeos. Con sede en Hamburgo, en el corazón económico de Alemania, nuestra empresa se propuso democratizar el acceso a soluciones financieras innovadoras.",
+        paragraph2: "Pioneros en la integración de inteligencia artificial en servicios financieros desde 2010, hemos desarrollado algoritmos propietarios que permiten un análisis de riesgo ultra-preciso y recomendaciones personalizadas para cada cliente.",
+        paragraph3: "Hoy, con más de 50,000 clientes en toda Europa y 5 mil millones de euros en financiamientos otorgados, seguimos innovando para ofrecer las mejores soluciones del mercado."
+      },
+      timeline: {
+        title: "Nuestras principales etapas",
+        "1997": {
+          title: "Fundación en Hamburgo",
+          description: "Creación de Aurex K-pital con la visión de revolucionar los servicios financieros en Europa"
+        },
+        "2003": {
+          title: "Expansión europea",
+          description: "Apertura de oficinas en 5 países europeos y lanzamiento de los primeros servicios digitales"
+        },
+        "2010": {
+          title: "Innovación IA",
+          description: "Integración pionera de inteligencia artificial en análisis crediticio"
+        },
+        "2015": {
+          title: "Certificación de excelencia",
+          description: "Obtención de las certificaciones financieras europeas más estrictas"
+        },
+        "2020": {
+          title: "Transformación digital",
+          description: "Lanzamiento de plataforma 100% digital y algoritmos predictivos avanzados"
+        },
+        "2024": {
+          title: "Líder del mercado",
+          description: "Posición de líder europeo con más de 50,000 clientes satisfechos"
+        }
+      },
+      values: {
+        title: "Nuestros valores",
+        subtitle: "Los principios que guían cada una de nuestras acciones",
+        excellence: {
+          title: "Excelencia del cliente",
+          description: "Cada cliente es único y merece atención personalizada con soluciones a medida."
+        },
+        security: {
+          title: "Seguridad absoluta",
+          description: "Protección máxima de datos e inversiones con las tecnologías más avanzadas."
+        },
+        innovation: {
+          title: "Innovación continua",
+          description: "Búsqueda permanente de nuevas soluciones para anticipar las necesidades del mañana."
+        },
+        transparency: {
+          title: "Transparencia total",
+          description: "Comunicación clara y honesta sobre todos nuestros productos, servicios y condiciones."
+        }
+      },
+      team: {
+        title: "Nuestro equipo directivo",
+        subtitle: "Expertos reconocidos al servicio de su éxito",
+        experienceLabel: "de experiencia",
+        ceo: {
+          position: "Director General",
+          experience: "25 años",
+          specialty: "Estrategia financiera",
+          education: "PhD Finanzas - Frankfurt School"
+        },
+        innovation: {
+          position: "Directora de Innovación",
+          experience: "15 años",
+          specialty: "FinTech e IA",
+          education: "MIT - Inteligencia Artificial"
+        },
+        risk: {
+          position: "Director de Riesgos",
+          experience: "20 años",
+          specialty: "Gestión de riesgos",
+          education: "Bocconi - Risk Management"
+        },
+        customer: {
+          position: "Directora de Clientes",
+          experience: "12 años",
+          specialty: "Relación con clientes",
+          education: "ESADE - Customer Experience"
+        }
+      },
+      certifications: {
+        title: "Certificaciones y acreditaciones",
+        subtitle: "Reconocimiento oficial de nuestra excelencia operativa",
+        sinceLabel: "Desde",
+        iso: {
+          description: "Seguridad de la información"
+        },
+        pci: {
+          description: "Seguridad de pagos"
+        },
+        gdpr: {
+          name: "GDPR Conforme",
+          description: "Protección de datos"
+        },
+        soc2: {
+          description: "Controles organizacionales"
+        }
+      },
+      contact: {
+        title: "Encontrémonos",
+        subtitle: "Nuestras oficinas les reciben en el corazón de Hamburgo",
+        addressTitle: "Dirección",
+        phoneTitle: "Teléfono",
+        emailTitle: "Email",
+        appointmentBtn: "Concertar cita",
+        customRequestBtn: "Solicitud personalizada"
+      }
+    }
+  },
+  pt: {
+    menu: {
+      home: "Início",
+      services: "Serviços",
+      simulator: "Simulador",
+      request: "Pedido",
+      about: "Sobre nós",
+      contact: "Contacto",
+      faq: "FAQ",
+      careers: "Carreiras",
+      partners: "Parceiros",
+      blog: "Blog"
+    },
+    about: {
+      hero: {
+        badge: "Excelência desde 1997",
+        title: "Um quarto de século",
+        subtitle: "de inovação financeira",
+        description: "De Hamburgo, revolucionamos o aconselhamento financeiro combinando experiência humana tradicional com tecnologias de ponta."
+      },
+      story: {
+        title: "A nossa história",
+        subtitle: "De startup hamburguesa a líder europeu da inovação financeira",
+        paragraph1: "Aurex K-pital nasceu em 1997 da visão audaciosa de revolucionar os serviços financeiros europeus. Sediada em Hamburgo, no coração económico da Alemanha, a nossa empresa propôs-se democratizar o acesso a soluções financeiras inovadoras.",
+        paragraph2: "Pioneiros na integração de inteligência artificial aos serviços financeiros desde 2010, desenvolvemos algoritmos proprietários que permitem uma análise de risco ultra-precisa e recomendações personalizadas para cada cliente.",
+        paragraph3: "Hoje, com mais de 50.000 clientes em toda a Europa e 5 mil milhões de euros em financiamentos concedidos, continuamos a inovar para oferecer as melhores soluções do mercado."
+      },
+      timeline: {
+        title: "As nossas principais etapas",
+        "1997": {
+          title: "Fundação em Hamburgo",
+          description: "Criação da Aurex K-pital com a visão de revolucionar os serviços financeiros na Europa"
+        },
+        "2003": {
+          title: "Expansão europeia",
+          description: "Abertura de escritórios em 5 países europeus e lançamento dos primeiros serviços digitais"
+        },
+        "2010": {
+          title: "Inovação IA",
+          description: "Integração pioneira de inteligência artificial na análise de crédito"
+        },
+        "2015": {
+          title: "Certificação de excelência",
+          description: "Obtenção das certificações financeiras europeias mais rigorosas"
+        },
+        "2020": {
+          title: "Transformação digital",
+          description: "Lançamento da plataforma 100% digital e algoritmos preditivos avançados"
+        },
+        "2024": {
+          title: "Líder de mercado",
+          description: "Posição de líder europeu com mais de 50.000 clientes satisfeitos"
+        }
+      },
+      values: {
+        title: "Os nossos valores",
+        subtitle: "Os princípios que orientam cada uma das nossas ações",
+        excellence: {
+          title: "Excelência do cliente",
+          description: "Cada cliente é único e merece atenção personalizada com soluções à medida."
+        },
+        security: {
+          title: "Segurança absoluta",
+          description: "Proteção máxima de dados e investimentos com as tecnologias mais avançadas."
+        },
+        innovation: {
+          title: "Inovação contínua",
+          description: "Busca permanente de novas soluções para antecipar as necessidades de amanhã."
+        },
+        transparency: {
+          title: "Transparência total",
+          description: "Comunicação clara e honesta sobre todos os nossos produtos, serviços e condições."
+        }
+      },
+      team: {
+        title: "A nossa equipa dirigente",
+        subtitle: "Especialistas reconhecidos ao serviço do vosso sucesso",
+        experienceLabel: "de experiência",
+        ceo: {
+          position: "Diretor Geral",
+          experience: "25 anos",
+          specialty: "Estratégia financeira",
+          education: "PhD Finanças - Frankfurt School"
+        },
+        innovation: {
+          position: "Diretora de Inovação",
+          experience: "15 anos",
+          specialty: "FinTech e IA",
+          education: "MIT - Inteligência Artificial"
+        },
+        risk: {
+          position: "Diretor de Riscos",
+          experience: "20 anos",
+          specialty: "Gestão de riscos",
+          education: "Bocconi - Risk Management"
+        },
+        customer: {
+          position: "Diretora de Clientes",
+          experience: "12 anos",
+          specialty: "Relação com clientes",
+          education: "ESADE - Customer Experience"
+        }
+      },
+      certifications: {
+        title: "Certificações e acreditações",
+        subtitle: "Reconhecimento oficial da nossa excelência operacional",
+        sinceLabel: "Desde",
+        iso: {
+          description: "Segurança da informação"
+        },
+        pci: {
+          description: "Segurança de pagamentos"
+        },
+        gdpr: {
+          name: "GDPR Conforme",
+          description: "Proteção de dados"
+        },
+        soc2: {
+          description: "Controlos organizacionais"
+        }
+      },
+      contact: {
+        title: "Encontremo-nos",
+        subtitle: "Os nossos escritórios recebem-vos no coração de Hamburgo",
+        addressTitle: "Morada",
+        phoneTitle: "Telefone",
+        emailTitle: "Email",
+        appointmentBtn: "Marcar encontro",
+        customRequestBtn: "Pedido personalizado"
+      }
+    }
+  },
+  el: {
+    menu: {
+      home: "Αρχική",
+      services: "Υπηρεσίες",
+      simulator: "Υπολογιστής Δανείου",
+      request: "Αίτηση",
+      about: "Σχετικά με εμάς",
+      contact: "Επικοινωνία",
+      faq: "Συχνές ερωτήσεις",
+      careers: "Καριέρα",
+      partners: "Συνεργάτες",
+      blog: "Ιστολόγιο"
+    },
+    about: {
+      hero: {
+        badge: "Αριστεία από το 1997",
+        title: "Ένα τέταρτο του αιώνα",
+        subtitle: "χρηματοοικονομικής καινοτομίας",
+        description: "Από το Αμβούργο, επαναστατούμε τη χρηματοοικονομική συμβουλευτική συνδυάζοντας την παραδοσιακή ανθρώπινη εξειδίκευση με τις πιο προηγμένες τεχνολογίες."
+      },
+      story: {
+        title: "Η ιστορία μας",
+        subtitle: "Από startup του Αμβούργου σε ευρωπαίο ηγέτη χρηματοοικονομικής καινοτομίας",
+        paragraph1: "Η Aurex K-pital γεννήθηκε το 1997 από την τολμηρή όραμα να επαναστατοποιήσει τις ευρωπαϊκές χρηματοοικονομικές υπηρεσίες. Με έδρα το Αμβούργο, στην οικονομική καρδιά της Γερμανίας, η εταιρεία μας έθεσε ως αποστολή τον εκδημοκρατισμό της πρόσβασης σε καινοτόμες χρηματοοικονομικές λύσεις.",
+        paragraph2: "Πρωτοπόροι στην ενσωμάτωση τεχνητής νοημοσύνης στις χρηματοοικονομικές υπηρεσίες από το 2010, έχουμε αναπτύξει ιδιόκτητους αλγορίθμους που επιτρέπουν εξαιρετικά ακριβή ανάλυση κινδύνου και εξατομικευμένες συστάσεις για κάθε πελάτη.",
+        paragraph3: "Σήμερα, με περισσότερους από 50.000 πελάτες σε όλη την Ευρώπη και 5 δισεκατομμύρια ευρώ χορηγημένων χρηματοδοτήσεων, συνεχίζουμε να καινοτομούμε για να προσφέρουμε τις καλύτερες λύσεις της αγοράς."
+      },
+      timeline: {
+        title: "Τα κύρια ορόσημά μας",
+        "1997": {
+          title: "Ίδρυση στο Αμβούργο",
+          description: "Δημιουργία της Aurex K-pital με όραμα να επαναστατοποιήσει τις χρηματοοικονομικές υπηρεσίες στην Ευρώπη"
+        },
+        "2003": {
+          title: "Ευρωπαϊκή επέκταση",
+          description: "Άνοιγμα γραφείων σε 5 ευρωπαϊκές χώρες και λανσάρισμα των πρώτων ψηφιακών υπηρεσιών"
+        },
+        "2010": {
+          title: "Καινοτομία AI",
+          description: "Πρωτοποριακή ενσωμάτωση τεχνητής νοημοσύνης στην πιστωτική ανάλυση"
+        },
+        "2015": {
+          title: "Πιστοποίηση αριστείας",
+          description: "Απόκτηση των αυστηρότερων ευρωπαϊκών χρηματοοικονομικών πιστοποιήσεων"
+        },
+        "2020": {
+          title: "Ψηφιακός μετασχηματισμός",
+          description: "Λανσάρισμα 100% ψηφιακής πλατφόρμας και προηγμένων προβλεπτικών αλγορίθμων"
+        },
+        "2024": {
+          title: "Ηγέτης της αγοράς",
+          description: "Θέση ευρωπαίου ηγέτη με περισσότερους από 50.000 ικανοποιημένους πελάτες"
+        }
+      },
+      values: {
+        title: "Οι αξίες μας",
+        subtitle: "Οι αρχές που καθοδηγούν κάθε μας ενέργεια",
+        excellence: {
+          title: "Αριστεία πελάτη",
+          description: "Κάθε πελάτης είναι μοναδικός και αξίζει εξατομικευμένη προσοχή με λύσεις στα μέτρα του."
+        },
+        security: {
+          title: "Απόλυτη ασφάλεια",
+          description: "Μέγιστη προστασία δεδομένων και επενδύσεων με τις πιο προηγμένες τεχνολογίες."
+        },
+        innovation: {
+          title: "Συνεχής καινοτομία",
+          description: "Διαρκής αναζήτηση νέων λύσεων για την πρόβλεψη των αναγκών του αύριο."
+        },
+        transparency: {
+          title: "Απόλυτη διαφάνεια",
+          description: "Σαφής και έντιμη επικοινωνία για όλα τα προϊόντα, τις υπηρεσίες και τους όρους μας."
+        }
+      },
+      team: {
+        title: "Η διευθυντική μας ομάδα",
+        subtitle: "Αναγνωρισμένοι ειδικοί στην υπηρεσία της επιτυχίας σας",
+        experienceLabel: "εμπειρίας",
+        ceo: {
+          position: "Γενικός Διευθυντής",
+          experience: "25 χρόνια",
+          specialty: "Χρηματοοικονομική στρατηγική",
+          education: "PhD Χρηματοοικονομικά - Frankfurt School"
+        },
+        innovation: {
+          position: "Διευθύντρια Καινοτομίας",
+          experience: "15 χρόνια",
+          specialty: "FinTech και AI",
+          education: "MIT - Τεχνητή Νοημοσύνη"
+        },
+        risk: {
+          position: "Διευθυντής Κινδύνων",
+          experience: "20 χρόνια",
+          specialty: "Διαχείριση κινδύνων",
+          education: "Bocconi - Risk Management"
+        },
+        customer: {
+          position: "Διευθύντρια Πελατών",
+          experience: "12 χρόνια",
+          specialty: "Σχέσεις με πελάτες",
+          education: "ESADE - Customer Experience"
+        }
+      },
+      certifications: {
+        title: "Πιστοποιήσεις και διαπιστεύσεις",
+        subtitle: "Επίσημη αναγνώριση της λειτουργικής μας αριστείας",
+        sinceLabel: "Από το",
+        iso: {
+          description: "Ασφάλεια πληροφοριών"
+        },
+        pci: {
+          description: "Ασφάλεια πληρωμών"
+        },
+        gdpr: {
+          name: "GDPR Συμβατό",
+          description: "Προστασία δεδομένων"
+        },
+        soc2: {
+          description: "Οργανωσιακοί έλεγχοι"
+        }
+      },
+      contact: {
+        title: "Ας συναντηθούμε",
+        subtitle: "Τα γραφεία μας σας υποδέχονται στην καρδιά του Αμβούργου",
+        addressTitle: "Διεύθυνση",
+        phoneTitle: "Τηλέφωνο",
+        emailTitle: "Email",
+        appointmentBtn: "Κλείστε ραντεβού",
+        customRequestBtn: "Εξατομικευμένο αίτημα"
+      }
+    }
+  },
+  it: {
+    menu: {
+      home: "Home",
+      services: "Servizi",
+      simulator: "Simulatore",
+      request: "Richiesta",
+      about: "Chi siamo",
+      contact: "Contatto",
+      faq: "FAQ",
+      careers: "Carriere",
+      partners: "Partner",
+      blog: "Blog"
+    },
+    about: {
+      hero: {
+        badge: "Eccellenza dal 1997",
+        title: "Un quarto di secolo",
+        subtitle: "di innovazione finanziaria",
+        description: "Da Amburgo, rivoluzionamo la consulenza finanziaria combinando competenza umana tradizionale con tecnologie all'avanguardia."
+      },
+      story: {
+        title: "La nostra storia",
+        subtitle: "Da startup amburghese a leader europeo dell'innovazione finanziaria",
+        paragraph1: "Aurex K-pital nacque nel 1997 dalla visione audace di rivoluzionare i servizi finanziari europei. Con sede ad Amburgo, nel cuore economico della Germania, la nostra azienda si è posta come missione la democratizzazione dell'accesso a soluzioni finanziarie innovative.",
+        paragraph2: "Pionieri nell'integrazione dell'intelligenza artificiale nei servizi finanziari dal 2010, abbiamo sviluppato algoritmi proprietari che consentono un'analisi del rischio ultra-precisa e raccomandazioni personalizzate per ogni cliente.",
+        paragraph3: "Oggi, con oltre 50.000 clienti in tutta Europa e 5 miliardi di euro di finanziamenti concessi, continuiamo a innovare per offrire le migliori soluzioni del mercato."
+      },
+      timeline: {
+        title: "Le nostre tappe principali",
+        "1997": {
+          title: "Fondazione ad Amburgo",
+          description: "Creazione di Aurex K-pital con la visione di rivoluzionare i servizi finanziari in Europa"
+        },
+        "2003": {
+          title: "Espansione europea",
+          description: "Apertura di uffici in 5 paesi europei e lancio dei primi servizi digitali"
+        },
+        "2010": {
+          title: "Innovazione IA",
+          description: "Integrazione pionieristica dell'intelligenza artificiale nell'analisi creditizia"
+        },
+        "2015": {
+          title: "Certificazione di eccellenza",
+          description: "Ottenimento delle certificazioni finanziarie europee più rigorose"
+        },
+        "2020": {
+          title: "Trasformazione digitale",
+          description: "Lancio della piattaforma 100% digitale e algoritmi predittivi avanzati"
+        },
+        "2024": {
+          title: "Leader di mercato",
+          description: "Posizione di leader europeo con oltre 50.000 clienti soddisfatti"
+        }
+      },
+      values: {
+        title: "I nostri valori",
+        subtitle: "I principi che guidano ogni nostra azione",
+        excellence: {
+          title: "Eccellenza del cliente",
+          description: "Ogni cliente è unico e merita attenzione personalizzata con soluzioni su misura."
+        },
+        security: {
+          title: "Sicurezza assoluta",
+          description: "Protezione massima di dati e investimenti con le tecnologie più avanzate."
+        },
+        innovation: {
+          title: "Innovazione continua",
+          description: "Ricerca permanente di nuove soluzioni per anticipare i bisogni di domani."
+        },
+        transparency: {
+          title: "Trasparenza totale",
+          description: "Comunicazione chiara e onesta su tutti i nostri prodotti, servizi e condizioni."
+        }
+      },
+      team: {
+        title: "Il nostro team dirigente",
+        subtitle: "Esperti riconosciuti al servizio del vostro successo",
+        experienceLabel: "di esperienza",
+        ceo: {
+          position: "Direttore Generale",
+          experience: "25 anni",
+          specialty: "Strategia finanziaria",
+          education: "PhD Finanza - Frankfurt School"
+        },
+        innovation: {
+          position: "Direttore Innovazione",
+          experience: "15 anni",
+          specialty: "FinTech e AI",
+          education: "MIT - Intelligenza Artificiale"
+        },
+        risk: {
+          position: "Direttore Rischi",
+          experience: "20 anni",
+          specialty: "Gestione dei rischi",
+          education: "Bocconi - Risk Management"
+        },
+        customer: {
+          position: "Direttore Clienti",
+          experience: "12 anni",
+          specialty: "Relazione clienti",
+          education: "ESADE - Customer Experience"
+        }
+      },
+      certifications: {
+        title: "Certificazioni e accreditamenti",
+        subtitle: "Riconoscimento ufficiale della nostra eccellenza operativa",
+        sinceLabel: "Dal",
+        iso: {
+          description: "Sicurezza delle informazioni"
+        },
+        pci: {
+          description: "Sicurezza dei pagamenti"
+        },
+        gdpr: {
+          name: "GDPR Conforme",
+          description: "Protezione dei dati"
+        },
+        soc2: {
+          description: "Controlli organizzativi"
+        }
+      },
+      contact: {
+        title: "Incontriamoci",
+        subtitle: "I nostri uffici vi accolgono nel cuore di Amburgo",
+        addressTitle: "Indirizzo",
+        phoneTitle: "Telefono",
+        emailTitle: "Email",
+        appointmentBtn: "Fissare appuntamento",
+        customRequestBtn: "Richiesta personalizzata"
+      }
+    }
   }
 };
