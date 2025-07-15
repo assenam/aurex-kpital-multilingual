@@ -26,7 +26,7 @@ const Footer = () => {
     {
       title: t('footer.company'),
       links: [
-        { name: t('footer.links.about'), href: "/a-propos" },
+        
         { name: t('footer.links.partners'), href: "/partenaires" },
         { name: t('footer.links.careers'), href: "/carrieres" },
         { name: t('footer.links.blog'), href: "/blog" }

@@ -24,7 +24,7 @@ const Header = () => {
     { name: t('menu.home'), href: '/' },
     { name: t('menu.services'), href: '/services' },
     { name: t('menu.simulator'), href: '/simulateur' },
-    { name: t('menu.about'), href: '/a-propos' },
+    
     { name: t('menu.blog'), href: '/blog' },
     { name: t('menu.contact'), href: '/contact' }
   ];

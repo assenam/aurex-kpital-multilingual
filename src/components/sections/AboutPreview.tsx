@@ -72,9 +72,9 @@ const AboutPreview = () => {
                 className="btn-magnetic hover-glow bg-gradient-primary hover:shadow-hover text-white font-bold px-8 py-4 text-lg transition-all duration-500 hover:scale-105 rounded-xl"
                 asChild
               >
-                <Link to="/a-propos" className="flex items-center gap-2">
+                <Link to="/contact" className="flex items-center gap-2">
                   <Target className="h-5 w-5" />
-                  {t('home.about.buttons.history')}
+                  {t('home.about.buttons.contact')}
                 </Link>
               </Button>
               

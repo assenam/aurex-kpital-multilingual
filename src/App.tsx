@@ -8,7 +8,7 @@ import { TranslationProvider, useTranslation } from "@/contexts/TranslationConte
 import ScrollToTop from "./components/ScrollToTop";
 import Index from "./pages/Index";
 import Services from "./pages/Services";
-import About from "./pages/About";
+
 import Simulator from "./pages/Simulator";
 import Request from "./pages/Request";
 import Contact from "./pages/Contact";
@@ -35,7 +35,7 @@ const AppContent = () => {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/a-propos" element={<About />} />
+          
           <Route path="/simulateur" element={<Simulator />} />
           <Route path="/demande" element={<Request />} />
           <Route path="/contact" element={<Contact />} />
