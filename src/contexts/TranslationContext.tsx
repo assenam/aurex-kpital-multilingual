@@ -1128,10 +1128,62 @@ const translations = {
   },
   pl: {
     menu: { home: "Strona główna", services: "Usługi", simulator: "Symulator", request: "Wniosek", about: "O nas", contact: "Kontakt", faq: "FAQ", careers: "Kariery", partners: "Partnerzy", blog: "Blog" },
+    footer: {
+      tools: "Narzędzia",
+      company: "Firma",
+      legal: "Prawne",
+      privacyPolicy: "Polityka prywatności",
+      terms: "Regulamin",
+      mentions: "Informacje prawne",
+      gdpr: "RODO",
+      rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      description: "Twój zaufany partner finansowy od 1997 roku. Doskonałość, innowacja i ekspertyza dla wszystkich Twoich projektów finansowych w Europie.",
+      services: "Usługi",
+      copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      establishment: "Licencjonowana instytucja finansowa w Europie",
+      links: {
+        personalLoans: "Pożyczki osobiste",
+        proFinancing: "Finansowanie biznesowe",
+        investments: "Inwestycje",
+        insurance: "Ubezpieczenia",
+        simulator: "Symulator pożyczki",
+        request: "Wniosek o finansowanie",
+        faq: "FAQ",
+        contact: "Kontakt",
+        about: "O nas",
+        partners: "Nasi partnerzy",
+        careers: "Kariery",
+        blog: "Blog",
+        legal: "Informacje prawne",
+        privacy: "Polityka prywatności",
+        terms: "Regulamin",
+        gdpr: "RODO"
+      }
+    },
     partners: {
       title: "Nasi Zaufani Partnerzy",
       description: "Europejska sieć doskonałości oferująca najlepsze rozwiązania finansowe",
       stats: "Ponad 25 europejskich partnerów • 27 krajów objętych zasięgiem • 2,5 mld€ wolumenu transakcji"
+    },
+    home: {
+      hero: {
+        title: "Twój Partner Finansowy",
+        subtitle: "od 1997 roku",
+        description: "Doskonałość, innowacja i zaufanie dla wszystkich Twoich projektów finansowych",
+        ctaBtn: "Odkryj nasze rozwiązania",
+        simulateBtn: "Symuluj pożyczkę",
+        scrollText: "Odkryj"
+      },
+      cta: {
+        title: "Gotowy, aby przekształcić",
+        titleHighlight: "swoje projekty",
+        titleEnd: "w rzeczywistość?",
+        description: "Nasi eksperci towarzyszą Ci na każdym kroku, aby urzeczywistnić Twoje ambicje finansowe."
+      }
+    },
+    testimonials: {
+      title: "Oni nam ufają",
+      subtitle: "Co mówią nasi zadowoleni klienci"
     },
     blog: {
       badge: "Ekspertyza i Analiza",
@@ -1197,11 +1249,45 @@ const translations = {
     }
   },
   fi: { 
-    menu: { blog: "Blogi" },
+    menu: { home: "Etusivu", services: "Palvelut", simulator: "Simulaattori", request: "Hakemus", about: "Meistä", contact: "Yhteystiedot", faq: "UKK", careers: "Urat", partners: "Kumppanit", blog: "Blogi" },
+    footer: {
+      tools: "Työkalut",
+      company: "Yritys", 
+      legal: "Laillinen",
+      privacyPolicy: "Tietosuojakäytäntö",
+      terms: "Käyttöehdot",
+      mentions: "Oikeudellinen",
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      description: "Luotettava rahoituskumppanisi vuodesta 1997. Huippuosaamista, innovaatiota ja asiantuntemusta kaikille rahoitusprojekteillesi Euroopassa.",
+      services: "Palvelut",
+      copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      establishment: "Lisensoitu rahoituslaitos Euroopassa"
+    },
     partners: {
       title: "Luotettavat Kumppanimme",
       description: "Eurooppalainen huippuosaamisen verkosto tarjoamassa parhaat rahoitusratkaisut",
       stats: "Yli 25 eurooppalaista kumppania • 27 katettua maata • 2,5 miljardia€ kaupankäyntivolyymiä"
+    },
+    home: {
+      hero: {
+        title: "Rahoituskumppanisi",
+        subtitle: "vuodesta 1997",
+        description: "Huippuosaamista, innovaatiota ja luottamusta kaikille rahoitusprojekteillesi",
+        ctaBtn: "Tutustu ratkaisuihimme",
+        simulateBtn: "Simuloi lainaa",
+        scrollText: "Tutustu"
+      },
+      cta: {
+        title: "Valmis muuttamaan",
+        titleHighlight: "projektisi",
+        titleEnd: "todellisuudeksi?",
+        description: "Asiantuntijamme tukevat sinua jokaisessa vaiheessa rahoitustavoitteidesi toteuttamisessa."
+      }
+    },
+    testimonials: {
+      title: "He luottavat meihin",
+      subtitle: "Mitä tyytyväiset asiakkaamme sanovat"
     },
     blog: { 
       badge: "Asiantuntemus ja Analyysi", 
@@ -1267,11 +1353,45 @@ const translations = {
     } 
   },
   es: { 
-    menu: { blog: "Blog" },
+    menu: { home: "Inicio", services: "Servicios", simulator: "Simulador", request: "Solicitud", about: "Acerca de", contact: "Contacto", faq: "FAQ", careers: "Carreras", partners: "Socios", blog: "Blog" },
+    footer: {
+      tools: "Herramientas",
+      company: "Empresa",
+      legal: "Legal", 
+      privacyPolicy: "Política de privacidad",
+      terms: "Términos y condiciones",
+      mentions: "Avisos legales",
+      gdpr: "RGPD",
+      rights: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      description: "Su socio financiero de confianza desde 1997. Excelencia, innovación y experiencia para todos sus proyectos financieros en Europa.",
+      services: "Servicios",
+      copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      establishment: "Institución financiera autorizada en Europa"
+    },
     partners: {
       title: "Nuestros Socios de Confianza",
       description: "Una red europea de excelencia para ofrecerle las mejores soluciones financieras",
       stats: "Más de 25 socios europeos • 27 países cubiertos • 2,5 mil millones€ de volumen tratado"
+    },
+    home: {
+      hero: {
+        title: "Su Socio Financiero", 
+        subtitle: "desde 1997",
+        description: "Excelencia, innovación y confianza para todos sus proyectos financieros",
+        ctaBtn: "Descubrir nuestras soluciones",
+        simulateBtn: "Simular un préstamo",
+        scrollText: "Descubrir"
+      },
+      cta: {
+        title: "¿Listo para transformar",
+        titleHighlight: "sus proyectos",
+        titleEnd: "en realidad?",
+        description: "Nuestros expertos le acompañan en cada paso para materializar sus ambiciones financieras."
+      }
+    },
+    testimonials: {
+      title: "Confían en nosotros",
+      subtitle: "Lo que dicen nuestros clientes satisfechos"
     },
     blog: { 
       badge: "Experiencia y Análisis", 
@@ -1337,11 +1457,45 @@ const translations = {
     } 
   },
   pt: { 
-    menu: { blog: "Blog" },
+    menu: { home: "Início", services: "Serviços", simulator: "Simulador", request: "Pedido", about: "Sobre", contact: "Contacto", faq: "FAQ", careers: "Carreiras", partners: "Parceiros", blog: "Blog" },
+    footer: {
+      tools: "Ferramentas",
+      company: "Empresa",
+      legal: "Legal",
+      privacyPolicy: "Política de privacidade", 
+      terms: "Termos e condições",
+      mentions: "Avisos legais",
+      gdpr: "RGPD",
+      rights: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      description: "O seu parceiro financeiro de confiança desde 1997. Excelência, inovação e expertise para todos os seus projetos financeiros na Europa.",
+      services: "Serviços",
+      copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      establishment: "Instituição financeira licenciada na Europa"
+    },
     partners: {
       title: "Os Nossos Parceiros de Confiança",
       description: "Uma rede europeia de excelência para lhe oferecer as melhores soluções financeiras",
       stats: "Mais de 25 parceiros europeus • 27 países cobertos • 2,5 mil milhões€ de volume tratado"
+    },
+    home: {
+      hero: {
+        title: "O Seu Parceiro Financeiro",
+        subtitle: "desde 1997",
+        description: "Excelência, inovação e confiança para todos os seus projetos financeiros",
+        ctaBtn: "Descobrir as nossas soluções",
+        simulateBtn: "Simular um empréstimo",
+        scrollText: "Descobrir"
+      },
+      cta: {
+        title: "Pronto para transformar",
+        titleHighlight: "os seus projetos",
+        titleEnd: "em realidade?",
+        description: "Os nossos especialistas acompanham-no em cada etapa para concretizar as suas ambições financeiras."
+      }
+    },
+    testimonials: {
+      title: "Confiam em nós",
+      subtitle: "O que dizem os nossos clientes satisfeitos"
     },
     blog: { 
       badge: "Perícia e Análise", 
@@ -1407,11 +1561,45 @@ const translations = {
     } 
   },
   el: { 
-    menu: { blog: "Ιστολόγιο" },
+    menu: { home: "Αρχική", services: "Υπηρεσίες", simulator: "Προσομοιωτής", request: "Αίτηση", about: "Σχετικά", contact: "Επικοινωνία", faq: "Συχνές ερωτήσεις", careers: "Καριέρες", partners: "Συνεργάτες", blog: "Ιστολόγιο" },
+    footer: {
+      tools: "Εργαλεία",
+      company: "Εταιρεία",
+      legal: "Νομικά",
+      privacyPolicy: "Πολιτική απορρήτου",
+      terms: "Όροι και προϋποθέσεις",
+      mentions: "Νομικές αναφορές", 
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Όλα τα δικαιώματα διατηρούνται.",
+      description: "Ο αξιόπιστος χρηματοοικονομικός σας εταίρος από το 1997. Αριστεία, καινοτομία και εμπειρογνωμοσύνη για όλα τα χρηματοοικονομικά σας έργα στην Ευρώπη.",
+      services: "Υπηρεσίες",
+      copyright: "© 2024 Aurex K-pital. Όλα τα δικαιώματα διατηρούνται.",
+      establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη"
+    },
     partners: {
       title: "Οι Αξιόπιστοι Συνεργάτες μας",
       description: "Ένα ευρωπαϊκό δίκτυο αριστείας για να σας προσφέρουμε τις καλύτερες χρηματοοικονομικές λύσεις",
       stats: "Πάνω από 25 ευρωπαίους συνεργάτες • 27 χώρες κάλυψης • 2,5 δισ.€ όγκου συναλλαγών"
+    },
+    home: {
+      hero: {
+        title: "Ο Χρηματοοικονομικός σας Εταίρος",
+        subtitle: "από το 1997",
+        description: "Αριστεία, καινοτομία και εμπιστοσύνη για όλα τα χρηματοοικονομικά σας έργα",
+        ctaBtn: "Ανακαλύψτε τις λύσεις μας",
+        simulateBtn: "Προσομοιώστε ένα δάνειο", 
+        scrollText: "Ανακαλύψτε"
+      },
+      cta: {
+        title: "Έτοιμοι να μετατρέψετε",
+        titleHighlight: "τα έργα σας",
+        titleEnd: "σε πραγματικότητα;",
+        description: "Οι ειδικοί μας σας συνοδεύουν σε κάθε βήμα για να υλοποιήσετε τις χρηματοοικονομικές σας φιλοδοξίες."
+      }
+    },
+    testimonials: {
+      title: "Μας εμπιστεύονται",
+      subtitle: "Τι λένε οι ικανοποιημένοι πελάτες μας"
     },
     blog: { 
       badge: "Εμπειρογνωμοσύνη και Ανάλυση", 
@@ -1477,11 +1665,45 @@ const translations = {
     } 
   },
   it: { 
-    menu: { blog: "Blog" },
+    menu: { home: "Home", services: "Servizi", simulator: "Simulatore", request: "Richiesta", about: "Chi siamo", contact: "Contatto", faq: "FAQ", careers: "Carriere", partners: "Partner", blog: "Blog" },
+    footer: {
+      tools: "Strumenti",
+      company: "Azienda",
+      legal: "Legale",
+      privacyPolicy: "Politica sulla privacy",
+      terms: "Termini e condizioni",
+      mentions: "Note legali",
+      gdpr: "GDPR", 
+      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed expertise per tutti i vostri progetti finanziari in Europa.",
+      services: "Servizi",
+      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      establishment: "Istituzione finanziaria autorizzata in Europa"
+    },
     partners: {
       title: "I Nostri Partner di Fiducia",
       description: "Una rete europea di eccellenza per offrirvi le migliori soluzioni finanziarie",
       stats: "Oltre 25 partner europei • 27 paesi coperti • 2,5 miliardi€ di volume trattato"
+    },
+    home: {
+      hero: {
+        title: "Il Vostro Partner Finanziario",
+        subtitle: "dal 1997",
+        description: "Eccellenza, innovazione e fiducia per tutti i vostri progetti finanziari",
+        ctaBtn: "Scoprire le nostre soluzioni",
+        simulateBtn: "Simulare un prestito",
+        scrollText: "Scoprire"
+      },
+      cta: {
+        title: "Pronti a trasformare",
+        titleHighlight: "i vostri progetti",
+        titleEnd: "in realtà?",
+        description: "I nostri esperti vi accompagnano ad ogni passo per concretizzare le vostre ambizioni finanziarie."
+      }
+    },
+    testimonials: {
+      title: "Si fidano di noi",
+      subtitle: "Cosa dicono i nostri clienti soddisfatti"
     },
     blog: { 
       badge: "Competenza e Analisi", 
