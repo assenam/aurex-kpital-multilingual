@@ -451,6 +451,128 @@ const translations = {
         }
       }
     },
+    contact: {
+      hero: {
+        badge: "Support Excellence",
+        title: "Contactez Nos",
+        titleHighlight: "Experts",
+        description: "Notre équipe dédiée vous accompagne à chaque étape de votre projet financier. Plusieurs moyens pour nous joindre selon vos préférences.",
+        stats: {
+          satisfaction: "Satisfaction client",
+          responseTime: "Temps de réponse moyen",
+          experts: "Conseillers experts"
+        }
+      },
+      methods: {
+        title: "Comment Nous Joindre",
+        description: "Choisissez le canal qui vous convient le mieux",
+        phone: {
+          title: "Téléphone",
+          description: "Parlez directement à nos conseillers",
+          hours: "Lun-Ven: 8h-19h, Sam: 9h-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Envoyez-nous vos questions",
+          hours: "Réponse sous 4h en moyenne"
+        },
+        address: {
+          title: "Adresse",
+          description: "Visitez nos bureaux à Hamburg",
+          hours: "Sur rendez-vous uniquement"
+        },
+        chat: {
+          title: "Chat en ligne",
+          description: "Assistance instantanée",
+          value: "Disponible 24h/7j",
+          hours: "Réponse immédiate"
+        }
+      },
+      form: {
+        title: "Envoyez-nous un message",
+        description: "Nous vous répondons rapidement et de manière personnalisée",
+        fields: {
+          name: "Nom complet",
+          email: "Email",
+          phone: "Téléphone",
+          subject: "Sujet",
+          message: "Votre message",
+          preferredContact: "Mode de contact préféré",
+          urgency: "Niveau d'urgence"
+        },
+        placeholders: {
+          subject: "Choisissez un sujet",
+          contact: "Comment préférez-vous être contacté ?",
+          urgency: "Sélectionnez",
+          message: "Décrivez votre demande en détail..."
+        },
+        subjects: {
+          loanRequest: "Demande de prêt",
+          investment: "Conseil en investissement",
+          insurance: "Assurance",
+          existingClient: "Client existant",
+          partnership: "Partenariat",
+          complaint: "Réclamation",
+          other: "Autre"
+        },
+        contactMethods: {
+          phone: "Téléphone",
+          email: "Email",
+          appointment: "Rendez-vous"
+        },
+        urgencyLevels: {
+          low: "Normal (48h)",
+          medium: "Urgent (24h)",
+          high: "Très urgent (4h)"
+        },
+        submit: "Envoyer le message",
+        commitment: "Nous nous engageons à vous répondre dans les délais indiqués selon le niveau d'urgence sélectionné.",
+        required: "*"
+      },
+      departments: {
+        title: "Nos Départements",
+        commercial: {
+          name: "Service Commercial",
+          description: "Nouvelles demandes et informations"
+        },
+        client: {
+          name: "Service Client",
+          description: "Suivi de dossiers existants"
+        },
+        support: {
+          name: "Support Technique",
+          description: "Assistance plateforme et outils"
+        },
+        management: {
+          name: "Direction",
+          description: "Réclamations et suggestions"
+        }
+      },
+      schedule: {
+        title: "Horaires d'ouverture",
+        weekdays: "Lundi - Vendredi",
+        saturday: "Samedi",
+        sunday: "Dimanche",
+        hours: {
+          weekdays: "8h00 - 19h00",
+          saturday: "9h00 - 17h00",
+          sunday: "Fermé"
+        },
+        types: {
+          advisors: "Conseillers disponibles",
+          reduced: "Service réduit",
+          emergency: "Urgences uniquement"
+        }
+      },
+      certifications: {
+        title: "Garanties & Certifications",
+        iso: "Données sécurisées ISO 27001",
+        gdpr: "Conformité RGPD",
+        eu: "Agréé Union Européenne",
+        bafin: "Régulé par BaFin"
+      },
+      success: "Votre message a été envoyé avec succès ! Nous vous contacterons rapidement."
+    },
     legal: {
       badge: "Informations Légales",
       title: {
