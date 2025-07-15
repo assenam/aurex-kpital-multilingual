@@ -923,30 +923,50 @@ const translations = {
         ]
       },
       team: {
+        badge: "Unser Team",
         title: "Unser Führungsteam",
-        subtitle: "Anerkannte Experten im Dienste Ihres Erfolgs",
-        members: [
-          {
-            name: "Dr. Klaus Müller",
-            position: "Geschäftsführer",
-            experience: "25 Jahre",
-            specialty: "Finanzstrategie",
-            education: "PhD Finanzen - Frankfurt School"
-          },
-          {
-            name: "Sophie Laurent",
-            position: "Innovationsleiterin",
-            experience: "15 Jahre",
-            specialty: "FinTech & KI",
-            education: "MIT - Künstliche Intelligenz"
-          },
-          {
-            name: "Marco Antonelli",
-            position: "Risikoleiter",
-            experience: "20 Jahre",
-            specialty: "Risikomanagement",
-            education: "Bocconi - Risk Management"
-          },
+        description: "Anerkannte Experten im Dienste Ihres Erfolgs",
+        member1: {
+          name: "Dr. Klaus Müller",
+          role: "Geschäftsführer",
+          experience: "25 Jahre Erfahrung in Finanzstrategie"
+        },
+        member2: {
+          name: "Sophie Laurent",
+          role: "Innovationsleiterin", 
+          experience: "15 Jahre Expertise in FinTech & KI"
+        },
+        member3: {
+          name: "Marco Antonelli",
+          role: "Risikoleiter",
+          experience: "20 Jahre Erfahrung in Risikomanagement"
+        }
+      },
+      history: {
+        badge: "Unsere Geschichte",
+        title: "Unsere Meilensteine", 
+        description: "Die wichtigsten Etappen unserer Entwicklung",
+        milestone1: {
+          title: "Gründung in Hamburg",
+          description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
+        },
+        milestone2: {
+          title: "Europäische Expansion", 
+          description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
+        },
+        milestone3: {
+          title: "KI-Innovation",
+          description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
+        },
+        milestone4: {
+          title: "Exzellenz-Zertifizierung",
+          description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
+        },
+        milestone5: {
+          title: "Marktführer",
+          description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
+        }
+      },
           {
             name: "Elena Rodriguez",
             position: "Kundenleiterin",

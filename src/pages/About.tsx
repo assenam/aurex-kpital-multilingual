@@ -15,10 +15,6 @@ import {
 const About = () => {
   const { t, language } = useTranslation();
   
-  // Debug logs pour diagnostiquer le problème de traduction
-  console.log('About page - Current language:', language);
-  console.log('About page - Badge translation test:', t('about.badge'));
-  console.log('About page - Title translation test:', t('about.title'));
 
   const values = [
     {
@@ -43,54 +39,6 @@ const About = () => {
     }
   ];
 
-  const milestones = [
-    {
-      year: "1997",
-      title: t('about.history.milestone1.title'),
-      description: t('about.history.milestone1.description')
-    },
-    {
-      year: "2005",
-      title: t('about.history.milestone2.title'),
-      description: t('about.history.milestone2.description')
-    },
-    {
-      year: "2012",
-      title: t('about.history.milestone3.title'),
-      description: t('about.history.milestone3.description')
-    },
-    {
-      year: "2018",
-      title: t('about.history.milestone4.title'),
-      description: t('about.history.milestone4.description')
-    },
-    {
-      year: "2023",
-      title: t('about.history.milestone5.title'),
-      description: t('about.history.milestone5.description')
-    }
-  ];
-
-  const team = [
-    {
-      name: t('about.team.member1.name'),
-      role: t('about.team.member1.role'),
-      experience: t('about.team.member1.experience'),
-      image: "/lovable-uploads/69b3a7b9-1742-4f7a-a667-105c31f57852.png"
-    },
-    {
-      name: t('about.team.member2.name'),
-      role: t('about.team.member2.role'),
-      experience: t('about.team.member2.experience'),
-      image: "/lovable-uploads/905a3520-c947-4b78-93c5-4b4623d63973.png"
-    },
-    {
-      name: t('about.team.member3.name'),
-      role: t('about.team.member3.role'),
-      experience: t('about.team.member3.experience'),
-      image: "/lovable-uploads/cda4e48e-825c-4b6b-9301-54221400e47d.png"
-    }
-  ];
   return (
     <div className="min-h-screen">
       <Header />
@@ -207,84 +155,6 @@ const About = () => {
                 </CardHeader>
                 <CardContent>
                   <CardDescription className="text-center">{value.description}</CardDescription>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-      {/* Notre Histoire */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <Badge className="mb-4">
-              <Clock className="h-4 w-4 mr-2" />
-              {t('about.history.badge')}
-            </Badge>
-            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.history.title')}
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('about.history.description')}
-            </p>
-          </div>
-
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-8">
-              {milestones.map((milestone, index) => (
-                <div key={index} className="flex flex-col md:flex-row gap-6 items-start">
-                  <div className="flex-shrink-0">
-                    <Badge variant="outline" className="text-lg px-4 py-2 font-bold">
-                      {milestone.year}
-                    </Badge>
-                  </div>
-                  <Card className="flex-1 hover:shadow-lg transition-shadow">
-                    <CardHeader>
-                      <CardTitle className="text-xl">{milestone.title}</CardTitle>
-                    </CardHeader>
-                    <CardContent>
-                      <CardDescription className="text-base">{milestone.description}</CardDescription>
-                    </CardContent>
-                  </Card>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Notre Équipe */}
-      <section className="py-20 bg-gradient-soft">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <Badge className="mb-4">
-              <Users className="h-4 w-4 mr-2" />
-              {t('about.team.badge')}
-            </Badge>
-            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.team.title')}
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('about.team.description')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {team.map((member, index) => (
-              <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <CardHeader className="text-center">
-                  <div className="mx-auto mb-4 w-24 h-24 rounded-full overflow-hidden">
-                    <img 
-                      src={member.image} 
-                      alt={member.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <CardTitle className="text-xl">{member.name}</CardTitle>
-                  <CardDescription className="text-primary font-semibold">{member.role}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-center text-muted-foreground text-sm">{member.experience}</p>
                 </CardContent>
               </Card>
             ))}
