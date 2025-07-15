@@ -83,12 +83,12 @@ const Blog = () => {
   ];
 
   const categories = [
-    { name: "Innovation", count: 12, color: "from-blue-500 to-blue-600" },
-    { name: "Immobilier", count: 8, color: "from-emerald-500 to-emerald-600" },
-    { name: "Réglementation", count: 6, color: "from-purple-500 to-purple-600" },
-    { name: "Économie", count: 15, color: "from-amber-500 to-amber-600" },
-    { name: "ESG", count: 4, color: "from-green-500 to-green-600" },
-    { name: "Éducation", count: 7, color: "from-pink-500 to-pink-600" }
+    { name: "innovation", count: 12, color: "from-blue-500 to-blue-600" },
+    { name: "realEstate", count: 8, color: "from-emerald-500 to-emerald-600" },
+    { name: "regulation", count: 6, color: "from-purple-500 to-purple-600" },
+    { name: "economy", count: 15, color: "from-amber-500 to-amber-600" },
+    { name: "esg", count: 4, color: "from-green-500 to-green-600" },
+    { name: "education", count: 7, color: "from-pink-500 to-pink-600" }
   ];
 
   const trending = [
@@ -166,7 +166,7 @@ const Blog = () => {
               <div className="h-64 lg:h-auto bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
                 <div className="text-center">
                   <BookOpen className="h-16 w-16 text-primary mx-auto mb-4" />
-                  <div className="text-xl font-bold text-primary">Article Vedette</div>
+                  <div className="text-xl font-bold text-primary">{t('blog.featured.title')}</div>
                 </div>
               </div>
               
@@ -249,7 +249,7 @@ const Blog = () => {
               </Button>
               {categories.map((category, index) => (
                 <Button key={category.name} variant="outline" size="sm">
-                  {category.name} ({category.count})
+                  {t(`blog.categories.${category.name}`)} ({category.count})
                 </Button>
               ))}
             </div>
@@ -274,7 +274,7 @@ const Blog = () => {
                       <div className="md:col-span-2 p-6">
                         <div className="flex items-center gap-3 mb-3">
                           <Badge variant="outline">{article.category}</Badge>
-                          {article.featured && <Badge className="bg-accent text-accent-foreground">Featured</Badge>}
+                          {article.featured && <Badge className="bg-accent text-accent-foreground">{t('blog.featured.title')}</Badge>}
                           <div className="flex items-center gap-1 text-sm text-muted-foreground">
                             <Eye className="h-4 w-4" />
                             {article.views.toLocaleString()}
@@ -336,7 +336,7 @@ const Blog = () => {
                       <div key={category.name} className="flex items-center justify-between py-2 border-b border-secondary/50 last:border-b-0">
                         <div className="flex items-center gap-3">
                           <div className={`w-3 h-3 rounded-full bg-gradient-to-r ${category.color}`}></div>
-                          <span className="text-sm font-medium">{category.name}</span>
+                          <span className="text-sm font-medium">{t(`blog.categories.${category.name}`)}</span>
                         </div>
                         <span className="text-sm text-muted-foreground">{category.count}</span>
                       </div>
