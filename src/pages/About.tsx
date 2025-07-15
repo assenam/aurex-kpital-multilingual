@@ -191,7 +191,7 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Nos Grandes Étapes
+              {t('about.timeline.title')}
             </h2>
           </div>
 
@@ -204,11 +204,11 @@ const About = () => {
                       <CardHeader>
                         <div className="flex items-center gap-4">
                           <div className="text-3xl font-bold text-accent">{milestone.year}</div>
-                          <CardTitle className="text-xl text-primary">{milestone.title}</CardTitle>
+                          <CardTitle className="text-xl text-primary">{t(`about.timeline.milestones.${milestone.year}.title`)}</CardTitle>
                         </div>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-muted-foreground">{milestone.description}</p>
+                        <p className="text-muted-foreground">{t(`about.timeline.milestones.${milestone.year}.description`)}</p>
                       </CardContent>
                     </Card>
                   </div>
@@ -230,29 +230,66 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Nos Valeurs
+              {t('about.values.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Les principes qui guident chacune de nos actions
+              {t('about.values.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {values.map((value, index) => (
-              <Card key={value.title} className="hover-lift border-0 shadow-md">
-                <CardHeader>
-                  <div className="flex items-center gap-4 mb-4">
-                    <div className="p-3 bg-gradient-primary rounded-xl">
-                      <value.icon className="h-8 w-8 text-primary-foreground" />
-                    </div>
-                    <CardTitle className="text-xl text-primary">{value.title}</CardTitle>
+            <Card className="hover-lift border-0 shadow-md">
+              <CardHeader>
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="p-3 bg-gradient-primary rounded-xl">
+                    <Heart className="h-8 w-8 text-primary-foreground" />
                   </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{value.description}</p>
-                </CardContent>
-              </Card>
-            ))}
+                  <CardTitle className="text-xl text-primary">{t('about.values.excellence.title')}</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">{t('about.values.excellence.description')}</p>
+              </CardContent>
+            </Card>
+            <Card className="hover-lift border-0 shadow-md">
+              <CardHeader>
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="p-3 bg-gradient-primary rounded-xl">
+                    <Shield className="h-8 w-8 text-primary-foreground" />
+                  </div>
+                  <CardTitle className="text-xl text-primary">{t('about.values.security.title')}</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">{t('about.values.security.description')}</p>
+              </CardContent>
+            </Card>
+            <Card className="hover-lift border-0 shadow-md">
+              <CardHeader>
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="p-3 bg-gradient-primary rounded-xl">
+                    <Lightbulb className="h-8 w-8 text-primary-foreground" />
+                  </div>
+                  <CardTitle className="text-xl text-primary">{t('about.values.innovation.title')}</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">{t('about.values.innovation.description')}</p>
+              </CardContent>
+            </Card>
+            <Card className="hover-lift border-0 shadow-md">
+              <CardHeader>
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="p-3 bg-gradient-primary rounded-xl">
+                    <CheckCircle className="h-8 w-8 text-primary-foreground" />
+                  </div>
+                  <CardTitle className="text-xl text-primary">{t('about.values.transparency.title')}</CardTitle>
+                </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">{t('about.values.transparency.description')}</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
@@ -262,10 +299,10 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Notre Équipe Dirigeante
+              {t('about.team.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Des experts reconnus au service de votre réussite
+              {t('about.team.subtitle')}
             </p>
           </div>
 
@@ -282,7 +319,7 @@ const About = () => {
                 <CardContent className="space-y-2">
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <Briefcase className="h-4 w-4" />
-                    {member.experience} d'expérience
+                    {member.experience} {t('about.team.experienceLabel')}
                   </div>
                   <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <Target className="h-4 w-4" />
@@ -305,10 +342,10 @@ const About = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Certifications & Accréditations
+              {t('about.certifications.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Reconnaissance officielle de notre excellence opérationnelle
+              {t('about.certifications.subtitle')}
             </p>
           </div>
 
@@ -323,7 +360,7 @@ const About = () => {
                   <CardDescription className="text-sm">{cert.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="text-sm text-accent font-semibold">Depuis {cert.year}</div>
+                  <div className="text-sm text-accent font-semibold">{t('about.certifications.sinceLabel')} {cert.year}</div>
                 </CardContent>
               </Card>
             ))}
@@ -336,40 +373,40 @@ const About = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Nous Rencontrer
+              {t('about.contact.title')}
             </h2>
             <p className="text-xl mb-12 text-primary-foreground/90">
-              Nos bureaux vous accueillent au cœur de Hamburg
+              {t('about.contact.subtitle')}
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <div className="text-center">
                 <MapPin className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Adresse</h3>
+                <h3 className="text-xl font-bold mb-2">{t('about.contact.address.title')}</h3>
                 <p className="text-primary-foreground/80">
-                  Irma-Keilhack-Ring 24<br />
-                  22145 Hamburg<br />
-                  Allemagne
+                  {t('about.contact.address.line1')}<br />
+                  {t('about.contact.address.line2')}<br />
+                  {t('about.contact.address.line3')}
                 </p>
               </div>
               
               <div className="text-center">
                 <Phone className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Téléphone</h3>
+                <h3 className="text-xl font-bold mb-2">{t('about.contact.phone.title')}</h3>
                 <p className="text-primary-foreground/80">
-                  +49 40 710 97523<br />
-                  Lun-Ven: 8h-19h<br />
-                  Sam: 9h-17h
+                  {t('about.contact.phone.number')}<br />
+                  {t('about.contact.phone.hours1')}<br />
+                  {t('about.contact.phone.hours2')}
                 </p>
               </div>
               
               <div className="text-center">
                 <Mail className="h-8 w-8 text-gold mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Email</h3>
+                <h3 className="text-xl font-bold mb-2">{t('about.contact.email.title')}</h3>
                 <p className="text-primary-foreground/80">
-                  contact@aurex-kpital.de<br />
-                  info@aurex-kpital.de<br />
-                  support@aurex-kpital.de
+                  {t('about.contact.email.contact')}<br />
+                  {t('about.contact.email.info')}<br />
+                  {t('about.contact.email.support')}
                 </p>
               </div>
             </div>
@@ -378,13 +415,13 @@ const About = () => {
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
                 <Link to="/contact">
                   <Users className="h-5 w-5 mr-2" />
-                  Prendre rendez-vous
+                  {t('about.contact.buttons.meeting')}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
                 <Link to="/demande">
                   <Sparkles className="h-5 w-5 mr-2" />
-                  Demande personnalisée
+                  {t('about.contact.buttons.request')}
                 </Link>
               </Button>
             </div>
