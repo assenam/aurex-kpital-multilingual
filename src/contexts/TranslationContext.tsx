@@ -2596,43 +2596,8 @@ const translations = {
         privacy: "Tietosuojakäytäntö",
         terms: "Käyttöehdot",
         gdpr: "GDPR"
+      }
     },
-    about: {
-      badge: "Doskonałość od 1997",
-      title: "Twój zaufany partner finansowy", 
-      subtitle: "Od ponad 25 lat towarzyszymy europejskim przedsiębiorstwom w ich rozwoju dzięki innowacyjnym i spersonalizowanym rozwiązaniom finansowym.",
-      hero: { cta: { contact: "Skontaktuj się z nami", simulate: "Symuluj moje finansowanie" } },
-      stats: {
-        experience: { value: "25+", label: "Lat doświadczenia" },
-        companies: { value: "50K+", label: "Wspieranych firm" },
-        funding: { value: "€5B+", label: "Ułatwionych finansowań" },
-        countries: { value: "8", label: "Krajów europejskich" }
-      },
-      values: {
-        badge: "Nasze Wartości", title: "Co nas prowadzi codziennie", description: "Nasz sukces opiera się na silnych wartościach.",
-        security: { title: "Bezpieczeństwo i Zgodność", description: "Nasze rozwiązania przestrzegają najsurowszych norm bankowych." },
-        innovation: { title: "Ciągła Innowacja", description: "Nieustannie opracowujemy nowe rozwiązania." },
-        support: { title: "Osobiste Wsparcie", description: "Każdy klient ma dedykowanego doradcę." },
-        excellence: { title: "Uznana Doskonałość", description: "Ponad 25 lat ekspertyzy i zaufania tysięcy firm." }
-      },
-      history: {
-        badge: "Nasza Historia", title: "Ponad 25 lat innowacji", description: "Odkryj kluczowe momenty naszej firmy.",
-        milestone1: { title: "Założenie firmy", description: "Założenie z wizją demokratyzacji dostępu do finansowania dla MŚP." },
-        milestone2: { title: "Ekspansja europejska", description: "Otwarcie biur w Niemczech, Polsce i Hiszpanii." },
-        milestone3: { title: "Innowacja cyfrowa", description: "Uruchomienie rewolucyjnej platformy symulacji online." },
-        milestone4: { title: "50 000. klient", description: "Przekroczenie progu 50 000 wspieranych firm." },
-        milestone5: { title: "5 miliardów euro sfinansowanych", description: "Osiągnięcie rekordu 5 miliardów euro ułatwionych finansowań." }
-      },
-      team: {
-        badge: "Nasz Zespół", title: "Ekspertyza w służbie Twojego sukcesu", description: "Poznaj ekspertów napędzających naszą wizję.",
-        member1: { name: "Marie Dubois", role: "Dyrektor Generalny", experience: "15 lat doświadczenia w finansowaniu przedsiębiorstw" },
-        member2: { name: "Thomas Schmidt", role: "Dyrektor Techniczny", experience: "Ekspert w rozwiązaniach fintech i bezpieczeństwie bankowym" },
-        member3: { name: "Elena Rodriguez", role: "Dyrektor Handlowy", experience: "Specjalista rynków europejskich od 12 lat" }
-      },
-      cta: { title: "Gotowy rozwijać swoją firmę?", description: "Dołącz do ponad 50 000 firm, które nam ufają.", simulate: "Rozpocznij symulację", expert: "Porozmawiaj z ekspertem" }
-    }
-  },
-  fi: {
     partners: {
       title: "Luotettavat Kumppanimme",
       description: "Eurooppalainen huippuosaamisen verkosto parhaimpia rahoitusratkaisuja varten",
@@ -2912,41 +2877,8 @@ const translations = {
           earlyRepayment: "Ennenaikainen takaisinmaksu ilman maksuja",
           response: "Taattu vastaus 24h kuluessa",
           support: "Henkilökohtainen tuki"
-    },
-    about: {
-      badge: "Huippuosaamista vuodesta 1997",
-      title: "Luotettava rahoituskumppanisi",
-      subtitle: "Yli 25 vuoden ajan olemme tukeneet eurooppalaisia yrityksiä niiden kehityksessä innovatiivisilla ja räätälöidyillä rahoitusratkaisuilla.",
-      hero: { cta: { contact: "Ota yhteyttä", simulate: "Simuloi rahoitukseni" } },
-      stats: {
-        experience: { value: "25+", label: "Vuotta kokemusta" },
-        companies: { value: "50K+", label: "Tuettua yritystä" },
-        funding: { value: "€5B+", label: "Helpotettua rahoitusta" },
-        countries: { value: "8", label: "Euroopan maata" }
+        }
       },
-      values: {
-        badge: "Arvomme", title: "Mikä ohjaa meitä päivittäin", description: "Menestys perustuu vahvoihin arvoihin.",
-        security: { title: "Turvallisuus ja Vaatimustenmukaisuus", description: "Ratkaisumme noudattavat tiukimpia pankkistandardeja." },
-        innovation: { title: "Jatkuva Innovaatio", description: "Kehitämme jatkuvasti uusia ratkaisuja." },
-        support: { title: "Henkilökohtainen Tuki", description: "Jokaisella asiakkaalla on oma neuvoja." },
-        excellence: { title: "Tunnustettu Huippuosaaminen", description: "Yli 25 vuoden asiantuntemus ja tuhansien yritysten luottamus." }
-      },
-      history: {
-        badge: "Historiamme", title: "Yli 25 vuotta innovaatiota", description: "Tutustu yrityksemme avainhetkiin.",
-        milestone1: { title: "Yrityksen perustaminen", description: "Perustaminen visiolla demokratisoida pk-yritysten rahoituksen saatavuus." },
-        milestone2: { title: "Eurooppalainen laajentuminen", description: "Toimistojen avaaminen Saksassa, Puolassa ja Espanjassa." },
-        milestone3: { title: "Digitaalinen innovaatio", description: "Vallankumouksellisen online-simulaatioalustan lanseeraus." },
-        milestone4: { title: "50 000. asiakas", description: "50 000 tuetun yrityksen kynnyksen ylittäminen." },
-        milestone5: { title: "5 miljardia euroa rahoitettu", description: "5 miljardin euron helpotettujen rahoitusten ennätyksen saavuttaminen." }
-      },
-      team: {
-        badge: "Tiimimme", title: "Asiantuntemus menestyksesi palveluksessa", description: "Tutustu visiotamme ajaviin asiantuntijoihin.",
-        member1: { name: "Marie Dubois", role: "Toimitusjohtaja", experience: "15 vuotta kokemusta yritysrahoituksesta" },
-        member2: { name: "Thomas Schmidt", role: "Tekninen johtaja", experience: "Asiantuntija fintech-ratkaisuissa ja pankkiturvallisuudessa" },
-        member3: { name: "Elena Rodriguez", role: "Myyntijohtaja", experience: "Eurooppalaisten markkinoiden asiantuntija 12 vuoden ajalta" }
-      },
-      cta: { title: "Valmis kehittämään yritystäsi?", description: "Liity yli 50 000 yritykseen, jotka luottavat meihin.", simulate: "Aloita simulaatio", expert: "Keskustele asiantuntijan kanssa" }
-    },
       cta: {
         title: "Valmis toteuttamaan projektisi?",
         description: "Asiantuntijakonsulttimme auttavat sinua muuttamaan tämän simulaation todellisuudeksi",
@@ -3257,41 +3189,9 @@ const translations = {
           consolidation: {
             label: "Consolidação de Créditos",
             description: "Agrupamento de dívidas existentes"
-    },
-    about: {
-      badge: "Excelência desde 1997",
-      title: "O seu parceiro financeiro de confiança",
-      subtitle: "Há mais de 25 anos, acompanhamos empresas europeias no seu desenvolvimento com soluções de financiamento inovadoras e personalizadas.",
-      hero: { cta: { contact: "Contactar-nos", simulate: "Simular o meu financiamento" } },
-      stats: {
-        experience: { value: "25+", label: "Anos de experiência" },
-        companies: { value: "50K+", label: "Empresas acompanhadas" },
-        funding: { value: "€5B+", label: "Financiamentos facilitados" },
-        countries: { value: "8", label: "Países europeus" }
+          }
+        }
       },
-      values: {
-        badge: "Os Nossos Valores", title: "O que nos guia diariamente", description: "O nosso sucesso baseia-se em valores sólidos.",
-        security: { title: "Segurança e Conformidade", description: "As nossas soluções respeitam as normas bancárias mais rigorosas." },
-        innovation: { title: "Inovação Contínua", description: "Desenvolvemos constantemente novas soluções." },
-        support: { title: "Acompanhamento Pessoal", description: "Cada cliente beneficia de um consultor dedicado." },
-        excellence: { title: "Excelência Reconhecida", description: "Mais de 25 anos de experiência e a confiança de milhares de empresas." }
-      },
-      history: {
-        badge: "A Nossa História", title: "Mais de 25 anos de inovação", description: "Descubra os momentos-chave da nossa empresa.",
-        milestone1: { title: "Criação da empresa", description: "Fundação com a visão de democratizar o acesso ao financiamento para PME." },
-        milestone2: { title: "Expansão europeia", description: "Abertura de escritórios na Alemanha, Polónia e Espanha." },
-        milestone3: { title: "Inovação digital", description: "Lançamento da nossa plataforma de simulação online revolucionária." },
-        milestone4: { title: "50 000º cliente", description: "Ultrapassagem da marca de 50 000 empresas acompanhadas." },
-        milestone5: { title: "€5 mil milhões financiados", description: "Atingimento do recorde de 5 mil milhões de euros de financiamentos facilitados." }
-      },
-      team: {
-        badge: "A Nossa Equipa", title: "A experiência ao serviço do seu sucesso", description: "Conheça os especialistas que impulsionam a nossa visão.",
-        member1: { name: "Marie Dubois", role: "Directora Geral", experience: "15 anos de experiência em financiamento empresarial" },
-        member2: { name: "Thomas Schmidt", role: "Director Técnico", experience: "Especialista em soluções fintech e segurança bancária" },
-        member3: { name: "Elena Rodriguez", role: "Directora Comercial", experience: "Especialista em mercados europeus há 12 anos" }
-      },
-      cta: { title: "Pronto para desenvolver a sua empresa?", description: "Junte-se a mais de 50 000 empresas que confiam em nós.", simulate: "Começar a simulação", expert: "Falar com um especialista" }
-    },
       configuration: {
         title: "Configuração do seu empréstimo",
         description: "Personalize os parâmetros conforme as suas necessidades"
@@ -3587,39 +3487,84 @@ const translations = {
         }
       ]
     },
-    about: {
-      badge: "Αριστεία από το 1997",
-      title: "Ο αξιόπιστος χρηματοοικονομικός σας εταίρος",
-      subtitle: "Εδώ και πάνω από 25 χρόνια, συνοδεύουμε ευρωπαϊκές επιχειρήσεις στην ανάπτυξή τους με καινοτόμες και εξατομικευμένες χρηματοδοτικές λύσεις.",
-      hero: { cta: { contact: "Επικοινωνήστε μαζί μας", simulate: "Προσομοιώστε τη χρηματοδότησή μου" } },
-      stats: {
-        experience: { value: "25+", label: "Χρόνια εμπειρίας" },
-        companies: { value: "50K+", label: "Επιχειρήσεις που συνοδεύσαμε" },
-        funding: { value: "€5B+", label: "Χρηματοδοτήσεις που διευκολύναμε" },
-        countries: { value: "8", label: "Ευρωπαϊκές χώρες" }
+    simulator: {
+      title: "Υπολογιστής Δανείου",
+      titleSecond: "Έξυπνος",
+      subtitle: "Λάβετε μια εξατομικευμένη εκτίμηση σε πραγματικό χρόνο για τη χρηματοδότησή σας",
+      form: {
+        loanType: "Τύπος χρηματοδότησης",
+        amount: "Επιθυμητό ποσό (€)",
+        duration: "Διάρκεια αποπληρωμής (μήνες)",
+        income: "Μηνιαίο καθαρό εισόδημα (προαιρετικό)",
+        incomeHelper: "Πληροφορία που χρησιμοποιείται για τη βελτιστοποίηση του επιτοκίου σας",
+        guarantee: "Έχετε εγγύηση ή εγγυητή;",
+        guaranteeOptions: {
+          yes: "Ναι, έχω εγγύηση",
+          no: "Όχι, χωρίς εγγύηση",
+          maybe: "Προς αξιολόγηση σύμφωνα με την προσφορά"
+        },
+        loanTypes: {
+          personal: {
+            label: "Προσωπικό Δάνειο",
+            description: "Για όλα σας τα προσωπικά έργα"
+          },
+          auto: {
+            label: "Δάνειο Αυτοκινήτου",
+            description: "Χρηματοδότηση καινούργιου ή μεταχειρισμένου οχήματος"
+          },
+          realEstate: {
+            label: "Στεγαστικό Δάνειο",
+            description: "Αγορά, κατασκευή ή ανακαίνιση"
+          },
+          professional: {
+            label: "Επιχειρηματική Χρηματοδότηση",
+            description: "Επιχειρηματική επένδυση"
+          },
+          student: {
+            label: "Φοιτητικό Δάνειο",
+            description: "Χρηματοδότηση τριτοβάθμιων σπουδών"
+          },
+          consolidation: {
+            label: "Ενοποίηση Δανείων",
+            description: "Ομαδοποίηση υπαρχόντων χρεών"
+          }
+        }
       },
-      values: {
-        badge: "Οι Αξίες μας", title: "Αυτό που μας καθοδηγεί καθημερινά", description: "Η επιτυχία μας βασίζεται σε ισχυρές αξίες.",
-        security: { title: "Ασφάλεια και Συμμόρφωση", description: "Οι λύσεις μας σέβονται τα αυστηρότερα τραπεζικά πρότυπα." },
-        innovation: { title: "Συνεχής Καινοτομία", description: "Αναπτύσσουμε συνεχώς νέες λύσεις." },
-        support: { title: "Προσωπική Συνοδεία", description: "Κάθε πελάτης έχει έναν αφοσιωμένο σύμβουλο." },
-        excellence: { title: "Αναγνωρισμένη Αριστεία", description: "Πάνω από 25 χρόνια εμπειρίας και εμπιστοσύνης χιλιάδων επιχειρήσεων." }
+      configuration: {
+        title: "Διαμόρφωση του δανείου σας",
+        description: "Προσαρμόστε τις παραμέτρους σύμφωνα με τις ανάγκες σας"
       },
-      history: {
-        badge: "Η Ιστορία μας", title: "Πάνω από 25 χρόνια καινοτομίας", description: "Ανακαλύψτε τις βασικές στιγμές της εταιρείας μας.",
-        milestone1: { title: "Δημιουργία της εταιρείας", description: "Ίδρυση με το όραμα να δημοκρατοποιήσουμε την πρόσβαση στη χρηματοδότηση για ΜΜΕ." },
-        milestone2: { title: "Ευρωπαϊκή επέκταση", description: "Άνοιγμα γραφείων στη Γερμανία, Πολωνία και Ισπανία." },
-        milestone3: { title: "Ψηφιακή καινοτομία", description: "Εκκίνηση της επαναστατικής online πλατφόρμας προσομοίωσης." },
-        milestone4: { title: "50.000ός πελάτης", description: "Υπέρβαση του ορίου των 50.000 επιχειρήσεων που συνοδεύσαμε." },
-        milestone5: { title: "5 δισεκατομμύρια ευρώ χρηματοδοτήθηκαν", description: "Επίτευξη ρεκόρ 5 δισεκατομμυρίων ευρώ διευκολυνμένων χρηματοδοτήσεων." }
+      result: {
+        title: "Η εκτίμησή σας",
+        monthlyPayment: "Μηνιαία δόση",
+        interestRate: "Επιτόκιο",
+        totalCost: "Συνολικό κόστος πίστωσης",
+        totalRepayment: "Συνολικό ποσό προς αποπληρωμή",
+        units: {
+          months: "μήνες",
+          years: "χρόνια"
+        },
+        disclaimer: "Αυτή η εκτίμηση είναι ενδεικτική και μπορεί να διαφέρει ανάλογα με το τελικό σας προφίλ. Προσφορά υπό έγκριση."
       },
-      team: {
-        badge: "Η Ομάδα μας", title: "Η εμπειρία στην υπηρεσία της επιτυχίας σας", description: "Γνωρίστε τους ειδικούς που οδηγούν το όραμά μας.",
-        member1: { name: "Marie Dubois", role: "Γενική Διευθύντρια", experience: "15 χρόνια εμπειρίας στη χρηματοδότηση επιχειρήσεων" },
-        member2: { name: "Thomas Schmidt", role: "Τεχνικός Διευθυντής", experience: "Ειδικός σε fintech λύσεις και τραπεζική ασφάλεια" },
-        member3: { name: "Elena Rodriguez", role: "Εμπορική Διευθύντρια", experience: "Ειδικός ευρωπαϊκών αγορών εδώ και 12 χρόνια" }
+      advantages: {
+        title: "Τα πλεονεκτήματά σας Aurex K-pital",
+        items: {
+          rates: "Διαπραγματευμένα προνομιακά επιτόκια",
+          earlyRepayment: "Πρόωρη αποπληρωμή χωρίς χρεώσεις",
+          response: "Εγγυημένη απάντηση εντός 24ώρου",
+          support: "Εξατομικευμένη υποστήριξη"
+        }
       },
-      cta: { title: "Έτοιμοι να αναπτύξετε την επιχείρησή σας;", description: "Ενταχθείτε σε πάνω από 50.000 επιχειρήσεις που μας εμπιστεύονται.", simulate: "Έναρξη προσομοίωσης", expert: "Συζητήστε με έναν ειδικό" }
+      cta: {
+        title: "Έτοιμοι να υλοποιήσετε το έργο σας;",
+        description: "Οι ειδικοί σύμβουλοί μας σας συνοδεύουν για να μετατρέψουν αυτή τη προσομοίωση σε πραγματικότητα",
+        buttons: {
+          request: "Κάντε αίτηση",
+          consultant: "Μιλήστε με σύμβουλο",
+          officialRequest: "Κάντε επίσημη αίτηση",
+          allServices: "Δείτε όλες τις υπηρεσίες μας"
+        }
+      }
     }
   }
 };
