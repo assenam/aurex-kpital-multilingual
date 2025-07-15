@@ -14,363 +14,273 @@ import {
 const About = () => {
   const { t, language } = useTranslation();
   
-  const getContent = () => {
-    switch (language) {
-      case 'fr':
-        return {
-          badge: "À PROPOS DE NOUS",
-          title: "Notre Histoire",
-          subtitle: "Découvrez comment nous sommes devenus votre partenaire de confiance en transport et logistique",
-          storyTitle: "Notre Parcours",
-          storyText: "Depuis notre création, nous nous sommes engagés à fournir des solutions de transport innovantes et fiables. Notre équipe expérimentée travaille sans relâche pour dépasser vos attentes et garantir la satisfaction de nos clients à travers l'Europe.",
-          timelineTitle: "Moments Clés",
-          timeline: [
-            { year: "2010", title: "Fondation", description: "Création de l'entreprise avec une vision claire : révolutionner le transport européen" },
-            { year: "2015", title: "Expansion", description: "Extension de nos services vers 15 pays européens" },
-            { year: "2020", title: "Innovation", description: "Lancement de notre plateforme digitale de suivi en temps réel" },
-            { year: "2024", title: "Excellence", description: "Plus de 10 000 livraisons réussies et certification ISO 9001" }
-          ],
-          valuesTitle: "Nos Valeurs",
-          values: [
-            { title: "Fiabilité", description: "Nous tenons nos engagements, toujours.", icon: Shield },
-            { title: "Innovation", description: "Nous adoptons les dernières technologies pour optimiser vos livraisons.", icon: Lightbulb },
-            { title: "Durabilité", description: "Nous nous engageons pour un transport respectueux de l'environnement.", icon: Heart },
-            { title: "Transparence", description: "Communication claire sur tous nos services.", icon: CheckCircle }
-          ],
-          teamTitle: "Notre Équipe",
-          teamText: "Une équipe passionnée de professionnels dédiés à votre succès logistique.",
-          team: [
-            { name: "Marie Dubois", position: "Directrice Générale", experience: "15 ans", specialty: "Logistique internationale" },
-            { name: "Jean Martin", position: "Directeur Technique", experience: "12 ans", specialty: "Innovation transport" },
-            { name: "Sophie Laurent", position: "Directrice Commerciale", experience: "10 ans", specialty: "Relations clients" }
-          ],
-          certTitle: "Certifications",
-          certText: "Nos certifications garantissent la qualité et la sécurité de nos services.",
-          certifications: [
-            { name: "ISO 9001", description: "Qualité", year: "2022" },
-            { name: "ISO 14001", description: "Environnement", year: "2023" },
-            { name: "GDPR", description: "Protection des données", year: "2021" }
-          ],
-          contactTitle: "Nous Contacter",
-          contactText: "Prêt à transformer votre logistique ? Contactez-nous dès aujourd'hui.",
-          experienceLabel: "d'expérience"
-        };
-      case 'de':
-        return {
-          badge: "ÜBER UNS",
-          title: "Unsere Geschichte",
-          subtitle: "Erfahren Sie, wie wir zu Ihrem vertrauenswürdigen Partner für Transport und Logistik geworden sind",
-          storyTitle: "Unser Weg",
-          storyText: "Seit unserer Gründung haben wir uns verpflichtet, innovative und zuverlässige Transportlösungen zu bieten. Unser erfahrenes Team arbeitet unermüdlich daran, Ihre Erwartungen zu übertreffen und die Zufriedenheit unserer Kunden in ganz Europa zu gewährleisten.",
-          timelineTitle: "Wichtige Meilensteine",
-          timeline: [
-            { year: "2010", title: "Gründung", description: "Unternehmensgründung mit einer klaren Vision: Den europäischen Transport revolutionieren" },
-            { year: "2015", title: "Expansion", description: "Erweiterung unserer Dienste auf 15 europäische Länder" },
-            { year: "2020", title: "Innovation", description: "Start unserer digitalen Echtzeit-Tracking-Plattform" },
-            { year: "2024", title: "Exzellenz", description: "Über 10.000 erfolgreiche Lieferungen und ISO 9001 Zertifizierung" }
-          ],
-          valuesTitle: "Unsere Werte",
-          values: [
-            { title: "Zuverlässigkeit", description: "Wir halten unsere Versprechen, immer.", icon: Shield },
-            { title: "Innovation", description: "Wir nutzen die neuesten Technologien, um Ihre Lieferungen zu optimieren.", icon: Lightbulb },
-            { title: "Nachhaltigkeit", description: "Wir engagieren uns für umweltfreundlichen Transport.", icon: Heart },
-            { title: "Transparenz", description: "Klare Kommunikation über alle unsere Services.", icon: CheckCircle }
-          ],
-          teamTitle: "Unser Team",
-          teamText: "Ein leidenschaftliches Team von Fachleuten, die sich Ihrem logistischen Erfolg widmen.",
-          team: [
-            { name: "Klaus Müller", position: "Geschäftsführer", experience: "15 Jahre", specialty: "Internationale Logistik" },
-            { name: "Anna Schmidt", position: "Technische Leiterin", experience: "12 Jahre", specialty: "Transport Innovation" },
-            { name: "Thomas Weber", position: "Vertriebsleiter", experience: "10 Jahre", specialty: "Kundenbeziehungen" }
-          ],
-          certTitle: "Zertifizierungen",
-          certText: "Unsere Zertifizierungen garantieren die Qualität und Sicherheit unserer Dienste.",
-          certifications: [
-            { name: "ISO 9001", description: "Qualität", year: "2022" },
-            { name: "ISO 14001", description: "Umwelt", year: "2023" },
-            { name: "DSGVO", description: "Datenschutz", year: "2021" }
-          ],
-          contactTitle: "Kontaktieren Sie uns",
-          contactText: "Bereit, Ihre Logistik zu transformieren? Kontaktieren Sie uns noch heute.",
-          experienceLabel: "Jahre Erfahrung"
-        };
-      case 'pl':
-        return {
-          badge: "O NAS",
-          title: "Nasza Historia",
-          subtitle: "Dowiedz się, jak staliśmy się Twoim zaufanym partnerem w transporcie i logistyce",
-          storyTitle: "Nasza Droga",
-          storyText: "Od naszego powstania zobowiązaliśmy się do dostarczania innowacyjnych i niezawodnych rozwiązań transportowych. Nasz doświadczony zespół pracuje niestrudzenie, aby przekroczyć Twoje oczekiwania i zapewnić zadowolenie klientów w całej Europie.",
-          timelineTitle: "Kluczowe Momenty",
-          timeline: [
-            { year: "2010", title: "Założenie", description: "Powstanie firmy z jasną wizją: rewolucjonizacja europejskiego transportu" },
-            { year: "2015", title: "Ekspansja", description: "Rozszerzenie naszych usług na 15 krajów europejskich" },
-            { year: "2020", title: "Innowacja", description: "Uruchomienie naszej cyfrowej platformy śledzenia w czasie rzeczywistym" },
-            { year: "2024", title: "Doskonałość", description: "Ponad 10 000 udanych dostaw i certyfikacja ISO 9001" }
-          ],
-          valuesTitle: "Nasze Wartości",
-          values: [
-            { title: "Niezawodność", description: "Dotrzymujemy zobowiązań, zawsze.", icon: Shield },
-            { title: "Innowacja", description: "Przyjmujemy najnowsze technologie, aby zoptymalizować Twoje dostawy.", icon: Lightbulb },
-            { title: "Zrównoważoność", description: "Jesteśmy zaangażowani w transport przyjazny środowisku.", icon: Heart },
-            { title: "Przejrzystość", description: "Jasna komunikacja o wszystkich naszych usługach.", icon: CheckCircle }
-          ],
-          teamTitle: "Nasz Zespół",
-          teamText: "Zespół pasjonatów profesjonalistów oddanych Twojemu sukcesowi logistycznemu.",
-          team: [
-            { name: "Anna Kowalska", position: "Dyrektor Generalny", experience: "15 lat", specialty: "Logistyka międzynarodowa" },
-            { name: "Piotr Nowak", position: "Dyrektor Techniczny", experience: "12 lat", specialty: "Innowacje transportowe" },
-            { name: "Maria Wiśniewska", position: "Dyrektor Handlowy", experience: "10 lat", specialty: "Relacje z klientami" }
-          ],
-          certTitle: "Certyfikaty",
-          certText: "Nasze certyfikaty gwarantują jakość i bezpieczeństwo naszych usług.",
-          certifications: [
-            { name: "ISO 9001", description: "Jakość", year: "2022" },
-            { name: "ISO 14001", description: "Środowisko", year: "2023" },
-            { name: "RODO", description: "Ochrona danych", year: "2021" }
-          ],
-          contactTitle: "Skontaktuj się z nami",
-          contactText: "Gotowy do transformacji swojej logistyki? Skontaktuj się z nami już dziś.",
-          experienceLabel: "lat doświadczenia"
-        };
-      case 'fi':
-        return {
-          badge: "TIETOA MEISTÄ",
-          title: "Tarinaamme",
-          subtitle: "Opi, kuinka meistä tuli luotettava kumppanisi kuljetuksissa ja logistiikassa",
-          storyTitle: "Matkamme",
-          storyText: "Perustamisestamme lähtien olemme sitoutuneet tarjoamaan innovatiivisia ja luotettavia kuljetusratkaisuja. Kokenut tiimimme työskentelee väsymättä ylittääkseen odotuksesi ja varmistaakseen asiakastyytyväisyyden kaikkialla Euroopassa.",
-          timelineTitle: "Tärkeät Virstanpylväät",
-          timeline: [
-            { year: "2010", title: "Perustaminen", description: "Yrityksen perustaminen selkeällä visiolla: vallankumous eurooppalaisessa kuljetuksessa" },
-            { year: "2015", title: "Laajentuminen", description: "Palveluidemme laajentaminen 15 Euroopan maahan" },
-            { year: "2020", title: "Innovaatio", description: "Digitaalisen reaaliaikaisen seurantaalustamme lanseeraus" },
-            { year: "2024", title: "Huippuosaaminen", description: "Yli 10 000 onnistunutta toimitusta ja ISO 9001 -sertifiointi" }
-          ],
-          valuesTitle: "Arvomme",
-          values: [
-            { title: "Luotettavuus", description: "Pidämme sitoumuksemme, aina.", icon: Shield },
-            { title: "Innovaatio", description: "Omaksumme uusimmat teknologiat optimoidaksemme toimituksesi.", icon: Lightbulb },
-            { title: "Kestävyys", description: "Olemme sitoutuneet ympäristöystävälliseen kuljetukseen.", icon: Heart },
-            { title: "Läpinäkyvyys", description: "Selkeä viestintä kaikista palveluistamme.", icon: CheckCircle }
-          ],
-          teamTitle: "Tiimimme",
-          teamText: "Intohimoinen joukko ammattilaisia, jotka ovat omistautuneet logistiseen menestykseesi.",
-          team: [
-            { name: "Marja Virtanen", position: "Toimitusjohtaja", experience: "15 vuotta", specialty: "Kansainvälinen logistiikka" },
-            { name: "Mikko Laine", position: "Tekninen johtaja", experience: "12 vuotta", specialty: "Kuljetusteknologiat" },
-            { name: "Anna Koskinen", position: "Myyntijohtaja", experience: "10 vuotta", specialty: "Asiakassuhteet" }
-          ],
-          certTitle: "Sertifikaatit",
-          certText: "Sertifikaattimme takaavat palvelujemme laadun ja turvallisuuden.",
-          certifications: [
-            { name: "ISO 9001", description: "Laatu", year: "2022" },
-            { name: "ISO 14001", description: "Ympäristö", year: "2023" },
-            { name: "GDPR", description: "Tietosuoja", year: "2021" }
-          ],
-          contactTitle: "Ota yhteyttä",
-          contactText: "Valmis muuttamaan logistiikkaasi? Ota yhteyttä tänään.",
-          experienceLabel: "vuoden kokemus"
-        };
-      case 'es':
-        return {
-          badge: "SOBRE NOSOTROS",
-          title: "Nuestra Historia",
-          subtitle: "Descubre cómo nos convertimos en tu socio de confianza en transporte y logística",
-          storyTitle: "Nuestro Camino",
-          storyText: "Desde nuestros inicios, nos hemos comprometido a proporcionar soluciones de transporte innovadoras y confiables. Nuestro equipo experimentado trabaja incansablemente para superar sus expectativas y garantizar la satisfacción del cliente en toda Europa.",
-          timelineTitle: "Hitos Clave",
-          timeline: [
-            { year: "2010", title: "Fundación", description: "Establecimiento de la empresa con una visión clara: revolucionar el transporte europeo" },
-            { year: "2015", title: "Expansión", description: "Extensión de nuestros servicios a 15 países europeos" },
-            { year: "2020", title: "Innovación", description: "Lanzamiento de nuestra plataforma digital de seguimiento en tiempo real" },
-            { year: "2024", title: "Excelencia", description: "Más de 10,000 entregas exitosas y certificación ISO 9001" }
-          ],
-          valuesTitle: "Nuestros Valores",
-          values: [
-            { title: "Confiabilidad", description: "Cumplimos nuestros compromisos, siempre.", icon: Shield },
-            { title: "Innovación", description: "Adoptamos las últimas tecnologías para optimizar sus entregas.", icon: Lightbulb },
-            { title: "Sostenibilidad", description: "Estamos comprometidos con el transporte respetuoso con el medio ambiente.", icon: Heart },
-            { title: "Transparencia", description: "Comunicación clara sobre todos nuestros servicios.", icon: CheckCircle }
-          ],
-          teamTitle: "Nuestro Equipo",
-          teamText: "Un equipo apasionado de profesionales dedicados a su éxito logístico.",
-          team: [
-            { name: "Carmen García", position: "Directora General", experience: "15 años", specialty: "Logística internacional" },
-            { name: "Luis Martínez", position: "Director Técnico", experience: "12 años", specialty: "Innovación en transporte" },
-            { name: "Ana Rodríguez", position: "Directora Comercial", experience: "10 años", specialty: "Relaciones con clientes" }
-          ],
-          certTitle: "Certificaciones",
-          certText: "Nuestras certificaciones garantizan la calidad y seguridad de nuestros servicios.",
-          certifications: [
-            { name: "ISO 9001", description: "Calidad", year: "2022" },
-            { name: "ISO 14001", description: "Medio Ambiente", year: "2023" },
-            { name: "GDPR", description: "Protección de datos", year: "2021" }
-          ],
-          contactTitle: "Contáctanos",
-          contactText: "¿Listo para transformar tu logística? Contáctanos hoy.",
-          experienceLabel: "años de experiencia"
-        };
-      case 'pt':
-        return {
-          badge: "SOBRE NÓS",
-          title: "Nossa História",
-          subtitle: "Descubra como nos tornamos seu parceiro de confiança em transporte e logística",
-          storyTitle: "Nossa Jornada",
-          storyText: "Desde nosso início, nos comprometemos a fornecer soluções de transporte inovadoras e confiáveis. Nossa equipe experiente trabalha incansavelmente para superar suas expectativas e garantir a satisfação do cliente em toda a Europa.",
-          timelineTitle: "Marcos Importantes",
-          timeline: [
-            { year: "2010", title: "Fundação", description: "Estabelecimento da empresa com uma visão clara: revolucionar o transporte europeu" },
-            { year: "2015", title: "Expansão", description: "Extensão de nossos serviços para 15 países europeus" },
-            { year: "2020", title: "Inovação", description: "Lançamento de nossa plataforma digital de rastreamento em tempo real" },
-            { year: "2024", title: "Excelência", description: "Mais de 10.000 entregas bem-sucedidas e certificação ISO 9001" }
-          ],
-          valuesTitle: "Nossos Valores",
-          values: [
-            { title: "Confiabilidade", description: "Cumprimos nossos compromissos, sempre.", icon: Shield },
-            { title: "Inovação", description: "Adotamos as mais recentes tecnologias para otimizar suas entregas.", icon: Lightbulb },
-            { title: "Sustentabilidade", description: "Estamos comprometidos com o transporte ambientalmente responsável.", icon: Heart },
-            { title: "Transparência", description: "Comunicação clara sobre todos os nossos serviços.", icon: CheckCircle }
-          ],
-          teamTitle: "Nossa Equipe",
-          teamText: "Uma equipe apaixonada de profissionais dedicados ao seu sucesso logístico.",
-          team: [
-            { name: "Maria Silva", position: "Diretora Geral", experience: "15 anos", specialty: "Logística internacional" },
-            { name: "João Santos", position: "Diretor Técnico", experience: "12 anos", specialty: "Inovação em transporte" },
-            { name: "Ana Costa", position: "Diretora Comercial", experience: "10 anos", specialty: "Relacionamento com clientes" }
-          ],
-          certTitle: "Certificações",
-          certText: "Nossas certificações garantem a qualidade e segurança de nossos serviços.",
-          certifications: [
-            { name: "ISO 9001", description: "Qualidade", year: "2022" },
-            { name: "ISO 14001", description: "Meio Ambiente", year: "2023" },
-            { name: "GDPR", description: "Proteção de dados", year: "2021" }
-          ],
-          contactTitle: "Entre em Contato",
-          contactText: "Pronto para transformar sua logística? Entre em contato conosco hoje.",
-          experienceLabel: "anos de experiência"
-        };
-      case 'el':
-        return {
-          badge: "ΣΧΕΤΙΚΑ ΜΕ ΕΜΑΣ",
-          title: "Η Ιστορία μας",
-          subtitle: "Ανακαλύψτε πώς γίναμε ο αξιόπιστος εταίρος σας στις μεταφορές και τη logistics",
-          storyTitle: "Το Ταξίδι μας",
-          storyText: "Από την ίδρυσή μας, έχουμε δεσμευτεί να παρέχουμε καινοτόμες και αξιόπιστες λύσεις μεταφοράς. Η έμπειρη ομάδα μας εργάζεται ακούραστα για να ξεπεράσει τις προσδοκίες σας και να εξασφαλίσει την ικανοποίηση των πελατών σε όλη την Ευρώπη.",
-          timelineTitle: "Βασικά Ορόσημα",
-          timeline: [
-            { year: "2010", title: "Ίδρυση", description: "Ίδρυση της εταιρείας με σαφές όραμα: επανάσταση στις ευρωπαϊκές μεταφορές" },
-            { year: "2015", title: "Επέκταση", description: "Επέκταση των υπηρεσιών μας σε 15 ευρωπαϊκές χώρες" },
-            { year: "2020", title: "Καινοτομία", description: "Εκκίνηση της ψηφιακής πλατφόρμας παρακολούθησης σε πραγματικό χρόνο" },
-            { year: "2024", title: "Αριστεία", description: "Πάνω από 10.000 επιτυχημένες παραδόσεις και πιστοποίηση ISO 9001" }
-          ],
-          valuesTitle: "Οι Αξίες μας",
-          values: [
-            { title: "Αξιοπιστία", description: "Τηρούμε τις δεσμεύσεις μας, πάντα.", icon: Shield },
-            { title: "Καινοτομία", description: "Υιοθετούμε τις τελευταίες τεχνολογίες για να βελτιστοποιήσουμε τις παραδόσεις σας.", icon: Lightbulb },
-            { title: "Βιωσιμότητα", description: "Είμαστε προσηλωμένοι σε φιλικές προς το περιβάλλον μεταφορές.", icon: Heart },
-            { title: "Διαφάνεια", description: "Σαφής επικοινωνία για όλες τις υπηρεσίες μας.", icon: CheckCircle }
-          ],
-          teamTitle: "Η Ομάδα μας",
-          teamText: "Μια παθιασμένη ομάδα επαγγελματιών αφοσιωμένη στη logistics επιτυχία σας.",
-          team: [
-            { name: "Μαρία Παπαδάκη", position: "Γενική Διευθύντρια", experience: "15 χρόνια", specialty: "Διεθνής logistics" },
-            { name: "Γιάννης Κωστόπουλος", position: "Τεχνικός Διευθυντής", experience: "12 χρόνια", specialty: "Καινοτομία μεταφορών" },
-            { name: "Ελένη Νικολάου", position: "Εμπορική Διευθύντρια", experience: "10 χρόνια", specialty: "Σχέσεις πελατών" }
-          ],
-          certTitle: "Πιστοποιήσεις",
-          certText: "Οι πιστοποιήσεις μας εγγυώνται την ποιότητα και ασφάλεια των υπηρεσιών μας.",
-          certifications: [
-            { name: "ISO 9001", description: "Ποιότητα", year: "2022" },
-            { name: "ISO 14001", description: "Περιβάλλον", year: "2023" },
-            { name: "GDPR", description: "Προστασία δεδομένων", year: "2021" }
-          ],
-          contactTitle: "Επικοινωνήστε μαζί μας",
-          contactText: "Έτοιμοι να μεταμορφώσετε τη logistics σας; Επικοινωνήστε μαζί μας σήμερα.",
-          experienceLabel: "χρόνια εμπειρίας"
-        };
-      case 'it':
-        return {
-          badge: "CHI SIAMO",
-          title: "La Nostra Storia",
-          subtitle: "Scopri come siamo diventati il tuo partner di fiducia nei trasporti e nella logistica",
-          storyTitle: "Il Nostro Percorso",
-          storyText: "Dalla nostra fondazione, ci siamo impegnati a fornire soluzioni di trasporto innovative e affidabili. Il nostro team esperto lavora instancabilmente per superare le vostre aspettative e garantire la soddisfazione del cliente in tutta Europa.",
-          timelineTitle: "Tappe Fondamentali",
-          timeline: [
-            { year: "2010", title: "Fondazione", description: "Costituzione dell'azienda con una visione chiara: rivoluzionare i trasporti europei" },
-            { year: "2015", title: "Espansione", description: "Estensione dei nostri servizi a 15 paesi europei" },
-            { year: "2020", title: "Innovazione", description: "Lancio della nostra piattaforma digitale di tracciamento in tempo reale" },
-            { year: "2024", title: "Eccellenza", description: "Oltre 10.000 consegne di successo e certificazione ISO 9001" }
-          ],
-          valuesTitle: "I Nostri Valori",
-          values: [
-            { title: "Affidabilità", description: "Manteniamo i nostri impegni, sempre.", icon: Shield },
-            { title: "Innovazione", description: "Adottiamo le tecnologie più recenti per ottimizzare le vostre consegne.", icon: Lightbulb },
-            { title: "Sostenibilità", description: "Siamo impegnati per un trasporto rispettoso dell'ambiente.", icon: Heart },
-            { title: "Trasparenza", description: "Comunicazione chiara su tutti i nostri servizi.", icon: CheckCircle }
-          ],
-          teamTitle: "Il Nostro Team",
-          teamText: "Un team appassionato di professionisti dedicati al vostro successo logistico.",
-          team: [
-            { name: "Giulia Rossi", position: "Direttore Generale", experience: "15 anni", specialty: "Logistica internazionale" },
-            { name: "Marco Bianchi", position: "Direttore Tecnico", experience: "12 anni", specialty: "Innovazione dei trasporti" },
-            { name: "Francesca Verdi", position: "Direttore Commerciale", experience: "10 anni", specialty: "Rapporti clienti" }
-          ],
-          certTitle: "Certificazioni",
-          certText: "Le nostre certificazioni garantiscono la qualità e la sicurezza dei nostri servizi.",
-          certifications: [
-            { name: "ISO 9001", description: "Qualità", year: "2022" },
-            { name: "ISO 14001", description: "Ambiente", year: "2023" },
-            { name: "GDPR", description: "Protezione dati", year: "2021" }
-          ],
-          contactTitle: "Contattaci",
-          contactText: "Pronti a trasformare la vostra logistica? Contattateci oggi stesso.",
-          experienceLabel: "anni di esperienza"
-        };
-      default:
-        return {
-          badge: "ABOUT US",
-          title: "Our Story",
-          subtitle: "Discover how we became your trusted partner in transport and logistics",
-          storyTitle: "Our Journey",
-          storyText: "Since our inception, we have been committed to providing innovative and reliable transport solutions. Our experienced team works tirelessly to exceed your expectations and ensure customer satisfaction across Europe.",
-          timelineTitle: "Key Milestones",
-          timeline: [
-            { year: "2010", title: "Foundation", description: "Company establishment with a clear vision: revolutionizing European transport" },
-            { year: "2015", title: "Expansion", description: "Extended our services to 15 European countries" },
-            { year: "2020", title: "Innovation", description: "Launched our digital real-time tracking platform" },
-            { year: "2024", title: "Excellence", description: "Over 10,000 successful deliveries and ISO 9001 certification" }
-          ],
-          valuesTitle: "Our Values",
-          values: [
-            { title: "Reliability", description: "We keep our commitments, always.", icon: Shield },
-            { title: "Innovation", description: "We adopt the latest technologies to optimize your deliveries.", icon: Lightbulb },
-            { title: "Sustainability", description: "We are committed to environmentally friendly transport.", icon: Heart },
-            { title: "Transparency", description: "Clear communication about all our services.", icon: CheckCircle }
-          ],
-          teamTitle: "Our Team",
-          teamText: "A passionate team of professionals dedicated to your logistics success.",
-          team: [
-            { name: "Sarah Johnson", position: "CEO", experience: "15 years", specialty: "International logistics" },
-            { name: "Michael Brown", position: "CTO", experience: "12 years", specialty: "Transport innovation" },
-            { name: "Emma Wilson", position: "Commercial Director", experience: "10 years", specialty: "Client relations" }
-          ],
-          certTitle: "Certifications",
-          certText: "Our certifications guarantee the quality and safety of our services.",
-          certifications: [
-            { name: "ISO 9001", description: "Quality", year: "2022" },
-            { name: "ISO 14001", description: "Environment", year: "2023" },
-            { name: "GDPR", description: "Data protection", year: "2021" }
-          ],
-          contactTitle: "Contact Us",
-          contactText: "Ready to transform your logistics? Contact us today.",
-          experienceLabel: "years experience"
-        };
+  // Données traduites directement selon la langue
+  const milestones = language === 'de' ? [
+    {
+      year: "1997",
+      title: "Gründung in Hamburg",
+      description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
+    },
+    {
+      year: "2003",
+      title: "Europäische Expansion",
+      description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
+    },
+    {
+      year: "2010",
+      title: "KI-Innovation",
+      description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
+    },
+    {
+      year: "2015",
+      title: "Exzellenz-Zertifizierung",
+      description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
+    },
+    {
+      year: "2020",
+      title: "Digitale Transformation",
+      description: "Start der 100% digitalen Plattform und fortgeschrittener Vorhersagealgorithmen"
+    },
+    {
+      year: "2024",
+      title: "Marktführer",
+      description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
     }
-  };
+  ] : [
+    {
+      year: "1997",
+      title: "Fondation à Hamburg",
+      description: "Création d'Aurex K-pital avec la vision de révolutionner les services financiers en Europe"
+    },
+    {
+      year: "2003",
+      title: "Expansion européenne",
+      description: "Ouverture de bureaux dans 5 pays européens et lancement des premiers services digitaux"
+    },
+    {
+      year: "2010",
+      title: "Innovation IA",
+      description: "Intégration pionnière de l'intelligence artificielle dans l'analyse de crédit"
+    },
+    {
+      year: "2015",
+      title: "Certification Excellence",
+      description: "Obtention des certifications européennes les plus strictes en matière financière"
+    },
+    {
+      year: "2020",
+      title: "Transformation digitale",
+      description: "Lancement de la plateforme 100% digitale et des algorithmes prédictifs avancés"
+    },
+    {
+      year: "2024",
+      title: "Leader marché",
+      description: "Position de leader européen avec plus de 50 000 clients satisfaits"
+    }
+  ];
 
-  const content = getContent();
+  const values = language === 'de' ? [
+    {
+      icon: Heart,
+      title: "Kundenexzellenz",
+      description: "Jeder Kunde ist einzigartig und verdient persönliche Aufmerksamkeit mit maßgeschneiderten Lösungen."
+    },
+    {
+      icon: Shield,
+      title: "Absolute Sicherheit",
+      description: "Maximaler Schutz von Daten und Investitionen mit den fortschrittlichsten Technologien."
+    },
+    {
+      icon: Lightbulb,
+      title: "Kontinuierliche Innovation",
+      description: "Permanente Suche nach neuen Lösungen zur Antizipation zukünftiger Bedürfnisse."
+    },
+    {
+      icon: CheckCircle,
+      title: "Totale Transparenz",
+      description: "Klare und ehrliche Kommunikation über alle unsere Produkte, Services und Konditionen."
+    }
+  ] : [
+    {
+      icon: Heart,
+      title: "Excellence Client",
+      description: "Chaque client est unique et mérite une attention personnalisée avec des solutions sur mesure."
+    },
+    {
+      icon: Shield,
+      title: "Sécurité Absolue",
+      description: "Protection maximale des données et des investissements avec les technologies les plus avancées."
+    },
+    {
+      icon: Lightbulb,
+      title: "Innovation Continue",
+      description: "Recherche permanente de nouvelles solutions pour anticiper les besoins de demain."
+    },
+    {
+      icon: CheckCircle,
+      title: "Transparence Totale",
+      description: "Communication claire et honnête sur tous nos produits, services et conditions."
+    }
+  ];
+
+  const team = language === 'de' ? [
+    {
+      name: "Dr. Klaus Müller",
+      position: "Geschäftsführer",
+      experience: "25 Jahre",
+      specialty: "Finanzstrategie",
+      education: "PhD Finanzen - Frankfurt School"
+    },
+    {
+      name: "Sophie Laurent",
+      position: "Innovationsleiterin",
+      experience: "15 Jahre",
+      specialty: "FinTech & KI",
+      education: "MIT - Künstliche Intelligenz"
+    },
+    {
+      name: "Marco Antonelli",
+      position: "Risikoleiter",
+      experience: "20 Jahre",
+      specialty: "Risikomanagement",
+      education: "Bocconi - Risk Management"
+    },
+    {
+      name: "Elena Rodriguez",
+      position: "Kundenleiterin",
+      experience: "12 Jahre",
+      specialty: "Kundenbeziehungen",
+      education: "ESADE - Customer Experience"
+    }
+  ] : [
+    {
+      name: "Dr. Klaus Müller",
+      position: "Directeur Général",
+      experience: "25 ans",
+      specialty: "Stratégie financière",
+      education: "PhD Finance - Frankfurt School"
+    },
+    {
+      name: "Sophie Laurent",
+      position: "Directrice Innovation",
+      experience: "15 ans",
+      specialty: "FinTech & IA",
+      education: "MIT - Intelligence Artificielle"
+    },
+    {
+      name: "Marco Antonelli",
+      position: "Directeur Risques",
+      experience: "20 ans",
+      specialty: "Gestion des risques",
+      education: "Bocconi - Risk Management"
+    },
+    {
+      name: "Elena Rodriguez",
+      position: "Directrice Client",
+      experience: "12 ans",
+      specialty: "Relation client",
+      education: "ESADE - Customer Experience"
+    }
+  ];
+
+  const certifications = language === 'de' ? [
+    {
+      name: "ISO 27001",
+      description: "Informationssicherheit",
+      year: "2018"
+    },
+    {
+      name: "PCI DSS",
+      description: "Zahlungssicherheit",
+      year: "2020"
+    },
+    {
+      name: "DSGVO-Konform",
+      description: "Datenschutz",
+      year: "2018"
+    },
+    {
+      name: "SOC 2 Type II",
+      description: "Organisationskontrollen",
+      year: "2021"
+    }
+  ] : [
+    {
+      name: "ISO 27001",
+      description: "Sécurité de l'information",
+      year: "2018"
+    },
+    {
+      name: "PCI DSS",
+      description: "Sécurité des paiements",
+      year: "2020"
+    },
+    {
+      name: "GDPR Compliant",
+      description: "Protection des données",
+      year: "2018"
+    },
+    {
+      name: "SOC 2 Type II",
+      description: "Contrôles organisationnels",
+      year: "2021"
+    }
+  ];
+
+  // Traductions directes
+  const content = language === 'de' ? {
+    badge: "Exzellenz seit 1997",
+    title: "Ein Vierteljahrhundert",
+    subtitle: "Finanzinnovation",
+    description: "Von Hamburg aus revolutionieren wir die Finanzberatung durch die Kombination traditioneller menschlicher Expertise mit modernster Technologie.",
+    storyTitle: "Unsere Geschichte",
+    storySubtitle: "Von einem Hamburger Startup zum europäischen Marktführer der Finanzinnovation",
+    storyParagraph1: "Aurex K-pital entstand 1997 aus der visionären Idee, die europäischen Finanzdienstleistungen zu revolutionieren. Mit Sitz in Hamburg, im wirtschaftlichen Herzen Deutschlands, hat sich unser Unternehmen die Mission gesetzt, den Zugang zu innovativen Finanzlösungen zu demokratisieren.",
+    storyParagraph2: "Als Pioniere bei der Integration künstlicher Intelligenz in Finanzdienstleistungen seit 2010 haben wir proprietäre Algorithmen entwickelt, die eine hochpräzise Risikoanalyse und personalisierte Empfehlungen für jeden Kunden ermöglichen.",
+    storyParagraph3: "Heute, mit mehr als 50.000 Kunden in ganz Europa und 5 Milliarden Euro gewährter Finanzierungen, innovieren wir weiter, um die besten Marktlösungen zu bieten.",
+    timelineTitle: "Unsere Meilensteine",
+    valuesTitle: "Unsere Werte",
+    valuesSubtitle: "Die Prinzipien, die jede unserer Handlungen leiten",
+    teamTitle: "Unser Führungsteam",
+    teamSubtitle: "Anerkannte Experten im Dienste Ihres Erfolgs",
+    experienceLabel: "Jahre Erfahrung",
+    certificationsTitle: "Zertifizierungen & Akkreditierungen",
+    certificationsSubtitle: "Offizielle Anerkennung unserer operativen Exzellenz",
+    sinceLabel: "Seit",
+    contactTitle: "Besuchen Sie uns",
+    contactSubtitle: "Unsere Büros empfangen Sie im Herzen von Hamburg",
+    addressTitle: "Adresse",
+    phoneTitle: "Telefon",
+    emailTitle: "E-Mail",
+    appointmentBtn: "Termin vereinbaren",
+    customRequestBtn: "Individuelle Anfrage"
+  } : {
+    badge: "Excellence depuis 1997",
+    title: "Un Quart de Siècle",
+    subtitle: "d'Innovation Financière",
+    description: "Depuis Hamburg, nous révolutionnons l'accompagnement financier en combinant expertise humaine traditionnelle et technologies de pointe.",
+    storyTitle: "Notre Histoire",
+    storySubtitle: "De startup hambourgeoise à leader européen de l'innovation financière",
+    storyParagraph1: "Aurex K-pital naît en 1997 de la vision audacieuse de révolutionner les services financiers européens. Basée à Hamburg, au cœur économique de l'Allemagne, notre entreprise s'est donnée pour mission de démocratiser l'accès aux solutions financières innovantes.",
+    storyParagraph2: "Pionniers dans l'intégration de l'intelligence artificielle aux services financiers dès 2010, nous avons développé des algorithmes propriétaires qui permettent une analyse de risque ultra-précise et des recommandations personnalisées pour chaque client.",
+    storyParagraph3: "Aujourd'hui, avec plus de 50 000 clients dans toute l'Europe et 5 milliards d'euros de financements accordés, nous continuons d'innover pour offrir les meilleures solutions du marché.",
+    timelineTitle: "Nos Grandes Étapes",
+    valuesTitle: "Nos Valeurs",
+    valuesSubtitle: "Les principes qui guident chacune de nos actions",
+    teamTitle: "Notre Équipe Dirigeante",
+    teamSubtitle: "Des experts reconnus au service de votre réussite",
+    experienceLabel: "d'expérience",
+    certificationsTitle: "Certifications & Accréditations",
+    certificationsSubtitle: "Reconnaissance officielle de notre excellence opérationnelle",
+    sinceLabel: "Depuis",
+    contactTitle: "Nous Rencontrer",
+    contactSubtitle: "Nos bureaux vous accueillent au cœur de Hamburg",
+    addressTitle: "Adresse",
+    phoneTitle: "Téléphone",
+    emailTitle: "Email",
+    appointmentBtn: "Prendre rendez-vous",
+    customRequestBtn: "Demande personnalisée"
+  };
 
   return (
     <div className="min-h-screen">
@@ -392,10 +302,11 @@ const About = () => {
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               {content.title}
+              <span className="text-gold block">{content.subtitle}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              {content.subtitle}
+              {content.description}
             </p>
           </div>
         </div>
@@ -403,16 +314,33 @@ const About = () => {
 
       {/* Story */}
       <section className="py-20 bg-gradient-soft-gold relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-60 h-60 bg-primary/20 rounded-full blur-3xl float"></div>
+        <div className="absolute bottom-0 right-0 w-40 h-40 bg-gold/30 rounded-full blur-2xl float" style={{ animationDelay: '1s' }}></div>
+        <div className="absolute inset-0 opacity-20">
+          <div className="grid-pattern"></div>
+        </div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
                 {content.storyTitle}
               </h2>
+              <p className="text-xl text-muted-foreground">
+                {content.storySubtitle}
+              </p>
             </div>
+
             <div className="prose prose-lg max-w-none text-muted-foreground">
               <p className="text-xl leading-relaxed mb-6">
-                {content.storyText}
+                {content.storyParagraph1}
+              </p>
+
+              <p className="text-lg leading-relaxed mb-6">
+                {content.storyParagraph2}
+              </p>
+
+              <p className="text-lg leading-relaxed mb-6">
+                {content.storyParagraph3}
               </p>
             </div>
           </div>
@@ -421,30 +349,35 @@ const About = () => {
 
       {/* Timeline */}
       <section className="py-20 bg-gradient-soft-blue relative overflow-hidden">
+        <div className="absolute top-20 right-20 w-32 h-32 bg-accent/25 rounded-full blur-2xl float"></div>
+        <div className="absolute bottom-20 left-20 w-48 h-48 bg-primary/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               {content.timelineTitle}
             </h2>
           </div>
+
           <div className="max-w-4xl mx-auto">
             <div className="space-y-8">
-              {content.timeline.map((milestone, index) => (
+              {milestones.map((milestone, index) => (
                 <div key={milestone.year} className={`flex items-center gap-8 ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}>
                   <div className="flex-1">
-                    <Card className="hover-lift border-0 shadow-md bg-gradient-to-br from-white to-gold/5 border-l-4 border-l-gold">
-                      <CardHeader>
-                        <div className="flex items-center gap-4">
-                          <div className="text-3xl font-bold bg-gradient-gold bg-clip-text text-transparent">{milestone.year}</div>
-                          <CardTitle className="text-xl text-primary">{milestone.title}</CardTitle>
-                        </div>
-                      </CardHeader>
+                     <Card className="hover-lift border-0 shadow-md bg-gradient-to-br from-white to-gold/5 border-l-4 border-l-gold">
+                       <CardHeader>
+                         <div className="flex items-center gap-4">
+                           <div className="text-3xl font-bold bg-gradient-gold bg-clip-text text-transparent">{milestone.year}</div>
+                           <CardTitle className="text-xl text-primary">{milestone.title}</CardTitle>
+                         </div>
+                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">{milestone.description}</p>
                       </CardContent>
                     </Card>
                   </div>
+                  
                   <div className="hidden md:block w-6 h-6 bg-gradient-gold rounded-full flex-shrink-0 shadow-gold ring-4 ring-gold/20"></div>
+                  
                   <div className="flex-1 hidden md:block"></div>
                 </div>
               ))}
@@ -455,62 +388,74 @@ const About = () => {
 
       {/* Values */}
       <section className="py-20 bg-gradient-elegant relative">
+        <div className="absolute top-0 left-0 w-40 h-40 bg-gold/10 rounded-full blur-3xl float"></div>
+        <div className="absolute bottom-0 right-0 w-32 h-32 bg-primary/15 rounded-full blur-2xl float" style={{ animationDelay: '2s' }}></div>
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               {content.valuesTitle}
             </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              {content.valuesSubtitle}
+            </p>
           </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {content.values.map((value, index) => {
-              const IconComponent = value.icon;
-              return (
-                <Card key={value.title} className="hover-lift border-0 shadow-md bg-gradient-to-br from-white via-gold/5 to-primary/5 hover:from-gold/10 hover:to-primary/10 transition-all duration-300">
-                  <CardHeader>
-                    <div className="flex items-center gap-4 mb-4">
-                      <div className="p-3 bg-gradient-gold rounded-xl shadow-gold">
-                        <IconComponent className="h-8 w-8 text-primary" />
-                      </div>
-                      <CardTitle className="text-xl text-primary">{value.title}</CardTitle>
+            {values.map((value, index) => (
+              <Card key={value.title} className="hover-lift border-0 shadow-md bg-gradient-to-br from-white via-gold/5 to-primary/5 hover:from-gold/10 hover:to-primary/10 transition-all duration-300">
+                <CardHeader>
+                  <div className="flex items-center gap-4 mb-4">
+                    <div className="p-3 bg-gradient-gold rounded-xl shadow-gold">
+                      <value.icon className="h-8 w-8 text-primary" />
                     </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">{value.description}</p>
-                  </CardContent>
-                </Card>
-              );
-            })}
+                    <CardTitle className="text-xl text-primary">{value.title}</CardTitle>
+                  </div>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-muted-foreground">{value.description}</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
 
       {/* Team */}
       <section className="py-20 bg-gradient-section relative overflow-hidden">
+        <div className="absolute top-0 left-1/4 w-40 h-40 bg-accent/20 rounded-full blur-2xl float"></div>
+        <div className="absolute bottom-0 right-1/4 w-56 h-56 bg-primary/10 rounded-full blur-3xl float" style={{ animationDelay: '1.5s' }}></div>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
               {content.teamTitle}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {content.teamText}
+              {content.teamSubtitle}
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {content.team.map((member, index) => (
-              <Card key={member.name} className="hover-lift border-0 shadow-md bg-gradient-to-br from-white to-primary/5 hover:from-gold/5 hover:to-primary/10 transition-all duration-300">
-                <CardHeader className="text-center">
-                  <div className="w-20 h-20 mx-auto mb-4 bg-gradient-gold rounded-full flex items-center justify-center">
-                    <Users className="h-10 w-10 text-primary" />
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {team.map((member, index) => (
+              <Card key={member.name} className="text-center hover-lift border-0 shadow-md bg-gradient-to-t from-primary/5 to-white hover:from-primary/10 transition-all duration-300">
+                <CardHeader>
+                  <div className="w-24 h-24 mx-auto mb-4 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold ring-4 ring-gold/20">
+                    <Users className="h-12 w-12 text-primary" />
                   </div>
-                  <CardTitle className="text-xl text-primary">{member.name}</CardTitle>
-                  <CardDescription className="text-gold font-medium">{member.position}</CardDescription>
+                  <CardTitle className="text-lg text-primary">{member.name}</CardTitle>
+                  <CardDescription className="text-accent font-semibold">{member.position}</CardDescription>
                 </CardHeader>
-                <CardContent className="text-center">
-                  <div className="space-y-2">
-                    <p className="text-sm text-muted-foreground">
-                      <span className="font-medium">{member.experience}</span> {content.experienceLabel}
-                    </p>
-                    <p className="text-sm text-muted-foreground">{member.specialty}</p>
+                <CardContent className="space-y-2">
+                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                    <Briefcase className="h-4 w-4" />
+                    {member.experience} {content.experienceLabel}
+                  </div>
+                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                    <Target className="h-4 w-4" />
+                    {member.specialty}
+                  </div>
+                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+                    <GraduationCap className="h-4 w-4" />
+                    {member.education}
                   </div>
                 </CardContent>
               </Card>
@@ -520,30 +465,30 @@ const About = () => {
       </section>
 
       {/* Certifications */}
-      <section className="py-20 bg-gradient-soft-gold relative overflow-hidden">
-        <div className="container mx-auto px-4">
+      <section className="py-20 bg-gradient-soft-gray relative overflow-hidden">
+        <div className="absolute inset-0 grid-pattern opacity-5"></div>
+        <div className="container mx-auto px-4 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {content.certTitle}
+              {content.certificationsTitle}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {content.certText}
+              {content.certificationsSubtitle}
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {content.certifications.map((cert, index) => (
-              <Card key={cert.name} className="hover-lift border-0 shadow-md bg-gradient-to-br from-white to-gold/5 hover:from-gold/10 hover:to-primary/5 transition-all duration-300">
-                <CardHeader className="text-center">
-                  <div className="w-16 h-16 mx-auto mb-4 bg-gradient-gold rounded-full flex items-center justify-center">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {certifications.map((cert, index) => (
+              <Card key={cert.name} className="text-center hover-lift border-0 shadow-md bg-gradient-to-br from-white to-accent/10 hover:from-accent/5 hover:to-accent/15 transition-all duration-300 border-t-4 border-t-accent">
+                <CardHeader>
+                  <div className="mx-auto mb-4 p-4 bg-gradient-gold rounded-xl shadow-gold ring-2 ring-gold/30">
                     <Award className="h-8 w-8 text-primary" />
                   </div>
                   <CardTitle className="text-lg text-primary">{cert.name}</CardTitle>
-                  <CardDescription className="text-gold font-medium">{cert.description}</CardDescription>
+                  <CardDescription className="text-sm">{cert.description}</CardDescription>
                 </CardHeader>
-                <CardContent className="text-center">
-                  <p className="text-sm text-muted-foreground">
-                    Depuis {cert.year}
-                  </p>
+                <CardContent>
+                  <div className="text-sm text-accent font-semibold">{content.sinceLabel} {cert.year}</div>
                 </CardContent>
               </Card>
             ))}
@@ -551,27 +496,60 @@ const About = () => {
         </div>
       </section>
 
-      {/* Contact CTA */}
-      <section className="py-20 bg-gradient-primary relative overflow-hidden">
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center text-primary-foreground">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+      {/* Contact Info */}
+      <section className="py-20 bg-gradient-primary">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center text-primary-foreground">
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">
               {content.contactTitle}
             </h2>
-            <p className="text-xl mb-8 opacity-90">
-              {content.contactText}
+            <p className="text-xl mb-12 text-primary-foreground/90">
+              {content.contactSubtitle}
             </p>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+              <div className="text-center">
+                <MapPin className="h-8 w-8 text-gold mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-2">{content.addressTitle}</h3>
+                <p className="text-primary-foreground/80">
+                  Irma-Keilhack-Ring 24<br />
+                  22145 Hamburg<br />
+                  {language === 'de' ? 'Deutschland' : 'Allemagne'}
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <Phone className="h-8 w-8 text-gold mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-2">{content.phoneTitle}</h3>
+                <p className="text-primary-foreground/80">
+                  +49 40 710 97523<br />
+                  {language === 'de' ? 'Mo-Fr: 8-19 Uhr' : 'Lun-Ven: 8h-19h'}<br />
+                  {language === 'de' ? 'Sa: 9-17 Uhr' : 'Sam: 9h-17h'}
+                </p>
+              </div>
+              
+              <div className="text-center">
+                <Mail className="h-8 w-8 text-gold mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-2">{content.emailTitle}</h3>
+                <p className="text-primary-foreground/80">
+                  contact@aurex-kpital.de<br />
+                  info@aurex-kpital.de<br />
+                  support@aurex-kpital.de
+                </p>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="bg-gold text-primary hover:bg-gold/90">
+              <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
                 <Link to="/contact">
-                  <Mail className="h-5 w-5 mr-2" />
-                  {content.contactTitle}
+                  <Users className="h-5 w-5 mr-2" />
+                  {content.appointmentBtn}
                 </Link>
               </Button>
-              <Button asChild variant="outline" size="lg" className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
-                <Link to="/services">
-                  <Target className="h-5 w-5 mr-2" />
-                  Nos Services
+              <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
+                <Link to="/demande">
+                  <Sparkles className="h-5 w-5 mr-2" />
+                  {content.customRequestBtn}
                 </Link>
               </Button>
             </div>
