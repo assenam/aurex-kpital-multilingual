@@ -30,9 +30,9 @@ const populateCache = () => {
       } else if (typeof obj[key] === 'string') {
         const cacheKey = `${lang}:${prefix ? `${prefix}.${key}` : key}`;
         translationCache.set(cacheKey, obj[key]);
-      }
     }
-  };
+  }
+};
 
   allLanguages.forEach(lang => {
     if (translations[lang]) {
@@ -1859,6 +1859,128 @@ const translations = {
           allServices: "Ver todos nuestros servicios"
         }
       }
+    },
+    contact: {
+      hero: {
+        badge: "Excelência em Suporte",
+        title: "Contacte os Nossos",
+        titleHighlight: "Especialistas",
+        description: "A nossa equipa dedicada acompanha-o em cada etapa do seu projeto financeiro. Várias formas de nos contactar de acordo com as suas preferências.",
+        stats: {
+          satisfaction: "Satisfação do cliente",
+          responseTime: "Tempo médio de resposta",
+          experts: "Conselheiros especialistas"
+        }
+      },
+      methods: {
+        title: "Como Nos Contactar",
+        description: "Escolha o canal que melhor lhe convém",
+        phone: {
+          title: "Telefone",
+          description: "Fale diretamente com os nossos conselheiros",
+          hours: "Seg-Sex: 8-19h, Sáb: 9-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Envie-nos as suas questões",
+          hours: "Resposta em 4h em média"
+        },
+        address: {
+          title: "Morada",
+          description: "Visite os nossos escritórios em Hamburgo",
+          hours: "Apenas com marcação"
+        },
+        chat: {
+          title: "Chat online",
+          description: "Assistência instantânea",
+          value: "Disponível 24h/7",
+          hours: "Resposta imediata"
+        }
+      },
+      form: {
+        title: "Envie-nos uma mensagem",
+        description: "Respondemos rapidamente e de forma personalizada",
+        fields: {
+          name: "Nome completo",
+          email: "Email",
+          phone: "Telefone",
+          subject: "Assunto",
+          message: "A sua mensagem",
+          preferredContact: "Método de contacto preferido",
+          urgency: "Nível de urgência"
+        },
+        placeholders: {
+          subject: "Escolha um assunto",
+          contact: "Como prefere ser contactado?",
+          urgency: "Selecionar",
+          message: "Descreva o seu pedido em detalhe..."
+        },
+        subjects: {
+          loanRequest: "Pedido de empréstimo",
+          investment: "Aconselhamento em investimentos",
+          insurance: "Seguro",
+          existingClient: "Cliente existente",
+          partnership: "Parceria",
+          complaint: "Reclamação",
+          other: "Outro"
+        },
+        contactMethods: {
+          phone: "Telefone",
+          email: "Email",
+          appointment: "Encontro"
+        },
+        urgencyLevels: {
+          low: "Normal (48h)",
+          medium: "Urgente (24h)",
+          high: "Muito urgente (4h)"
+        },
+        submit: "Enviar mensagem",
+        commitment: "Comprometemo-nos a responder nos prazos indicados de acordo com o nível de urgência selecionado.",
+        required: "*"
+      },
+      departments: {
+        title: "Os Nossos Departamentos",
+        commercial: {
+          name: "Serviço Comercial",
+          description: "Novos pedidos e informações"
+        },
+        client: {
+          name: "Serviço ao Cliente",
+          description: "Acompanhamento de casos existentes"
+        },
+        support: {
+          name: "Suporte Técnico",
+          description: "Assistência de plataforma e ferramentas"
+        },
+        management: {
+          name: "Direção",
+          description: "Reclamações e sugestões"
+        }
+      },
+      schedule: {
+        title: "Horários de funcionamento",
+        weekdays: "Segunda - Sexta",
+        saturday: "Sábado",
+        sunday: "Domingo",
+        hours: {
+          weekdays: "8:00 - 19:00",
+          saturday: "9:00 - 17:00",
+          sunday: "Fechado"
+        },
+        types: {
+          advisors: "Conselheiros disponíveis",
+          reduced: "Serviço reduzido",
+          emergency: "Apenas urgências"
+        }
+      },
+      certifications: {
+        title: "Garantias e Certificações",
+        iso: "Dados seguros ISO 27001",
+        gdpr: "Conformidade RGPD",
+        eu: "Aprovado UE",
+        bafin: "Regulado por BaFin"
+      },
+      success: "A sua mensagem foi enviada com sucesso! Contactaremos rapidamente."
     },
     legal: {
       badge: "Información Legal",
@@ -4038,5 +4160,51 @@ const translations = {
         }
       }
     }
+  },
+  it: {
+    menu: {
+      home: "Home",
+      services: "Servizi",
+      simulator: "Simulatore",
+      request: "Richiesta",
+      about: "Chi siamo",
+      contact: "Contatto",
+      faq: "FAQ",
+      careers: "Carriere",
+      partners: "Partner",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Strumenti",
+      company: "Azienda",
+      legal: "Legale",
+      privacyPolicy: "Politica sulla privacy",
+      terms: "Condizioni generali",
+      mentions: "Note legali",
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
+      services: "Servizi",
+      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      establishment: "Istituto finanziario autorizzato in Europa",
+      links: {
+        personalLoans: "Prestiti personali",
+        proFinancing: "Finanziamenti professionali",
+        investments: "Investimenti",
+        insurance: "Assicurazioni",
+        simulator: "Simulatore di prestito",
+        request: "Richiesta di finanziamento",
+        faq: "FAQ",
+        contact: "Contatto",
+        about: "Chi siamo",
+        partners: "I nostri partner",
+        careers: "Carriere",
+        blog: "Blog",
+        legal: "Note legali",
+        privacy: "Politica sulla privacy",
+        terms: "Condizioni generali",
+        gdpr: "GDPR"
+      }
+    },
   }
 };
