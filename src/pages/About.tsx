@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Link } from 'react-router-dom';
-import { useTranslation } from '@/contexts/TranslationContext';
+import { useTranslation } from '@/hooks/useTranslation';
 import { 
   Calendar, Globe, Shield, Trophy, Target, Users, Award, 
   Sparkles, TrendingUp, Heart, Lightbulb, CheckCircle,
