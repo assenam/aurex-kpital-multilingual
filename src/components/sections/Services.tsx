@@ -1,14 +1,11 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
-import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { useState, memo, useMemo } from 'react';
+import { memo, useMemo } from 'react';
 import { Gem, Building2, TrendingUp, Shield, Sparkles, Target } from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Services = memo(() => {
-  const { visibleElements } = useScrollAnimation();
-  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
   const { t } = useTranslation();
 
   const services = useMemo(() => [
@@ -67,21 +64,10 @@ const Services = memo(() => {
   ], [t]);
 
   return (
-    <section className="py-32 relative overflow-hidden bg-gradient-section">
-      {/* Enhanced Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-secondary/20 via-muted/10 to-gold/5"></div>
-      <div className="absolute top-0 left-0 w-full h-full grid-pattern opacity-10"></div>
-      
-      {/* Floating Elements */}
-      <div className="absolute top-20 right-10 w-40 h-40 bg-gold/10 rounded-full blur-2xl float"></div>
-      <div className="absolute bottom-20 left-20 w-32 h-32 bg-primary/15 rounded-full blur-xl float" style={{ animationDelay: '1.5s' }}></div>
-
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        {/* Enhanced Header */}
-        <div 
-          className="text-center mb-20 scroll-fade-in"
-          data-scroll-id="services-header"
-        >
+    <section className="py-32 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Header */}
+        <div className="text-center mb-20">
           <div className="inline-block mb-4">
             <span className="px-6 py-2 bg-gradient-gold rounded-full text-primary font-semibold text-sm tracking-wide uppercase flex items-center gap-2 justify-center">
               <Sparkles className="h-4 w-4" />
@@ -98,43 +84,16 @@ const Services = memo(() => {
           </p>
         </div>
 
-      {/* Enhanced Services Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16 relative z-10">
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
           {services.map((service, index) => (
-            <div
-              key={service.title}
-              className={`scroll-slide-right group relative`}
-              data-scroll-id={`service-${index}`}
-              style={{ animationDelay: `${index * 200}ms` }}
-              onMouseEnter={() => setHoveredCard(index)}
-              onMouseLeave={() => setHoveredCard(null)}
-            >
-              <Card className={`
-                hover-lift tilt-card h-full transition-all duration-500 border-0 overflow-hidden
-                ${hoveredCard === index ? 'scale-105 shadow-hover z-10' : ''}
-                ${service.bgColor}
-              `}>
-                {/* Card Glow Effect */}
-                <div className={`
-                  absolute inset-0 bg-gradient-to-r ${service.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-500
-                `}></div>
-                
-                {/* Shimmer Effect */}
-                <div className="absolute inset-0 group-hover:animate-shimmer">
-                  <div className="h-full w-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full"></div>
-                </div>
-
-                <CardHeader className="text-center pb-4 relative z-10">
-                  <div className={`
-                    mb-6 transition-all duration-500 transform flex justify-center
-                    ${hoveredCard === index ? 'scale-125 rotate-12' : ''}
-                  `}>
-                    <service.icon className="h-16 w-16 text-primary group-hover:text-accent transition-colors duration-300" />
+            <div key={service.title}>
+              <Card className="h-full border border-border bg-card">
+                <CardHeader className="text-center pb-4">
+                  <div className="mb-6 flex justify-center">
+                    <service.icon className="h-16 w-16 text-primary" />
                   </div>
-                  <CardTitle className={`
-                    text-2xl font-bold mb-3 transition-all duration-300
-                    ${hoveredCard === index ? 'bg-gradient-to-r ' + service.gradient + ' bg-clip-text text-transparent' : 'text-primary'}
-                  `}>
+                  <CardTitle className="text-2xl font-bold mb-3 text-primary">
                     {service.title}
                   </CardTitle>
                   <CardDescription className="text-muted-foreground text-base leading-relaxed">
@@ -142,27 +101,17 @@ const Services = memo(() => {
                   </CardDescription>
                 </CardHeader>
 
-                <CardContent className="relative z-10">
+                <CardContent>
                   <ul className="space-y-3 mb-8">
                     {service.features.map((feature, idx) => (
                       <li key={idx} className="flex items-center text-sm text-foreground/90">
-                        <span className={`
-                          mr-3 w-2 h-2 rounded-full bg-gradient-to-r ${service.gradient}
-                          ${hoveredCard === index ? 'animate-glow' : ''}
-                        `}></span>
+                        <span className="mr-3 w-2 h-2 rounded-full bg-primary"></span>
                         <span className="font-medium">{feature}</span>
                       </li>
                     ))}
                   </ul>
                   
-                  <Button 
-                    className={`
-                      w-full btn-magnetic transition-all duration-500 border-0
-                      bg-gradient-to-r ${service.gradient} hover:shadow-2xl hover:scale-105
-                      text-white font-semibold rounded-xl py-3
-                    `}
-                    asChild
-                  >
+                  <Button className="w-full" asChild>
                     <Link to="/services">
                       {service.cta}
                     </Link>
@@ -173,16 +122,9 @@ const Services = memo(() => {
           ))}
         </div>
 
-        {/* Enhanced CTA */}
-        <div 
-          className="text-center scroll-scale-in"
-          data-scroll-id="services-cta"
-        >
-          <Button 
-            size="lg" 
-            className="btn-magnetic hover-glow bg-gradient-primary hover:shadow-hover text-white font-bold px-12 py-6 text-xl transition-all duration-500 hover:scale-110 rounded-2xl"
-            asChild
-          >
+        {/* CTA */}
+        <div className="text-center">
+          <Button size="lg" asChild>
             <Link to="/services" className="flex items-center gap-2">
               <Target className="h-5 w-5" />
               {t('services.explore')}
