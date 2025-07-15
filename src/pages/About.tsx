@@ -153,7 +153,9 @@ const About = () => {
       </section>
 
       {/* Story */}
-      <section className="py-20 bg-gradient-soft-blue relative overflow-hidden">
+      <section className="py-20 bg-gradient-soft-gold relative overflow-hidden">
+        <div className="absolute top-0 left-0 w-60 h-60 bg-primary/20 rounded-full blur-3xl float"></div>
+        <div className="absolute bottom-0 right-0 w-40 h-40 bg-gold/30 rounded-full blur-2xl float" style={{ animationDelay: '1s' }}></div>
         <div className="absolute inset-0 opacity-20">
           <div className="grid-pattern"></div>
         </div>
@@ -195,7 +197,9 @@ const About = () => {
       </section>
 
       {/* Timeline */}
-      <section className="py-20 bg-secondary/30">
+      <section className="py-20 bg-gradient-soft-blue relative overflow-hidden">
+        <div className="absolute top-20 right-20 w-32 h-32 bg-accent/25 rounded-full blur-2xl float"></div>
+        <div className="absolute bottom-20 left-20 w-48 h-48 bg-primary/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
@@ -208,20 +212,20 @@ const About = () => {
               {milestones.map((milestone, index) => (
                 <div key={milestone.year} className={`flex items-center gap-8 ${index % 2 === 0 ? '' : 'flex-row-reverse'}`}>
                   <div className="flex-1">
-                    <Card className="hover-lift border-0 shadow-md">
-                      <CardHeader>
-                        <div className="flex items-center gap-4">
-                          <div className="text-3xl font-bold text-accent">{milestone.year}</div>
-                          <CardTitle className="text-xl text-primary">{milestone.title}</CardTitle>
-                        </div>
-                      </CardHeader>
+                     <Card className="hover-lift border-0 shadow-md bg-gradient-to-br from-white to-gold/5 border-l-4 border-l-gold">
+                       <CardHeader>
+                         <div className="flex items-center gap-4">
+                           <div className="text-3xl font-bold bg-gradient-gold bg-clip-text text-transparent">{milestone.year}</div>
+                           <CardTitle className="text-xl text-primary">{milestone.title}</CardTitle>
+                         </div>
+                       </CardHeader>
                       <CardContent>
                         <p className="text-muted-foreground">{milestone.description}</p>
                       </CardContent>
                     </Card>
                   </div>
                   
-                  <div className="hidden md:block w-4 h-4 bg-gradient-primary rounded-full flex-shrink-0"></div>
+                  <div className="hidden md:block w-6 h-6 bg-gradient-gold rounded-full flex-shrink-0 shadow-gold ring-4 ring-gold/20"></div>
                   
                   <div className="flex-1 hidden md:block"></div>
                 </div>
@@ -247,11 +251,11 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {values.map((value, index) => (
-              <Card key={value.title} className="hover-lift border-0 shadow-md">
+              <Card key={value.title} className="hover-lift border-0 shadow-md bg-gradient-to-br from-white via-gold/5 to-primary/5 hover:from-gold/10 hover:to-primary/10 transition-all duration-300">
                 <CardHeader>
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="p-3 bg-gradient-primary rounded-xl">
-                      <value.icon className="h-8 w-8 text-primary-foreground" />
+                    <div className="p-3 bg-gradient-gold rounded-xl shadow-gold">
+                      <value.icon className="h-8 w-8 text-primary" />
                     </div>
                     <CardTitle className="text-xl text-primary">{value.title}</CardTitle>
                   </div>
@@ -266,7 +270,9 @@ const About = () => {
       </section>
 
       {/* Team */}
-      <section className="py-20 bg-secondary/30">
+      <section className="py-20 bg-gradient-section relative overflow-hidden">
+        <div className="absolute top-0 left-1/4 w-40 h-40 bg-accent/20 rounded-full blur-2xl float"></div>
+        <div className="absolute bottom-0 right-1/4 w-56 h-56 bg-primary/10 rounded-full blur-3xl float" style={{ animationDelay: '1.5s' }}></div>
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
@@ -279,10 +285,10 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, index) => (
-              <Card key={member.name} className="text-center hover-lift border-0 shadow-md">
+              <Card key={member.name} className="text-center hover-lift border-0 shadow-md bg-gradient-to-t from-primary/5 to-white hover:from-primary/10 transition-all duration-300">
                 <CardHeader>
-                  <div className="w-24 h-24 mx-auto mb-4 bg-gradient-primary rounded-full flex items-center justify-center">
-                    <Users className="h-12 w-12 text-primary-foreground" />
+                  <div className="w-24 h-24 mx-auto mb-4 bg-gradient-gold rounded-full flex items-center justify-center shadow-gold ring-4 ring-gold/20">
+                    <Users className="h-12 w-12 text-primary" />
                   </div>
                   <CardTitle className="text-lg text-primary">{member.name}</CardTitle>
                   <CardDescription className="text-accent font-semibold">{member.position}</CardDescription>
@@ -322,10 +328,10 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {certifications.map((cert, index) => (
-              <Card key={cert.name} className="text-center hover-lift border-0 shadow-md">
+              <Card key={cert.name} className="text-center hover-lift border-0 shadow-md bg-gradient-to-br from-white to-accent/10 hover:from-accent/5 hover:to-accent/15 transition-all duration-300 border-t-4 border-t-accent">
                 <CardHeader>
-                  <div className="mx-auto mb-4 p-4 bg-gradient-primary rounded-xl">
-                    <Award className="h-8 w-8 text-primary-foreground" />
+                  <div className="mx-auto mb-4 p-4 bg-gradient-gold rounded-xl shadow-gold ring-2 ring-gold/30">
+                    <Award className="h-8 w-8 text-primary" />
                   </div>
                   <CardTitle className="text-lg text-primary">{cert.name}</CardTitle>
                   <CardDescription className="text-sm">{cert.description}</CardDescription>
