@@ -1128,6 +1128,11 @@ const translations = {
   },
   pl: {
     menu: { home: "Strona główna", services: "Usługi", simulator: "Symulator", request: "Wniosek", about: "O nas", contact: "Kontakt", faq: "FAQ", careers: "Kariery", partners: "Partnerzy", blog: "Blog" },
+    partners: {
+      title: "Nasi Zaufani Partnerzy",
+      description: "Europejska sieć doskonałości oferująca najlepsze rozwiązania finansowe",
+      stats: "Ponad 25 europejskich partnerów • 27 krajów objętych zasięgiem • 2,5 mld€ wolumenu transakcji"
+    },
     blog: {
       badge: "Ekspertyza i Analiza",
       title: "Blog Aurex",
@@ -1192,7 +1197,12 @@ const translations = {
     }
   },
   fi: { 
-    menu: { blog: "Blogi" }, 
+    menu: { blog: "Blogi" },
+    partners: {
+      title: "Luotettavat Kumppanimme",
+      description: "Eurooppalainen huippuosaamisen verkosto tarjoamassa parhaat rahoitusratkaisut",
+      stats: "Yli 25 eurooppalaista kumppania • 27 katettua maata • 2,5 miljardia€ kaupankäyntivolyymiä"
+    },
     blog: { 
       badge: "Asiantuntemus ja Analyysi", 
       title: "Aurex Blogi", 
@@ -1257,7 +1267,12 @@ const translations = {
     } 
   },
   es: { 
-    menu: { blog: "Blog" }, 
+    menu: { blog: "Blog" },
+    partners: {
+      title: "Nuestros Socios de Confianza",
+      description: "Una red europea de excelencia para ofrecerle las mejores soluciones financieras",
+      stats: "Más de 25 socios europeos • 27 países cubiertos • 2,5 mil millones€ de volumen tratado"
+    },
     blog: { 
       badge: "Experiencia y Análisis", 
       title: "Blog Aurex", 
@@ -1322,7 +1337,12 @@ const translations = {
     } 
   },
   pt: { 
-    menu: { blog: "Blog" }, 
+    menu: { blog: "Blog" },
+    partners: {
+      title: "Os Nossos Parceiros de Confiança",
+      description: "Uma rede europeia de excelência para lhe oferecer as melhores soluções financeiras",
+      stats: "Mais de 25 parceiros europeus • 27 países cobertos • 2,5 mil milhões€ de volume tratado"
+    },
     blog: { 
       badge: "Perícia e Análise", 
       title: "Blog Aurex", 
@@ -1387,7 +1407,12 @@ const translations = {
     } 
   },
   el: { 
-    menu: { blog: "Ιστολόγιο" }, 
+    menu: { blog: "Ιστολόγιο" },
+    partners: {
+      title: "Οι Αξιόπιστοι Συνεργάτες μας",
+      description: "Ένα ευρωπαϊκό δίκτυο αριστείας για να σας προσφέρουμε τις καλύτερες χρηματοοικονομικές λύσεις",
+      stats: "Πάνω από 25 ευρωπαίους συνεργάτες • 27 χώρες κάλυψης • 2,5 δισ.€ όγκου συναλλαγών"
+    },
     blog: { 
       badge: "Εμπειρογνωμοσύνη και Ανάλυση", 
       title: "Aurex Blog", 
@@ -1452,7 +1477,12 @@ const translations = {
     } 
   },
   it: { 
-    menu: { blog: "Blog" }, 
+    menu: { blog: "Blog" },
+    partners: {
+      title: "I Nostri Partner di Fiducia",
+      description: "Una rete europea di eccellenza per offrirvi le migliori soluzioni finanziarie",
+      stats: "Oltre 25 partner europei • 27 paesi coperti • 2,5 miliardi€ di volume trattato"
+    },
     blog: { 
       badge: "Competenza e Analisi", 
       title: "Blog Aurex", 
