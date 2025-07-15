@@ -11,16 +11,14 @@ import {
 
 const Blog = () => {
   const { t } = useTranslation();
-  
-  // Get content from translations
   const featuredArticle = {
-    title: t('blog.content.featuredArticle.title'),
-    excerpt: t('blog.content.featuredArticle.excerpt'),
-    author: t('blog.content.featuredArticle.author'),
-    role: t('blog.content.featuredArticle.role'),
-    date: t('blog.content.featuredArticle.date'),
+    title: "L'Intelligence Artificielle Révolutionne l'Analyse de Crédit en 2024",
+    excerpt: "Découvrez comment nos algorithmes propriétaires d'IA permettent une évaluation du risque plus précise et des décisions de financement plus rapides, tout en maintenant l'équité et la transparence.",
+    author: "Dr. Sophie Laurent",
+    role: "Directrice Innovation",
+    date: "15 Décembre 2024",
     readTime: "8 min",
-    category: t('blog.content.featuredArticle.category'),
+    category: "Innovation",
     image: "/api/placeholder/800/400",
     views: 2847,
     likes: 156
@@ -28,58 +26,58 @@ const Blog = () => {
 
   const articles = [
     {
-      title: t('blog.content.articles.0.title'),
-      excerpt: t('blog.content.articles.0.excerpt'),
-      author: t('blog.content.articles.0.author'),
-      date: t('blog.content.articles.0.date'),
+      title: "Guide Complet : Investir dans l'Immobilier en 2024",
+      excerpt: "Stratégies, fiscalité et opportunités pour optimiser vos investissements immobiliers en Europe.",
+      author: "Marco Antonelli",
+      date: "12 Décembre 2024",
       readTime: "12 min",
-      category: t('blog.content.articles.0.category'),
+      category: "Immobilier",
       views: 1934,
       featured: true
     },
     {
-      title: t('blog.content.articles.1.title'),
-      excerpt: t('blog.content.articles.1.excerpt'),
-      author: t('blog.content.articles.1.author'),
-      date: t('blog.content.articles.1.date'),
+      title: "RGPD et Services Financiers : Bilan 6 Ans Après",
+      excerpt: "Analyse de l'impact du RGPD sur l'innovation financière et les meilleures pratiques adoptées.",
+      author: "Elena Rodriguez",
+      date: "8 Décembre 2024",
       readTime: "6 min",
-      category: t('blog.content.articles.1.category'),
+      category: "Réglementation",
       views: 892
     },
     {
-      title: t('blog.content.articles.2.title'),
-      excerpt: t('blog.content.articles.2.excerpt'),
-      author: t('blog.content.articles.2.author'),
-      date: t('blog.content.articles.2.date'),
+      title: "Épargne Digitale : Les Nouveaux Comportements des Européens",
+      excerpt: "Étude exclusive sur l'évolution des habitudes d'épargne à l'ère du numérique.",
+      author: "Dr. Klaus Müller",
+      date: "5 Décembre 2024",
       readTime: "10 min",
-      category: t('blog.content.articles.2.category'),
+      category: "Économie",
       views: 1567
     },
     {
-      title: t('blog.content.articles.3.title'),
-      excerpt: t('blog.content.articles.3.excerpt'),
-      author: t('blog.content.articles.3.author'),
-      date: t('blog.content.articles.3.date'),
+      title: "Prêts Étudiants : Financer ses Études sans Stress",
+      excerpt: "Conseils pratiques et solutions innovantes pour financer ses études supérieures en Europe.",
+      author: "Sophie Laurent",
+      date: "2 Décembre 2024",
       readTime: "7 min",
-      category: t('blog.content.articles.3.category'),
+      category: "Éducation",
       views: 1245
     },
     {
-      title: t('blog.content.articles.4.title'),
-      excerpt: t('blog.content.articles.4.excerpt'),
-      author: t('blog.content.articles.4.author'),
-      date: t('blog.content.articles.4.date'),
+      title: "Cryptomonnaies et Finance Traditionnelle : Vers une Convergence ?",
+      excerpt: "Analyse des opportunités et défis de l'intégration des actifs numériques dans les portefeuilles.",
+      author: "Marco Antonelli",
+      date: "28 Novembre 2024",
       readTime: "9 min",
-      category: t('blog.content.articles.4.category'),
+      category: "Innovation",
       views: 2156
     },
     {
-      title: t('blog.content.articles.5.title'),
-      excerpt: t('blog.content.articles.5.excerpt'),
-      author: t('blog.content.articles.5.author'),
-      date: t('blog.content.articles.5.date'),
+      title: "ESG et Investissement Responsable : Guide Pratique 2024",
+      excerpt: "Comment intégrer les critères ESG dans vos décisions d'investissement pour un impact positif.",
+      author: "Elena Rodriguez",
+      date: "25 Novembre 2024",
       readTime: "11 min",
-      category: t('blog.content.articles.5.category'),
+      category: "ESG",
       views: 987
     }
   ];
@@ -94,11 +92,11 @@ const Blog = () => {
   ];
 
   const trending = [
-    { title: t('blog.content.trending.0.title'), views: 5420 },
-    { title: t('blog.content.trending.1.title'), views: 4856 },
-    { title: t('blog.content.trending.2.title'), views: 3742 },
-    { title: t('blog.content.trending.3.title'), views: 3124 },
-    { title: t('blog.content.trending.4.title'), views: 2856 }
+    { title: "Taux immobiliers 2024", views: 5420 },
+    { title: "IA et finance", views: 4856 },
+    { title: "Investissement ESG", views: 3742 },
+    { title: "Épargne inflation", views: 3124 },
+    { title: "Prêts sans apport", views: 2856 }
   ];
 
   return (
@@ -175,7 +173,7 @@ const Blog = () => {
               <div className="p-8 lg:p-12">
                 <div className="flex items-center gap-4 mb-4">
                   <Badge className="bg-gradient-primary text-primary-foreground">
-                    {t(`blog.categories.${featuredArticle.category}`)}
+                    {featuredArticle.category}
                   </Badge>
                   <div className="flex items-center gap-4 text-sm text-muted-foreground">
                     <div className="flex items-center gap-1">
@@ -275,7 +273,7 @@ const Blog = () => {
                       
                       <div className="md:col-span-2 p-6">
                         <div className="flex items-center gap-3 mb-3">
-                          <Badge variant="outline">{t(`blog.categories.${article.category}`)}</Badge>
+                          <Badge variant="outline">{article.category}</Badge>
                           {article.featured && <Badge className="bg-accent text-accent-foreground">{t('blog.featured.title')}</Badge>}
                           <div className="flex items-center gap-1 text-sm text-muted-foreground">
                             <Eye className="h-4 w-4" />

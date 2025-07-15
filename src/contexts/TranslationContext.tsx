@@ -515,131 +515,161 @@ const translations = {
         }
       }
     },
-    blog: {
-      badge: "Expertise & Analyse",
-      title: "Blog Aurex",
-      subtitle: "K-pital", 
-      description: "Analyses d'experts, tendances du marché et conseils pratiques pour optimiser vos décisions financières et investissements.",
-      stats: {
-        articles: {
-          value: "150+",
-          label: "Articles publiés"
-        },
-        experts: {
-          value: "8", 
-          label: "Experts rédacteurs"
-        },
-        readers: {
-          value: "50K+",
-          label: "Lecteurs mensuels"
-        },
-        satisfaction: {
-          value: "95%",
-          label: "Satisfaction lecteurs"
+    about: {
+      badge: "Excellence depuis 1997",
+      title: "Votre partenaire financier de confiance",
+      subtitle: "Depuis plus de 25 ans, nous accompagnons les entreprises européennes dans leur développement avec des solutions de financement innovantes et personnalisées.",
+      hero: {
+        cta: {
+          contact: "Nous contacter",
+          simulate: "Simuler mon financement"
         }
       },
-      featured: {
-        title: "Article vedette"
-      },
-      search: {
-        placeholder: "Rechercher un article...",
-        allCategories: "Toutes les catégories"
-      },
-      categories: {
-        title: "Catégories",
-        innovation: "Innovation",
-        realEstate: "Immobilier",
-        regulation: "Réglementation",
-        economy: "Économie",
-        esg: "ESG",
-        education: "Éducation"
-      },
-      trending: {
-        title: "Tendances"
-      },
-      newsletter: {
-        title: "Newsletter",
-        description: "Recevez nos derniers articles et analyses directement dans votre boîte mail",
-        placeholder: "Votre email",
-        subscribe: "S'abonner",
-        disclaimer: "Maximum 1 email par semaine. Désabonnement facile."
-      },
-      actions: {
-        readMore: "Lire l'article complet",
-        read: "Lire",
-        loadMore: "Charger plus d'articles",
-        readTime: "de lecture"
-      },
-      content: {
-        featuredArticle: {
-          title: "L'intelligence artificielle révolutionne le secteur financier européen",
-          excerpt: "Découvrez comment les nouvelles technologies transforment les services bancaires et d'investissement, offrant des solutions plus personnalisées et efficaces aux clients européens.",
-          author: "Dr. Marie Dubois",
-          role: "Directrice Innovation FinTech",
-          date: "15 janvier 2024",
-          category: "innovation"
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Années d'expérience"
         },
-        articles: [
-          {
-            title: "Guide complet du crédit immobilier en 2024",
-            excerpt: "Tout ce qu'il faut savoir sur les conditions actuelles du marché immobilier et les meilleures stratégies pour obtenir un financement optimal.",
-            author: "Pierre Martin",
-            date: "12 janvier 2024",
-            category: "realEstate"
+        companies: {
+          value: "50K+",
+          label: "Entreprises accompagnées"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Financements facilités"
+        },
+        countries: {
+          value: "8",
+          label: "Pays européens"
+        }
+      },
+      values: {
+        badge: "Nos Valeurs",
+        title: "Ce qui nous guide au quotidien",
+        description: "Notre réussite repose sur des valeurs fortes qui orientent chacune de nos actions et décisions.",
+        security: {
+          title: "Sécurité & Conformité",
+          description: "Nos solutions respectent les normes bancaires les plus strictes et la réglementation RGPD."
+        },
+        innovation: {
+          title: "Innovation Continue",
+          description: "Nous développons constamment de nouvelles solutions pour anticiper vos besoins futurs."
+        },
+        support: {
+          title: "Accompagnement Personnel",
+          description: "Chaque client bénéficie d'un conseiller dédié pour un service sur mesure."
+        },
+        excellence: {
+          title: "Excellence Reconnue",
+          description: "Plus de 25 ans d'expertise et la confiance de milliers d'entreprises."
+        }
+      },
+      history: {
+        badge: "Notre Histoire",
+        title: "Plus de 25 ans d'innovation",
+        description: "Découvrez les moments clés qui ont façonné notre entreprise et notre expertise.",
+        milestone1: {
+          title: "Création de l'entreprise",
+          description: "Fondation avec la vision de démocratiser l'accès au financement pour les PME."
+        },
+        milestone2: {
+          title: "Expansion européenne",
+          description: "Ouverture de bureaux en Allemagne, Pologne et Espagne."
+        },
+        milestone3: {
+          title: "Innovation digitale",
+          description: "Lancement de notre plateforme de simulation en ligne révolutionnaire."
+        },
+        milestone4: {
+          title: "50 000ème client",
+          description: "Franchissement du cap des 50 000 entreprises accompagnées."
+        },
+        milestone5: {
+          title: "€5 milliards financés",
+          description: "Atteinte du record de 5 milliards d'euros de financements facilités."
+        }
+      },
+      team: {
+        badge: "Notre Équipe",
+        title: "L'expertise au service de votre réussite",
+        description: "Rencontrez les experts qui pilotent notre vision et accompagnent votre croissance.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Directrice Générale",
+          experience: "15 ans d'expérience en financement d'entreprise"
+        },
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Directeur Technique",
+          experience: "Expert en solutions fintech et sécurité bancaire"
+        },
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Directrice Commerciale",
+          experience: "Spécialiste des marchés européens depuis 12 ans"
+        }
+      },
+      cta: {
+        title: "Prêt à développer votre entreprise ?",
+        description: "Rejoignez plus de 50 000 entreprises qui nous font confiance pour leurs besoins de financement.",
+        simulate: "Commencer la simulation",
+        expert: "Parler à un expert"
+      },
+      blog: {
+        badge: "Expertise & Insights",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Analyses d'experts, tendances du marché et conseils pratiques pour optimiser vos décisions financières et d'investissement.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Articles publiés"
           },
-          {
-            title: "Nouvelle réglementation européenne sur les crypto-actifs",
-            excerpt: "Analyse des implications du règlement MiCA pour les investisseurs et institutions financières en Europe.",
-            author: "Sophie Bernard",
-            date: "10 janvier 2024",
-            category: "regulation"
+          experts: {
+            value: "8",
+            label: "Experts auteurs"
           },
-          {
-            title: "Tendances économiques 2024 : prévisions d'experts",
-            excerpt: "Les principales tendances qui façonneront l'économie européenne cette année selon nos analystes.",
-            author: "Jean-Claude Moreau",
-            date: "8 janvier 2024",
-            category: "economy"
+          readers: {
+            value: "50K+",
+            label: "Lecteurs mensuels"
           },
-          {
-            title: "Investissement ESG : performance et impact",
-            excerpt: "Comment concilier rentabilité et responsabilité environnementale dans vos investissements.",
-            author: "Émilie Rousseau",
-            date: "5 janvier 2024",
-            category: "esg"
-          },
-          {
-            title: "Formation financière : les bases de l'investissement",
-            excerpt: "Guide pratique pour débuter en investissement avec les bonnes pratiques et erreurs à éviter.",
-            author: "Marc Lefebvre",
-            date: "3 janvier 2024",
-            category: "education"
-          },
-          {
-            title: "Optimisation fiscale 2024 : nouveautés et stratégies",
-            excerpt: "Les dernières évolutions fiscales et comment optimiser légalement vos impôts cette année.",
-            author: "Anne Durand",
-            date: "1er janvier 2024",
-            category: "economy"
+          satisfaction: {
+            value: "95%",
+            label: "Satisfaction lecteurs"
           }
-        ],
-        trending: [
-          {
-            title: "Comment négocier son taux de crédit immobilier"
-          },
-          {
-            title: "Investir dans l'immobilier locatif en 2024"
-          },
-          {
-            title: "Les meilleures assurances-vie européennes"
-          },
-          {
-            title: "Créer son entreprise : guide du financement"
-          },
-          {
-            title: "Épargne retraite : comparer les solutions"
-          }
-        ]
+        },
+        featured: {
+          title: "Article à la Une"
+        },
+        search: {
+          placeholder: "Rechercher un article...",
+          allCategories: "Toutes les catégories"
+        },
+        categories: {
+          title: "Catégories",
+          innovation: "Innovation",
+          realEstate: "Immobilier",
+          regulation: "Réglementation",
+          economy: "Économie",
+          esg: "ESG",
+          education: "Éducation"
+        },
+        trending: {
+          title: "Tendances"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Recevez nos derniers articles et analyses directement dans votre boîte mail",
+          placeholder: "Votre email",
+          subscribe: "S'abonner",
+          disclaimer: "1 email par semaine maximum. Désabonnement facile."
+        },
+        actions: {
+          readMore: "Lire l'article complet",
+          read: "Lire",
+          loadMore: "Charger plus d'articles",
+          readTime: "de lecture"
+        }
       }
     }
   },
@@ -877,8 +907,233 @@ const translations = {
         step4: {
           title: "Freigabe der Mittel",
           description: "Schnelle Bereitstellung und kontinuierliche Begleitung"
+      }
+    },
+    about: {
+      badge: "Exzellenz seit 1997",
+      title: "Ein Vierteljahrhundert",
+      subtitle: "Finanzinnovation",
+      description: "Von Hamburg aus revolutionieren wir die Finanzberatung durch die Kombination traditioneller menschlicher Expertise mit modernster Technologie.",
+      story: {
+        title: "Unsere Geschichte",
+        subtitle: "Von einem Hamburger Startup zum europäischen Marktführer der Finanzinnovation",
+        paragraph1: "Aurex K-pital entstand 1997 aus der visionären Idee, die europäischen Finanzdienstleistungen zu revolutionieren. Mit Sitz in Hamburg, im wirtschaftlichen Herzen Deutschlands, hat sich unser Unternehmen die Mission gesetzt, den Zugang zu innovativen Finanzlösungen zu demokratisieren.",
+        paragraph2: "Als Pioniere bei der Integration künstlicher Intelligenz in Finanzdienstleistungen seit 2010 haben wir proprietäre Algorithmen entwickelt, die eine hochpräzise Risikoanalyse und personalisierte Empfehlungen für jeden Kunden ermöglichen.",
+        paragraph3: "Heute, mit mehr als 50.000 Kunden in ganz Europa und 5 Milliarden Euro gewährter Finanzierungen, innovieren wir weiter, um die besten Marktlösungen zu bieten."
+      },
+      timeline: {
+        title: "Unsere Meilensteine",
+        milestones: [
+          {
+            year: "1997",
+            title: "Gründung in Hamburg",
+            description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
+          },
+          {
+            year: "2003",
+            title: "Europäische Expansion",
+            description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
+          },
+          {
+            year: "2010",
+            title: "KI-Innovation",
+            description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
+          },
+          {
+            year: "2015",
+            title: "Exzellenz-Zertifizierung",
+            description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
+          },
+          {
+            year: "2020",
+            title: "Digitale Transformation",
+            description: "Start der 100% digitalen Plattform und fortgeschrittener Vorhersagealgorithmen"
+          },
+          {
+            year: "2024",
+            title: "Marktführer",
+            description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
+          }
+        ]
+      },
+      values: {
+        title: "Unsere Werte",
+        subtitle: "Die Prinzipien, die jede unserer Handlungen leiten",
+        items: [
+          {
+            title: "Kundenexzellenz",
+            description: "Jeder Kunde ist einzigartig und verdient persönliche Aufmerksamkeit mit maßgeschneiderten Lösungen."
+          },
+          {
+            title: "Absolute Sicherheit", 
+            description: "Maximaler Schutz von Daten und Investitionen mit den fortschrittlichsten Technologien."
+          },
+          {
+            title: "Kontinuierliche Innovation",
+            description: "Permanente Suche nach neuen Lösungen zur Antizipation zukünftiger Bedürfnisse."
+          },
+          {
+            title: "Totale Transparenz",
+            description: "Klare und ehrliche Kommunikation über alle unsere Produkte, Services und Konditionen."
+          }
+        ]
+      },
+      team: {
+        badge: "Unser Team",
+        title: "Unser Führungsteam",
+        description: "Anerkannte Experten im Dienste Ihres Erfolgs",
+        member1: {
+          name: "Dr. Klaus Müller",
+          role: "Geschäftsführer",
+          experience: "25 Jahre Erfahrung in Finanzstrategie"
+        },
+        member2: {
+          name: "Sophie Laurent",
+          role: "Innovationsleiterin", 
+          experience: "15 Jahre Expertise in FinTech & KI"
+        },
+        member3: {
+          name: "Marco Antonelli",
+          role: "Risikoleiter",
+          experience: "20 Jahre Erfahrung in Risikomanagement"
+        }
+      },
+      history: {
+        badge: "Unsere Geschichte",
+        title: "Unsere Meilensteine", 
+        description: "Die wichtigsten Etappen unserer Entwicklung",
+        milestone1: {
+          title: "Gründung in Hamburg",
+          description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
+        },
+        milestone2: {
+          title: "Europäische Expansion", 
+          description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
+        },
+        milestone3: {
+          title: "KI-Innovation",
+          description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
+        },
+        milestone4: {
+          title: "Exzellenz-Zertifizierung",
+          description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
+        },
+        milestone5: {
+          title: "Marktführer",
+          description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
+        }
+      },
+      cta: {
+        title: "Bereit, Ihr Unternehmen zu entwickeln?",
+        description: "Schließen Sie sich mehr als 50.000 Unternehmen an, die uns für ihre Finanzierungsbedürfnisse vertrauen.",
+        simulate: "Simulation starten",
+        expert: "Mit einem Experten sprechen"
+      },
+      blog: {
+        badge: "Expertise & Einblicke",
+        title: "Aurex Blog",
+        subtitle: "K-pital",
+        description: "Expertenanalysen, Markttrends und praktische Tipps zur Optimierung Ihrer Finanz- und Investitionsentscheidungen.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Veröffentlichte Artikel"
+          },
+          experts: {
+            value: "8",
+            label: "Experten-Autoren"
+          },
+          readers: {
+            value: "50K+",
+            label: "Monatliche Leser"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Leserzufriedenheit"
+          }
+        },
+        featured: {
+          title: "Hauptartikel"
+        },
+        search: {
+          placeholder: "Artikel suchen...",
+          allCategories: "Alle Kategorien"
+        },
+        categories: {
+          title: "Kategorien",
+          innovation: "Innovation",
+          realEstate: "Immobilien",
+          regulation: "Regulierung",
+          economy: "Wirtschaft",
+          esg: "ESG",
+          education: "Bildung"
+        },
+        trending: {
+          title: "Trends"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Erhalten Sie unsere neuesten Artikel und Analysen direkt in Ihr Postfach",
+          placeholder: "Ihre E-Mail",
+          subscribe: "Abonnieren",
+          disclaimer: "Maximal 1 E-Mail pro Woche. Einfach abbestellbar."
+        },
+        actions: {
+          readMore: "Vollständigen Artikel lesen",
+          read: "Lesen",
+          loadMore: "Weitere Artikel laden",
+          readTime: "Lesezeit"
+        }
+      },
+      certifications: {
+        title: "Zertifizierungen & Akkreditierungen",
+        subtitle: "Offizielle Anerkennung unserer operativen Exzellenz",
+        items: [
+          {
+            name: "ISO 27001",
+            description: "Informationssicherheit",
+            year: "2018"
+          },
+          {
+            name: "PCI DSS",
+            description: "Zahlungssicherheit",
+            year: "2020"
+          },
+          {
+            name: "DSGVO-Konform",
+            description: "Datenschutz",
+            year: "2018"
+          },
+          {
+            name: "SOC 2 Type II",
+            description: "Organisationskontrollen",
+            year: "2021"
+          }
+        ],
+        sinceLabel: "Seit"
+      },
+      contact: {
+        title: "Besuchen Sie uns",
+        subtitle: "Unsere Büros empfangen Sie im Herzen von Hamburg",
+        address: {
+          title: "Adresse",
+          value: ["Irma-Keilhack-Ring 24", "22145 Hamburg", "Deutschland"]
+        },
+        phone: {
+          title: "Telefon",
+          value: "+49 40 710 97523",
+          schedule: ["Mo-Fr: 8-19 Uhr", "Sa: 9-17 Uhr"]
+        },
+        email: {
+          title: "E-Mail",
+          values: ["contact@aurex-kpital.de", "info@aurex-kpital.de", "support@aurex-kpital.de"]
+        },
+        buttons: {
+          appointment: "Termin vereinbaren",
+          customRequest: "Individuelle Anfrage"
         }
       }
+    }
     },
     testimonials: {
       title: "Vertrauen Sie uns",
@@ -942,7 +1197,108 @@ const translations = {
             label: "Kreditumschuldung",
             description: "Zusammenfassung bestehender Schulden"
           }
+    },
+    about: {
+      badge: "Exzellenz seit 1997",
+      title: "Ihr vertrauensvoller Finanzpartner",
+      subtitle: "Seit über 25 Jahren begleiten wir europäische Unternehmen bei ihrer Entwicklung mit innovativen und personalisierten Finanzierungslösungen.",
+      hero: {
+        cta: {
+          contact: "Kontakt aufnehmen",
+          simulate: "Finanzierung simulieren"
         }
+      },
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Jahre Erfahrung"
+        },
+        companies: {
+          value: "50K+",
+          label: "Begleitete Unternehmen"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Finanzierungen ermöglicht"
+        },
+        countries: {
+          value: "8",
+          label: "Europäische Länder"
+        }
+      },
+      values: {
+        badge: "Unsere Werte",
+        title: "Was uns täglich leitet",
+        description: "Unser Erfolg basiert auf starken Werten, die jede unserer Handlungen und Entscheidungen lenken.",
+        security: {
+          title: "Sicherheit & Compliance",
+          description: "Unsere Lösungen entsprechen den strengsten Bankenstandards und der DSGVO-Verordnung."
+        },
+        innovation: {
+          title: "Kontinuierliche Innovation",
+          description: "Wir entwickeln ständig neue Lösungen, um Ihre zukünftigen Bedürfnisse zu antizipieren."
+        },
+        support: {
+          title: "Persönliche Betreuung",
+          description: "Jeder Kunde profitiert von einem dedizierten Berater für einen maßgeschneiderten Service."
+        },
+        excellence: {
+          title: "Anerkannte Exzellenz",
+          description: "Über 25 Jahre Expertise und das Vertrauen von Tausenden von Unternehmen."
+        }
+      },
+      history: {
+        badge: "Unsere Geschichte",
+        title: "Über 25 Jahre Innovation",
+        description: "Entdecken Sie die Schlüsselmomente, die unser Unternehmen und unsere Expertise geprägt haben.",
+        milestone1: {
+          title: "Unternehmensgründung",
+          description: "Gründung mit der Vision, den Zugang zu Finanzierungen für KMU zu demokratisieren."
+        },
+        milestone2: {
+          title: "Europäische Expansion",
+          description: "Eröffnung von Büros in Deutschland, Polen und Spanien."
+        },
+        milestone3: {
+          title: "Digitale Innovation",
+          description: "Start unserer revolutionären Online-Simulationsplattform."
+        },
+        milestone4: {
+          title: "50.000ster Kunde",
+          description: "Erreichen der Marke von 50.000 begleiteten Unternehmen."
+        },
+        milestone5: {
+          title: "€5 Milliarden finanziert",
+          description: "Erreichen des Rekords von 5 Milliarden Euro erleichterte Finanzierungen."
+        }
+      },
+      team: {
+        badge: "Unser Team",
+        title: "Expertise im Dienste Ihres Erfolgs",
+        description: "Lernen Sie die Experten kennen, die unsere Vision vorantreiben und Ihr Wachstum begleiten.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Geschäftsführerin",
+          experience: "15 Jahre Erfahrung in der Unternehmensfinanzierung"
+        },
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Technischer Direktor",
+          experience: "Experte für Fintech-Lösungen und Bankensicherheit"
+        },
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Vertriebsleiterin",
+          experience: "Spezialistin für europäische Märkte seit 12 Jahren"
+        }
+      },
+      cta: {
+        title: "Bereit, Ihr Unternehmen zu entwickeln?",
+        description: "Schließen Sie sich über 50.000 Unternehmen an, die uns für ihre Finanzierungsbedürfnisse vertrauen.",
+        simulate: "Simulation starten",
+        expert: "Mit einem Experten sprechen"
+      }
+    }
       },
       configuration: {
         title: "Konfiguration Ihres Kredits",
@@ -1043,509 +1399,2522 @@ const translations = {
           description: "Aurex K-pital bemüht sich, genaue und aktuelle Informationen bereitzustellen. Das Unternehmen kann jedoch nicht die Richtigkeit, Vollständigkeit oder Aktualität der auf dieser Website verbreiteten Informationen garantieren. Die Nutzung der Informationen erfolgt ausschließlich auf eigene Verantwortung des Nutzers."
         }
       }
+    }
+  },
+  es: {
+    menu: {
+      home: "Inicio",
+      services: "Servicios",
+      simulator: "Simulador",
+      request: "Solicitud",
+      about: "Sobre nosotros",
+      contact: "Contacto",
+      faq: "FAQ",
+      careers: "Carreras",
+      partners: "Socios",
+      blog: "Blog"
     },
-    blog: {
-      badge: "Expertise & Analyse",
-      title: "Aurex Blog",
-      subtitle: "K-pital",
-      description: "Expertenanalysen, Markttrends und praktische Tipps zur Optimierung Ihrer Finanz- und Investitionsentscheidungen.",
-      stats: {
-        articles: {
-          value: "150+",
-          label: "Veröffentlichte Artikel"
+    footer: {
+      tools: "Herramientas",
+      company: "Empresa",
+      legal: "Legal",
+      privacyPolicy: "Política de privacidad",
+      terms: "Términos y condiciones",
+      mentions: "Aviso legal",
+      gdpr: "RGPD",
+      rights: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      description: "Su socio financiero de confianza desde 1997. Excelencia, innovación y experiencia para todos sus proyectos financieros en Europa.",
+      services: "Servicios",
+      copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      establishment: "Institución financiera autorizada en Europa",
+      links: {
+        personalLoans: "Préstamos personales",
+        proFinancing: "Financiación empresarial",
+        investments: "Inversiones",
+        insurance: "Seguros",
+        simulator: "Simulador de préstamos",
+        request: "Solicitud de financiación",
+        faq: "FAQ",
+        contact: "Contacto",
+        about: "Sobre nosotros",
+        partners: "Nuestros socios",
+        careers: "Carreras",
+        blog: "Blog",
+        legal: "Aviso legal",
+        privacy: "Política de privacidad",
+        terms: "Términos y condiciones",
+        gdpr: "RGPD"
+      }
+    },
+    partners: {
+      title: "Nuestros Socios de Confianza",
+      description: "Una red de excelencia europea para ofrecerle las mejores soluciones financieras",
+      stats: "Más de 25 socios europeos • 27 países cubiertos • 2,5 mil millones € de volumen tratado"
+    },
+    home: {
+      hero: {
+        title: "Su Socio Financiero",
+        subtitle: "desde 1997",
+        description: "Excelencia, innovación y confianza para todos sus proyectos financieros",
+        ctaBtn: "Descubrir nuestras soluciones",
+        simulateBtn: "Simular un préstamo",
+        scrollText: "Descubrir",
+        carousel: {
+          text1: "Lance su proyecto con Aurex K-pital",
+          text2: "Obtenga financiación sin aporte",
+          text3: "Invierta hoy en su futuro"
         },
-        experts: {
-          value: "8",
-          label: "Experten-Autoren"
-        },
-        readers: {
-          value: "50K+",
-          label: "Monatliche Leser"
-        },
-        satisfaction: {
-          value: "95%",
-          label: "Leserzufriedenheit"
+        stats: {
+          experience: {
+            title: "Años de excelencia",
+            subtitle: "Innovación continua"
+          },
+          clients: {
+            title: "Clientes satisfechos",
+            subtitle: "Satisfacción garantizada"
+          },
+          funding: {
+            title: "Financiaciones realizadas",
+            subtitle: "Impacto transformador"
+          }
         }
       },
-      featured: {
-        title: "Hauptartikel"
+      services: {
+        badge: "Servicios",
+        title: "Soluciones",
+        subtitle: "Innovadoras",
+        description: "Descubra nuestras soluciones financieras",
+        description2: "revolucionarias",
+        description3: "para sus proyectos"
       },
-      search: {
-        placeholder: "Artikel suchen...",
-        allCategories: "Alle Kategorien"
-      },
-      categories: {
-        title: "Kategorien",
-        innovation: "Innovation",
-        realEstate: "Immobilien",
-        regulation: "Regulierung",
-        economy: "Wirtschaft",
-        esg: "ESG",
-        education: "Bildung"
-      },
-      trending: {
-        title: "Trends"
-      },
-      newsletter: {
-        title: "Newsletter",
-        description: "Erhalten Sie unsere neuesten Artikel und Analysen direkt in Ihr Postfach",
-        placeholder: "Ihre E-Mail",
-        subscribe: "Abonnieren",
-        disclaimer: "Maximal 1 E-Mail pro Woche. Einfach abbestellbar."
-      },
-      actions: {
-        readMore: "Vollständigen Artikel lesen",
-        read: "Lesen",
-        loadMore: "Weitere Artikel laden",
-        readTime: "Lesezeit"
-      },
-      content: {
-        featuredArticle: {
-          title: "Künstliche Intelligenz revolutioniert den europäischen Finanzsektor",
-          excerpt: "Entdecken Sie, wie neue Technologien Bank- und Investmentdienstleistungen transformieren und europäischen Kunden personalisiertere und effizientere Lösungen bieten.",
-          author: "Dr. Marie Dubois",
-          role: "Direktorin FinTech Innovation",
-          date: "15. Januar 2024",
-          category: "innovation"
+      about: {
+        badge: "Sobre nosotros",
+        title: "Su socio",
+        subtitle: "financiero",
+        subtitle2: "de confianza",
+        description1: {
+          highlight: "Desde 1997,",
+          text: " Aurex K-pital acompaña a particulares y empresas en sus proyectos financieros con un enfoque que combina",
+          expertise: "experiencia humana",
+          and: "e",
+          technology: "innovación tecnológica"
         },
-        articles: [
-          { title: "Vollständiger Leitfaden für Immobilienkredite 2024", excerpt: "Alles, was Sie über die aktuellen Bedingungen des Immobilienmarkts wissen müssen.", author: "Pierre Martin", date: "12. Januar 2024", category: "realEstate" },
-          { title: "Neue europäische Regelung für Krypto-Assets", excerpt: "Analyse der Auswirkungen der MiCA-Verordnung für Investoren.", author: "Sophie Bernard", date: "10. Januar 2024", category: "regulation" },
-          { title: "Wirtschaftstrends 2024: Expertenprognosen", excerpt: "Die wichtigsten Trends, die die europäische Wirtschaft dieses Jahr prägen werden.", author: "Jean-Claude Moreau", date: "8. Januar 2024", category: "economy" },
-          { title: "ESG-Investment: Performance und Impact", excerpt: "Wie man Rentabilität und Umweltverantwortung bei Investitionen verbindet.", author: "Émilie Rousseau", date: "5. Januar 2024", category: "esg" },
-          { title: "Finanzbildung: Die Grundlagen des Investierens", excerpt: "Praktischer Leitfaden für den Einstieg in Investitionen.", author: "Marc Lefebvre", date: "3. Januar 2024", category: "education" },
-          { title: "Steueroptimierung 2024: Neuerungen und Strategien", excerpt: "Die neuesten steuerlichen Entwicklungen und Optimierungsstrategien.", author: "Anne Durand", date: "1. Januar 2024", category: "economy" }
-        ],
-        trending: [
-          { title: "Wie man seinen Immobilienkreditzins verhandelt" },
-          { title: "In Mietimmobilien investieren 2024" },
-          { title: "Die besten europäischen Lebensversicherungen" },
-          { title: "Unternehmen gründen: Finanzierungsleitfaden" },
-          { title: "Altersvorsorge: Lösungen vergleichen" }
+        description2: {
+          text: "Nuestra misión: democratizar el acceso a la financiación gracias a soluciones",
+          highlight: "rápidas, transparentes y a medida",
+          success: "para hacer realidad sus ambiciones"
+        },
+        stats: {
+          founded: "Año de fundación",
+          location: "Sede social",
+          certified: "Registro",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Su confianza, nuestra prioridad",
+          description: "Certificados y regulados por las autoridades europeas"
+        },
+        buttons: {
+          history: "Nuestra historia",
+          contact: "Contáctanos"
+        }
+      },
+      cta: {
+        title: "¿Listo para transformar",
+        titleHighlight: "sus proyectos",
+        titleEnd: "en realidad?",
+        description: "Nuestros expertos le acompañan en cada paso para hacer realidad sus ambiciones financieras.",
+        buttons: {
+          request: "Hacer una solicitud",
+          simulate: "Simular un préstamo",
+          contact: "Contáctanos"
+        },
+        contact: {
+          phone: "Teléfono",
+          address: "Dirección",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+        }
+      }
+    },
+    services: {
+      personalLoan: {
+        title: "Préstamos personales",
+        description: "Soluciones de financiación personalizadas con condiciones revolucionarias.",
+        points: ["IA para tasas óptimas", "Respuesta en 2h", "Máxima flexibilidad"],
+        cta: "Descubrir",
+        useCases: [
+          "Trabajos de renovación",
+          "Viaje de ensueño",
+          "Boda",
+          "Estudios", 
+          "Compra de vehículo"
         ]
+      },
+      businessLoan: {
+        title: "Financiamiento para empresas",
+        description: "Impulsa tu empresa con nuestras soluciones innovadoras.",
+        points: ["Financiamiento exprés", "Acompañamiento experto", "Soluciones a medida"],
+        cta: "Descubrir",
+        useCases: [
+          "Creación de empresa",
+          "Expansión comercial",
+          "Compra de equipos",
+          "Tesorería",
+          "Compra de participaciones"
+        ]
+      },
+      investment: {
+        title: "Inversiones inteligentes",
+        description: "Optimización patrimonial con inteligencia artificial y experiencia humana.",
+        points: ["Cartera inteligente", "Asesoría premium", "Rendimiento optimizado"],
+        cta: "Descubrir",
+        useCases: [
+          "Inversión inmobiliaria",
+          "Diversificación patrimonial",
+          "Preparación jubilación",
+          "Optimización fiscal",
+          "Inversión ESG"
+        ]
+      },
+      insurance: {
+        title: "Seguros 360°",
+        description: "Protección total e innovadora para todos tus proyectos de vida y negocio.",
+        points: ["Cobertura completa", "Gestión de reclamos en 24h", "Atención premium"],
+        cta: "Descubrir",
+        useCases: [
+          "Protección familiar",
+          "Seguro profesional",
+          "Garantía préstamo",
+          "Responsabilidad civil",
+          "Previsión salud"
+        ]
+      },
+      explore: "Explorar todos nuestros servicios",
+      features: "Características",
+      useCases: "Casos de uso",
+      discover: "Descubrir",
+      specialized: {
+        title: "Productos especializados", 
+        description: "Soluciones expertas para sus necesidades específicas",
+        mortgage: {
+          title: "Préstamo inmobiliario",
+          description: "Financie su proyecto inmobiliario en las mejores condiciones",
+          rate: "Desde 1,2% TAE"
+        },
+        student: {
+          title: "Préstamo estudiantil",
+          description: "Soluciones adaptadas para financiar sus estudios",
+          rate: "0% durante los estudios"
+        },
+        savings: {
+          title: "Libreta de ahorro+",
+          description: "Ahorro remunerado y disponible",
+          rate: "Hasta 4% neto"
+        },
+        premium: {
+          title: "Tarjeta Premium",
+          description: "Ventajas exclusivas y servicios de alta gama",
+          rate: "Sin costos el primer año"
+        }
+      },
+      process: {
+        title: "Nuestro proceso",
+        description: "Un recorrido simplificado para concretar sus proyectos",
+        step1: {
+          title: "Análisis de su proyecto",
+          description: "Estudio personalizado de sus necesidades y capacidades financieras"
+        },
+        step2: {
+          title: "Propuesta a medida",
+          description: "Soluciones adaptadas con condiciones optimizadas por IA"
+        },
+        step3: {
+          title: "Validación exprés",
+          description: "Respuesta de principio en menos de 2h laborables"
+        },
+        step4: {
+          title: "Desbloqueo de fondos",
+          description: "Puesta a disposición rápida y acompañamiento continuo"
+        }
+      }
+    },
+    testimonials: {
+      title: "Confían en nosotros",
+      subtitle: "Lo que dicen nuestros clientes satisfechos",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Francia",
+          feedback: "Servicio rápido y confiable. ¡Mi crédito fue aprobado en 48 horas! Gracias Aurex K-pital."
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "París, Francia",
+          feedback: "Equipo profesional, plataforma clara y una atención realmente personalizada."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, Francia",
+          feedback: "El simulador fue muy claro y obtuve mejores condiciones que en mi banco."
+        }
+      ]
+    },
+    simulator: {
+      title: "Calculadora de Préstamo",
+      titleSecond: "Inteligente",
+      subtitle: "Obtenga una estimación personalizada en tiempo real de su financiación",
+      form: {
+        loanType: "Tipo de financiación",
+        amount: "Cantidad deseada (€)",
+        duration: "Duración de reembolso (meses)",
+        income: "Ingresos mensuales netos (opcional)",
+        incomeHelper: "Información utilizada para optimizar su tasa",
+        guarantee: "¿Tiene una garantía o aval?",
+        guaranteeOptions: {
+          yes: "Sí, tengo una garantía",
+          no: "No, sin garantía",
+          maybe: "A evaluar según la oferta"
+        },
+        loanTypes: {
+          personal: {
+            label: "Préstamo Personal",
+            description: "Para todos sus proyectos personales"
+          },
+          auto: {
+            label: "Crédito Auto",
+            description: "Financiación vehículo nuevo o de ocasión"
+          },
+          realEstate: {
+            label: "Crédito Inmobiliario",
+            description: "Compra, construcción o renovación"
+          },
+          professional: {
+            label: "Financiación Profesional",
+            description: "Inversión profesional"
+          },
+          student: {
+            label: "Préstamo Estudiantil",
+            description: "Financiación estudios superiores"
+          },
+          consolidation: {
+            label: "Reunificación de Créditos",
+            description: "Agrupación de deudas existentes"
+          }
+        }
+      },
+      configuration: {
+        title: "Configuración de su préstamo",
+        description: "Personalice los parámetros según sus necesidades"
+      },
+      result: {
+        title: "Su estimación",
+        monthlyPayment: "Cuota mensual",
+        interestRate: "Tipo de interés",
+        totalCost: "Costo total del crédito",
+        totalRepayment: "Importe total a reembolsar",
+        units: {
+          months: "meses",
+          years: "años"
+        },
+        disclaimer: "Esta estimación es indicativa y puede variar según su perfil final. Oferta sujeta a aceptación."
+      },
+      advantages: {
+        title: "Sus ventajas Aurex K-pital",
+        items: {
+          rates: "Tipos preferenciales negociados",
+          earlyRepayment: "Reembolso anticipado sin gastos",
+          response: "Respuesta garantizada en 24h",
+          support: "Acompañamiento personalizado"
+        }
+      },
+      cta: {
+        title: "¿Listo para concretar su proyecto?",
+        description: "Nuestros consejeros expertos le acompañan para transformar esta simulación en realidad",
+        buttons: {
+          request: "Hacer mi solicitud",
+          consultant: "Hablar con un consejero",
+          officialRequest: "Hacer mi solicitud oficial",
+          allServices: "Ver todos nuestros servicios"
+        }
+      }
+    },
+    legal: {
+      badge: "Información Legal",
+      title: {
+        main: "Aviso",
+        subtitle: "Legal"
+      },
+      description: "Toda la información legal y reglamentaria sobre Aurex K-pital y el uso de nuestros servicios.",
+      tabs: {
+        mentions: "Aviso Legal",
+        privacy: "Privacidad",
+        terms: "Términos",
+        gdpr: "RGPD"
+      },
+      mentions: {
+        title: "Aviso Legal",
+        description: "Información de la empresa y responsabilidades legales",
+        company: {
+          title: "Identificación de la Empresa",
+          name: "Denominación social",
+          type: "Forma jurídica",
+          typeValue: "Sociedad de responsabilidad limitada (GmbH)",
+          capital: "Capital social",
+          address: "Sede social",
+          register: "Registro mercantil",
+          vat: "Número de IVA",
+          siren: "Número SIREN"
+        },
+        management: {
+          title: "Dirección",
+          ceo: "Director General",
+          cio: "Directora de Innovación",
+          cro: "Director de Riesgos"
+        },
+        activity: {
+          title: "Actividad",
+          description: "Aurex K-pital es una institución financiera autorizada por la BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) bajo el número de autorización 147-FS-2015. Nuestras actividades incluyen:",
+          services: {
+            banking: "Intermediación en operaciones bancarias y servicios de pago",
+            investment: "Asesoramiento en inversiones financieras",
+            insurance: "Intermediación en seguros",
+            wealth: "Servicios de gestión patrimonial"
+          }
+        },
+        contact: {
+          title: "Contacto",
+          phone: "Teléfono",
+          email: "Email",
+          hours: "Horarios",
+          schedule: "Lunes-Viernes 8h-19h, Sábado 9h-17h"
+        },
+        hosting: {
+          title: "Alojamiento",
+          description: "Este sitio está alojado por:"
+        },
+        intellectual: {
+          title: "Propiedad Intelectual",
+          description: "Todos los contenidos presentes en este sitio (textos, imágenes, logos, gráficos, etc.) están protegidos por derechos de autor y pertenecen a Aurex K-pital o a sus socios. Cualquier reproducción, incluso parcial, está prohibida sin autorización escrita previa."
+        },
+        responsibility: {
+          title: "Responsabilidad",
+          description: "Aurex K-pital se esfuerza por proporcionar información precisa y actualizada. Sin embargo, la empresa no puede garantizar la exactitud, integridad o actualidad de la información difundida en este sitio. El uso de la información se hace bajo la responsabilidad exclusiva del usuario."
+        }
+      }
+    },
+    about: {
+      badge: "Excelencia desde 1997",
+      title: "Su socio financiero de confianza",
+      subtitle: "Desde hace más de 25 años, acompañamos a las empresas europeas en su desarrollo con soluciones de financiación innovadoras y personalizadas.",
+      hero: {
+        cta: {
+          contact: "Contactarnos",
+          simulate: "Simular mi financiación"
+        }
+      },
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Años de experiencia"
+        },
+        companies: {
+          value: "50K+",
+          label: "Empresas acompañadas"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Financiaciones facilitadas"
+        },
+        countries: {
+          value: "8",
+          label: "Países europeos"
+        }
+      },
+      values: {
+        badge: "Nuestros Valores",
+        title: "Lo que nos guía cada día",
+        description: "Nuestro éxito se basa en valores sólidos que orientan cada una de nuestras acciones y decisiones.",
+        security: {
+          title: "Seguridad y Cumplimiento",
+          description: "Nuestras soluciones respetan las normas bancarias más estrictas y la regulación RGPD."
+        },
+        innovation: {
+          title: "Innovación Continua",
+          description: "Desarrollamos constantemente nuevas soluciones para anticipar sus necesidades futuras."
+        },
+        support: {
+          title: "Acompañamiento Personal",
+          description: "Cada cliente se beneficia de un asesor dedicado para un servicio a medida."
+        },
+        excellence: {
+          title: "Excelencia Reconocida",
+          description: "Más de 25 años de experiencia y la confianza de miles de empresas."
+        }
+      },
+      history: {
+        badge: "Nuestra Historia",
+        title: "Más de 25 años de innovación",
+        description: "Descubra los momentos clave que han forjado nuestra empresa y nuestra experiencia.",
+        milestone1: {
+          title: "Creación de la empresa",
+          description: "Fundación con la visión de democratizar el acceso a la financiación para las PYME."
+        },
+        milestone2: {
+          title: "Expansión europea",
+          description: "Apertura de oficinas en Alemania, Polonia y España."
+        },
+        milestone3: {
+          title: "Innovación digital",
+          description: "Lanzamiento de nuestra plataforma de simulación en línea revolucionaria."
+        },
+        milestone4: {
+          title: "Cliente número 50.000",
+          description: "Franqueo del hito de 50.000 empresas acompañadas."
+        },
+        milestone5: {
+          title: "€5 mil millones financiados",
+          description: "Alcance del récord de 5 mil millones de euros de financiaciones facilitadas."
+        }
+      },
+      team: {
+        badge: "Nuestro Equipo",
+        title: "La experiencia al servicio de su éxito",
+        description: "Conozca a los expertos que impulsan nuestra visión y acompañan su crecimiento.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Directora General",
+          experience: "15 años de experiencia en financiación empresarial"
+        },
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Director Técnico",
+          experience: "Experto en soluciones fintech y seguridad bancaria"
+        },
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Directora Comercial",
+          experience: "Especialista en mercados europeos desde hace 12 años"
+        }
+      },
+      cta: {
+        title: "¿Listo para desarrollar su empresa?",
+        description: "Únase a más de 50.000 empresas que confían en nosotros para sus necesidades de financiación.",
+        simulate: "Comenzar la simulación",
+        expert: "Hablar con un experto"
+      },
+      blog: {
+        badge: "Experiencia y Perspectivas",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Análisis de expertos, tendencias del mercado y consejos prácticos para optimizar sus decisiones financieras y de inversión.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Artículos publicados"
+          },
+          experts: {
+            value: "8",
+            label: "Expertos autores"
+          },
+          readers: {
+            value: "50K+",
+            label: "Lectores mensuales"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Satisfacción de lectores"
+          }
+        },
+        featured: {
+          title: "Artículo Destacado"
+        },
+        search: {
+          placeholder: "Buscar un artículo...",
+          allCategories: "Todas las categorías"
+        },
+        categories: {
+          title: "Categorías",
+          innovation: "Innovación",
+          realEstate: "Inmobiliario",
+          regulation: "Regulación",
+          economy: "Economía",
+          esg: "ESG",
+          education: "Educación"
+        },
+        trending: {
+          title: "Tendencias"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Reciba nuestros últimos artículos y análisis directamente en su buzón",
+          placeholder: "Su email",
+          subscribe: "Suscribirse",
+          disclaimer: "Máximo 1 email por semana. Fácil cancelación."
+        },
+        actions: {
+          readMore: "Leer el artículo completo",
+          read: "Leer",
+          loadMore: "Cargar más artículos",
+          readTime: "de lectura"
+        }
+      }
+    }
+  },
+  it: {
+    menu: {
+      home: "Home",
+      services: "Servizi",
+      simulator: "Simulatore",
+      request: "Richiesta",
+      about: "Chi siamo",
+      contact: "Contatto",
+      faq: "FAQ",
+      careers: "Carriere",
+      partners: "Partner",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Strumenti",
+      company: "Azienda",
+      legal: "Legale",
+      privacyPolicy: "Politica sulla privacy",
+      terms: "Termini e condizioni",
+      mentions: "Note legali",
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
+      services: "Servizi",
+      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      establishment: "Istituzione finanziaria autorizzata in Europa",
+      links: {
+        personalLoans: "Prestiti personali",
+        proFinancing: "Finanziamento aziendale",
+        investments: "Investimenti",
+        insurance: "Assicurazioni",
+        simulator: "Simulatore di prestito",
+        request: "Richiesta di finanziamento",
+        faq: "FAQ",
+        contact: "Contatto",
+        about: "Chi siamo",
+        partners: "I nostri partner",
+        careers: "Carriere",
+        blog: "Blog",
+        legal: "Note legali",
+        privacy: "Politica sulla privacy",
+        terms: "Termini e condizioni",
+        gdpr: "GDPR"
+      }
+    },
+    partners: {
+      title: "I Nostri Partner di Fiducia",
+      description: "Una rete europea di eccellenza per offrire le migliori soluzioni finanziarie",
+      stats: "Oltre 25 partner europei • 27 paesi coperti • 2,5 miliardi € di volume trattato"
+    },
+    home: {
+      hero: {
+        title: "Il tuo Partner Finanziario",
+        subtitle: "dal 1997",
+        description: "Eccellenza, innovazione e fiducia per tutti i tuoi progetti finanziari",
+        ctaBtn: "Scopri le nostre soluzioni",
+        simulateBtn: "Simula un prestito",
+        scrollText: "Scopri",
+        carousel: {
+          text1: "Lancia il tuo progetto con Aurex K-pital",
+          text2: "Ottieni finanziamenti senza anticipo",
+          text3: "Investi oggi nel tuo futuro"
+        },
+        stats: {
+          experience: {
+            title: "Anni di eccellenza",
+            subtitle: "Innovazione continua"
+          },
+          clients: {
+            title: "Clienti soddisfatti",
+            subtitle: "Soddisfazione garantita"
+          },
+          funding: {
+            title: "Finanziamenti realizzati",
+            subtitle: "Impatto trasformativo"
+          }
+        }
+      },
+      services: {
+        badge: "Servizi",
+        title: "Soluzioni",
+        subtitle: "Innovative",
+        description: "Scopri le nostre soluzioni finanziarie",
+        description2: "rivoluzionarie",
+        description3: "per i tuoi progetti"
+      },
+      about: {
+        badge: "Chi siamo",
+        title: "Il vostro partner",
+        subtitle: "finanziario",
+        subtitle2: "di fiducia",
+        description1: {
+          highlight: "Dal 1997,",
+          text: " Aurex K-pital accompagna privati e aziende nei loro progetti finanziari con un approccio che combina",
+          expertise: "esperienza umana",
+          and: "e",
+          technology: "innovazione tecnologica"
+        },
+        description2: {
+          text: "La nostra missione: democratizzare l'accesso ai finanziamenti grazie a soluzioni",
+          highlight: "rapide, trasparenti e su misura",
+          success: "per concretizzare le vostre ambizioni"
+        },
+        stats: {
+          founded: "Anno di fondazione",
+          location: "Sede sociale",
+          certified: "Registro",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "La vostra fiducia, la nostra priorità",
+          description: "Certificati e regolamentati dalle autorità europee"
+        },
+        buttons: {
+          history: "La nostra storia",
+          contact: "Contattaci"
+        }
+      },
+      cta: {
+        title: "Pronti a trasformare",
+        titleHighlight: "i vostri progetti",
+        titleEnd: "in realtà?",
+        description: "I nostri esperti vi accompagnano in ogni passaggio per concretizzare le vostre ambizioni finanziarie.",
+        buttons: {
+          request: "Fare una richiesta",
+          simulate: "Simulare un prestito",
+          contact: "Contattaci"
+        },
+        contact: {
+          phone: "Telefono",
+          address: "Indirizzo",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+        }
+      }
+    },
+    services: {
+      personalLoan: {
+        title: "Prestiti personali",
+        description: "Soluzioni di finanziamento personalizzate con condizioni rivoluzionarie.",
+        points: ["IA per tassi ottimali", "Risposta in 2h", "Massima flessibilità"],
+        cta: "Scopri",
+        useCases: [
+          "Lavori di ristrutturazione",
+          "Viaggio da sogno",
+          "Matrimonio",
+          "Studi",
+          "Acquisto veicolo"
+        ]
+      },
+      businessLoan: {
+        title: "Finanziamenti aziendali",
+        description: "Potenzia la tua azienda con le nostre soluzioni innovative.",
+        points: ["Finanziamento express", "Accompagnamento esperto", "Soluzioni su misura"],
+        cta: "Scopri",
+        useCases: [
+          "Creazione d'impresa",
+          "Espansione commerciale",
+          "Acquisto attrezzature",
+          "Tesoreria",
+          "Acquisto quote"
+        ]
+      },
+      investment: {
+        title: "Investimenti intelligenti",
+        description: "Ottimizzazione patrimoniale con intelligenza artificiale ed esperienza umana.",
+        points: ["Portfolio intelligente", "Consulenza premium", "Rendimento ottimizzato"],
+        cta: "Scopri",
+        useCases: [
+          "Investimento immobiliare",
+          "Diversificazione patrimoniale",
+          "Preparazione pensione",
+          "Ottimizzazione fiscale",
+          "Investimento ESG"
+        ]
+      },
+      insurance: {
+        title: "Assicurazioni 360°",
+        description: "Protezione totale e innovativa per tutti i tuoi progetti di vita e business.",
+        points: ["Copertura completa", "Gestione sinistri 24h", "Supporto premium"],
+        cta: "Scopri",
+        useCases: [
+          "Protezione famiglia",
+          "Assicurazione professionale",
+          "Garanzia prestito",
+          "Responsabilità civile",
+          "Previdenza salute"
+        ]
+      },
+      explore: "Esplora tutti i nostri servizi",
+      features: "Caratteristiche",
+      useCases: "Casi d'uso",
+      discover: "Scopri",
+      specialized: {
+        title: "Prodotti specializzati",
+        description: "Soluzioni esperte per le vostre esigenze specifiche",
+        mortgage: {
+          title: "Mutuo immobiliare",
+          description: "Finanziate il vostro progetto immobiliare alle migliori condizioni",
+          rate: "A partire dall'1,2% TAEG"
+        },
+        student: {
+          title: "Prestito studenti",
+          description: "Soluzioni adatte per finanziare i vostri studi",
+          rate: "0% durante gli studi"
+        },
+        savings: {
+          title: "Libretto risparmio+",
+          description: "Risparmio remunerato e disponibile",
+          rate: "Fino al 4% netto"
+        },
+        premium: {
+          title: "Carta Premium",
+          description: "Vantaggi esclusivi e servizi di alta gamma",
+          rate: "Senza spese il primo anno"
+        }
+      },
+      process: {
+        title: "Il nostro processo",
+        description: "Un percorso semplificato per concretizzare i vostri progetti",
+        step1: {
+          title: "Analisi del vostro progetto",
+          description: "Studio personalizzato delle vostre esigenze e capacità finanziarie"
+        },
+        step2: {
+          title: "Proposta su misura",
+          description: "Soluzioni adatte con condizioni ottimizzate dall'IA"
+        },
+        step3: {
+          title: "Validazione express",
+          description: "Risposta di principio in meno di 2h lavorative"
+        },
+        step4: {
+          title: "Sblocco dei fondi",
+          description: "Messa a disposizione rapida e accompagnamento continuo"
+        }
+      }
+    },
+    testimonials: {
+      title: "Ci danno fiducia",
+      subtitle: "Cosa dicono i nostri clienti soddisfatti",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lione, Francia",
+          feedback: "Servizio veloce e professionale. Il mio prestito è stato approvato in 48 ore. Grazie Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Parigi, Francia",
+          feedback: "Team competente, interfaccia semplice e assistenza davvero personalizzata."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Tolosa, Francia",
+          feedback: "Il simulatore è chiaro e ho ottenuto condizioni migliori rispetto alla mia banca."
+        }
+      ]
+    },
+    simulator: {
+      title: "Calcolatore di Prestito",
+      titleSecond: "Intelligente",
+      subtitle: "Ottieni una stima personalizzata in tempo reale del tuo finanziamento",
+      form: {
+        loanType: "Tipo di finanziamento",
+        amount: "Importo desiderato (€)",
+        duration: "Durata di rimborso (mesi)",
+        income: "Reddito mensile netto (opzionale)",
+        incomeHelper: "Informazione utilizzata per ottimizzare il tuo tasso",
+        guarantee: "Hai una garanzia o fideiussione?",
+        guaranteeOptions: {
+          yes: "Sì, ho una garanzia",
+          no: "No, nessuna garanzia",
+          maybe: "Da valutare secondo l'offerta"
+        },
+        loanTypes: {
+          personal: {
+            label: "Prestito Personale",
+            description: "Per tutti i tuoi progetti personali"
+          },
+          auto: {
+            label: "Credito Auto",
+            description: "Finanziamento veicolo nuovo o usato"
+          },
+          realEstate: {
+            label: "Credito Immobiliare",
+            description: "Acquisto, costruzione o ristrutturazione"
+          },
+          professional: {
+            label: "Finanziamento Professionale",
+            description: "Investimento professionale"
+          },
+          student: {
+            label: "Prestito Studenti",
+            description: "Finanziamento studi universitari"
+          },
+          consolidation: {
+            label: "Consolidamento Crediti",
+            description: "Raggruppamento debiti esistenti"
+          }
+    },
+    about: {
+      badge: "Eccellenza dal 1997",
+      title: "Il vostro partner finanziario di fiducia",
+      subtitle: "Da oltre 25 anni, accompagniamo le aziende europee nel loro sviluppo con soluzioni di finanziamento innovative e personalizzate.",
+      hero: {
+        cta: {
+          contact: "Contattaci",
+          simulate: "Simula il mio finanziamento"
+        }
+      },
+      stats: {
+        experience: {
+          value: "25+",
+          label: "Anni di esperienza"
+        },
+        companies: {
+          value: "50K+",
+          label: "Aziende accompagnate"
+        },
+        funding: {
+          value: "€5B+",
+          label: "Finanziamenti facilitati"
+        },
+        countries: {
+          value: "8",
+          label: "Paesi europei"
+        }
+      },
+      values: {
+        badge: "I Nostri Valori",
+        title: "Ciò che ci guida ogni giorno",
+        description: "Il nostro successo si basa su valori forti che orientano ogni nostra azione e decisione.",
+        security: {
+          title: "Sicurezza e Conformità",
+          description: "Le nostre soluzioni rispettano le norme bancarie più rigorose e la regolamentazione GDPR."
+        },
+        innovation: {
+          title: "Innovazione Continua",
+          description: "Sviluppiamo costantemente nuove soluzioni per anticipare le vostre esigenze future."
+        },
+        support: {
+          title: "Accompagnamento Personale",
+          description: "Ogni cliente beneficia di un consulente dedicato per un servizio su misura."
+        },
+        excellence: {
+          title: "Eccellenza Riconosciuta",
+          description: "Oltre 25 anni di competenza e la fiducia di migliaia di aziende."
+        }
+      },
+      history: {
+        badge: "La Nostra Storia",
+        title: "Oltre 25 anni di innovazione",
+        description: "Scoprite i momenti chiave che hanno plasmato la nostra azienda e la nostra competenza.",
+        milestone1: {
+          title: "Creazione dell'azienda",
+          description: "Fondazione con la visione di democratizzare l'accesso ai finanziamenti per le PMI."
+        },
+        milestone2: {
+          title: "Espansione europea",
+          description: "Apertura di uffici in Germania, Polonia e Spagna."
+        },
+        milestone3: {
+          title: "Innovazione digitale",
+          description: "Lancio della nostra piattaforma di simulazione online rivoluzionaria."
+        },
+        milestone4: {
+          title: "50.000º cliente",
+          description: "Raggiungimento del traguardo di 50.000 aziende accompagnate."
+        },
+        milestone5: {
+          title: "€5 miliardi finanziati",
+          description: "Raggiungimento del record di 5 miliardi di euro di finanziamenti facilitati."
+        }
+      },
+      team: {
+        badge: "Il Nostro Team",
+        title: "L'expertise al servizio del vostro successo",
+        description: "Incontrate gli esperti che guidano la nostra visione e accompagnano la vostra crescita.",
+        member1: {
+          name: "Marie Dubois",
+          role: "Direttrice Generale",
+          experience: "15 anni di esperienza nel finanziamento aziendale"
+        },
+        member2: {
+          name: "Thomas Schmidt",
+          role: "Direttore Tecnico",
+          experience: "Esperto in soluzioni fintech e sicurezza bancaria"
+        },
+        member3: {
+          name: "Elena Rodriguez",
+          role: "Direttrice Commerciale",
+          experience: "Specialista dei mercati europei da 12 anni"
+        }
+      },
+      cta: {
+        title: "Pronti a sviluppare la vostra azienda?",
+        description: "Unitevi a oltre 50.000 aziende che si fidano di noi per le loro esigenze di finanziamento.",
+        simulate: "Inizia la simulazione",
+        expert: "Parla con un esperto"
+      },
+      blog: {
+        badge: "Competenza e Approfondimenti",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Analisi di esperti, tendenze di mercato e consigli pratici per ottimizzare le vostre decisioni finanziarie e di investimento.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Articoli pubblicati"
+          },
+          experts: {
+            value: "8",
+            label: "Esperti autori"
+          },
+          readers: {
+            value: "50K+",
+            label: "Lettori mensili"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Soddisfazione lettori"
+          }
+        },
+        featured: {
+          title: "Articolo in Evidenza"
+        },
+        search: {
+          placeholder: "Cerca un articolo...",
+          allCategories: "Tutte le categorie"
+        },
+        categories: {
+          title: "Categorie",
+          innovation: "Innovazione",
+          realEstate: "Immobiliare",
+          regulation: "Regolamentazione",
+          economy: "Economia",
+          esg: "ESG",
+          education: "Educazione"
+        },
+        trending: {
+          title: "Tendenze"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Ricevi i nostri ultimi articoli e analisi direttamente nella tua casella di posta",
+          placeholder: "La tua email",
+          subscribe: "Iscriviti",
+          disclaimer: "Massimo 1 email a settimana. Facile cancellazione."
+        },
+        actions: {
+          readMore: "Leggi l'articolo completo",
+          read: "Leggi",
+          loadMore: "Carica più articoli",
+          readTime: "di lettura"
+        }
+      }
+    }
+      },
+      configuration: {
+        title: "Configurazione del tuo prestito",
+        description: "Personalizza i parametri secondo le tue esigenze"
+      },
+      result: {
+        title: "La tua stima",
+        monthlyPayment: "Rata mensile",
+        interestRate: "Tasso di interesse",
+        totalCost: "Costo totale del credito",
+        totalRepayment: "Importo totale da rimborsare",
+        units: {
+          months: "mesi",
+          years: "anni"
+        },
+        disclaimer: "Questa stima è indicativa e può variare secondo il tuo profilo finale. Offerta soggetta ad accettazione."
+      },
+      advantages: {
+        title: "I tuoi vantaggi Aurex K-pital",
+        items: {
+          rates: "Tassi preferenziali negoziati",
+          earlyRepayment: "Rimborso anticipato senza costi",
+          response: "Risposta garantita entro 24h",
+          support: "Accompagnamento personalizzato"
+        }
+      },
+      cta: {
+        title: "Pronto a realizzare il tuo progetto?",
+        description: "I nostri consulenti esperti ti accompagnano per trasformare questa simulazione in realtà",
+        buttons: {
+          request: "Fare domanda",
+          consultant: "Parlare con un consulente",
+          officialRequest: "Fare domanda ufficiale",
+          allServices: "Vedere tutti i nostri servizi"
+        }
       }
     }
   },
   pl: {
-    menu: { home: "Strona główna", services: "Usługi", simulator: "Symulator", request: "Wniosek", about: "O nas", contact: "Kontakt", faq: "FAQ", careers: "Kariery", partners: "Partnerzy", blog: "Blog" },
+    menu: {
+      home: "Strona główna",
+      services: "Usługi",
+      simulator: "Symulator",
+      request: "Wniosek",
+      about: "O nas",
+      contact: "Kontakt",
+      faq: "FAQ",
+      careers: "Kariera",
+      partners: "Partnerzy",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Narzędzia",
+      company: "Firma",
+      legal: "Informacje prawne",
+      privacyPolicy: "Polityka prywatności",
+      terms: "Regulamin",
+      mentions: "Informacje prawne",
+      gdpr: "RODO",
+      rights: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      description: "Wasz zaufany partner finansowy od 1997 roku. Doskonałość, innowacyjność i doświadczenie dla wszystkich projektów finansowych w Europie.",
+      services: "Usługi",
+      copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      establishment: "Licencjonowana instytucja finansowa w Europie",
+      links: {
+        personalLoans: "Kredyty osobiste",
+        proFinancing: "Finansowanie biznesu",
+        investments: "Inwestycje",
+        insurance: "Ubezpieczenia",
+        simulator: "Symulator kredytu",
+        request: "Wniosek o finansowanie",
+        faq: "FAQ",
+        contact: "Kontakt",
+        about: "O nas",
+        partners: "Nasi partnerzy",
+        careers: "Kariera",
+        blog: "Blog",
+        legal: "Informacje prawne",
+        privacy: "Polityka prywatności",
+        terms: "Regulamin",
+        gdpr: "RODO"
+      }
+    },
     partners: {
       title: "Nasi Zaufani Partnerzy",
-      description: "Europejska sieć doskonałości oferująca najlepsze rozwiązania finansowe",
-      stats: "Ponad 25 europejskich partnerów • 27 krajów objętych zasięgiem • 2,5 mld€ wolumenu transakcji"
+      description: "Europejska sieć doskonałości, aby zapewnić najlepsze rozwiązania finansowe",
+      stats: "Ponad 25 europejskich partnerów • 27 krajów objętych • 2,5 mld € wolumenu transakcji"
     },
-    blog: {
-      badge: "Ekspertyza i Analiza",
-      title: "Blog Aurex",
-      subtitle: "K-pital",
-      description: "Analizy ekspertów, trendy rynkowe i praktyczne porady dla optymalizacji decyzji finansowych i inwestycyjnych.",
-      stats: {
-        articles: { value: "150+", label: "Opublikowane artykuły" },
-        experts: { value: "8", label: "Eksperci autorzy" },
-        readers: { value: "50K+", label: "Miesięczni czytelnicy" },
-        satisfaction: { value: "95%", label: "Satysfakcja czytelników" }
-      },
-      featured: { title: "Artykuł główny" },
-      search: { placeholder: "Szukaj artykułu...", allCategories: "Wszystkie kategorie" },
-      categories: {
-        title: "Kategorie",
-        innovation: "Innowacje",
-        realEstate: "Nieruchomości",
-        regulation: "Regulacje",
-        economy: "Ekonomia",
-        esg: "ESG",
-        education: "Edukacja"
-      },
-      trending: { title: "Trendy" },
-      newsletter: {
-        title: "Newsletter",
-        description: "Otrzymuj nasze najnowsze artykuły i analizy bezpośrednio na email",
-        placeholder: "Twój email",
-        subscribe: "Zapisz się",
-        disclaimer: "Maksymalnie 1 email tygodniowo. Łatwa rezygnacja."
-      },
-      actions: {
-        readMore: "Czytaj pełny artykuł",
-        read: "Czytaj",
-        loadMore: "Załaduj więcej artykułów",
-        readTime: "min czytania"
-      },
-      content: {
-        featuredArticle: {
-          title: "Sztuczna inteligencja rewolucjonizuje europejski sektor finansowy",
-          excerpt: "Odkryj, jak nowe technologie transformują usługi bankowe i inwestycyjne, oferując europejskim klientom bardziej spersonalizowane i efektywne rozwiązania.",
-          author: "Dr. Marie Dubois",
-          role: "Dyrektor Innowacji FinTech",
-          date: "15 stycznia 2024",
-          category: "innovation"
+    home: {
+      hero: {
+        title: "Twój Partner Finansowy",
+        subtitle: "od 1997",
+        description: "Doskonałość, innowacyjność i zaufanie dla wszystkich Twoich projektów finansowych",
+        ctaBtn: "Odkryj nasze rozwiązania",
+        simulateBtn: "Symuluj kredyt",
+        scrollText: "Odkryj",
+        carousel: {
+          text1: "Rozpocznij swój projekt z Aurex K-pital",
+          text2: "Uzyskaj finansowanie bez wkładu własnego",
+          text3: "Inwestuj już dziś w swoją przyszłość"
         },
-        articles: [
-          { title: "Kompletny przewodnik po kredycie hipotecznym 2024", excerpt: "Wszystko co musisz wiedzieć o aktualnych warunkach rynku nieruchomości.", author: "Pierre Martin", date: "12 stycznia 2024", category: "realEstate" },
-          { title: "Nowe europejskie regulacje dotyczące krypto-aktywów", excerpt: "Analiza wpływu rozporządzenia MiCA na inwestorów.", author: "Sophie Bernard", date: "10 stycznia 2024", category: "regulation" },
-          { title: "Trendy ekonomiczne 2024: prognozy ekspertów", excerpt: "Główne trendy, które będą kształtować europejską gospodarkę w tym roku.", author: "Jean-Claude Moreau", date: "8 stycznia 2024", category: "economy" },
-          { title: "Inwestycje ESG: wydajność i wpływ", excerpt: "Jak połączyć rentowność z odpowiedzialnością środowiskową w inwestycjach.", author: "Émilie Rousseau", date: "5 stycznia 2024", category: "esg" },
-          { title: "Edukacja finansowa: podstawy inwestowania", excerpt: "Praktyczny przewodnik dla początkujących inwestorów.", author: "Marc Lefebvre", date: "3 stycznia 2024", category: "education" },
-          { title: "Optymalizacja podatkowa 2024: nowości i strategie", excerpt: "Najnowsze zmiany podatkowe i strategie optymalizacji.", author: "Anne Durand", date: "1 stycznia 2024", category: "economy" }
-        ],
-        trending: [
-          { title: "Jak negocjować oprocentowanie kredytu hipotecznego" },
-          { title: "Inwestowanie w nieruchomości na wynajem 2024" },
-          { title: "Najlepsze europejskie ubezpieczenia na życie" },
-          { title: "Zakładanie firmy: przewodnik finansowania" },
-          { title: "Emerytura: porównanie rozwiązań" }
+        stats: {
+          experience: {
+            title: "Lat doskonałości",
+            subtitle: "Ciągła innowacja"
+          },
+          clients: {
+            title: "Zadowolonych klientów",
+            subtitle: "Gwarantowane zadowolenie"
+          },
+          funding: {
+            title: "Zrealizowanych finansowań",
+            subtitle: "Transformacyjny wpływ"
+          }
+        }
+      },
+      services: {
+        badge: "Usługi",
+        title: "Rozwiązania",
+        subtitle: "Innowacyjne",
+        description: "Odkryj nasze rewolucyjne",
+        description2: "rozwiązania finansowe",
+        description3: "dla Twoich projektów"
+      },
+      about: {
+        badge: "O nas",
+        title: "Wasz partner",
+        subtitle: "finansowy",
+        subtitle2: "zaufania",
+        description1: {
+          highlight: "Od 1997 roku",
+          text: " Aurex K-pital towarzyszy osobom prywatnym i firmom w ich projektach finansowych, łącząc",
+          expertise: "ludzką wiedzę specjalistyczną",
+          and: "z",
+          technology: "innowacjami technologicznymi"
+        },
+        description2: {
+          text: "Nasza misja: demokratyzacja dostępu do finansowania dzięki rozwiązaniom",
+          highlight: "szybkim, przejrzystym i szytym na miarę",
+          success: "aby zrealizować Wasze ambicje"
+        },
+        stats: {
+          founded: "Rok założenia",
+          location: "Siedziba",
+          certified: "Rejestr",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Wasze zaufanie, nasz priorytet",
+          description: "Certyfikowani i regulowani przez władze europejskie"
+        },
+        buttons: {
+          history: "Nasza historia",
+          contact: "Skontaktuj się"
+        }
+      },
+      cta: {
+        title: "Gotowi przekształcić",
+        titleHighlight: "wasze projekty",
+        titleEnd: "w rzeczywistość?",
+        description: "Nasi eksperci towarzyszą Wam na każdym kroku w realizacji finansowych ambicji.",
+        buttons: {
+          request: "Złożyć wniosek",
+          simulate: "Symulować kredyt",
+          contact: "Skontaktuj się"
+        },
+        contact: {
+          phone: "Telefon",
+          address: "Adres",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
+        }
+      }
+    },
+    services: {
+      personalLoan: {
+        title: "Kredyty osobiste",
+        description: "Spersonalizowane rozwiązania finansowe z rewolucyjnymi warunkami.",
+        points: ["Sztuczna inteligencja do optymalnych stawek", "Odpowiedź w 2 godziny", "Maksymalna elastyczność"],
+        cta: "Odkryj",
+        useCases: [
+          "Prace remontowe",
+          "Wymarzona podróż",
+          "Wesele",
+          "Studia",
+          "Zakup pojazdu"
         ]
+      },
+      businessLoan: {
+        title: "Finansowanie biznesu",
+        description: "Rozwiń firmę dzięki naszym innowacyjnym rozwiązaniom.",
+        points: ["Ekspresowe finansowanie", "Wsparcie ekspertów", "Rozwiązania szyte na miarę"],
+        cta: "Odkryj",
+        useCases: [
+          "Założenie firmy",
+          "Rozwój biznesu",
+          "Zakup sprzętu",
+          "Płynność finansowa",
+          "Zakup udziałów"
+        ]
+      },
+      investment: {
+        title: "Inteligentne inwestycje",
+        description: "Optymalizacja majątku z wykorzystaniem AI i wiedzy eksperckiej.",
+        points: ["Inteligentne portfolio", "Konsultacje premium", "Zoptymalizowany zwrot"],
+        cta: "Odkryj",
+        useCases: [
+          "Inwestycje nieruchomościowe",
+          "Dywersyfikacja portfela",
+          "Przygotowanie emerytury",
+          "Optymalizacja podatkowa",
+          "Inwestycje ESG"
+        ]
+      },
+      insurance: {
+        title: "Ubezpieczenia 360°",
+        description: "Pełna ochrona dla Twojego życia i biznesu.",
+        points: ["Pełna ochrona", "Reklamacje w 24h", "Wsparcie premium"],
+        cta: "Odkryj",
+        useCases: [
+          "Ochrona rodziny",
+          "Ubezpieczenie zawodowe",
+          "Gwarancja kredytu",
+          "Odpowiedzialność cywilna",
+          "Ubezpieczenie zdrowotne"
+        ]
+      },
+      explore: "Poznaj wszystkie nasze usługi",
+      features: "Cechy",
+      useCases: "Przypadki użycia",
+      discover: "Odkryj",
+      specialized: {
+        title: "Produkty specjalistyczne",
+        description: "Ekspertowe rozwiązania dla Twoich specyficznych potrzeb",
+        mortgage: {
+          title: "Kredyt hipoteczny",
+          description: "Sfinansuj swój projekt nieruchomościowy na najlepszych warunkach",
+          rate: "Od 1,2% RRSO"
+        },
+        student: {
+          title: "Kredyt studencki",
+          description: "Dostosowane rozwiązania finansowania studiów",
+          rate: "0% w czasie studiów"
+        },
+        savings: {
+          title: "Konto oszczędnościowe+",
+          description: "Oprocentowane i dostępne oszczędności",
+          rate: "Do 4% netto"
+        },
+        premium: {
+          title: "Karta Premium",
+          description: "Ekskluzywne korzyści i usługi najwyższej klasy",
+          rate: "Bez opłat w pierwszym roku"
+        }
+      },
+      process: {
+        title: "Nasz proces",
+        description: "Uproszczona ścieżka realizacji Twoich projektów",
+        step1: {
+          title: "Analiza Twojego projektu",
+          description: "Spersonalizowane badanie Twoich potrzeb i możliwości finansowych"
+        },
+        step2: {
+          title: "Propozycja szyta na miarę",
+          description: "Dostosowane rozwiązania z warunkami zoptymalizowanymi przez AI"
+        },
+        step3: {
+          title: "Ekspresowa walidacja",
+          description: "Wstępna odpowiedź w mniej niż 2 godziny robocze"
+        },
+        step4: {
+          title: "Uwolnienie środków",
+          description: "Szybkie udostępnienie i ciągłe wsparcie"
+        }
+      }
+    },
+    testimonials: {
+      title: "Zaufali nam",
+      subtitle: "Opinie naszych zadowolonych klientów",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Francja",
+          feedback: "Szybka i rzetelna obsługa. Mój kredyt został zatwierdzony w 48 godzin. Dziękuję Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paryż, Francja",
+          feedback: "Profesjonalny zespół, przejrzysty interfejs i naprawdę spersonalizowane wsparcie."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Tuluza, Francja",
+          feedback: "Symulator był bardzo przejrzysty, a warunki lepsze niż w moim banku."
+        }
+      ]
+    },
+    simulator: {
+      title: "Kalkulator Pożyczkowy",
+      titleSecond: "Inteligentny",
+      subtitle: "Otrzymaj spersonalizowane oszacowanie finansowania w czasie rzeczywistym",
+      form: {
+        loanType: "Rodzaj finansowania",
+        amount: "Żądana kwota (€)",
+        duration: "Czas spłaty (miesiące)",
+        income: "Miesięczny dochód netto (opcjonalnie)",
+        incomeHelper: "Informacja używana do optymalizacji stawki",
+        guarantee: "Czy masz gwarancję lub poręczenie?",
+        guaranteeOptions: {
+          yes: "Tak, mam gwarancję",
+          no: "Nie, bez gwarancji",
+          maybe: "Do oceny według oferty"
+        },
+        loanTypes: {
+          personal: {
+            label: "Kredyt Osobisty",
+            description: "Na wszystkie Twoje osobiste projekty"
+          },
+          auto: {
+            label: "Kredyt Samochodowy",
+            description: "Finansowanie pojazdu nowego lub używanego"
+          },
+          realEstate: {
+            label: "Kredyt Hipoteczny",
+            description: "Zakup, budowa lub remont"
+          },
+          professional: {
+            label: "Finansowanie Biznesowe",
+            description: "Inwestycja biznesowa"
+          },
+          student: {
+            label: "Kredyt Studencki",
+            description: "Finansowanie studiów wyższych"
+          },
+          consolidation: {
+            label: "Konsolidacja Kredytów",
+            description: "Łączenie istniejących długów"
+          }
+        }
+      },
+      configuration: {
+        title: "Konfiguracja Twojego kredytu",
+        description: "Dostosuj parametry według swoich potrzeb"
+      },
+      result: {
+        title: "Twoje oszacowanie",
+        monthlyPayment: "Miesięczna rata",
+        interestRate: "Stopa procentowa",
+        totalCost: "Całkowity koszt kredytu",
+        totalRepayment: "Całkowita kwota do spłaty",
+        units: {
+          months: "miesięcy",
+          years: "lat"
+        },
+        disclaimer: "To oszacowanie jest orientacyjne i może się różnić w zależności od Twojego ostatecznego profilu. Oferta podlega akceptacji."
+      },
+      advantages: {
+        title: "Twoje korzyści Aurex K-pital",
+        items: {
+          rates: "Wynegocjowane preferencyjne stawki",
+          earlyRepayment: "Wcześniejsza spłata bez opłat",
+          response: "Gwarantowana odpowiedź w 24h",
+          support: "Spersonalizowane wsparcie"
+        }
+      },
+      cta: {
+        title: "Gotowy na realizację swojego projektu?",
+        description: "Nasi eksperci doradcy towarzyszą Ci w przekształceniu tej symulacji w rzeczywistość",
+        buttons: {
+          request: "Złożyć wniosek",
+          consultant: "Porozmawiać z doradcą",
+          officialRequest: "Złożyć oficjalny wniosek",
+          allServices: "Zobacz wszystkie nasze usługi"
+        }
+      },
+      blog: {
+        badge: "Ekspertyza i Spostrzeżenia",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Analizy ekspertów, trendy rynkowe i praktyczne porady do optymalizacji Twoich decyzji finansowych i inwestycyjnych.",
+        stats: {
+          articles: { value: "150+", label: "Opublikowane artykuły" },
+          experts: { value: "8", label: "Eksperci autorzy" },
+          readers: { value: "50K+", label: "Miesięczni czytelnicy" },
+          satisfaction: { value: "95%", label: "Zadowolenie czytelników" }
+        },
+        featured: { title: "Artykuł na Wyróżnienie" },
+        search: { placeholder: "Szukaj artykułu...", allCategories: "Wszystkie kategorie" },
+        categories: { title: "Kategorie", innovation: "Innowacje", realEstate: "Nieruchomości", regulation: "Regulacje", economy: "Ekonomia", esg: "ESG", education: "Edukacja" },
+        trending: { title: "Trendy" },
+        newsletter: { title: "Newsletter", description: "Otrzymuj nasze najnowsze artykuły i analizy bezpośrednio do skrzynki pocztowej", placeholder: "Twój email", subscribe: "Zapisz się", disclaimer: "Maksymalnie 1 email tygodniowo. Łatwa rezygnacja." },
+        actions: { readMore: "Przeczytaj pełny artykuł", read: "Czytaj", loadMore: "Załaduj więcej artykułów", readTime: "czytania" }
       }
     }
   },
-  fi: { 
-    menu: { blog: "Blogi" },
+  fi: {
+    menu: {
+      home: "Etusivu",
+      services: "Palvelut",
+      simulator: "Lainalaskuri",
+      request: "Hakemus",
+      about: "Tietoa meistä",
+      contact: "Yhteystiedot",
+      faq: "UKK",
+      careers: "Ura",
+      partners: "Yhteistyökumppanit",
+      blog: "Blogi"
+    },
+    footer: {
+      tools: "Työkalut",
+      company: "Yritys",
+      legal: "Oikeudelliset",
+      privacyPolicy: "Tietosuojakäytäntö",
+      terms: "Käyttöehdot",
+      mentions: "Oikeudellinen ilmoitus",
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      description: "Luotettava rahoituskumppanisi vuodesta 1997. Huippuosaamista, innovaatiota ja asiantuntemusta kaikkiin rahoitusprojekteihisi Euroopassa.",
+      services: "Palvelut",
+      copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      establishment: "Lisensoitu rahoituslaitos Euroopassa",
+      links: {
+        personalLoans: "Henkilökohtaiset lainat",
+        proFinancing: "Yritysrahoitus",
+        investments: "Sijoitukset",
+        insurance: "Vakuutukset",
+        simulator: "Lainasimulator",
+        request: "Rahoitushakemus",
+        faq: "UKK",
+        contact: "Yhteystiedot",
+        about: "Tietoa meistä",
+        partners: "Yhteistyökumppanit",
+        careers: "Ura",
+        blog: "Blogi",
+        legal: "Oikeudellinen ilmoitus",
+        privacy: "Tietosuojakäytäntö",
+        terms: "Käyttöehdot",
+        gdpr: "GDPR"
+      }
+    },
     partners: {
       title: "Luotettavat Kumppanimme",
-      description: "Eurooppalainen huippuosaamisen verkosto tarjoamassa parhaat rahoitusratkaisut",
-      stats: "Yli 25 eurooppalaista kumppania • 27 katettua maata • 2,5 miljardia€ kaupankäyntivolyymiä"
+      description: "Eurooppalainen huippuosaamisen verkosto parhaimpia rahoitusratkaisuja varten",
+      stats: "Yli 25 eurooppalaista kumppania • 27 maata katettu • 2,5 miljardia € käsitelty volyymi"
     },
-    blog: { 
-      badge: "Asiantuntemus ja Analyysi", 
-      title: "Aurex Blogi", 
-      subtitle: "K-pital",
-      description: "Asiantuntija-analyysit, markkinatrendit ja käytännön neuvot rahoitus- ja investointipäätöstenne optimointiin.",
-      stats: {
-        articles: { value: "150+", label: "Julkaistua artikkelia" },
-        experts: { value: "8", label: "Asiantuntija kirjoittajaa" },
-        readers: { value: "50K+", label: "Kuukausittaista lukijaa" },
-        satisfaction: { value: "95%", label: "Lukijatyytyväisyys" }
-      },
-      featured: { title: "Pääartikkeli" },
-      search: { placeholder: "Etsi artikkeli...", allCategories: "Kaikki kategoriat" },
-      categories: { 
-        title: "Kategoriat", 
-        innovation: "Innovaatio", 
-        realEstate: "Kiinteistöt", 
-        regulation: "Säännökset", 
-        economy: "Talous", 
-        esg: "ESG", 
-        education: "Koulutus" 
-      }, 
-      trending: { title: "Trendit" },
-      newsletter: { 
-        title: "Uutiskirje", 
-        description: "Saa uusimmat artikkelit ja analyysit suoraan sähköpostiisi", 
-        placeholder: "Sähköpostisi", 
-        subscribe: "Tilaa", 
-        disclaimer: "Enintään 1 sähköposti viikossa. Helppo peruuttaa." 
-      },
-      actions: { 
-        readMore: "Lue koko artikkeli", 
-        read: "Lue", 
-        loadMore: "Lataa lisää artikkeleita", 
-        readTime: "min lukuaika" 
-      },
-      content: {
-        featuredArticle: {
-          title: "Tekoäly mullistaa Euroopan rahoitussektorin",
-          excerpt: "Tutustu siihen, miten uudet teknologiat muuttavat pankki- ja sijoituspalveluja tarjoten eurooppalaisille asiakkaille henkilökohtaisempia ja tehokkaampia ratkaisuja.",
-          author: "Dr. Marie Dubois",
-          role: "FinTech innovaatiojohtaja",
-          date: "15. tammikuuta 2024",
-          category: "innovation"
+    home: {
+      hero: {
+        title: "Rahoituskumppanisi",
+        subtitle: "vuodesta 1997",
+        description: "Huippuosaamista, innovaatiota ja luottamusta kaikkiin rahoitusprojekteihisi",
+        ctaBtn: "Tutustu ratkaisuihimme",
+        simulateBtn: "Simuloi laina",
+        scrollText: "Tutustu",
+        carousel: {
+          text1: "Käynnistä projektisi Aurex K-pitalin kanssa",
+          text2: "Hanki rahoitus ilman omarahoitusta",
+          text3: "Sijoita tänään tulevaisuuteesi"
         },
-        articles: [
-          { title: "Täydellinen opas asuntolainaan 2024", excerpt: "Kaikki mitä sinun tarvitsee tietää nykyisistä kiinteistömarkkinoiden olosuhteista.", author: "Pierre Martin", date: "12. tammikuuta 2024", category: "realEstate" },
-          { title: "Uudet eurooppalaiset kryptoomaisuussäännökset", excerpt: "MiCA-asetuksen vaikutusten analyysi sijoittajille.", author: "Sophie Bernard", date: "10. tammikuuta 2024", category: "regulation" },
-          { title: "Taloudelliset trendit 2024: asiantuntijennusteet", excerpt: "Tärkeimmät trendit, jotka muokkaavat Euroopan taloutta tänä vuonna.", author: "Jean-Claude Moreau", date: "8. tammikuuta 2024", category: "economy" },
-          { title: "ESG-sijoittaminen: suorituskyky ja vaikutus", excerpt: "Kuinka yhdistää kannattavuus ja ympäristövastuu sijoituksissa.", author: "Émilie Rousseau", date: "5. tammikuuta 2024", category: "esg" },
-          { title: "Rahoituskoulutus: sijoittamisen perusteet", excerpt: "Käytännön opas aloitteleville sijoittajille.", author: "Marc Lefebvre", date: "3. tammikuuta 2024", category: "education" },
-          { title: "Verooptimointi 2024: uutuudet ja strategiat", excerpt: "Uusimmat verokehitykset ja optimointistrategiat.", author: "Anne Durand", date: "1. tammikuuta 2024", category: "economy" }
-        ],
-        trending: [
-          { title: "Kuinka neuvotella asuntolainan korko" },
-          { title: "Sijoittaminen vuokra-asuntoihin 2024" },
-          { title: "Parhaat eurooppalaiset henkivakuutukset" },
-          { title: "Yrityksen perustaminen: rahoitusopas" },
-          { title: "Eläke: ratkaisujen vertailu" }
-        ]
+        stats: {
+          experience: {
+            title: "Vuotta huippuosaamista",
+            subtitle: "Jatkuva innovaatio"
+          },
+          clients: {
+            title: "Tyytyväistä asiakasta",
+            subtitle: "Taattu tyytyväisyys"
+          },
+          funding: {
+            title: "Toteutettua rahoitusta",
+            subtitle: "Muutosvaikutus"
+          }
+        }
+      },
+      services: {
+        badge: "Palvelut",
+        title: "Ratkaisut",
+        subtitle: "Innovatiiviset",
+        description: "Tutustu vallankumouksellisiin",
+        description2: "rahoitusratkaisuihimme",
+        description3: "projekteillesi"
+      },
+      about: {
+        badge: "Tietoa meistä",
+        title: "Rahoituskumppanisi",
+        subtitle: "joka ansaitsee",
+        subtitle2: "luottamuksenne",
+        description1: {
+          highlight: "Vuodesta 1997",
+          text: " Aurex K-pital on tukenut yksityishenkilöitä ja yrityksiä heidän rahoitusprojekteissaan yhdistäen",
+          expertise: "inhimillisen asiantuntemuksen",
+          and: "ja",
+          technology: "teknologisen innovaation"
+        },
+        description2: {
+          text: "Missiomme: demokratisoida rahoituksen saatavuus",
+          highlight: "nopeiden, läpinäkyvien ja räätälöityjen ratkaisujen",
+          success: "avulla kunnianhimojesi toteuttamiseksi"
+        },
+        stats: {
+          founded: "Perustamisvuosi",
+          location: "Päämaja",
+          certified: "Rekisteri",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Luottamuksenne, prioriteettimme",
+          description: "Sertifioitu ja säännelty eurooppalaisten viranomaisten toimesta"
+        },
+        buttons: {
+          history: "Tarinamme",
+          contact: "Ota yhteyttä"
+        }
+      },
+      cta: {
+        title: "Valmiita muuttamaan",
+        titleHighlight: "projektinne",
+        titleEnd: "todeksi?",
+        description: "Asiantuntijamme tukevat teitä joka askeleella rahoituskunnianhimojenne toteuttamisessa.",
+        buttons: {
+          request: "Tehdä hakemus",
+          simulate: "Simuloida laina",
+          contact: "Ota yhteyttä"
+        },
+        contact: {
+          phone: "Puhelin",
+          address: "Osoite",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Saksa"
+        }
       }
-    } 
+    },
+    services: {
+      personalLoan: {
+        title: "Henkilökohtaiset lainat",
+        description: "Räätälöidyt rahoitusratkaisut vallankumouksellisilla ehdoilla.",
+        points: ["Älykäs korkolaskenta", "Vastaus 2 tunnissa", "Maksimaalinen joustavuus"],
+        cta: "Tutustu",
+        useCases: [
+          "Remonttityöt",
+          "Unelmien matka",
+          "Häät",
+          "Opinnot",
+          "Ajoneuvon osto"
+        ]
+      },
+      businessLoan: {
+        title: "Yritysrahoitus",
+        description: "Vie yrityksesi uudelle tasolle innovatiivisilla ratkaisuilla.",
+        points: ["Pikainen rahoitus", "Asiantuntijatuki", "Räätälöidyt ratkaisut"],
+        cta: "Tutustu",
+        useCases: [
+          "Yrityksen perustaminen",
+          "Liiketoiminnan laajentaminen",
+          "Laitteiden hankinta",
+          "Kassavirta",
+          "Osuuksien osto"
+        ]
+      },
+      investment: {
+        title: "Älykkäät sijoitukset",
+        description: "Varallisuuden optimointi tekoälyllä ja asiantuntijuudella.",
+        points: ["Älykäs salkku", "Premium-neuvonta", "Optimoitu tuotto"],
+        cta: "Tutustu",
+        useCases: [
+          "Kiinteistösijoitus",
+          "Salkun hajauttaminen",
+          "Eläkevalmistelu",
+          "Verooptimointi",
+          "ESG-sijoitus"
+        ]
+      },
+      insurance: {
+        title: "360° vakuutukset",
+        description: "Täydellinen suoja elämäsi ja liiketoimintasi projekteille.",
+        points: ["Kattava suoja", "Korvaus 24h kuluessa", "Premium-tuki"],
+        cta: "Tutustu",
+        useCases: [
+          "Perheen suoja",
+          "Ammattivakuutus",
+          "Lainatakuu",
+          "Vastuuvakuutus",
+          "Terveysvakuutus"
+        ]
+      },
+      explore: "Tutustu kaikkiin palveluihimme",
+      features: "Ominaisuudet",
+      useCases: "Käyttötapaukset",
+      discover: "Tutustu",
+      specialized: {
+        title: "Erikoistuotteet",
+        description: "Asiantuntijaratkaisut erityistarpeisiinne",
+        mortgage: {
+          title: "Asuntolaina",
+          description: "Rahoita kiinteistöprojektisi parhailla ehdoilla",
+          rate: "Alkaen 1,2% todellinen vuosikorko"
+        },
+        student: {
+          title: "Opintolaina",
+          description: "Räätälöidyt ratkaisut opintojen rahoittamiseen",
+          rate: "0% opintojen aikana"
+        },
+        savings: {
+          title: "Säästötili+",
+          description: "Korkoa tuottava ja käytettävissä oleva säästö",
+          rate: "Jopa 4% netto"
+        },
+        premium: {
+          title: "Premium-kortti",
+          description: "Eksklusiiviset edut ja premium-palvelut",
+          rate: "Maksuton ensimmäinen vuosi"
+        }
+      },
+      process: {
+        title: "Prosessimme",
+        description: "Yksinkertaistettu polku projektienne toteuttamiseen",
+        step1: {
+          title: "Projektinne analysointi",
+          description: "Henkilökohtainen tutkimus tarpeistanne ja taloudellisista mahdollisuuksistanne"
+        },
+        step2: {
+          title: "Räätälöity ehdotus",
+          description: "Mukautetut ratkaisut AI:n optimoimilla ehdoilla"
+        },
+        step3: {
+          title: "Pikavalidointi",
+          description: "Periaatevastaus alle 2 työajassa tunnissa"
+        },
+        step4: {
+          title: "Varojen vapautus",
+          description: "Nopea käyttöönotto ja jatkuva tuki"
+        }
+      }
+    },
+    testimonials: {
+      title: "Asiakkaamme luottavat meihin",
+      subtitle: "Tyytyväisten asiakkaidemme palautteet",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Ranska",
+          feedback: "Nopea ja luotettava palvelu. Lainani hyväksyttiin 48 tunnissa. Kiitos Aurex K-pital!"
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Pariisi, Ranska",
+          feedback: "Ammattimainen tiimi, helppo käyttöliittymä ja yksilöllinen tuki."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, Ranska",
+          feedback: "Laskuri oli selkeä ja sain paremmat ehdot kuin pankistani."
+        }
+      ]
+    },
+    simulator: {
+      title: "Lainalaskuri",
+      titleSecond: "Älykäs",
+      subtitle: "Saa henkilökohtainen reaaliaikainen arvio rahoituksestasi",
+      form: {
+        loanType: "Rahoitustyyppi",
+        amount: "Haluttu summa (€)",
+        duration: "Takaisinmaksuaika (kuukausia)",
+        income: "Kuukausittaiset nettotulot (valinnainen)",
+        incomeHelper: "Tieto käytetään korkosi optimointiin",
+        guarantee: "Onko sinulla takuuta tai takausta?",
+        guaranteeOptions: {
+          yes: "Kyllä, minulla on takuu",
+          no: "Ei, ei takuuta",
+          maybe: "Arvioitava tarjouksen mukaan"
+        },
+        loanTypes: {
+          personal: {
+            label: "Henkilökohtainen Laina",
+            description: "Kaikkiin henkilökohtaisiin projekteihin"
+          },
+          auto: {
+            label: "Autolaina",
+            description: "Uuden tai käytetyn ajoneuvon rahoitus"
+          },
+          realEstate: {
+            label: "Asuntolaina",
+            description: "Osto, rakentaminen tai remontti"
+          },
+          professional: {
+            label: "Yrityslaina",
+            description: "Liiketoimintainvestointi"
+          },
+          student: {
+            label: "Opintolaina",
+            description: "Korkeakouluopintojen rahoitus"
+          },
+          consolidation: {
+            label: "Lainojen Yhdistäminen",
+            description: "Olemassa olevien velkojen yhdistäminen"
+          }
+        }
+      },
+      configuration: {
+        title: "Lainasi konfigurointi",
+        description: "Mukauta parametrit tarpeidesi mukaan"
+      },
+      result: {
+        title: "Arviosi",
+        monthlyPayment: "Kuukausierä",
+        interestRate: "Korko",
+        totalCost: "Luoton kokonaiskustannus",
+        totalRepayment: "Takaisinmaksettava kokonaissumma",
+        units: {
+          months: "kuukautta",
+          years: "vuotta"
+        },
+        disclaimer: "Tämä arvio on ohjeellinen ja voi vaihdella lopullisen profiilisi mukaan. Tarjous hyväksymisen varauksella."
+      },
+      advantages: {
+        title: "Aurex K-pital -etusi",
+        items: {
+          rates: "Neuvotellut etuuskorot",
+          earlyRepayment: "Ennenaikainen takaisinmaksu ilman maksuja",
+          response: "Taattu vastaus 24h kuluessa",
+          support: "Henkilökohtainen tuki"
+        }
+      },
+      cta: {
+        title: "Valmis toteuttamaan projektisi?",
+        description: "Asiantuntijakonsulttimme auttavat sinua muuttamaan tämän simulaation todellisuudeksi",
+        buttons: {
+          request: "Tehdä hakemus",
+          consultant: "Puhua konsultin kanssa",
+          officialRequest: "Tehdä virallinen hakemus",
+          allServices: "Katso kaikki palvelumme"
+        }
+      }
+      },
+      blog: {
+        badge: "Asiantuntemus ja Näkemykset",
+        title: "Aurex Blog",
+        subtitle: "K-pital",
+        description: "Asiantuntija-analyysejä, markkinatrendejä ja käytännön neuvoja talous- ja sijoituspäätöstesi optimointiin.",
+        stats: {
+          articles: { value: "150+", label: "Julkaistuja artikkeleita" },
+          experts: { value: "8", label: "Asiantuntijakirjoittajia" },
+          readers: { value: "50K+", label: "Kuukausittaisia lukijoita" },
+          satisfaction: { value: "95%", label: "Lukijatyytyväisyys" }
+        },
+        featured: { title: "Pääartikkeli" },
+        search: { placeholder: "Etsi artikkeli...", allCategories: "Kaikki kategoriat" },
+        categories: { title: "Kategoriat", innovation: "Innovaatio", realEstate: "Kiinteistöt", regulation: "Säännökset", economy: "Talous", esg: "ESG", education: "Koulutus" },
+        trending: { title: "Trendit" },
+        newsletter: { title: "Uutiskirje", description: "Saa uusimmat artikkelimme ja analyysimme suoraan sähköpostiisi", placeholder: "Sähköpostisi", subscribe: "Tilaa", disclaimer: "Enintään 1 sähköposti viikossa. Helppo peruuttaa." },
+        actions: { readMore: "Lue koko artikkeli", read: "Lue", loadMore: "Lataa lisää artikkeleita", readTime: "lukuaikaa" }
+      }
   },
-  es: { 
-    menu: { blog: "Blog" },
+  pt: {
+    menu: {
+      home: "Início",
+      services: "Serviços",
+      simulator: "Simulador",
+      request: "Pedido",
+      about: "Sobre nós",
+      contact: "Contacto",
+      faq: "FAQ",
+      careers: "Carreiras",
+      partners: "Parceiros",
+      blog: "Blog"
+    },
+    footer: {
+      tools: "Ferramentas",
+      company: "Empresa",
+      legal: "Legal",
+      privacyPolicy: "Política de privacidade",
+      terms: "Termos e condições",
+      mentions: "Informações legais",
+      gdpr: "RGPD",
+      rights: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      description: "O vosso parceiro financeiro de confiança desde 1997. Excelência, inovação e experiência para todos os vossos projetos financeiros na Europa.",
+      services: "Serviços",
+      copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      establishment: "Instituição financeira licenciada na Europa",
+      links: {
+        personalLoans: "Empréstimos pessoais",
+        proFinancing: "Financiamento empresarial",
+        investments: "Investimentos",
+        insurance: "Seguros",
+        simulator: "Simulador de empréstimo",
+        request: "Pedido de financiamento",
+        faq: "FAQ",
+        contact: "Contacto",
+        about: "Sobre nós",
+        partners: "Nossos parceiros",
+        careers: "Carreiras",
+        blog: "Blog",
+        legal: "Informações legais",
+        privacy: "Política de privacidade",
+        terms: "Termos e condições",
+        gdpr: "RGPD"
+      }
+    },
     partners: {
-      title: "Nuestros Socios de Confianza",
-      description: "Una red europea de excelencia para ofrecerle las mejores soluciones financieras",
-      stats: "Más de 25 socios europeos • 27 países cubiertos • 2,5 mil millones€ de volumen tratado"
+      title: "Nossos Parceiros de Confiança",
+      description: "Uma rede europeia de excelência para oferecer as melhores soluções financeiras",
+      stats: "Mais de 25 parceiros europeus • 27 países cobertos • 2,5 mil milhões € de volume tratado"
     },
-    blog: { 
-      badge: "Experiencia y Análisis", 
-      title: "Blog Aurex", 
-      subtitle: "K-pital",
-      description: "Análisis de expertos, tendencias del mercado y consejos prácticos para optimizar sus decisiones financieras e inversiones.",
-      stats: {
-        articles: { value: "150+", label: "Artículos publicados" },
-        experts: { value: "8", label: "Autores expertos" },
-        readers: { value: "50K+", label: "Lectores mensuales" },
-        satisfaction: { value: "95%", label: "Satisfacción de lectores" }
-      },
-      featured: { title: "Artículo destacado" },
-      search: { placeholder: "Buscar artículo...", allCategories: "Todas las categorías" },
-      categories: { 
-        title: "Categorías", 
-        innovation: "Innovación", 
-        realEstate: "Inmobiliario", 
-        regulation: "Regulación", 
-        economy: "Economía", 
-        esg: "ESG", 
-        education: "Educación" 
-      }, 
-      trending: { title: "Tendencias" },
-      newsletter: { 
-        title: "Newsletter", 
-        description: "Reciba nuestros últimos artículos y análisis directamente en su buzón", 
-        placeholder: "Su email", 
-        subscribe: "Suscribirse", 
-        disclaimer: "Máximo 1 email por semana. Fácil cancelación." 
-      },
-      actions: { 
-        readMore: "Leer artículo completo", 
-        read: "Leer", 
-        loadMore: "Cargar más artículos", 
-        readTime: "min de lectura" 
-      },
-      content: {
-        featuredArticle: {
-          title: "La inteligencia artificial revoluciona el sector financiero europeo",
-          excerpt: "Descubra cómo las nuevas tecnologías transforman los servicios bancarios y de inversión, ofreciendo a los clientes europeos soluciones más personalizadas y eficientes.",
-          author: "Dr. Marie Dubois",
-          role: "Directora de Innovación FinTech",
-          date: "15 de enero de 2024",
-          category: "innovation"
+    home: {
+      hero: {
+        title: "Seu Parceiro Financeiro",
+        subtitle: "desde 1997",
+        description: "Excelência, inovação e confiança para todos os seus projetos financeiros",
+        ctaBtn: "Descobrir nossas soluções",
+        simulateBtn: "Simular um empréstimo",
+        scrollText: "Descobrir",
+        carousel: {
+          text1: "Lance o seu projeto com a Aurex K-pital",
+          text2: "Obtenha financiamento sem entrada",
+          text3: "Invista hoje no seu futuro"
         },
-        articles: [
-          { title: "Guía completa del crédito hipotecario 2024", excerpt: "Todo lo que necesita saber sobre las condiciones actuales del mercado inmobiliario.", author: "Pierre Martin", date: "12 de enero de 2024", category: "realEstate" },
-          { title: "Nueva regulación europea sobre cripto-activos", excerpt: "Análisis del impacto del reglamento MiCA para los inversores.", author: "Sophie Bernard", date: "10 de enero de 2024", category: "regulation" },
-          { title: "Tendencias económicas 2024: pronósticos de expertos", excerpt: "Las principales tendencias que darán forma a la economía europea este año.", author: "Jean-Claude Moreau", date: "8 de enero de 2024", category: "economy" },
-          { title: "Inversión ESG: rendimiento e impacto", excerpt: "Cómo combinar rentabilidad y responsabilidad ambiental en las inversiones.", author: "Émilie Rousseau", date: "5 de enero de 2024", category: "esg" },
-          { title: "Educación financiera: fundamentos de la inversión", excerpt: "Guía práctica para inversores principiantes.", author: "Marc Lefebvre", date: "3 de enero de 2024", category: "education" },
-          { title: "Optimización fiscal 2024: novedades y estrategias", excerpt: "Los últimos desarrollos fiscales y estrategias de optimización.", author: "Anne Durand", date: "1 de enero de 2024", category: "economy" }
-        ],
-        trending: [
-          { title: "Cómo negociar el tipo de interés de su hipoteca" },
-          { title: "Invertir en inmuebles de alquiler 2024" },
-          { title: "Los mejores seguros de vida europeos" },
-          { title: "Crear una empresa: guía de financiación" },
-          { title: "Jubilación: comparar soluciones" }
-        ]
+        stats: {
+          experience: {
+            title: "Anos de excelência",
+            subtitle: "Inovação contínua"
+          },
+          clients: {
+            title: "Clientes satisfeitos",
+            subtitle: "Satisfação garantida"
+          },
+          funding: {
+            title: "Financiamentos realizados",
+            subtitle: "Impacto transformador"
+          }
+        }
+      },
+      services: {
+        badge: "Serviços",
+        title: "Soluções",
+        subtitle: "Inovadoras",
+        description: "Descubra as nossas soluções financeiras",
+        description2: "revolucionárias",
+        description3: "para os seus projetos"
+      },
+      about: {
+        badge: "Sobre nós",
+        title: "O vosso parceiro",
+        subtitle: "financeiro",
+        subtitle2: "de confiança",
+        description1: {
+          highlight: "Desde 1997,",
+          text: " a Aurex K-pital acompanha particulares e empresas nos seus projetos financeiros com uma abordagem que combina",
+          expertise: "experiência humana",
+          and: "e",
+          technology: "inovação tecnológica"
+        },
+        description2: {
+          text: "A nossa missão: democratizar o acesso ao financiamento graças a soluções",
+          highlight: "rápidas, transparentes e à medida",
+          success: "para concretizar as vossas ambições"
+        },
+        stats: {
+          founded: "Ano de fundação",
+          location: "Sede social",
+          certified: "Registo",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "A vossa confiança, a nossa prioridade",
+          description: "Certificados e regulamentados pelas autoridades europeias"
+        },
+        buttons: {
+          history: "A nossa história",
+          contact: "Contactar-nos"
+        }
+      },
+      cta: {
+        title: "Prontos para transformar",
+        titleHighlight: "os vossos projetos",
+        titleEnd: "em realidade?",
+        description: "Os nossos especialistas acompanham-vos em cada etapa para concretizar as vossas ambições financeiras.",
+        buttons: {
+          request: "Fazer um pedido",
+          simulate: "Simular um empréstimo",
+          contact: "Contactar-nos"
+        },
+        contact: {
+          phone: "Telefone",
+          address: "Morada",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
+        }
       }
-    } 
-  },
-  pt: { 
-    menu: { blog: "Blog" },
-    partners: {
-      title: "Os Nossos Parceiros de Confiança",
-      description: "Uma rede europeia de excelência para lhe oferecer as melhores soluções financeiras",
-      stats: "Mais de 25 parceiros europeus • 27 países cobertos • 2,5 mil milhões€ de volume tratado"
     },
-    blog: { 
-      badge: "Perícia e Análise", 
-      title: "Blog Aurex", 
-      subtitle: "K-pital",
-      description: "Análises de especialistas, tendências de mercado e conselhos práticos para otimizar as suas decisões financeiras e investimentos.",
-      stats: {
-        articles: { value: "150+", label: "Artigos publicados" },
-        experts: { value: "8", label: "Autores especialistas" },
-        readers: { value: "50K+", label: "Leitores mensais" },
-        satisfaction: { value: "95%", label: "Satisfação dos leitores" }
-      },
-      featured: { title: "Artigo em destaque" },
-      search: { placeholder: "Procurar artigo...", allCategories: "Todas as categorias" },
-      categories: { 
-        title: "Categorias", 
-        innovation: "Inovação", 
-        realEstate: "Imobiliário", 
-        regulation: "Regulamentação", 
-        economy: "Economia", 
-        esg: "ESG", 
-        education: "Educação" 
-      }, 
-      trending: { title: "Tendências" },
-      newsletter: { 
-        title: "Newsletter", 
-        description: "Receba os nossos últimos artigos e análises diretamente na sua caixa de correio", 
-        placeholder: "O seu email", 
-        subscribe: "Subscrever", 
-        disclaimer: "Máximo 1 email por semana. Cancelamento fácil." 
-      },
-      actions: { 
-        readMore: "Ler o artigo completo", 
-        read: "Ler", 
-        loadMore: "Carregar mais artigos", 
-        readTime: "min de leitura" 
-      },
-      content: {
-        featuredArticle: {
-          title: "A inteligência artificial revoluciona o setor financeiro europeu",
-          excerpt: "Descubra como as novas tecnologias transformam os serviços bancários e de investimento, oferecendo aos clientes europeus soluções mais personalizadas e eficientes.",
-          author: "Dr. Marie Dubois",
-          role: "Diretora de Inovação FinTech",
-          date: "15 de janeiro de 2024",
-          category: "innovation"
-        },
-        articles: [
-          { title: "Guia completo do crédito habitação 2024", excerpt: "Tudo o que precisa de saber sobre as condições atuais do mercado imobiliário.", author: "Pierre Martin", date: "12 de janeiro de 2024", category: "realEstate" },
-          { title: "Nova regulamentação europeia sobre cripto-ativos", excerpt: "Análise do impacto do regulamento MiCA para os investidores.", author: "Sophie Bernard", date: "10 de janeiro de 2024", category: "regulation" },
-          { title: "Tendências económicas 2024: previsões de especialistas", excerpt: "As principais tendências que moldarão a economia europeia este ano.", author: "Jean-Claude Moreau", date: "8 de janeiro de 2024", category: "economy" },
-          { title: "Investimento ESG: desempenho e impacto", excerpt: "Como combinar rentabilidade e responsabilidade ambiental nos investimentos.", author: "Émilie Rousseau", date: "5 de janeiro de 2024", category: "esg" },
-          { title: "Educação financeira: fundamentos do investimento", excerpt: "Guia prático para investidores iniciantes.", author: "Marc Lefebvre", date: "3 de janeiro de 2024", category: "education" },
-          { title: "Otimização fiscal 2024: novidades e estratégias", excerpt: "Os últimos desenvolvimentos fiscais e estratégias de otimização.", author: "Anne Durand", date: "1 de janeiro de 2024", category: "economy" }
-        ],
-        trending: [
-          { title: "Como negociar a taxa de juro do crédito habitação" },
-          { title: "Investir em imóveis para arrendamento 2024" },
-          { title: "Os melhores seguros de vida europeus" },
-          { title: "Criar uma empresa: guia de financiamento" },
-          { title: "Reforma: comparar soluções" }
+    services: {
+      personalLoan: {
+        title: "Créditos pessoais",
+        description: "Soluções de financiamento à medida com condições revolucionárias.",
+        points: ["IA para taxas otimais", "Resposta em 2h", "Flexibilidade máxima"],
+        cta: "Descobrir",
+        useCases: [
+          "Trabalhos de renovação",
+          "Viagem de sonho",
+          "Casamento",
+          "Estudos",
+          "Compra de veículo"
         ]
+      },
+      businessLoan: {
+        title: "Financiamento empresarial",
+        description: "Impulsione a sua empresa com as nossas soluções inovadoras.",
+        points: ["Financiamento expresso", "Acompanhamento especializado", "Soluções à medida"],
+        cta: "Descobrir",
+        useCases: [
+          "Criação de empresa",
+          "Expansão comercial",
+          "Compra de equipamentos",
+          "Tesouraria",
+          "Compra de participações"
+        ]
+      },
+      investment: {
+        title: "Investimentos inteligentes",
+        description: "Otimização patrimonial com inteligência artificial e experiência humana.",
+        points: ["Carteira inteligente", "Consultoria premium", "Rendimento otimizado"],
+        cta: "Descobrir",
+        useCases: [
+          "Investimento imobiliário",
+          "Diversificação patrimonial",
+          "Preparação reforma",
+          "Otimização fiscal",
+          "Investimento ESG"
+        ]
+      },
+      insurance: {
+        title: "Seguros 360°",
+        description: "Proteção total e inovadora para todos os seus projetos de vida e negócio.",
+        points: ["Cobertura completa", "Gestão de sinistros 24h", "Suporte premium"],
+        cta: "Descobrir",
+        useCases: [
+          "Proteção familiar",
+          "Seguro profissional",
+          "Garantia empréstimo",
+          "Responsabilidade civil",
+          "Previdência saúde"
+        ]
+      },
+      explore: "Explorar todos os nossos serviços",
+      features: "Características",
+      useCases: "Casos de uso",
+      discover: "Descobrir",
+      specialized: {
+        title: "Produtos especializados",
+        description: "Soluções especializadas para as suas necessidades específicas",
+        mortgage: {
+          title: "Crédito habitação",
+          description: "Financie o seu projeto imobiliário nas melhores condições",
+          rate: "A partir de 1,2% TAEG"
+        },
+        student: {
+          title: "Crédito estudante",
+          description: "Soluções adaptadas para financiar os seus estudos",
+          rate: "0% durante os estudos"
+        },
+        savings: {
+          title: "Conta poupança+",
+          description: "Poupança remunerada e disponível",
+          rate: "Até 4% líquidos"
+        },
+        premium: {
+          title: "Cartão Premium",
+          description: "Vantagens exclusivas e serviços de alta gama",
+          rate: "Sem custos no 1º ano"
+        }
+      },
+      process: {
+        title: "O nosso processo",
+        description: "Um percurso simplificado para concretizar os seus projetos",
+        step1: {
+          title: "Análise do seu projeto",
+          description: "Estudo personalizado das suas necessidades e capacidades financeiras"
+        },
+        step2: {
+          title: "Proposta à medida",
+          description: "Soluções adaptadas com condições otimizadas por IA"
+        },
+        step3: {
+          title: "Validação expressa",
+          description: "Resposta de princípio em menos de 2h úteis"
+        },
+        step4: {
+          title: "Desbloqueio dos fundos",
+          description: "Disponibilização rápida e acompanhamento contínuo"
+        }
       }
-    } 
+    },
+    testimonials: {
+      title: "Confiam em nós",
+      subtitle: "O que dizem os nossos clientes satisfeitos",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, França",
+          feedback: "Serviço rápido e sério. O meu crédito foi aprovado em 48h! Obrigado Aurex K-pital."
+        },
+        {
+          name: "Amélie Blanchard",
+          location: "Paris, França",
+          feedback: "Equipa profissional, plataforma clara e um acompanhamento verdadeiramente personalizado."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Toulouse, França",
+          feedback: "O simulador foi muito claro e obtive melhores condições que no meu banco."
+        }
+      ]
+    },
+    simulator: {
+      title: "Calculadora de Empréstimo",
+      titleSecond: "Inteligente",
+      subtitle: "Obtenha uma estimativa personalizada em tempo real do seu financiamento",
+      form: {
+        loanType: "Tipo de financiamento",
+        amount: "Quantia desejada (€)",
+        duration: "Duração de reembolso (meses)",
+        income: "Rendimento mensal líquido (opcional)",
+        incomeHelper: "Informação utilizada para otimizar a sua taxa",
+        guarantee: "Tem garantia ou fiança?",
+        guaranteeOptions: {
+          yes: "Sim, tenho garantia",
+          no: "Não, sem garantia",
+          maybe: "A avaliar conforme a oferta"
+        },
+        loanTypes: {
+          personal: {
+            label: "Empréstimo Pessoal",
+            description: "Para todos os seus projetos pessoais"
+          },
+          auto: {
+            label: "Crédito Auto",
+            description: "Financiamento veículo novo ou usado"
+          },
+          realEstate: {
+            label: "Crédito Habitação",
+            description: "Compra, construção ou renovação"
+          },
+          professional: {
+            label: "Financiamento Profissional",
+            description: "Investimento profissional"
+          },
+          student: {
+            label: "Empréstimo Estudante",
+            description: "Financiamento estudos superiores"
+          },
+          consolidation: {
+            label: "Consolidação de Créditos",
+            description: "Agrupamento de dívidas existentes"
+          }
+        }
+      },
+      configuration: {
+        title: "Configuração do seu empréstimo",
+        description: "Personalize os parâmetros conforme as suas necessidades"
+      },
+      result: {
+        title: "A sua estimativa",
+        monthlyPayment: "Prestação mensal",
+        interestRate: "Taxa de juro",
+        totalCost: "Custo total do crédito",
+        totalRepayment: "Montante total a reembolsar",
+        units: {
+          months: "meses",
+          years: "anos"
+        },
+        disclaimer: "Esta estimativa é indicativa e pode variar conforme o seu perfil final. Oferta sujeita a aceitação."
+      },
+      advantages: {
+        title: "As suas vantagens Aurex K-pital",
+        items: {
+          rates: "Taxas preferenciais negociadas",
+          earlyRepayment: "Reembolso antecipado sem custos",
+          response: "Resposta garantida em 24h",
+          support: "Acompanhamento personalizado"
+        }
+      },
+      cta: {
+        title: "Pronto para concretizar o seu projeto?",
+        description: "Os nossos consultores especialistas acompanham-no para transformar esta simulação em realidade",
+        buttons: {
+          request: "Fazer pedido",
+          consultant: "Falar com um consultor",
+          officialRequest: "Fazer pedido oficial",
+          allServices: "Ver todos os nossos serviços"
+        }
+      }
+      },
+      blog: {
+        badge: "Perícia e Insights",
+        title: "Blog Aurex",
+        subtitle: "K-pital",
+        description: "Análises de especialistas, tendências do mercado e conselhos práticos para otimizar as suas decisões financeiras e de investimento.",
+        stats: {
+          articles: { value: "150+", label: "Artigos publicados" },
+          experts: { value: "8", label: "Especialistas autores" },
+          readers: { value: "50K+", label: "Leitores mensais" },
+          satisfaction: { value: "95%", label: "Satisfação dos leitores" }
+        },
+        featured: { title: "Artigo em Destaque" },
+        search: { placeholder: "Procurar um artigo...", allCategories: "Todas as categorias" },
+        categories: { title: "Categorias", innovation: "Inovação", realEstate: "Imobiliário", regulation: "Regulamentação", economy: "Economia", esg: "ESG", education: "Educação" },
+        trending: { title: "Tendências" },
+        newsletter: { title: "Newsletter", description: "Receba os nossos últimos artigos e análises diretamente na sua caixa de correio", placeholder: "O seu email", subscribe: "Subscrever", disclaimer: "Máximo 1 email por semana. Fácil cancelamento." },
+        actions: { readMore: "Ler o artigo completo", read: "Ler", loadMore: "Carregar mais artigos", readTime: "de leitura" }
+      }
   },
-  el: { 
-    menu: { blog: "Ιστολόγιο" },
+  el: {
+    menu: {
+      home: "Αρχική",
+      services: "Υπηρεσίες",
+      simulator: "Υπολογιστής Δανείου",
+      request: "Αίτηση",
+      about: "Σχετικά με εμάς",
+      contact: "Επικοινωνία",
+      faq: "Συχνές ερωτήσεις",
+      careers: "Καριέρα",
+      partners: "Συνεργάτες",
+      blog: "Ιστολόγιο"
+    },
+    footer: {
+      tools: "Εργαλεία",
+      company: "Εταιρεία",
+      legal: "Νομικά",
+      privacyPolicy: "Πολιτική Απορρήτου",
+      terms: "Όροι Χρήσης",
+      mentions: "Νομική Ειδοποίηση",
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
+      description: "Ο αξιόπιστος χρηματοοικονομικός σας εταίρος από το 1997. Αριστεία, καινοτομία και εμπειρία για όλα τα χρηματοοικονομικά σας έργα στην Ευρώπη.",
+      services: "Υπηρεσίες",
+      copyright: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
+      establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη",
+      links: {
+        personalLoans: "Προσωπικά δάνεια",
+        proFinancing: "Επιχειρηματική χρηματοδότηση",
+        investments: "Επενδύσεις",
+        insurance: "Ασφάλειες",
+        simulator: "Προσομοιωτής δανείου",
+        request: "Αίτηση χρηματοδότησης",
+        faq: "Συχνές ερωτήσεις",
+        contact: "Επικοινωνία",
+        about: "Σχετικά με εμάς",
+        partners: "Οι συνεργάτες μας",
+        careers: "Καριέρα",
+        blog: "Ιστολόγιο",
+        legal: "Νομική ειδοποίηση",
+        privacy: "Πολιτική απορρήτου",
+        terms: "Όροι χρήσης",
+        gdpr: "GDPR"
+      }
+    },
     partners: {
       title: "Οι Αξιόπιστοι Συνεργάτες μας",
-      description: "Ένα ευρωπαϊκό δίκτυο αριστείας για να σας προσφέρουμε τις καλύτερες χρηματοοικονομικές λύσεις",
-      stats: "Πάνω από 25 ευρωπαίους συνεργάτες • 27 χώρες κάλυψης • 2,5 δισ.€ όγκου συναλλαγών"
+      description: "Ένα ευρωπαϊκό δίκτυο αριστείας για τις καλύτερες χρηματοοικονομικές λύσεις",
+      stats: "Πάνω από 25 ευρωπαίους συνεργάτες • 27 χώρες κάλυψης • 2,5 δισ. € όγκος συναλλαγών"
     },
-    blog: { 
-      badge: "Εμπειρογνωμοσύνη και Ανάλυση", 
-      title: "Aurex Blog", 
-      subtitle: "K-pital",
-      description: "Αναλύσεις ειδικών, τάσεις αγοράς και πρακτικές συμβουλές για τη βελτιστοποίηση των χρηματοοικονομικών και επενδυτικών σας αποφάσεων.",
-      stats: {
-        articles: { value: "150+", label: "Δημοσιευμένα άρθρα" },
-        experts: { value: "8", label: "Συγγραφείς ειδικοί" },
-        readers: { value: "50K+", label: "Μηνιαίοι αναγνώστες" },
-        satisfaction: { value: "95%", label: "Ικανοποίηση αναγνωστών" }
-      },
-      featured: { title: "Κύριο άρθρο" },
-      search: { placeholder: "Αναζήτηση άρθρου...", allCategories: "Όλες οι κατηγορίες" },
-      categories: { 
-        title: "Κατηγορίες", 
-        innovation: "Καινοτομία", 
-        realEstate: "Ακίνητα", 
-        regulation: "Κανονισμοί", 
-        economy: "Οικονομία", 
-        esg: "ESG", 
-        education: "Εκπαίδευση" 
-      }, 
-      trending: { title: "Τάσεις" },
-      newsletter: { 
-        title: "Newsletter", 
-        description: "Λάβετε τα τελευταία μας άρθρα και αναλύσεις απευθείας στο γραμματοκιβώτιό σας", 
-        placeholder: "Το email σας", 
-        subscribe: "Εγγραφή", 
-        disclaimer: "Μέγιστο 1 email την εβδομάδα. Εύκολη ακύρωση." 
-      },
-      actions: { 
-        readMore: "Διαβάστε το πλήρες άρθρο", 
-        read: "Διαβάστε", 
-        loadMore: "Φορτώστε περισσότερα άρθρα", 
-        readTime: "λεπτά ανάγνωσης" 
-      },
-      content: {
-        featuredArticle: {
-          title: "Η τεχνητή νοημοσύνη επαναστατεί στον ευρωπαϊκό χρηματοπιστωτικό τομέα",
-          excerpt: "Ανακαλύψτε πώς οι νέες τεχνολογίες μεταμορφώνουν τις τραπεζικές και επενδυτικές υπηρεσίες, προσφέροντας στους ευρωπαίους πελάτες πιο εξατομικευμένες και αποτελεσματικές λύσεις.",
-          author: "Δρ. Marie Dubois",
-          role: "Διευθύντρια Καινοτομίας FinTech",
-          date: "15 Ιανουαρίου 2024",
-          category: "innovation"
+    home: {
+      hero: {
+        title: "Ο Χρηματοοικονομικός σας Εταίρος",
+        subtitle: "από το 1997",
+        description: "Αριστεία, καινοτομία και εμπιστοσύνη για όλα τα χρηματοοικονομικά σας έργα",
+        ctaBtn: "Ανακαλύψτε τις λύσεις μας",
+        simulateBtn: "Προσομοιώστε ένα δάνειο",
+        scrollText: "Ανακαλύψτε",
+        carousel: {
+          text1: "Ξεκινήστε το έργο σας με την Aurex K-pital",
+          text2: "Αποκτήστε χρηματοδότηση χωρίς προκαταβολή",
+          text3: "Επενδύστε σήμερα στο μέλλον σας"
         },
-        articles: [
-          { title: "Πλήρης οδηγός στεγαστικού δανείου 2024", excerpt: "Όλα όσα χρειάζεται να γνωρίζετε για τις τρέχουσες συνθήκες της αγοράς ακινήτων.", author: "Pierre Martin", date: "12 Ιανουαρίου 2024", category: "realEstate" },
-          { title: "Νέα ευρωπαϊκή νομοθεσία για κρυπτο-περιουσιακά στοιχεία", excerpt: "Ανάλυση της επίδρασης του κανονισμού MiCA για τους επενδυτές.", author: "Sophie Bernard", date: "10 Ιανουαρίου 2024", category: "regulation" },
-          { title: "Οικονομικές τάσεις 2024: προβλέψεις ειδικών", excerpt: "Οι κύριες τάσεις που θα διαμορφώσουν την ευρωπαϊκή οικονομία φέτος.", author: "Jean-Claude Moreau", date: "8 Ιανουαρίου 2024", category: "economy" },
-          { title: "Επένδυση ESG: απόδοση και επίδραση", excerpt: "Πώς να συνδυάσετε κερδοφορία και περιβαλλοντική υπευθυνότητα στις επενδύσεις.", author: "Émilie Rousseau", date: "5 Ιανουαρίου 2024", category: "esg" },
-          { title: "Χρηματοοικονομική εκπαίδευση: βάσεις επένδυσης", excerpt: "Πρακτικός οδηγός για αρχάριους επενδυτές.", author: "Marc Lefebvre", date: "3 Ιανουαρίου 2024", category: "education" },
-          { title: "Φορολογική βελτιστοποίηση 2024: νέα και στρατηγικές", excerpt: "Οι τελευταίες φορολογικές εξελίξεις και στρατηγικές βελτιστοποίησης.", author: "Anne Durand", date: "1 Ιανουαρίου 2024", category: "economy" }
-        ],
-        trending: [
-          { title: "Πώς να διαπραγματευτείτε το επιτόκιο του στεγαστικού σας δανείου" },
-          { title: "Επένδυση σε ενοικιαζόμενα ακίνητα 2024" },
-          { title: "Οι καλύτερες ευρωπαϊκές ασφάλειες ζωής" },
-          { title: "Δημιουργία εταιρείας: οδηγός χρηματοδότησης" },
-          { title: "Σύνταξη: σύγκριση λύσεων" }
+        stats: {
+          experience: {
+            title: "Χρόνια αριστείας",
+            subtitle: "Συνεχής καινοτομία"
+          },
+          clients: {
+            title: "Ικανοποιημένοι πελάτες",
+            subtitle: "Εγγυημένη ικανοποίηση"
+          },
+          funding: {
+            title: "Πραγματοποιημένες χρηματοδοτήσεις",
+            subtitle: "Μεταμορφωτικός αντίκτυπος"
+          }
+        }
+      },
+      services: {
+        badge: "Υπηρεσίες",
+        title: "Λύσεις",
+        subtitle: "Καινοτόμες",
+        description: "Ανακαλύψτε τις επαναστατικές",
+        description2: "χρηματοοικονομικές λύσεις μας",
+         description3: "για τα έργα σας"
+       },
+       about: {
+         badge: "Σχετικά με εμάς",
+         title: "Ο εταίρος σας",
+         subtitle: "για χρηματοοικονομικά",
+         subtitle2: "θέματα",
+         description1: {
+           highlight: "Από το 1997,",
+           text: " η Aurex K-pital συνοδεύει ιδιώτες και επιχειρήσεις στα χρηματοοικονομικά τους έργα με προσέγγιση που συνδυάζει",
+           expertise: "ανθρώπινη εμπειρία",
+           and: "και",
+           technology: "τεχνολογική καινοτομία"
+         },
+         description2: {
+           text: "Η αποστολή μας: εκδημοκρατισμός της πρόσβασης στη χρηματοδότηση μέσω λύσεων",
+           highlight: "γρήγορων, διαφανών και εξατομικευμένων",
+           success: "για την υλοποίηση των φιλοδοξιών σας"
+         },
+         stats: {
+           founded: "Έτος ίδρυσης",
+           location: "Έδρα",
+           certified: "Μητρώο",
+           security: "Safe-Nummer"
+         },
+         trust: {
+           title: "Η εμπιστοσύνη σας, προτεραιότητά μας",
+           description: "Πιστοποιημένοι και ρυθμιζόμενοι από ευρωπαϊκές αρχές"
+         },
+         buttons: {
+           history: "Η ιστορία μας",
+           contact: "Επικοινωνήστε μαζί μας"
+         }
+       },
+       cta: {
+         title: "Έτοιμοι να μεταμορφώσετε",
+         titleHighlight: "τα έργα σας",
+         titleEnd: "σε πραγματικότητα;",
+         description: "Οι ειδικοί μας σας συνοδεύουν σε κάθε βήμα για την υλοποίηση των χρηματοοικονομικών σας φιλοδοξιών.",
+         buttons: {
+           request: "Υποβολή αίτησης",
+           simulate: "Προσομοίωση δανείου",
+           contact: "Επικοινωνήστε μαζί μας"
+         },
+         contact: {
+           phone: "Τηλέφωνο",
+           address: "Διεύθυνση",
+           addressValue: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
+         }
+       }
+     },
+    services: {
+      personalLoan: {
+        title: "Προσωπικά δάνεια",
+        description: "Εξατομικευμένες χρηματοδοτικές λύσεις με επαναστατικούς όρους.",
+        points: ["AI για βέλτιστα επιτόκια", "Απάντηση σε 2 ώρες", "Μέγιστη ευελιξία"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Εργασίες ανακαίνισης",
+          "Ταξίδι των ονείρων",
+          "Γάμος",
+          "Σπουδές",
+          "Αγορά οχήματος"
         ]
+      },
+      businessLoan: {
+        title: "Επιχειρηματικά δάνεια",
+        description: "Αναπτύξτε την επιχείρησή σας με τις καινοτόμες λύσεις μας.",
+        points: ["Άμεση χρηματοδότηση", "Υποστήριξη από ειδικούς", "Εξατομικευμένες λύσεις"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Δημιουργία επιχείρησης",
+          "Εμπορική επέκταση",
+          "Αγορά εξοπλισμού",
+          "Ταμείο",
+          "Αγορά μετοχών"
+        ]
+      },
+      investment: {
+        title: "Έξυπνες επενδύσεις",
+        description: "Βελτιστοποίηση περιουσίας με τεχνητή νοημοσύνη και ανθρώπινη εμπειρία.",
+        points: ["Έξυπνο χαρτοφυλάκιο", "Premium συμβουλευτική", "Βελτιστοποιημένες αποδόσεις"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Επένδυση ακινήτων",
+          "Διαφοροποίηση περιουσίας",
+          "Προετοιμασία συνταξιοδότησης",
+          "Φορολογική βελτιστοποίηση",
+          "Επένδυση ESG"
+        ]
+      },
+      insurance: {
+        title: "Ασφάλειες 360°",
+        description: "Πλήρης και καινοτόμα κάλυψη για τη ζωή και τις επιχειρήσεις σας.",
+        points: ["Πλήρης κάλυψη", "Αποζημίωση σε 24 ώρες", "Premium υποστήριξη"],
+        cta: "Ανακάλυψε",
+        useCases: [
+          "Προστασία οικογένειας",
+          "Επαγγελματική ασφάλιση",
+          "Εγγύηση δανείου",
+          "Αστική ευθύνη",
+          "Υγειονομική πρόνοια"
+        ]
+      },
+      explore: "Εξερευνήστε όλες τις υπηρεσίες μας",
+      features: "Χαρακτηριστικά",
+      useCases: "Περιπτώσεις χρήσης",
+      discover: "Ανακάλυψε",
+      specialized: {
+        title: "Εξειδικευμένα προϊόντα",
+        description: "Εξειδικευμένες λύσεις για τις συγκεκριμένες ανάγκες σας",
+        mortgage: {
+          title: "Στεγαστικό δάνειο",
+          description: "Χρηματοδοτήστε το ακίνητο έργο σας με τους καλύτερους όρους",
+          rate: "Από 1,2% ΕΠΣ"
+        },
+        student: {
+          title: "Φοιτητικό δάνειο",
+          description: "Προσαρμοσμένες λύσεις για τη χρηματοδότηση των σπουδών σας",
+          rate: "0% κατά τη διάρκεια των σπουδών"
+        },
+        savings: {
+          title: "Λογαριασμός αποταμίευσης+",
+          description: "Επικερδής και διαθέσιμη αποταμίευση",
+          rate: "Έως 4% καθαρά"
+        },
+        premium: {
+          title: "Κάρτα Premium",
+          description: "Αποκλειστικά πλεονεκτήματα και υπηρεσίες υψηλής ποιότητας",
+          rate: "Χωρίς χρέωση τον 1ο χρόνο"
+        }
+      },
+      process: {
+        title: "Η διαδικασία μας",
+        description: "Μια απλοποιημένη διαδρομή για την υλοποίηση των έργων σας",
+        step1: {
+          title: "Ανάλυση του έργου σας",
+          description: "Εξατομικευμένη μελέτη των αναγκών και χρηματοδοτικών δυνατοτήτων σας"
+        },
+        step2: {
+          title: "Εξατομικευμένη πρόταση",
+          description: "Προσαρμοσμένες λύσεις με όρους βελτιστοποιημένους από AI"
+        },
+        step3: {
+          title: "Ταχεία επικύρωση",
+          description: "Απάντηση αρχής σε λιγότερο από 2 εργάσιμες ώρες"
+        },
+        step4: {
+          title: "Απελευθέρωση κεφαλαίων",
+          description: "Ταχεία διάθεση και συνεχής υποστήριξη"
+        }
       }
-    } 
-  },
-  it: { 
-    menu: { blog: "Blog" },
-    partners: {
-      title: "I Nostri Partner di Fiducia",
-      description: "Una rete europea di eccellenza per offrirvi le migliori soluzioni finanziarie",
-      stats: "Oltre 25 partner europei • 27 paesi coperti • 2,5 miliardi€ di volume trattato"
     },
-    blog: { 
-      badge: "Competenza e Analisi", 
-      title: "Blog Aurex", 
-      subtitle: "K-pital",
-      description: "Analisi di esperti, tendenze di mercato e consigli pratici per ottimizzare le vostre decisioni finanziarie e di investimento.",
-      stats: {
-        articles: { value: "150+", label: "Articoli pubblicati" },
-        experts: { value: "8", label: "Autori esperti" },
-        readers: { value: "50K+", label: "Lettori mensili" },
-        satisfaction: { value: "95%", label: "Soddisfazione lettori" }
-      },
-      featured: { title: "Articolo in evidenza" },
-      search: { placeholder: "Cerca articolo...", allCategories: "Tutte le categorie" },
-      categories: { 
-        title: "Categorie", 
-        innovation: "Innovazione", 
-        realEstate: "Immobiliare", 
-        regulation: "Regolamentazione", 
-        economy: "Economia", 
-        esg: "ESG", 
-        education: "Educazione" 
-      }, 
-      trending: { title: "Tendenze" },
-      newsletter: { 
-        title: "Newsletter", 
-        description: "Ricevete i nostri ultimi articoli e analisi direttamente nella vostra casella di posta", 
-        placeholder: "La vostra email", 
-        subscribe: "Iscriversi", 
-        disclaimer: "Massimo 1 email a settimana. Facile cancellazione." 
-      },
-      actions: { 
-        readMore: "Leggi l'articolo completo", 
-        read: "Leggi", 
-        loadMore: "Carica più articoli", 
-        readTime: "min di lettura" 
-      },
-      content: {
-        featuredArticle: {
-          title: "L'intelligenza artificiale rivoluziona il settore finanziario europeo",
-          excerpt: "Scoprite come le nuove tecnologie trasformano i servizi bancari e di investimento, offrendo ai clienti europei soluzioni più personalizzate ed efficienti.",
-          author: "Dr. Marie Dubois",
-          role: "Direttrice Innovazione FinTech",
-          date: "15 gennaio 2024",
-          category: "innovation"
+    testimonials: {
+      title: "Μας εμπιστεύονται",
+      subtitle: "Τι λένε οι ικανοποιημένοι πελάτες μας",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Λυών, Γαλλία",
+          feedback: "Γρήγορη και αξιόπιστη εξυπηρέτηση. Το δάνειό μου εγκρίθηκε σε 48 ώρες. Ευχαριστώ Aurex K-pital!"
         },
-        articles: [
-          { title: "Guida completa al mutuo casa 2024", excerpt: "Tutto quello che dovete sapere sulle condizioni attuali del mercato immobiliare.", author: "Pierre Martin", date: "12 gennaio 2024", category: "realEstate" },
-          { title: "Nuova regolamentazione europea sui cripto-asset", excerpt: "Analisi dell'impatto del regolamento MiCA per gli investitori.", author: "Sophie Bernard", date: "10 gennaio 2024", category: "regulation" },
-          { title: "Tendenze economiche 2024: previsioni degli esperti", excerpt: "Le principali tendenze che plasmeranno l'economia europea quest'anno.", author: "Jean-Claude Moreau", date: "8 gennaio 2024", category: "economy" },
-          { title: "Investimenti ESG: performance e impatto", excerpt: "Come combinare redditività e responsabilità ambientale negli investimenti.", author: "Émilie Rousseau", date: "5 gennaio 2024", category: "esg" },
-          { title: "Educazione finanziaria: fondamenti degli investimenti", excerpt: "Guida pratica per investitori principianti.", author: "Marc Lefebvre", date: "3 gennaio 2024", category: "education" },
-          { title: "Ottimizzazione fiscale 2024: novità e strategie", excerpt: "Gli ultimi sviluppi fiscali e strategie di ottimizzazione.", author: "Anne Durand", date: "1 gennaio 2024", category: "economy" }
-        ],
-        trending: [
-          { title: "Come negoziare il tasso di interesse del mutuo" },
-          { title: "Investire in immobili in affitto 2024" },
-          { title: "Le migliori assicurazioni vita europee" },
-          { title: "Creare un'azienda: guida al finanziamento" },
-          { title: "Pensione: confrontare le soluzioni" }
-        ]
+        {
+          name: "Amélie Blanchard",
+          location: "Παρίσι, Γαλλία",
+          feedback: "Επαγγελματική ομάδα, απλό περιβάλλον και πραγματικά εξατομικευμένη υποστήριξη."
+        },
+        {
+          name: "Thomas Bonnet",
+          location: "Τουλούζη, Γαλλία",
+          feedback: "Ο υπολογιστής ήταν ξεκάθαρος και πήρα καλύτερους όρους από την τράπεζά μου."
+        }
+      ]
+    },
+    simulator: {
+      title: "Υπολογιστής Δανείου",
+      titleSecond: "Έξυπνος",
+      subtitle: "Λάβετε μια εξατομικευμένη εκτίμηση σε πραγματικό χρόνο για τη χρηματοδότησή σας",
+      form: {
+        loanType: "Τύπος χρηματοδότησης",
+        amount: "Επιθυμητό ποσό (€)",
+        duration: "Διάρκεια αποπληρωμής (μήνες)",
+        income: "Μηνιαίο καθαρό εισόδημα (προαιρετικό)",
+        incomeHelper: "Πληροφορία που χρησιμοποιείται για τη βελτιστοποίηση του επιτοκίου σας",
+        guarantee: "Έχετε εγγύηση ή εγγυητή;",
+        guaranteeOptions: {
+          yes: "Ναι, έχω εγγύηση",
+          no: "Όχι, χωρίς εγγύηση",
+          maybe: "Προς αξιολόγηση σύμφωνα με την προσφορά"
+        },
+        loanTypes: {
+          personal: {
+            label: "Προσωπικό Δάνειο",
+            description: "Για όλα σας τα προσωπικά έργα"
+          },
+          auto: {
+            label: "Δάνειο Αυτοκινήτου",
+            description: "Χρηματοδότηση καινούργιου ή μεταχειρισμένου οχήματος"
+          },
+          realEstate: {
+            label: "Στεγαστικό Δάνειο",
+            description: "Αγορά, κατασκευή ή ανακαίνιση"
+          },
+          professional: {
+            label: "Επιχειρηματική Χρηματοδότηση",
+            description: "Επιχειρηματική επένδυση"
+          },
+          student: {
+            label: "Φοιτητικό Δάνειο",
+            description: "Χρηματοδότηση τριτοβάθμιων σπουδών"
+          },
+          consolidation: {
+            label: "Ενοποίηση Δανείων",
+            description: "Ομαδοποίηση υπαρχόντων χρεών"
+          }
+        }
+      },
+      configuration: {
+        title: "Διαμόρφωση του δανείου σας",
+        description: "Προσαρμόστε τις παραμέτρους σύμφωνα με τις ανάγκες σας"
+      },
+      result: {
+        title: "Η εκτίμησή σας",
+        monthlyPayment: "Μηνιαία δόση",
+        interestRate: "Επιτόκιο",
+        totalCost: "Συνολικό κόστος πίστωσης",
+        totalRepayment: "Συνολικό ποσό προς αποπληρωμή",
+        units: {
+          months: "μήνες",
+          years: "χρόνια"
+        },
+        disclaimer: "Αυτή η εκτίμηση είναι ενδεικτική και μπορεί να διαφέρει ανάλογα με το τελικό σας προφίλ. Προσφορά υπό έγκριση."
+      },
+      advantages: {
+        title: "Τα πλεονεκτήματά σας Aurex K-pital",
+        items: {
+          rates: "Διαπραγματευμένα προνομιακά επιτόκια",
+          earlyRepayment: "Πρόωρη αποπληρωμή χωρίς χρεώσεις",
+          response: "Εγγυημένη απάντηση εντός 24ώρου",
+          support: "Εξατομικευμένη υποστήριξη"
+        }
+      },
+      cta: {
+        title: "Έτοιμοι να υλοποιήσετε το έργο σας;",
+        description: "Οι ειδικοί σύμβουλοί μας σας συνοδεύουν για να μετατρέψουν αυτή τη προσομοίωση σε πραγματικότητα",
+        buttons: {
+          request: "Κάντε αίτηση",
+          consultant: "Μιλήστε με σύμβουλο",
+          officialRequest: "Κάντε επίσημη αίτηση",
+          allServices: "Δείτε όλες τις υπηρεσίες μας"
+        }
+      },
+      blog: {
+        badge: "Εμπειρία & Ανάλυση",
+        title: "Blog Aurex",
+        subtitle: "K-pital", 
+        description: "Αναλύσεις ειδικών, τάσεις της αγοράς και πρακτικές συμβουλές για τη βελτιστοποίηση των χρηματοοικονομικών και επενδυτικών σας αποφάσεων.",
+        stats: {
+          articles: {
+            value: "150+",
+            label: "Δημοσιευμένα άρθρα"
+          },
+          experts: {
+            value: "8", 
+            label: "Συγγραφείς ειδικοί"
+          },
+          readers: {
+            value: "50K+",
+            label: "Μηνιαίοι αναγνώστες"
+          },
+          satisfaction: {
+            value: "95%",
+            label: "Ικανοποίηση αναγνωστών"
+          }
+        },
+        featured: {
+          title: "Κύριο Άρθρο"
+        },
+        search: {
+          placeholder: "Αναζήτηση άρθρου...",
+          allCategories: "Όλες οι κατηγορίες"
+        },
+        categories: {
+          title: "Κατηγορίες",
+          innovation: "Καινοτομία",
+          realEstate: "Ακίνητα",
+          regulation: "Κανονισμοί",
+          economy: "Οικονομία",
+          esg: "ESG",
+          education: "Εκπαίδευση"
+        },
+        trending: {
+          title: "Τάσεις"
+        },
+        newsletter: {
+          title: "Newsletter",
+          description: "Λάβετε τα τελευταία μας άρθρα και αναλύσεις απευθείας στο γραμματοκιβώτιό σας",
+          placeholder: "Το email σας",
+          subscribe: "Εγγραφή",
+          disclaimer: "Μέγιστο 1 email την εβδομάδα. Εύκολη ακύρωση."
+        },
+        actions: {
+          readMore: "Διαβάστε το πλήρες άρθρο",
+          read: "Διαβάστε",
+          loadMore: "Φορτώστε περισσότερα άρθρα",
+          readTime: "ανάγνωσης"
+        }
       }
-    } 
+    }
   }
 };
-
-export default translations;
