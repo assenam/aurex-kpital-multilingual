@@ -71,26 +71,6 @@ const About = () => {
     }
   ];
 
-  const team = [
-    {
-      name: t('about.team.member1.name'),
-      role: t('about.team.member1.role'),
-      experience: t('about.team.member1.experience'),
-      image: "/lovable-uploads/69b3a7b9-1742-4f7a-a667-105c31f57852.png"
-    },
-    {
-      name: t('about.team.member2.name'),
-      role: t('about.team.member2.role'),
-      experience: t('about.team.member2.experience'),
-      image: "/lovable-uploads/905a3520-c947-4b78-93c5-4b4623d63973.png"
-    },
-    {
-      name: t('about.team.member3.name'),
-      role: t('about.team.member3.role'),
-      experience: t('about.team.member3.experience'),
-      image: "/lovable-uploads/cda4e48e-825c-4b6b-9301-54221400e47d.png"
-    }
-  ];
 
   return (
     <div className="min-h-screen">
@@ -255,44 +235,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Notre Équipe */}
-      <section className="py-20 bg-gradient-soft">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <Badge className="mb-4">
-              <Users className="h-4 w-4 mr-2" />
-              {t('about.team.badge')}
-            </Badge>
-            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              {t('about.team.title')}
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              {t('about.team.description')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {team.map((member, index) => (
-              <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
-                <CardHeader className="text-center">
-                  <div className="mx-auto mb-4 w-24 h-24 rounded-full overflow-hidden">
-                    <img 
-                      src={member.image} 
-                      alt={member.name}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
-                  <CardTitle className="text-xl">{member.name}</CardTitle>
-                  <CardDescription className="text-primary font-semibold">{member.role}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-center text-muted-foreground text-sm">{member.experience}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Call to Action */}
       <section className="py-20 bg-primary text-primary-foreground">
