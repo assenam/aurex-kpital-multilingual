@@ -13,8 +13,11 @@ import {
   Users, Headphones, AlertCircle, CheckCircle, Sparkles,
   Building, Globe, Shield, Award
 } from 'lucide-react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const Contact = () => {
+  const { t } = useTranslation();
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -27,7 +30,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Votre message a été envoyé avec succès ! Nous vous contacterons rapidement.');
+    alert(t('contact.form.success'));
   };
 
   const updateFormData = (field: string, value: string) => {
@@ -37,25 +40,25 @@ const Contact = () => {
   const contactMethods = [
     {
       icon: Phone,
-      title: "Téléphone",
-      description: "Parlez directement à nos conseillers",
+      title: t('contact.methods.phone.title'),
+      description: t('contact.methods.phone.description'),
       value: "+49 40 710 97523",
-      hours: "Lun-Ven: 8h-19h, Sam: 9h-17h",
+      hours: t('contact.methods.phone.hours'),
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: Mail,
-      title: "Email",
-      description: "Envoyez-nous vos questions",
-      value: "contact@aurex-kpital.de",
+      title: t('contact.methods.email.title'),
+      description: t('contact.methods.email.description'),
+      value: t('contact.methods.email.address'),
       hours: "Réponse sous 4h en moyenne",
       color: "from-emerald-500 to-emerald-600"
     },
     {
       icon: MapPin,
-      title: "Adresse",
-      description: "Visitez nos bureaux à Hamburg",
-      value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
+      title: t('contact.methods.office.title'),
+      description: t('contact.methods.office.description'),
+      value: t('contact.methods.office.address'),
       hours: "Sur rendez-vous uniquement",
       color: "from-purple-500 to-purple-600"
     },
@@ -71,25 +74,25 @@ const Contact = () => {
 
   const departments = [
     {
-      name: "Service Commercial",
+      name: t('contact.form.departments.general'),
       description: "Nouvelles demandes et informations",
       contact: "commercial@aurex-kpital.de",
       phone: "+49 40 710 97523"
     },
     {
-      name: "Service Client",
+      name: t('contact.form.departments.claims'),
       description: "Suivi de dossiers existants",
       contact: "client@aurex-kpital.de", 
       phone: "+49 40 710 97524"
     },
     {
-      name: "Support Technique",
+      name: t('contact.form.departments.sales'),
       description: "Assistance plateforme et outils",
       contact: "support@aurex-kpital.de",
       phone: "+49 40 710 97525"
     },
     {
-      name: "Direction",
+      name: t('contact.form.departments.support'),
       description: "Réclamations et suggestions",
       contact: "direction@aurex-kpital.de",
       phone: "+49 40 710 97520"
@@ -97,9 +100,9 @@ const Contact = () => {
   ];
 
   const officeHours = [
-    { day: "Lundi - Vendredi", hours: "8h00 - 19h00", type: "Conseillers disponibles" },
-    { day: "Samedi", hours: "9h00 - 17h00", type: "Service réduit" },
-    { day: "Dimanche", hours: "Fermé", type: "Urgences uniquement" }
+    { day: t('contact.hours.weekdays'), hours: "8h00 - 19h00", type: "Conseillers disponibles" },
+    { day: t('contact.hours.saturday'), hours: "9h00 - 17h00", type: "Service réduit" },
+    { day: t('contact.hours.sunday'), hours: "Fermé", type: "Urgences uniquement" }
   ];
 
   return (
@@ -121,13 +124,11 @@ const Contact = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Contactez Nos
-              <span className="text-gold block">Experts</span>
+              {t('contact.hero.title')}
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Notre équipe dédiée vous accompagne à chaque étape de votre projet financier. 
-              Plusieurs moyens pour nous joindre selon vos préférences.
+              {t('contact.hero.subtitle')}
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
@@ -200,7 +201,7 @@ const Contact = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl font-bold text-primary flex items-center gap-2">
                     <MessageCircle className="h-6 w-6" />
-                    Envoyez-nous un message
+                    {t('contact.form.title')}
                   </CardTitle>
                   <CardDescription>
                     Nous vous répondons rapidement et de manière personnalisée
