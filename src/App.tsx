@@ -15,7 +15,7 @@ import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import Partners from "./pages/Partners";
 import Careers from "./pages/Careers";
-import Blog from "./pages/Blog";
+
 import Legal from "./pages/Legal";
 import NotFound from "./pages/NotFound";
 
@@ -42,7 +42,7 @@ const AppContent = () => {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/partenaires" element={<Partners />} />
           <Route path="/carrieres" element={<Careers />} />
-          <Route path="/blog" element={<Blog />} />
+          
           <Route path="/mentions-legales" element={<Legal />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
