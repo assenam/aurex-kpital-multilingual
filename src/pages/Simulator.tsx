@@ -170,7 +170,7 @@ const Simulator = () => {
                   {/* Durée */}
                   <div>
                     <Label className="text-lg font-semibold text-primary mb-4 block">
-                      {t('simulator.form.duration').replace('(mois)', '')}: {duration[0]} mois ({Math.round(duration[0]/12)} ans)
+                      {t('simulator.form.duration').replace('(mois)', '')}: {duration[0]} {t('simulator.result.units.months')} ({Math.round(duration[0]/12)} {t('simulator.result.units.years')})
                     </Label>
                     <Slider
                       value={duration}
@@ -181,8 +181,8 @@ const Simulator = () => {
                       className="w-full"
                     />
                     <div className="flex justify-between text-sm text-muted-foreground mt-2">
-                      <span>12 mois</span>
-                      <span>300 mois (25 ans)</span>
+                      <span>12 {t('simulator.result.units.months')}</span>
+                      <span>300 {t('simulator.result.units.months')} (25 {t('simulator.result.units.years')})</span>
                     </div>
                   </div>
 

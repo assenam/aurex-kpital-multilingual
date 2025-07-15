@@ -444,6 +444,10 @@ const translations = {
         interestRate: "Taux d'intérêt",
         totalCost: "Coût total du crédit",
         totalRepayment: "Montant total à rembourser",
+        units: {
+          months: "mois",
+          years: "ans"
+        },
         disclaimer: "Cette estimation est indicative et peut varier selon votre profil final. Offre soumise à acceptation."
       },
       advantages: {
@@ -841,6 +845,10 @@ const translations = {
         interestRate: "Zinssatz",
         totalCost: "Gesamtkosten des Kredits",
         totalRepayment: "Gesamtrückzahlungsbetrag",
+        units: {
+          months: "Monate",
+          years: "Jahre"
+        },
         disclaimer: "Diese Schätzung ist unverbindlich und kann je nach Ihrem endgültigen Profil variieren. Angebot vorbehaltlich Annahme."
       },
       advantages: {
@@ -1238,6 +1246,10 @@ const translations = {
         interestRate: "Tipo de interés",
         totalCost: "Costo total del crédito",
         totalRepayment: "Importe total a reembolsar",
+        units: {
+          months: "meses",
+          years: "años"
+        },
         disclaimer: "Esta estimación es indicativa y puede variar según su perfil final. Oferta sujeta a aceptación."
       },
       advantages: {
@@ -1635,6 +1647,10 @@ const translations = {
         interestRate: "Tasso di interesse",
         totalCost: "Costo totale del credito",
         totalRepayment: "Importo totale da rimborsare",
+        units: {
+          months: "mesi",
+          years: "anni"
+        },
         disclaimer: "Questa stima è indicativa e può variare secondo il tuo profilo finale. Offerta soggetta ad accettazione."
       },
       advantages: {
@@ -1968,6 +1984,10 @@ const translations = {
         interestRate: "Stopa procentowa",
         totalCost: "Całkowity koszt kredytu",
         totalRepayment: "Całkowita kwota do spłaty",
+        units: {
+          months: "miesięcy",
+          years: "lat"
+        },
         disclaimer: "To oszacowanie jest orientacyjne i może się różnić w zależności od Twojego ostatecznego profilu. Oferta podlega akceptacji."
       },
       advantages: {
@@ -2301,6 +2321,10 @@ const translations = {
         interestRate: "Korko",
         totalCost: "Luoton kokonaiskustannus",
         totalRepayment: "Takaisinmaksettava kokonaissumma",
+        units: {
+          months: "kuukautta",
+          years: "vuotta"
+        },
         disclaimer: "Tämä arvio on ohjeellinen ja voi vaihdella lopullisen profiilisi mukaan. Tarjous hyväksymisen varauksella."
       },
       advantages: {
@@ -2634,6 +2658,10 @@ const translations = {
         interestRate: "Taxa de juro",
         totalCost: "Custo total do crédito",
         totalRepayment: "Montante total a reembolsar",
+        units: {
+          months: "meses",
+          years: "anos"
+        },
         disclaimer: "Esta estimativa é indicativa e pode variar conforme o seu perfil final. Oferta sujeita a aceitação."
       },
       advantages: {
@@ -2967,6 +2995,10 @@ const translations = {
         interestRate: "Επιτόκιο",
         totalCost: "Συνολικό κόστος πίστωσης",
         totalRepayment: "Συνολικό ποσό προς αποπληρωμή",
+        units: {
+          months: "μήνες",
+          years: "χρόνια"
+        },
         disclaimer: "Αυτή η εκτίμηση είναι ενδεικτική και μπορεί να διαφέρει ανάλογα με το τελικό σας προφίλ. Προσφορά υπό έγκριση."
       },
       advantages: {
