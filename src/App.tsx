@@ -22,14 +22,13 @@ import NotFound from "./pages/NotFound";
 const queryClient = new QueryClient();
 
 const AppContent = () => {
-  const { isLoading } = useTranslation();
   
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <LoadingOverlay isVisible={isLoading} />
+        <LoadingOverlay isVisible={false} />
         <BrowserRouter>
         <ScrollToTop />
         <Routes>
