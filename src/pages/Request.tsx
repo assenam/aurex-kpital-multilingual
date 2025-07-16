@@ -181,17 +181,17 @@ const Request = () => {
                   <CardHeader>
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                       <User className="h-5 w-5" />
-                      Informations Personnelles
+                      {t('request.form.personalInfo.title')}
                     </CardTitle>
                     <CardDescription>
-                      Renseignez vos informations de base
+                      {t('request.form.personalInfo.subtitle')}
                     </CardDescription>
                   </CardHeader>
                   
                   <CardContent className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div>
-                        <Label htmlFor="firstName">Prénom *</Label>
+                        <div>
+                          <Label htmlFor="firstName">{t('request.form.personalInfo.fields.firstName')} *</Label>
                         <Input
                           id="firstName"
                           value={formData.firstName}
@@ -200,7 +200,7 @@ const Request = () => {
                         />
                       </div>
                       <div>
-                        <Label htmlFor="lastName">Nom *</Label>
+                        <Label htmlFor="lastName">{t('request.form.personalInfo.fields.lastName')} *</Label>
                         <Input
                           id="lastName"
                           value={formData.lastName}
@@ -212,7 +212,7 @@ const Request = () => {
 
                     <div className="grid grid-cols-1 gap-4">
                       <div>
-                        <Label htmlFor="email">Email *</Label>
+                        <Label htmlFor="email">{t('request.form.personalInfo.fields.email')} *</Label>
                         <Input
                           id="email"
                           type="email"
@@ -222,7 +222,7 @@ const Request = () => {
                         />
                       </div>
                       <div>
-                        <Label htmlFor="emailConfirmation">Confirmation email *</Label>
+                        <Label htmlFor="emailConfirmation">{t('request.form.personalInfo.fields.emailConfirmation')} *</Label>
                         <Input
                           id="emailConfirmation"
                           type="email"
