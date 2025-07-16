@@ -208,23 +208,26 @@ const translations = {
             loanType: "Type de prêt",
             loanTypePlaceholder: "Choisissez le type de financement",
             amount: "Montant souhaité (€)",
+            amountPlaceholder: "Montant en euros",
             duration: "Durée de remboursement (mois)",
+            durationPlaceholder: "Durée en mois",
             purpose: "Objet du financement",
             purposePlaceholder: "Décrivez l'utilisation des fonds",
             hasGuarantee: "Avez-vous une garantie ?",
             guaranteePlaceholder: "Sélectionnez une option"
           },
-          loanTypes: {
+          loanOptions: {
             personal: "Prêt personnel",
             auto: "Crédit auto",
-            home: "Prêt immobilier",
-            business: "Financement professionnel",
+            realEstate: "Prêt immobilier",
+            professional: "Financement professionnel",
+            student: "Prêt étudiant",
             consolidation: "Rachat de crédits"
           },
           guaranteeOptions: {
             yes: "Oui",
             no: "Non",
-            discuss: "À discuter"
+            maybe: "À évaluer selon l'offre"
           }
         },
         validation: {
@@ -406,23 +409,26 @@ const translations = {
             loanType: "Kreditart",
             loanTypePlaceholder: "Wählen Sie die Finanzierungsart",
             amount: "Gewünschter Betrag (€)",
+            amountPlaceholder: "Betrag in Euro",
             duration: "Rückzahlungsdauer (Monate)",
+            durationPlaceholder: "Dauer in Monaten",
             purpose: "Verwendungszweck",
             purposePlaceholder: "Beschreiben Sie die Verwendung der Mittel",
             hasGuarantee: "Haben Sie eine Sicherheit?",
             guaranteePlaceholder: "Option wählen"
           },
-          loanTypes: {
+          loanOptions: {
             personal: "Privatkredit",
             auto: "Autokredit",
-            home: "Immobilienkredit",
-            business: "Unternehmensfinanzierung",
+            realEstate: "Immobilienkredit",
+            professional: "Unternehmensfinanzierung",
+            student: "Studentenkredit",
             consolidation: "Kreditumschuldung"
           },
           guaranteeOptions: {
             yes: "Ja",
             no: "Nein",
-            discuss: "Zu besprechen"
+            maybe: "Je nach Angebot zu bewerten"
           }
         },
         validation: {
