@@ -231,19 +231,19 @@ const Request = () => {
                           onPaste={(e) => e.preventDefault()}
                           onDrop={(e) => e.preventDefault()}
                           onDragOver={(e) => e.preventDefault()}
-                          placeholder="Retapez votre email pour confirmation"
+                          placeholder={t('request.form.personalInfo.fields.emailConfirmationPlaceholder')}
                           required
                         />
                         {formData.email && formData.emailConfirmation && formData.email !== formData.emailConfirmation && (
                           <p className="text-sm text-red-600 mt-1 flex items-center gap-1">
                             <AlertCircle className="h-4 w-4" />
-                            Les adresses email ne correspondent pas
+                            {t('request.form.personalInfo.validation.emailMismatch')}
                           </p>
                         )}
                         {formData.email && formData.emailConfirmation && formData.email === formData.emailConfirmation && (
                           <p className="text-sm text-green-600 mt-1 flex items-center gap-1">
                             <CheckCircle className="h-4 w-4" />
-                            Adresses email confirmées
+                            {t('request.form.personalInfo.validation.emailConfirmed')}
                           </p>
                         )}
                       </div>
@@ -251,7 +251,7 @@ const Request = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="phone">Téléphone *</Label>
+                        <Label htmlFor="phone">{t('request.form.personalInfo.fields.phone')} *</Label>
                         <Input
                           id="phone"
                           type="tel"
@@ -264,7 +264,7 @@ const Request = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                       <div>
-                        <Label htmlFor="birthDate">Date de naissance *</Label>
+                        <Label htmlFor="birthDate">{t('request.form.personalInfo.fields.birthDate')} *</Label>
                         <Input
                           id="birthDate"
                           type="date"
@@ -274,10 +274,10 @@ const Request = () => {
                         />
                       </div>
                       <div>
-                        <Label htmlFor="nationality">Nationalité</Label>
+                        <Label htmlFor="nationality">{t('request.form.personalInfo.fields.nationality')}</Label>
                         <Select value={formData.nationality} onValueChange={(value) => updateFormData('nationality', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Sélectionnez votre nationalité" />
+                            <SelectValue placeholder={t('request.form.personalInfo.fields.nationalityPlaceholder')} />
                           </SelectTrigger>
                           <SelectContent className="max-h-60 overflow-y-auto bg-background z-50">
                             <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted">Europe</div>
@@ -358,28 +358,28 @@ const Request = () => {
                         {/* Champ conditionnel pour autre nationalité */}
                         {formData.nationality === 'autre' && (
                           <div className="mt-3">
-                            <Label htmlFor="otherNationality">Précisez votre nationalité</Label>
+                            <Label htmlFor="otherNationality">{t('request.form.personalInfo.fields.otherNationality')}</Label>
                             <Input
                               id="otherNationality"
                               value={formData.otherNationality}
                               onChange={(e) => updateFormData('otherNationality', e.target.value)}
-                              placeholder="Ex: Japonaise, Australienne, Marocaine..."
+                              placeholder={t('request.form.personalInfo.fields.otherNationalityPlaceholder')}
                               required={formData.nationality === 'autre'}
                             />
                           </div>
                         )}
                       </div>
                       <div>
-                        <Label htmlFor="maritalStatus">Situation familiale</Label>
+                        <Label htmlFor="maritalStatus">{t('request.form.personalInfo.fields.maritalStatus')}</Label>
                         <Select value={formData.maritalStatus} onValueChange={(value) => updateFormData('maritalStatus', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Sélectionnez" />
+                            <SelectValue placeholder={t('request.form.personalInfo.fields.maritalStatusPlaceholder')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="single">Célibataire</SelectItem>
-                            <SelectItem value="married">Marié(e)</SelectItem>
-                            <SelectItem value="divorced">Divorcé(e)</SelectItem>
-                            <SelectItem value="widowed">Veuf/Veuve</SelectItem>
+                            <SelectItem value="single">{t('request.form.personalInfo.maritalOptions.single')}</SelectItem>
+                            <SelectItem value="married">{t('request.form.personalInfo.maritalOptions.married')}</SelectItem>
+                            <SelectItem value="divorced">{t('request.form.personalInfo.maritalOptions.divorced')}</SelectItem>
+                            <SelectItem value="widowed">{t('request.form.personalInfo.maritalOptions.widowed')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
@@ -392,45 +392,45 @@ const Request = () => {
                   <CardHeader>
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                       <Briefcase className="h-5 w-5" />
-                      Situation Professionnelle
+                      {t('request.form.professionalInfo.title')}
                     </CardTitle>
                     <CardDescription>
-                      Informations sur votre emploi et vos revenus
+                      {t('request.form.professionalInfo.subtitle')}
                     </CardDescription>
                   </CardHeader>
                   
                   <CardContent className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="employmentStatus">Statut professionnel *</Label>
+                        <Label htmlFor="employmentStatus">{t('request.form.professionalInfo.fields.employmentStatus')} *</Label>
                         <Select value={formData.employmentStatus} onValueChange={(value) => updateFormData('employmentStatus', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Sélectionnez" />
+                            <SelectValue placeholder={t('request.form.professionalInfo.fields.employmentStatusPlaceholder')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="employee">Salarié CDI</SelectItem>
-                            <SelectItem value="cdd">Salarié CDD</SelectItem>
-                            <SelectItem value="freelance">Indépendant</SelectItem>
-                            <SelectItem value="entrepreneur">Chef d'entreprise</SelectItem>
-                            <SelectItem value="retiree">Retraité</SelectItem>
-                            <SelectItem value="student">Étudiant</SelectItem>
+                            <SelectItem value="employee">{t('request.form.professionalInfo.employmentOptions.employee')}</SelectItem>
+                            <SelectItem value="cdd">{t('request.form.professionalInfo.employmentOptions.selfEmployed')}</SelectItem>
+                            <SelectItem value="freelance">{t('request.form.professionalInfo.employmentOptions.manager')}</SelectItem>
+                            <SelectItem value="entrepreneur">{t('request.form.professionalInfo.employmentOptions.retiree')}</SelectItem>
+                            <SelectItem value="retiree">{t('request.form.professionalInfo.employmentOptions.student')}</SelectItem>
+                            <SelectItem value="student">{t('request.form.professionalInfo.employmentOptions.unemployed')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                       <div>
-                        <Label htmlFor="profession">Profession</Label>
+                        <Label htmlFor="profession">{t('request.form.professionalInfo.fields.company')}</Label>
                         <Input
                           id="profession"
                           value={formData.profession}
                           onChange={(e) => updateFormData('profession', e.target.value)}
-                          placeholder="Ex: Ingénieur, Médecin..."
+                          placeholder={t('request.form.professionalInfo.fields.position')}
                         />
                       </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="employer">Employeur</Label>
+                        <Label htmlFor="employer">{t('request.form.professionalInfo.fields.company')}</Label>
                         <Input
                           id="employer"
                           value={formData.employer}
@@ -439,13 +439,13 @@ const Request = () => {
                         />
                       </div>
                       <div>
-                        <Label htmlFor="employmentDuration">Ancienneté (mois)</Label>
+                        <Label htmlFor="employmentDuration">{t('request.form.professionalInfo.fields.workExperience')}</Label>
                         <Input
                           id="employmentDuration"
                           type="number"
                           value={formData.employmentDuration}
                           onChange={(e) => updateFormData('employmentDuration', e.target.value)}
-                          placeholder="Ex: 24"
+                          placeholder={t('request.form.professionalInfo.fields.workExperiencePlaceholder')}
                         />
                       </div>
                     </div>
