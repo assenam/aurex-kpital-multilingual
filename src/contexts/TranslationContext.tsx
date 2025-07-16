@@ -175,7 +175,10 @@ const translations = {
             employer: "Employeur",
             employmentDuration: "Ancienneté dans l'emploi",
             monthlyIncome: "Revenus mensuels nets (€)",
-            additionalIncome: "Autres revenus mensuels (€)"
+            additionalIncome: "Autres revenus mensuels (€)",
+            company: "Nom de l'entreprise",
+            position: "Poste occupé",
+            workExperience: "Expérience professionnelle (années)"
           },
           employmentOptions: {
             employee: "Salarié(e)",
@@ -219,6 +222,20 @@ const translations = {
             acceptsMarketing: "J'accepte de recevoir des informations commerciales"
           },
           submitButton: "Envoyer ma demande"
+        },
+        financingRequest: {
+          title: "Demande de financement",
+          subtitle: "Remplissez les informations suivantes pour obtenir une offre personnalisée",
+          fields: {
+            loanType: "Type de prêt",
+            loanTypePlaceholder: "Sélectionnez un type",
+            amount: "Montant du prêt (€)",
+            duration: "Durée du prêt (mois)",
+            hasGuarantee: "Garantie disponible",
+            guaranteePlaceholder: "Ex : bien immobilier, véhicule",
+            purpose: "Motif du prêt",
+            purposePlaceholder: "Indiquez le but de votre demande"
+          }
         }
       },
       sidebar: {
