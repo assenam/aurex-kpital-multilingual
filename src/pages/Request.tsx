@@ -479,39 +479,39 @@ const Request = () => {
                   <CardHeader>
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                       <Euro className="h-5 w-5" />
-                      Demande de Financement
+                      {t('request.form.financingRequest.title')}
                     </CardTitle>
                     <CardDescription>
-                      Détails de votre projet
+                      {t('request.form.financingRequest.subtitle')}
                     </CardDescription>
                   </CardHeader>
                   
                   <CardContent className="space-y-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="loanType">Type de financement *</Label>
+                        <Label htmlFor="loanType">{t('request.form.financingRequest.fields.loanType')} *</Label>
                         <Select value={formData.loanType} onValueChange={(value) => updateFormData('loanType', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Sélectionnez" />
+                            <SelectValue placeholder={t('request.form.financingRequest.fields.loanTypePlaceholder')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="personal">Prêt Personnel</SelectItem>
-                            <SelectItem value="auto">Crédit Auto</SelectItem>
-                            <SelectItem value="real-estate">Crédit Immobilier</SelectItem>
-                            <SelectItem value="professional">Financement Pro</SelectItem>
-                            <SelectItem value="student">Prêt Étudiant</SelectItem>
-                            <SelectItem value="consolidation">Rachat de Crédits</SelectItem>
+                            <SelectItem value="personal">{t('request.form.financingRequest.loanOptions.personal')}</SelectItem>
+                            <SelectItem value="auto">{t('request.form.financingRequest.loanOptions.auto')}</SelectItem>
+                            <SelectItem value="real-estate">{t('request.form.financingRequest.loanOptions.realEstate')}</SelectItem>
+                            <SelectItem value="professional">{t('request.form.financingRequest.loanOptions.professional')}</SelectItem>
+                            <SelectItem value="student">{t('request.form.financingRequest.loanOptions.student')}</SelectItem>
+                            <SelectItem value="consolidation">{t('request.form.financingRequest.loanOptions.consolidation')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                       <div>
-                        <Label htmlFor="amount">Montant souhaité (€) *</Label>
+                        <Label htmlFor="amount">{t('request.form.financingRequest.fields.amount')} *</Label>
                         <Input
                           id="amount"
                           type="number"
                           value={formData.amount}
                           onChange={(e) => updateFormData('amount', e.target.value)}
-                          placeholder="Ex: 25000"
+                          placeholder={t('request.form.financingRequest.fields.amountPlaceholder')}
                           required
                         />
                       </div>
@@ -519,37 +519,37 @@ const Request = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="duration">Durée souhaitée (mois)</Label>
+                        <Label htmlFor="duration">{t('request.form.financingRequest.fields.duration')}</Label>
                         <Input
                           id="duration"
                           type="number"
                           value={formData.duration}
                           onChange={(e) => updateFormData('duration', e.target.value)}
-                          placeholder="Ex: 60"
+                          placeholder={t('request.form.financingRequest.fields.durationPlaceholder')}
                         />
                       </div>
                       <div>
-                        <Label htmlFor="hasGuarantee">Garantie disponible</Label>
+                        <Label htmlFor="hasGuarantee">{t('request.form.financingRequest.fields.hasGuarantee')}</Label>
                         <Select value={formData.hasGuarantee} onValueChange={(value) => updateFormData('hasGuarantee', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder="Sélectionnez" />
+                            <SelectValue placeholder={t('request.form.financingRequest.fields.guaranteePlaceholder')} />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="yes">Oui</SelectItem>
-                            <SelectItem value="no">Non</SelectItem>
-                            <SelectItem value="maybe">À évaluer</SelectItem>
+                            <SelectItem value="yes">{t('request.form.financingRequest.guaranteeOptions.yes')}</SelectItem>
+                            <SelectItem value="no">{t('request.form.financingRequest.guaranteeOptions.no')}</SelectItem>
+                            <SelectItem value="maybe">{t('request.form.financingRequest.guaranteeOptions.maybe')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                     </div>
 
                     <div>
-                      <Label htmlFor="purpose">Objet du financement *</Label>
+                      <Label htmlFor="purpose">{t('request.form.financingRequest.fields.purpose')} *</Label>
                       <Textarea
                         id="purpose"
                         value={formData.purpose}
                         onChange={(e) => updateFormData('purpose', e.target.value)}
-                        placeholder="Décrivez brièvement votre projet..."
+                        placeholder={t('request.form.financingRequest.fields.purposePlaceholder')}
                         rows={4}
                         required
                       />
@@ -562,7 +562,7 @@ const Request = () => {
                   <CardHeader>
                     <CardTitle className="text-xl font-bold text-primary flex items-center gap-2">
                       <CheckCircle className="h-5 w-5" />
-                      Validation et Envoi
+                      {t('request.form.validation.title')}
                     </CardTitle>
                   </CardHeader>
                   
@@ -633,13 +633,13 @@ const Request = () => {
                 <CardHeader>
                   <CardTitle className="text-lg font-bold text-primary flex items-center gap-2">
                     <Upload className="h-5 w-5" />
-                    Documents requis
+                    {t('request.sidebar.documents.title')}
                   </CardTitle>
                 </CardHeader>
                 
                 <CardContent>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Préparez ces documents pour accélérer le traitement :
+                    {t('request.sidebar.documents.subtitle')}
                   </p>
                   <ul className="space-y-2">
                     {requiredDocuments.map((doc, index) => (
@@ -656,21 +656,21 @@ const Request = () => {
               <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5">
                 <CardHeader>
                   <CardTitle className="text-lg font-bold text-primary">
-                    Besoin d'aide ?
+                    {t('request.sidebar.help.title')}
                   </CardTitle>
                 </CardHeader>
                 
                 <CardContent className="space-y-4">
                   <div className="text-center">
                     <Phone className="h-8 w-8 text-primary mx-auto mb-2" />
-                    <div className="font-semibold text-primary">+49 40 710 97523</div>
-                    <div className="text-sm text-muted-foreground">Lun-Ven: 8h-19h</div>
+                    <div className="font-semibold text-primary">{t('request.sidebar.help.phone')}</div>
+                    <div className="text-sm text-muted-foreground">{t('request.sidebar.help.schedule')}</div>
                   </div>
                   
                   <Button variant="outline" className="w-full" asChild>
                     <a href="/contact">
                       <Mail className="h-4 w-4 mr-2" />
-                      Nous contacter
+                      {t('request.sidebar.help.contactButton')}
                     </a>
                   </Button>
                 </CardContent>
@@ -681,7 +681,7 @@ const Request = () => {
                 <CardHeader>
                   <CardTitle className="text-lg font-bold text-primary flex items-center gap-2">
                     <Shield className="h-5 w-5" />
-                    Sécurité garantie
+                    {t('request.sidebar.security.title')}
                   </CardTitle>
                 </CardHeader>
                 
@@ -689,15 +689,15 @@ const Request = () => {
                   <div className="space-y-3 text-sm text-muted-foreground">
                     <div className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-emerald-500" />
-                      <span>Données chiffrées SSL</span>
+                      <span>{t('request.sidebar.security.features.0')}</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-emerald-500" />
-                      <span>Conformité RGPD</span>
+                      <span>{t('request.sidebar.security.features.1')}</span>
                     </div>
                     <div className="flex items-center gap-2">
                       <CheckCircle className="h-4 w-4 text-emerald-500" />
-                      <span>Aucune utilisation commerciale</span>
+                      <span>{t('request.sidebar.security.features.2')}</span>
                     </div>
                   </div>
                 </CardContent>
