@@ -1243,24 +1243,72 @@ const translations = {
         sinceLabel: "Seit"
       },
       contact: {
-        title: "Besuchen Sie uns",
-        subtitle: "Unsere Büros empfangen Sie im Herzen von Hamburg",
-        address: {
-          title: "Adresse",
-          value: ["Irma-Keilhack-Ring 24", "22145 Hamburg", "Deutschland"]
+        title: "Kontakt",
+        phone: "Telefon",
+        email: "E-Mail",
+        hours: "Öffnungszeiten",
+        schedule: "Mo-Fr 8-19 Uhr, Sa 9-17 Uhr",
+        hero: {
+          badge: "Support Excellence",
+          title: "Kontaktieren Sie Unsere",
+          titleSpan: "Experten",
+          subtitle: "Unser engagiertes Team begleitet Sie bei jedem Schritt Ihres Finanzprojekts. Mehrere Kontaktmöglichkeiten nach Ihren Wünschen.",
+          stats: {
+            satisfaction: "Kundenzufriedenheit",
+            responseTime: "Durchschnittliche Antwortzeit",
+            experts: "Expertenberater"
+          }
         },
-        phone: {
-          title: "Telefon",
-          value: "+49 40 710 97523",
-          schedule: ["Mo-Fr: 8-19 Uhr", "Sa: 9-17 Uhr"]
+        methods: {
+          title: "Wie Sie Uns Erreichen",
+          subtitle: "Wählen Sie den für Sie besten Kanal",
+          phone: {
+            title: "Telefon",
+            description: "Sprechen Sie direkt mit unseren Beratern",
+            value: "+49 40 710 97523",
+            hours: "Mo-Fr: 8-19 Uhr, Sa: 9-17 Uhr"
+          },
+          email: {
+            title: "E-Mail",
+            description: "Senden Sie uns Ihre Fragen",
+            value: "contact@aurex-kpital.de",
+            hours: "Antwort in durchschnittlich 4h"
+          },
+          address: {
+            title: "Adresse", 
+            description: "Besuchen Sie unsere Büros in Hamburg",
+            value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
+            hours: "Nur nach Terminvereinbarung"
+          }
         },
-        email: {
-          title: "E-Mail",
-          values: ["contact@aurex-kpital.de", "info@aurex-kpital.de", "support@aurex-kpital.de"]
-        },
-        buttons: {
-          appointment: "Termin vereinbaren",
-          customRequest: "Individuelle Anfrage"
+        form: {
+          title: "Nachricht Senden",
+          subtitle: "Füllen Sie dieses Formular aus und wir kontaktieren Sie schnell",
+          fields: {
+            name: "Vollständiger Name",
+            email: "E-Mail-Adresse",
+            phone: "Telefon", 
+            subject: "Betreff",
+            message: "Ihre Nachricht",
+            preferredContact: "Bevorzugter Kontaktweg",
+            urgency: "Dringlichkeitsstufe"
+          },
+          options: {
+            preferredContact: {
+              phone: "Telefon",
+              email: "E-Mail",
+              meeting: "Termin"
+            },
+            urgency: {
+              low: "Nicht dringend",
+              normal: "Normal",
+              high: "Dringend",
+              critical: "Sehr dringend"
+            }
+          },
+          submitButton: "Nachricht senden",
+          successMessage: "Ihre Nachricht wurde erfolgreich gesendet! Wir kontaktieren Sie schnell.",
+          commitment: "Wir verpflichten uns, Ihnen innerhalb von 24h zu antworten"
         }
       }
     }
@@ -1800,9 +1848,73 @@ const translations = {
           contact: "Contáctanos"
         },
         contact: {
+          title: "Contacto",
           phone: "Teléfono",
-          address: "Dirección",
-          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+          email: "Email",
+          hours: "Horarios",
+          schedule: "Lunes-Viernes 8h-19h, Sábado 9h-17h",
+          hero: {
+            badge: "Excelencia en Soporte",
+            title: "Contacta con Nuestros",
+            titleSpan: "Expertos",
+            subtitle: "Nuestro equipo dedicado te acompaña en cada paso de tu proyecto financiero. Varias formas de contactarnos según tus preferencias.",
+            stats: {
+              satisfaction: "Satisfacción del cliente",
+              responseTime: "Tiempo de respuesta promedio",
+              experts: "Asesores expertos"
+            }
+          },
+          methods: {
+            title: "Cómo Contactarnos",
+            subtitle: "Elige el canal que mejor te convenga",
+            phone: {
+              title: "Teléfono",
+              description: "Habla directamente con nuestros asesores",
+              value: "+49 40 710 97523",
+              hours: "Lun-Vie: 8h-19h, Sáb: 9h-17h"
+            },
+            email: {
+              title: "Email",
+              description: "Envíanos tus preguntas",
+              value: "contact@aurex-kpital.de",
+              hours: "Respuesta en 4h en promedio"
+            },
+            address: {
+              title: "Dirección", 
+              description: "Visita nuestras oficinas en Hamburgo",
+              value: "Irma-Keilhack-Ring 24, 22145 Hamburgo",
+              hours: "Solo con cita previa"
+            }
+          },
+          form: {
+            title: "Enviar un Mensaje",
+            subtitle: "Completa este formulario y te contactaremos rápidamente",
+            fields: {
+              name: "Nombre completo",
+              email: "Dirección de email",
+              phone: "Teléfono", 
+              subject: "Asunto",
+              message: "Tu mensaje",
+              preferredContact: "Medio de contacto preferido",
+              urgency: "Nivel de urgencia"
+            },
+            options: {
+              preferredContact: {
+                phone: "Teléfono",
+                email: "Email",
+                meeting: "Reunión"
+              },
+              urgency: {
+                low: "No urgente",
+                normal: "Normal",
+                high: "Urgente",
+                critical: "Muy urgente"
+              }
+            },
+            submitButton: "Enviar mensaje",
+            successMessage: "¡Tu mensaje ha sido enviado con éxito! Te contactaremos rápidamente.",
+            commitment: "Nos comprometemos a responderte en 24h"
+          }
         }
       }
     },
