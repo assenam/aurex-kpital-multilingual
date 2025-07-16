@@ -11,17 +11,17 @@ import { ChevronDown } from 'lucide-react';
 
 const languages = [
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'en', name: 'English', flag: '🇬🇧' },
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
-  { code: 'pt', name: 'Português', flag: '🇵🇹' },
-  { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
   { code: 'pl', name: 'Polski', flag: '🇵🇱' },
+  { code: 'fi', name: 'Suomi', flag: '🇫🇮' },
+  { code: 'es', name: 'Español', flag: '🇪🇸' },
+  { code: 'pt', name: 'Português', flag: '🇵🇹' },
+  { code: 'el', name: 'Ελληνικά', flag: '🇬🇷' },
+  { code: 'it', name: 'Italiano', flag: '🇮🇹' },
 ];
 
 export const LanguageSelector = () => {
-  const { language, setLanguage } = useTranslation();
+  const { language, changeLanguage } = useTranslation();
   const [currentLang, setCurrentLang] = useState(() => {
     return languages.find(lang => lang.code === language) || languages[0];
   });
@@ -33,7 +33,7 @@ export const LanguageSelector = () => {
 
   const handleLanguageChange = (selectedLanguage: typeof languages[0]) => {
     setCurrentLang(selectedLanguage);
-    setLanguage(selectedLanguage.code as any);
+    changeLanguage(selectedLanguage.code as any);
   };
 
   return (
