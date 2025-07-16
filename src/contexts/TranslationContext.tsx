@@ -522,6 +522,190 @@ const translations = {
       careers: "Carreras",
       partners: "Partners",
       blog: "Blog"
+    },
+    request: {
+      hero: {
+        badge: "Solicitud de Financiación",
+        title: "Su proyecto merece",
+        titleHighlight: "la mejor financiación",
+        subtitle: "Obtenga una respuesta personalizada en 24h gracias a nuestra IA avanzada y la experiencia de nuestros asesores",
+        stats: {
+          responseTime: { value: "24h", label: "Respuesta garantizada" },
+          security: { value: "100%", label: "Seguro RGPD" },
+          expert: { value: "24/7", label: "Soporte experto" }
+        }
+      },
+      steps: [
+        { title: "Información", description: "Sus datos personales" },
+        { title: "Proyecto", description: "Detalles de financiación" },
+        { title: "Análisis", description: "Estudio personalizado" },
+        { title: "Respuesta", description: "Propuesta a medida" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Información personal",
+          subtitle: "Introduzca sus datos básicos para comenzar su solicitud",
+          fields: {
+            firstName: "Nombre",
+            lastName: "Apellidos",
+            email: "Dirección de email",
+            emailConfirmation: "Confirmar email",
+            emailConfirmationPlaceholder: "Vuelva a introducir su dirección de email",
+            phone: "Teléfono",
+            birthDate: "Fecha de nacimiento",
+            nationality: "Nacionalidad",
+            nationalityPlaceholder: "Seleccione su nacionalidad",
+            otherNationality: "Otra nacionalidad",
+            maritalStatus: "Estado civil",
+            maritalStatusPlaceholder: "Seleccione su situación",
+            dependents: "Número de personas a cargo"
+          },
+          validation: {
+            emailMismatch: "Las direcciones de email no coinciden",
+            emailConfirmed: "Direcciones de email confirmadas"
+          },
+          maritalStatusOptions: {
+            single: "Soltero/a",
+            married: "Casado/a",
+            divorced: "Divorciado/a",
+            widowed: "Viudo/a",
+            partnership: "Pareja de hecho"
+          }
+        },
+        professionalInfo: {
+          title: "Situación profesional",
+          subtitle: "Información sobre su actividad profesional e ingresos",
+          fields: {
+            employmentStatus: "Estatus profesional",
+            employmentStatusPlaceholder: "Su situación profesional",
+            profession: "Profesión",
+            company: "Empresa",
+            position: "Puesto ocupado",
+            employer: "Empleador",
+            employmentDuration: "Antigüedad en el empleo",
+            workExperience: "Experiencia profesional",
+            monthlyIncome: "Ingresos mensuales netos (€)",
+            additionalIncome: "Otros ingresos mensuales (€)"
+          },
+          employmentOptions: {
+            employee: "Empleado/a",
+            selfEmployed: "Autónomo/a",
+            business: "Empresario/a",
+            manager: "Directivo/a",
+            retired: "Jubilado/a",
+            student: "Estudiante",
+            unemployed: "Desempleado/a"
+          }
+        },
+        financingRequest: {
+          title: "Solicitud de financiación",
+          subtitle: "Especifique los detalles de su proyecto de financiación",
+          fields: {
+            loanType: "Tipo de préstamo",
+            loanTypePlaceholder: "Elija el tipo de financiación",
+            amount: "Importe deseado (€)",
+            duration: "Duración de reembolso (meses)",
+            purpose: "Objeto de la financiación",
+            purposePlaceholder: "Describa el uso de los fondos",
+            hasGuarantee: "¿Tiene una garantía?",
+            guaranteePlaceholder: "Seleccione una opción"
+          },
+          loanTypes: {
+            personal: "Préstamo personal",
+            auto: "Crédito auto",
+            home: "Préstamo hipotecario",
+            business: "Financiación empresarial",
+            consolidation: "Reunificación de créditos"
+          },
+          guaranteeOptions: {
+            yes: "Sí",
+            no: "No",
+            discuss: "A discutir"
+          }
+        },
+        validation: {
+          title: "Validación y documentos",
+          subtitle: "Finalice su solicitud",
+          fields: {
+            hasRequiredDocs: "Confirmo tener los documentos requeridos",
+            acceptsTerms: "Acepto las condiciones generales",
+            acceptsMarketing: "Acepto recibir información comercial"
+          },
+          submitButton: "Enviar mi solicitud",
+          qualityCommitment: "Compromiso de calidad: Nos comprometemos a contactarle en 24h para estudiar su solicitud y proponerle una solución adaptada."
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Documentos requeridos",
+          subtitle: "Prepare estos documentos para acelerar su solicitud",
+          list: [
+            "Documento de identidad en vigor",
+            "Justificantes de ingresos (3 últimas nóminas)",
+            "Extractos bancarios (3 últimos meses)",
+            "Justificante de domicilio reciente",
+            "Compromiso de compraventa (si inmobiliario)"
+          ]
+        },
+        help: {
+          title: "¿Necesita ayuda?",
+          subtitle: "Nuestros expertos están para acompañarle",
+          phone: "+34 91 123 45 67",
+          schedule: "Lun-Vie 8h-19h"
+        },
+        security: {
+          title: "Seguridad garantizada",
+          features: [
+            "Cifrado SSL 256 bits",
+            "Conformidad RGPD",
+            "Datos protegidos"
+          ]
+        }
+      }
+    },
+    contact: {
+      hero: {
+        title: "Contacte a nuestros",
+        titleSpan: "Expertos",
+        subtitle: "Un equipo dedicado para acompañarle en todos sus proyectos financieros",
+        stats: {
+          responseTime: "Respuesta en 2h",
+          experts: "Expertos disponibles"
+        }
+      },
+      methods: {
+        title: "Medios de contacto",
+        subtitle: "Elija el canal que mejor le convenga para hablar con nuestros asesores",
+        phone: {
+          title: "Teléfono",
+          description: "Llámenos para un consejo inmediato",
+          value: "+34 91 123 45 67",
+          hours: "Lun-Vie 8h-19h, Sáb 9h-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Escríbanos, respondemos rápidamente",
+          value: "contacto@aurex-kpital.es",
+          hours: "Respuesta en 2h en promedio"
+        },
+        address: {
+          title: "Dirección",
+          description: "Encuéntrenos en nuestras oficinas",
+          value: "Paseo de la Castellana 95, 28046 Madrid",
+          hours: "Solo con cita previa"
+        }
+      },
+      form: {
+        title: "Envíenos un mensaje",
+        fields: {
+          name: "Nombre y apellidos",
+          email: "Dirección de email",
+          message: "Su mensaje"
+        },
+        submitButton: "Enviar mensaje",
+        successMessage: "¡Gracias! Su mensaje ha sido enviado con éxito. Le responderemos rápidamente.",
+        commitment: "Nos comprometemos a responder en 2 horas durante nuestro horario de oficina."
+      }
     }
   },
   it: {
@@ -536,6 +720,190 @@ const translations = {
       careers: "Carriere",
       partners: "Partner",
       blog: "Blog"
+    },
+    request: {
+      hero: {
+        badge: "Richiesta di Finanziamento",
+        title: "Il tuo progetto merita",
+        titleHighlight: "il miglior finanziamento",
+        subtitle: "Ottieni una risposta personalizzata in 24h grazie alla nostra IA avanzata e all'esperienza dei nostri consulenti",
+        stats: {
+          responseTime: { value: "24h", label: "Risposta garantita" },
+          security: { value: "100%", label: "Sicuro GDPR" },
+          expert: { value: "24/7", label: "Supporto esperto" }
+        }
+      },
+      steps: [
+        { title: "Informazioni", description: "I tuoi dati personali" },
+        { title: "Progetto", description: "Dettagli del finanziamento" },
+        { title: "Analisi", description: "Studio personalizzato" },
+        { title: "Risposta", description: "Proposta su misura" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Informazioni personali",
+          subtitle: "Inserisci le tue informazioni di base per iniziare la tua richiesta",
+          fields: {
+            firstName: "Nome",
+            lastName: "Cognome",
+            email: "Indirizzo email",
+            emailConfirmation: "Conferma email",
+            emailConfirmationPlaceholder: "Reinserisci il tuo indirizzo email",
+            phone: "Telefono",
+            birthDate: "Data di nascita",
+            nationality: "Nazionalità",
+            nationalityPlaceholder: "Seleziona la tua nazionalità",
+            otherNationality: "Altra nazionalità",
+            maritalStatus: "Stato civile",
+            maritalStatusPlaceholder: "Seleziona la tua situazione",
+            dependents: "Numero di persone a carico"
+          },
+          validation: {
+            emailMismatch: "Gli indirizzi email non corrispondono",
+            emailConfirmed: "Indirizzi email confermati"
+          },
+          maritalStatusOptions: {
+            single: "Single",
+            married: "Sposato/a",
+            divorced: "Divorziato/a",
+            widowed: "Vedovo/a",
+            partnership: "Convivenza"
+          }
+        },
+        professionalInfo: {
+          title: "Situazione professionale",
+          subtitle: "Informazioni sulla tua attività professionale e sui tuoi redditi",
+          fields: {
+            employmentStatus: "Status professionale",
+            employmentStatusPlaceholder: "La tua situazione professionale",
+            profession: "Professione",
+            company: "Azienda",
+            position: "Posizione ricoperta",
+            employer: "Datore di lavoro",
+            employmentDuration: "Anzianità di servizio",
+            workExperience: "Esperienza professionale",
+            monthlyIncome: "Reddito mensile netto (€)",
+            additionalIncome: "Altri redditi mensili (€)"
+          },
+          employmentOptions: {
+            employee: "Dipendente",
+            selfEmployed: "Lavoratore autonomo",
+            business: "Imprenditore",
+            manager: "Dirigente",
+            retired: "Pensionato",
+            student: "Studente",
+            unemployed: "Disoccupato"
+          }
+        },
+        financingRequest: {
+          title: "Richiesta di finanziamento",
+          subtitle: "Specifica i dettagli del tuo progetto di finanziamento",
+          fields: {
+            loanType: "Tipo di prestito",
+            loanTypePlaceholder: "Scegli il tipo di finanziamento",
+            amount: "Importo desiderato (€)",
+            duration: "Durata di rimborso (mesi)",
+            purpose: "Oggetto del finanziamento",
+            purposePlaceholder: "Descrivi l'uso dei fondi",
+            hasGuarantee: "Hai una garanzia?",
+            guaranteePlaceholder: "Seleziona un'opzione"
+          },
+          loanTypes: {
+            personal: "Prestito personale",
+            auto: "Credito auto",
+            home: "Mutuo casa",
+            business: "Finanziamento aziendale",
+            consolidation: "Consolidamento debiti"
+          },
+          guaranteeOptions: {
+            yes: "Sì",
+            no: "No",
+            discuss: "Da discutere"
+          }
+        },
+        validation: {
+          title: "Validazione e documenti",
+          subtitle: "Finalizza la tua richiesta",
+          fields: {
+            hasRequiredDocs: "Confermo di avere i documenti richiesti",
+            acceptsTerms: "Accetto le condizioni generali",
+            acceptsMarketing: "Accetto di ricevere informazioni commerciali"
+          },
+          submitButton: "Invia la mia richiesta",
+          qualityCommitment: "Impegno qualità: Ci impegniamo a contattarti entro 24h per studiare la tua richiesta e proporti una soluzione adatta."
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Documenti richiesti",
+          subtitle: "Prepara questi documenti per accelerare la tua richiesta",
+          list: [
+            "Documento d'identità in corso di validità",
+            "Giustificativi di reddito (3 ultime buste paga)",
+            "Estratti conto bancari (3 ultimi mesi)",
+            "Certificato di residenza recente",
+            "Compromesso di vendita (se immobiliare)"
+          ]
+        },
+        help: {
+          title: "Hai bisogno di aiuto?",
+          subtitle: "I nostri esperti sono qui per accompagnarti",
+          phone: "+39 02 1234 5678",
+          schedule: "Lun-Ven 8-19"
+        },
+        security: {
+          title: "Sicurezza garantita",
+          features: [
+            "Crittografia SSL 256 bit",
+            "Conformità GDPR",
+            "Dati protetti"
+          ]
+        }
+      }
+    },
+    contact: {
+      hero: {
+        title: "Contatta i nostri",
+        titleSpan: "Esperti",
+        subtitle: "Un team dedicato per accompagnarti in tutti i tuoi progetti finanziari",
+        stats: {
+          responseTime: "Risposta in 2h",
+          experts: "Esperti disponibili"
+        }
+      },
+      methods: {
+        title: "Mezzi di contatto",
+        subtitle: "Scegli il canale che preferisci per parlare con i nostri consulenti",
+        phone: {
+          title: "Telefono",
+          description: "Chiamaci per un consiglio immediato",
+          value: "+39 02 1234 5678",
+          hours: "Lun-Ven 8-19, Sab 9-17"
+        },
+        email: {
+          title: "Email",
+          description: "Scrivici, rispondiamo velocemente",
+          value: "contatto@aurex-kpital.it",
+          hours: "Risposta in 2h in media"
+        },
+        address: {
+          title: "Indirizzo",
+          description: "Incontraci nei nostri uffici",
+          value: "Via Monte Napoleone 8, 20121 Milano",
+          hours: "Solo su appuntamento"
+        }
+      },
+      form: {
+        title: "Inviaci un messaggio",
+        fields: {
+          name: "Nome e cognome",
+          email: "Indirizzo email",
+          message: "Il tuo messaggio"
+        },
+        submitButton: "Invia messaggio",
+        successMessage: "Grazie! Il tuo messaggio è stato inviato con successo. Ti risponderemo rapidamente.",
+        commitment: "Ci impegniamo a rispondere entro 2 ore durante i nostri orari di ufficio."
+      }
     }
   },
   pl: {
