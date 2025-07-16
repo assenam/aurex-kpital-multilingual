@@ -596,7 +596,7 @@ const translations = {
               phone: "+49 40 710 97520"
             }
           },
-          hours: {
+          schedules: {
             title: "Horaires d'Ouverture",
             weekdays: {
               day: "Lundi - Vendredi",
@@ -1615,7 +1615,7 @@ const translations = {
               phone: "+49 40 710 97520"
             }
           },
-          hours: {
+          schedules: {
             title: "Öffnungszeiten",
             weekdays: {
               day: "Montag - Freitag",
@@ -2156,7 +2156,7 @@ const translations = {
               phone: "+49 40 710 97520"
             }
           },
-          hours: {
+          schedules: {
             title: "Horarios de Apertura",
             weekdays: {
               day: "Lunes - Viernes",
