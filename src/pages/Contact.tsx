@@ -6,9 +6,11 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
+import { useTranslation } from '@/contexts/TranslationContext';
 import { Phone, Mail, MapPin, MessageCircle, Send, Sparkles } from 'lucide-react';
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -17,7 +19,7 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert('Message envoyé avec succès !');
+    alert(t('contact.form.successMessage'));
     setFormData({ name: '', email: '', message: '' });
   };
 
@@ -33,19 +35,19 @@ const Contact = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center text-primary-foreground">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              Contactez-nous
+              {t('contact.hero.title')}
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
-              Notre équipe est là pour vous accompagner
+              {t('contact.hero.subtitle')}
             </p>
             <div className="flex justify-center gap-8 text-sm">
               <div className="flex items-center gap-2">
                 <Sparkles className="h-5 w-5 text-gold" />
-                <span>Réponse rapide</span>
+                <span>{t('contact.hero.stats.responseTime')}</span>
               </div>
               <div className="flex items-center gap-2">
                 <MessageCircle className="h-5 w-5 text-gold" />
-                <span>Support expert</span>
+                <span>{t('contact.hero.stats.experts')}</span>
               </div>
             </div>
           </div>
@@ -61,10 +63,10 @@ const Contact = () => {
             <div className="space-y-8">
               <div>
                 <h2 className="text-3xl font-bold text-primary mb-6">
-                  Nos coordonnées
+                  {t('contact.methods.title')}
                 </h2>
                 <p className="text-muted-foreground text-lg">
-                  Plusieurs moyens pour nous joindre selon vos préférences
+                  {t('contact.methods.subtitle')}
                 </p>
               </div>
 
@@ -76,10 +78,10 @@ const Contact = () => {
                         <Phone className="h-6 w-6 text-primary-foreground" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-primary mb-1">Téléphone</h3>
-                        <p className="text-muted-foreground mb-2">Parlez directement à nos conseillers</p>
+                        <h3 className="font-semibold text-primary mb-1">{t('contact.phone')}</h3>
+                        <p className="text-muted-foreground mb-2">{t('contact.methods.phone.description')}</p>
                         <p className="font-medium">+49 40 710 97523</p>
-                        <p className="text-sm text-muted-foreground">Lun-Ven: 8h-19h</p>
+                        <p className="text-sm text-muted-foreground">{t('contact.schedule')}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -92,10 +94,10 @@ const Contact = () => {
                         <Mail className="h-6 w-6 text-primary-foreground" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-primary mb-1">Email</h3>
-                        <p className="text-muted-foreground mb-2">Envoyez-nous vos questions</p>
+                        <h3 className="font-semibold text-primary mb-1">{t('contact.email')}</h3>
+                        <p className="text-muted-foreground mb-2">{t('contact.methods.email.description')}</p>
                         <p className="font-medium">contact@aurex-kpital.de</p>
-                        <p className="text-sm text-muted-foreground">Réponse sous 4h</p>
+                        <p className="text-sm text-muted-foreground">{t('contact.methods.email.response')}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -108,8 +110,8 @@ const Contact = () => {
                         <MapPin className="h-6 w-6 text-primary" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-primary mb-1">Adresse</h3>
-                        <p className="text-muted-foreground mb-2">Visitez nos bureaux</p>
+                        <h3 className="font-semibold text-primary mb-1">{t('contact.address')}</h3>
+                        <p className="text-muted-foreground mb-2">{t('contact.methods.address.description')}</p>
                         <p className="font-medium">Irma-Keilhack-Ring 24</p>
                         <p className="font-medium">22145 Hamburg, Deutschland</p>
                       </div>
@@ -125,7 +127,7 @@ const Contact = () => {
                 <CardHeader className="text-center">
                   <CardTitle className="text-2xl font-bold text-primary flex items-center justify-center gap-2">
                     <MessageCircle className="h-6 w-6" />
-                    Envoyez-nous un message
+                    {t('contact.form.title')}
                   </CardTitle>
                 </CardHeader>
                 
@@ -133,21 +135,21 @@ const Contact = () => {
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
                       <Label htmlFor="name" className="text-base font-medium">
-                        Nom complet *
+                        {t('contact.form.name')} *
                       </Label>
                       <Input
                         id="name"
                         value={formData.name}
                         onChange={(e) => setFormData({...formData, name: e.target.value})}
                         className="mt-2 h-12"
-                        placeholder="Votre nom"
+                        placeholder={t('contact.form.placeholders.name')}
                         required
                       />
                     </div>
 
                     <div>
                       <Label htmlFor="email" className="text-base font-medium">
-                        Email *
+                        {t('contact.email')} *
                       </Label>
                       <Input
                         id="email"
@@ -155,21 +157,21 @@ const Contact = () => {
                         value={formData.email}
                         onChange={(e) => setFormData({...formData, email: e.target.value})}
                         className="mt-2 h-12"
-                        placeholder="votre@email.com"
+                        placeholder={t('contact.form.placeholders.email')}
                         required
                       />
                     </div>
 
                     <div>
                       <Label htmlFor="message" className="text-base font-medium">
-                        Votre message *
+                        {t('contact.form.message')} *
                       </Label>
                       <Textarea
                         id="message"
                         value={formData.message}
                         onChange={(e) => setFormData({...formData, message: e.target.value})}
                         className="mt-2 min-h-[120px] resize-none"
-                        placeholder="Décrivez votre demande..."
+                        placeholder={t('contact.form.placeholders.message')}
                         required
                       />
                     </div>
@@ -179,11 +181,11 @@ const Contact = () => {
                       className="w-full h-12 bg-gradient-primary hover:shadow-lg transition-all duration-300 text-lg font-medium"
                     >
                       <Send className="h-5 w-5 mr-2" />
-                      Envoyer le message
+                      {t('contact.form.submitButton')}
                     </Button>
 
                     <div className="text-center text-sm text-muted-foreground">
-                      <p>Nous nous engageons à vous répondre sous 24h</p>
+                      <p>{t('contact.form.commitment')}</p>
                     </div>
                   </form>
                 </CardContent>
