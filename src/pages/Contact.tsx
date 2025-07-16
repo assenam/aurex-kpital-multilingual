@@ -35,7 +35,7 @@ const Contact = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl mx-auto text-center text-primary-foreground">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
-              {t('contact.hero.title')}
+              {t('contact.hero.title')} <span className="text-gold">{t('contact.hero.titleSpan')}</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90">
               {t('contact.hero.subtitle')}
@@ -78,10 +78,10 @@ const Contact = () => {
                         <Phone className="h-6 w-6 text-primary-foreground" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-primary mb-1">{t('contact.phone')}</h3>
+                        <h3 className="font-semibold text-primary mb-1">{t('contact.methods.phone.title')}</h3>
                         <p className="text-muted-foreground mb-2">{t('contact.methods.phone.description')}</p>
-                        <p className="font-medium">+49 40 710 97523</p>
-                        <p className="text-sm text-muted-foreground">{t('contact.schedule')}</p>
+                        <p className="font-medium">{t('contact.methods.phone.value')}</p>
+                        <p className="text-sm text-muted-foreground">{t('contact.methods.phone.hours')}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -94,10 +94,10 @@ const Contact = () => {
                         <Mail className="h-6 w-6 text-primary-foreground" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-primary mb-1">{t('contact.email')}</h3>
+                        <h3 className="font-semibold text-primary mb-1">{t('contact.methods.email.title')}</h3>
                         <p className="text-muted-foreground mb-2">{t('contact.methods.email.description')}</p>
-                        <p className="font-medium">contact@aurex-kpital.de</p>
-                        <p className="text-sm text-muted-foreground">{t('contact.methods.email.response')}</p>
+                        <p className="font-medium">{t('contact.methods.email.value')}</p>
+                        <p className="text-sm text-muted-foreground">{t('contact.methods.email.hours')}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -110,10 +110,10 @@ const Contact = () => {
                         <MapPin className="h-6 w-6 text-primary" />
                       </div>
                       <div>
-                        <h3 className="font-semibold text-primary mb-1">{t('contact.address')}</h3>
+                        <h3 className="font-semibold text-primary mb-1">{t('contact.methods.address.title')}</h3>
                         <p className="text-muted-foreground mb-2">{t('contact.methods.address.description')}</p>
-                        <p className="font-medium">Irma-Keilhack-Ring 24</p>
-                        <p className="font-medium">22145 Hamburg, Deutschland</p>
+                        <p className="font-medium">{t('contact.methods.address.value')}</p>
+                        <p className="text-sm text-muted-foreground">{t('contact.methods.address.hours')}</p>
                       </div>
                     </div>
                   </CardContent>
@@ -135,21 +135,21 @@ const Contact = () => {
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div>
                       <Label htmlFor="name" className="text-base font-medium">
-                        {t('contact.form.name')} *
+                        {t('contact.form.fields.name')} *
                       </Label>
                       <Input
                         id="name"
                         value={formData.name}
                         onChange={(e) => setFormData({...formData, name: e.target.value})}
                         className="mt-2 h-12"
-                        placeholder={t('contact.form.placeholders.name')}
+                        placeholder={t('contact.form.fields.name')}
                         required
                       />
                     </div>
 
                     <div>
                       <Label htmlFor="email" className="text-base font-medium">
-                        {t('contact.email')} *
+                        {t('contact.form.fields.email')} *
                       </Label>
                       <Input
                         id="email"
@@ -157,21 +157,21 @@ const Contact = () => {
                         value={formData.email}
                         onChange={(e) => setFormData({...formData, email: e.target.value})}
                         className="mt-2 h-12"
-                        placeholder={t('contact.form.placeholders.email')}
+                        placeholder={t('contact.form.fields.email')}
                         required
                       />
                     </div>
 
                     <div>
                       <Label htmlFor="message" className="text-base font-medium">
-                        {t('contact.form.message')} *
+                        {t('contact.form.fields.message')} *
                       </Label>
                       <Textarea
                         id="message"
                         value={formData.message}
                         onChange={(e) => setFormData({...formData, message: e.target.value})}
                         className="mt-2 min-h-[120px] resize-none"
-                        placeholder={t('contact.form.placeholders.message')}
+                        placeholder={t('contact.form.fields.message')}
                         required
                       />
                     </div>

@@ -565,8 +565,9 @@ const translations = {
                 other: "Autre"
               }
             },
-            button: "Envoyer le message",
-            success: "Votre message a été envoyé avec succès ! Nous vous contacterons rapidement."
+            submitButton: "Envoyer le message",
+            successMessage: "Votre message a été envoyé avec succès ! Nous vous contacterons rapidement.",
+            commitment: "Nous nous engageons à vous répondre sous 24h"
           },
           departments: {
             title: "Nos Services",
@@ -1584,8 +1585,9 @@ const translations = {
                 other: "Sonstiges"
               }
             },
-            button: "Nachricht senden",
-            success: "Ihre Nachricht wurde erfolgreich gesendet! Wir werden Sie schnell kontaktieren."
+            submitButton: "Nachricht senden",
+            successMessage: "Ihre Nachricht wurde erfolgreich gesendet! Wir werden Sie schnell kontaktieren.",
+            commitment: "Wir verpflichten uns, Ihnen innerhalb von 24h zu antworten"
           },
           departments: {
             title: "Unsere Services",
@@ -2125,8 +2127,9 @@ const translations = {
                 other: "Otro"
               }
             },
-            button: "Enviar mensaje",
-            success: "¡Su mensaje ha sido enviado con éxito! Le contactaremos rápidamente."
+            submitButton: "Enviar mensaje",
+            successMessage: "¡Su mensaje ha sido enviado con éxito! Le contactaremos rápidamente.",
+            commitment: "Nos comprometemos a responderle en 24h"
           },
           departments: {
             title: "Nuestros Servicios",
@@ -2496,7 +2499,60 @@ const translations = {
           contact: "Contattaci"
         },
         contact: {
+          title: "Contatto",
           phone: "Telefono",
+          email: "Email",
+          hours: "Orari",
+          schedule: "Lunedì-Venerdì 8h-19h, Sabato 9h-17h",
+          hero: {
+            badge: "Eccellenza nel Supporto",
+            title: "Contattate i Nostri",
+            titleSpan: "Esperti",
+            subtitle: "Il nostro team dedicato vi accompagna in ogni fase del vostro progetto finanziario. Diversi modi per contattarci secondo le vostre preferenze.",
+            stats: {
+              satisfaction: "Soddisfazione clienti",
+              responseTime: "Tempo di risposta medio",
+              experts: "Consulenti esperti"
+            }
+          },
+          methods: {
+            title: "Come Contattarci",
+            subtitle: "Scegliete il canale che vi conviene di più",
+            phone: {
+              title: "Telefono",
+              description: "Parlate direttamente con i nostri consulenti",
+              value: "+49 40 710 97523",
+              hours: "Lun-Ven: 8h-19h, Sab: 9h-17h"
+            },
+            email: {
+              title: "Email",
+              description: "Inviateci le vostre domande",
+              value: "contact@aurex-kpital.de",
+              hours: "Risposta in 4h in media"
+            },
+            address: {
+              title: "Indirizzo", 
+              description: "Visitate i nostri uffici ad Amburgo",
+              value: "Irma-Keilhack-Ring 24, 22145 Amburgo",
+              hours: "Solo su appuntamento"
+            }
+          },
+          form: {
+            title: "Inviate un Messaggio",
+            subtitle: "Compilate questo modulo e vi contatteremo rapidamente",
+            fields: {
+              name: "Nome completo",
+              email: "Indirizzo email",
+              phone: "Telefono", 
+              subject: "Oggetto",
+              message: "Il vostro messaggio",
+              preferredContact: "Modo di contatto preferito",
+              urgency: "Livello di urgenza"
+            },
+            submitButton: "Invia messaggio",
+            successMessage: "Il vostro messaggio è stato inviato con successo! Vi contatteremo rapidamente.",
+            commitment: "Ci impegniamo a rispondervi entro 24h"
+          },
           address: "Indirizzo",
           addressValue: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
         }
@@ -2991,7 +3047,60 @@ const translations = {
           contact: "Skontaktuj się"
         },
         contact: {
+          title: "Kontakt",
           phone: "Telefon",
+          email: "Email",
+          hours: "Godziny",
+          schedule: "Poniedziałek-Piątek 8h-19h, Sobota 9h-17h",
+          hero: {
+            badge: "Doskonałość Wsparcia",
+            title: "Skontaktuj się z Naszymi",
+            titleSpan: "Ekspertami",
+            subtitle: "Nasz zespół towarzyszy Państwu na każdym etapie projektu finansowego. Kilka sposobów kontaktu według Państwa preferencji.",
+            stats: {
+              satisfaction: "Satysfakcja klientów",
+              responseTime: "Średni czas odpowiedzi",
+              experts: "Doradcy eksperci"
+            }
+          },
+          methods: {
+            title: "Jak się z nami skontaktować",
+            subtitle: "Wybierz kanał, który Ci odpowiada",
+            phone: {
+              title: "Telefon",
+              description: "Rozmawiaj bezpośrednio z naszymi doradcami",
+              value: "+49 40 710 97523",
+              hours: "Pon-Pią: 8h-19h, Sob: 9h-17h"
+            },
+            email: {
+              title: "Email",
+              description: "Wyślij nam swoje pytania",
+              value: "contact@aurex-kpital.de",
+              hours: "Odpowiedź w 4h średnio"
+            },
+            address: {
+              title: "Adres", 
+              description: "Odwiedź nasze biura w Hamburgu",
+              value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
+              hours: "Tylko po umówieniu"
+            }
+          },
+          form: {
+            title: "Wyślij nam wiadomość",
+            subtitle: "Wypełnij ten formularz, a skontaktujemy się z Tobą szybko",
+            fields: {
+              name: "Imię i nazwisko",
+              email: "Adres email",
+              phone: "Telefon", 
+              subject: "Temat",
+              message: "Twoja wiadomość",
+              preferredContact: "Preferowany sposób kontaktu",
+              urgency: "Poziom pilności"
+            },
+            submitButton: "Wyślij wiadomość",
+            successMessage: "Twoja wiadomość została wysłana pomyślnie! Skontaktujemy się z Tobą szybko.",
+            commitment: "Zobowiązujemy się odpowiedzieć w ciągu 24h"
+          },
           address: "Adres",
           addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
         }
@@ -3347,7 +3456,60 @@ const translations = {
           contact: "Ota yhteyttä"
         },
         contact: {
+          title: "Yhteystiedot",
           phone: "Puhelin",
+          email: "Sähköposti",
+          hours: "Aukioloajat",
+          schedule: "Maanantai-Perjantai 8h-19h, Lauantai 9h-17h",
+          hero: {
+            badge: "Tuen Huippuosaaminen",
+            title: "Ota yhteyttä",
+            titleSpan: "Asiantuntijoihimme",
+            subtitle: "Tiimimme on mukana jokaisessa rahoitusprojektinne vaiheessa. Useita tapoja ottaa yhteyttä mieltymystenne mukaan.",
+            stats: {
+              satisfaction: "Asiakastyytyväisyys",
+              responseTime: "Keskimääräinen vastausaika",
+              experts: "Asiantuntijakonsultit"
+            }
+          },
+          methods: {
+            title: "Kuinka ottaa meihin yhteyttä",
+            subtitle: "Valitse sinulle sopiva kanava",
+            phone: {
+              title: "Puhelin",
+              description: "Keskustele suoraan konsulttiemme kanssa",
+              value: "+49 40 710 97523",
+              hours: "Ma-Pe: 8h-19h, La: 9h-17h"
+            },
+            email: {
+              title: "Sähköposti",
+              description: "Lähetä meille kysymyksesi",
+              value: "contact@aurex-kpital.de",
+              hours: "Vastaus 4h:ssa keskimäärin"
+            },
+            address: {
+              title: "Osoite", 
+              description: "Vieraile toimistossamme Hampurissa",
+              value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
+              hours: "Vain sopimuksella"
+            }
+          },
+          form: {
+            title: "Lähetä meille viesti",
+            subtitle: "Täytä tämä lomake, niin otamme yhteyttä nopeasti",
+            fields: {
+              name: "Koko nimi",
+              email: "Sähköpostiosoite",
+              phone: "Puhelin", 
+              subject: "Aihe",
+              message: "Viestisi",
+              preferredContact: "Ensisijainen yhteydenottotapa",
+              urgency: "Kiireellisyysaste"
+            },
+            submitButton: "Lähetä viesti",
+            successMessage: "Viestisi on lähetetty onnistuneesti! Otamme yhteyttä nopeasti.",
+            commitment: "Sitoudumme vastaamaan 24h sisällä"
+          },
           address: "Osoite",
           addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Saksa"
         }
@@ -3703,7 +3865,60 @@ const translations = {
           contact: "Contactar-nos"
         },
         contact: {
+          title: "Contacto",
           phone: "Telefone",
+          email: "Email",
+          hours: "Horários",
+          schedule: "Segunda-Sexta 8h-19h, Sábado 9h-17h",
+          hero: {
+            badge: "Excelência no Suporte",
+            title: "Contacte os Nossos",
+            titleSpan: "Especialistas",
+            subtitle: "A nossa equipa acompanha-o em cada etapa do seu projeto financeiro. Várias formas de nos contactar segundo as suas preferências.",
+            stats: {
+              satisfaction: "Satisfação dos clientes",
+              responseTime: "Tempo médio de resposta",
+              experts: "Consultores especializados"
+            }
+          },
+          methods: {
+            title: "Como nos contactar",
+            subtitle: "Escolha o canal que lhe convém",
+            phone: {
+              title: "Telefone",
+              description: "Fale directamente com os nossos consultores",
+              value: "+49 40 710 97523",
+              hours: "Seg-Sex: 8h-19h, Sáb: 9h-17h"
+            },
+            email: {
+              title: "Email",
+              description: "Envie-nos as suas questões",
+              value: "contact@aurex-kpital.de",
+              hours: "Resposta em 4h em média"
+            },
+            address: {
+              title: "Morada", 
+              description: "Visite os nossos escritórios em Hamburgo",
+              value: "Irma-Keilhack-Ring 24, 22145 Hamburgo",
+              hours: "Apenas com marcação"
+            }
+          },
+          form: {
+            title: "Envie-nos uma mensagem",
+            subtitle: "Preencha este formulário e contactá-lo-emos rapidamente",
+            fields: {
+              name: "Nome completo",
+              email: "Endereço de email",
+              phone: "Telefone", 
+              subject: "Assunto",
+              message: "A sua mensagem",
+              preferredContact: "Meio de contacto preferido",
+              urgency: "Nível de urgência"
+            },
+            submitButton: "Enviar mensagem",
+            successMessage: "A sua mensagem foi enviada com sucesso! Contactá-lo-emos rapidamente.",
+            commitment: "Comprometemo-nos a responder em 24h"
+          },
           address: "Morada",
           addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
         }
@@ -4058,10 +4273,63 @@ const translations = {
            simulate: "Προσομοίωση δανείου",
            contact: "Επικοινωνήστε μαζί μας"
          },
-         contact: {
-           phone: "Τηλέφωνο",
-           address: "Διεύθυνση",
-           addressValue: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
+        contact: {
+          title: "Επικοινωνία",
+          phone: "Τηλέφωνο",
+          email: "Email",
+          hours: "Ώρες",
+          schedule: "Δευτέρα-Παρασκευή 8h-19h, Σάββατο 9h-17h",
+          hero: {
+            badge: "Αριστεία Υποστήριξης",
+            title: "Επικοινωνήστε με τους",
+            titleSpan: "Ειδικούς μας",
+            subtitle: "Η ομάδα μας σας συνοδεύει σε κάθε βήμα του χρηματοοικονομικού σας έργου. Διάφοροι τρόποι επικοινωνίας σύμφωνα με τις προτιμήσεις σας.",
+            stats: {
+              satisfaction: "Ικανοποίηση πελατών",
+              responseTime: "Μέσος χρόνος απάντησης",
+              experts: "Σύμβουλοι ειδικοί"
+            }
+          },
+          methods: {
+            title: "Πώς να επικοινωνήσετε μαζί μας",
+            subtitle: "Επιλέξτε το κανάλι που σας εξυπηρετεί",
+            phone: {
+              title: "Τηλέφωνο",
+              description: "Μιλήστε απευθείας με τους συμβούλους μας",
+              value: "+49 40 710 97523",
+              hours: "Δευ-Παρ: 8h-19h, Σάβ: 9h-17h"
+            },
+            email: {
+              title: "Email",
+              description: "Στείλτε μας τις ερωτήσεις σας",
+              value: "contact@aurex-kpital.de",
+              hours: "Απάντηση σε 4h κατά μέσο όρο"
+            },
+            address: {
+              title: "Διεύθυνση", 
+              description: "Επισκεφθείτε τα γραφεία μας στο Αμβούργο",
+              value: "Irma-Keilhack-Ring 24, 22145 Αμβούργο",
+              hours: "Μόνο με ραντεβού"
+            }
+          },
+          form: {
+            title: "Στείλτε μας μήνυμα",
+            subtitle: "Συμπληρώστε αυτή τη φόρμα και θα επικοινωνήσουμε γρήγορα",
+            fields: {
+              name: "Πλήρες όνομα",
+              email: "Διεύθυνση email",
+              phone: "Τηλέφωνο", 
+              subject: "Θέμα",
+              message: "Το μήνυμά σας",
+              preferredContact: "Προτιμώμενος τρόπος επικοινωνίας",
+              urgency: "Επίπεδο επείγοντος"
+            },
+            submitButton: "Αποστολή μηνύματος",
+            successMessage: "Το μήνυμά σας στάλθηκε με επιτυχία! Θα επικοινωνήσουμε γρήγορα.",
+            commitment: "Δεσμευόμαστε να απαντήσουμε εντός 24h"
+          },
+          address: "Διεύθυνση",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
          }
        }
      },
