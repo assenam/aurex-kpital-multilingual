@@ -446,6 +446,50 @@ const translations = {
         }
       }
     },
+    contact: {
+      hero: {
+        title: "Contactez nos",
+        titleSpan: "Experts",
+        subtitle: "Une équipe dédiée pour vous accompagner dans tous vos projets financiers",
+        stats: {
+          responseTime: "Réponse sous 2h",
+          experts: "Experts disponibles"
+        }
+      },
+      methods: {
+        title: "Moyens de contact",
+        subtitle: "Choisissez le canal qui vous convient le mieux pour échanger avec nos conseillers",
+        phone: {
+          title: "Téléphone",
+          description: "Appelez-nous pour un conseil immédiat",
+          value: "+33 1 78 16 40 00",
+          hours: "Lun-Ven 8h-19h, Sam 9h-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Écrivez-nous, nous répondons rapidement",
+          value: "contact@aurex-kpital.com",
+          hours: "Réponse sous 2h en moyenne"
+        },
+        address: {
+          title: "Adresse",
+          description: "Rencontrez-nous dans nos bureaux",
+          value: "42 Avenue des Champs-Élysées, 75008 Paris",
+          hours: "Sur rendez-vous uniquement"
+        }
+      },
+      form: {
+        title: "Envoyez-nous un message",
+        fields: {
+          name: "Nom et prénom",
+          email: "Adresse email",
+          message: "Votre message"
+        },
+        submitButton: "Envoyer le message",
+        successMessage: "Merci ! Votre message a été envoyé avec succès. Nous vous répondrons rapidement.",
+        commitment: "Nous nous engageons à répondre dans les 2 heures pendant nos horaires d'ouverture."
+      }
+    },
     legal: {
       badge: "Informations Légales",
       title: {
@@ -595,154 +639,7 @@ const translations = {
               description: "Réclamations et suggestions",
               contact: "direction@aurex-kpital.de",
               phone: "+49 40 710 97520"
-        },
-        request: {
-          hero: {
-            badge: "Demande Express",
-            title: "Demande de Financement",
-            titleHighlight: "Personnalisée", 
-            subtitle: "Remplissez notre formulaire sécurisé et obtenez une réponse personnalisée sous 24h maximum.",
-            stats: {
-              responseTime: { value: "24h", label: "Réponse garantie" },
-              security: { value: "100%", label: "Sécurisé" },
-              expert: { value: "Expert", label: "Dédié" }
             }
-          },
-          steps: [
-            { title: "Informations", description: "Vos données personnelles" },
-            { title: "Situation", description: "Votre profil professionnel" },
-            { title: "Financement", description: "Détails de votre demande" },
-            { title: "Validation", description: "Vérification et envoi" }
-          ],
-          form: {
-            personalInfo: {
-              title: "Informations Personnelles",
-              subtitle: "Renseignez vos informations de base",
-              fields: {
-                firstName: "Prénom",
-                lastName: "Nom",
-                email: "Email",
-                emailConfirmation: "Confirmation email",
-                emailConfirmationPlaceholder: "Retapez votre email pour confirmation",
-                phone: "Téléphone",
-                birthDate: "Date de naissance",
-                nationality: "Nationalité",
-                nationalityPlaceholder: "Sélectionnez votre nationalité",
-                otherNationality: "Précisez votre nationalité",
-                otherNationalityPlaceholder: "Ex: Japonaise, Australienne, Marocaine...",
-                maritalStatus: "Situation familiale",
-                maritalStatusPlaceholder: "Sélectionnez"
-              },
-              maritalOptions: {
-                single: "Célibataire",
-                married: "Marié(e)",
-                divorced: "Divorcé(e)",
-                widowed: "Veuf/Veuve"
-              },
-              validation: {
-                emailMismatch: "Les adresses email ne correspondent pas",
-                emailConfirmed: "Adresses email confirmées"
-              }
-            },
-            professionalInfo: {
-              title: "Situation Professionnelle",
-              subtitle: "Informations sur votre emploi et vos revenus",
-              fields: {
-                employmentStatus: "Statut professionnel",
-                employmentStatusPlaceholder: "Sélectionnez votre statut",
-                profession: "Profession",
-                professionPlaceholder: "Ex: Ingénieur, Médecin...",
-                company: "Employeur",
-                workExperience: "Ancienneté (mois)",
-                workExperiencePlaceholder: "Ex: 24",
-                monthlyIncome: "Revenus mensuels nets",
-                monthlyIncomePlaceholder: "Ex: 3500",
-                additionalIncome: "Autres revenus (optionnel)",
-                additionalIncomePlaceholder: "Ex: 500"
-              },
-              employmentOptions: {
-                employee: "Salarié CDI",
-                cdd: "Salarié CDD", 
-                selfEmployed: "Indépendant",
-                manager: "Chef d'entreprise",
-                retiree: "Retraité",
-                student: "Étudiant",
-                unemployed: "Demandeur d'emploi"
-              }
-            },
-            financingRequest: {
-              title: "Demande de Financement",
-              subtitle: "Détails de votre projet",
-              fields: {
-                loanType: "Type de financement",
-                loanTypePlaceholder: "Sélectionnez",
-                amount: "Montant souhaité (€)",
-                amountPlaceholder: "Ex: 25000",
-                duration: "Durée souhaitée (mois)",
-                durationPlaceholder: "Ex: 60",
-                hasGuarantee: "Garantie disponible",
-                guaranteePlaceholder: "Sélectionnez",
-                purpose: "Objet du financement",
-                purposePlaceholder: "Décrivez votre projet en détail..."
-              },
-              loanOptions: {
-                personal: "Prêt Personnel",
-                auto: "Crédit Auto",
-                realEstate: "Crédit Immobilier",
-                professional: "Financement Pro",
-                student: "Prêt Étudiant",
-                consolidation: "Rachat de Crédits"
-              },
-              guaranteeOptions: {
-                yes: "Oui",
-                no: "Non", 
-                maybe: "À évaluer"
-              }
-            },
-            validation: {
-              title: "Validation et Envoi",
-              subtitle: "Vérifiez vos informations et acceptez les conditions",
-              fields: {
-                terms: "J'accepte les conditions générales et la politique de confidentialité",
-                newsletter: "Je souhaite recevoir des informations commerciales",
-                consent: "J'autorise le traitement de mes données personnelles"
-              },
-              submitButton: "Envoyer ma demande",
-              successMessage: "Votre demande a été envoyée avec succès !",
-              errors: {
-                emailMismatch: "Les emails ne correspondent pas",
-                termsRequired: "Vous devez accepter les conditions générales"
-              }
-            }
-          },
-          sidebar: {
-            documents: {
-              title: "Documents requis",
-              subtitle: "Préparez ces documents pour accélérer le traitement :",
-              list: [
-                "Pièce d'identité valide",
-                "Justificatifs de revenus (3 derniers bulletins)",
-                "Relevés bancaires (3 derniers mois)",
-                "Justificatif de domicile récent",
-                "Contrat de travail ou attestation employeur"
-              ]
-            },
-            help: {
-              title: "Besoin d'aide ?",
-              phone: "+49 40 710 97523",
-              schedule: "Lun-Ven: 8h-19h",
-              contactButton: "Nous contacter"
-            },
-            security: {
-              title: "Sécurité garantie",
-              features: [
-                "Données chiffrées SSL",
-                "Conformité RGPD", 
-                "Aucune utilisation commerciale"
-              ]
-            }
-          }
-        }
           },
           schedules: {
             title: "Horaires d'Ouverture",
@@ -760,146 +657,7 @@ const translations = {
               day: "Dimanche",
               hours: "Fermé",
               type: "Urgences uniquement"
-        },
-        request: {
-          hero: {
-            title: "Votre Demande de Financement",
-            subtitle: "Un accompagnement personnalisé pour concrétiser vos projets",
-            steps: [
-              { title: "Informations", description: "Vos données personnelles" },
-              { title: "Situation", description: "Votre profil professionnel" },
-              { title: "Financement", description: "Détails de votre demande" },
-              { title: "Validation", description: "Vérification et envoi" }
-            ]
-          },
-          form: {
-            personalInfo: {
-              title: "Informations Personnelles",
-              subtitle: "Renseignez vos informations de base",
-              fields: {
-                firstName: "Prénom",
-                lastName: "Nom",
-                email: "Email",
-                emailConfirmation: "Confirmation email",
-                emailConfirmationPlaceholder: "Retapez votre email pour confirmation",
-                phone: "Téléphone",
-                birthDate: "Date de naissance",
-                nationality: "Nationalité",
-                nationalityPlaceholder: "Sélectionnez votre nationalité",
-                otherNationality: "Précisez votre nationalité",
-                otherNationalityPlaceholder: "Ex: Japonaise, Australienne, Marocaine...",
-                maritalStatus: "Situation familiale",
-                maritalStatusPlaceholder: "Sélectionnez"
-              },
-              maritalOptions: {
-                single: "Célibataire",
-                married: "Marié(e)",
-                divorced: "Divorcé(e)",
-                widowed: "Veuf/Veuve"
-              },
-              validation: {
-                emailMismatch: "Les adresses email ne correspondent pas",
-                emailConfirmed: "Adresses email confirmées"
-              }
-            },
-            professionalInfo: {
-              title: "Situation Professionnelle",
-              subtitle: "Informations sur votre emploi et vos revenus",
-              fields: {
-                employmentStatus: "Statut professionnel",
-                employmentStatusPlaceholder: "Sélectionnez votre statut",
-                company: "Entreprise/Employeur",
-                position: "Poste occupé",
-                monthlyIncome: "Revenus mensuels nets",
-                monthlyIncomePlaceholder: "Ex: 3500",
-                contractType: "Type de contrat",
-                contractTypePlaceholder: "Sélectionnez le type",
-                workExperience: "Ancienneté dans l'emploi",
-                workExperiencePlaceholder: "En années"
-              },
-              employmentOptions: {
-                employee: "Salarié(e)",
-                selfEmployed: "Indépendant(e)",
-                manager: "Cadre dirigeant",
-                retiree: "Retraité(e)",
-                student: "Étudiant(e)",
-                unemployed: "Demandeur d'emploi"
-              },
-              contractOptions: {
-                permanent: "CDI",
-                temporary: "CDD",
-                freelance: "Freelance",
-                internship: "Stage"
-              }
-            },
-            financingRequest: {
-              title: "Demande de Financement",
-              subtitle: "Détails de votre projet et du financement souhaité",
-              fields: {
-                projectType: "Type de projet",
-                projectTypePlaceholder: "Sélectionnez le type",
-                amount: "Montant souhaité",
-                amountPlaceholder: "Ex: 25000",
-                duration: "Durée souhaitée",
-                durationPlaceholder: "En mois",
-                projectDescription: "Description du projet",
-                projectDescriptionPlaceholder: "Décrivez votre projet en détail...",
-                hasGuarantees: "Avez-vous des garanties ?",
-                guaranteeDetails: "Détails des garanties",
-                guaranteeDetailsPlaceholder: "Décrivez vos garanties..."
-              },
-              projectOptions: {
-                personal: "Prêt personnel",
-                real_estate: "Immobilier",
-                vehicle: "Véhicule",
-                renovation: "Rénovation",
-                business: "Professionnel",
-                investment: "Investissement",
-                other: "Autre"
-              }
-            },
-            validation: {
-              title: "Validation et Envoi",
-              subtitle: "Vérifiez vos informations et acceptez les conditions",
-              terms: "J'accepte les conditions générales et la politique de confidentialité",
-              newsletter: "Je souhaite recevoir des informations commerciales",
-              consent: "J'autorise le traitement de mes données personnelles",
-              submitButton: "Envoyer ma demande",
-              successMessage: "Votre demande a été envoyée avec succès !",
-              errors: {
-                emailMismatch: "Les emails ne correspondent pas",
-                termsRequired: "Vous devez accepter les conditions générales"
-              }
             }
-          },
-          sidebar: {
-            documents: {
-              title: "Documents requis",
-              subtitle: "Préparez ces documents pour accélérer le traitement :",
-              list: [
-                "Pièce d'identité valide",
-                "Justificatifs de revenus (3 derniers bulletins)",
-                "Relevés bancaires (3 derniers mois)",
-                "Justificatif de domicile récent",
-                "Contrat de travail ou attestation employeur"
-              ]
-            },
-            help: {
-              title: "Besoin d'aide ?",
-              phone: "+49 40 710 97523",
-              schedule: "Lun-Ven: 8h-19h",
-              contactButton: "Nous contacter"
-            },
-            security: {
-              title: "Sécurité garantie",
-              features: [
-                "Données chiffrées SSL",
-                "Conformité RGPD", 
-                "Aucune utilisation commerciale"
-              ]
-            }
-          }
-        }
           },
           certifications: {
             title: "Certifications & Garanties",
@@ -933,163 +691,6 @@ const translations = {
         responsibility: {
           title: "Responsabilité",
           description: "Aurex K-pital s'efforce de fournir des informations exactes et à jour. Cependant, la société ne peut garantir l'exactitude, la complétude ou l'actualité des informations diffusées sur ce site. L'utilisation des informations se fait sous la responsabilité exclusive de l'utilisateur."
-        }
-      }
-    },
-    about: {
-      badge: "Excellence depuis 1997",
-      title: "Votre partenaire financier de confiance",
-      subtitle: "Depuis plus de 25 ans, nous accompagnons les entreprises européennes dans leur développement avec des solutions de financement innovantes et personnalisées.",
-      hero: {
-        cta: {
-          contact: "Nous contacter",
-          simulate: "Simuler mon financement"
-        }
-      },
-      stats: {
-        experience: {
-          value: "25+",
-          label: "Années d'expérience"
-        },
-        companies: {
-          value: "50K+",
-          label: "Entreprises accompagnées"
-        },
-        funding: {
-          value: "€5B+",
-          label: "Financements facilités"
-        },
-        countries: {
-          value: "8",
-          label: "Pays européens"
-        }
-      },
-      values: {
-        badge: "Nos Valeurs",
-        title: "Ce qui nous guide au quotidien",
-        description: "Notre réussite repose sur des valeurs fortes qui orientent chacune de nos actions et décisions.",
-        security: {
-          title: "Sécurité & Conformité",
-          description: "Nos solutions respectent les normes bancaires les plus strictes et la réglementation RGPD."
-        },
-        innovation: {
-          title: "Innovation Continue",
-          description: "Nous développons constamment de nouvelles solutions pour anticiper vos besoins futurs."
-        },
-        support: {
-          title: "Accompagnement Personnel",
-          description: "Chaque client bénéficie d'un conseiller dédié pour un service sur mesure."
-        },
-        excellence: {
-          title: "Excellence Reconnue",
-          description: "Plus de 25 ans d'expertise et la confiance de milliers d'entreprises."
-        }
-      },
-      history: {
-        badge: "Notre Histoire",
-        title: "Plus de 25 ans d'innovation",
-        description: "Découvrez les moments clés qui ont façonné notre entreprise et notre expertise.",
-        milestone1: {
-          title: "Création de l'entreprise",
-          description: "Fondation avec la vision de démocratiser l'accès au financement pour les PME."
-        },
-        milestone2: {
-          title: "Expansion européenne",
-          description: "Ouverture de bureaux en Allemagne, Pologne et Espagne."
-        },
-        milestone3: {
-          title: "Innovation digitale",
-          description: "Lancement de notre plateforme de simulation en ligne révolutionnaire."
-        },
-        milestone4: {
-          title: "50 000ème client",
-          description: "Franchissement du cap des 50 000 entreprises accompagnées."
-        },
-        milestone5: {
-          title: "€5 milliards financés",
-          description: "Atteinte du record de 5 milliards d'euros de financements facilités."
-        }
-      },
-      team: {
-        badge: "Notre Équipe",
-        title: "L'expertise au service de votre réussite",
-        description: "Rencontrez les experts qui pilotent notre vision et accompagnent votre croissance.",
-        member1: {
-          name: "Marie Dubois",
-          role: "Directrice Générale",
-          experience: "15 ans d'expérience en financement d'entreprise"
-        },
-        member2: {
-          name: "Thomas Schmidt",
-          role: "Directeur Technique",
-          experience: "Expert en solutions fintech et sécurité bancaire"
-        },
-        member3: {
-          name: "Elena Rodriguez",
-          role: "Directrice Commerciale",
-          experience: "Spécialiste des marchés européens depuis 12 ans"
-        }
-      },
-      cta: {
-        title: "Prêt à développer votre entreprise ?",
-        description: "Rejoignez plus de 50 000 entreprises qui nous font confiance pour leurs besoins de financement.",
-        simulate: "Commencer la simulation",
-        expert: "Parler à un expert"
-      },
-      blog: {
-        badge: "Expertise & Insights",
-        title: "Blog Aurex",
-        subtitle: "K-pital",
-        description: "Analyses d'experts, tendances du marché et conseils pratiques pour optimiser vos décisions financières et d'investissement.",
-        stats: {
-          articles: {
-            value: "150+",
-            label: "Articles publiés"
-          },
-          experts: {
-            value: "8",
-            label: "Experts auteurs"
-          },
-          readers: {
-            value: "50K+",
-            label: "Lecteurs mensuels"
-          },
-          satisfaction: {
-            value: "95%",
-            label: "Satisfaction lecteurs"
-          }
-        },
-        featured: {
-          title: "Article à la Une"
-        },
-        search: {
-          placeholder: "Rechercher un article...",
-          allCategories: "Toutes les catégories"
-        },
-        categories: {
-          title: "Catégories",
-          innovation: "Innovation",
-          realEstate: "Immobilier",
-          regulation: "Réglementation",
-          economy: "Économie",
-          esg: "ESG",
-          education: "Éducation"
-        },
-        trending: {
-          title: "Tendances"
-        },
-        newsletter: {
-          title: "Newsletter",
-          description: "Recevez nos derniers articles et analyses directement dans votre boîte mail",
-          placeholder: "Votre email",
-          subscribe: "S'abonner",
-          disclaimer: "1 email par semaine maximum. Désabonnement facile."
-        },
-        actions: {
-          readMore: "Lire l'article complet",
-          read: "Lire",
-          loadMore: "Charger plus d'articles",
-          readTime: "de lecture"
         }
       }
     }
@@ -1323,685 +924,51 @@ const translations = {
         step4: {
           title: "Freigabe der Mittel",
           description: "Schnelle Bereitstellung und kontinuierliche Begleitung"
-      }
-    },
-    about: {
-      badge: "Exzellenz seit 1997",
-      title: "Ein Vierteljahrhundert",
-      subtitle: "Finanzinnovation",
-      description: "Von Hamburg aus revolutionieren wir die Finanzberatung durch die Kombination traditioneller menschlicher Expertise mit modernster Technologie.",
-      story: {
-        title: "Unsere Geschichte",
-        subtitle: "Von einem Hamburger Startup zum europäischen Marktführer der Finanzinnovation",
-        paragraph1: "Aurex K-pital entstand 1997 aus der visionären Idee, die europäischen Finanzdienstleistungen zu revolutionieren. Mit Sitz in Hamburg, im wirtschaftlichen Herzen Deutschlands, hat sich unser Unternehmen die Mission gesetzt, den Zugang zu innovativen Finanzlösungen zu demokratisieren.",
-        paragraph2: "Als Pioniere bei der Integration künstlicher Intelligenz in Finanzdienstleistungen seit 2010 haben wir proprietäre Algorithmen entwickelt, die eine hochpräzise Risikoanalyse und personalisierte Empfehlungen für jeden Kunden ermöglichen.",
-        paragraph3: "Heute, mit mehr als 50.000 Kunden in ganz Europa und 5 Milliarden Euro gewährter Finanzierungen, innovieren wir weiter, um die besten Marktlösungen zu bieten."
-      },
-      timeline: {
-        title: "Unsere Meilensteine",
-        milestones: [
-          {
-            year: "1997",
-            title: "Gründung in Hamburg",
-            description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
-          },
-          {
-            year: "2003",
-            title: "Europäische Expansion",
-            description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
-          },
-          {
-            year: "2010",
-            title: "KI-Innovation",
-            description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
-          },
-          {
-            year: "2015",
-            title: "Exzellenz-Zertifizierung",
-            description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
-          },
-          {
-            year: "2020",
-            title: "Digitale Transformation",
-            description: "Start der 100% digitalen Plattform und fortgeschrittener Vorhersagealgorithmen"
-          },
-          {
-            year: "2024",
-            title: "Marktführer",
-            description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
-          }
-        ]
-      },
-      values: {
-        title: "Unsere Werte",
-        subtitle: "Die Prinzipien, die jede unserer Handlungen leiten",
-        items: [
-          {
-            title: "Kundenexzellenz",
-            description: "Jeder Kunde ist einzigartig und verdient persönliche Aufmerksamkeit mit maßgeschneiderten Lösungen."
-          },
-          {
-            title: "Absolute Sicherheit", 
-            description: "Maximaler Schutz von Daten und Investitionen mit den fortschrittlichsten Technologien."
-          },
-          {
-            title: "Kontinuierliche Innovation",
-            description: "Permanente Suche nach neuen Lösungen zur Antizipation zukünftiger Bedürfnisse."
-          },
-          {
-            title: "Totale Transparenz",
-            description: "Klare und ehrliche Kommunikation über alle unsere Produkte, Services und Konditionen."
-          }
-        ]
-      },
-      team: {
-        badge: "Unser Team",
-        title: "Unser Führungsteam",
-        description: "Anerkannte Experten im Dienste Ihres Erfolgs",
-        member1: {
-          name: "Dr. Klaus Müller",
-          role: "Geschäftsführer",
-          experience: "25 Jahre Erfahrung in Finanzstrategie"
-        },
-        member2: {
-          name: "Sophie Laurent",
-          role: "Innovationsleiterin", 
-          experience: "15 Jahre Expertise in FinTech & KI"
-        },
-        member3: {
-          name: "Marco Antonelli",
-          role: "Risikoleiter",
-          experience: "20 Jahre Erfahrung in Risikomanagement"
-        }
-      },
-      history: {
-        badge: "Unsere Geschichte",
-        title: "Unsere Meilensteine", 
-        description: "Die wichtigsten Etappen unserer Entwicklung",
-        milestone1: {
-          title: "Gründung in Hamburg",
-          description: "Gründung von Aurex K-pital mit der Vision, die Finanzdienstleistungen in Europa zu revolutionieren"
-        },
-        milestone2: {
-          title: "Europäische Expansion", 
-          description: "Eröffnung von Büros in 5 europäischen Ländern und Start der ersten digitalen Services"
-        },
-        milestone3: {
-          title: "KI-Innovation",
-          description: "Pionierhafte Integration künstlicher Intelligenz in die Kreditanalyse"
-        },
-        milestone4: {
-          title: "Exzellenz-Zertifizierung",
-          description: "Erhalt der strengsten europäischen Zertifizierungen im Finanzbereich"
-        },
-        milestone5: {
-          title: "Marktführer",
-          description: "Position als europäischer Marktführer mit über 50.000 zufriedenen Kunden"
-        }
-      },
-      cta: {
-        title: "Bereit, Ihr Unternehmen zu entwickeln?",
-        description: "Schließen Sie sich mehr als 50.000 Unternehmen an, die uns für ihre Finanzierungsbedürfnisse vertrauen.",
-        simulate: "Simulation starten",
-        expert: "Mit einem Experten sprechen"
-      },
-      blog: {
-        badge: "Expertise & Einblicke",
-        title: "Aurex Blog",
-        subtitle: "K-pital",
-        description: "Expertenanalysen, Markttrends und praktische Tipps zur Optimierung Ihrer Finanz- und Investitionsentscheidungen.",
-        stats: {
-          articles: {
-            value: "150+",
-            label: "Veröffentlichte Artikel"
-          },
-          experts: {
-            value: "8",
-            label: "Experten-Autoren"
-          },
-          readers: {
-            value: "50K+",
-            label: "Monatliche Leser"
-          },
-          satisfaction: {
-            value: "95%",
-            label: "Leserzufriedenheit"
-          }
-        },
-        featured: {
-          title: "Hauptartikel"
-        },
-        search: {
-          placeholder: "Artikel suchen...",
-          allCategories: "Alle Kategorien"
-        },
-        categories: {
-          title: "Kategorien",
-          innovation: "Innovation",
-          realEstate: "Immobilien",
-          regulation: "Regulierung",
-          economy: "Wirtschaft",
-          esg: "ESG",
-          education: "Bildung"
-        },
-        trending: {
-          title: "Trends"
-        },
-        newsletter: {
-          title: "Newsletter",
-          description: "Erhalten Sie unsere neuesten Artikel und Analysen direkt in Ihr Postfach",
-          placeholder: "Ihre E-Mail",
-          subscribe: "Abonnieren",
-          disclaimer: "Maximal 1 E-Mail pro Woche. Einfach abbestellbar."
-        },
-        actions: {
-          readMore: "Vollständigen Artikel lesen",
-          read: "Lesen",
-          loadMore: "Weitere Artikel laden",
-          readTime: "Lesezeit"
-        }
-      },
-      certifications: {
-        title: "Zertifizierungen & Akkreditierungen",
-        subtitle: "Offizielle Anerkennung unserer operativen Exzellenz",
-        items: [
-          {
-            name: "ISO 27001",
-            description: "Informationssicherheit",
-            year: "2018"
-          },
-          {
-            name: "PCI DSS",
-            description: "Zahlungssicherheit",
-            year: "2020"
-          },
-          {
-            name: "DSGVO-Konform",
-            description: "Datenschutz",
-            year: "2018"
-          },
-          {
-            name: "SOC 2 Type II",
-            description: "Organisationskontrollen",
-            year: "2021"
-          }
-        ],
-        sinceLabel: "Seit"
-      },
-      contact: {
-        title: "Kontakt",
-        phone: "Telefon",
-        email: "E-Mail",
-        hours: "Öffnungszeiten",
-        schedule: "Mo-Fr 8-19 Uhr, Sa 9-17 Uhr",
-        hero: {
-          badge: "Support Excellence",
-          title: "Kontaktieren Sie Unsere",
-          titleSpan: "Experten",
-          subtitle: "Unser engagiertes Team begleitet Sie bei jedem Schritt Ihres Finanzprojekts. Mehrere Kontaktmöglichkeiten nach Ihren Wünschen.",
-          stats: {
-            satisfaction: "Kundenzufriedenheit",
-            responseTime: "Durchschnittliche Antwortzeit",
-            experts: "Expertenberater"
-          }
-        },
-        methods: {
-          title: "Wie Sie Uns Erreichen",
-          subtitle: "Wählen Sie den für Sie besten Kanal",
-          phone: {
-            title: "Telefon",
-            description: "Sprechen Sie direkt mit unseren Beratern",
-            value: "+49 40 710 97523",
-            hours: "Mo-Fr: 8-19 Uhr, Sa: 9-17 Uhr"
-          },
-          email: {
-            title: "E-Mail",
-            description: "Senden Sie uns Ihre Fragen",
-            value: "contact@aurex-kpital.de",
-            hours: "Antwort in durchschnittlich 4h"
-          },
-          address: {
-            title: "Adresse", 
-            description: "Besuchen Sie unsere Büros in Hamburg",
-            value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
-            hours: "Nur nach Terminvereinbarung"
-          }
-        },
-        form: {
-          title: "Nachricht Senden",
-          subtitle: "Füllen Sie dieses Formular aus und wir kontaktieren Sie schnell",
-          fields: {
-            name: "Vollständiger Name",
-            email: "E-Mail-Adresse",
-            phone: "Telefon", 
-            subject: "Betreff",
-            message: "Ihre Nachricht",
-            preferredContact: "Bevorzugter Kontaktweg",
-            urgency: "Dringlichkeitsstufe"
-          },
-          options: {
-            preferredContact: {
-              phone: "Telefon",
-              email: "E-Mail",
-              meeting: "Termin"
-            },
-            urgency: {
-              low: "Nicht dringend",
-              normal: "Normal",
-              high: "Dringend",
-              critical: "Sehr dringend"
-            }
-          },
-          submitButton: "Nachricht senden",
-          successMessage: "Ihre Nachricht wurde erfolgreich gesendet! Wir kontaktieren Sie schnell.",
-          commitment: "Wir verpflichten uns, Ihnen innerhalb von 24h zu antworten"
         }
       }
-    }
     },
-    testimonials: {
-      title: "Vertrauen Sie uns",
-      subtitle: "Was unsere zufriedenen Kunden sagen",
-      clients: [
-        {
-          name: "Jean-Marc Rousseau",
-          location: "Lyon, Frankreich",
-          feedback: "Schneller und seriöser Service. Mein Kredit wurde in 48 Stunden genehmigt. Danke Aurex K-pital!"
-        },
-        {
-          name: "Amélie Blanchard",
-          location: "Paris, Frankreich",
-          feedback: "Professionelles Team, einfache Plattform und wirklich individuelle Betreuung."
-        },
-        {
-          name: "Thomas Bonnet",
-          location: "Toulouse, Frankreich",
-          feedback: "Der Simulator war sehr klar, und ich erhielt bessere Konditionen als bei meiner Bank."
-        }
-      ]
-    },
-    simulator: {
-      title: "Kreditrechner",
-      titleSecond: "Intelligent",
-      subtitle: "Erhalten Sie eine personalisierte Echtzeitschätzung Ihrer Finanzierung",
-      form: {
-        loanType: "Finanzierungsart",
-        amount: "Gewünschter Betrag (€)",
-        duration: "Rückzahlungsdauer (Monate)",
-        income: "Monatliches Nettoeinkommen (optional)",
-        incomeHelper: "Information zur Optimierung Ihres Zinssatzes verwendet",
-        guarantee: "Haben Sie eine Garantie oder Bürgschaft?",
-        guaranteeOptions: {
-          yes: "Ja, ich habe eine Garantie",
-          no: "Nein, keine Garantie",
-          maybe: "Je nach Angebot zu bewerten"
-        },
-        loanTypes: {
-          personal: {
-            label: "Privatkredit",
-            description: "Für alle Ihre persönlichen Projekte"
-          },
-          auto: {
-            label: "Autokredit",
-            description: "Finanzierung von Neu- oder Gebrauchtfahrzeugen"
-          },
-          realEstate: {
-            label: "Immobilienkredit",
-            description: "Kauf, Bau oder Renovierung"
-          },
-          professional: {
-            label: "Unternehmensfinanzierung",
-            description: "Geschäftsinvestition"
-          },
-          student: {
-            label: "Studienkredit",
-            description: "Finanzierung des Hochschulstudiums"
-          },
-          consolidation: {
-            label: "Kreditumschuldung",
-            description: "Zusammenfassung bestehender Schulden"
-          }
-    },
-    about: {
-      badge: "Exzellenz seit 1997",
-      title: "Ihr vertrauensvoller Finanzpartner",
-      subtitle: "Seit über 25 Jahren begleiten wir europäische Unternehmen bei ihrer Entwicklung mit innovativen und personalisierten Finanzierungslösungen.",
+    contact: {
       hero: {
-        cta: {
-          contact: "Kontakt aufnehmen",
-          simulate: "Finanzierung simulieren"
+        title: "Kontaktieren Sie unsere",
+        titleSpan: "Experten",
+        subtitle: "Ein engagiertes Team, das Sie bei all Ihren Finanzprojekten begleitet",
+        stats: {
+          responseTime: "Antwort binnen 2h",
+          experts: "Experten verfügbar"
         }
       },
-      stats: {
-        experience: {
-          value: "25+",
-          label: "Jahre Erfahrung"
+      methods: {
+        title: "Kontaktmöglichkeiten",
+        subtitle: "Wählen Sie den für Sie passenden Kanal, um mit unseren Beratern zu sprechen",
+        phone: {
+          title: "Telefon",
+          description: "Rufen Sie uns für sofortige Beratung an",
+          value: "+49 40 123 456 789",
+          hours: "Mo-Fr 8-19 Uhr, Sa 9-17 Uhr"
         },
-        companies: {
-          value: "50K+",
-          label: "Begleitete Unternehmen"
+        email: {
+          title: "E-Mail",
+          description: "Schreiben Sie uns, wir antworten schnell",
+          value: "kontakt@aurex-kpital.de",
+          hours: "Antwort binnen 2h im Durchschnitt"
         },
-        funding: {
-          value: "€5B+",
-          label: "Finanzierungen ermöglicht"
-        },
-        countries: {
-          value: "8",
-          label: "Europäische Länder"
+        address: {
+          title: "Adresse",
+          description: "Besuchen Sie uns in unseren Büros",
+          value: "Neuer Wall 10, 20354 Hamburg",
+          hours: "Nur nach Terminvereinbarung"
         }
       },
-      values: {
-        badge: "Unsere Werte",
-        title: "Was uns täglich leitet",
-        description: "Unser Erfolg basiert auf starken Werten, die jede unserer Handlungen und Entscheidungen lenken.",
-        security: {
-          title: "Sicherheit & Compliance",
-          description: "Unsere Lösungen entsprechen den strengsten Bankenstandards und der DSGVO-Verordnung."
+      form: {
+        title: "Senden Sie uns eine Nachricht",
+        fields: {
+          name: "Vor- und Nachname",
+          email: "E-Mail-Adresse",
+          message: "Ihre Nachricht"
         },
-        innovation: {
-          title: "Kontinuierliche Innovation",
-          description: "Wir entwickeln ständig neue Lösungen, um Ihre zukünftigen Bedürfnisse zu antizipieren."
-        },
-        support: {
-          title: "Persönliche Betreuung",
-          description: "Jeder Kunde profitiert von einem dedizierten Berater für einen maßgeschneiderten Service."
-        },
-        excellence: {
-          title: "Anerkannte Exzellenz",
-          description: "Über 25 Jahre Expertise und das Vertrauen von Tausenden von Unternehmen."
-        }
-      },
-      history: {
-        badge: "Unsere Geschichte",
-        title: "Über 25 Jahre Innovation",
-        description: "Entdecken Sie die Schlüsselmomente, die unser Unternehmen und unsere Expertise geprägt haben.",
-        milestone1: {
-          title: "Unternehmensgründung",
-          description: "Gründung mit der Vision, den Zugang zu Finanzierungen für KMU zu demokratisieren."
-        },
-        milestone2: {
-          title: "Europäische Expansion",
-          description: "Eröffnung von Büros in Deutschland, Polen und Spanien."
-        },
-        milestone3: {
-          title: "Digitale Innovation",
-          description: "Start unserer revolutionären Online-Simulationsplattform."
-        },
-        milestone4: {
-          title: "50.000ster Kunde",
-          description: "Erreichen der Marke von 50.000 begleiteten Unternehmen."
-        },
-        milestone5: {
-          title: "€5 Milliarden finanziert",
-          description: "Erreichen des Rekords von 5 Milliarden Euro erleichterte Finanzierungen."
-        }
-      },
-      team: {
-        badge: "Unser Team",
-        title: "Expertise im Dienste Ihres Erfolgs",
-        description: "Lernen Sie die Experten kennen, die unsere Vision vorantreiben und Ihr Wachstum begleiten.",
-        member1: {
-          name: "Marie Dubois",
-          role: "Geschäftsführerin",
-          experience: "15 Jahre Erfahrung in der Unternehmensfinanzierung"
-        },
-        member2: {
-          name: "Thomas Schmidt",
-          role: "Technischer Direktor",
-          experience: "Experte für Fintech-Lösungen und Bankensicherheit"
-        },
-        member3: {
-          name: "Elena Rodriguez",
-          role: "Vertriebsleiterin",
-          experience: "Spezialistin für europäische Märkte seit 12 Jahren"
-        }
-      },
-      cta: {
-        title: "Bereit, Ihr Unternehmen zu entwickeln?",
-        description: "Schließen Sie sich über 50.000 Unternehmen an, die uns für ihre Finanzierungsbedürfnisse vertrauen.",
-        simulate: "Simulation starten",
-        expert: "Mit einem Experten sprechen"
-      }
-    }
-      },
-      configuration: {
-        title: "Konfiguration Ihres Kredits",
-        description: "Passen Sie die Parameter nach Ihren Bedürfnissen an"
-      },
-      result: {
-        title: "Ihre Schätzung",
-        monthlyPayment: "Monatliche Rate",
-        interestRate: "Zinssatz",
-        totalCost: "Gesamtkosten des Kredits",
-        totalRepayment: "Gesamtrückzahlungsbetrag",
-        units: {
-          months: "Monate",
-          years: "Jahre"
-        },
-        disclaimer: "Diese Schätzung ist unverbindlich und kann je nach Ihrem endgültigen Profil variieren. Angebot vorbehaltlich Annahme."
-      },
-      advantages: {
-        title: "Ihre Aurex K-pital Vorteile",
-        items: {
-          rates: "Ausgehandelte Vorzugszinsen",
-          earlyRepayment: "Vorzeitige Rückzahlung ohne Gebühren",
-          response: "Garantierte Antwort binnen 24h",
-          support: "Persönliche Betreuung"
-        }
-      },
-      cta: {
-        title: "Bereit, Ihr Projekt zu verwirklichen?",
-        description: "Unsere Expertenberater begleiten Sie dabei, diese Simulation in die Realität umzusetzen",
-        buttons: {
-          request: "Antrag stellen",
-          consultant: "Mit einem Berater sprechen",
-          officialRequest: "Offiziellen Antrag stellen",
-          allServices: "Alle unsere Services ansehen"
-        }
-      }
-    },
-    legal: {
-      badge: "Rechtliche Informationen",
-      title: {
-        main: "Impressum",
-        subtitle: "und Rechtliches"
-      },
-      description: "Alle rechtlichen und regulatorischen Informationen zu Aurex K-pital und der Nutzung unserer Dienstleistungen.",
-      tabs: {
-        mentions: "Impressum",
-        privacy: "Datenschutz",
-        terms: "AGB",
-        gdpr: "DSGVO"
-      },
-      mentions: {
-        title: "Impressum",
-        description: "Unternehmensangaben und rechtliche Verantwortlichkeiten",
-        company: {
-          title: "Unternehmensidentifikation",
-          name: "Firmenbezeichnung",
-          type: "Rechtsform",
-          typeValue: "Gesellschaft mit beschränkter Haftung (GmbH)",
-          capital: "Stammkapital",
-          address: "Firmensitz",
-          register: "Handelsregister",
-          vat: "Umsatzsteuer-ID",
-          siren: "SIREN-Nummer"
-        },
-        management: {
-          title: "Geschäftsführung",
-          ceo: "Geschäftsführer",
-          cio: "Innovationsleiterin",
-          cro: "Risikoleiter"
-        },
-        activity: {
-          title: "Tätigkeit",
-          description: "Aurex K-pital ist ein von der BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) lizenziertes Finanzinstitut mit der Lizenznummer 147-FS-2015. Unsere Aktivitäten umfassen:",
-          services: {
-            banking: "Vermittlung von Bankgeschäften und Zahlungsdienstleistungen",
-            investment: "Anlageberatung",
-            insurance: "Versicherungsvermittlung",
-            wealth: "Vermögensverwaltungsdienstleistungen"
-          }
-        },
-        contact: {
-          title: "Kontakt",
-          phone: "Telefon",
-          email: "E-Mail",
-          hours: "Öffnungszeiten",
-          schedule: "Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr",
-          hero: {
-            badge: "Support Exzellenz",
-            title: "Kontaktieren Sie Unsere",
-            titleSpan: "Experten",
-            subtitle: "Unser engagiertes Team begleitet Sie bei jedem Schritt Ihres Finanzprojekts. Mehrere Wege, uns je nach Ihren Vorlieben zu erreichen.",
-            stats: {
-              satisfaction: "Kundenzufriedenheit",
-              responseTime: "Durchschnittliche Antwortzeit",
-              experts: "Fachberater"
-            }
-          },
-          methods: {
-            title: "Wie Sie Uns Erreichen",
-            subtitle: "Wählen Sie den Kanal, der am besten zu Ihnen passt",
-            phone: {
-              title: "Telefon",
-              description: "Sprechen Sie direkt mit unseren Beratern",
-              value: "+49 40 710 97523",
-              hours: "Mo-Fr: 8-19 Uhr, Sa: 9-17 Uhr"
-            },
-            email: {
-              title: "E-Mail",
-              description: "Senden Sie uns Ihre Fragen",
-              value: "contact@aurex-kpital.de",
-              hours: "Antwort innerhalb von 4h im Durchschnitt"
-            },
-            address: {
-              title: "Adresse",
-              description: "Besuchen Sie unsere Büros in Hamburg",
-              value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
-              hours: "Nur nach Terminvereinbarung"
-            },
-            chat: {
-              title: "Online-Chat",
-              description: "Sofortige Unterstützung",
-              value: "24/7 verfügbar",
-              hours: "Sofortige Antwort"
-            }
-          },
-          form: {
-            title: "Nachricht Senden",
-            subtitle: "Füllen Sie dieses Formular aus und wir kontaktieren Sie schnell",
-            fields: {
-              name: "Vollständiger Name",
-              email: "E-Mail-Adresse",
-              phone: "Telefon",
-              subject: "Betreff",
-              message: "Ihre Nachricht",
-              preferredContact: "Bevorzugter Kontaktweg",
-              urgency: "Dringlichkeitsstufe"
-            },
-            options: {
-              preferredContact: {
-                phone: "Telefon",
-                email: "E-Mail",
-                meeting: "Termin"
-              },
-              urgency: {
-                low: "Nicht dringend",
-                normal: "Normal",
-                high: "Dringend",
-                critical: "Sehr dringend"
-              },
-              subjects: {
-                loan: "Kreditanfrage",
-                investment: "Investition",
-                insurance: "Versicherung",
-                other: "Sonstiges"
-              }
-            },
-            submitButton: "Nachricht senden",
-            successMessage: "Ihre Nachricht wurde erfolgreich gesendet! Wir werden Sie schnell kontaktieren.",
-            commitment: "Wir verpflichten uns, Ihnen innerhalb von 24h zu antworten"
-          },
-          departments: {
-            title: "Unsere Services",
-            subtitle: "Kontaktieren Sie direkt den passenden Service für Ihre Bedürfnisse",
-            commercial: {
-              name: "Vertrieb",
-              description: "Neue Anfragen und Informationen",
-              contact: "commercial@aurex-kpital.de",
-              phone: "+49 40 710 97523"
-            },
-            client: {
-              name: "Kundenservice",
-              description: "Betreuung bestehender Akten",
-              contact: "client@aurex-kpital.de",
-              phone: "+49 40 710 97524"
-            },
-            support: {
-              name: "Technischer Support",
-              description: "Plattform- und Tool-Unterstützung",
-              contact: "support@aurex-kpital.de",
-              phone: "+49 40 710 97525"
-            },
-            management: {
-              name: "Geschäftsführung",
-              description: "Beschwerden und Anregungen",
-              contact: "direction@aurex-kpital.de",
-              phone: "+49 40 710 97520"
-            }
-          },
-          schedules: {
-            title: "Öffnungszeiten",
-            weekdays: {
-              day: "Montag - Freitag",
-              hours: "8:00 - 19:00",
-              type: "Berater verfügbar"
-            },
-            saturday: {
-              day: "Samstag",
-              hours: "9:00 - 17:00",
-              type: "Reduzierter Service"
-            },
-            sunday: {
-              day: "Sonntag",
-              hours: "Geschlossen",
-              type: "Nur Notfälle"
-            }
-          },
-          certifications: {
-            title: "Zertifizierungen & Garantien",
-            subtitle: "Ihr Vertrauen, unser Engagement",
-            bafin: {
-              title: "BaFin-Lizenz",
-              description: "Deutsche Bundesanstalt für Finanzdienstleistungsaufsicht"
-            },
-            gdpr: {
-              title: "DSGVO-Konformität",
-              description: "Maximaler Schutz Ihrer persönlichen Daten"
-            },
-            security: {
-              title: "Banksicherheit",
-              description: "256-Bit SSL-Verschlüsselung und sichere Protokolle"
-            },
-            quality: {
-              title: "Qualitätszertifizierung",
-              description: "ISO 9001:2015 - Exzellenz im Kundenservice"
-            }
-          }
-        },
-        hosting: {
-          title: "Hosting",
-          description: "Diese Website wird gehostet von:"
-        },
-        intellectual: {
-          title: "Geistiges Eigentum",
-          description: "Alle auf dieser Website vorhandenen Inhalte (Texte, Bilder, Logos, Grafiken usw.) sind urheberrechtlich geschützt und gehören Aurex K-pital oder seinen Partnern. Jede Vervielfältigung, auch auszugsweise, ist ohne vorherige schriftliche Genehmigung untersagt."
-        },
-        responsibility: {
-          title: "Haftung",
-          description: "Aurex K-pital bemüht sich, genaue und aktuelle Informationen bereitzustellen. Das Unternehmen kann jedoch nicht die Richtigkeit, Vollständigkeit oder Aktualität der auf dieser Website verbreiteten Informationen garantieren. Die Nutzung der Informationen erfolgt ausschließlich auf eigene Verantwortung des Nutzers."
-        }
+        submitButton: "Nachricht senden",
+        successMessage: "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir antworten Ihnen schnellstmöglich.",
+        commitment: "Wir verpflichten uns, innerhalb von 2 Stunden während unserer Öffnungszeiten zu antworten."
       }
     }
   },
@@ -2133,75 +1100,6 @@ const translations = {
           simulate: "Simular un préstamo",
           contact: "Contáctanos"
         },
-        contact: {
-          title: "Contacto",
-          phone: "Teléfono",
-          email: "Email",
-          hours: "Horarios",
-          schedule: "Lunes-Viernes 8h-19h, Sábado 9h-17h",
-          hero: {
-            badge: "Excelencia en Soporte",
-            title: "Contacta con Nuestros",
-            titleSpan: "Expertos",
-            subtitle: "Nuestro equipo dedicado te acompaña en cada paso de tu proyecto financiero. Varias formas de contactarnos según tus preferencias.",
-            stats: {
-              satisfaction: "Satisfacción del cliente",
-              responseTime: "Tiempo de respuesta promedio",
-              experts: "Asesores expertos"
-            }
-          },
-          methods: {
-            title: "Cómo Contactarnos",
-            subtitle: "Elige el canal que mejor te convenga",
-            phone: {
-              title: "Teléfono",
-              description: "Habla directamente con nuestros asesores",
-              value: "+49 40 710 97523",
-              hours: "Lun-Vie: 8h-19h, Sáb: 9h-17h"
-            },
-            email: {
-              title: "Email",
-              description: "Envíanos tus preguntas",
-              value: "contact@aurex-kpital.de",
-              hours: "Respuesta en 4h en promedio"
-            },
-            address: {
-              title: "Dirección", 
-              description: "Visita nuestras oficinas en Hamburgo",
-              value: "Irma-Keilhack-Ring 24, 22145 Hamburgo",
-              hours: "Solo con cita previa"
-            }
-          },
-          form: {
-            title: "Enviar un Mensaje",
-            subtitle: "Completa este formulario y te contactaremos rápidamente",
-            fields: {
-              name: "Nombre completo",
-              email: "Dirección de email",
-              phone: "Teléfono", 
-              subject: "Asunto",
-              message: "Tu mensaje",
-              preferredContact: "Medio de contacto preferido",
-              urgency: "Nivel de urgencia"
-            },
-            options: {
-              preferredContact: {
-                phone: "Teléfono",
-                email: "Email",
-                meeting: "Reunión"
-              },
-              urgency: {
-                low: "No urgente",
-                normal: "Normal",
-                high: "Urgente",
-                critical: "Muy urgente"
-              }
-            },
-            submitButton: "Enviar mensaje",
-            successMessage: "¡Tu mensaje ha sido enviado con éxito! Te contactaremos rápidamente.",
-            commitment: "Nos comprometemos a responderte en 24h"
-          }
-        }
       }
     },
     services: {
@@ -2406,365 +1304,48 @@ const translations = {
         }
       }
     },
-    legal: {
-      badge: "Información Legal",
-      title: {
-        main: "Aviso",
-        subtitle: "Legal"
-      },
-      description: "Toda la información legal y reglamentaria sobre Aurex K-pital y el uso de nuestros servicios.",
-      tabs: {
-        mentions: "Aviso Legal",
-        privacy: "Privacidad",
-        terms: "Términos",
-        gdpr: "RGPD"
-      },
-      mentions: {
-        title: "Aviso Legal",
-        description: "Información de la empresa y responsabilidades legales",
-        company: {
-          title: "Identificación de la Empresa",
-          name: "Denominación social",
-          type: "Forma jurídica",
-          typeValue: "Sociedad de responsabilidad limitada (GmbH)",
-          capital: "Capital social",
-          address: "Sede social",
-          register: "Registro mercantil",
-          vat: "Número de IVA",
-          siren: "Número SIREN"
-        },
-        management: {
-          title: "Dirección",
-          ceo: "Director General",
-          cio: "Directora de Innovación",
-          cro: "Director de Riesgos"
-        },
-        activity: {
-          title: "Actividad",
-          description: "Aurex K-pital es una institución financiera autorizada por la BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) bajo el número de autorización 147-FS-2015. Nuestras actividades incluyen:",
-          services: {
-            banking: "Intermediación en operaciones bancarias y servicios de pago",
-            investment: "Asesoramiento en inversiones financieras",
-            insurance: "Intermediación en seguros",
-            wealth: "Servicios de gestión patrimonial"
-          }
-        },
-        contact: {
-          title: "Contacto",
-          phone: "Teléfono",
-          email: "Email",
-          hours: "Horarios",
-          schedule: "Lunes-Viernes 8h-19h, Sábado 9h-17h",
-          hero: {
-            badge: "Excelencia en Soporte",
-            title: "Contacte con Nuestros",
-            titleSpan: "Expertos",
-            subtitle: "Nuestro equipo dedicado le acompaña en cada paso de su proyecto financiero. Varios medios para contactarnos según sus preferencias.",
-            stats: {
-              satisfaction: "Satisfacción del cliente",
-              responseTime: "Tiempo de respuesta promedio",
-              experts: "Asesores expertos"
-            }
-          },
-          methods: {
-            title: "Cómo Contactarnos",
-            subtitle: "Elija el canal que mejor se adapte a usted",
-            phone: {
-              title: "Teléfono",
-              description: "Hable directamente con nuestros asesores",
-              value: "+49 40 710 97523",
-              hours: "Lun-Vie: 8h-19h, Sáb: 9h-17h"
-            },
-            email: {
-              title: "Email",
-              description: "Envíenos sus preguntas",
-              value: "contact@aurex-kpital.de",
-              hours: "Respuesta en 4h en promedio"
-            },
-            address: {
-              title: "Dirección",
-              description: "Visite nuestras oficinas en Hamburgo",
-              value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
-              hours: "Solo con cita previa"
-            },
-            chat: {
-              title: "Chat en línea",
-              description: "Asistencia instantánea",
-              value: "Disponible 24h/7d",
-              hours: "Respuesta inmediata"
-            }
-          },
-          form: {
-            title: "Enviar un Mensaje",
-            subtitle: "Complete este formulario y le contactaremos rápidamente",
-            fields: {
-              name: "Nombre completo",
-              email: "Dirección de email",
-              phone: "Teléfono",
-              subject: "Asunto",
-              message: "Su mensaje",
-              preferredContact: "Medio de contacto preferido",
-              urgency: "Nivel de urgencia"
-            },
-            options: {
-              preferredContact: {
-                phone: "Teléfono",
-                email: "Email",
-                meeting: "Cita"
-              },
-              urgency: {
-                low: "No urgente",
-                normal: "Normal",
-                high: "Urgente",
-                critical: "Muy urgente"
-              },
-              subjects: {
-                loan: "Solicitud de préstamo",
-                investment: "Inversión",
-                insurance: "Seguro",
-                other: "Otro"
-              }
-            },
-            submitButton: "Enviar mensaje",
-            successMessage: "¡Su mensaje ha sido enviado con éxito! Le contactaremos rápidamente.",
-            commitment: "Nos comprometemos a responderle en 24h"
-          },
-          departments: {
-            title: "Nuestros Servicios",
-            subtitle: "Contacte directamente el servicio adaptado a sus necesidades",
-            commercial: {
-              name: "Servicio Comercial",
-              description: "Nuevas solicitudes e información",
-              contact: "commercial@aurex-kpital.de",
-              phone: "+49 40 710 97523"
-            },
-            client: {
-              name: "Servicio al Cliente",
-              description: "Seguimiento de expedientes existentes",
-              contact: "client@aurex-kpital.de",
-              phone: "+49 40 710 97524"
-            },
-            support: {
-              name: "Soporte Técnico",
-              description: "Asistencia de plataforma y herramientas",
-              contact: "support@aurex-kpital.de",
-              phone: "+49 40 710 97525"
-            },
-            management: {
-              name: "Dirección",
-              description: "Reclamaciones y sugerencias",
-              contact: "direction@aurex-kpital.de",
-              phone: "+49 40 710 97520"
-            }
-          },
-          schedules: {
-            title: "Horarios de Apertura",
-            weekdays: {
-              day: "Lunes - Viernes",
-              hours: "8:00 - 19:00",
-              type: "Asesores disponibles"
-            },
-            saturday: {
-              day: "Sábado",
-              hours: "9:00 - 17:00",
-              type: "Servicio reducido"
-            },
-            sunday: {
-              day: "Domingo",
-              hours: "Cerrado",
-              type: "Solo emergencias"
-            }
-          },
-          certifications: {
-            title: "Certificaciones y Garantías",
-            subtitle: "Su confianza, nuestro compromiso",
-            bafin: {
-              title: "Licencia BaFin",
-              description: "Autoridad federal alemana de supervisión financiera"
-            },
-            gdpr: {
-              title: "Conformidad RGPD",
-              description: "Protección máxima de sus datos personales"
-            },
-            security: {
-              title: "Seguridad Bancaria",
-              description: "Cifrado SSL 256-bit y protocolos seguros"
-            },
-            quality: {
-              title: "Certificación de Calidad",
-              description: "ISO 9001:2015 - Excelencia en servicio al cliente"
-            }
-          }
-        },
-        hosting: {
-          title: "Alojamiento",
-          description: "Este sitio está alojado por:"
-        },
-        intellectual: {
-          title: "Propiedad Intelectual",
-          description: "Todos los contenidos presentes en este sitio (textos, imágenes, logos, gráficos, etc.) están protegidos por derechos de autor y pertenecen a Aurex K-pital o a sus socios. Cualquier reproducción, incluso parcial, está prohibida sin autorización escrita previa."
-        },
-        responsibility: {
-          title: "Responsabilidad",
-          description: "Aurex K-pital se esfuerza por proporcionar información precisa y actualizada. Sin embargo, la empresa no puede garantizar la exactitud, integridad o actualidad de la información difundida en este sitio. El uso de la información se hace bajo la responsabilidad exclusiva del usuario."
-        }
-      }
-    },
-    about: {
-      badge: "Excelencia desde 1997",
-      title: "Su socio financiero de confianza",
-      subtitle: "Desde hace más de 25 años, acompañamos a las empresas europeas en su desarrollo con soluciones de financiación innovadoras y personalizadas.",
+    contact: {
       hero: {
-        cta: {
-          contact: "Contactarnos",
-          simulate: "Simular mi financiación"
-        }
-      },
-      stats: {
-        experience: {
-          value: "25+",
-          label: "Años de experiencia"
-        },
-        companies: {
-          value: "50K+",
-          label: "Empresas acompañadas"
-        },
-        funding: {
-          value: "€5B+",
-          label: "Financiaciones facilitadas"
-        },
-        countries: {
-          value: "8",
-          label: "Países europeos"
-        }
-      },
-      values: {
-        badge: "Nuestros Valores",
-        title: "Lo que nos guía cada día",
-        description: "Nuestro éxito se basa en valores sólidos que orientan cada una de nuestras acciones y decisiones.",
-        security: {
-          title: "Seguridad y Cumplimiento",
-          description: "Nuestras soluciones respetan las normas bancarias más estrictas y la regulación RGPD."
-        },
-        innovation: {
-          title: "Innovación Continua",
-          description: "Desarrollamos constantemente nuevas soluciones para anticipar sus necesidades futuras."
-        },
-        support: {
-          title: "Acompañamiento Personal",
-          description: "Cada cliente se beneficia de un asesor dedicado para un servicio a medida."
-        },
-        excellence: {
-          title: "Excelencia Reconocida",
-          description: "Más de 25 años de experiencia y la confianza de miles de empresas."
-        }
-      },
-      history: {
-        badge: "Nuestra Historia",
-        title: "Más de 25 años de innovación",
-        description: "Descubra los momentos clave que han forjado nuestra empresa y nuestra experiencia.",
-        milestone1: {
-          title: "Creación de la empresa",
-          description: "Fundación con la visión de democratizar el acceso a la financiación para las PYME."
-        },
-        milestone2: {
-          title: "Expansión europea",
-          description: "Apertura de oficinas en Alemania, Polonia y España."
-        },
-        milestone3: {
-          title: "Innovación digital",
-          description: "Lanzamiento de nuestra plataforma de simulación en línea revolucionaria."
-        },
-        milestone4: {
-          title: "Cliente número 50.000",
-          description: "Franqueo del hito de 50.000 empresas acompañadas."
-        },
-        milestone5: {
-          title: "€5 mil millones financiados",
-          description: "Alcance del récord de 5 mil millones de euros de financiaciones facilitadas."
-        }
-      },
-      team: {
-        badge: "Nuestro Equipo",
-        title: "La experiencia al servicio de su éxito",
-        description: "Conozca a los expertos que impulsan nuestra visión y acompañan su crecimiento.",
-        member1: {
-          name: "Marie Dubois",
-          role: "Directora General",
-          experience: "15 años de experiencia en financiación empresarial"
-        },
-        member2: {
-          name: "Thomas Schmidt",
-          role: "Director Técnico",
-          experience: "Experto en soluciones fintech y seguridad bancaria"
-        },
-        member3: {
-          name: "Elena Rodriguez",
-          role: "Directora Comercial",
-          experience: "Especialista en mercados europeos desde hace 12 años"
-        }
-      },
-      cta: {
-        title: "¿Listo para desarrollar su empresa?",
-        description: "Únase a más de 50.000 empresas que confían en nosotros para sus necesidades de financiación.",
-        simulate: "Comenzar la simulación",
-        expert: "Hablar con un experto"
-      },
-      blog: {
-        badge: "Experiencia y Perspectivas",
-        title: "Blog Aurex",
-        subtitle: "K-pital",
-        description: "Análisis de expertos, tendencias del mercado y consejos prácticos para optimizar sus decisiones financieras y de inversión.",
+        title: "Contacte a nuestros",
+        titleSpan: "Expertos",
+        subtitle: "Un equipo dedicado para acompañarle en todos sus proyectos financieros",
         stats: {
-          articles: {
-            value: "150+",
-            label: "Artículos publicados"
-          },
-          experts: {
-            value: "8",
-            label: "Expertos autores"
-          },
-          readers: {
-            value: "50K+",
-            label: "Lectores mensuales"
-          },
-          satisfaction: {
-            value: "95%",
-            label: "Satisfacción de lectores"
-          }
-        },
-        featured: {
-          title: "Artículo Destacado"
-        },
-        search: {
-          placeholder: "Buscar un artículo...",
-          allCategories: "Todas las categorías"
-        },
-        categories: {
-          title: "Categorías",
-          innovation: "Innovación",
-          realEstate: "Inmobiliario",
-          regulation: "Regulación",
-          economy: "Economía",
-          esg: "ESG",
-          education: "Educación"
-        },
-        trending: {
-          title: "Tendencias"
-        },
-        newsletter: {
-          title: "Newsletter",
-          description: "Reciba nuestros últimos artículos y análisis directamente en su buzón",
-          placeholder: "Su email",
-          subscribe: "Suscribirse",
-          disclaimer: "Máximo 1 email por semana. Fácil cancelación."
-        },
-        actions: {
-          readMore: "Leer el artículo completo",
-          read: "Leer",
-          loadMore: "Cargar más artículos",
-          readTime: "de lectura"
+          responseTime: "Respuesta en 2h",
+          experts: "Expertos disponibles"
         }
+      },
+      methods: {
+        title: "Medios de contacto",
+        subtitle: "Elija el canal que mejor le convenga para hablar con nuestros asesores",
+        phone: {
+          title: "Teléfono",
+          description: "Llámenos para un consejo inmediato",
+          value: "+34 91 123 45 67",
+          hours: "Lun-Vie 8h-19h, Sáb 9h-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Escríbanos, respondemos rápidamente",
+          value: "contacto@aurex-kpital.es",
+          hours: "Respuesta en 2h en promedio"
+        },
+        address: {
+          title: "Dirección",
+          description: "Encuéntrenos en nuestras oficinas",
+          value: "Paseo de la Castellana 95, 28046 Madrid",
+          hours: "Solo con cita previa"
+        }
+      },
+      form: {
+        title: "Envíenos un mensaje",
+        fields: {
+          name: "Nombre y apellidos",
+          email: "Dirección de email",
+          message: "Su mensaje"
+        },
+        submitButton: "Enviar mensaje",
+        successMessage: "¡Gracias! Su mensaje ha sido enviado con éxito. Le responderemos rápidamente.",
+        commitment: "Nos comprometemos a responder en 2 horas durante nuestro horario de oficina."
       }
     }
   },
@@ -2896,64 +1477,6 @@ const translations = {
           simulate: "Simulare un prestito",
           contact: "Contattaci"
         },
-        contact: {
-          title: "Contatto",
-          phone: "Telefono",
-          email: "Email",
-          hours: "Orari",
-          schedule: "Lunedì-Venerdì 8h-19h, Sabato 9h-17h",
-          hero: {
-            badge: "Eccellenza nel Supporto",
-            title: "Contattate i Nostri",
-            titleSpan: "Esperti",
-            subtitle: "Il nostro team dedicato vi accompagna in ogni fase del vostro progetto finanziario. Diversi modi per contattarci secondo le vostre preferenze.",
-            stats: {
-              satisfaction: "Soddisfazione clienti",
-              responseTime: "Tempo di risposta medio",
-              experts: "Consulenti esperti"
-            }
-          },
-          methods: {
-            title: "Come Contattarci",
-            subtitle: "Scegliete il canale che vi conviene di più",
-            phone: {
-              title: "Telefono",
-              description: "Parlate direttamente con i nostri consulenti",
-              value: "+49 40 710 97523",
-              hours: "Lun-Ven: 8h-19h, Sab: 9h-17h"
-            },
-            email: {
-              title: "Email",
-              description: "Inviateci le vostre domande",
-              value: "contact@aurex-kpital.de",
-              hours: "Risposta in 4h in media"
-            },
-            address: {
-              title: "Indirizzo", 
-              description: "Visitate i nostri uffici ad Amburgo",
-              value: "Irma-Keilhack-Ring 24, 22145 Amburgo",
-              hours: "Solo su appuntamento"
-            }
-          },
-          form: {
-            title: "Inviate un Messaggio",
-            subtitle: "Compilate questo modulo e vi contatteremo rapidamente",
-            fields: {
-              name: "Nome completo",
-              email: "Indirizzo email",
-              phone: "Telefono", 
-              subject: "Oggetto",
-              message: "Il vostro messaggio",
-              preferredContact: "Modo di contatto preferito",
-              urgency: "Livello di urgenza"
-            },
-            submitButton: "Invia messaggio",
-            successMessage: "Il vostro messaggio è stato inviato con successo! Vi contatteremo rapidamente.",
-            commitment: "Ci impegniamo a rispondervi entro 24h"
-          },
-          address: "Indirizzo",
-          addressValue: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
-        }
       }
     },
     services: {
@@ -3120,164 +1643,7 @@ const translations = {
             label: "Consolidamento Crediti",
             description: "Raggruppamento debiti esistenti"
           }
-    },
-    about: {
-      badge: "Eccellenza dal 1997",
-      title: "Il vostro partner finanziario di fiducia",
-      subtitle: "Da oltre 25 anni, accompagniamo le aziende europee nel loro sviluppo con soluzioni di finanziamento innovative e personalizzate.",
-      hero: {
-        cta: {
-          contact: "Contattaci",
-          simulate: "Simula il mio finanziamento"
         }
-      },
-      stats: {
-        experience: {
-          value: "25+",
-          label: "Anni di esperienza"
-        },
-        companies: {
-          value: "50K+",
-          label: "Aziende accompagnate"
-        },
-        funding: {
-          value: "€5B+",
-          label: "Finanziamenti facilitati"
-        },
-        countries: {
-          value: "8",
-          label: "Paesi europei"
-        }
-      },
-      values: {
-        badge: "I Nostri Valori",
-        title: "Ciò che ci guida ogni giorno",
-        description: "Il nostro successo si basa su valori forti che orientano ogni nostra azione e decisione.",
-        security: {
-          title: "Sicurezza e Conformità",
-          description: "Le nostre soluzioni rispettano le norme bancarie più rigorose e la regolamentazione GDPR."
-        },
-        innovation: {
-          title: "Innovazione Continua",
-          description: "Sviluppiamo costantemente nuove soluzioni per anticipare le vostre esigenze future."
-        },
-        support: {
-          title: "Accompagnamento Personale",
-          description: "Ogni cliente beneficia di un consulente dedicato per un servizio su misura."
-        },
-        excellence: {
-          title: "Eccellenza Riconosciuta",
-          description: "Oltre 25 anni di competenza e la fiducia di migliaia di aziende."
-        }
-      },
-      history: {
-        badge: "La Nostra Storia",
-        title: "Oltre 25 anni di innovazione",
-        description: "Scoprite i momenti chiave che hanno plasmato la nostra azienda e la nostra competenza.",
-        milestone1: {
-          title: "Creazione dell'azienda",
-          description: "Fondazione con la visione di democratizzare l'accesso ai finanziamenti per le PMI."
-        },
-        milestone2: {
-          title: "Espansione europea",
-          description: "Apertura di uffici in Germania, Polonia e Spagna."
-        },
-        milestone3: {
-          title: "Innovazione digitale",
-          description: "Lancio della nostra piattaforma di simulazione online rivoluzionaria."
-        },
-        milestone4: {
-          title: "50.000º cliente",
-          description: "Raggiungimento del traguardo di 50.000 aziende accompagnate."
-        },
-        milestone5: {
-          title: "€5 miliardi finanziati",
-          description: "Raggiungimento del record di 5 miliardi di euro di finanziamenti facilitati."
-        }
-      },
-      team: {
-        badge: "Il Nostro Team",
-        title: "L'expertise al servizio del vostro successo",
-        description: "Incontrate gli esperti che guidano la nostra visione e accompagnano la vostra crescita.",
-        member1: {
-          name: "Marie Dubois",
-          role: "Direttrice Generale",
-          experience: "15 anni di esperienza nel finanziamento aziendale"
-        },
-        member2: {
-          name: "Thomas Schmidt",
-          role: "Direttore Tecnico",
-          experience: "Esperto in soluzioni fintech e sicurezza bancaria"
-        },
-        member3: {
-          name: "Elena Rodriguez",
-          role: "Direttrice Commerciale",
-          experience: "Specialista dei mercati europei da 12 anni"
-        }
-      },
-      cta: {
-        title: "Pronti a sviluppare la vostra azienda?",
-        description: "Unitevi a oltre 50.000 aziende che si fidano di noi per le loro esigenze di finanziamento.",
-        simulate: "Inizia la simulazione",
-        expert: "Parla con un esperto"
-      },
-      blog: {
-        badge: "Competenza e Approfondimenti",
-        title: "Blog Aurex",
-        subtitle: "K-pital",
-        description: "Analisi di esperti, tendenze di mercato e consigli pratici per ottimizzare le vostre decisioni finanziarie e di investimento.",
-        stats: {
-          articles: {
-            value: "150+",
-            label: "Articoli pubblicati"
-          },
-          experts: {
-            value: "8",
-            label: "Esperti autori"
-          },
-          readers: {
-            value: "50K+",
-            label: "Lettori mensili"
-          },
-          satisfaction: {
-            value: "95%",
-            label: "Soddisfazione lettori"
-          }
-        },
-        featured: {
-          title: "Articolo in Evidenza"
-        },
-        search: {
-          placeholder: "Cerca un articolo...",
-          allCategories: "Tutte le categorie"
-        },
-        categories: {
-          title: "Categorie",
-          innovation: "Innovazione",
-          realEstate: "Immobiliare",
-          regulation: "Regolamentazione",
-          economy: "Economia",
-          esg: "ESG",
-          education: "Educazione"
-        },
-        trending: {
-          title: "Tendenze"
-        },
-        newsletter: {
-          title: "Newsletter",
-          description: "Ricevi i nostri ultimi articoli e analisi direttamente nella tua casella di posta",
-          placeholder: "La tua email",
-          subscribe: "Iscriviti",
-          disclaimer: "Massimo 1 email a settimana. Facile cancellazione."
-        },
-        actions: {
-          readMore: "Leggi l'articolo completo",
-          read: "Leggi",
-          loadMore: "Carica più articoli",
-          readTime: "di lettura"
-        }
-      }
-    }
       },
       configuration: {
         title: "Configurazione del tuo prestito",
@@ -3313,6 +1679,50 @@ const translations = {
           officialRequest: "Fare domanda ufficiale",
           allServices: "Vedere tutti i nostri servizi"
         }
+      }
+    },
+    contact: {
+      hero: {
+        title: "Contatta i nostri",
+        titleSpan: "Esperti",
+        subtitle: "Un team dedicato per accompagnarti in tutti i tuoi progetti finanziari",
+        stats: {
+          responseTime: "Risposta in 2h",
+          experts: "Esperti disponibili"
+        }
+      },
+      methods: {
+        title: "Mezzi di contatto",
+        subtitle: "Scegli il canale che preferisci per parlare con i nostri consulenti",
+        phone: {
+          title: "Telefono",
+          description: "Chiamaci per un consiglio immediato",
+          value: "+39 02 1234 5678",
+          hours: "Lun-Ven 8-19, Sab 9-17"
+        },
+        email: {
+          title: "Email",
+          description: "Scrivici, rispondiamo velocemente",
+          value: "contatto@aurex-kpital.it",
+          hours: "Risposta in 2h in media"
+        },
+        address: {
+          title: "Indirizzo",
+          description: "Incontraci nei nostri uffici",
+          value: "Via Monte Napoleone 8, 20121 Milano",
+          hours: "Solo su appuntamento"
+        }
+      },
+      form: {
+        title: "Inviaci un messaggio",
+        fields: {
+          name: "Nome e cognome",
+          email: "Indirizzo email",
+          message: "Il tuo messaggio"
+        },
+        submitButton: "Invia messaggio",
+        successMessage: "Grazie! Il tuo messaggio è stato inviato con successo. Ti risponderemo rapidamente.",
+        commitment: "Ci impegniamo a rispondere entro 2 ore durante i nostri orari di ufficio."
       }
     }
   },
@@ -3444,64 +1854,6 @@ const translations = {
           simulate: "Symulować kredyt",
           contact: "Skontaktuj się"
         },
-        contact: {
-          title: "Kontakt",
-          phone: "Telefon",
-          email: "Email",
-          hours: "Godziny",
-          schedule: "Poniedziałek-Piątek 8h-19h, Sobota 9h-17h",
-          hero: {
-            badge: "Doskonałość Wsparcia",
-            title: "Skontaktuj się z Naszymi",
-            titleSpan: "Ekspertami",
-            subtitle: "Nasz zespół towarzyszy Państwu na każdym etapie projektu finansowego. Kilka sposobów kontaktu według Państwa preferencji.",
-            stats: {
-              satisfaction: "Satysfakcja klientów",
-              responseTime: "Średni czas odpowiedzi",
-              experts: "Doradcy eksperci"
-            }
-          },
-          methods: {
-            title: "Jak się z nami skontaktować",
-            subtitle: "Wybierz kanał, który Ci odpowiada",
-            phone: {
-              title: "Telefon",
-              description: "Rozmawiaj bezpośrednio z naszymi doradcami",
-              value: "+49 40 710 97523",
-              hours: "Pon-Pią: 8h-19h, Sob: 9h-17h"
-            },
-            email: {
-              title: "Email",
-              description: "Wyślij nam swoje pytania",
-              value: "contact@aurex-kpital.de",
-              hours: "Odpowiedź w 4h średnio"
-            },
-            address: {
-              title: "Adres", 
-              description: "Odwiedź nasze biura w Hamburgu",
-              value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
-              hours: "Tylko po umówieniu"
-            }
-          },
-          form: {
-            title: "Wyślij nam wiadomość",
-            subtitle: "Wypełnij ten formularz, a skontaktujemy się z Tobą szybko",
-            fields: {
-              name: "Imię i nazwisko",
-              email: "Adres email",
-              phone: "Telefon", 
-              subject: "Temat",
-              message: "Twoja wiadomość",
-              preferredContact: "Preferowany sposób kontaktu",
-              urgency: "Poziom pilności"
-            },
-            submitButton: "Wyślij wiadomość",
-            successMessage: "Twoja wiadomość została wysłana pomyślnie! Skontaktujemy się z Tobą szybko.",
-            commitment: "Zobowiązujemy się odpowiedzieć w ciągu 24h"
-          },
-          address: "Adres",
-          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
-        }
       }
     },
     services: {
@@ -3704,24 +2056,50 @@ const translations = {
           officialRequest: "Złożyć oficjalny wniosek",
           allServices: "Zobacz wszystkie nasze usługi"
         }
-      },
-      blog: {
-        badge: "Ekspertyza i Spostrzeżenia",
-        title: "Blog Aurex",
-        subtitle: "K-pital",
-        description: "Analizy ekspertów, trendy rynkowe i praktyczne porady do optymalizacji Twoich decyzji finansowych i inwestycyjnych.",
+      }
+    },
+    contact: {
+      hero: {
+        title: "Skontaktuj się z naszymi",
+        titleSpan: "Ekspertami",
+        subtitle: "Zespół poświęcony wspieraniu Cię we wszystkich projektach finansowych",
         stats: {
-          articles: { value: "150+", label: "Opublikowane artykuły" },
-          experts: { value: "8", label: "Eksperci autorzy" },
-          readers: { value: "50K+", label: "Miesięczni czytelnicy" },
-          satisfaction: { value: "95%", label: "Zadowolenie czytelników" }
+          responseTime: "Odpowiedź w 2h",
+          experts: "Dostępni eksperci"
+        }
+      },
+      methods: {
+        title: "Sposoby kontaktu",
+        subtitle: "Wybierz kanał, który Ci odpowiada, aby rozmawiać z naszymi doradcami",
+        phone: {
+          title: "Telefon",
+          description: "Zadzwoń do nas po natychmiastową poradę",
+          value: "+48 22 123 45 67",
+          hours: "Pon-Pt 8-19, Sob 9-17"
         },
-        featured: { title: "Artykuł na Wyróżnienie" },
-        search: { placeholder: "Szukaj artykułu...", allCategories: "Wszystkie kategorie" },
-        categories: { title: "Kategorie", innovation: "Innowacje", realEstate: "Nieruchomości", regulation: "Regulacje", economy: "Ekonomia", esg: "ESG", education: "Edukacja" },
-        trending: { title: "Trendy" },
-        newsletter: { title: "Newsletter", description: "Otrzymuj nasze najnowsze artykuły i analizy bezpośrednio do skrzynki pocztowej", placeholder: "Twój email", subscribe: "Zapisz się", disclaimer: "Maksymalnie 1 email tygodniowo. Łatwa rezygnacja." },
-        actions: { readMore: "Przeczytaj pełny artykuł", read: "Czytaj", loadMore: "Załaduj więcej artykułów", readTime: "czytania" }
+        email: {
+          title: "Email",
+          description: "Napisz do nas, szybko odpowiadamy",
+          value: "kontakt@aurex-kpital.pl",
+          hours: "Odpowiedź w 2h średnio"
+        },
+        address: {
+          title: "Adres",
+          description: "Spotkaj się z nami w naszych biurach",
+          value: "ul. Nowy Świat 6/12, 00-400 Warszawa",
+          hours: "Tylko po umówieniu"
+        }
+      },
+      form: {
+        title: "Wyślij nam wiadomość",
+        fields: {
+          name: "Imię i nazwisko",
+          email: "Adres email",
+          message: "Twoja wiadomość"
+        },
+        submitButton: "Wyślij wiadomość",
+        successMessage: "Dziękujemy! Twoja wiadomość została wysłana pomyślnie. Odpowiemy szybko.",
+        commitment: "Zobowiązujemy się odpowiedzieć w ciągu 2 godzin w czasie naszych godzin pracy."
       }
     }
   },
@@ -3853,64 +2231,6 @@ const translations = {
           simulate: "Simuloida laina",
           contact: "Ota yhteyttä"
         },
-        contact: {
-          title: "Yhteystiedot",
-          phone: "Puhelin",
-          email: "Sähköposti",
-          hours: "Aukioloajat",
-          schedule: "Maanantai-Perjantai 8h-19h, Lauantai 9h-17h",
-          hero: {
-            badge: "Tuen Huippuosaaminen",
-            title: "Ota yhteyttä",
-            titleSpan: "Asiantuntijoihimme",
-            subtitle: "Tiimimme on mukana jokaisessa rahoitusprojektinne vaiheessa. Useita tapoja ottaa yhteyttä mieltymystenne mukaan.",
-            stats: {
-              satisfaction: "Asiakastyytyväisyys",
-              responseTime: "Keskimääräinen vastausaika",
-              experts: "Asiantuntijakonsultit"
-            }
-          },
-          methods: {
-            title: "Kuinka ottaa meihin yhteyttä",
-            subtitle: "Valitse sinulle sopiva kanava",
-            phone: {
-              title: "Puhelin",
-              description: "Keskustele suoraan konsulttiemme kanssa",
-              value: "+49 40 710 97523",
-              hours: "Ma-Pe: 8h-19h, La: 9h-17h"
-            },
-            email: {
-              title: "Sähköposti",
-              description: "Lähetä meille kysymyksesi",
-              value: "contact@aurex-kpital.de",
-              hours: "Vastaus 4h:ssa keskimäärin"
-            },
-            address: {
-              title: "Osoite", 
-              description: "Vieraile toimistossamme Hampurissa",
-              value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
-              hours: "Vain sopimuksella"
-            }
-          },
-          form: {
-            title: "Lähetä meille viesti",
-            subtitle: "Täytä tämä lomake, niin otamme yhteyttä nopeasti",
-            fields: {
-              name: "Koko nimi",
-              email: "Sähköpostiosoite",
-              phone: "Puhelin", 
-              subject: "Aihe",
-              message: "Viestisi",
-              preferredContact: "Ensisijainen yhteydenottotapa",
-              urgency: "Kiireellisyysaste"
-            },
-            submitButton: "Lähetä viesti",
-            successMessage: "Viestisi on lähetetty onnistuneesti! Otamme yhteyttä nopeasti.",
-            commitment: "Sitoudumme vastaamaan 24h sisällä"
-          },
-          address: "Osoite",
-          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Saksa"
-        }
       }
     },
     services: {
@@ -4114,25 +2434,51 @@ const translations = {
           allServices: "Katso kaikki palvelumme"
         }
       }
-      },
-      blog: {
-        badge: "Asiantuntemus ja Näkemykset",
-        title: "Aurex Blog",
-        subtitle: "K-pital",
-        description: "Asiantuntija-analyysejä, markkinatrendejä ja käytännön neuvoja talous- ja sijoituspäätöstesi optimointiin.",
+    },
+    contact: {
+      hero: {
+        title: "Ota yhteyttä",
+        titleSpan: "Asiantuntijoihimme",
+        subtitle: "Tiimi, joka on omistautunut tukemaan sinua kaikissa rahoitusprojekteissasi",
         stats: {
-          articles: { value: "150+", label: "Julkaistuja artikkeleita" },
-          experts: { value: "8", label: "Asiantuntijakirjoittajia" },
-          readers: { value: "50K+", label: "Kuukausittaisia lukijoita" },
-          satisfaction: { value: "95%", label: "Lukijatyytyväisyys" }
+          responseTime: "Vastaus 2h sisällä",
+          experts: "Asiantuntijat käytettävissä"
+        }
+      },
+      methods: {
+        title: "Yhteydenottotavat",
+        subtitle: "Valitse sinulle sopiva kanava keskustellaksesi neuvojiemme kanssa",
+        phone: {
+          title: "Puhelin",
+          description: "Keskustele suoraan konsulttiemme kanssa",
+          value: "+49 40 710 97523",
+          hours: "Ma-Pe: 8h-19h, La: 9h-17h"
         },
-        featured: { title: "Pääartikkeli" },
-        search: { placeholder: "Etsi artikkeli...", allCategories: "Kaikki kategoriat" },
-        categories: { title: "Kategoriat", innovation: "Innovaatio", realEstate: "Kiinteistöt", regulation: "Säännökset", economy: "Talous", esg: "ESG", education: "Koulutus" },
-        trending: { title: "Trendit" },
-        newsletter: { title: "Uutiskirje", description: "Saa uusimmat artikkelimme ja analyysimme suoraan sähköpostiisi", placeholder: "Sähköpostisi", subscribe: "Tilaa", disclaimer: "Enintään 1 sähköposti viikossa. Helppo peruuttaa." },
-        actions: { readMore: "Lue koko artikkeli", read: "Lue", loadMore: "Lataa lisää artikkeleita", readTime: "lukuaikaa" }
+        email: {
+          title: "Sähköposti",
+          description: "Lähetä meille kysymyksesi",
+          value: "contact@aurex-kpital.de",
+          hours: "Vastaus 4h:ssa keskimäärin"
+        },
+        address: {
+          title: "Osoite",
+          description: "Vieraile toimistossamme Hampurissa",
+          value: "Irma-Keilhack-Ring 24, 22145 Hamburg",
+          hours: "Vain sopimuksella"
+        }
+      },
+      form: {
+        title: "Lähetä meille viesti",
+        fields: {
+          name: "Koko nimi",
+          email: "Sähköpostiosoite",
+          message: "Viestisi"
+        },
+        submitButton: "Lähetä viesti",
+        successMessage: "Viestisi on lähetetty onnistuneesti! Otamme yhteyttä nopeasti.",
+        commitment: "Sitoudumme vastaamaan 24h sisällä"
       }
+    }
   },
   pt: {
     menu: {
@@ -4262,64 +2608,6 @@ const translations = {
           simulate: "Simular um empréstimo",
           contact: "Contactar-nos"
         },
-        contact: {
-          title: "Contacto",
-          phone: "Telefone",
-          email: "Email",
-          hours: "Horários",
-          schedule: "Segunda-Sexta 8h-19h, Sábado 9h-17h",
-          hero: {
-            badge: "Excelência no Suporte",
-            title: "Contacte os Nossos",
-            titleSpan: "Especialistas",
-            subtitle: "A nossa equipa acompanha-o em cada etapa do seu projeto financeiro. Várias formas de nos contactar segundo as suas preferências.",
-            stats: {
-              satisfaction: "Satisfação dos clientes",
-              responseTime: "Tempo médio de resposta",
-              experts: "Consultores especializados"
-            }
-          },
-          methods: {
-            title: "Como nos contactar",
-            subtitle: "Escolha o canal que lhe convém",
-            phone: {
-              title: "Telefone",
-              description: "Fale directamente com os nossos consultores",
-              value: "+49 40 710 97523",
-              hours: "Seg-Sex: 8h-19h, Sáb: 9h-17h"
-            },
-            email: {
-              title: "Email",
-              description: "Envie-nos as suas questões",
-              value: "contact@aurex-kpital.de",
-              hours: "Resposta em 4h em média"
-            },
-            address: {
-              title: "Morada", 
-              description: "Visite os nossos escritórios em Hamburgo",
-              value: "Irma-Keilhack-Ring 24, 22145 Hamburgo",
-              hours: "Apenas com marcação"
-            }
-          },
-          form: {
-            title: "Envie-nos uma mensagem",
-            subtitle: "Preencha este formulário e contactá-lo-emos rapidamente",
-            fields: {
-              name: "Nome completo",
-              email: "Endereço de email",
-              phone: "Telefone", 
-              subject: "Assunto",
-              message: "A sua mensagem",
-              preferredContact: "Meio de contacto preferido",
-              urgency: "Nível de urgência"
-            },
-            submitButton: "Enviar mensagem",
-            successMessage: "A sua mensagem foi enviada com sucesso! Contactá-lo-emos rapidamente.",
-            commitment: "Comprometemo-nos a responder em 24h"
-          },
-          address: "Morada",
-          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
-        }
       }
     },
     services: {
@@ -4523,25 +2811,51 @@ const translations = {
           allServices: "Ver todos os nossos serviços"
         }
       }
-      },
-      blog: {
-        badge: "Perícia e Insights",
-        title: "Blog Aurex",
-        subtitle: "K-pital",
-        description: "Análises de especialistas, tendências do mercado e conselhos práticos para otimizar as suas decisões financeiras e de investimento.",
+    },
+    contact: {
+      hero: {
+        title: "Contacte os nossos",
+        titleSpan: "Especialistas",
+        subtitle: "Uma equipa dedicada para o acompanhar em todos os seus projetos financeiros",
         stats: {
-          articles: { value: "150+", label: "Artigos publicados" },
-          experts: { value: "8", label: "Especialistas autores" },
-          readers: { value: "50K+", label: "Leitores mensais" },
-          satisfaction: { value: "95%", label: "Satisfação dos leitores" }
+          responseTime: "Resposta em 2h",
+          experts: "Especialistas disponíveis"
+        }
+      },
+      methods: {
+        title: "Meios de contacto",
+        subtitle: "Escolha o canal que mais lhe convém para falar com os nossos consultores",
+        phone: {
+          title: "Telefone",
+          description: "Ligue-nos para um conselho imediato",
+          value: "+351 21 123 45 67",
+          hours: "Seg-Sex 8h-19h, Sáb 9h-17h"
         },
-        featured: { title: "Artigo em Destaque" },
-        search: { placeholder: "Procurar um artigo...", allCategories: "Todas as categorias" },
-        categories: { title: "Categorias", innovation: "Inovação", realEstate: "Imobiliário", regulation: "Regulamentação", economy: "Economia", esg: "ESG", education: "Educação" },
-        trending: { title: "Tendências" },
-        newsletter: { title: "Newsletter", description: "Receba os nossos últimos artigos e análises diretamente na sua caixa de correio", placeholder: "O seu email", subscribe: "Subscrever", disclaimer: "Máximo 1 email por semana. Fácil cancelamento." },
-        actions: { readMore: "Ler o artigo completo", read: "Ler", loadMore: "Carregar mais artigos", readTime: "de leitura" }
+        email: {
+          title: "Email",
+          description: "Escreva-nos, respondemos rapidamente",
+          value: "contacto@aurex-kpital.pt",
+          hours: "Resposta em 2h em média"
+        },
+        address: {
+          title: "Morada",
+          description: "Encontre-nos nos nossos escritórios",
+          value: "Avenida da Liberdade 110, 1269-046 Lisboa",
+          hours: "Apenas com marcação"
+        }
+      },
+      form: {
+        title: "Envie-nos uma mensagem",
+        fields: {
+          name: "Nome e apelido",
+          email: "Endereço de email",
+          message: "A sua mensagem"
+        },
+        submitButton: "Enviar mensagem",
+        successMessage: "Obrigado! A sua mensagem foi enviada com sucesso. Responderemos rapidamente.",
+        commitment: "Comprometemo-nos a responder em 2 horas durante o nosso horário de funcionamento."
       }
+    }
   },
   el: {
     menu: {
@@ -4931,62 +3245,50 @@ const translations = {
           officialRequest: "Κάντε επίσημη αίτηση",
           allServices: "Δείτε όλες τις υπηρεσίες μας"
         }
-      },
-      blog: {
-        badge: "Εμπειρία & Ανάλυση",
-        title: "Blog Aurex",
-        subtitle: "K-pital", 
-        description: "Αναλύσεις ειδικών, τάσεις της αγοράς και πρακτικές συμβουλές για τη βελτιστοποίηση των χρηματοοικονομικών και επενδυτικών σας αποφάσεων.",
+      }
+    },
+    contact: {
+      hero: {
+        title: "Επικοινωνήστε με τους",
+        titleSpan: "Ειδικούς μας",
+        subtitle: "Μια αφοσιωμένη ομάδα για να σας συνοδεύσει σε όλα τα χρηματοδοτικά σας έργα",
         stats: {
-          articles: {
-            value: "150+",
-            label: "Δημοσιευμένα άρθρα"
-          },
-          experts: {
-            value: "8", 
-            label: "Συγγραφείς ειδικοί"
-          },
-          readers: {
-            value: "50K+",
-            label: "Μηνιαίοι αναγνώστες"
-          },
-          satisfaction: {
-            value: "95%",
-            label: "Ικανοποίηση αναγνωστών"
-          }
-        },
-        featured: {
-          title: "Κύριο Άρθρο"
-        },
-        search: {
-          placeholder: "Αναζήτηση άρθρου...",
-          allCategories: "Όλες οι κατηγορίες"
-        },
-        categories: {
-          title: "Κατηγορίες",
-          innovation: "Καινοτομία",
-          realEstate: "Ακίνητα",
-          regulation: "Κανονισμοί",
-          economy: "Οικονομία",
-          esg: "ESG",
-          education: "Εκπαίδευση"
-        },
-        trending: {
-          title: "Τάσεις"
-        },
-        newsletter: {
-          title: "Newsletter",
-          description: "Λάβετε τα τελευταία μας άρθρα και αναλύσεις απευθείας στο γραμματοκιβώτιό σας",
-          placeholder: "Το email σας",
-          subscribe: "Εγγραφή",
-          disclaimer: "Μέγιστο 1 email την εβδομάδα. Εύκολη ακύρωση."
-        },
-        actions: {
-          readMore: "Διαβάστε το πλήρες άρθρο",
-          read: "Διαβάστε",
-          loadMore: "Φορτώστε περισσότερα άρθρα",
-          readTime: "ανάγνωσης"
+          responseTime: "Απάντηση σε 2ω",
+          experts: "Διαθέσιμοι ειδικοί"
         }
+      },
+      methods: {
+        title: "Μέσα επικοινωνίας",
+        subtitle: "Επιλέξτε το κανάλι που σας ταιριάζει για να μιλήσετε με τους συμβούλους μας",
+        phone: {
+          title: "Τηλέφωνο",
+          description: "Καλέστε μας για άμεση συμβουλή",
+          value: "+30 210 123 4567",
+          hours: "Δευ-Παρ 8π-19μ, Σαβ 9π-17μ"
+        },
+        email: {
+          title: "Email",
+          description: "Γράψτε μας, απαντάμε γρήγορα",
+          value: "επικοινωνια@aurex-kpital.gr",
+          hours: "Απάντηση σε 2ω κατά μέσο όρο"
+        },
+        address: {
+          title: "Διεύθυνση",
+          description: "Συναντήστε μας στα γραφεία μας",
+          value: "Λεωφ. Βασιλίσσης Σοφίας 115, 115 21 Αθήνα",
+          hours: "Μόνο με ραντεβού"
+        }
+      },
+      form: {
+        title: "Στείλτε μας ένα μήνυμα",
+        fields: {
+          name: "Πλήρες όνομα",
+          email: "Διεύθυνση email",
+          message: "Το μήνυμά σας"
+        },
+        submitButton: "Αποστολή μηνύματος",
+        successMessage: "Το μήνυμά σας στάλθηκε με επιτυχία! Θα απαντήσουμε γρήγορα.",
+        commitment: "Δεσμευόμαστε να απαντήσουμε εντός 2 ωρών κατά τη διάρκεια των ωραρίων μας."
       }
     }
   }
