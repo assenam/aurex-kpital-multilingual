@@ -1241,6 +1241,139 @@ const translations = {
     }
   },
   es: {
+    request: {
+      hero: {
+        badge: "Solicitud de Financiación",
+        title: "Tu proyecto merece",
+        titleHighlight: "la mejor financiación",
+        subtitle: "Obtén una respuesta personalizada en 24h gracias a nuestra IA avanzada y la experiencia de nuestros asesores",
+        stats: {
+          responseTime: { value: "24h", label: "Respuesta garantizada" },
+          security: { value: "100%", label: "Seguro RGPD" },
+          expert: { value: "24/7", label: "Soporte experto" }
+        }
+      },
+      steps: [
+        { title: "Información", description: "Tus datos personales" },
+        { title: "Proyecto", description: "Detalles de financiación" },
+        { title: "Análisis", description: "Estudio personalizado" },
+        { title: "Respuesta", description: "Propuesta a medida" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Información personal",
+          subtitle: "Introduce tu información básica para comenzar tu solicitud",
+          fields: {
+            firstName: "Nombre",
+            lastName: "Apellidos",
+            email: "Dirección de correo",
+            emailConfirmation: "Confirmar correo",
+            emailConfirmationPlaceholder: "Vuelve a escribir tu dirección de correo",
+            phone: "Teléfono",
+            birthDate: "Fecha de nacimiento",
+            nationality: "Nacionalidad",
+            nationalityPlaceholder: "Selecciona tu nacionalidad",
+            otherNationality: "Otra nacionalidad",
+            maritalStatus: "Estado civil",
+            maritalStatusPlaceholder: "Selecciona tu estado",
+            dependents: "Número de personas a cargo"
+          },
+          validation: {
+            emailMismatch: "Las direcciones de correo no coinciden",
+            emailConfirmed: "Direcciones de correo confirmadas"
+          },
+          maritalStatusOptions: {
+            single: "Soltero/a",
+            married: "Casado/a",
+            divorced: "Divorciado/a",
+            widowed: "Viudo/a",
+            partnership: "Pareja de hecho"
+          }
+        },
+        professionalInfo: {
+          title: "Situación profesional",
+          subtitle: "Información sobre tu actividad profesional e ingresos",
+          fields: {
+            employmentStatus: "Estado profesional",
+            employmentStatusPlaceholder: "Tu situación profesional",
+            profession: "Profesión",
+            employer: "Empleador",
+            employmentDuration: "Antigüedad en el empleo",
+            monthlyIncome: "Ingresos mensuales netos (€)",
+            additionalIncome: "Otros ingresos mensuales (€)"
+          },
+          employmentOptions: {
+            employee: "Empleado/a",
+            selfEmployed: "Autónomo",
+            business: "Empresario",
+            retired: "Jubilado/a",
+            student: "Estudiante",
+            unemployed: "Desempleado/a"
+          }
+        },
+        loanRequest: {
+          title: "Solicitud de financiación",
+          subtitle: "Especifica los detalles de tu proyecto de financiación",
+          fields: {
+            loanType: "Tipo de préstamo",
+            loanTypePlaceholder: "Elige el tipo de financiación",
+            amount: "Cantidad deseada (€)",
+            duration: "Duración de reembolso (meses)",
+            purpose: "Finalidad de la financiación",
+            hasGuarantee: "¿Tienes una garantía?"
+          },
+          loanTypes: {
+            personal: "Préstamo personal",
+            auto: "Crédito auto",
+            home: "Préstamo hipotecario",
+            business: "Financiación profesional",
+            consolidation: "Reunificación de créditos"
+          },
+          guaranteeOptions: {
+            yes: "Sí",
+            no: "No",
+            discuss: "A discutir"
+          }
+        },
+        validation: {
+          title: "Validación y documentos",
+          subtitle: "Finaliza tu solicitud",
+          fields: {
+            hasRequiredDocs: "Confirmo que tengo los documentos requeridos",
+            acceptsTerms: "Acepto las condiciones generales",
+            acceptsMarketing: "Acepto recibir información comercial"
+          },
+          submitButton: "Enviar mi solicitud"
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Documentos requeridos",
+          subtitle: "Prepara estos documentos para acelerar tu solicitud",
+          list: [
+            "Documento de identidad válido",
+            "Justificantes de ingresos (3 últimas nóminas)",
+            "Extractos bancarios (últimos 3 meses)",
+            "Justificante de domicilio reciente",
+            "Compromiso de venta (si inmobiliario)"
+          ]
+        },
+        help: {
+          title: "¿Necesitas ayuda?",
+          subtitle: "Nuestros expertos están aquí para acompañarte",
+          phone: "+34 91 123 45 67",
+          schedule: "Lun-Vie 8h-19h"
+        },
+        security: {
+          title: "Seguridad garantizada",
+          features: [
+            "Cifrado SSL 256 bits",
+            "Conformidad RGPD",
+            "Datos protegidos"
+          ]
+        }
+      }
+    },
     menu: {
       home: "Inicio",
       services: "Servicios",
@@ -1618,6 +1751,139 @@ const translations = {
     }
   },
   it: {
+    request: {
+      hero: {
+        badge: "Richiesta di Finanziamento",
+        title: "Il tuo progetto merita",
+        titleHighlight: "il miglior finanziamento",
+        subtitle: "Ottieni una risposta personalizzata in 24h grazie alla nostra IA avanzata e all'esperienza dei nostri consulenti",
+        stats: {
+          responseTime: { value: "24h", label: "Risposta garantita" },
+          security: { value: "100%", label: "Sicuro GDPR" },
+          expert: { value: "24/7", label: "Supporto esperto" }
+        }
+      },
+      steps: [
+        { title: "Informazioni", description: "I tuoi dati personali" },
+        { title: "Progetto", description: "Dettagli del finanziamento" },
+        { title: "Analisi", description: "Studio personalizzato" },
+        { title: "Risposta", description: "Proposta su misura" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Informazioni personali",
+          subtitle: "Inserisci le tue informazioni di base per iniziare la richiesta",
+          fields: {
+            firstName: "Nome",
+            lastName: "Cognome",
+            email: "Indirizzo email",
+            emailConfirmation: "Conferma email",
+            emailConfirmationPlaceholder: "Reinserisci il tuo indirizzo email",
+            phone: "Telefono",
+            birthDate: "Data di nascita",
+            nationality: "Nazionalità",
+            nationalityPlaceholder: "Seleziona la tua nazionalità",
+            otherNationality: "Altra nazionalità",
+            maritalStatus: "Stato civile",
+            maritalStatusPlaceholder: "Seleziona il tuo stato",
+            dependents: "Numero di persone a carico"
+          },
+          validation: {
+            emailMismatch: "Gli indirizzi email non corrispondono",
+            emailConfirmed: "Indirizzi email confermati"
+          },
+          maritalStatusOptions: {
+            single: "Celibe/Nubile",
+            married: "Sposato/a",
+            divorced: "Divorziato/a",
+            widowed: "Vedovo/a",
+            partnership: "Convivenza"
+          }
+        },
+        professionalInfo: {
+          title: "Situazione professionale",
+          subtitle: "Informazioni sulla tua attività professionale e i tuoi redditi",
+          fields: {
+            employmentStatus: "Stato professionale",
+            employmentStatusPlaceholder: "La tua situazione professionale",
+            profession: "Professione",
+            employer: "Datore di lavoro",
+            employmentDuration: "Anzianità di servizio",
+            monthlyIncome: "Reddito mensile netto (€)",
+            additionalIncome: "Altri redditi mensili (€)"
+          },
+          employmentOptions: {
+            employee: "Dipendente",
+            selfEmployed: "Lavoratore autonomo",
+            business: "Imprenditore",
+            retired: "Pensionato",
+            student: "Studente",
+            unemployed: "Disoccupato"
+          }
+        },
+        loanRequest: {
+          title: "Richiesta di finanziamento",
+          subtitle: "Specifica i dettagli del tuo progetto di finanziamento",
+          fields: {
+            loanType: "Tipo di prestito",
+            loanTypePlaceholder: "Scegli il tipo di finanziamento",
+            amount: "Importo desiderato (€)",
+            duration: "Durata di rimborso (mesi)",
+            purpose: "Scopo del finanziamento",
+            hasGuarantee: "Hai una garanzia?"
+          },
+          loanTypes: {
+            personal: "Prestito personale",
+            auto: "Credito auto",
+            home: "Mutuo casa",
+            business: "Finanziamento aziendale",
+            consolidation: "Consolidamento crediti"
+          },
+          guaranteeOptions: {
+            yes: "Sì",
+            no: "No",
+            discuss: "Da discutere"
+          }
+        },
+        validation: {
+          title: "Validazione e documenti",
+          subtitle: "Finalizza la tua richiesta",
+          fields: {
+            hasRequiredDocs: "Confermo di avere i documenti richiesti",
+            acceptsTerms: "Accetto i termini e le condizioni",
+            acceptsMarketing: "Accetto di ricevere informazioni commerciali"
+          },
+          submitButton: "Invia la mia richiesta"
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Documenti richiesti",
+          subtitle: "Prepara questi documenti per accelerare la tua richiesta",
+          list: [
+            "Documento d'identità valido",
+            "Giustificativi di reddito (ultime 3 buste paga)",
+            "Estratti bancari (ultimi 3 mesi)",
+            "Certificato di residenza recente",
+            "Compromesso di vendita (se immobiliare)"
+          ]
+        },
+        help: {
+          title: "Hai bisogno di aiuto?",
+          subtitle: "I nostri esperti sono qui per accompagnarti",
+          phone: "+39 06 123 45 67",
+          schedule: "Lun-Ven 8-19"
+        },
+        security: {
+          title: "Sicurezza garantita",
+          features: [
+            "Crittografia SSL 256 bit",
+            "Conformità GDPR",
+            "Dati protetti"
+          ]
+        }
+      }
+    },
     menu: {
       home: "Home",
       services: "Servizi",
@@ -1995,6 +2261,139 @@ const translations = {
     }
   },
   pl: {
+    request: {
+      hero: {
+        badge: "Wniosek o Finansowanie",
+        title: "Twój projekt zasługuje na",
+        titleHighlight: "najlepsze finansowanie",
+        subtitle: "Otrzymaj spersonalizowaną odpowiedź w 24h dzięki naszej zaawansowanej AI i ekspertyzie naszych doradców",
+        stats: {
+          responseTime: { value: "24h", label: "Gwarantowana odpowiedź" },
+          security: { value: "100%", label: "Bezpieczne RODO" },
+          expert: { value: "24/7", label: "Wsparcie ekspertów" }
+        }
+      },
+      steps: [
+        { title: "Informacje", description: "Twoje dane osobowe" },
+        { title: "Projekt", description: "Szczegóły finansowania" },
+        { title: "Analiza", description: "Spersonalizowane badanie" },
+        { title: "Odpowiedź", description: "Oferta na miarę" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Informacje osobiste",
+          subtitle: "Podaj swoje podstawowe informacje, aby rozpocząć wniosek",
+          fields: {
+            firstName: "Imię",
+            lastName: "Nazwisko",
+            email: "Adres e-mail",
+            emailConfirmation: "Potwierdź e-mail",
+            emailConfirmationPlaceholder: "Wpisz ponownie swój adres e-mail",
+            phone: "Telefon",
+            birthDate: "Data urodzenia",
+            nationality: "Narodowość",
+            nationalityPlaceholder: "Wybierz swoją narodowość",
+            otherNationality: "Inna narodowość",
+            maritalStatus: "Stan cywilny",
+            maritalStatusPlaceholder: "Wybierz swój status",
+            dependents: "Liczba osób na utrzymaniu"
+          },
+          validation: {
+            emailMismatch: "Adresy e-mail nie są zgodne",
+            emailConfirmed: "Adresy e-mail potwierdzone"
+          },
+          maritalStatusOptions: {
+            single: "Kawaler/Panna",
+            married: "Żonaty/Zamężna",
+            divorced: "Rozwiedziony/a",
+            widowed: "Wdowiec/Wdowa",
+            partnership: "Związek partnerski"
+          }
+        },
+        professionalInfo: {
+          title: "Sytuacja zawodowa",
+          subtitle: "Informacje o Twojej działalności zawodowej i dochodach",
+          fields: {
+            employmentStatus: "Status zawodowy",
+            employmentStatusPlaceholder: "Twoja sytuacja zawodowa",
+            profession: "Zawód",
+            employer: "Pracodawca",
+            employmentDuration: "Staż pracy",
+            monthlyIncome: "Miesięczny dochód netto (€)",
+            additionalIncome: "Inne miesięczne dochody (€)"
+          },
+          employmentOptions: {
+            employee: "Pracownik najemny",
+            selfEmployed: "Samozatrudniony",
+            business: "Przedsiębiorca",
+            retired: "Emeryt",
+            student: "Student",
+            unemployed: "Bezrobotny"
+          }
+        },
+        loanRequest: {
+          title: "Wniosek o finansowanie",
+          subtitle: "Podaj szczegóły swojego projektu finansowania",
+          fields: {
+            loanType: "Rodzaj pożyczki",
+            loanTypePlaceholder: "Wybierz rodzaj finansowania",
+            amount: "Żądana kwota (€)",
+            duration: "Okres spłaty (miesiące)",
+            purpose: "Cel finansowania",
+            hasGuarantee: "Czy masz gwarancję?"
+          },
+          loanTypes: {
+            personal: "Pożyczka osobista",
+            auto: "Kredyt samochodowy",
+            home: "Kredyt hipoteczny",
+            business: "Finansowanie biznesowe",
+            consolidation: "Konsolidacja kredytów"
+          },
+          guaranteeOptions: {
+            yes: "Tak",
+            no: "Nie",
+            discuss: "Do omówienia"
+          }
+        },
+        validation: {
+          title: "Walidacja i dokumenty",
+          subtitle: "Sfinalizuj swój wniosek",
+          fields: {
+            hasRequiredDocs: "Potwierdzam, że posiadam wymagane dokumenty",
+            acceptsTerms: "Akceptuję regulamin",
+            acceptsMarketing: "Zgadzam się na otrzymywanie informacji marketingowych"
+          },
+          submitButton: "Wyślij mój wniosek"
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Wymagane dokumenty",
+          subtitle: "Przygotuj te dokumenty, aby przyspieszyć swój wniosek",
+          list: [
+            "Ważny dowód tożsamości",
+            "Potwierdzenia dochodów (3 ostatnie odcinki płacowe)",
+            "Wyciągi bankowe (ostatnie 3 miesiące)",
+            "Aktualne potwierdzenie miejsca zamieszkania",
+            "Umowa przedwstępna (w przypadku nieruchomości)"
+          ]
+        },
+        help: {
+          title: "Potrzebujesz pomocy?",
+          subtitle: "Nasi eksperci są tutaj, aby Ci towarzyszyć",
+          phone: "+48 22 123 45 67",
+          schedule: "Pon-Pt 8-19"
+        },
+        security: {
+          title: "Gwarantowane bezpieczeństwo",
+          features: [
+            "Szyfrowanie SSL 256 bitów",
+            "Zgodność z RODO",
+            "Chronione dane"
+          ]
+        }
+      }
+    },
     menu: {
       home: "Strona główna",
       services: "Usługi",
@@ -2372,6 +2771,139 @@ const translations = {
     }
   },
   fi: {
+    request: {
+      hero: {
+        badge: "Rahoitushakemus",
+        title: "Projektisi ansaitsee",
+        titleHighlight: "parhaan rahoituksen",
+        subtitle: "Saat henkilökohtaisen vastauksen 24 tunnissa edistyneen tekoälymme ja neuvojiemme asiantuntemuksen ansiosta",
+        stats: {
+          responseTime: { value: "24t", label: "Taattu vastaus" },
+          security: { value: "100%", label: "GDPR-turvallinen" },
+          expert: { value: "24/7", label: "Asiantuntijatuki" }
+        }
+      },
+      steps: [
+        { title: "Tiedot", description: "Henkilötietosi" },
+        { title: "Projekti", description: "Rahoituksen yksityiskohdat" },
+        { title: "Analyysi", description: "Henkilökohtainen tutkimus" },
+        { title: "Vastaus", description: "Räätälöity tarjous" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Henkilötiedot",
+          subtitle: "Anna perustietosi aloittaaksesi hakemuksesi",
+          fields: {
+            firstName: "Etunimi",
+            lastName: "Sukunimi",
+            email: "Sähköpostiosoite",
+            emailConfirmation: "Vahvista sähköposti",
+            emailConfirmationPlaceholder: "Kirjoita sähköpostiosoitteesi uudelleen",
+            phone: "Puhelin",
+            birthDate: "Syntymäaika",
+            nationality: "Kansallisuus",
+            nationalityPlaceholder: "Valitse kansallisuutesi",
+            otherNationality: "Muu kansallisuus",
+            maritalStatus: "Siviilisääty",
+            maritalStatusPlaceholder: "Valitse statuksesi",
+            dependents: "Huollettavien lukumäärä"
+          },
+          validation: {
+            emailMismatch: "Sähköpostiosoitteet eivät täsmää",
+            emailConfirmed: "Sähköpostiosoitteet vahvistettu"
+          },
+          maritalStatusOptions: {
+            single: "Naimaton",
+            married: "Naimisissa",
+            divorced: "Eronnut",
+            widowed: "Leski",
+            partnership: "Avoliitto"
+          }
+        },
+        professionalInfo: {
+          title: "Ammatillinen tilanne",
+          subtitle: "Tiedot ammatillisesta toiminnastasi ja tuloistasi",
+          fields: {
+            employmentStatus: "Työllisyystilanne",
+            employmentStatusPlaceholder: "Ammatillinen tilanteesi",
+            profession: "Ammatti",
+            employer: "Työnantaja",
+            employmentDuration: "Työsuhteen kesto",
+            monthlyIncome: "Kuukausittaiset nettotulot (€)",
+            additionalIncome: "Muut kuukausittaiset tulot (€)"
+          },
+          employmentOptions: {
+            employee: "Työntekijä",
+            selfEmployed: "Yrittäjä",
+            business: "Yritysjohtaja",
+            retired: "Eläkeläinen",
+            student: "Opiskelija",
+            unemployed: "Työtön"
+          }
+        },
+        loanRequest: {
+          title: "Rahoitushakemus",
+          subtitle: "Ilmoita rahoitusprojektisi yksityiskohdat",
+          fields: {
+            loanType: "Lainatyyppi",
+            loanTypePlaceholder: "Valitse rahoitustyyppi",
+            amount: "Haluttu summa (€)",
+            duration: "Takaisinmaksuaika (kuukautta)",
+            purpose: "Rahoituksen tarkoitus",
+            hasGuarantee: "Onko sinulla takuu?"
+          },
+          loanTypes: {
+            personal: "Henkilökohtainen laina",
+            auto: "Autolaina",
+            home: "Asuntolaina",
+            business: "Yritysrahoitus",
+            consolidation: "Lainojen yhdistäminen"
+          },
+          guaranteeOptions: {
+            yes: "Kyllä",
+            no: "Ei",
+            discuss: "Keskusteltavissa"
+          }
+        },
+        validation: {
+          title: "Vahvistus ja asiakirjat",
+          subtitle: "Viimeistele hakemuksesi",
+          fields: {
+            hasRequiredDocs: "Vahvistan, että minulla on vaaditut asiakirjat",
+            acceptsTerms: "Hyväksyn käyttöehdot",
+            acceptsMarketing: "Hyväksyn markkinointitietojen vastaanoton"
+          },
+          submitButton: "Lähetä hakemukseni"
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Vaaditut asiakirjat",
+          subtitle: "Valmistele nämä asiakirjat nopeuttaaksesi hakemustasi",
+          list: [
+            "Voimassa oleva henkilöllisyystodistus",
+            "Tulotositteet (3 viimeistä palkkakuittia)",
+            "Tiliotteet (viimeiset 3 kuukautta)",
+            "Tuore asuintodistus",
+            "Kauppasopimus (kiinteistön tapauksessa)"
+          ]
+        },
+        help: {
+          title: "Tarvitsetko apua?",
+          subtitle: "Asiantuntijamme ovat täällä auttamassa sinua",
+          phone: "+358 9 123 4567",
+          schedule: "Ma-Pe 8-19"
+        },
+        security: {
+          title: "Taattu turvallisuus",
+          features: [
+            "256-bittinen SSL-salaus",
+            "GDPR-yhteensopiva",
+            "Suojattu data"
+          ]
+        }
+      }
+    },
     menu: {
       home: "Etusivu",
       services: "Palvelut",
@@ -2749,6 +3281,139 @@ const translations = {
     }
   },
   pt: {
+    request: {
+      hero: {
+        badge: "Pedido de Financiamento",
+        title: "O seu projeto merece",
+        titleHighlight: "o melhor financiamento",
+        subtitle: "Obtenha uma resposta personalizada em 24h graças à nossa IA avançada e à experiência dos nossos consultores",
+        stats: {
+          responseTime: { value: "24h", label: "Resposta garantida" },
+          security: { value: "100%", label: "Seguro RGPD" },
+          expert: { value: "24/7", label: "Apoio especializado" }
+        }
+      },
+      steps: [
+        { title: "Informações", description: "Os seus dados pessoais" },
+        { title: "Projeto", description: "Detalhes do financiamento" },
+        { title: "Análise", description: "Estudo personalizado" },
+        { title: "Resposta", description: "Proposta à medida" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Informações pessoais",
+          subtitle: "Introduza as suas informações básicas para começar o seu pedido",
+          fields: {
+            firstName: "Nome próprio",
+            lastName: "Apelido",
+            email: "Endereço de e-mail",
+            emailConfirmation: "Confirmar e-mail",
+            emailConfirmationPlaceholder: "Digite novamente o seu endereço de e-mail",
+            phone: "Telefone",
+            birthDate: "Data de nascimento",
+            nationality: "Nacionalidade",
+            nationalityPlaceholder: "Selecione a sua nacionalidade",
+            otherNationality: "Outra nacionalidade",
+            maritalStatus: "Estado civil",
+            maritalStatusPlaceholder: "Selecione o seu estado",
+            dependents: "Número de dependentes"
+          },
+          validation: {
+            emailMismatch: "Os endereços de e-mail não coincidem",
+            emailConfirmed: "Endereços de e-mail confirmados"
+          },
+          maritalStatusOptions: {
+            single: "Solteiro/a",
+            married: "Casado/a",
+            divorced: "Divorciado/a",
+            widowed: "Viúvo/a",
+            partnership: "União de facto"
+          }
+        },
+        professionalInfo: {
+          title: "Situação profissional",
+          subtitle: "Informações sobre a sua atividade profissional e rendimentos",
+          fields: {
+            employmentStatus: "Estado profissional",
+            employmentStatusPlaceholder: "A sua situação profissional",
+            profession: "Profissão",
+            employer: "Empregador",
+            employmentDuration: "Antiguidade no emprego",
+            monthlyIncome: "Rendimentos mensais líquidos (€)",
+            additionalIncome: "Outros rendimentos mensais (€)"
+          },
+          employmentOptions: {
+            employee: "Empregado/a",
+            selfEmployed: "Trabalhador independente",
+            business: "Empresário",
+            retired: "Reformado/a",
+            student: "Estudante",
+            unemployed: "Desempregado/a"
+          }
+        },
+        loanRequest: {
+          title: "Pedido de financiamento",
+          subtitle: "Especifique os detalhes do seu projeto de financiamento",
+          fields: {
+            loanType: "Tipo de empréstimo",
+            loanTypePlaceholder: "Escolha o tipo de financiamento",
+            amount: "Montante desejado (€)",
+            duration: "Duração do reembolso (meses)",
+            purpose: "Finalidade do financiamento",
+            hasGuarantee: "Tem uma garantia?"
+          },
+          loanTypes: {
+            personal: "Empréstimo pessoal",
+            auto: "Crédito automóvel",
+            home: "Empréstimo habitação",
+            business: "Financiamento empresarial",
+            consolidation: "Consolidação de créditos"
+          },
+          guaranteeOptions: {
+            yes: "Sim",
+            no: "Não",
+            discuss: "A discutir"
+          }
+        },
+        validation: {
+          title: "Validação e documentos",
+          subtitle: "Finalize o seu pedido",
+          fields: {
+            hasRequiredDocs: "Confirmo que tenho os documentos exigidos",
+            acceptsTerms: "Aceito os termos e condições",
+            acceptsMarketing: "Aceito receber informações comerciais"
+          },
+          submitButton: "Enviar o meu pedido"
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Documentos exigidos",
+          subtitle: "Prepare estes documentos para acelerar o seu pedido",
+          list: [
+            "Documento de identidade válido",
+            "Comprovativos de rendimentos (3 últimos recibos)",
+            "Extratos bancários (últimos 3 meses)",
+            "Comprovativo de residência recente",
+            "Contrato promessa (se imobiliário)"
+          ]
+        },
+        help: {
+          title: "Precisa de ajuda?",
+          subtitle: "Os nossos especialistas estão aqui para o acompanhar",
+          phone: "+351 21 123 45 67",
+          schedule: "Seg-Sex 8h-19h"
+        },
+        security: {
+          title: "Segurança garantida",
+          features: [
+            "Encriptação SSL 256 bits",
+            "Conformidade RGPD",
+            "Dados protegidos"
+          ]
+        }
+      }
+    },
     menu: {
       home: "Início",
       services: "Serviços",
@@ -3126,6 +3791,139 @@ const translations = {
     }
   },
   el: {
+    request: {
+      hero: {
+        badge: "Αίτηση Χρηματοδότησης",
+        title: "Το έργο σας αξίζει",
+        titleHighlight: "την καλύτερη χρηματοδότηση",
+        subtitle: "Αποκτήστε μια εξατομικευμένη απάντηση σε 24 ώρες χάρη στην προηγμένη AI μας και την εμπειρία των συμβούλων μας",
+        stats: {
+          responseTime: { value: "24ω", label: "Εγγυημένη απάντηση" },
+          security: { value: "100%", label: "Ασφαλές GDPR" },
+          expert: { value: "24/7", label: "Υποστήριξη εμπειρογνωμόνων" }
+        }
+      },
+      steps: [
+        { title: "Πληροφορίες", description: "Τα προσωπικά σας στοιχεία" },
+        { title: "Έργο", description: "Λεπτομέρειες χρηματοδότησης" },
+        { title: "Ανάλυση", description: "Εξατομικευμένη μελέτη" },
+        { title: "Απάντηση", description: "Προσαρμοσμένη πρόταση" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Προσωπικές πληροφορίες",
+          subtitle: "Εισάγετε τις βασικές σας πληροφορίες για να ξεκινήσετε την αίτησή σας",
+          fields: {
+            firstName: "Όνομα",
+            lastName: "Επώνυμο",
+            email: "Διεύθυνση email",
+            emailConfirmation: "Επιβεβαίωση email",
+            emailConfirmationPlaceholder: "Πληκτρολογήστε ξανά τη διεύθυνση email σας",
+            phone: "Τηλέφωνο",
+            birthDate: "Ημερομηνία γέννησης",
+            nationality: "Εθνικότητα",
+            nationalityPlaceholder: "Επιλέξτε την εθνικότητά σας",
+            otherNationality: "Άλλη εθνικότητα",
+            maritalStatus: "Οικογενειακή κατάσταση",
+            maritalStatusPlaceholder: "Επιλέξτε την κατάστασή σας",
+            dependents: "Αριθμός εξαρτημένων"
+          },
+          validation: {
+            emailMismatch: "Οι διευθύνσεις email δεν ταιριάζουν",
+            emailConfirmed: "Διευθύνσεις email επιβεβαιώθηκαν"
+          },
+          maritalStatusOptions: {
+            single: "Άγαμος/η",
+            married: "Παντρεμένος/η",
+            divorced: "Διαζευγμένος/η",
+            widowed: "Χήρος/α",
+            partnership: "Συμβίωση"
+          }
+        },
+        professionalInfo: {
+          title: "Επαγγελματική κατάσταση",
+          subtitle: "Πληροφορίες για την επαγγελματική σας δραστηριότητα και τα εισοδήματά σας",
+          fields: {
+            employmentStatus: "Επαγγελματική κατάσταση",
+            employmentStatusPlaceholder: "Η επαγγελματική σας κατάσταση",
+            profession: "Επάγγελμα",
+            employer: "Εργοδότης",
+            employmentDuration: "Αρχαιότητα στην εργασία",
+            monthlyIncome: "Μηνιαία καθαρά εισοδήματα (€)",
+            additionalIncome: "Άλλα μηνιαία εισοδήματα (€)"
+          },
+          employmentOptions: {
+            employee: "Υπάλληλος",
+            selfEmployed: "Ελεύθερος επαγγελματίας",
+            business: "Επιχειρηματίας",
+            retired: "Συνταξιούχος",
+            student: "Φοιτητής",
+            unemployed: "Άνεργος"
+          }
+        },
+        loanRequest: {
+          title: "Αίτηση χρηματοδότησης",
+          subtitle: "Καθορίστε τις λεπτομέρειες του έργου χρηματοδότησής σας",
+          fields: {
+            loanType: "Τύπος δανείου",
+            loanTypePlaceholder: "Επιλέξτε τον τύπο χρηματοδότησης",
+            amount: "Επιθυμητό ποσό (€)",
+            duration: "Διάρκεια αποπληρωμής (μήνες)",
+            purpose: "Σκοπός χρηματοδότησης",
+            hasGuarantee: "Έχετε εγγύηση;"
+          },
+          loanTypes: {
+            personal: "Προσωπικό δάνειο",
+            auto: "Δάνειο αυτοκινήτου",
+            home: "Στεγαστικό δάνειο",
+            business: "Επιχειρηματική χρηματοδότηση",
+            consolidation: "Ενοποίηση δανείων"
+          },
+          guaranteeOptions: {
+            yes: "Ναι",
+            no: "Όχι",
+            discuss: "Προς συζήτηση"
+          }
+        },
+        validation: {
+          title: "Επικύρωση και έγγραφα",
+          subtitle: "Ολοκληρώστε την αίτησή σας",
+          fields: {
+            hasRequiredDocs: "Επιβεβαιώνω ότι διαθέτω τα απαιτούμενα έγγραφα",
+            acceptsTerms: "Αποδέχομαι τους όρους και τις προϋποθέσεις",
+            acceptsMarketing: "Αποδέχομαι τη λήψη εμπορικών πληροφοριών"
+          },
+          submitButton: "Αποστολή αίτησης"
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Απαιτούμενα έγγραφα",
+          subtitle: "Προετοιμάστε αυτά τα έγγραφα για να επιταχύνετε την αίτησή σας",
+          list: [
+            "Έγκυρη ταυτότητα",
+            "Αποδεικτικά εισοδήματος (3 τελευταίες μισθοδοσίες)",
+            "Τραπεζικά αντίγραφα (τελευταίοι 3 μήνες)",
+            "Πρόσφατο αποδεικτικό κατοικίας",
+            "Προσύμφωνο πώλησης (αν ακίνητο)"
+          ]
+        },
+        help: {
+          title: "Χρειάζεστε βοήθεια;",
+          subtitle: "Οι ειδικοί μας είναι εδώ για να σας συνοδεύσουν",
+          phone: "+30 21 123 45 67",
+          schedule: "Δευ-Παρ 8-19"
+        },
+        security: {
+          title: "Εγγυημένη ασφάλεια",
+          features: [
+            "Κρυπτογράφηση SSL 256 bit",
+            "Συμμόρφωση GDPR",
+            "Προστατευμένα δεδομένα"
+          ]
+        }
+      }
+    },
     menu: {
       home: "Αρχική",
       services: "Υπηρεσίες",
