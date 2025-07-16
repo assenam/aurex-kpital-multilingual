@@ -595,7 +595,154 @@ const translations = {
               description: "Réclamations et suggestions",
               contact: "direction@aurex-kpital.de",
               phone: "+49 40 710 97520"
+        },
+        request: {
+          hero: {
+            badge: "Demande Express",
+            title: "Demande de Financement",
+            titleHighlight: "Personnalisée", 
+            subtitle: "Remplissez notre formulaire sécurisé et obtenez une réponse personnalisée sous 24h maximum.",
+            stats: {
+              responseTime: { value: "24h", label: "Réponse garantie" },
+              security: { value: "100%", label: "Sécurisé" },
+              expert: { value: "Expert", label: "Dédié" }
             }
+          },
+          steps: [
+            { title: "Informations", description: "Vos données personnelles" },
+            { title: "Situation", description: "Votre profil professionnel" },
+            { title: "Financement", description: "Détails de votre demande" },
+            { title: "Validation", description: "Vérification et envoi" }
+          ],
+          form: {
+            personalInfo: {
+              title: "Informations Personnelles",
+              subtitle: "Renseignez vos informations de base",
+              fields: {
+                firstName: "Prénom",
+                lastName: "Nom",
+                email: "Email",
+                emailConfirmation: "Confirmation email",
+                emailConfirmationPlaceholder: "Retapez votre email pour confirmation",
+                phone: "Téléphone",
+                birthDate: "Date de naissance",
+                nationality: "Nationalité",
+                nationalityPlaceholder: "Sélectionnez votre nationalité",
+                otherNationality: "Précisez votre nationalité",
+                otherNationalityPlaceholder: "Ex: Japonaise, Australienne, Marocaine...",
+                maritalStatus: "Situation familiale",
+                maritalStatusPlaceholder: "Sélectionnez"
+              },
+              maritalOptions: {
+                single: "Célibataire",
+                married: "Marié(e)",
+                divorced: "Divorcé(e)",
+                widowed: "Veuf/Veuve"
+              },
+              validation: {
+                emailMismatch: "Les adresses email ne correspondent pas",
+                emailConfirmed: "Adresses email confirmées"
+              }
+            },
+            professionalInfo: {
+              title: "Situation Professionnelle",
+              subtitle: "Informations sur votre emploi et vos revenus",
+              fields: {
+                employmentStatus: "Statut professionnel",
+                employmentStatusPlaceholder: "Sélectionnez votre statut",
+                profession: "Profession",
+                professionPlaceholder: "Ex: Ingénieur, Médecin...",
+                company: "Employeur",
+                workExperience: "Ancienneté (mois)",
+                workExperiencePlaceholder: "Ex: 24",
+                monthlyIncome: "Revenus mensuels nets",
+                monthlyIncomePlaceholder: "Ex: 3500",
+                additionalIncome: "Autres revenus (optionnel)",
+                additionalIncomePlaceholder: "Ex: 500"
+              },
+              employmentOptions: {
+                employee: "Salarié CDI",
+                cdd: "Salarié CDD", 
+                selfEmployed: "Indépendant",
+                manager: "Chef d'entreprise",
+                retiree: "Retraité",
+                student: "Étudiant",
+                unemployed: "Demandeur d'emploi"
+              }
+            },
+            financingRequest: {
+              title: "Demande de Financement",
+              subtitle: "Détails de votre projet",
+              fields: {
+                loanType: "Type de financement",
+                loanTypePlaceholder: "Sélectionnez",
+                amount: "Montant souhaité (€)",
+                amountPlaceholder: "Ex: 25000",
+                duration: "Durée souhaitée (mois)",
+                durationPlaceholder: "Ex: 60",
+                hasGuarantee: "Garantie disponible",
+                guaranteePlaceholder: "Sélectionnez",
+                purpose: "Objet du financement",
+                purposePlaceholder: "Décrivez votre projet en détail..."
+              },
+              loanOptions: {
+                personal: "Prêt Personnel",
+                auto: "Crédit Auto",
+                realEstate: "Crédit Immobilier",
+                professional: "Financement Pro",
+                student: "Prêt Étudiant",
+                consolidation: "Rachat de Crédits"
+              },
+              guaranteeOptions: {
+                yes: "Oui",
+                no: "Non", 
+                maybe: "À évaluer"
+              }
+            },
+            validation: {
+              title: "Validation et Envoi",
+              subtitle: "Vérifiez vos informations et acceptez les conditions",
+              fields: {
+                terms: "J'accepte les conditions générales et la politique de confidentialité",
+                newsletter: "Je souhaite recevoir des informations commerciales",
+                consent: "J'autorise le traitement de mes données personnelles"
+              },
+              submitButton: "Envoyer ma demande",
+              successMessage: "Votre demande a été envoyée avec succès !",
+              errors: {
+                emailMismatch: "Les emails ne correspondent pas",
+                termsRequired: "Vous devez accepter les conditions générales"
+              }
+            }
+          },
+          sidebar: {
+            documents: {
+              title: "Documents requis",
+              subtitle: "Préparez ces documents pour accélérer le traitement :",
+              list: [
+                "Pièce d'identité valide",
+                "Justificatifs de revenus (3 derniers bulletins)",
+                "Relevés bancaires (3 derniers mois)",
+                "Justificatif de domicile récent",
+                "Contrat de travail ou attestation employeur"
+              ]
+            },
+            help: {
+              title: "Besoin d'aide ?",
+              phone: "+49 40 710 97523",
+              schedule: "Lun-Ven: 8h-19h",
+              contactButton: "Nous contacter"
+            },
+            security: {
+              title: "Sécurité garantie",
+              features: [
+                "Données chiffrées SSL",
+                "Conformité RGPD", 
+                "Aucune utilisation commerciale"
+              ]
+            }
+          }
+        }
           },
           schedules: {
             title: "Horaires d'Ouverture",

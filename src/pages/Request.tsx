@@ -82,19 +82,18 @@ const Request = () => {
   };
 
   const steps = [
-    { number: "01", title: "Informations personnelles", description: "Vos données de base" },
-    { number: "02", title: "Situation professionnelle", description: "Votre emploi et revenus" },
-    { number: "03", title: "Demande de financement", description: "Détails de votre projet" },
-    { number: "04", title: "Validation", description: "Vérification et envoi" }
+    { number: "01", title: t('request.steps.0.title'), description: t('request.steps.0.description') },
+    { number: "02", title: t('request.steps.1.title'), description: t('request.steps.1.description') },
+    { number: "03", title: t('request.steps.2.title'), description: t('request.steps.2.description') },
+    { number: "04", title: t('request.steps.3.title'), description: t('request.steps.3.description') }
   ];
 
   const requiredDocuments = [
-    "Pièce d'identité en cours de validité",
-    "3 derniers bulletins de salaire",
-    "Dernier avis d'imposition",
-    "Relevé de compte des 3 derniers mois",
-    "Justificatif de domicile récent",
-    "Devis ou facture pro forma (si applicable)"
+    t('request.sidebar.documents.list.0'),
+    t('request.sidebar.documents.list.1'), 
+    t('request.sidebar.documents.list.2'),
+    t('request.sidebar.documents.list.3'),
+    t('request.sidebar.documents.list.4')
   ];
 
   return (
@@ -111,35 +110,34 @@ const Request = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <FileText className="h-4 w-4 mr-2" />
-                Demande Express
+                {t('request.hero.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Demande de Financement
-              <span className="text-gold block">Personnalisée</span>
+              {t('request.hero.title')}
+              <span className="text-gold block">{t('request.hero.titleHighlight')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Remplissez notre formulaire sécurisé et obtenez une réponse 
-              personnalisée sous 24h maximum.
+              {t('request.hero.subtitle')}
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               <div className="text-center">
                 <Clock className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-lg">24h</div>
-                <div className="text-sm opacity-90">Réponse garantie</div>
+                <div className="font-bold text-lg">{t('request.hero.stats.responseTime.value')}</div>
+                <div className="text-sm opacity-90">{t('request.hero.stats.responseTime.label')}</div>
               </div>
               <div className="text-center">
                 <Shield className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-lg">100%</div>
-                <div className="text-sm opacity-90">Sécurisé</div>
+                <div className="font-bold text-lg">{t('request.hero.stats.security.value')}</div>
+                <div className="text-sm opacity-90">{t('request.hero.stats.security.label')}</div>
               </div>
               <div className="text-center">
                 <Users className="h-8 w-8 text-gold mx-auto mb-3" />
-                <div className="font-bold text-lg">Expert</div>
-                <div className="text-sm opacity-90">Dédié</div>
+                <div className="font-bold text-lg">{t('request.hero.stats.expert.value')}</div>
+                <div className="text-sm opacity-90">{t('request.hero.stats.expert.label')}</div>
               </div>
             </div>
           </div>
@@ -452,24 +450,24 @@ const Request = () => {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <Label htmlFor="monthlyIncome">Revenus mensuels nets *</Label>
+                        <Label htmlFor="monthlyIncome">{t('request.form.professionalInfo.fields.monthlyIncome')} *</Label>
                         <Input
                           id="monthlyIncome"
                           type="number"
                           value={formData.monthlyIncome}
                           onChange={(e) => updateFormData('monthlyIncome', e.target.value)}
-                          placeholder="Ex: 3500"
+                          placeholder={t('request.form.professionalInfo.fields.monthlyIncomePlaceholder')}
                           required
                         />
                       </div>
                       <div>
-                        <Label htmlFor="additionalIncome">Autres revenus (optionnel)</Label>
+                        <Label htmlFor="additionalIncome">{t('request.form.professionalInfo.fields.additionalIncome')}</Label>
                         <Input
                           id="additionalIncome"
                           type="number"
                           value={formData.additionalIncome}
                           onChange={(e) => updateFormData('additionalIncome', e.target.value)}
-                          placeholder="Ex: 500"
+                          placeholder={t('request.form.professionalInfo.fields.additionalIncomePlaceholder')}
                         />
                       </div>
                     </div>
