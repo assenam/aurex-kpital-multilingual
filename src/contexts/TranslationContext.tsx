@@ -213,16 +213,6 @@ const translations = {
             discuss: "À discuter"
           }
         },
-        validation: {
-          title: "Validation et documents",
-          subtitle: "Finalisez votre demande",
-          fields: {
-            hasRequiredDocs: "Je confirme avoir les documents requis",
-            acceptsTerms: "J'accepte les conditions générales",
-            acceptsMarketing: "J'accepte de recevoir des informations commerciales"
-          },
-          submitButton: "Envoyer ma demande"
-        },
         financingRequest: {
           title: "Demande de financement",
           subtitle: "Remplissez les informations suivantes pour obtenir une offre personnalisée",
@@ -234,8 +224,33 @@ const translations = {
             hasGuarantee: "Garantie disponible",
             guaranteePlaceholder: "Ex : bien immobilier, véhicule",
             purpose: "Motif du prêt",
-            purposePlaceholder: "Indiquez le but de votre demande"
+            purposePlaceholder: "Indiquez le but de votre demande",
+            amountPlaceholder: "Ex: 50000",
+            durationPlaceholder: "Ex: 60"
+          },
+          loanOptions: {
+            personal: "Prêt personnel",
+            auto: "Prêt automobile",
+            realEstate: "Prêt immobilier",
+            professional: "Prêt professionnel",
+            student: "Prêt étudiant",
+            consolidation: "Rachat de crédit"
+          },
+          guaranteeOptions: {
+            yes: "Oui",
+            no: "Non",
+            maybe: "À déterminer"
           }
+        },
+        validation: {
+          title: "Validation et documents",
+          fields: {
+            hasRequiredDocs: "Je certifie disposer des documents requis et pouvoir les fournir sur demande",
+            acceptsTerms: "J'accepte les conditions générales et la politique de confidentialité *",
+            acceptsMarketing: "J'accepte de recevoir des offres commerciales personnalisées"
+          },
+          submitButton: "Envoyer ma demande",
+          qualityCommitment: "Engagement qualité : Nous nous engageons à vous contacter sous 24h pour étudier votre demande et vous proposer une solution adaptée."
         }
       },
       sidebar: {
@@ -942,15 +957,45 @@ const translations = {
             discuss: "Zu besprechen"
           }
         },
+        financingRequest: {
+          title: "Finanzierungsantrag",
+          subtitle: "Füllen Sie die folgenden Informationen aus, um ein maßgeschneidertes Angebot zu erhalten",
+          fields: {
+            loanType: "Darlehensart",
+            loanTypePlaceholder: "Wählen Sie einen Typ",
+            amount: "Darlehensbetrag (€)",
+            duration: "Darlehensdauer (Monate)",
+            hasGuarantee: "Sicherheit verfügbar",
+            guaranteePlaceholder: "Z.B.: Immobilie, Fahrzeug",
+            purpose: "Verwendungszweck",
+            purposePlaceholder: "Geben Sie den Zweck Ihres Antrags an",
+            amountPlaceholder: "Z.B.: 50000",
+            durationPlaceholder: "Z.B.: 60"
+          },
+          loanOptions: {
+            personal: "Privatkredit",
+            auto: "Autokredit",
+            realEstate: "Immobilienkredit",
+            professional: "Geschäftskredit",
+            student: "Studentenkredit",
+            consolidation: "Kreditumschuldung"
+          },
+          guaranteeOptions: {
+            yes: "Ja",
+            no: "Nein",
+            maybe: "Noch zu bestimmen"
+          }
+        },
         validation: {
           title: "Bestätigung und Dokumente",
           subtitle: "Schließen Sie Ihren Antrag ab",
           fields: {
-            hasRequiredDocs: "Ich bestätige, dass ich die erforderlichen Dokumente habe",
-            acceptsTerms: "Ich akzeptiere die Allgemeinen Geschäftsbedingungen",
-            acceptsMarketing: "Ich möchte Werbeinformationen erhalten"
+            hasRequiredDocs: "Ich bestätige, über die erforderlichen Dokumente zu verfügen und diese auf Anfrage vorlegen zu können",
+            acceptsTerms: "Ich akzeptiere die Allgemeinen Geschäftsbedingungen und die Datenschutzrichtlinie *",
+            acceptsMarketing: "Ich akzeptiere den Erhalt personalisierter Werbeangebote"
           },
-          submitButton: "Antrag senden"
+          submitButton: "Antrag senden",
+          qualityCommitment: "Qualitätsverpflichtung: Wir verpflichten uns, Sie innerhalb von 24 Stunden zu kontaktieren, um Ihren Antrag zu prüfen und Ihnen eine geeignete Lösung vorzuschlagen."
         }
       },
       sidebar: {

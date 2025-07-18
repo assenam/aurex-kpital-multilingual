@@ -575,7 +575,7 @@ const Request = () => {
                           onCheckedChange={(checked) => updateFormData('hasRequiredDocs', checked as boolean)}
                         />
                         <Label htmlFor="hasRequiredDocs" className="text-sm leading-relaxed">
-                          Je certifie disposer des documents requis et pouvoir les fournir sur demande
+                          {t('request.form.validation.fields.hasRequiredDocs')}
                         </Label>
                       </div>
 
@@ -587,7 +587,7 @@ const Request = () => {
                           required
                         />
                         <Label htmlFor="acceptsTerms" className="text-sm leading-relaxed">
-                          J'accepte les conditions générales et la politique de confidentialité *
+                          {t('request.form.validation.fields.acceptsTerms')}
                         </Label>
                       </div>
 
@@ -598,7 +598,7 @@ const Request = () => {
                           onCheckedChange={(checked) => updateFormData('acceptsMarketing', checked as boolean)}
                         />
                         <Label htmlFor="acceptsMarketing" className="text-sm leading-relaxed">
-                          J'accepte de recevoir des offres commerciales personnalisées
+                          {t('request.form.validation.fields.acceptsMarketing')}
                         </Label>
                       </div>
                     </div>
@@ -609,15 +609,14 @@ const Request = () => {
                       disabled={!formData.acceptsTerms || (formData.email !== formData.emailConfirmation)}
                     >
                       <Sparkles className="h-5 w-5 mr-2" />
-                      Envoyer ma demande
+                      {t('request.form.validation.submitButton')}
                     </Button>
 
                     <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
                       <div className="flex items-start gap-2">
                         <AlertCircle className="h-5 w-5 text-blue-600 mt-0.5 flex-shrink-0" />
                         <div className="text-sm text-blue-800">
-                          <strong>Engagement qualité :</strong> Nous nous engageons à vous contacter 
-                          sous 24h pour étudier votre demande et vous proposer une solution adaptée.
+                          {t('request.form.validation.qualityCommitment')}
                         </div>
                       </div>
                     </div>
