@@ -407,21 +407,21 @@ const Request = () => {
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="employee">{t('request.form.professionalInfo.employmentOptions.employee')}</SelectItem>
-                            <SelectItem value="cdd">{t('request.form.professionalInfo.employmentOptions.selfEmployed')}</SelectItem>
-                            <SelectItem value="freelance">{t('request.form.professionalInfo.employmentOptions.manager')}</SelectItem>
-                            <SelectItem value="entrepreneur">{t('request.form.professionalInfo.employmentOptions.retiree')}</SelectItem>
-                            <SelectItem value="retiree">{t('request.form.professionalInfo.employmentOptions.student')}</SelectItem>
-                            <SelectItem value="student">{t('request.form.professionalInfo.employmentOptions.unemployed')}</SelectItem>
+                            <SelectItem value="selfEmployed">{t('request.form.professionalInfo.employmentOptions.selfEmployed')}</SelectItem>
+                            <SelectItem value="business">{t('request.form.professionalInfo.employmentOptions.business')}</SelectItem>
+                            <SelectItem value="retired">{t('request.form.professionalInfo.employmentOptions.retired')}</SelectItem>
+                            <SelectItem value="student">{t('request.form.professionalInfo.employmentOptions.student')}</SelectItem>
+                            <SelectItem value="unemployed">{t('request.form.professionalInfo.employmentOptions.unemployed')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
                       <div>
-                        <Label htmlFor="profession">{t('request.form.professionalInfo.fields.company')}</Label>
+                        <Label htmlFor="profession">{t('request.form.professionalInfo.fields.position')}</Label>
                         <Input
                           id="profession"
                           value={formData.profession}
                           onChange={(e) => updateFormData('profession', e.target.value)}
-                          placeholder={t('request.form.professionalInfo.fields.position')}
+                          placeholder={t('request.form.professionalInfo.fields.positionPlaceholder')}
                         />
                       </div>
                     </div>
@@ -433,7 +433,7 @@ const Request = () => {
                           id="employer"
                           value={formData.employer}
                           onChange={(e) => updateFormData('employer', e.target.value)}
-                          placeholder="Nom de l'entreprise"
+                          placeholder={t('request.form.professionalInfo.fields.companyPlaceholder')}
                         />
                       </div>
                       <div>

@@ -175,10 +175,15 @@ const translations = {
             employer: "Employeur",
             employmentDuration: "Ancienneté dans l'emploi",
             monthlyIncome: "Revenus mensuels nets (€)",
+            monthlyIncomePlaceholder: "Montant en euros",
             additionalIncome: "Autres revenus mensuels (€)",
+            additionalIncomePlaceholder: "Montant en euros",
             company: "Nom de l'entreprise",
+            companyPlaceholder: "Nom de l'entreprise",
             position: "Poste occupé",
-            workExperience: "Expérience professionnelle (années)"
+            positionPlaceholder: "Votre poste",
+            workExperience: "Expérience professionnelle (années)",
+            workExperiencePlaceholder: "Nombre d'années"
           },
           employmentOptions: {
             employee: "Salarié(e)",
@@ -922,7 +927,15 @@ const translations = {
             employer: "Arbeitgeber",
             employmentDuration: "Beschäftigungsdauer",
             monthlyIncome: "Monatliches Nettoeinkommen (€)",
-            additionalIncome: "Weitere monatliche Einkünfte (€)"
+            monthlyIncomePlaceholder: "Betrag in Euro",
+            additionalIncome: "Weitere monatliche Einkünfte (€)",
+            additionalIncomePlaceholder: "Betrag in Euro",
+            company: "Name des Unternehmens",
+            companyPlaceholder: "Name des Unternehmens",
+            position: "Position",
+            positionPlaceholder: "Ihre Position",
+            workExperience: "Berufserfahrung (Jahre)",
+            workExperiencePlaceholder: "Anzahl Jahre"
           },
           employmentOptions: {
             employee: "Angestellt",
