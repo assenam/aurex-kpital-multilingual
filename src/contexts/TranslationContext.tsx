@@ -149,6 +149,7 @@ const translations = {
             nationality: "Nationalité",
             nationalityPlaceholder: "Sélectionnez votre nationalité",
             otherNationality: "Autre nationalité",
+            otherNationalityPlaceholder: "Précisez votre nationalité",
             maritalStatus: "Situation familiale",
             maritalStatusPlaceholder: "Sélectionnez votre situation",
             dependents: "Nombre de personnes à charge"
@@ -157,12 +158,84 @@ const translations = {
             emailMismatch: "Les adresses email ne correspondent pas",
             emailConfirmed: "Adresses email confirmées"
           },
-          maritalStatusOptions: {
+          maritalOptions: {
             single: "Célibataire",
             married: "Marié(e)",
             divorced: "Divorcé(e)",
             widowed: "Veuf/Veuve",
             partnership: "Union libre"
+          },
+          nationalityGroups: {
+            europe: "Europe",
+            northAmerica: "Amérique du Nord",
+            centralAmerica: "Amérique Centrale",
+            southAmerica: "Amérique du Sud",
+            other: "Autre"
+          },
+          nationalities: {
+            german: "Allemande",
+            austrian: "Autrichienne",
+            belgian: "Belge",
+            bulgarian: "Bulgare",
+            cypriot: "Chypriote",
+            croatian: "Croate",
+            danish: "Danoise",
+            spanish: "Espagnole",
+            estonian: "Estonienne",
+            finnish: "Finlandaise",
+            french: "Française",
+            greek: "Grecque",
+            hungarian: "Hongroise",
+            irish: "Irlandaise",
+            italian: "Italienne",
+            latvian: "Lettone",
+            lithuanian: "Lituanienne",
+            luxembourgish: "Luxembourgeoise",
+            maltese: "Maltaise",
+            dutch: "Néerlandaise",
+            polish: "Polonaise",
+            portuguese: "Portugaise",
+            romanian: "Roumaine",
+            slovak: "Slovaque",
+            slovenian: "Slovène",
+            swedish: "Suédoise",
+            czech: "Tchèque",
+            british: "Britannique",
+            swiss: "Suisse",
+            norwegian: "Norvégienne",
+            icelandic: "Islandaise",
+            serbian: "Serbe",
+            montenegrin: "Monténégrine",
+            bosnian: "Bosniaque",
+            albanian: "Albanaise",
+            macedonian: "Macédonienne",
+            moldovan: "Moldave",
+            ukrainian: "Ukrainienne",
+            belarusian: "Biélorusse",
+            russian: "Russe",
+            american: "Américaine (États-Unis)",
+            canadian: "Canadienne",
+            mexican: "Mexicaine",
+            guatemalan: "Guatémaltèque",
+            belizean: "Bélizienne",
+            salvadoran: "Salvadorienne",
+            honduran: "Hondurienne",
+            nicaraguan: "Nicaraguayenne",
+            costarican: "Costaricaine",
+            panamanian: "Panaméenne",
+            argentine: "Argentine",
+            bolivian: "Bolivienne",
+            brazilian: "Brésilienne",
+            chilean: "Chilienne",
+            colombian: "Colombienne",
+            ecuadorian: "Équatorienne",
+            guyanese: "Guyanienne",
+            paraguayan: "Paraguayenne",
+            peruvian: "Péruvienne",
+            surinamese: "Surinamaise",
+            uruguayan: "Uruguayenne",
+            venezuelan: "Vénézuélienne",
+            other: "Autre nationalité"
           }
         },
         professionalInfo: {
@@ -255,7 +328,9 @@ const translations = {
             acceptsMarketing: "J'accepte de recevoir des offres commerciales personnalisées"
           },
           submitButton: "Envoyer ma demande",
-          qualityCommitment: "Engagement qualité : Nous nous engageons à vous contacter sous 24h pour étudier votre demande et vous proposer une solution adaptée."
+          qualityCommitment: "Engagement qualité : Nous nous engageons à vous contacter sous 24h pour étudier votre demande et vous proposer une solution adaptée.",
+          emailMismatchAlert: "Les adresses email ne correspondent pas. Veuillez vérifier.",
+          successAlert: "Votre demande a été envoyée avec succès ! Nous vous contacterons sous 24h."
         }
       },
       sidebar: {
@@ -901,6 +976,7 @@ const translations = {
             nationality: "Staatsangehörigkeit",
             nationalityPlaceholder: "Wählen Sie Ihre Staatsangehörigkeit",
             otherNationality: "Weitere Staatsangehörigkeit",
+            otherNationalityPlaceholder: "Geben Sie Ihre Staatsangehörigkeit an",
             maritalStatus: "Familienstand",
             maritalStatusPlaceholder: "Wählen Sie Ihren Status",
             dependents: "Anzahl der Angehörigen"
@@ -909,12 +985,84 @@ const translations = {
             emailMismatch: "E-Mail-Adressen stimmen nicht überein",
             emailConfirmed: "E-Mail-Adressen bestätigt"
           },
-          maritalStatusOptions: {
+          maritalOptions: {
             single: "Ledig",
             married: "Verheiratet",
             divorced: "Geschieden",
             widowed: "Verwitwet",
             partnership: "Lebenspartnerschaft"
+          },
+          nationalityGroups: {
+            europe: "Europa",
+            northAmerica: "Nordamerika",
+            centralAmerica: "Zentralamerika",
+            southAmerica: "Südamerika",
+            other: "Andere"
+          },
+          nationalities: {
+            german: "Deutsch",
+            austrian: "Österreichisch",
+            belgian: "Belgisch",
+            bulgarian: "Bulgarisch",
+            cypriot: "Zypriotisch",
+            croatian: "Kroatisch",
+            danish: "Dänisch",
+            spanish: "Spanisch",
+            estonian: "Estnisch",
+            finnish: "Finnisch",
+            french: "Französisch",
+            greek: "Griechisch",
+            hungarian: "Ungarisch",
+            irish: "Irisch",
+            italian: "Italienisch",
+            latvian: "Lettisch",
+            lithuanian: "Litauisch",
+            luxembourgish: "Luxemburgisch",
+            maltese: "Maltesisch",
+            dutch: "Niederländisch",
+            polish: "Polnisch",
+            portuguese: "Portugiesisch",
+            romanian: "Rumänisch",
+            slovak: "Slowakisch",
+            slovenian: "Slowenisch",
+            swedish: "Schwedisch",
+            czech: "Tschechisch",
+            british: "Britisch",
+            swiss: "Schweizerisch",
+            norwegian: "Norwegisch",
+            icelandic: "Isländisch",
+            serbian: "Serbisch",
+            montenegrin: "Montenegrinisch",
+            bosnian: "Bosnisch",
+            albanian: "Albanisch",
+            macedonian: "Mazedonisch",
+            moldovan: "Moldawisch",
+            ukrainian: "Ukrainisch",
+            belarusian: "Belarussisch",
+            russian: "Russisch",
+            american: "Amerikanisch (USA)",
+            canadian: "Kanadisch",
+            mexican: "Mexikanisch",
+            guatemalan: "Guatemaltekisch",
+            belizean: "Belizisch",
+            salvadoran: "Salvadorianisch",
+            honduran: "Honduranisch",
+            nicaraguan: "Nicaraguanisch",
+            costarican: "Costa-ricanisch",
+            panamanian: "Panamaisch",
+            argentine: "Argentinisch",
+            bolivian: "Bolivianisch",
+            brazilian: "Brasilianisch",
+            chilean: "Chilenisch",
+            colombian: "Kolumbianisch",
+            ecuadorian: "Ecuadorianisch",
+            guyanese: "Guyanisch",
+            paraguayan: "Paraguayisch",
+            peruvian: "Peruanisch",
+            surinamese: "Surinamisch",
+            uruguayan: "Uruguayisch",
+            venezuelan: "Venezolanisch",
+            other: "Andere Staatsangehörigkeit"
           }
         },
         professionalInfo: {
@@ -1008,7 +1156,9 @@ const translations = {
             acceptsMarketing: "Ich akzeptiere den Erhalt personalisierter Werbeangebote"
           },
           submitButton: "Antrag senden",
-          qualityCommitment: "Qualitätsverpflichtung: Wir verpflichten uns, Sie innerhalb von 24 Stunden zu kontaktieren, um Ihren Antrag zu prüfen und Ihnen eine geeignete Lösung vorzuschlagen."
+          qualityCommitment: "Qualitätsverpflichtung: Wir verpflichten uns, Sie innerhalb von 24 Stunden zu kontaktieren, um Ihren Antrag zu prüfen und Ihnen eine geeignete Lösung vorzuschlagen.",
+          emailMismatchAlert: "Die E-Mail-Adressen stimmen nicht überein. Bitte überprüfen Sie sie.",
+          successAlert: "Ihr Antrag wurde erfolgreich gesendet! Wir werden Sie innerhalb von 24 Stunden kontaktieren."
         }
       },
       sidebar: {
@@ -1357,12 +1507,23 @@ const translations = {
             emailMismatch: "Las direcciones de correo no coinciden",
             emailConfirmed: "Direcciones de correo confirmadas"
           },
-          maritalStatusOptions: {
+          otherNationalityPlaceholder: "Especifica tu nacionalidad",
+          maritalOptions: {
             single: "Soltero/a",
             married: "Casado/a",
             divorced: "Divorciado/a",
             widowed: "Viudo/a",
             partnership: "Pareja de hecho"
+          },
+          nationalityGroups: {
+            europe: "Europa",
+            northAmerica: "América del Norte",
+            centralAmerica: "América Central",
+            southAmerica: "América del Sur",
+            other: "Otra"
+          },
+          nationalities: {
+            german: "Alemana", austrian: "Austriaca", belgian: "Belga", bulgarian: "Búlgara", cypriot: "Chipriota", croatian: "Croata", danish: "Danesa", spanish: "Española", estonian: "Estonia", finnish: "Finlandesa", french: "Francesa", greek: "Griega", hungarian: "Húngara", irish: "Irlandesa", italian: "Italiana", latvian: "Letona", lithuanian: "Lituana", luxembourgish: "Luxemburguesa", maltese: "Maltesa", dutch: "Holandesa", polish: "Polaca", portuguese: "Portuguesa", romanian: "Rumana", slovak: "Eslovaca", slovenian: "Eslovena", swedish: "Sueca", czech: "Checa", british: "Británica", swiss: "Suiza", norwegian: "Noruega", icelandic: "Islandesa", serbian: "Serbia", montenegrin: "Montenegrina", bosnian: "Bosnia", albanian: "Albanesa", macedonian: "Macedonia", moldovan: "Moldava", ukrainian: "Ucraniana", belarusian: "Bielorrusa", russian: "Rusa", american: "Estadounidense", canadian: "Canadiense", mexican: "Mexicana", guatemalan: "Guatemalteca", belizean: "Beliceña", salvadoran: "Salvadoreña", honduran: "Hondureña", nicaraguan: "Nicaragüense", costarican: "Costarricense", panamanian: "Panameña", argentine: "Argentina", bolivian: "Boliviana", brazilian: "Brasileña", chilean: "Chilena", colombian: "Colombiana", ecuadorian: "Ecuatoriana", guyanese: "Guyanesa", paraguayan: "Paraguaya", peruvian: "Peruana", surinamese: "Surinamesa", uruguayan: "Uruguaya", venezuelan: "Venezolana", other: "Otra nacionalidad"
           }
         },
         professionalInfo: {
@@ -1375,7 +1536,15 @@ const translations = {
             employer: "Empleador",
             employmentDuration: "Antigüedad en el empleo",
             monthlyIncome: "Ingresos mensuales netos (€)",
-            additionalIncome: "Otros ingresos mensuales (€)"
+            monthlyIncomePlaceholder: "Cantidad en euros",
+            additionalIncome: "Otros ingresos mensuales (€)",
+            additionalIncomePlaceholder: "Cantidad en euros",
+            company: "Nombre de la empresa",
+            companyPlaceholder: "Nombre de la empresa", 
+            position: "Puesto ocupado",
+            positionPlaceholder: "Tu puesto",
+            workExperience: "Experiencia profesional (años)",
+            workExperiencePlaceholder: "Número de años"
           },
           employmentOptions: {
             employee: "Empleado/a",
@@ -1418,7 +1587,10 @@ const translations = {
             acceptsTerms: "Acepto las condiciones generales",
             acceptsMarketing: "Acepto recibir información comercial"
           },
-          submitButton: "Enviar mi solicitud"
+          submitButton: "Enviar mi solicitud",
+          qualityCommitment: "Nos comprometemos a tratar tu solicitud con la máxima confidencialidad y responderte en el menor tiempo posible.",
+          emailMismatchAlert: "Las direcciones de correo no coinciden. Por favor, verifica.",
+          successAlert: "¡Tu solicitud se ha enviado con éxito! Te contactaremos en 24h."
         }
       },
       sidebar: {

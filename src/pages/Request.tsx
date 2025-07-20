@@ -35,7 +35,7 @@ const Request = () => {
     address: '',
     city: '',
     postalCode: '',
-    country: 'Allemagne',
+    country: '',
     housingType: '',
     
     // Situation professionnelle
@@ -69,12 +69,12 @@ const Request = () => {
     
     // Vérification que les emails correspondent
     if (formData.email !== formData.emailConfirmation) {
-      alert('Les adresses email ne correspondent pas. Veuillez vérifier.');
+      alert(t('request.form.validation.emailMismatchAlert'));
       return;
     }
     
     // Ici on traiterait la soumission du formulaire
-    alert('Votre demande a été envoyée avec succès ! Nous vous contacterons sous 24h.');
+    alert(t('request.form.validation.successAlert'));
   };
 
   const updateFormData = (field: string, value: string | boolean) => {
@@ -278,78 +278,78 @@ const Request = () => {
                             <SelectValue placeholder={t('request.form.personalInfo.fields.nationalityPlaceholder')} />
                           </SelectTrigger>
                           <SelectContent className="max-h-60 overflow-y-auto bg-background z-50">
-                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted">Europe</div>
-                            <SelectItem value="allemande">Allemande</SelectItem>
-                            <SelectItem value="autrichienne">Autrichienne</SelectItem>
-                            <SelectItem value="belge">Belge</SelectItem>
-                            <SelectItem value="bulgare">Bulgare</SelectItem>
-                            <SelectItem value="chypriote">Chypriote</SelectItem>
-                            <SelectItem value="croate">Croate</SelectItem>
-                            <SelectItem value="danoise">Danoise</SelectItem>
-                            <SelectItem value="espagnole">Espagnole</SelectItem>
-                            <SelectItem value="estonienne">Estonienne</SelectItem>
-                            <SelectItem value="finlandaise">Finlandaise</SelectItem>
-                            <SelectItem value="française">Française</SelectItem>
-                            <SelectItem value="grecque">Grecque</SelectItem>
-                            <SelectItem value="hongroise">Hongroise</SelectItem>
-                            <SelectItem value="irlandaise">Irlandaise</SelectItem>
-                            <SelectItem value="italienne">Italienne</SelectItem>
-                            <SelectItem value="lettone">Lettone</SelectItem>
-                            <SelectItem value="lituanienne">Lituanienne</SelectItem>
-                            <SelectItem value="luxembourgeoise">Luxembourgeoise</SelectItem>
-                            <SelectItem value="maltaise">Maltaise</SelectItem>
-                            <SelectItem value="neerlandaise">Néerlandaise</SelectItem>
-                            <SelectItem value="polonaise">Polonaise</SelectItem>
-                            <SelectItem value="portugaise">Portugaise</SelectItem>
-                            <SelectItem value="roumaine">Roumaine</SelectItem>
-                            <SelectItem value="slovaque">Slovaque</SelectItem>
-                            <SelectItem value="slovene">Slovène</SelectItem>
-                            <SelectItem value="suedoise">Suédoise</SelectItem>
-                            <SelectItem value="tcheque">Tchèque</SelectItem>
-                            <SelectItem value="britannique">Britannique</SelectItem>
-                            <SelectItem value="suisse">Suisse</SelectItem>
-                            <SelectItem value="norvegienne">Norvégienne</SelectItem>
-                            <SelectItem value="islandaise">Islandaise</SelectItem>
-                            <SelectItem value="serbe">Serbe</SelectItem>
-                            <SelectItem value="montenegrine">Monténégrine</SelectItem>
-                            <SelectItem value="bosniaque">Bosniaque</SelectItem>
-                            <SelectItem value="albanaise">Albanaise</SelectItem>
-                            <SelectItem value="macedonienne">Macédonienne</SelectItem>
-                            <SelectItem value="moldave">Moldave</SelectItem>
-                            <SelectItem value="ukrainienne">Ukrainienne</SelectItem>
-                            <SelectItem value="bielorusse">Biélorusse</SelectItem>
-                            <SelectItem value="russe">Russe</SelectItem>
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted">{t('request.form.personalInfo.nationalityGroups.europe')}</div>
+                            <SelectItem value="allemande">{t('request.form.personalInfo.nationalities.german')}</SelectItem>
+                            <SelectItem value="autrichienne">{t('request.form.personalInfo.nationalities.austrian')}</SelectItem>
+                            <SelectItem value="belge">{t('request.form.personalInfo.nationalities.belgian')}</SelectItem>
+                            <SelectItem value="bulgare">{t('request.form.personalInfo.nationalities.bulgarian')}</SelectItem>
+                            <SelectItem value="chypriote">{t('request.form.personalInfo.nationalities.cypriot')}</SelectItem>
+                            <SelectItem value="croate">{t('request.form.personalInfo.nationalities.croatian')}</SelectItem>
+                            <SelectItem value="danoise">{t('request.form.personalInfo.nationalities.danish')}</SelectItem>
+                            <SelectItem value="espagnole">{t('request.form.personalInfo.nationalities.spanish')}</SelectItem>
+                            <SelectItem value="estonienne">{t('request.form.personalInfo.nationalities.estonian')}</SelectItem>
+                            <SelectItem value="finlandaise">{t('request.form.personalInfo.nationalities.finnish')}</SelectItem>
+                            <SelectItem value="française">{t('request.form.personalInfo.nationalities.french')}</SelectItem>
+                            <SelectItem value="grecque">{t('request.form.personalInfo.nationalities.greek')}</SelectItem>
+                            <SelectItem value="hongroise">{t('request.form.personalInfo.nationalities.hungarian')}</SelectItem>
+                            <SelectItem value="irlandaise">{t('request.form.personalInfo.nationalities.irish')}</SelectItem>
+                            <SelectItem value="italienne">{t('request.form.personalInfo.nationalities.italian')}</SelectItem>
+                            <SelectItem value="lettone">{t('request.form.personalInfo.nationalities.latvian')}</SelectItem>
+                            <SelectItem value="lituanienne">{t('request.form.personalInfo.nationalities.lithuanian')}</SelectItem>
+                            <SelectItem value="luxembourgeoise">{t('request.form.personalInfo.nationalities.luxembourgish')}</SelectItem>
+                            <SelectItem value="maltaise">{t('request.form.personalInfo.nationalities.maltese')}</SelectItem>
+                            <SelectItem value="neerlandaise">{t('request.form.personalInfo.nationalities.dutch')}</SelectItem>
+                            <SelectItem value="polonaise">{t('request.form.personalInfo.nationalities.polish')}</SelectItem>
+                            <SelectItem value="portugaise">{t('request.form.personalInfo.nationalities.portuguese')}</SelectItem>
+                            <SelectItem value="roumaine">{t('request.form.personalInfo.nationalities.romanian')}</SelectItem>
+                            <SelectItem value="slovaque">{t('request.form.personalInfo.nationalities.slovak')}</SelectItem>
+                            <SelectItem value="slovene">{t('request.form.personalInfo.nationalities.slovenian')}</SelectItem>
+                            <SelectItem value="suedoise">{t('request.form.personalInfo.nationalities.swedish')}</SelectItem>
+                            <SelectItem value="tcheque">{t('request.form.personalInfo.nationalities.czech')}</SelectItem>
+                            <SelectItem value="britannique">{t('request.form.personalInfo.nationalities.british')}</SelectItem>
+                            <SelectItem value="suisse">{t('request.form.personalInfo.nationalities.swiss')}</SelectItem>
+                            <SelectItem value="norvegienne">{t('request.form.personalInfo.nationalities.norwegian')}</SelectItem>
+                            <SelectItem value="islandaise">{t('request.form.personalInfo.nationalities.icelandic')}</SelectItem>
+                            <SelectItem value="serbe">{t('request.form.personalInfo.nationalities.serbian')}</SelectItem>
+                            <SelectItem value="montenegrine">{t('request.form.personalInfo.nationalities.montenegrin')}</SelectItem>
+                            <SelectItem value="bosniaque">{t('request.form.personalInfo.nationalities.bosnian')}</SelectItem>
+                            <SelectItem value="albanaise">{t('request.form.personalInfo.nationalities.albanian')}</SelectItem>
+                            <SelectItem value="macedonienne">{t('request.form.personalInfo.nationalities.macedonian')}</SelectItem>
+                            <SelectItem value="moldave">{t('request.form.personalInfo.nationalities.moldovan')}</SelectItem>
+                            <SelectItem value="ukrainienne">{t('request.form.personalInfo.nationalities.ukrainian')}</SelectItem>
+                            <SelectItem value="bielorusse">{t('request.form.personalInfo.nationalities.belarusian')}</SelectItem>
+                            <SelectItem value="russe">{t('request.form.personalInfo.nationalities.russian')}</SelectItem>
                             
-                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Amérique du Nord</div>
-                            <SelectItem value="americaine">Américaine (États-Unis)</SelectItem>
-                            <SelectItem value="canadienne">Canadienne</SelectItem>
-                            <SelectItem value="mexicaine">Mexicaine</SelectItem>
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">{t('request.form.personalInfo.nationalityGroups.northAmerica')}</div>
+                            <SelectItem value="americaine">{t('request.form.personalInfo.nationalities.american')}</SelectItem>
+                            <SelectItem value="canadienne">{t('request.form.personalInfo.nationalities.canadian')}</SelectItem>
+                            <SelectItem value="mexicaine">{t('request.form.personalInfo.nationalities.mexican')}</SelectItem>
                             
-                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Amérique Centrale</div>
-                            <SelectItem value="guatémaltèque">Guatémaltèque</SelectItem>
-                            <SelectItem value="belizienne">Bélizienne</SelectItem>
-                            <SelectItem value="salvadorienne">Salvadorienne</SelectItem>
-                            <SelectItem value="hondurienne">Hondurienne</SelectItem>
-                            <SelectItem value="nicaraguayenne">Nicaraguayenne</SelectItem>
-                            <SelectItem value="costaricaine">Costaricaine</SelectItem>
-                            <SelectItem value="panameenne">Panaméenne</SelectItem>
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">{t('request.form.personalInfo.nationalityGroups.centralAmerica')}</div>
+                            <SelectItem value="guatémaltèque">{t('request.form.personalInfo.nationalities.guatemalan')}</SelectItem>
+                            <SelectItem value="belizienne">{t('request.form.personalInfo.nationalities.belizean')}</SelectItem>
+                            <SelectItem value="salvadorienne">{t('request.form.personalInfo.nationalities.salvadoran')}</SelectItem>
+                            <SelectItem value="hondurienne">{t('request.form.personalInfo.nationalities.honduran')}</SelectItem>
+                            <SelectItem value="nicaraguayenne">{t('request.form.personalInfo.nationalities.nicaraguan')}</SelectItem>
+                            <SelectItem value="costaricaine">{t('request.form.personalInfo.nationalities.costarican')}</SelectItem>
+                            <SelectItem value="panameenne">{t('request.form.personalInfo.nationalities.panamanian')}</SelectItem>
                             
-                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Amérique du Sud</div>
-                            <SelectItem value="argentine">Argentine</SelectItem>
-                            <SelectItem value="bolivienne">Bolivienne</SelectItem>
-                            <SelectItem value="bresilienne">Brésilienne</SelectItem>
-                            <SelectItem value="chilienne">Chilienne</SelectItem>
-                            <SelectItem value="colombienne">Colombienne</SelectItem>
-                            <SelectItem value="equatorienne">Équatorienne</SelectItem>
-                            <SelectItem value="guyanienne">Guyanienne</SelectItem>
-                            <SelectItem value="paraguayenne">Paraguayenne</SelectItem>
-                            <SelectItem value="peruvienne">Péruvienne</SelectItem>
-                            <SelectItem value="surinamaise">Surinamaise</SelectItem>
-                            <SelectItem value="uruguayenne">Uruguayenne</SelectItem>
-                            <SelectItem value="venezuelienne">Vénézuélienne</SelectItem>
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">{t('request.form.personalInfo.nationalityGroups.southAmerica')}</div>
+                            <SelectItem value="argentine">{t('request.form.personalInfo.nationalities.argentine')}</SelectItem>
+                            <SelectItem value="bolivienne">{t('request.form.personalInfo.nationalities.bolivian')}</SelectItem>
+                            <SelectItem value="bresilienne">{t('request.form.personalInfo.nationalities.brazilian')}</SelectItem>
+                            <SelectItem value="chilienne">{t('request.form.personalInfo.nationalities.chilean')}</SelectItem>
+                            <SelectItem value="colombienne">{t('request.form.personalInfo.nationalities.colombian')}</SelectItem>
+                            <SelectItem value="equatorienne">{t('request.form.personalInfo.nationalities.ecuadorian')}</SelectItem>
+                            <SelectItem value="guyanienne">{t('request.form.personalInfo.nationalities.guyanese')}</SelectItem>
+                            <SelectItem value="paraguayenne">{t('request.form.personalInfo.nationalities.paraguayan')}</SelectItem>
+                            <SelectItem value="peruvienne">{t('request.form.personalInfo.nationalities.peruvian')}</SelectItem>
+                            <SelectItem value="surinamaise">{t('request.form.personalInfo.nationalities.surinamese')}</SelectItem>
+                            <SelectItem value="uruguayenne">{t('request.form.personalInfo.nationalities.uruguayan')}</SelectItem>
+                            <SelectItem value="venezuelienne">{t('request.form.personalInfo.nationalities.venezuelan')}</SelectItem>
                             
-                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">Autre</div>
-                            <SelectItem value="autre">Autre nationalité</SelectItem>
+                            <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted mt-2">{t('request.form.personalInfo.nationalityGroups.other')}</div>
+                            <SelectItem value="autre">{t('request.form.personalInfo.nationalities.other')}</SelectItem>
                           </SelectContent>
                         </Select>
                         
