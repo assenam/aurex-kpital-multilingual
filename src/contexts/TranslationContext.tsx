@@ -303,7 +303,7 @@ const translations = {
             guaranteePlaceholder: "Ex : bien immobilier, véhicule",
             purpose: "Motif du prêt",
             purposePlaceholder: "Indiquez le but de votre demande",
-            amountPlaceholder: "Ex: 50000",
+            amountPlaceholder: "Montant en euros",
             durationPlaceholder: "Ex: 60"
           },
           loanOptions: {
@@ -1080,7 +1080,7 @@ const translations = {
             additionalIncomePlaceholder: "Betrag in Euro",
             company: "Name des Unternehmens",
             companyPlaceholder: "Name des Unternehmens",
-            position: "Position",
+            position: "Ausgeübte Position",
             positionPlaceholder: "Ihre Position",
             workExperience: "Berufserfahrung (Jahre)",
             workExperiencePlaceholder: "Anzahl Jahre"
@@ -1130,7 +1130,7 @@ const translations = {
             guaranteePlaceholder: "Z.B.: Immobilie, Fahrzeug",
             purpose: "Verwendungszweck",
             purposePlaceholder: "Geben Sie den Zweck Ihres Antrags an",
-            amountPlaceholder: "Z.B.: 50000",
+            amountPlaceholder: "Betrag in Euro",
             durationPlaceholder: "Z.B.: 60"
           },
           loanOptions: {
