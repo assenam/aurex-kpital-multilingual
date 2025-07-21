@@ -1588,7 +1588,7 @@ const translations = {
             acceptsMarketing: "Acepto recibir información comercial"
           },
           submitButton: "Enviar mi solicitud",
-          qualityCommitment: "Nos comprometemos a tratar tu solicitud con la máxima confidencialidad y responderte en el menor tiempo posible.",
+          qualityCommitment: "Compromiso de calidad: Nos comprometemos a contactarte en 24h para estudiar tu solicitud y proponerte una solución adaptada.",
           emailMismatchAlert: "Las direcciones de correo no coinciden. Por favor, verifica.",
           successAlert: "¡Tu solicitud se ha enviado con éxito! Te contactaremos en 24h."
         }
