@@ -349,7 +349,8 @@ const translations = {
           title: "Besoin d'aide ?",
           subtitle: "Nos experts sont là pour vous accompagner",
           phone: "+33759282004",
-          schedule: "Lun-Ven 8h-19h"
+          schedule: "Lun-Ven 8h-19h",
+          contactButton: "Nous contacter"
         },
         security: {
           title: "Sécurité garantie",
@@ -1317,7 +1318,8 @@ const translations = {
           title: "Brauchen Sie Hilfe?",
           subtitle: "Unsere Experten begleiten Sie",
           phone: "+33759282004",
-          schedule: "Mo-Fr 8-19 Uhr"
+          schedule: "Mo-Fr 8-19 Uhr",
+          contactButton: "Kontakt aufnehmen"
         },
         security: {
           title: "Garantierte Sicherheit",
@@ -1807,7 +1809,8 @@ const translations = {
           title: "¿Necesitas ayuda?",
           subtitle: "Nuestros expertos están aquí para acompañarte",
           phone: "+33759282004",
-          schedule: "Lun-Vie 8h-19h"
+          schedule: "Lun-Vie 8h-19h",
+          contactButton: "Contáctanos"
         },
         security: {
           title: "Seguridad garantizada",
@@ -2389,7 +2392,8 @@ const translations = {
           title: "Hai bisogno di aiuto?",
           subtitle: "I nostri esperti sono qui per accompagnarti",
           phone: "+33759282004",
-          schedule: "Lun-Ven 8-19"
+          schedule: "Lun-Ven 8-19",
+          contactButton: "Contattaci"
         },
         security: {
           title: "Sicurezza garantita",
@@ -2942,7 +2946,8 @@ const translations = {
           title: "Potrzebujesz pomocy?",
           subtitle: "Nasi eksperci są tutaj, aby Ci towarzyszyć",
           phone: "+33759282004",
-          schedule: "Pon-Pt 8-19"
+          schedule: "Pon-Pt 8-19",
+          contactButton: "Skontaktuj się z nami"
         },
         security: {
           title: "Gwarantowane bezpieczeństwo",
@@ -3458,7 +3463,8 @@ const translations = {
           title: "Tarvitsetko apua?",
           subtitle: "Asiantuntijamme ovat täällä auttamassa sinua",
           phone: "+33759282004",
-          schedule: "Ma-Pe 8-19"
+          schedule: "Ma-Pe 8-19",
+          contactButton: "Ota yhteyttä"
         },
         security: {
           title: "Taattu turvallisuus",
@@ -3977,7 +3983,8 @@ const translations = {
           title: "Precisa de ajuda?",
           subtitle: "Os nossos especialistas estão aqui para o acompanhar",
           phone: "+33759282004",
-          schedule: "Seg-Sex 8h-19h"
+          schedule: "Seg-Sex 8h-19h",
+          contactButton: "Entre em contato"
         },
         security: {
           title: "Segurança garantida",
@@ -4501,7 +4508,8 @@ const translations = {
           title: "Χρειάζεστε βοήθεια;",
           subtitle: "Οι ειδικοί μας είναι εδώ για να σας συνοδεύσουν",
           phone: "+33759282004",
-          schedule: "Δευ-Παρ 8-19"
+          schedule: "Δευ-Παρ 8-19",
+          contactButton: "Επικοινωνήστε μαζί μας"
         },
         security: {
           title: "Εγγυημένη ασφάλεια",
