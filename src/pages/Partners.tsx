@@ -373,7 +373,7 @@ const Partners = () => {
                         <Phone className="h-5 w-5 text-accent" />
                         <div>
                           <div className="font-semibold text-primary">Téléphone</div>
-                          <div className="text-sm text-muted-foreground">+49 40 710 97530</div>
+                          <div className="text-sm text-muted-foreground">+33759282004</div>
                         </div>
                       </div>
 

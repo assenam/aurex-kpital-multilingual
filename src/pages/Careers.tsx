@@ -393,7 +393,7 @@ const Careers = () => {
             </div>
 
             <div className="mt-12 text-sm text-primary-foreground/80">
-              <p>Contact RH : <strong>careers@aurex-kpital.de</strong> | +49 40 710 97535</p>
+              <p>Contact RH : <strong>careers@aurex-kpital.de</strong> | +33759282004</p>
             </div>
           </div>
         </div>

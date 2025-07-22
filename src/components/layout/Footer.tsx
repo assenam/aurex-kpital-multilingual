@@ -69,7 +69,7 @@ const Footer = () => {
                 <p><strong>Aurex K-pital</strong></p>
                 <p>Irma-Keilhack-Ring 24</p>
                 <p>22145 Hamburg, Allemagne</p>
-                <p>Tél: +49 40 710 97523</p>
+                <p>Tél: +33759282004</p>
                 <p>Registre: HRB 80635</p>
                 <p>Safe-Nummer: DE00976259</p>
               </div>

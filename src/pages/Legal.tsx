@@ -93,7 +93,7 @@ const Legal = () => {
 
                   <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.contact.title')}</h3>
                   <div className="bg-secondary/30 p-6 rounded-lg mb-6">
-                    <p><strong>{t('legal.mentions.contact.phone')}:</strong> +49 40 710 97523</p>
+                    <p><strong>{t('legal.mentions.contact.phone')}:</strong> +33759282004</p>
                     <p><strong>{t('legal.mentions.contact.email')}:</strong> contact@aurex-kpital.de</p>
                     <p><strong>{t('legal.mentions.contact.hours')}:</strong> {t('legal.mentions.contact.schedule')}</p>
                   </div>
@@ -102,7 +102,7 @@ const Legal = () => {
                   <p>{t('legal.mentions.hosting.description')}</p>
                   <p><strong>Amazon Web Services EMEA SARL</strong><br />
                   38 Avenue John F. Kennedy, L-1855 Luxembourg<br />
-                  {t('legal.mentions.contact.phone')}: +352 2789 0000</p>
+                  {t('legal.mentions.contact.phone')}: +33759282004</p>
 
                   <h3 className="text-xl font-bold text-primary mb-4">{t('legal.mentions.intellectual.title')}</h3>
                   <p>{t('legal.mentions.intellectual.description')}</p>
@@ -506,7 +506,7 @@ const Legal = () => {
                   <div className="bg-secondary/30 p-6 rounded-lg mb-6">
                     <p><strong>DPO :</strong> Dr. Sarah Weber - dpo@aurex-kpital.de</p>
                     <p><strong>Équipe Privacy :</strong> privacy@aurex-kpital.de</p>
-                    <p><strong>Téléphone :</strong> +49 40 710 97540 (ligne dédiée)</p>
+                    <p><strong>Téléphone :</strong> +33759282004 (ligne dédiée)</p>
                   </div>
 
                   <p>Vous disposez également du droit d'introduire une réclamation auprès des autorités de contrôle :</p>

@@ -348,7 +348,7 @@ const translations = {
         help: {
           title: "Besoin d'aide ?",
           subtitle: "Nos experts sont là pour vous accompagner",
-          phone: "+33 1 78 16 40 00",
+          phone: "+33759282004",
           schedule: "Lun-Ven 8h-19h"
         },
         security: {
@@ -708,7 +708,7 @@ const translations = {
         phone: {
           title: "Téléphone",
           description: "Appelez-nous pour un conseil immédiat",
-          value: "+33 1 78 16 40 00",
+          value: "+33759282004",
           hours: "Lun-Ven 8h-19h, Sam 9h-17h"
         },
         email: {
@@ -802,7 +802,7 @@ const translations = {
             phone: {
               title: "Téléphone",
               description: "Parlez directement à nos conseillers",
-              value: "+49 40 710 97523",
+              value: "+33759282004",
               hours: "Lun-Ven: 8h-19h, Sam: 9h-17h"
             },
             email: {
@@ -866,25 +866,25 @@ const translations = {
               name: "Service Commercial",
               description: "Nouvelles demandes et informations",
               contact: "commercial@aurex-kpital.de",
-              phone: "+49 40 710 97523"
+              phone: "+33759282004"
             },
             client: {
               name: "Service Client",
               description: "Suivi de dossiers existants",
               contact: "client@aurex-kpital.de",
-              phone: "+49 40 710 97524"
+              phone: "+33759282004"
             },
             support: {
               name: "Support Technique",
               description: "Assistance plateforme et outils",
               contact: "support@aurex-kpital.de",
-              phone: "+49 40 710 97525"
+              phone: "+33759282004"
             },
             management: {
               name: "Direction",
               description: "Réclamations et suggestions",
               contact: "direction@aurex-kpital.de",
-              phone: "+49 40 710 97520"
+              phone: "+33759282004"
             }
           },
           schedules: {
@@ -1316,7 +1316,7 @@ const translations = {
         help: {
           title: "Brauchen Sie Hilfe?",
           subtitle: "Unsere Experten begleiten Sie",
-          phone: "+49 40 123 456 789",
+          phone: "+33759282004",
           schedule: "Mo-Fr 8-19 Uhr"
         },
         security: {
@@ -1605,7 +1605,7 @@ const translations = {
         phone: {
           title: "Telefon",
           description: "Rufen Sie uns für sofortige Beratung an",
-          value: "+49 40 123 456 789",
+          value: "+33759282004",
           hours: "Mo-Fr 8-19 Uhr, Sa 9-17 Uhr"
         },
         email: {
@@ -1806,7 +1806,7 @@ const translations = {
         help: {
           title: "¿Necesitas ayuda?",
           subtitle: "Nuestros expertos están aquí para acompañarte",
-          phone: "+34 91 123 45 67",
+          phone: "+33759282004",
           schedule: "Lun-Vie 8h-19h"
         },
         security: {
@@ -2224,7 +2224,7 @@ const translations = {
         phone: {
           title: "Teléfono",
           description: "Llámenos para un consejo inmediato",
-          value: "+34 91 123 45 67",
+          value: "+33759282004",
           hours: "Lun-Vie 8h-19h, Sáb 9h-17h"
         },
         email: {
@@ -2388,7 +2388,7 @@ const translations = {
         help: {
           title: "Hai bisogno di aiuto?",
           subtitle: "I nostri esperti sono qui per accompagnarti",
-          phone: "+39 06 123 45 67",
+          phone: "+33759282004",
           schedule: "Lun-Ven 8-19"
         },
         security: {
@@ -2777,7 +2777,7 @@ const translations = {
         phone: {
           title: "Telefono",
           description: "Chiamaci per un consiglio immediato",
-          value: "+39 02 1234 5678",
+          value: "+33759282004",
           hours: "Lun-Ven 8-19, Sab 9-17"
         },
         email: {
@@ -2941,7 +2941,7 @@ const translations = {
         help: {
           title: "Potrzebujesz pomocy?",
           subtitle: "Nasi eksperci są tutaj, aby Ci towarzyszyć",
-          phone: "+48 22 123 45 67",
+          phone: "+33759282004",
           schedule: "Pon-Pt 8-19"
         },
         security: {
@@ -3301,7 +3301,7 @@ const translations = {
         phone: {
           title: "Telefon",
           description: "Zadzwoń do nas po natychmiastową poradę",
-          value: "+48 22 123 45 67",
+          value: "+33759282004",
           hours: "Pon-Pt 8-19, Sob 9-17"
         },
         email: {
@@ -3457,7 +3457,7 @@ const translations = {
         help: {
           title: "Tarvitsetko apua?",
           subtitle: "Asiantuntijamme ovat täällä auttamassa sinua",
-          phone: "+358 9 123 4567",
+          phone: "+33759282004",
           schedule: "Ma-Pe 8-19"
         },
         security: {
@@ -3817,7 +3817,7 @@ const translations = {
         phone: {
           title: "Puhelin",
           description: "Keskustele suoraan konsulttiemme kanssa",
-          value: "+49 40 710 97523",
+          value: "+33759282004",
           hours: "Ma-Pe: 8h-19h, La: 9h-17h"
         },
         email: {
@@ -3976,7 +3976,7 @@ const translations = {
         help: {
           title: "Precisa de ajuda?",
           subtitle: "Os nossos especialistas estão aqui para o acompanhar",
-          phone: "+351 21 123 45 67",
+          phone: "+33759282004",
           schedule: "Seg-Sex 8h-19h"
         },
         security: {
@@ -4336,7 +4336,7 @@ const translations = {
         phone: {
           title: "Telefone",
           description: "Ligue-nos para um conselho imediato",
-          value: "+351 21 123 45 67",
+          value: "+33759282004",
           hours: "Seg-Sex 8h-19h, Sáb 9h-17h"
         },
         email: {
@@ -4500,7 +4500,7 @@ const translations = {
         help: {
           title: "Χρειάζεστε βοήθεια;",
           subtitle: "Οι ειδικοί μας είναι εδώ για να σας συνοδεύσουν",
-          phone: "+30 21 123 45 67",
+          phone: "+33759282004",
           schedule: "Δευ-Παρ 8-19"
         },
         security: {
@@ -4663,7 +4663,7 @@ const translations = {
             phone: {
               title: "Τηλέφωνο",
               description: "Μιλήστε απευθείας με τους συμβούλους μας",
-              value: "+49 40 710 97523",
+              value: "+33759282004",
               hours: "Δευ-Παρ: 8h-19h, Σάβ: 9h-17h"
             },
             email: {
@@ -4918,7 +4918,7 @@ const translations = {
         phone: {
           title: "Τηλέφωνο",
           description: "Καλέστε μας για άμεση συμβουλή",
-          value: "+30 210 123 4567",
+          value: "+33759282004",
           hours: "Δευ-Παρ 8π-19μ, Σαβ 9π-17μ"
         },
         email: {

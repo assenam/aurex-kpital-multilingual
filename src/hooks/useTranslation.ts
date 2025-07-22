@@ -125,7 +125,7 @@ const translations = {
         contactBtn: "Nous contacter",
         phone: "Téléphone :",
         address: "Adresse :",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne"
       }
     },
@@ -161,7 +161,7 @@ const translations = {
         appointmentBtn: "Prendre rendez-vous",
         phone: "Téléphone :",
         address: "Adresse :",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne"
       }
     },
@@ -408,7 +408,7 @@ const translations = {
         contactBtn: "Kontakt aufnehmen",
         phone: "Telefon:",
         address: "Adresse:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
       }
     },
@@ -444,7 +444,7 @@ const translations = {
         appointmentBtn: "Termin vereinbaren",
         phone: "Telefon:",
         address: "Adresse:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
       }
     },
@@ -538,7 +538,7 @@ const translations = {
         contactBtn: "Skontaktuj się z nami",
         phone: "Telefon:",
         address: "Adres:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
       }
     },
@@ -632,7 +632,7 @@ const translations = {
         contactBtn: "Ota meihin yhteyttä",
         phone: "Puhelin:",
         address: "Osoite:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hampuri, Saksa"
       }
     },
@@ -726,7 +726,7 @@ const translations = {
         contactBtn: "Contáctanos",
         phone: "Teléfono:",
         address: "Dirección:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
       }
     },
@@ -820,7 +820,7 @@ const translations = {
         contactBtn: "Entre em contato",
         phone: "Telefone:",
         address: "Endereço:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
       }
     },
@@ -914,7 +914,7 @@ const translations = {
         contactBtn: "Επικοινωνήστε μαζί μας",
         phone: "Τηλέφωνο:",
         address: "Διεύθυνση:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία"
       }
     },
@@ -1008,7 +1008,7 @@ const translations = {
         contactBtn: "Contattaci",
         phone: "Telefono:",
         address: "Indirizzo:",
-        phoneNumber: "+49 40 710 97523",
+        phoneNumber: "+33759282004",
         addressText: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
       }
     },
