@@ -7,286 +7,270 @@ import {
   HelpCircle, Search, Clock, Shield, Euro, FileText, Users, 
   AlertCircle, CheckCircle, Phone, Mail, MessageCircle
 } from 'lucide-react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const FAQ = () => {
+  const { t } = useTranslation();
+
   const categories = [
     {
-      title: "Prêts personnels",
+      title: t('faq.categories.personalLoans.title'),
       icon: Euro,
       questions: [
         {
-          question: "Quels sont les montants minimum et maximum pour un prêt personnel ?",
-          answer: "Nos prêts personnels vont de 1 000€ à 75 000€, avec des durées de remboursement de 12 à 84 mois. Le montant accordé dépend de votre profil financier, vos revenus et votre capacité de remboursement."
+          question: t('faq.categories.personalLoans.questions.amounts.question'),
+          answer: t('faq.categories.personalLoans.questions.amounts.answer')
         },
         {
-          question: "Quel est le taux d'intérêt appliqué ?",
-          answer: "Nos taux sont personnalisés selon votre profil. Ils varient de 2,9% à 9,9% TAEG fixe. Un devis personnalisé vous sera proposé après étude de votre dossier, sans engagement de votre part."
+          question: t('faq.categories.personalLoans.questions.rates.question'),
+          answer: t('faq.categories.personalLoans.questions.rates.answer')
         },
         {
-          question: "Puis-je obtenir un prêt sans justificatif d'usage ?",
-          answer: "Oui, nos prêts personnels sont des crédits sans justificatif. Vous n'avez pas besoin de nous indiquer l'usage prévu des fonds. Cependant, nous vous demandons de les utiliser de manière responsable."
+          question: t('faq.categories.personalLoans.questions.justification.question'),
+          answer: t('faq.categories.personalLoans.questions.justification.answer')
         },
         {
-          question: "Combien de temps faut-il pour obtenir les fonds ?",
-          answer: "Après validation de votre dossier et signature électronique, les fonds sont généralement virés sous 48h ouvrées sur votre compte bancaire. En cas d'urgence justifiée, un virement le jour même peut être organisé."
+          question: t('faq.categories.personalLoans.questions.timing.question'),
+          answer: t('faq.categories.personalLoans.questions.timing.answer')
         }
       ]
     },
     {
-      title: "Prêts immobiliers",
+      title: t('faq.categories.mortgage.title'),
       icon: Shield,
       questions: [
         {
-          question: "Faut-il un apport personnel obligatoire ?",
-          answer: "Non, Aurex K-pital propose des financements à 110% permettant de couvrir l'acquisition et les frais annexes. Cependant, un apport personnel améliore les conditions du prêt et réduit le coût total."
+          question: t('faq.categories.mortgage.questions.downPayment.question'),
+          answer: t('faq.categories.mortgage.questions.downPayment.answer')
         },
         {
-          question: "Quels types de biens puis-je financer ?",
-          answer: "Nous finançons tous types de biens : résidence principale, secondaire, investissement locatif, SCPI, terrains à bâtir, construction neuve, rénovation importante. Chaque projet est étudié individuellement."
+          question: t('faq.categories.mortgage.questions.propertyTypes.question'),
+          answer: t('faq.categories.mortgage.questions.propertyTypes.answer')
         },
         {
-          question: "Quelle est la durée maximale d'un prêt immobilier ?",
-          answer: "Nos prêts immobiliers peuvent s'étaler jusqu'à 30 ans (25 ans pour l'investissement locatif). La durée optimale est calculée selon votre âge, vos revenus et votre situation patrimoniale."
+          question: t('faq.categories.mortgage.questions.duration.question'),
+          answer: t('faq.categories.mortgage.questions.duration.answer')
         },
         {
-          question: "Proposez-vous des taux fixes ou variables ?",
-          answer: "Nous proposons les deux options. Les taux fixes offrent une sécurité totale, tandis que les taux variables avec cap permettent de bénéficier d'éventuelles baisses tout en limitant les risques de hausse."
+          question: t('faq.categories.mortgage.questions.rates.question'),
+          answer: t('faq.categories.mortgage.questions.rates.answer')
         }
       ]
     },
     {
-      title: "Investissement & Épargne",
+      title: t('faq.categories.investment.title'),
       icon: FileText,
       questions: [
         {
-          question: "Quel est le montant minimum pour commencer à investir ?",
-          answer: "Vous pouvez débuter avec 500€ sur nos solutions d'épargne. Pour les investissements plus sophistiqués (SCPI, assurance-vie premium), le ticket d'entrée est généralement de 5 000€."
+          question: t('faq.categories.investment.questions.minimum.question'),
+          answer: t('faq.categories.investment.questions.minimum.answer')
         },
         {
-          question: "Comment fonctionnent vos recommandations d'investissement ?",
-          answer: "Nos algorithmes d'IA analysent votre profil de risque, vos objectifs et la conjoncture pour vous proposer une allocation personnalisée. Un conseiller expert valide et explique chaque recommandation."
+          question: t('faq.categories.investment.questions.recommendations.question'),
+          answer: t('faq.categories.investment.questions.recommendations.answer')
         },
         {
-          question: "Mes investissements sont-ils garantis ?",
-          answer: "Les investissements comportent des risques de perte en capital. Cependant, nous proposons des solutions garanties (fonds euros, obligations d'État) pour la partie sécurisée de votre patrimoine."
+          question: t('faq.categories.investment.questions.guarantee.question'),
+          answer: t('faq.categories.investment.questions.guarantee.answer')
         },
         {
-          question: "Puis-je modifier ma stratégie d'investissement ?",
-          answer: "Absolument. Vous bénéficiez d'une flexibilité totale : arbitrages gratuits illimités, ajustement de l'allocation, changement d'horizon d'investissement selon l'évolution de votre situation."
+          question: t('faq.categories.investment.questions.tracking.question'),
+          answer: t('faq.categories.investment.questions.tracking.answer')
         }
       ]
     },
     {
-      title: "Processus & Démarches",
+      title: t('faq.categories.business.title'),
       icon: Users,
       questions: [
         {
-          question: "Quels documents dois-je fournir pour une demande ?",
-          answer: "Pièce d'identité, justificatifs de revenus (3 derniers bulletins de salaire, avis d'imposition), relevés bancaires (3 derniers mois), justificatif de domicile récent. D'autres pièces peuvent être demandées selon votre situation."
+          question: t('faq.categories.business.questions.amounts.question'),
+          answer: t('faq.categories.business.questions.amounts.answer')
         },
         {
-          question: "Comment se déroule l'étude de mon dossier ?",
-          answer: "1) Analyse automatisée en 2h, 2) Validation par un expert sous 24h, 3) Proposition personnalisée, 4) Finalisation avec votre conseiller dédié. Vous êtes informé à chaque étape par email et SMS."
+          question: t('faq.categories.business.questions.projects.question'),
+          answer: t('faq.categories.business.questions.projects.answer')
         },
         {
-          question: "Puis-je faire une simulation sans engagement ?",
-          answer: "Oui, toutes nos simulations sont gratuites et sans engagement. Vous pouvez tester différents scénarios sur notre simulateur en ligne disponible 24h/24."
+          question: t('faq.categories.business.questions.guarantees.question'),
+          answer: t('faq.categories.business.questions.guarantees.answer')
         },
         {
-          question: "Comment contacter mon conseiller ?",
-          answer: "Chaque client dispose d'un conseiller dédié joignable par téléphone, email ou chat. Vous pouvez également prendre rendez-vous en ligne pour un entretien téléphonique ou en visioconférence."
+          question: t('faq.categories.business.questions.timeline.question'),
+          answer: t('faq.categories.business.questions.timeline.answer')
         }
       ]
-    }
-  ];
-
-  const quickAnswers = [
-    {
-      question: "Vos services sont-ils disponibles dans toute l'Europe ?",
-      answer: "Oui, dans les 27 pays de l'UE",
-      icon: CheckCircle
     },
     {
-      question: "Y a-t-il des frais de dossier ?",
-      answer: "Analyse gratuite, frais transparents",
-      icon: Euro
-    },
-    {
-      question: "Combien de temps pour une réponse ?",
-      answer: "2h pour un premier retour",
-      icon: Clock
-    },
-    {
-      question: "Mes données sont-elles sécurisées ?",
-      answer: "Certification ISO 27001",
-      icon: Shield
+      title: t('faq.categories.account.title'),
+      icon: HelpCircle,
+      questions: [
+        {
+          question: t('faq.categories.account.questions.create.question'),
+          answer: t('faq.categories.account.questions.create.answer')
+        },
+        {
+          question: t('faq.categories.account.questions.documents.question'),
+          answer: t('faq.categories.account.questions.documents.answer')
+        },
+        {
+          question: t('faq.categories.account.questions.security.question'),
+          answer: t('faq.categories.account.questions.security.answer')
+        },
+        {
+          question: t('faq.categories.account.questions.support.question'),
+          answer: t('faq.categories.account.questions.support.answer')
+        }
+      ]
     }
   ];
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-background">
       <Header />
       
-      {/* Hero Section */}
-      <section className="relative min-h-[60vh] pt-20 pb-16 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-primary"></div>
-        <div className="absolute inset-0 grid-pattern opacity-10"></div>
-        
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-            <div className="inline-block mb-6">
-              <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
-                <HelpCircle className="h-4 w-4 mr-2" />
-                Assistance & Réponses
-              </Badge>
-            </div>
-            
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Foire Aux
-              <span className="text-gold block">Questions</span>
-            </h1>
-            
-            <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Trouvez rapidement les réponses à vos questions sur nos services de financement, 
-              d'investissement et d'accompagnement financier.
-            </p>
+      <main className="pt-20">
+        {/* Hero Section */}
+        <section className="relative py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto text-center">
+              <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-6 py-3 rounded-full text-sm font-medium mb-8">
+                <HelpCircle className="h-4 w-4" />
+                {t('faq.hero.badge')}
+              </div>
+              
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                {t('faq.hero.title')} <span className="gradient-text">{t('faq.hero.titleHighlight')}</span>
+              </h1>
+              
+              <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto">
+                {t('faq.hero.description')}
+              </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-12">
-              {quickAnswers.map((item, index) => (
-                <div key={index} className="text-center">
-                  <item.icon className="h-8 w-8 text-gold mx-auto mb-3" />
-                  <div className="font-bold text-sm mb-1">{item.question}</div>
-                  <div className="text-sm opacity-90">{item.answer}</div>
-                </div>
-              ))}
+              {/* Search Bar */}
+              <div className="relative max-w-xl mx-auto">
+                <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground" />
+                <input
+                  type="text"
+                  placeholder={t('faq.hero.searchPlaceholder')}
+                  className="w-full pl-12 pr-4 py-4 bg-background border border-border rounded-2xl focus:ring-2 focus:ring-primary focus:border-transparent text-lg"
+                />
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      {/* Search Section */}
-      <section className="py-12 bg-secondary/30">
-        <div className="container mx-auto px-4">
-          <div className="max-w-2xl mx-auto">
-            <Card className="border-0 shadow-lg">
-              <CardHeader className="text-center">
-                <CardTitle className="flex items-center justify-center gap-2 text-primary">
-                  <Search className="h-5 w-5" />
-                  Recherche rapide
-                </CardTitle>
-                <CardDescription>
-                  Tapez votre question ou un mot-clé pour trouver une réponse instantanée
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground" />
-                  <input
-                    type="text"
-                    placeholder="Ex: taux d'intérêt, apport personnel, durée prêt..."
-                    className="w-full pl-10 pr-4 py-3 border border-secondary rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent"
-                  />
-                </div>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Categories */}
-      <section className="py-20 bg-gradient-section relative overflow-hidden">
-        <div className="absolute top-20 left-10 w-32 h-32 bg-gold/10 rounded-full blur-2xl float"></div>
-        <div className="absolute bottom-20 right-10 w-40 h-40 bg-primary/15 rounded-full blur-3xl float" style={{ animationDelay: '2s' }}></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Questions par Catégorie
-            </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Explorez nos réponses détaillées organisées par domaine d'expertise
-            </p>
-          </div>
-
-          <div className="space-y-8">
-            {categories.map((category, categoryIndex) => (
-              <Card key={category.title} className="border-0 shadow-lg">
-                <CardHeader>
-                  <CardTitle className="text-2xl flex items-center gap-3 text-primary">
-                    <div className="p-2 bg-gradient-primary rounded-lg">
-                      <category.icon className="h-6 w-6 text-primary-foreground" />
-                    </div>
-                    {category.title}
-                  </CardTitle>
-                </CardHeader>
-                
-                <CardContent>
-                  <Accordion type="single" collapsible className="w-full">
-                    {category.questions.map((faq, faqIndex) => (
-                      <AccordionItem key={faqIndex} value={`${categoryIndex}-${faqIndex}`}>
-                        <AccordionTrigger className="text-left hover:text-primary">
-                          {faq.question}
-                        </AccordionTrigger>
-                        <AccordionContent className="text-muted-foreground leading-relaxed">
-                          {faq.answer}
-                        </AccordionContent>
-                      </AccordionItem>
-                    ))}
-                  </Accordion>
-                </CardContent>
+        {/* Quick Stats */}
+        <section className="py-16 border-b border-border/50">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+              <Card className="text-center p-8 hover:shadow-lg transition-all duration-300">
+                <div className="text-3xl font-bold text-primary mb-2">200+</div>
+                <div className="text-muted-foreground">{t('faq.stats.questions')}</div>
               </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Contact Support */}
-      <section className="py-20 bg-gradient-primary">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center text-primary-foreground">
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Vous ne trouvez pas votre réponse ?
-            </h2>
-            <p className="text-xl mb-12 text-primary-foreground/90">
-              Notre équipe d'experts est là pour vous accompagner personnellement
-            </p>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              <Card className="bg-primary-foreground/10 border-primary-foreground/20 text-center">
-                <CardHeader>
-                  <Phone className="h-8 w-8 text-gold mx-auto mb-3" />
-                  <CardTitle className="text-primary-foreground">Téléphone</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-primary-foreground/80 mb-2">+49 40 710 97523</p>
-                  <p className="text-sm text-primary-foreground/70">Lun-Ven: 8h-19h</p>
-                </CardContent>
+              <Card className="text-center p-8 hover:shadow-lg transition-all duration-300">
+                <div className="text-3xl font-bold text-primary mb-2">95%</div>
+                <div className="text-muted-foreground">{t('faq.stats.satisfaction')}</div>
               </Card>
-
-              <Card className="bg-primary-foreground/10 border-primary-foreground/20 text-center">
-                <CardHeader>
-                  <Mail className="h-8 w-8 text-gold mx-auto mb-3" />
-                  <CardTitle className="text-primary-foreground">Email</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-primary-foreground/80 mb-2">support@aurex-kpital.de</p>
-                  <p className="text-sm text-primary-foreground/70">Réponse sous 4h</p>
-                </CardContent>
-              </Card>
-
-              <Card className="bg-primary-foreground/10 border-primary-foreground/20 text-center">
-                <CardHeader>
-                  <MessageCircle className="h-8 w-8 text-gold mx-auto mb-3" />
-                  <CardTitle className="text-primary-foreground">Chat Live</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-primary-foreground/80 mb-2">Assistance instantanée</p>
-                  <p className="text-sm text-primary-foreground/70">24h/7j disponible</p>
-                </CardContent>
+              <Card className="text-center p-8 hover:shadow-lg transition-all duration-300">
+                <div className="text-3xl font-bold text-primary mb-2">2h</div>
+                <div className="text-muted-foreground">{t('faq.stats.responseTime')}</div>
               </Card>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
+        {/* FAQ Content */}
+        <section className="py-20">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto">
+              {/* Categories Grid */}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                {categories.map((category, categoryIndex) => (
+                  <Card key={categoryIndex} className="p-8 hover:shadow-lg transition-all duration-300">
+                    <CardHeader className="pb-6">
+                      <div className="flex items-center gap-3 mb-4">
+                        <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
+                          <category.icon className="h-6 w-6 text-primary" />
+                        </div>
+                        <CardTitle className="text-2xl">{category.title}</CardTitle>
+                      </div>
+                    </CardHeader>
+                    
+                    <CardContent>
+                      <Accordion type="single" collapsible className="space-y-4">
+                        {category.questions.map((faq, faqIndex) => (
+                          <AccordionItem 
+                            key={faqIndex} 
+                            value={`${categoryIndex}-${faqIndex}`}
+                            className="border border-border/50 rounded-lg px-6"
+                          >
+                            <AccordionTrigger className="text-left hover:text-primary transition-colors py-6">
+                              {faq.question}
+                            </AccordionTrigger>
+                            <AccordionContent className="text-muted-foreground leading-relaxed pb-6">
+                              {faq.answer}
+                            </AccordionContent>
+                          </AccordionItem>
+                        ))}
+                      </Accordion>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Support Section */}
+        <section className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="max-w-4xl mx-auto text-center">
+              <h2 className="text-3xl md:text-4xl font-bold mb-6">
+                {t('faq.support.title')}
+              </h2>
+              <p className="text-xl text-muted-foreground mb-12">
+                {t('faq.support.description')}
+              </p>
+
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <Card className="p-8 hover:shadow-lg transition-all duration-300 text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <Phone className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4">{t('faq.support.phone.title')}</h3>
+                  <p className="text-muted-foreground mb-4">{t('faq.support.phone.description')}</p>
+                  <Badge variant="secondary" className="text-primary">
+                    {t('faq.support.phone.hours')}
+                  </Badge>
+                </Card>
+
+                <Card className="p-8 hover:shadow-lg transition-all duration-300 text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <Mail className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4">{t('faq.support.email.title')}</h3>
+                  <p className="text-muted-foreground mb-4">{t('faq.support.email.description')}</p>
+                  <Badge variant="secondary" className="text-primary">
+                    {t('faq.support.email.response')}
+                  </Badge>
+                </Card>
+
+                <Card className="p-8 hover:shadow-lg transition-all duration-300 text-center">
+                  <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                    <MessageCircle className="h-8 w-8 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4">{t('faq.support.chat.title')}</h3>
+                  <p className="text-muted-foreground mb-4">{t('faq.support.chat.description')}</p>
+                  <Badge variant="secondary" className="text-primary">
+                    {t('faq.support.chat.availability')}
+                  </Badge>
+                </Card>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
 
       <Footer />
     </div>
