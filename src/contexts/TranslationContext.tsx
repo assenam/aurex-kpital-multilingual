@@ -303,7 +303,7 @@ const translations = {
             guaranteePlaceholder: "Ex : bien immobilier, véhicule",
             purpose: "Motif du prêt",
             purposePlaceholder: "Indiquez le but de votre demande",
-            amountPlaceholder: "Montant en euros",
+            amountPlaceholder: "Ex: 50000",
             durationPlaceholder: "Ex: 60"
           },
           loanOptions: {
@@ -1080,7 +1080,7 @@ const translations = {
             additionalIncomePlaceholder: "Betrag in Euro",
             company: "Name des Unternehmens",
             companyPlaceholder: "Name des Unternehmens",
-            position: "Ausgeübte Position",
+            position: "Position",
             positionPlaceholder: "Ihre Position",
             workExperience: "Berufserfahrung (Jahre)",
             workExperiencePlaceholder: "Anzahl Jahre"
@@ -1130,7 +1130,7 @@ const translations = {
             guaranteePlaceholder: "Z.B.: Immobilie, Fahrzeug",
             purpose: "Verwendungszweck",
             purposePlaceholder: "Geben Sie den Zweck Ihres Antrags an",
-            amountPlaceholder: "Betrag in Euro",
+            amountPlaceholder: "Z.B.: 50000",
             durationPlaceholder: "Z.B.: 60"
           },
           loanOptions: {
@@ -1588,7 +1588,7 @@ const translations = {
             acceptsMarketing: "Acepto recibir información comercial"
           },
           submitButton: "Enviar mi solicitud",
-          qualityCommitment: "Compromiso de calidad: Nos comprometemos a contactarte en 24h para estudiar tu solicitud y proponerte una solución adaptada.",
+          qualityCommitment: "Nos comprometemos a tratar tu solicitud con la máxima confidencialidad y responderte en el menor tiempo posible.",
           emailMismatchAlert: "Las direcciones de correo no coinciden. Por favor, verifica.",
           successAlert: "¡Tu solicitud se ha enviado con éxito! Te contactaremos en 24h."
         }
