@@ -115,148 +115,285 @@ export const useTranslation = () => {
 
 const translations = {
   fr: {
-    index: {
-      title: "Bienvenue",
-      description: "Ceci est la page d'accueil",
-      welcomeMessage: "Bienvenue sur notre site web !",
-      callToAction: "Découvrez nos services",
-      servicesSectionTitle: "Nos Services",
-    },
-    services: {
-      title: "Nos Services",
-      description: "Découvrez nos services exceptionnels",
-      service1Title: "Service 1",
-      service1Description: "Description du service 1",
-      service2Title: "Service 2",
-      service2Description: "Description du service 2",
-      service3Title: "Service 3",
-      service3Description: "Description du service 3",
-    },
-    contact: {
-      title: "Contactez-nous",
-      description: "Contactez notre équipe pour toute question",
-      formNameLabel: "Nom",
-      formEmailLabel: "Email",
-      formMessageLabel: "Message",
-      formSubmitButton: "Envoyer",
-      successMessage: "Votre message a été envoyé avec succès !",
-      errorMessage: "Une erreur s'est produite lors de l'envoi du message.",
-    },
-    faq: {
-      title: "FAQ",
-      description: "Questions fréquemment posées",
-      question1: "Question 1",
-      answer1: "Réponse à la question 1",
-      question2: "Question 2",
-      answer2: "Réponse à la question 2",
-      question3: "Question 3",
-      answer3: "Réponse à la question 3",
-    },
-    legal: {
-      title: "Mentions Légales",
-      description: "Informations légales concernant notre site",
-      content: "Contenu des mentions légales...",
-    },
-    notFound: {
-      title: "Page non trouvée",
-      description: "La page que vous recherchez n'existe pas.",
-      backHomeButton: "Retour à l'accueil",
-    },
-    careers: {
-      title: "Carrières",
-      description: "Rejoignez notre équipe",
-      openPositions: "Postes ouverts",
-      noPositions: "Aucun poste ouvert pour le moment.",
-    },
-    partners: {
-      title: "Partenaires",
-      description: "Nos partenaires de confiance",
-      partner1: "Partenaire 1",
-      partner2: "Partenaire 2",
-      partner3: "Partenaire 3",
-    },
-    simulator: {
-      title: "Simulateur",
-      description: "Simulez vos projets",
-      inputLabel: "Entrez un montant",
-      resultLabel: "Résultat",
-    },
     request: {
-      title: "Demande",
-      description: "Faites une demande personnalisée",
-      formLabel: "Formulaire de demande",
-    },
-    footer: {
-      contactUs: "Contactez-nous",
-      address: "Adresse",
-      phone: "Téléphone",
-      email: "Email",
-      followUs: "Suivez-nous",
-      legal: "Mentions légales",
-    },
-    navigation: {
-      home: "Accueil",
-      services: "Services",
-      simulator: "Simulateur",
-      request: "Demande",
-      contact: "Contact",
-      faq: "FAQ",
-      partners: "Partenaires",
-      careers: "Carrières",
-    },
-    common: {
-      loading: "Chargement...",
-      error: "Erreur",
-      success: "Succès",
-      submit: "Envoyer",
-      cancel: "Annuler",
-      save: "Enregistrer",
-      edit: "Modifier",
-      delete: "Supprimer",
-      back: "Retour",
-      next: "Suivant",
-      previous: "Précédent",
-      confirm: "Confirmer",
-      close: "Fermer",
-      search: "Rechercher",
-      reset: "Réinitialiser",
-      apply: "Appliquer",
-      clear: "Effacer",
-      all: "Tous",
-      yes: "Oui",
-      no: "Non",
-      optional: "Optionnel",
-    },
-    financingRequest: {
-      title: "Demande de financement",
-      subtitle: "Remplissez les informations suivantes pour obtenir une offre personnalisée",
-      fields: {
-        loanType: "Type de prêt",
-        loanTypePlaceholder: "Sélectionnez un type",
-        amount: "Montant du prêt (€)",
-        duration: "Durée du prêt (mois)",
-        hasGuarantee: "Garantie disponible",
-        guaranteePlaceholder: "Ex : bien immobilier, véhicule",
-        purpose: "Motif du prêt",
-        purposePlaceholder: "Indiquez le but de votre demande",
-        amountPlaceholder: "Montant en euros",
-        durationPlaceholder: "Ex: 60"
-      },
-      loanOptions: {
-        personal: "Prêt personnel",
-        auto: "Prêt automobile",
-        realEstate: "Prêt immobilier",
-        professional: "Prêt professionnel",
-        student: "Prêt étudiant",
-        consolidation: "Rachat de crédit"
-      },
-      guaranteeOptions: {
-        yes: "Oui",
-        no: "Non",
-        maybe: "À déterminer"
+      form: {
+        financingRequest: {
+          title: "Demande de financement",
+          subtitle: "Remplissez les informations suivantes pour obtenir une offre personnalisée",
+          fields: {
+            loanType: "Type de prêt",
+            loanTypePlaceholder: "Sélectionnez un type",
+            amount: "Montant du prêt (€)",
+            amountPlaceholder: "Montant en euros",
+            duration: "Durée du prêt (mois)",
+            durationPlaceholder: "Ex: 60",
+            hasGuarantee: "Garantie disponible",
+            guaranteePlaceholder: "Ex : bien immobilier, véhicule",
+            purpose: "Motif du prêt",
+            purposePlaceholder: "Indiquez le but de votre demande"
+          },
+          loanOptions: {
+            personal: "Prêt personnel",
+            auto: "Prêt automobile",
+            real_estate: "Prêt immobilier",
+            professional: "Prêt professionnel",
+            student: "Prêt étudiant",
+            debt_consolidation: "Rachat de crédit"
+          },
+          guaranteeOptions: {
+            yes: "Oui",
+            no: "Non",
+            maybe: "À déterminer"
+          }
+        }
+      }
+    }
+  },
+  de: {
+    request: {
+      form: {
+        financingRequest: {
+          title: "Finanzierungsantrag",
+          subtitle: "Füllen Sie die folgenden Informationen aus, um ein personalisiertes Angebot zu erhalten",
+          fields: {
+            loanType: "Art des Darlehens",
+            loanTypePlaceholder: "Wählen Sie einen Typ",
+            amount: "Darlehensbetrag (€)",
+            amountPlaceholder: "Betrag in Euro",
+            duration: "Laufzeit des Darlehens (Monate)",
+            durationPlaceholder: "z.B.: 60",
+            hasGuarantee: "Sicherheit verfügbar",
+            guaranteePlaceholder: "z.B.: Immobilie, Fahrzeug",
+            purpose: "Zweck des Darlehens",
+            purposePlaceholder: "Geben Sie den Zweck Ihres Antrags an"
+          },
+          loanOptions: {
+            personal: "Privatkredit",
+            auto: "Autokredit",
+            real_estate: "Immobilienkredit",
+            professional: "Geschäftskredit",
+            student: "Studentenkredit",
+            debt_consolidation: "Umschuldung"
+          },
+          guaranteeOptions: {
+            yes: "Ja",
+            no: "Nein",
+            maybe: "Zu bestimmen"
+          }
+        }
+      }
+    }
+  },
+  pl: {
+    request: {
+      form: {
+        financingRequest: {
+          title: "Wniosek o finansowanie",
+          subtitle: "Wypełnij poniższe informacje, aby otrzymać spersonalizowaną ofertę",
+          fields: {
+            loanType: "Rodzaj kredytu",
+            loanTypePlaceholder: "Wybierz typ",
+            amount: "Kwota kredytu (€)",
+            amountPlaceholder: "Kwota w euro",
+            duration: "Okres kredytowania (miesiące)",
+            durationPlaceholder: "np.: 60",
+            hasGuarantee: "Dostępne zabezpieczenie",
+            guaranteePlaceholder: "np.: nieruchomość, pojazd",
+            purpose: "Cel kredytu",
+            purposePlaceholder: "Wskaż cel swojego wniosku"
+          },
+          loanOptions: {
+            personal: "Kredyt osobisty",
+            auto: "Kredyt samochodowy",
+            real_estate: "Kredyt hipoteczny",
+            professional: "Kredyt biznesowy",
+            student: "Kredyt studencki",
+            debt_consolidation: "Konsolidacja długów"
+          },
+          guaranteeOptions: {
+            yes: "Tak",
+            no: "Nie",
+            maybe: "Do ustalenia"
+          }
+        }
+      }
+    }
+  },
+  fi: {
+    request: {
+      form: {
+        financingRequest: {
+          title: "Rahoitushakemus",
+          subtitle: "Täytä seuraavat tiedot saadaksesi henkilökohtaisen tarjouksen",
+          fields: {
+            loanType: "Lainatyyppi",
+            loanTypePlaceholder: "Valitse tyyppi",
+            amount: "Lainan määrä (€)",
+            amountPlaceholder: "Summa euroina",
+            duration: "Laina-aika (kuukautta)",
+            durationPlaceholder: "esim.: 60",
+            hasGuarantee: "Vakuus saatavilla",
+            guaranteePlaceholder: "esim.: kiinteistö, ajoneuvo",
+            purpose: "Lainan tarkoitus",
+            purposePlaceholder: "Ilmoita hakemuksesi tarkoitus"
+          },
+          loanOptions: {
+            personal: "Henkilökohtainen laina",
+            auto: "Autolaina",
+            real_estate: "Asuntolaina",
+            professional: "Yrityslaina",
+            student: "Opintolaina",
+            debt_consolidation: "Velkojen yhdistäminen"
+          },
+          guaranteeOptions: {
+            yes: "Kyllä",
+            no: "Ei",
+            maybe: "Määriteltävä"
+          }
+        }
+      }
+    }
+  },
+  es: {
+    request: {
+      form: {
+        financingRequest: {
+          title: "Solicitud de financiación",
+          subtitle: "Complete la siguiente información para obtener una oferta personalizada",
+          fields: {
+            loanType: "Tipo de préstamo",
+            loanTypePlaceholder: "Seleccione un tipo",
+            amount: "Importe del préstamo (€)",
+            amountPlaceholder: "Importe en euros",
+            duration: "Duración del préstamo (meses)",
+            durationPlaceholder: "ej.: 60",
+            hasGuarantee: "Garantía disponible",
+            guaranteePlaceholder: "ej.: inmueble, vehículo",
+            purpose: "Motivo del préstamo",
+            purposePlaceholder: "Indique el propósito de su solicitud"
+          },
+          loanOptions: {
+            personal: "Préstamo personal",
+            auto: "Préstamo de automóvil",
+            real_estate: "Préstamo hipotecario",
+            professional: "Préstamo profesional",
+            student: "Préstamo estudiantil",
+            debt_consolidation: "Reunificación de deudas"
+          },
+          guaranteeOptions: {
+            yes: "Sí",
+            no: "No",
+            maybe: "Por determinar"
+          }
+        }
+      }
+    }
+  },
+  pt: {
+    request: {
+      form: {
+        financingRequest: {
+          title: "Pedido de financiamento",
+          subtitle: "Preencha as seguintes informações para obter uma oferta personalizada",
+          fields: {
+            loanType: "Tipo de empréstimo",
+            loanTypePlaceholder: "Selecione um tipo",
+            amount: "Montante do empréstimo (€)",
+            amountPlaceholder: "Montante em euros",
+            duration: "Duração do empréstimo (meses)",
+            durationPlaceholder: "ex.: 60",
+            hasGuarantee: "Garantia disponível",
+            guaranteePlaceholder: "ex.: imóvel, veículo",
+            purpose: "Motivo do empréstimo",
+            purposePlaceholder: "Indique o objetivo do seu pedido"
+          },
+          loanOptions: {
+            personal: "Empréstimo pessoal",
+            auto: "Empréstimo automóvel",
+            real_estate: "Empréstimo imobiliário",
+            professional: "Empréstimo profissional",
+            student: "Empréstimo estudantil",
+            debt_consolidation: "Consolidação de dívidas"
+          },
+          guaranteeOptions: {
+            yes: "Sim",
+            no: "Não",
+            maybe: "A determinar"
+          }
+        }
+      }
+    }
+  },
+  el: {
+    request: {
+      form: {
+        financingRequest: {
+          title: "Αίτηση χρηματοδότησης",
+          subtitle: "Συμπληρώστε τις παρακάτω πληροφορίες για να λάβετε μια εξατομικευμένη προσφορά",
+          fields: {
+            loanType: "Τύπος δανείου",
+            loanTypePlaceholder: "Επιλέξτε έναν τύπο",
+            amount: "Ποσό δανείου (€)",
+            amountPlaceholder: "Ποσό σε ευρώ",
+            duration: "Διάρκεια δανείου (μήνες)",
+            durationPlaceholder: "π.χ.: 60",
+            hasGuarantee: "Διαθέσιμη εγγύηση",
+            guaranteePlaceholder: "π.χ.: ακίνητο, όχημα",
+            purpose: "Λόγος δανείου",
+            purposePlaceholder: "Καθορίστε τον σκοπό της αίτησής σας"
+          },
+          loanOptions: {
+            personal: "Προσωπικό δάνειο",
+            auto: "Δάνειο αυτοκινήτου",
+            real_estate: "Στεγαστικό δάνειο",
+            professional: "Επαγγελματικό δάνειο",
+            student: "Φοιτητικό δάνειο",
+            debt_consolidation: "Ενοποίηση χρεών"
+          },
+          guaranteeOptions: {
+            yes: "Ναι",
+            no: "Όχι",
+            maybe: "Προς καθορισμό"
+          }
+        }
+      }
+    }
+  },
+  it: {
+    request: {
+      form: {
+        financingRequest: {
+          title: "Richiesta di finanziamento",
+          subtitle: "Compila le seguenti informazioni per ottenere un'offerta personalizzata",
+          fields: {
+            loanType: "Tipo di prestito",
+            loanTypePlaceholder: "Seleziona un tipo",
+            amount: "Importo del prestito (€)",
+            amountPlaceholder: "Importo in euro",
+            duration: "Durata del prestito (mesi)",
+            durationPlaceholder: "es.: 60",
+            hasGuarantee: "Garanzia disponibile",
+            guaranteePlaceholder: "es.: immobile, veicolo",
+            purpose: "Motivo del prestito",
+            purposePlaceholder: "Indica lo scopo della tua richiesta"
+          },
+          loanOptions: {
+            personal: "Prestito personale",
+            auto: "Prestito auto",
+            real_estate: "Mutuo immobiliare",
+            professional: "Prestito professionale",
+            student: "Prestito studenti",
+            debt_consolidation: "Consolidamento debiti"
+          },
+          guaranteeOptions: {
+            yes: "Sì",
+            no: "No",
+            maybe: "Da determinare"
+          }
+        }
       }
     }
   }
-}; // Added missing closing brace
+};
 
 export default translations;
