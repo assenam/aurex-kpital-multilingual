@@ -1383,6 +1383,35 @@ const translations = {
           description: "Finanzieren Sie Ihr Immobilienprojekt zu besten Konditionen",
           rate: "Ab 1,2% effektiver Jahreszins"
         },
+        financingRequest: {
+          title: "Wniosek o finansowanie",
+          subtitle: "Wypełnij poniższe informacje, aby otrzymać spersonalizowaną ofertę",
+          fields: {
+            loanType: "Rodzaj pożyczki",
+            loanTypePlaceholder: "Wybierz typ",
+            amount: "Kwota pożyczki (€)",
+            amountPlaceholder: "Kwota w euro",
+            duration: "Okres pożyczki (miesiące)",
+            durationPlaceholder: "Liczba miesięcy",
+            hasGuarantee: "Dostępne zabezpieczenie",
+            guaranteePlaceholder: "Np.: nieruchomość, pojazd",
+            purpose: "Cel pożyczki",
+            purposePlaceholder: "Wskaż cel swojego wniosku"
+          },
+          loanOptions: {
+            personal: "Pożyczka osobista",
+            auto: "Pożyczka samochodowa",
+            real_estate: "Pożyczka hipoteczna",
+            professional: "Pożyczka biznesowa",
+            student: "Pożyczka studencka",
+            debt_consolidation: "Konsolidacja długów"
+          },
+          guaranteeOptions: {
+            yes: "Tak",
+            no: "Nie",
+            maybe: "Do omówienia"
+          }
+        },
         student: {
           title: "Studentenkredit",
           description: "Angepasste Lösungen zur Finanzierung Ihres Studiums",
@@ -1577,6 +1606,35 @@ const translations = {
             yes: "Sí",
             no: "No",
             discuss: "A discutir"
+          }
+        },
+        financingRequest: {
+          title: "Solicitud de financiación",
+          subtitle: "Completa la siguiente información para obtener una oferta personalizada",
+          fields: {
+            loanType: "Tipo de préstamo",
+            loanTypePlaceholder: "Selecciona un tipo",
+            amount: "Importe del préstamo (€)",
+            amountPlaceholder: "Importe en euros",
+            duration: "Duración del préstamo (meses)",
+            durationPlaceholder: "Número de meses",
+            hasGuarantee: "Garantía disponible",
+            guaranteePlaceholder: "Ej.: inmueble, vehículo",
+            purpose: "Motivo del préstamo",
+            purposePlaceholder: "Indica el propósito de tu solicitud"
+          },
+          loanOptions: {
+            personal: "Préstamo personal",
+            auto: "Préstamo automotriz",
+            real_estate: "Préstamo hipotecario",
+            professional: "Préstamo profesional",
+            student: "Préstamo estudiantil",
+            debt_consolidation: "Reagrupación de créditos"
+          },
+          guaranteeOptions: {
+            yes: "Sí",
+            no: "No",
+            maybe: "A discutir"
           }
         },
         validation: {
@@ -1776,7 +1834,36 @@ const translations = {
           "Tesorería",
           "Compra de participaciones"
         ]
-      },
+        },
+        financingRequest: {
+          title: "Richiesta di finanziamento",
+          subtitle: "Compila le seguenti informazioni per ottenere un'offerta personalizzata",
+          fields: {
+            loanType: "Tipo di prestito",
+            loanTypePlaceholder: "Seleziona un tipo",
+            amount: "Importo del prestito (€)",
+            amountPlaceholder: "Importo in euro",
+            duration: "Durata del prestito (mesi)",
+            durationPlaceholder: "Numero di mesi",
+            hasGuarantee: "Garanzia disponibile",
+            guaranteePlaceholder: "Es.: immobile, veicolo",
+            purpose: "Scopo del prestito",
+            purposePlaceholder: "Indica il motivo della tua richiesta"
+          },
+          loanOptions: {
+            personal: "Prestito personale",
+            auto: "Prestito auto",
+            real_estate: "Mutuo immobiliare",
+            professional: "Prestito professionale",
+            student: "Prestito studentesco",
+            debt_consolidation: "Consolidamento debiti"
+          },
+          guaranteeOptions: {
+            yes: "Sì",
+            no: "No",
+            maybe: "Da discutere"
+          }
+        },
       investment: {
         title: "Inversiones inteligentes",
         description: "Optimización patrimonial con inteligencia artificial y experiencia humana.",
@@ -1961,7 +2048,36 @@ const translations = {
           responseTime: "Respuesta en 2h",
           experts: "Expertos disponibles"
         }
-      },
+        },
+        financingRequest: {
+          title: "Rahoitushakemus",
+          subtitle: "Täytä seuraavat tiedot saadaksesi henkilökohtaisen tarjouksen",
+          fields: {
+            loanType: "Lainatyyppi",
+            loanTypePlaceholder: "Valitse tyyppi",
+            amount: "Lainamäärä (€)",
+            amountPlaceholder: "Määrä euroina",
+            duration: "Laina-aika (kuukautta)",
+            durationPlaceholder: "Kuukausien lukumäärä",
+            hasGuarantee: "Vakuus saatavilla",
+            guaranteePlaceholder: "Esim.: kiinteistö, ajoneuvo",
+            purpose: "Lainan tarkoitus",
+            purposePlaceholder: "Ilmoita hakemuksesi tarkoitus"
+          },
+          loanOptions: {
+            personal: "Henkilökohtainen laina",
+            auto: "Autolaina",
+            real_estate: "Asuntolaina",
+            professional: "Ammatillinen laina",
+            student: "Opintolaina",
+            debt_consolidation: "Velkajärjestely"
+          },
+          guaranteeOptions: {
+            yes: "Kyllä",
+            no: "Ei",
+            maybe: "Keskusteltavissa"
+          }
+        },
       methods: {
         title: "Medios de contacto",
         subtitle: "Elija el canal que mejor le convenga para hablar con nuestros asesores",
@@ -2142,7 +2258,36 @@ const translations = {
       careers: "Carriere",
       partners: "Partner",
       blog: "Blog"
-    },
+        },
+        financingRequest: {
+          title: "Pedido de financiamento",
+          subtitle: "Preencha as seguintes informações para obter uma oferta personalizada",
+          fields: {
+            loanType: "Tipo de empréstimo",
+            loanTypePlaceholder: "Selecione um tipo",
+            amount: "Valor do empréstimo (€)",
+            amountPlaceholder: "Valor em euros",
+            duration: "Duração do empréstimo (meses)",
+            durationPlaceholder: "Número de meses",
+            hasGuarantee: "Garantia disponível",
+            guaranteePlaceholder: "Ex.: imóvel, veículo",
+            purpose: "Finalidade do empréstimo",
+            purposePlaceholder: "Indique o objetivo do seu pedido"
+          },
+          loanOptions: {
+            personal: "Empréstimo pessoal",
+            auto: "Empréstimo automóvel",
+            real_estate: "Empréstimo imobiliário",
+            professional: "Empréstimo profissional",
+            student: "Empréstimo estudantil",
+            debt_consolidation: "Consolidação de créditos"
+          },
+          guaranteeOptions: {
+            yes: "Sim",
+            no: "Não",
+            maybe: "A discutir"
+          }
+        },
     footer: {
       tools: "Strumenti",
       company: "Azienda",
@@ -4108,28 +4253,33 @@ const translations = {
             unemployed: "Άνεργος"
           }
         },
-        loanRequest: {
+        financingRequest: {
           title: "Αίτηση χρηματοδότησης",
-          subtitle: "Καθορίστε τις λεπτομέρειες του έργου χρηματοδότησής σας",
+          subtitle: "Συμπληρώστε τις παρακάτω πληροφορίες για να λάβετε εξατομικευμένη προσφορά",
           fields: {
             loanType: "Τύπος δανείου",
-            loanTypePlaceholder: "Επιλέξτε τον τύπο χρηματοδότησης",
-            amount: "Επιθυμητό ποσό (€)",
-            duration: "Διάρκεια αποπληρωμής (μήνες)",
-            purpose: "Σκοπός χρηματοδότησης",
-            hasGuarantee: "Έχετε εγγύηση;"
+            loanTypePlaceholder: "Επιλέξτε έναν τύπο",
+            amount: "Ποσό δανείου (€)",
+            amountPlaceholder: "Ποσό σε ευρώ",
+            duration: "Διάρκεια δανείου (μήνες)",
+            durationPlaceholder: "Αριθμός μηνών",
+            hasGuarantee: "Διαθέσιμη εγγύηση",
+            guaranteePlaceholder: "Π.χ.: ακίνητο, όχημα",
+            purpose: "Σκοπός δανείου",
+            purposePlaceholder: "Αναφέρετε τον στόχο της αίτησής σας"
           },
-          loanTypes: {
+          loanOptions: {
             personal: "Προσωπικό δάνειο",
-            auto: "Δάνειο αυτοκινήτου",
-            home: "Στεγαστικό δάνειο",
-            business: "Επιχειρηματική χρηματοδότηση",
-            consolidation: "Ενοποίηση δανείων"
+            auto: "Αυτοκινητιστικό δάνειο",
+            real_estate: "Στεγαστικό δάνειο",
+            professional: "Επαγγελματικό δάνειο",
+            student: "Φοιτητικό δάνειο",
+            debt_consolidation: "Εξυγίανση χρεών"
           },
           guaranteeOptions: {
             yes: "Ναι",
             no: "Όχι",
-            discuss: "Προς συζήτηση"
+            maybe: "Προς συζήτηση"
           }
         },
         validation: {
