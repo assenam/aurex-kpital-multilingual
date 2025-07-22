@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import PartnersCarousel from '@/components/sections/PartnersCarousel';
+
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Footer = () => {
@@ -24,15 +24,6 @@ const Footer = () => {
       ]
     },
     {
-      title: t('footer.company'),
-      links: [
-        
-        { name: t('footer.links.partners'), href: "/partenaires" },
-        { name: t('footer.links.careers'), href: "/carrieres" },
-        { name: t('footer.links.blog'), href: "/blog" }
-      ]
-    },
-    {
       title: t('footer.legal'),
       links: [
         { name: t('footer.links.legal'), href: "/mentions-legales" },
@@ -44,9 +35,7 @@ const Footer = () => {
   ];
 
   return (
-    <>
-      <PartnersCarousel />
-      <footer className="bg-primary text-primary-foreground">
+    <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="py-16">
@@ -114,7 +103,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-    </>
   );
 };
 

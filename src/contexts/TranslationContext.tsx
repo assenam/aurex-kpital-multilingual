@@ -370,13 +370,10 @@ const translations = {
       about: "À propos",
       contact: "Contact",
       faq: "FAQ",
-      careers: "Carrières",
-      partners: "Partenaires",
-      blog: "Blog"
     },
     footer: {
       tools: "Outils",
-      company: "Entreprise",
+      
       legal: "Légal",
       privacyPolicy: "Politique de confidentialité",
       terms: "Conditions générales",
@@ -397,19 +394,11 @@ const translations = {
         faq: "FAQ",
         contact: "Contact",
         about: "À propos",
-        partners: "Nos partenaires",
-        careers: "Carrières",
-        blog: "Blog",
         legal: "Mentions légales",
         privacy: "Politique de confidentialité",
         terms: "Conditions générales",
         gdpr: "RGPD"
       }
-    },
-    partners: {
-      title: "Nos Partenaires de Confiance",
-      description: "Un réseau d'excellence européen pour vous offrir les meilleures solutions financières",
-      stats: "Plus de 25 partenaires européens • 27 pays couverts • 2.5Md€ de volume traité"
     },
     home: {
       hero: {
@@ -1339,13 +1328,10 @@ const translations = {
       about: "Über uns",
       contact: "Kontakt",
       faq: "FAQ",
-      careers: "Karriere",
-      partners: "Unsere Partner",
-      blog: "Blog"
     },
     footer: {
       tools: "Tools",
-      company: "Unternehmen",
+      
       legal: "Rechtliches",
       privacyPolicy: "Datenschutzrichtlinie",
       terms: "Allgemeine Geschäftsbedingungen",
@@ -1366,9 +1352,6 @@ const translations = {
         faq: "FAQ",
         contact: "Kontakt",
         about: "Über uns",
-        partners: "Unsere Partner",
-        careers: "Karriere",
-        blog: "Blog",
         legal: "Impressum",
         privacy: "Datenschutzrichtlinie",
         terms: "Allgemeine Geschäftsbedingungen",
@@ -1830,13 +1813,9 @@ const translations = {
       about: "Sobre nosotros",
       contact: "Contacto",
       faq: "FAQ",
-      careers: "Carreras",
-      partners: "Socios",
-      blog: "Blog"
     },
     footer: {
       tools: "Herramientas",
-      company: "Empresa",
       legal: "Legal",
       privacyPolicy: "Política de privacidad",
       terms: "Términos y condiciones",
@@ -1857,9 +1836,6 @@ const translations = {
         faq: "FAQ",
         contact: "Contacto",
         about: "Sobre nosotros",
-        partners: "Nuestros socios",
-        careers: "Carreras",
-        blog: "Blog",
         legal: "Aviso legal",
         privacy: "Política de privacidad",
         terms: "Términos y condiciones",
@@ -2413,9 +2389,6 @@ const translations = {
       about: "Chi siamo",
       contact: "Contatto",
       faq: "FAQ",
-      careers: "Carriere",
-      partners: "Partner",
-      blog: "Blog"
         },
         financingRequest: {
           title: "Pedido de financiamento",
@@ -2448,7 +2421,7 @@ const translations = {
         },
     footer: {
       tools: "Strumenti",
-      company: "Azienda",
+      
       legal: "Legale",
       privacyPolicy: "Politica sulla privacy",
       terms: "Termini e condizioni",
@@ -2469,9 +2442,6 @@ const translations = {
         faq: "FAQ",
         contact: "Contatto",
         about: "Chi siamo",
-        partners: "I nostri partner",
-        careers: "Carriere",
-        blog: "Blog",
         legal: "Note legali",
         privacy: "Politica sulla privacy",
         terms: "Termini e condizioni",
@@ -2967,13 +2937,10 @@ const translations = {
       about: "O nas",
       contact: "Kontakt",
       faq: "FAQ",
-      careers: "Kariera",
-      partners: "Partnerzy",
-      blog: "Blog"
     },
     footer: {
       tools: "Narzędzia",
-      company: "Firma",
+      
       legal: "Informacje prawne",
       privacyPolicy: "Polityka prywatności",
       terms: "Regulamin",
@@ -2994,9 +2961,6 @@ const translations = {
         faq: "FAQ",
         contact: "Kontakt",
         about: "O nas",
-        partners: "Nasi partnerzy",
-        careers: "Kariera",
-        blog: "Blog",
         legal: "Informacje prawne",
         privacy: "Polityka prywatności",
         terms: "Regulamin",
@@ -3484,13 +3448,10 @@ const translations = {
       about: "Tietoa meistä",
       contact: "Yhteystiedot",
       faq: "UKK",
-      careers: "Ura",
-      partners: "Yhteistyökumppanit",
-      blog: "Blogi"
     },
     footer: {
       tools: "Työkalut",
-      company: "Yritys",
+      
       legal: "Oikeudelliset",
       privacyPolicy: "Tietosuojakäytäntö",
       terms: "Käyttöehdot",
@@ -3511,9 +3472,6 @@ const translations = {
         faq: "UKK",
         contact: "Yhteystiedot",
         about: "Tietoa meistä",
-        partners: "Yhteistyökumppanit",
-        careers: "Ura",
-        blog: "Blogi",
         legal: "Oikeudellinen ilmoitus",
         privacy: "Tietosuojakäytäntö",
         terms: "Käyttöehdot",
@@ -4004,13 +3962,10 @@ const translations = {
       about: "Sobre nós",
       contact: "Contacto",
       faq: "FAQ",
-      careers: "Carreiras",
-      partners: "Parceiros",
-      blog: "Blog"
     },
     footer: {
       tools: "Ferramentas",
-      company: "Empresa",
+      
       legal: "Legal",
       privacyPolicy: "Política de privacidade",
       terms: "Termos e condições",
@@ -4031,9 +3986,6 @@ const translations = {
         faq: "FAQ",
         contact: "Contacto",
         about: "Sobre nós",
-        partners: "Nossos parceiros",
-        careers: "Carreiras",
-        blog: "Blog",
         legal: "Informações legais",
         privacy: "Política de privacidade",
         terms: "Termos e condições",
@@ -4529,13 +4481,10 @@ const translations = {
       about: "Σχετικά με εμάς",
       contact: "Επικοινωνία",
       faq: "Συχνές ερωτήσεις",
-      careers: "Καριέρα",
-      partners: "Συνεργάτες",
-      blog: "Ιστολόγιο"
     },
     footer: {
       tools: "Εργαλεία",
-      company: "Εταιρεία",
+      
       legal: "Νομικά",
       privacyPolicy: "Πολιτική Απορρήτου",
       terms: "Όροι Χρήσης",
@@ -4556,9 +4505,6 @@ const translations = {
         faq: "Συχνές ερωτήσεις",
         contact: "Επικοινωνία",
         about: "Σχετικά με εμάς",
-        partners: "Οι συνεργάτες μας",
-        careers: "Καριέρα",
-        blog: "Ιστολόγιο",
         legal: "Νομική ειδοποίηση",
         privacy: "Πολιτική απορρήτου",
         terms: "Όροι χρήσης",

@@ -13,8 +13,6 @@ import Simulator from "./pages/Simulator";
 import Request from "./pages/Request";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
-import Partners from "./pages/Partners";
-import Careers from "./pages/Careers";
 
 import Legal from "./pages/Legal";
 import NotFound from "./pages/NotFound";
@@ -40,8 +38,6 @@ const AppContent = () => {
           <Route path="/demande" element={<Request />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
-          <Route path="/partenaires" element={<Partners />} />
-          <Route path="/carrieres" element={<Careers />} />
           
           <Route path="/mentions-legales" element={<Legal />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
