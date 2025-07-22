@@ -1584,6 +1584,27 @@ const translations = {
         }
       }
     },
+    testimonials: {
+      title: "Sie vertrauen uns",
+      subtitle: "Was unsere zufriedenen Kunden sagen",
+      clients: [
+        {
+          name: "Jean-Marc Rousseau",
+          location: "Lyon, Frankreich", 
+          feedback: "Schneller und zuverlässiger Service. Mein Kredit wurde in 48 Stunden genehmigt! Danke Aurex K-pital."
+        },
+        {
+          name: "Marie Dupont",
+          location: "Paris, Frankreich",
+          feedback: "Professioneller Service und sehr wettbewerbsfähige Zinssätze. Ich empfehle!"
+        },
+        {
+          name: "Thomas Weber",
+          location: "Munich, Deutschland",
+          feedback: "Ausgezeichnete Beratung und transparente Prozesse. Sehr zufrieden mit meiner Erfahrung."
+        }
+      ]
+    },
     contact: {
       hero: {
         title: "Kontaktieren Sie unsere",
