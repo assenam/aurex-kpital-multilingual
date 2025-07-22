@@ -590,6 +590,12 @@ const translations = {
     testimonials: {
       title: "Ils nous font confiance",
       subtitle: "Ce que disent nos clients satisfaits",
+      stats: {
+        satisfaction: "Satisfaction client",
+        clients: "Clients satisfaits", 
+        funding: "Financements accordés",
+        experience: "Années d'expertise"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
@@ -1587,6 +1593,12 @@ const translations = {
     testimonials: {
       title: "Sie vertrauen uns",
       subtitle: "Was unsere zufriedenen Kunden sagen",
+      stats: {
+        satisfaction: "Kundenzufriedenheit",
+        clients: "Zufriedene Kunden",
+        funding: "Gewährte Finanzierungen", 
+        experience: "Jahre Expertise"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
@@ -2092,6 +2104,12 @@ const translations = {
     testimonials: {
       title: "Confían en nosotros",
       subtitle: "Lo que dicen nuestros clientes satisfechos",
+      stats: {
+        satisfaction: "Satisfacción del cliente",
+        clients: "Clientes satisfechos",
+        funding: "Financiamientos otorgados",
+        experience: "Años de experiencia"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
@@ -2669,6 +2687,12 @@ const translations = {
     testimonials: {
       title: "Ci danno fiducia",
       subtitle: "Cosa dicono i nostri clienti soddisfatti",
+      stats: {
+        satisfaction: "Soddisfazione del cliente",
+        clients: "Clienti soddisfatti",
+        funding: "Finanziamenti accordati",
+        experience: "Anni di esperienza"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
@@ -3188,6 +3212,12 @@ const translations = {
     testimonials: {
       title: "Zaufali nam",
       subtitle: "Opinie naszych zadowolonych klientów",
+      stats: {
+        satisfaction: "Zadowolenie klientów",
+        clients: "Zadowoleni klienci",
+        funding: "Przyznane finansowania",
+        experience: "Lata doświadczenia"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
@@ -3699,6 +3729,12 @@ const translations = {
     testimonials: {
       title: "Asiakkaamme luottavat meihin",
       subtitle: "Tyytyväisten asiakkaidemme palautteet",
+      stats: {
+        satisfaction: "Asiakastyytyväisyys",
+        clients: "Tyytyväisiä asiakkaita",
+        funding: "Myönnetyt rahoitukset",
+        experience: "Vuotta kokemusta"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
@@ -4213,6 +4249,12 @@ const translations = {
     testimonials: {
       title: "Confiam em nós",
       subtitle: "O que dizem os nossos clientes satisfeitos",
+      stats: {
+        satisfaction: "Satisfação do cliente",
+        clients: "Clientes satisfeitos",
+        funding: "Financiamentos concedidos",
+        experience: "Anos de experiência"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
@@ -4790,6 +4832,12 @@ const translations = {
     testimonials: {
       title: "Μας εμπιστεύονται",
       subtitle: "Τι λένε οι ικανοποιημένοι πελάτες μας",
+      stats: {
+        satisfaction: "Ικανοποίηση πελατών",
+        clients: "Ικανοποιημένοι πελάτες",
+        funding: "Χορηγηθείσες χρηματοδοτήσεις",
+        experience: "Χρόνια εμπειρίας"
+      },
       clients: [
         {
           name: "Jean-Marc Rousseau",
