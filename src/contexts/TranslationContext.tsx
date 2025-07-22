@@ -2184,28 +2184,33 @@ const translations = {
             unemployed: "Disoccupato"
           }
         },
-        loanRequest: {
+        financingRequest: {
           title: "Richiesta di finanziamento",
-          subtitle: "Specifica i dettagli del tuo progetto di finanziamento",
+          subtitle: "Compila le seguenti informazioni per ottenere un'offerta personalizzata",
           fields: {
             loanType: "Tipo di prestito",
-            loanTypePlaceholder: "Scegli il tipo di finanziamento",
-            amount: "Importo desiderato (€)",
-            duration: "Durata di rimborso (mesi)",
-            purpose: "Scopo del finanziamento",
-            hasGuarantee: "Hai una garanzia?"
+            loanTypePlaceholder: "Seleziona un tipo",
+            amount: "Importo del prestito (€)",
+            amountPlaceholder: "Importo in euro",
+            duration: "Durata del prestito (mesi)",
+            durationPlaceholder: "Numero di mesi",
+            hasGuarantee: "Garanzia disponibile",
+            guaranteePlaceholder: "Es.: immobile, veicolo",
+            purpose: "Scopo del prestito",
+            purposePlaceholder: "Indica il motivo della tua richiesta"
           },
-          loanTypes: {
+          loanOptions: {
             personal: "Prestito personale",
-            auto: "Credito auto",
-            home: "Mutuo casa",
-            business: "Finanziamento aziendale",
-            consolidation: "Consolidamento crediti"
+            auto: "Prestito auto",
+            real_estate: "Mutuo immobiliare",
+            professional: "Prestito professionale",
+            student: "Prestito studentesco",
+            debt_consolidation: "Consolidamento debiti"
           },
           guaranteeOptions: {
             yes: "Sì",
             no: "No",
-            discuss: "Da discutere"
+            maybe: "Da discutere"
           }
         },
         validation: {
@@ -2723,28 +2728,33 @@ const translations = {
             unemployed: "Bezrobotny"
           }
         },
-        loanRequest: {
+        financingRequest: {
           title: "Wniosek o finansowanie",
-          subtitle: "Podaj szczegóły swojego projektu finansowania",
+          subtitle: "Wypełnij poniższe informacje, aby otrzymać spersonalizowaną ofertę",
           fields: {
             loanType: "Rodzaj pożyczki",
-            loanTypePlaceholder: "Wybierz rodzaj finansowania",
-            amount: "Żądana kwota (€)",
-            duration: "Okres spłaty (miesiące)",
-            purpose: "Cel finansowania",
-            hasGuarantee: "Czy masz gwarancję?"
+            loanTypePlaceholder: "Wybierz typ",
+            amount: "Kwota pożyczki (€)",
+            amountPlaceholder: "Kwota w euro",
+            duration: "Okres pożyczki (miesiące)",
+            durationPlaceholder: "Liczba miesięcy",
+            hasGuarantee: "Dostępne zabezpieczenie",
+            guaranteePlaceholder: "Np.: nieruchomość, pojazd",
+            purpose: "Cel pożyczki",
+            purposePlaceholder: "Wskaż cel swojego wniosku"
           },
-          loanTypes: {
+          loanOptions: {
             personal: "Pożyczka osobista",
-            auto: "Kredyt samochodowy",
-            home: "Kredyt hipoteczny",
-            business: "Finansowanie biznesowe",
-            consolidation: "Konsolidacja kredytów"
+            auto: "Pożyczka samochodowa",
+            real_estate: "Pożyczka hipoteczna",
+            professional: "Pożyczka biznesowa",
+            student: "Pożyczka studencka",
+            debt_consolidation: "Konsolidacja długów"
           },
           guaranteeOptions: {
             yes: "Tak",
             no: "Nie",
-            discuss: "Do omówienia"
+            maybe: "Do omówienia"
           }
         },
         validation: {
@@ -3233,28 +3243,33 @@ const translations = {
             unemployed: "Työtön"
           }
         },
-        loanRequest: {
+        financingRequest: {
           title: "Rahoitushakemus",
-          subtitle: "Ilmoita rahoitusprojektisi yksityiskohdat",
+          subtitle: "Täytä seuraavat tiedot saadaksesi henkilökohtaisen tarjouksen",
           fields: {
             loanType: "Lainatyyppi",
-            loanTypePlaceholder: "Valitse rahoitustyyppi",
-            amount: "Haluttu summa (€)",
-            duration: "Takaisinmaksuaika (kuukautta)",
-            purpose: "Rahoituksen tarkoitus",
-            hasGuarantee: "Onko sinulla takuu?"
+            loanTypePlaceholder: "Valitse tyyppi",
+            amount: "Lainamäärä (€)",
+            amountPlaceholder: "Määrä euroina",
+            duration: "Laina-aika (kuukautta)",
+            durationPlaceholder: "Kuukausien lukumäärä",
+            hasGuarantee: "Vakuus saatavilla",
+            guaranteePlaceholder: "Esim.: kiinteistö, ajoneuvo",
+            purpose: "Lainan tarkoitus",
+            purposePlaceholder: "Ilmoita hakemuksesi tarkoitus"
           },
-          loanTypes: {
+          loanOptions: {
             personal: "Henkilökohtainen laina",
             auto: "Autolaina",
-            home: "Asuntolaina",
-            business: "Yritysrahoitus",
-            consolidation: "Lainojen yhdistäminen"
+            real_estate: "Asuntolaina",
+            professional: "Ammatillinen laina",
+            student: "Opintolaina",
+            debt_consolidation: "Velkajärjestely"
           },
           guaranteeOptions: {
             yes: "Kyllä",
             no: "Ei",
-            discuss: "Keskusteltavissa"
+            maybe: "Keskusteltavissa"
           }
         },
         validation: {
