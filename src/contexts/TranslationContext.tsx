@@ -2369,7 +2369,8 @@ const translations = {
             acceptsTerms: "Accetto i termini e le condizioni",
             acceptsMarketing: "Accetto di ricevere informazioni commerciali"
           },
-          submitButton: "Invia la mia richiesta"
+          submitButton: "Invia la mia richiesta",
+          qualityCommitment: "Impegno di qualità: Ci impegniamo a contattarvi entro 24 ore per studiare la vostra richiesta e proporvi una soluzione adeguata."
         }
       },
       sidebar: {
@@ -2921,7 +2922,8 @@ const translations = {
             acceptsTerms: "Akceptuję regulamin",
             acceptsMarketing: "Zgadzam się na otrzymywanie informacji marketingowych"
           },
-          submitButton: "Wyślij mój wniosek"
+          submitButton: "Wyślij mój wniosek",
+          qualityCommitment: "Zobowiązanie jakościowe: Zobowiązujemy się skontaktować z Państwem w ciągu 24 godzin w celu zbadania Państwa wniosku i zaproponowania odpowiedniego rozwiązania."
         }
       },
       sidebar: {
@@ -3436,7 +3438,8 @@ const translations = {
             acceptsTerms: "Hyväksyn käyttöehdot",
             acceptsMarketing: "Hyväksyn markkinointitietojen vastaanoton"
           },
-          submitButton: "Lähetä hakemukseni"
+          submitButton: "Lähetä hakemukseni",
+          qualityCommitment: "Laatusitoumus: Sitoudumme ottamaan yhteyttä 24 tunnin sisällä arvioidaksemme hakemuksenne ja ehdottaaksemme sopivaa ratkaisua."
         }
       },
       sidebar: {
@@ -3954,7 +3957,8 @@ const translations = {
             acceptsTerms: "Aceito os termos e condições",
             acceptsMarketing: "Aceito receber informações comerciais"
           },
-          submitButton: "Enviar o meu pedido"
+          submitButton: "Enviar o meu pedido",
+          qualityCommitment: "Compromisso de qualidade: Comprometemo-nos a contactá-lo em 24h para estudar o seu pedido e propor-lhe uma solução adequada."
         }
       },
       sidebar: {
@@ -4477,7 +4481,8 @@ const translations = {
             acceptsTerms: "Αποδέχομαι τους όρους και τις προϋποθέσεις",
             acceptsMarketing: "Αποδέχομαι τη λήψη εμπορικών πληροφοριών"
           },
-          submitButton: "Αποστολή αίτησης"
+          submitButton: "Αποστολή αίτησης",
+          qualityCommitment: "Δέσμευση ποιότητας: Δεσμευόμαστε να επικοινωνήσουμε μαζί σας εντός 24 ωρών για να μελετήσουμε την αίτησή σας και να σας προτείνουμε μια κατάλληλη λύση."
         }
       },
       sidebar: {
