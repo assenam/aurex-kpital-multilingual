@@ -478,6 +478,11 @@ const translations = {
           simulate: "Simuler un prêt",
           contact: "Nous contacter"
         },
+        contact: {
+          phone: "Téléphone",
+          address: "Adresse", 
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne"
+        }
       }
     },
     services: {
@@ -1438,9 +1443,14 @@ const translations = {
         description: "Unsere Experten begleiten Sie bei jedem Schritt zur Verwirklichung Ihrer finanziellen Ambitionen.",
         buttons: {
           request: "Anfrage stellen",
-          simulate: "Kredit simulieren",
+          simulate: "Kredit simulieren", 
           contact: "Kontakt aufnehmen"
         },
+        contact: {
+          phone: "Telefon",
+          address: "Adresse",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
+        }
       }
     },
     services: {
