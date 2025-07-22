@@ -2313,7 +2313,15 @@ const translations = {
             employer: "Datore di lavoro",
             employmentDuration: "Anzianità di servizio",
             monthlyIncome: "Reddito mensile netto (€)",
-            additionalIncome: "Altri redditi mensili (€)"
+            monthlyIncomePlaceholder: "Importo in euro",
+            additionalIncome: "Altri redditi mensili (€)",
+            additionalIncomePlaceholder: "Importo in euro",
+            company: "Nome dell'azienda",
+            companyPlaceholder: "Nome dell'azienda",
+            position: "Posizione ricoperta",
+            positionPlaceholder: "La tua posizione",
+            workExperience: "Esperienza professionale (anni)",
+            workExperiencePlaceholder: "Numero di anni"
           },
           employmentOptions: {
             employee: "Dipendente",
@@ -2857,7 +2865,15 @@ const translations = {
             employer: "Pracodawca",
             employmentDuration: "Staż pracy",
             monthlyIncome: "Miesięczny dochód netto (€)",
-            additionalIncome: "Inne miesięczne dochody (€)"
+            monthlyIncomePlaceholder: "Kwota w euro",
+            additionalIncome: "Inne miesięczne dochody (€)",
+            additionalIncomePlaceholder: "Kwota w euro",
+            company: "Nazwa firmy",
+            companyPlaceholder: "Nazwa firmy",
+            position: "Zajmowane stanowisko",
+            positionPlaceholder: "Twoje stanowisko",
+            workExperience: "Doświadczenie zawodowe (lata)",
+            workExperiencePlaceholder: "Liczba lat"
           },
           employmentOptions: {
             employee: "Pracownik najemny",
@@ -3887,7 +3903,15 @@ const translations = {
             employer: "Empregador",
             employmentDuration: "Antiguidade no emprego",
             monthlyIncome: "Rendimentos mensais líquidos (€)",
-            additionalIncome: "Outros rendimentos mensais (€)"
+            monthlyIncomePlaceholder: "Montante em euros",
+            additionalIncome: "Outros rendimentos mensais (€)",
+            additionalIncomePlaceholder: "Montante em euros",
+            company: "Nome da empresa",
+            companyPlaceholder: "Nome da empresa",
+            position: "Cargo ocupado",
+            positionPlaceholder: "O seu cargo",
+            workExperience: "Experiência profissional (anos)",
+            workExperiencePlaceholder: "Número de anos"
           },
           employmentOptions: {
             employee: "Empregado/a",
@@ -3898,28 +3922,28 @@ const translations = {
             unemployed: "Desempregado/a"
           }
         },
-        loanRequest: {
+        financingRequest: {
           title: "Pedido de financiamento",
-          subtitle: "Especifique os detalhes do seu projeto de financiamento",
+          subtitle: "Preencha as seguintes informações para obter uma oferta personalizada",
           fields: {
             loanType: "Tipo de empréstimo",
-            loanTypePlaceholder: "Escolha o tipo de financiamento",
-            amount: "Montante desejado (€)",
-            duration: "Duração do reembolso (meses)",
-            purpose: "Finalidade do financiamento",
-            hasGuarantee: "Tem uma garantia?"
+            loanTypePlaceholder: "Selecione um tipo",
+            amount: "Montante do empréstimo (€)",
+            amountPlaceholder: "Montante em euros",
+            duration: "Duração do empréstimo (meses)",
+            durationPlaceholder: "Ex: 60",
+            hasGuarantee: "Garantia disponível",
+            guaranteePlaceholder: "Ex: bem imobiliário, veículo",
+            purpose: "Motivo do empréstimo",
+            purposePlaceholder: "Indique o objetivo do seu pedido"
           },
-          loanTypes: {
+          loanOptions: {
             personal: "Empréstimo pessoal",
-            auto: "Crédito automóvel",
-            home: "Empréstimo habitação",
-            business: "Financiamento empresarial",
+            auto: "Empréstimo automóvel",
+            realEstate: "Empréstimo imobiliário",
+            professional: "Empréstimo profissional",
+            student: "Empréstimo estudantil",
             consolidation: "Consolidação de créditos"
-          },
-          guaranteeOptions: {
-            yes: "Sim",
-            no: "Não",
-            discuss: "A discutir"
           }
         },
         validation: {
@@ -4397,7 +4421,15 @@ const translations = {
             employer: "Εργοδότης",
             employmentDuration: "Αρχαιότητα στην εργασία",
             monthlyIncome: "Μηνιαία καθαρά εισοδήματα (€)",
-            additionalIncome: "Άλλα μηνιαία εισοδήματα (€)"
+            monthlyIncomePlaceholder: "Ποσό σε ευρώ",
+            additionalIncome: "Άλλα μηνιαία εισοδήματα (€)",
+            additionalIncomePlaceholder: "Ποσό σε ευρώ",
+            company: "Όνομα εταιρείας",
+            companyPlaceholder: "Όνομα εταιρείας",
+            position: "Θέση που κατέχετε",
+            positionPlaceholder: "Η θέση σας",
+            workExperience: "Επαγγελματική εμπειρία (έτη)",
+            workExperiencePlaceholder: "Αριθμός ετών"
           },
           employmentOptions: {
             employee: "Υπάλληλος",
