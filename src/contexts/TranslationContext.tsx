@@ -939,6 +939,20 @@ const translations = {
           title: "Responsabilité",
           description: "Aurex K-pital s'efforce de fournir des informations exactes et à jour. Cependant, la société ne peut garantir l'exactitude, la complétude ou l'actualité des informations diffusées sur ce site. L'utilisation des informations se fait sous la responsabilité exclusive de l'utilisateur."
         }
+      },
+      privacy: {
+        title: "Politique de Confidentialité",
+        description: "Protection et traitement de vos données personnelles",
+        lastUpdate: "Dernière mise à jour : 1er décembre 2024",
+        compliance: "Cette politique est conforme au RGPD et aux réglementations européennes en vigueur."
+      },
+      terms: {
+        title: "Conditions Générales d'Utilisation",
+        description: "Règles d'utilisation de nos services et de notre plateforme"
+      },
+      gdpr: {
+        title: "Conformité RGPD",
+        description: "Notre engagement pour la protection de vos données personnelles"
       }
     },
     faq: {
@@ -1660,6 +1674,34 @@ const translations = {
         successMessage: "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir antworten Ihnen schnellstmöglich.",
         commitment: "Wir verpflichten uns, innerhalb von 2 Stunden während unserer Öffnungszeiten zu antworten."
       }
+    },
+    legal: {
+      badge: "Rechtliche Informationen",
+      title: {
+        main: "Rechtliche",
+        subtitle: "Informationen"
+      },
+      description: "Alle rechtlichen und regulatorischen Informationen zu Aurex K-pital und der Nutzung unserer Dienste.",
+      tabs: {
+        mentions: "Impressum",
+        privacy: "Datenschutz",
+        terms: "AGB",
+        gdpr: "DSGVO"
+      },
+      privacy: {
+        title: "Datenschutzrichtlinie",
+        description: "Schutz und Verarbeitung Ihrer persönlichen Daten",
+        lastUpdate: "Letzte Aktualisierung: 1. Dezember 2024",
+        compliance: "Diese Richtlinie entspricht der DSGVO und den geltenden europäischen Bestimmungen."
+      },
+      terms: {
+        title: "Allgemeine Geschäftsbedingungen",
+        description: "Nutzungsregeln für unsere Dienste und Plattform"
+      },
+      gdpr: {
+        title: "DSGVO-Konformität",
+        description: "Unser Engagement für den Schutz Ihrer persönlichen Daten"
+      }
     }
   },
   es: {
@@ -2279,6 +2321,34 @@ const translations = {
         successMessage: "¡Gracias! Su mensaje ha sido enviado con éxito. Le responderemos rápidamente.",
         commitment: "Nos comprometemos a responder en 2 horas durante nuestro horario de oficina."
       }
+    },
+    legal: {
+      badge: "Información Legal",
+      title: {
+        main: "Información",
+        subtitle: "Legal"
+      },
+      description: "Toda la información legal y regulatoria sobre Aurex K-pital y el uso de nuestros servicios.",
+      tabs: {
+        mentions: "Aviso Legal",
+        privacy: "Privacidad",
+        terms: "Términos",
+        gdpr: "RGPD"
+      },
+      privacy: {
+        title: "Política de Privacidad",
+        description: "Protección y tratamiento de sus datos personales",
+        lastUpdate: "Última actualización: 1 de diciembre de 2024",
+        compliance: "Esta política cumple con el RGPD y las regulaciones europeas vigentes."
+      },
+      terms: {
+        title: "Términos y Condiciones de Uso",
+        description: "Reglas de uso de nuestros servicios y plataforma"
+      },
+      gdpr: {
+        title: "Cumplimiento RGPD",
+        description: "Nuestro compromiso con la protección de sus datos personales"
+      }
     }
   },
   it: {
@@ -2833,6 +2903,34 @@ const translations = {
         successMessage: "Grazie! Il tuo messaggio è stato inviato con successo. Ti risponderemo rapidamente.",
         commitment: "Ci impegniamo a rispondere entro 2 ore durante i nostri orari di ufficio."
       }
+    },
+    legal: {
+      badge: "Informazioni Legali",
+      title: {
+        main: "Informazioni",
+        subtitle: "Legali"
+      },
+      description: "Tutte le informazioni legali e normative su Aurex K-pital e l'uso dei nostri servizi.",
+      tabs: {
+        mentions: "Note Legali",
+        privacy: "Privacy",
+        terms: "Termini",
+        gdpr: "GDPR"
+      },
+      privacy: {
+        title: "Politica sulla Privacy",
+        description: "Protezione e trattamento dei vostri dati personali",
+        lastUpdate: "Ultimo aggiornamento: 1 dicembre 2024",
+        compliance: "Questa politica è conforme al GDPR e alle normative europee in vigore."
+      },
+      terms: {
+        title: "Termini e Condizioni d'Uso",
+        description: "Regole di utilizzo dei nostri servizi e piattaforma"
+      },
+      gdpr: {
+        title: "Conformità GDPR",
+        description: "Il nostro impegno per la protezione dei vostri dati personali"
+      }
     }
   },
   pl: {
@@ -3358,6 +3456,34 @@ const translations = {
         successMessage: "Dziękujemy! Twoja wiadomość została wysłana pomyślnie. Odpowiemy szybko.",
         commitment: "Zobowiązujemy się odpowiedzieć w ciągu 2 godzin w czasie naszych godzin pracy."
       }
+    },
+    legal: {
+      badge: "Informacje Prawne",
+      title: {
+        main: "Informacje",
+        subtitle: "Prawne"
+      },
+      description: "Wszystkie informacje prawne i regulacyjne dotyczące Aurex K-pital i korzystania z naszych usług.",
+      tabs: {
+        mentions: "Informacje Prawne",
+        privacy: "Prywatność",
+        terms: "Regulamin",
+        gdpr: "RODO"
+      },
+      privacy: {
+        title: "Polityka Prywatności",
+        description: "Ochrona i przetwarzanie danych osobowych",
+        lastUpdate: "Ostatnia aktualizacja: 1 grudnia 2024",
+        compliance: "Ta polityka jest zgodna z RODO i obowiązującymi przepisami europejskimi."
+      },
+      terms: {
+        title: "Regulamin Użytkowania",
+        description: "Zasady korzystania z naszych usług i platformy"
+      },
+      gdpr: {
+        title: "Zgodność z RODO",
+        description: "Nasze zobowiązanie do ochrony danych osobowych"
+      }
     }
   },
   fi: {
@@ -3874,6 +4000,34 @@ const translations = {
         submitButton: "Lähetä viesti",
         successMessage: "Viestisi on lähetetty onnistuneesti! Otamme yhteyttä nopeasti.",
         commitment: "Sitoudumme vastaamaan 24h sisällä"
+      }
+    },
+    legal: {
+      badge: "Oikeudelliset Tiedot",
+      title: {
+        main: "Oikeudelliset",
+        subtitle: "Tiedot"
+      },
+      description: "Kaikki oikeudelliset ja säädöstiedot Aurex K-pitalista ja palvelujemme käytöstä.",
+      tabs: {
+        mentions: "Oikeudellinen Ilmoitus",
+        privacy: "Yksityisyys",
+        terms: "Käyttöehdot",
+        gdpr: "GDPR"
+      },
+      privacy: {
+        title: "Tietosuojakäytäntö",
+        description: "Henkilötietojenne suoja ja käsittely",
+        lastUpdate: "Viimeksi päivitetty: 1. joulukuuta 2024",
+        compliance: "Tämä käytäntö noudattaa GDPR:ää ja voimassa olevia eurooppalaisia säädöksiä."
+      },
+      terms: {
+        title: "Käyttöehdot",
+        description: "Palvelujemme ja alustamme käyttösäännöt"
+      },
+      gdpr: {
+        title: "GDPR-yhteensopivuus",
+        description: "Sitoutumisemme henkilötietojenne suojaamiseen"
       }
     }
   },
@@ -4394,6 +4548,34 @@ const translations = {
         submitButton: "Enviar mensagem",
         successMessage: "Obrigado! A sua mensagem foi enviada com sucesso. Responderemos rapidamente.",
         commitment: "Comprometemo-nos a responder em 2 horas durante o nosso horário de funcionamento."
+      }
+    },
+    legal: {
+      badge: "Informações Legais",
+      title: {
+        main: "Informações",
+        subtitle: "Legais"
+      },
+      description: "Todas as informações legais e regulamentares sobre a Aurex K-pital e o uso dos nossos serviços.",
+      tabs: {
+        mentions: "Informações Legais",
+        privacy: "Privacidade",
+        terms: "Termos",
+        gdpr: "RGPD"
+      },
+      privacy: {
+        title: "Política de Privacidade",
+        description: "Proteção e tratamento dos seus dados pessoais",
+        lastUpdate: "Última atualização: 1 de dezembro de 2024",
+        compliance: "Esta política está em conformidade com o RGPD e regulamentações europeias em vigor."
+      },
+      terms: {
+        title: "Termos e Condições de Uso",
+        description: "Regras de uso dos nossos serviços e plataforma"
+      },
+      gdpr: {
+        title: "Conformidade RGPD",
+        description: "Nosso compromisso com a proteção dos seus dados pessoais"
       }
     }
   },
@@ -4977,6 +5159,34 @@ const translations = {
         submitButton: "Αποστολή μηνύματος",
         successMessage: "Το μήνυμά σας στάλθηκε με επιτυχία! Θα απαντήσουμε γρήγορα.",
         commitment: "Δεσμευόμαστε να απαντήσουμε εντός 2 ωρών κατά τη διάρκεια των ωραρίων μας."
+      }
+    },
+    legal: {
+      badge: "Νομικές Πληροφορίες",
+      title: {
+        main: "Νομικές",
+        subtitle: "Πληροφορίες"
+      },
+      description: "Όλες οι νομικές και κανονιστικές πληροφορίες σχετικά με την Aurex K-pital και τη χρήση των υπηρεσιών μας.",
+      tabs: {
+        mentions: "Νομική Ειδοποίηση",
+        privacy: "Απόρρητο",
+        terms: "Όροι",
+        gdpr: "GDPR"
+      },
+      privacy: {
+        title: "Πολιτική Απορρήτου",
+        description: "Προστασία και επεξεργασία των προσωπικών σας δεδομένων",
+        lastUpdate: "Τελευταία ενημέρωση: 1 Δεκεμβρίου 2024",
+        compliance: "Αυτή η πολιτική συμμορφώνεται με το GDPR και τους ισχύοντες ευρωπαϊκούς κανονισμούς."
+      },
+      terms: {
+        title: "Όροι και Προϋποθέσεις Χρήσης",
+        description: "Κανόνες χρήσης των υπηρεσιών και της πλατφόρμας μας"
+      },
+      gdpr: {
+        title: "Συμμόρφωση GDPR",
+        description: "Η δέσμευσή μας για την προστασία των προσωπικών σας δεδομένων"
       }
     }
   }

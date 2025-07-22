@@ -119,10 +119,10 @@ const Legal = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center gap-3 text-primary">
                     <Shield className="h-6 w-6" />
-                    Politique de Confidentialité
+                    {t('legal.privacy.title')}
                   </CardTitle>
                   <CardDescription>
-                    Protection et traitement de vos données personnelles
+                    {t('legal.privacy.description')}
                   </CardDescription>
                 </CardHeader>
                 
@@ -131,8 +131,8 @@ const Legal = () => {
                     <div className="flex items-start gap-3">
                       <CheckCircle className="h-6 w-6 text-blue-600 mt-1 flex-shrink-0" />
                       <div>
-                        <h4 className="font-bold text-blue-800 mb-2">Dernière mise à jour : 1er décembre 2024</h4>
-                        <p className="text-blue-700">Cette politique est conforme au RGPD et aux réglementations européennes en vigueur.</p>
+                        <h4 className="font-bold text-blue-800 mb-2">{t('legal.privacy.lastUpdate')}</h4>
+                        <p className="text-blue-700">{t('legal.privacy.compliance')}</p>
                       </div>
                     </div>
                   </div>
@@ -233,10 +233,10 @@ const Legal = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center gap-3 text-primary">
                     <FileText className="h-6 w-6" />
-                    Conditions Générales d'Utilisation
+                    {t('legal.terms.title')}
                   </CardTitle>
                   <CardDescription>
-                    Règles d'utilisation de nos services et de notre plateforme
+                    {t('legal.terms.description')}
                   </CardDescription>
                 </CardHeader>
                 
@@ -338,10 +338,10 @@ const Legal = () => {
                 <CardHeader>
                   <CardTitle className="text-2xl flex items-center gap-3 text-primary">
                     <Shield className="h-6 w-6" />
-                    Conformité RGPD
+                    {t('legal.gdpr.title')}
                   </CardTitle>
                   <CardDescription>
-                    Notre engagement pour la protection de vos données personnelles
+                    {t('legal.gdpr.description')}
                   </CardDescription>
                 </CardHeader>
                 
