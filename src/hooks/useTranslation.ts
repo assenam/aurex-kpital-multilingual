@@ -319,7 +319,7 @@ const translations = {
         },
         email: {
           title: "Email",
-          values: ["contact@aurex-kpital.de", "info@aurex-kpital.de", "support@aurex-kpital.de"]
+          values: ["contact@aurex-kpital.com", "info@aurex-kpital.com", "support@aurex-kpital.com"]
         },
         buttons: {
           appointment: "Prendre rendez-vous",

@@ -782,7 +782,7 @@ const translations = {
         contact: {
           title: "Contact",
           phone: "Téléphone: +33759282004",
-          email: "Email: contact@aurex-kpital.de",
+          email: "Email: contact@aurex-kpital.com",
           hours: "Horaires: Lundi-Vendredi 8h-19h, Samedi 9h-17h",
           hero: {
             badge: "Support Excellence",
@@ -1833,7 +1833,7 @@ const translations = {
         contact: {
           title: "Kontakt",
           phone: "Telefon: +33759282004",
-          email: "E-Mail: contact@aurex-kpital.de",
+          email: "E-Mail: contact@aurex-kpital.com",
           hours: "Öffnungszeiten: Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
         },
         hosting: {
@@ -2629,7 +2629,7 @@ const translations = {
         contact: {
           title: "Contacto",
           phone: "Teléfono: +33759282004",
-          email: "Email: contact@aurex-kpital.de",
+          email: "Email: contact@aurex-kpital.com",
           hours: "Horarios: Lunes-Viernes 8h-19h, Sábado 9h-17h"
         },
         hosting: {
@@ -3360,7 +3360,7 @@ const translations = {
         contact: {
           title: "Contatto",
           phone: "Telefono: +33759282004",
-          email: "Email: contact@aurex-kpital.de",
+          email: "Email: contact@aurex-kpital.com",
           hours: "Orari: Lunedì-Venerdì 8h-19h, Sabato 9h-17h"
         },
         hosting: {
@@ -4004,7 +4004,7 @@ const translations = {
         contact: {
           title: "Kontakt",
           phone: "Telefon: +33759282004",
-          email: "Email: contact@aurex-kpital.de",
+          email: "Email: contact@aurex-kpital.com",
           hours: "Godziny: Poniedziałek-Piątek 8-19, Sobota 9-17"
         },
         hosting: {
@@ -4598,7 +4598,7 @@ const translations = {
         contact: {
           title: "Yhteystiedot",
           phone: "Puhelin: +33759282004",
-          email: "Sähköposti: contact@aurex-kpital.de",
+          email: "Sähköposti: contact@aurex-kpital.com",
           hours: "Aukioloajat: Maanantai-Perjantai 8-19, Lauantai 9-17"
         },
         hosting: {
@@ -5195,7 +5195,7 @@ const translations = {
         contact: {
           title: "Contacto",
           phone: "Telefone: +33759282004",
-          email: "Email: contact@aurex-kpital.de",
+          email: "Email: contact@aurex-kpital.com",
           hours: "Horários: Segunda-Sexta 8h-19h, Sábado 9h-17h"
         },
         hosting: {
@@ -5855,7 +5855,7 @@ const translations = {
         contact: {
           title: "Επικοινωνία",
           phone: "Τηλέφωνο: +33759282004",
-          email: "Email: contact@aurex-kpital.de",
+          email: "Email: contact@aurex-kpital.com",
           hours: "Ώρες: Δευτέρα-Παρασκευή 8π.μ.-7μ.μ., Σάββατο 9π.μ.-5μ.μ."
         },
         hosting: {
