@@ -400,6 +400,24 @@ const translations = {
         gdpr: "Protection des données (RGPD)"
       }
     },
+    page: {
+      legal: {
+        title: "Mentions légales",
+        description: "Cette page sera bientôt disponible."
+      },
+      privacy: {
+        title: "Politique de confidentialité",
+        description: "Cette page sera bientôt disponible."
+      },
+      terms: {
+        title: "Conditions générales",
+        description: "Cette page sera bientôt disponible."
+      },
+      gdpr: {
+        title: "Protection des données",
+        description: "Cette page sera bientôt disponible."
+      }
+    },
     home: {
       hero: {
         title: "Votre Partenaire Financier",
@@ -1365,6 +1383,35 @@ const translations = {
       description: "Ihr vertrauensvoller Finanzpartner seit 1997. Exzellenz, Innovation und Expertise für all Ihre Finanzprojekte in Europa.",
       services: "Dienstleistungen",
       copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
+      establishment: "Lizenzierte Finanzinstitution in Europa"
+    },
+    page: {
+      legal: {
+        title: "Rechtlicher Hinweis",
+        description: "Diese Seite wird in Kürze verfügbar sein."
+      },
+      privacy: {
+        title: "Datenschutzrichtlinie",
+        description: "Diese Seite wird in Kürze verfügbar sein."
+      },
+      terms: {
+        title: "Allgemeine Geschäftsbedingungen",
+        description: "Diese Seite wird in Kürze verfügbar sein."
+      },
+      gdpr: {
+        title: "Datenschutz",
+        description: "Diese Seite wird in Kürze verfügbar sein."
+      }
+    },
+    footer: {
+      services: "Dienstleistungen",
+      tools: "Werkzeuge",
+      legal: "Rechtliche Hinweise",
+      privacyPolicy: "Datenschutzrichtlinie",
+      terms: "Allgemeine Geschäftsbedingungen",
+      gdpr: "Datenschutz",
+      description: "Ihr vertrauenswürdiger Partner für alle Ihre Finanzprojekte. Aurex K-pital begleitet Sie mit Expertise und Transparenz.",
+      copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
       establishment: "Lizenzierte Finanzinstitution in Europa",
       links: {
         personalLoans: "Privatkredite",
@@ -2057,6 +2104,35 @@ const translations = {
       rights: "© 2024 Aurex K-pital. Todos los derechos reservados.",
       description: "Su socio financiero de confianza desde 1997. Excelencia, innovación y experiencia para todos sus proyectos financieros en Europa.",
       services: "Servicios",
+      copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
+      establishment: "Institución financiera autorizada en Europa"
+    },
+    page: {
+      legal: {
+        title: "Aviso legal",
+        description: "Esta página estará disponible pronto."
+      },
+      privacy: {
+        title: "Política de privacidad",
+        description: "Esta página estará disponible pronto."
+      },
+      terms: {
+        title: "Términos y condiciones",
+        description: "Esta página estará disponible pronto."
+      },
+      gdpr: {
+        title: "Protección de datos",
+        description: "Esta página estará disponible pronto."
+      }
+    },
+    footer: {
+      services: "Servicios",
+      tools: "Herramientas",
+      legal: "Aviso legal",
+      privacyPolicy: "Política de privacidad",
+      terms: "Términos y condiciones",
+      gdpr: "Protección de datos",
+      description: "Su socio de confianza para todos sus proyectos financieros. Aurex K-pital le acompaña con experiencia y transparencia.",
       copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
       establishment: "Institución financiera autorizada en Europa",
       links: {
@@ -2847,6 +2923,35 @@ const translations = {
       description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
       services: "Servizi",
       copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
+      establishment: "Istituzione finanziaria autorizzata in Europa"
+    },
+    page: {
+      legal: {
+        title: "Avviso legale",
+        description: "Questa pagina sarà presto disponibile."
+      },
+      privacy: {
+        title: "Politica sulla privacy",
+        description: "Questa pagina sarà presto disponibile."
+      },
+      terms: {
+        title: "Termini e condizioni",
+        description: "Questa pagina sarà presto disponibile."
+      },
+      gdpr: {
+        title: "Protezione dei dati",
+        description: "Questa pagina sarà presto disponibile."
+      }
+    },
+    footer: {
+      services: "Servizi",
+      tools: "Strumenti",
+      legal: "Avviso legale",
+      privacyPolicy: "Politica sulla privacy",
+      terms: "Termini e condizioni",
+      gdpr: "Protezione dei dati",
+      description: "Il vostro partner di fiducia per tutti i vostri progetti finanziari. Aurex K-pital vi accompagna con competenza e trasparenza.",
+      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
       establishment: "Istituzione finanziaria autorizzata in Europa",
       links: {
         personalLoans: "Prestiti personali",
@@ -3549,6 +3654,35 @@ const translations = {
       description: "Wasz zaufany partner finansowy od 1997 roku. Doskonałość, innowacyjność i doświadczenie dla wszystkich projektów finansowych w Europie.",
       services: "Usługi",
       copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
+      establishment: "Licencjonowana instytucja finansowa w Europie"
+    },
+    page: {
+      legal: {
+        title: "Informacje prawne",
+        description: "Ta strona będzie wkrótce dostępna."
+      },
+      privacy: {
+        title: "Polityka prywatności",
+        description: "Ta strona będzie wkrótce dostępna."
+      },
+      terms: {
+        title: "Warunki i zasady",
+        description: "Ta strona będzie wkrótce dostępna."
+      },
+      gdpr: {
+        title: "Ochrona danych",
+        description: "Ta strona będzie wkrótce dostępna."
+      }
+    },
+    footer: {
+      services: "Usługi",
+      tools: "Narzędzia",
+      legal: "Informacje prawne",
+      privacyPolicy: "Polityka prywatności",
+      terms: "Warunki i zasady",
+      gdpr: "Ochrona danych",
+      description: "Wasz zaufany partner we wszystkich projektach finansowych. Aurex K-pital towarzyszy Wam z doświadczeniem i przejrzystością.",
+      copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
       establishment: "Licencjonowana instytucja finansowa w Europie",
       links: {
         personalLoans: "Kredyty osobiste",
@@ -4185,6 +4319,35 @@ const translations = {
       description: "Luotettava rahoituskumppanisi vuodesta 1997. Huippuosaamista, innovaatiota ja asiantuntemusta kaikkiin rahoitusprojekteihisi Euroopassa.",
       services: "Palvelut",
       copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
+      establishment: "Lisensoitu rahoituslaitos Euroopassa"
+    },
+    page: {
+      legal: {
+        title: "Laillinen huomautus",
+        description: "Tämä sivu on pian saatavilla."
+      },
+      privacy: {
+        title: "Tietosuojakäytäntö",
+        description: "Tämä sivu on pian saatavilla."
+      },
+      terms: {
+        title: "Käyttöehdot",
+        description: "Tämä sivu on pian saatavilla."
+      },
+      gdpr: {
+        title: "Tietosuoja",
+        description: "Tämä sivu on pian saatavilla."
+      }
+    },
+    footer: {
+      services: "Palvelut",
+      tools: "Työkalut",
+      legal: "Laillinen huomautus",
+      privacyPolicy: "Tietosuojakäytäntö",
+      terms: "Käyttöehdot",
+      gdpr: "Tietosuoja",
+      description: "Luotettava kumppanini kaikissa rahoitusprojekteissanne. Aurex K-pital seuraa teitä asiantuntemuksella ja läpinäkyvyydellä.",
+      copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
       establishment: "Lisensoitu rahoituslaitos Euroopassa",
       links: {
         personalLoans: "Henkilökohtaiset lainat",
@@ -4781,6 +4944,35 @@ const translations = {
       rights: "© 2024 Aurex K-pital. Todos os direitos reservados.",
       description: "O vosso parceiro financeiro de confiança desde 1997. Excelência, inovação e experiência para todos os vossos projetos financeiros na Europa.",
       services: "Serviços",
+      copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
+      establishment: "Instituição financeira licenciada na Europa"
+    },
+    page: {
+      legal: {
+        title: "Aviso legal",
+        description: "Esta página estará disponível em breve."
+      },
+      privacy: {
+        title: "Política de privacidade",
+        description: "Esta página estará disponível em breve."
+      },
+      terms: {
+        title: "Termos e condições",
+        description: "Esta página estará disponível em breve."
+      },
+      gdpr: {
+        title: "Proteção de dados",
+        description: "Esta página estará disponível em breve."
+      }
+    },
+    footer: {
+      services: "Serviços",
+      tools: "Ferramentas",
+      legal: "Aviso legal",
+      privacyPolicy: "Política de privacidade",
+      terms: "Termos e condições",
+      gdpr: "Proteção de dados",
+      description: "Vosso parceiro de confiança para todos os vossos projetos financeiros. Aurex K-pital acompanha-vos com competência e transparência.",
       copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
       establishment: "Instituição financeira licenciada na Europa",
       links: {
@@ -5383,6 +5575,35 @@ const translations = {
       rights: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
       description: "Ο αξιόπιστος χρηματοοικονομικός σας εταίρος από το 1997. Αριστεία, καινοτομία και εμπειρία για όλα τα χρηματοοικονομικά σας έργα στην Ευρώπη.",
       services: "Υπηρεσίες",
+      copyright: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
+      establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη"
+    },
+    page: {
+      legal: {
+        title: "Νομική σημείωση",
+        description: "Αυτή η σελίδα θα είναι σύντομα διαθέσιμη."
+      },
+      privacy: {
+        title: "Πολιτική απορρήτου",
+        description: "Αυτή η σελίδα θα είναι σύντομα διαθέσιμη."
+      },
+      terms: {
+        title: "Όροι και προϋποθέσεις",
+        description: "Αυτή η σελίδα θα είναι σύντομα διαθέσιμη."
+      },
+      gdpr: {
+        title: "Προστασία δεδομένων",
+        description: "Αυτή η σελίδα θα είναι σύντομα διαθέσιμη."
+      }
+    },
+    footer: {
+      services: "Υπηρεσίες",
+      tools: "Εργαλεία",
+      legal: "Νομική σημείωση",
+      privacyPolicy: "Πολιτική απορρήτου",
+      terms: "Όροι και προϋποθέσεις",
+      gdpr: "Προστασία δεδομένων",
+      description: "Ο αξιόπιστος εταίρος σας για όλα τα χρηματοοικονομικά σας έργα. Η Aurex K-pital σας συνοδεύει με εμπειρία και διαφάνεια.",
       copyright: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
       establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη",
       links: {

@@ -2,7 +2,7 @@ import Header from '@/components/navigation/Header';
 import Footer from '@/components/layout/Footer';
 import { useTranslation } from '@/contexts/TranslationContext';
 
-const Legal = () => {
+const Terms = () => {
   const { t } = useTranslation();
   
   return (
@@ -13,9 +13,9 @@ const Legal = () => {
       <main className="pt-20 pb-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl font-bold mb-6">{t('page.legal.title')}</h1>
+            <h1 className="text-4xl font-bold mb-6">{t('page.terms.title')}</h1>
             <p className="text-lg text-muted-foreground">
-              {t('page.legal.description')}
+              {t('page.terms.description')}
             </p>
           </div>
         </div>
@@ -26,4 +26,4 @@ const Legal = () => {
   );
 };
 
-export default Legal;
+export default Terms;
