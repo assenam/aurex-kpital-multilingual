@@ -21,6 +21,15 @@ const queryClient = new QueryClient();
 
 const MultilangRoutes = () => {
   const { lang } = useParams();
+  
+  return (
+    <TranslationProvider>
+      <AppContent />
+    </TranslationProvider>
+  );
+};
+
+const AppContent = () => {
   const { isLoading } = useTranslation();
   
   return (
@@ -54,11 +63,7 @@ const App = () => (
       <Route path="/" element={<Navigate to="/fr" replace />} />
       
       {/* Routes multilingues */}
-      <Route path="/:lang/*" element={
-        <TranslationProvider>
-          <MultilangRoutes />
-        </TranslationProvider>
-      } />
+      <Route path="/:lang/*" element={<MultilangRoutes />} />
       
       {/* Page 404 */}
       <Route path="*" element={<NotFound />} />

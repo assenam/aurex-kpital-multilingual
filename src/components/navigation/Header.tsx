@@ -40,7 +40,7 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center space-x-3">
+            <Link to={`/${language}`} className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/1d79ff42-26c3-4b9b-bab8-3c9b2d1e8db2.png" 
                 alt="Aurex K-pital" 
