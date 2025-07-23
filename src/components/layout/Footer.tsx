@@ -27,9 +27,9 @@ const Footer = () => {
       title: "Légal",
       links: [
         { name: t('footer.legal'), href: "/mentions-legales" },
-        { name: t('footer.privacyPolicy'), href: "/politique-confidentialite" },
-        { name: t('footer.terms'), href: "/conditions-generales" },
-        { name: t('footer.gdpr'), href: "/protection-donnees" }
+        { name: t('footer.privacyPolicy'), href: "/mentions-legales#privacy" },
+        { name: t('footer.terms'), href: "/mentions-legales#terms" },
+        { name: t('footer.gdpr'), href: "/mentions-legales#gdpr" }
       ]
     }
   ];
