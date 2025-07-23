@@ -13,44 +13,74 @@ const Legal = () => {
       <main className="pt-20 pb-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl font-bold mb-8 text-center">{t('page.legal.title')}</h1>
+            <h1 className="text-4xl font-bold mb-8 text-center">{t('legal.mentions.title')}</h1>
             
-            <div className="prose prose-lg max-w-none">
+            <div className="prose prose-lg max-w-none dark:prose-invert">
               {/* Company Information */}
               <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">{t('page.legal.sections.company')}</h2>
-                <div className="bg-muted/50 p-6 rounded-lg">
-                  <p className="mb-2"><strong>{t('page.legal.companyName')}</strong></p>
-                  <p className="mb-2">{t('page.legal.address')}</p>
-                  <p className="mb-2">Tél: {t('page.legal.phone')}</p>
-                  <p className="mb-2">Registre: {t('page.legal.registration')}</p>
-                  <p>Safe-Nummer: {t('page.legal.safeNumber')}</p>
+                <h2 className="text-2xl font-semibold mb-4">{t('legal.mentions.company.title')}</h2>
+                <div className="bg-muted/50 p-6 rounded-lg space-y-2">
+                  <p><strong>{t('legal.mentions.company.name')}</strong></p>
+                  <p>{t('legal.mentions.company.type')}</p>
+                  <p>{t('legal.mentions.company.capital')}</p>
+                  <p>{t('legal.mentions.company.address')}</p>
+                  <p>{t('legal.mentions.company.register')}</p>
+                  <p>{t('legal.mentions.company.vat')}</p>
+                  <p>{t('legal.mentions.company.siren')}</p>
                 </div>
-                <p className="mt-4">{t('page.legal.content.company')}</p>
               </section>
 
-              {/* Publication Director */}
+              {/* Management */}
               <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">{t('page.legal.sections.publication')}</h2>
-                <p>{t('page.legal.content.publication')}</p>
+                <h2 className="text-2xl font-semibold mb-4">{t('legal.mentions.management.title')}</h2>
+                <div className="space-y-2">
+                  <p>{t('legal.mentions.management.ceo')}</p>
+                  <p>{t('legal.mentions.management.cio')}</p>
+                  <p>{t('legal.mentions.management.cro')}</p>
+                </div>
+              </section>
+
+              {/* Activity */}
+              <section className="mb-8">
+                <h2 className="text-2xl font-semibold mb-4">{t('legal.mentions.activity.title')}</h2>
+                <p className="mb-4">{t('legal.mentions.activity.description')}</p>
+                <ul className="list-disc list-inside space-y-1">
+                  <li>{t('legal.mentions.activity.services.banking')}</li>
+                  <li>{t('legal.mentions.activity.services.investment')}</li>
+                  <li>{t('legal.mentions.activity.services.insurance')}</li>
+                  <li>{t('legal.mentions.activity.services.wealth')}</li>
+                </ul>
+              </section>
+
+              {/* Contact */}
+              <section className="mb-8">
+                <h2 className="text-2xl font-semibold mb-4">{t('legal.mentions.contact.title')}</h2>
+                <div className="space-y-2">
+                  <p>{t('legal.mentions.contact.phone')}</p>
+                  <p>{t('legal.mentions.contact.email')}</p>
+                  <p>{t('legal.mentions.contact.hours')}</p>
+                </div>
               </section>
 
               {/* Hosting */}
               <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">{t('page.legal.sections.hosting')}</h2>
-                <p>{t('page.legal.content.hosting')}</p>
+                <h2 className="text-2xl font-semibold mb-4">{t('legal.mentions.hosting.title')}</h2>
+                <p className="mb-2">{t('legal.mentions.hosting.description')}</p>
+                <div className="bg-muted/30 p-4 rounded">
+                  <pre className="whitespace-pre-line text-sm">{t('legal.mentions.hosting.company')}</pre>
+                </div>
               </section>
 
               {/* Intellectual Property */}
               <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">{t('page.legal.sections.intellectual')}</h2>
-                <p>{t('page.legal.content.intellectual')}</p>
+                <h2 className="text-2xl font-semibold mb-4">{t('legal.mentions.intellectual.title')}</h2>
+                <p>{t('legal.mentions.intellectual.description')}</p>
               </section>
 
               {/* Liability */}
               <section className="mb-8">
-                <h2 className="text-2xl font-semibold mb-4">{t('page.legal.sections.liability')}</h2>
-                <p>{t('page.legal.content.liability')}</p>
+                <h2 className="text-2xl font-semibold mb-4">{t('legal.mentions.responsibility.title')}</h2>
+                <p>{t('legal.mentions.responsibility.description')}</p>
               </section>
             </div>
           </div>
