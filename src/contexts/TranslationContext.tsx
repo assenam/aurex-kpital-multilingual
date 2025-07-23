@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, ReactNode, useMemo, useCallback, useRef } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 export type Language = 'fr' | 'de' | 'pl' | 'fi' | 'es' | 'pt' | 'el' | 'it';
 
@@ -42,7 +43,20 @@ const populateCache = () => {
 };
 
 export const TranslationProvider: React.FC<TranslationProviderProps> = ({ children }) => {
+  const location = useLocation();
+  const navigate = useNavigate();
+  
+  // Extract language from URL path (e.g., /fr/services -> fr)
+  const getLanguageFromPath = useCallback(() => {
+    const pathLang = location.pathname.split('/')[1] as Language;
+    const validLanguages: Language[] = ['fr', 'de', 'pl', 'fi', 'es', 'pt', 'el', 'it'];
+    return validLanguages.includes(pathLang) ? pathLang : 'fr';
+  }, [location.pathname]);
+
   const [language, setLanguage] = useState<Language>(() => {
+    // Priority: URL > localStorage > default 'fr'
+    const urlLang = getLanguageFromPath();
+    if (urlLang !== 'fr') return urlLang;
     return (localStorage.getItem('preferredLanguage') as Language) || 'fr';
   });
   const [isLoading] = useState(false);
@@ -57,12 +71,28 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
   const changeLanguage = useCallback((newLanguage: Language) => {
     if (newLanguage === language) return;
     
+    // Update URL to include the new language
+    const currentPath = location.pathname;
+    const pathSegments = currentPath.split('/').filter(Boolean);
+    
+    // If current path has language prefix, replace it
+    const validLanguages: Language[] = ['fr', 'de', 'pl', 'fi', 'es', 'pt', 'el', 'it'];
+    if (pathSegments.length > 0 && validLanguages.includes(pathSegments[0] as Language)) {
+      pathSegments[0] = newLanguage;
+    } else {
+      // If no language prefix, add it
+      pathSegments.unshift(newLanguage);
+    }
+    
+    const newPath = '/' + pathSegments.join('/');
+    
     // Use requestAnimationFrame to ensure smooth transition
     requestAnimationFrame(() => {
       setLanguage(newLanguage);
       localStorage.setItem('preferredLanguage', newLanguage);
+      navigate(newPath);
     });
-  }, [language]);
+  }, [language, location.pathname, navigate]);
   
   const t = useCallback((key: string): string => {
     // Direct translation without problematic cache
