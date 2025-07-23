@@ -43,9 +43,9 @@ const Footer = () => {
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
                 <img 
-                  src="/lovable-uploads/1d79ff42-26c3-4b9b-bab8-3c9b2d1e8db2.png" 
+                  src="/lovable-uploads/c585fa4a-691d-4d9e-8b7c-c59cfbeb45d2.png" 
                   alt="Aurex K-pital" 
-                  className="h-10 w-auto filter brightness-0 invert"
+                  className="h-12 w-auto filter brightness-0 invert"
                 />
               </div>
               
