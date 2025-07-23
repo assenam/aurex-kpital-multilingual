@@ -807,7 +807,7 @@ const translations = {
             email: {
               title: "Email",
               description: "Envoyez-nous vos questions",
-              value: "contact@aurex-kpital.de",
+              value: "contact@aurex-kpital.com",
               hours: "Réponse sous 4h en moyenne"
             },
             address: {
@@ -1652,7 +1652,7 @@ const translations = {
         email: {
           title: "E-Mail",
           description: "Schreiben Sie uns, wir antworten schnell",
-          value: "kontakt@aurex-kpital.de",
+          value: "contact@aurex-kpital.com",
           hours: "Antwort binnen 2h im Durchschnitt"
         },
         address: {
@@ -2448,7 +2448,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Escríbanos, respondemos rápidamente",
-          value: "contacto@aurex-kpital.es",
+          value: "contact@aurex-kpital.com",
           hours: "Respuesta en 2h en promedio"
         },
         address: {
@@ -3179,7 +3179,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Scrivici, rispondiamo velocemente",
-          value: "contatto@aurex-kpital.it",
+          value: "contact@aurex-kpital.com",
           hours: "Risposta in 2h in media"
         },
         address: {
@@ -3881,7 +3881,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Napisz do nas, szybko odpowiadamy",
-          value: "kontakt@aurex-kpital.pl",
+          value: "contact@aurex-kpital.com",
           hours: "Odpowiedź w 2h średnio"
         },
         address: {
@@ -4517,7 +4517,7 @@ const translations = {
         email: {
           title: "Sähköposti",
           description: "Lähetä meille kysymyksesi",
-          value: "contact@aurex-kpital.de",
+          value: "contact@aurex-kpital.com",
           hours: "Vastaus 4h:ssa keskimäärin"
         },
         address: {
@@ -5114,7 +5114,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Escreva-nos, respondemos rapidamente",
-          value: "contacto@aurex-kpital.pt",
+          value: "contact@aurex-kpital.com",
           hours: "Resposta em 2h em média"
         },
         address: {
@@ -5513,7 +5513,7 @@ const translations = {
             email: {
               title: "Email",
               description: "Στείλτε μας τις ερωτήσεις σας",
-              value: "contact@aurex-kpital.de",
+              value: "contact@aurex-kpital.com",
               hours: "Απάντηση σε 4h κατά μέσο όρο"
             },
             address: {
@@ -5774,7 +5774,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Γράψτε μας, απαντάμε γρήγορα",
-          value: "επικοινωνια@aurex-kpital.gr",
+          value: "contact@aurex-kpital.com",
           hours: "Απάντηση σε 2ω κατά μέσο όρο"
         },
         address: {
