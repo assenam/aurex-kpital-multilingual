@@ -372,7 +372,7 @@ const translations = {
     },
     footer: {
       tools: "Outils",
-      
+      legal: "Légal",
       contact: "Contact",
       privacyPolicy: "Politique de confidentialité",
       terms: "Conditions générales",
