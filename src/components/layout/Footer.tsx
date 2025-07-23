@@ -58,6 +58,7 @@ const Footer = () => {
                 <p>Irma-Keilhack-Ring 24</p>
                 <p>22145 Hamburg, Allemagne</p>
                 <p>Tél: +33759282004</p>
+                <p>Tél: +4915781095078</p>
                 <p>Registre: HRB 80635</p>
                 <p>Safe-Nummer: DE00976259</p>
               </div>

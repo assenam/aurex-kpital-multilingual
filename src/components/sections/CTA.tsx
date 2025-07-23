@@ -58,7 +58,7 @@ const CTA = () => {
             {/* Contact Info */}
             <div className="mt-8 pt-8 border-t border-primary-foreground/20">
               <p className="text-primary-foreground/80 mb-2">
-                <strong className="text-gold">{t('home.cta.contact.phone')}:</strong> +33759282004
+                <strong className="text-gold">{t('home.cta.contact.phone')}:</strong> +33759282004 / +4915781095078
               </p>
               <p className="text-primary-foreground/80">
                 <strong className="text-gold">{t('home.cta.contact.address')}:</strong> {t('home.cta.contact.addressValue')}
