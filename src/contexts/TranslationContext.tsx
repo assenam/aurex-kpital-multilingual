@@ -369,7 +369,6 @@ const translations = {
       request: "Demande",
       about: "À propos",
       contact: "Contact",
-      faq: "FAQ",
     },
     footer: {
       tools: "Outils",
@@ -391,7 +390,6 @@ const translations = {
         insurance: "Assurances",
         simulator: "Simulateur de prêt",
         request: "Demande de financement",
-        faq: "FAQ",
         contact: "Contact",
         about: "À propos",
         legal: "Mentions légales",
@@ -954,146 +952,6 @@ const translations = {
         description: "Notre engagement pour la protection de vos données personnelles"
       }
     },
-    faq: {
-      hero: {
-        badge: "Aide et Support",
-        title: "Questions",
-        titleHighlight: "Fréquentes",
-        description: "Trouvez rapidement les réponses à vos questions les plus courantes sur nos services de financement.",
-        searchPlaceholder: "Rechercher une question..."
-      },
-      stats: {
-        questions: "Questions traitées",
-        satisfaction: "Satisfaction client",
-        responseTime: "Temps de réponse moyen"
-      },
-      categories: {
-        personalLoans: {
-          title: "Prêts personnels",
-          questions: {
-            amounts: {
-              question: "Quels sont les montants minimum et maximum pour un prêt personnel ?",
-              answer: "Nos prêts personnels vont de 1 000€ à 75 000€, avec des durées de remboursement de 12 à 84 mois. Le montant accordé dépend de votre profil financier, vos revenus et votre capacité de remboursement."
-            },
-            rates: {
-              question: "Quel est le taux d'intérêt appliqué ?",
-              answer: "Nos taux sont personnalisés selon votre profil. Ils varient de 2,9% à 9,9% TAEG fixe. Un devis personnalisé vous sera proposé après étude de votre dossier, sans engagement de votre part."
-            },
-            justification: {
-              question: "Puis-je obtenir un prêt sans justificatif d'usage ?",
-              answer: "Oui, nos prêts personnels sont des crédits sans justificatif. Vous n'avez pas besoin de nous indiquer l'usage prévu des fonds. Cependant, nous vous demandons de les utiliser de manière responsable."
-            },
-            timing: {
-              question: "Combien de temps faut-il pour obtenir les fonds ?",
-              answer: "Après validation de votre dossier et signature électronique, les fonds sont généralement virés sous 48h ouvrées sur votre compte bancaire. En cas d'urgence justifiée, un virement le jour même peut être organisé."
-            }
-          }
-        },
-        mortgage: {
-          title: "Prêts immobiliers",
-          questions: {
-            downPayment: {
-              question: "Faut-il un apport personnel obligatoire ?",
-              answer: "Non, Aurex K-pital propose des financements à 110% permettant de couvrir l'acquisition et les frais annexes. Cependant, un apport personnel améliore les conditions du prêt et réduit le coût total."
-            },
-            propertyTypes: {
-              question: "Quels types de biens puis-je financer ?",
-              answer: "Nous finançons tous types de biens : résidence principale, secondaire, investissement locatif, SCPI, terrains à bâtir, construction neuve, rénovation importante. Chaque projet est étudié individuellement."
-            },
-            duration: {
-              question: "Quelle est la durée maximale d'un prêt immobilier ?",
-              answer: "Nos prêts immobiliers peuvent s'étaler jusqu'à 30 ans (25 ans pour l'investissement locatif). La durée optimale est calculée selon votre âge, vos revenus et votre situation patrimoniale."
-            },
-            rates: {
-              question: "Proposez-vous des taux fixes ou variables ?",
-              answer: "Nous proposons les deux options. Les taux fixes offrent une sécurité totale, tandis que les taux variables avec cap permettent de bénéficier d'éventuelles baisses tout en limitant les risques de hausse."
-            }
-          }
-        },
-        investment: {
-          title: "Investissement & Épargne",
-          questions: {
-            minimum: {
-              question: "Quel est le montant minimum pour commencer à investir ?",
-              answer: "Vous pouvez débuter avec 500€ sur nos solutions d'épargne. Pour les investissements plus sophistiqués (SCPI, assurance-vie premium), le ticket d'entrée est généralement de 5 000€."
-            },
-            recommendations: {
-              question: "Comment fonctionnent vos recommandations d'investissement ?",
-              answer: "Nos algorithmes d'IA analysent votre profil de risque, vos objectifs et la conjoncture pour vous proposer une allocation personnalisée. Un conseiller expert valide et explique chaque recommandation."
-            },
-            guarantee: {
-              question: "Mes investissements sont-ils garantis ?",
-              answer: "Les investissements comportent des risques de perte en capital. Cependant, nous proposons des solutions garanties (fonds euros, obligations d'État) pour la partie sécurisée de votre patrimoine."
-            },
-            tracking: {
-              question: "Comment puis-je suivre mes investissements ?",
-              answer: "Votre espace client offre une vue temps réel de vos positions, performances et recommandations. Vous recevez également des rapports mensuels détaillés et des alertes personnalisées."
-            }
-          }
-        },
-        business: {
-          title: "Financement professionnel",
-          questions: {
-            amounts: {
-              question: "Quels montants pour le financement d'entreprise ?",
-              answer: "Nous finançons de 10 000€ à 2 millions d'euros selon votre projet. Création, développement, acquisition, trésorerie : chaque besoin a sa solution sur-mesure."
-            },
-            projects: {
-              question: "Quels types de projets professionnels financez-vous ?",
-              answer: "Création d'entreprise, développement d'activité, acquisition de matériel, rachat de fonds de commerce, besoin en fonds de roulement, immobilier professionnel. Tous secteurs d'activité."
-            },
-            guarantees: {
-              question: "Quelles garanties sont demandées ?",
-              answer: "Les garanties varient selon le montant et le risque : caution personnelle, hypothèque, nantissement, garantie Bpifrance. Nos experts trouvent la solution la plus adaptée à votre situation."
-            },
-            timeline: {
-              question: "Quel est le délai pour un financement professionnel ?",
-              answer: "L'instruction complète prend généralement 2 à 4 semaines selon la complexité du dossier. Un pré-accord peut être donné sous 48h pour valider la faisabilité de votre projet."
-            }
-          }
-        },
-        account: {
-          title: "Compte et services",
-          questions: {
-            create: {
-              question: "Comment créer mon compte client ?",
-              answer: "L'inscription est gratuite et prend moins de 5 minutes. Vous avez besoin d'une pièce d'identité valide, d'un justificatif de domicile récent et de vos coordonnées bancaires."
-            },
-            documents: {
-              question: "Quels documents dois-je fournir ?",
-              answer: "Pour un dossier complet : pièce d'identité, justificatifs de revenus (3 derniers bulletins de salaire), relevés bancaires (3 derniers mois), justificatif de domicile récent."
-            },
-            security: {
-              question: "Mes données sont-elles sécurisées ?",
-              answer: "Absolument. Nous utilisons un chiffrement bancaire SSL 256 bits, l'authentification à double facteur et sommes certifiés ISO 27001. Vos données ne sont jamais vendues à des tiers."
-            },
-            support: {
-              question: "Comment contacter le support client ?",
-              answer: "Notre équipe est disponible par téléphone, email et chat en direct du lundi au vendredi de 8h à 19h, et le samedi de 9h à 17h. Réponse garantie sous 2h en moyenne."
-            }
-          }
-        }
-      },
-      support: {
-        title: "Besoin d'aide supplémentaire ?",
-        description: "Notre équipe d'experts est là pour répondre à toutes vos questions spécifiques.",
-        phone: {
-          title: "Par téléphone",
-          description: "Appelez-nous pour un conseil immédiat",
-          hours: "Lun-Ven 8h-19h"
-        },
-        email: {
-          title: "Par email",
-          description: "Écrivez-nous, nous répondons rapidement",
-          response: "Réponse sous 2h"
-        },
-        chat: {
-          title: "Chat en direct",
-          description: "Échangez instantanément avec nos conseillers",
-          availability: "Disponible maintenant"
-        }
-      }
-    }
   },
   de: {
     // ... keep existing code (all existing German translations)
@@ -1351,7 +1209,6 @@ const translations = {
       request: "Anfrage",
       about: "Über uns",
       contact: "Kontakt",
-      faq: "FAQ",
     },
     footer: {
       tools: "Tools",
@@ -1373,7 +1230,6 @@ const translations = {
         insurance: "Versicherungen",
         simulator: "Kreditrechner",
         request: "Finanzierungsanfrage",
-        faq: "FAQ",
         contact: "Kontakt",
         about: "Über uns",
         legal: "Impressum",
@@ -2045,7 +1901,6 @@ const translations = {
       request: "Solicitud",
       about: "Sobre nosotros",
       contact: "Contacto",
-      faq: "FAQ",
     },
     footer: {
       tools: "Herramientas",
@@ -2066,7 +1921,6 @@ const translations = {
         insurance: "Seguros",
         simulator: "Simulador de préstamos",
         request: "Solicitud de financiación",
-        faq: "FAQ",
         contact: "Contacto",
         about: "Sobre nosotros",
         legal: "Aviso legal",
@@ -2804,7 +2658,6 @@ const translations = {
       request: "Richiesta",
       about: "Chi siamo",
       contact: "Contatto",
-      faq: "FAQ",
         },
         financingRequest: {
           title: "Pedido de financiamento",
@@ -2855,7 +2708,6 @@ const translations = {
         insurance: "Assicurazioni",
         simulator: "Simulatore di prestito",
         request: "Richiesta di finanziamento",
-        faq: "FAQ",
         contact: "Contatto",
         about: "Chi siamo",
         legal: "Note legali",
@@ -3535,7 +3387,6 @@ const translations = {
       request: "Wniosek",
       about: "O nas",
       contact: "Kontakt",
-      faq: "FAQ",
     },
     footer: {
       tools: "Narzędzia",
@@ -3557,7 +3408,6 @@ const translations = {
         insurance: "Ubezpieczenia",
         simulator: "Symulator kredytu",
         request: "Wniosek o finansowanie",
-        faq: "FAQ",
         contact: "Kontakt",
         about: "O nas",
         legal: "Informacje prawne",
@@ -4171,7 +4021,6 @@ const translations = {
       request: "Hakemus",
       about: "Tietoa meistä",
       contact: "Yhteystiedot",
-      faq: "UKK",
     },
     footer: {
       tools: "Työkalut",
@@ -4193,7 +4042,7 @@ const translations = {
         insurance: "Vakuutukset",
         simulator: "Lainasimulator",
         request: "Rahoitushakemus",
-        faq: "UKK",
+        
         contact: "Yhteystiedot",
         about: "Tietoa meistä",
         legal: "Oikeudellinen ilmoitus",
@@ -4768,7 +4617,6 @@ const translations = {
       request: "Pedido",
       about: "Sobre nós",
       contact: "Contacto",
-      faq: "FAQ",
     },
     footer: {
       tools: "Ferramentas",
@@ -4790,7 +4638,7 @@ const translations = {
         insurance: "Seguros",
         simulator: "Simulador de empréstimo",
         request: "Pedido de financiamento",
-        faq: "FAQ",
+        
         contact: "Contacto",
         about: "Sobre nós",
         legal: "Informações legais",
@@ -5370,7 +5218,6 @@ const translations = {
       request: "Αίτηση",
       about: "Σχετικά με εμάς",
       contact: "Επικοινωνία",
-      faq: "Συχνές ερωτήσεις",
     },
     footer: {
       tools: "Εργαλεία",
@@ -5392,7 +5239,7 @@ const translations = {
         insurance: "Ασφάλειες",
         simulator: "Προσομοιωτής δανείου",
         request: "Αίτηση χρηματοδότησης",
-        faq: "Συχνές ερωτήσεις",
+        
         contact: "Επικοινωνία",
         about: "Σχετικά με εμάς",
         legal: "Νομική ειδοποίηση",

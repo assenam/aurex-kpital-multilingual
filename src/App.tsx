@@ -12,7 +12,7 @@ import Services from "./pages/Services";
 import Simulator from "./pages/Simulator";
 import Request from "./pages/Request";
 import Contact from "./pages/Contact";
-import FAQ from "./pages/FAQ";
+
 
 import Legal from "./pages/Legal";
 import Privacy from "./pages/Privacy";
@@ -40,7 +40,7 @@ const AppContent = () => {
           <Route path="/simulateur" element={<Simulator />} />
           <Route path="/demande" element={<Request />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/faq" element={<FAQ />} />
+          
           
           <Route path="/mentions-legales" element={<Legal />} />
           <Route path="/politique-confidentialite" element={<Privacy />} />
