@@ -348,223 +348,83 @@ const Legal = () => {
                     </div>
                   </div>
 
-                  {/* Article 1 */}
-                  {t('legal.terms.sections.article1.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article1.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article1.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 1 - Objet</h3>
-                      <p>Les présentes Conditions Générales d'Utilisation (CGU) régissent l'accès et l'utilisation des services proposés par Aurex K-pital GmbH via sa plateforme digitale et ses canaux de distribution.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 1 - Objet</h3>
+                  <p>Les présentes Conditions Générales d'Utilisation (CGU) régissent l'accès et l'utilisation des services proposés par Aurex K-pital GmbH via sa plateforme digitale et ses canaux de distribution.</p>
 
-                  {/* Article 2 */}
-                  {t('legal.terms.sections.article2.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article2.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article2.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 2 - Acceptation des Conditions</h3>
-                      <p>L'utilisation de nos services implique l'acceptation pleine et entière des présentes CGU. Si vous n'acceptez pas ces conditions, vous ne devez pas utiliser nos services.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 2 - Acceptation des Conditions</h3>
+                  <p>L'utilisation de nos services implique l'acceptation pleine et entière des présentes CGU. Si vous n'acceptez pas ces conditions, vous ne devez pas utiliser nos services.</p>
 
-                  {/* Article 3 */}
-                  {t('legal.terms.sections.article3.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article3.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article3.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 3 - Services Proposés</h3>
-                      <p>Aurex K-pital propose les services suivants :</p>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li>Courtage en opérations bancaires</li>
-                        <li>Conseil en investissements financiers</li>
-                        <li>Intermédiation en assurance</li>
-                        <li>Gestion de patrimoine</li>
-                        <li>Outils de simulation et d'analyse</li>
-                      </ul>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 3 - Services Proposés</h3>
+                  <p>Aurex K-pital propose les services suivants :</p>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>Courtage en opérations bancaires</li>
+                    <li>Conseil en investissements financiers</li>
+                    <li>Intermédiation en assurance</li>
+                    <li>Gestion de patrimoine</li>
+                    <li>Outils de simulation et d'analyse</li>
+                  </ul>
 
-                  {/* Article 4 */}
-                  {t('legal.terms.sections.article4.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article4.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article4.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 4 - Conditions d'Accès</h3>
-                      <p>Pour accéder à nos services, vous devez :</p>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li>Être majeur et avoir la capacité juridique</li>
-                        <li>Résider dans l'Union Européenne</li>
-                        <li>Fournir des informations exactes et complètes</li>
-                        <li>Respecter les lois et réglementations applicables</li>
-                      </ul>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 4 - Conditions d'Accès</h3>
+                  <p>Pour accéder à nos services, vous devez :</p>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>Être majeur et avoir la capacité juridique</li>
+                    <li>Résider dans l'Union Européenne</li>
+                    <li>Fournir des informations exactes et complètes</li>
+                    <li>Respecter les lois et réglementations applicables</li>
+                  </ul>
 
-                  {/* Article 5 */}
-                  {t('legal.terms.sections.article5.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article5.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article5.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 5 - Compte Utilisateur</h3>
-                      <p>La création d'un compte nécessite :</p>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li>La fourniture d'informations véridiques</li>
-                        <li>La création d'un mot de passe sécurisé</li>
-                        <li>La validation de votre identité (KYC)</li>
-                        <li>L'acceptation de nos politiques</li>
-                      </ul>
-                      <p>Vous êtes responsable de la confidentialité de vos identifiants et de toutes les activités effectuées sous votre compte.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 5 - Compte Utilisateur</h3>
+                  <p>La création d'un compte nécessite :</p>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>La fourniture d'informations véridiques</li>
+                    <li>La création d'un mot de passe sécurisé</li>
+                    <li>La validation de votre identité (KYC)</li>
+                    <li>L'acceptation de nos politiques</li>
+                  </ul>
+                  <p>Vous êtes responsable de la confidentialité de vos identifiants et de toutes les activités effectuées sous votre compte.</p>
 
-                  {/* Article 6 */}
-                  {t('legal.terms.sections.article6.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article6.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article6.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 6 - Obligations de l'Utilisateur</h3>
-                      <p>En utilisant nos services, vous vous engagez à :</p>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li>Fournir des informations exactes et les maintenir à jour</li>
-                        <li>Utiliser les services conformément à leur destination</li>
-                        <li>Ne pas porter atteinte à la sécurité des systèmes</li>
-                        <li>Respecter les droits de propriété intellectuelle</li>
-                        <li>Ne pas utiliser les services à des fins illégales</li>
-                      </ul>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 6 - Obligations de l'Utilisateur</h3>
+                  <p>En utilisant nos services, vous vous engagez à :</p>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>Fournir des informations exactes et les maintenir à jour</li>
+                    <li>Utiliser les services conformément à leur destination</li>
+                    <li>Ne pas porter atteinte à la sécurité des systèmes</li>
+                    <li>Respecter les droits de propriété intellectuelle</li>
+                    <li>Ne pas utiliser les services à des fins illégales</li>
+                  </ul>
 
-                  {/* Article 7 */}
-                  {t('legal.terms.sections.article7.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article7.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article7.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 7 - Responsabilité d'Aurex K-pital</h3>
-                      <p>Aurex K-pital s'engage à :</p>
-                      <ul className="list-disc pl-6 space-y-2">
-                        <li>Fournir des services avec diligence et professionnalisme</li>
-                        <li>Respecter la réglementation financière en vigueur</li>
-                        <li>Protéger vos données personnelles</li>
-                        <li>Maintenir la sécurité de ses systèmes</li>
-                      </ul>
-                      <p>Notre responsabilité est limitée aux préjudices directs et prévisibles. Nous ne pouvons être tenus responsables des pertes financières résultant de vos décisions d'investissement.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 7 - Responsabilité d'Aurex K-pital</h3>
+                  <p>Aurex K-pital s'engage à :</p>
+                  <ul className="list-disc pl-6 space-y-2">
+                    <li>Fournir des services avec diligence et professionnalisme</li>
+                    <li>Respecter la réglementation financière en vigueur</li>
+                    <li>Protéger vos données personnelles</li>
+                    <li>Maintenir la sécurité de ses systèmes</li>
+                  </ul>
+                  <p>Notre responsabilité est limitée aux préjudices directs et prévisibles. Nous ne pouvons être tenus responsables des pertes financières résultant de vos décisions d'investissement.</p>
 
-                  {/* Article 8 */}
-                  {t('legal.terms.sections.article8.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article8.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article8.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 8 - Propriété Intellectuelle</h3>
-                      <p>Tous les éléments de la plateforme (textes, images, logos, logiciels) sont protégés par les droits de propriété intellectuelle. Toute utilisation non autorisée est interdite.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 8 - Propriété Intellectuelle</h3>
+                  <p>Tous les éléments de la plateforme (textes, images, logos, logiciels) sont protégés par les droits de propriété intellectuelle. Toute utilisation non autorisée est interdite.</p>
 
-                  {/* Article 9 */}
-                  {t('legal.terms.sections.article9.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article9.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article9.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 9 - Disponibilité du Service</h3>
-                      <p>Nous nous efforçons d'assurer une disponibilité maximale de nos services. Cependant, des interruptions peuvent survenir pour maintenance, mise à jour ou cas de force majeure.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 9 - Disponibilité du Service</h3>
+                  <p>Nous nous efforçons d'assurer une disponibilité maximale de nos services. Cependant, des interruptions peuvent survenir pour maintenance, mise à jour ou cas de force majeure.</p>
 
-                  {/* Article 10 */}
-                  {t('legal.terms.sections.article10.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article10.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article10.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 10 - Modification des CGU</h3>
-                      <p>Ces CGU peuvent être modifiées à tout moment. Les modifications entrent en vigueur dès leur publication sur la plateforme. Il vous appartient de consulter régulièrement ces conditions.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 10 - Modification des CGU</h3>
+                  <p>Ces CGU peuvent être modifiées à tout moment. Les modifications entrent en vigueur dès leur publication sur la plateforme. Il vous appartient de consulter régulièrement ces conditions.</p>
 
-                  {/* Article 11 */}
-                  {t('legal.terms.sections.article11.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article11.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article11.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 11 - Résiliation</h3>
-                      <p>Vous pouvez résilier votre compte à tout moment. Nous nous réservons le droit de suspendre ou fermer un compte en cas de violation des présentes CGU.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 11 - Résiliation</h3>
+                  <p>Vous pouvez résilier votre compte à tout moment. Nous nous réservons le droit de suspendre ou fermer un compte en cas de violation des présentes CGU.</p>
 
-                  {/* Article 12 */}
-                  {t('legal.terms.sections.article12.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article12.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article12.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 12 - Droit Applicable et Juridiction</h3>
-                      <p>Ces CGU sont régies par le droit allemand. En cas de litige, les tribunaux de Hamburg sont seuls compétents, sauf disposition légale contraire.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 12 - Droit Applicable et Juridiction</h3>
+                  <p>Ces CGU sont régies par le droit allemand. En cas de litige, les tribunaux de Hamburg sont seuls compétents, sauf disposition légale contraire.</p>
 
-                  {/* Article 13 */}
-                  {t('legal.terms.sections.article13.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.article13.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.article13.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Article 13 - Médiation</h3>
-                      <p>En cas de litige, vous pouvez recourir à la médiation auprès du médiateur de l'Association des Banques Allemandes (Bankenverband) avant toute action judiciaire.</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Article 13 - Médiation</h3>
+                  <p>En cas de litige, vous pouvez recourir à la médiation auprès du médiateur de l'Association des Banques Allemandes (Bankenverband) avant toute action judiciaire.</p>
 
-                  {/* Contact */}
-                  {t('legal.terms.sections.contact.title') ? (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">{t('legal.terms.sections.contact.title')}</h3>
-                      <div className="whitespace-pre-line mb-6">{t('legal.terms.sections.contact.content')}</div>
-                    </>
-                  ) : (
-                    <>
-                      <h3 className="text-xl font-bold text-primary mb-4">Contact</h3>
-                      <p>Pour toute question relative aux CGU :<br />
-                      <strong>Email :</strong> legal@aurex-kpital.de<br />
-                      <strong>Adresse :</strong> Aurex K-pital GmbH, Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne</p>
-                    </>
-                  )}
+                  <h3 className="text-xl font-bold text-primary mb-4">Contact</h3>
+                  <p>Pour toute question relative aux CGU :<br />
+                  <strong>Email :</strong> legal@aurex-kpital.de<br />
+                  <strong>Adresse :</strong> Aurex K-pital GmbH, Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne</p>
                 </CardContent>
               </Card>
             </TabsContent>
