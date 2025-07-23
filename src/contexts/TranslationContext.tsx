@@ -1691,7 +1691,49 @@ const translations = {
         title: "Datenschutzrichtlinie",
         description: "Schutz und Verarbeitung Ihrer persönlichen Daten",
         lastUpdate: "Letzte Aktualisierung: 1. Dezember 2024",
-        compliance: "Diese Richtlinie entspricht der DSGVO und den geltenden europäischen Bestimmungen."
+        compliance: "Diese Richtlinie entspricht der DSGVO und den geltenden europäischen Bestimmungen.",
+        sections: {
+          controller: {
+            title: "1. Verantwortlicher",
+            content: "Aurex K-pital GmbH, eingetragen unter der Nummer HRB 147852 im Handelsregister Hamburg, mit Sitz in Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland.\nDatenschutzbeauftragter: privacy@aurex-kpital.de"
+          },
+          dataCollected: {
+            title: "2. Erhobene Daten",
+            content: "Wir erheben folgende Datenkategorien:\n• Identifikationsdaten: Name, Vorname, Geburtsdatum, Nationalität\n• Kontaktdaten: Postadresse, E-Mail, Telefon\n• Finanzdaten: Einkommen, Vermögen, Bankhistorie\n• Verbindungsdaten: IP-Adresse, Cookies, Navigationslogs\n• Verhaltensdaten: Interaktionen mit unseren Diensten"
+          },
+          purposes: {
+            title: "3. Zwecke der Verarbeitung",
+            content: "Ihre Daten werden verarbeitet für:\n• Erbringung unserer Finanzdienstleistungen\n• Bewertung Ihrer Kreditwürdigkeit\n• Betrugs- und Geldwäscheprävention\n• Erfüllung unserer rechtlichen Verpflichtungen\n• Verbesserung unserer Dienste\n• Geschäftskommunikation (mit Ihrer Einwilligung)"
+          },
+          legalBasis: {
+            title: "4. Rechtsgrundlage",
+            content: "Unsere Verarbeitungen basieren auf:\n• Vertragserfüllung: für die Erbringung unserer Dienste\n• Rechtliche Verpflichtung: regulatorische Compliance (KYC, AML)\n• Berechtigtes Interesse: Betrugsschutz, Serviceverbesserung\n• Einwilligung: Marketing-Kommunikation, nicht-essenzielle Cookies"
+          },
+          dataSharing: {
+            title: "5. Datenweitergabe",
+            content: "Ihre Daten können geteilt werden mit:\n• Unseren Bank- und Finanzpartnern\n• Kredit- und Versicherungsorganisationen\n• Aufsichtsbehörden (BaFin, ACPR)\n• Unseren technischen Dienstleistern (unter striktem Vertrag)\n• Justizbehörden auf Anforderung"
+          },
+          retention: {
+            title: "6. Aufbewahrung der Daten",
+            content: "Wir bewahren Ihre Daten auf:\n• Aktive Kundendaten: Dauer der Beziehung + 5 Jahre\n• Finanzdaten: 10 Jahre nach Vertragsende\n• Verbindungsdaten: maximal 13 Monate\n• Marketing-Daten: 3 Jahre nach letztem Kontakt"
+          },
+          rights: {
+            title: "7. Ihre Rechte",
+            content: "Gemäß DSGVO haben Sie folgende Rechte:\n• Auskunftsrecht: eine Kopie Ihrer Daten erhalten\n• Berichtigungsrecht: unrichtige Daten korrigieren\n• Löschungsrecht: Ihre Daten löschen (unter Bedingungen)\n• Einschränkungsrecht: Verarbeitung beschränken\n• Datenübertragbarkeit: Ihre Daten abrufen\n• Widerspruchsrecht: der Verarbeitung widersprechen\n• Widerruf der Einwilligung\nZur Ausübung Ihrer Rechte: privacy@aurex-kpital.de"
+          },
+          security: {
+            title: "8. Sicherheit",
+            content: "Wir setzen angemessene technische und organisatorische Maßnahmen um:\n• Datenverschlüsselung (AES-256)\n• Beschränkter und kontrollierter Zugang\n• Kontinuierliche Systemüberwachung\n• Regelmäßige Mitarbeiterschulungen\n• Periodische Sicherheitsaudits"
+          },
+          transfers: {
+            title: "9. Internationale Übertragungen",
+            content: "Bestimmte Daten können in Drittländer mit angemessenen Garantien übertragen werden (Standardvertragsklauseln, Angemessenheitsbeschlüsse der Europäischen Kommission)."
+          },
+          contact: {
+            title: "10. Kontakt",
+            content: "Für Fragen zu dieser Richtlinie:\nE-Mail: privacy@aurex-kpital.de\nPost: Aurex K-pital - DPO, Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland\nSie haben auch das Recht, eine Beschwerde bei der zuständigen Aufsichtsbehörde einzureichen (CNIL in Frankreich, BfDI in Deutschland)."
+          }
+        }
       },
       terms: {
         title: "Allgemeine Geschäftsbedingungen",
