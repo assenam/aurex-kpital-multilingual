@@ -2487,7 +2487,49 @@ const translations = {
         title: "Política de Privacidad",
         description: "Protección y tratamiento de sus datos personales",
         lastUpdate: "Última actualización: 1 de diciembre de 2024",
-        compliance: "Esta política cumple con el RGPD y las regulaciones europeas vigentes."
+        compliance: "Esta política cumple con el RGPD y las regulaciones europeas vigentes.",
+        sections: {
+          controller: {
+            title: "1. Responsable del Tratamiento",
+            content: "Aurex K-pital GmbH, sociedad inscrita bajo el número HRB 147852 en el registro mercantil de Hamburgo, con domicilio social en Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania.\nDelegado de Protección de Datos: privacy@aurex-kpital.de"
+          },
+          dataCollected: {
+            title: "2. Datos Recopilados",
+            content: "Recopilamos las siguientes categorías de datos:\n• Datos de identificación: nombre, apellidos, fecha de nacimiento, nacionalidad\n• Datos de contacto: dirección postal, email, teléfono\n• Datos financieros: ingresos, patrimonio, historial bancario\n• Datos de conexión: dirección IP, cookies, logs de navegación\n• Datos comportamentales: interacciones con nuestros servicios"
+          },
+          purposes: {
+            title: "3. Finalidades del Tratamiento",
+            content: "Sus datos son tratados para:\n• La ejecución de nuestros servicios financieros\n• La evaluación de su solvencia\n• La prevención del fraude y blanqueo\n• El cumplimiento de nuestras obligaciones legales\n• La mejora de nuestros servicios\n• La comunicación comercial (con su consentimiento)"
+          },
+          legalBasis: {
+            title: "4. Base Legal",
+            content: "Nuestros tratamientos se basan en:\n• Ejecución contractual: para la prestación de nuestros servicios\n• Obligación legal: cumplimiento regulatorio (KYC, AML)\n• Interés legítimo: prevención del fraude, mejora de servicios\n• Consentimiento: comunicaciones de marketing, cookies no esenciales"
+          },
+          dataSharing: {
+            title: "5. Compartir Datos",
+            content: "Sus datos pueden ser compartidos con:\n• Nuestros socios bancarios y financieros\n• Los organismos de crédito y seguros\n• Las autoridades de regulación (BaFin, ACPR)\n• Nuestros proveedores técnicos (bajo contrato estricto)\n• Las autoridades judiciales bajo requerimiento"
+          },
+          retention: {
+            title: "6. Conservación de Datos",
+            content: "Conservamos sus datos:\n• Datos de cliente activo: duración de la relación + 5 años\n• Datos financieros: 10 años después del fin del contrato\n• Datos de conexión: máximo 13 meses\n• Datos de marketing: 3 años después del último contacto"
+          },
+          rights: {
+            title: "7. Sus Derechos",
+            content: "Conforme al RGPD, dispone de los siguientes derechos:\n• Derecho de acceso: obtener una copia de sus datos\n• Derecho de rectificación: corregir sus datos inexactos\n• Derecho al borrado: suprimir sus datos (bajo condiciones)\n• Derecho de limitación: restringir el tratamiento\n• Derecho de portabilidad: recuperar sus datos\n• Derecho de oposición: oponerse al tratamiento\n• Derecho de retirada del consentimiento\nPara ejercer sus derechos: privacy@aurex-kpital.de"
+          },
+          security: {
+            title: "8. Seguridad",
+            content: "Implementamos medidas técnicas y organizativas apropiadas:\n• Cifrado de datos (AES-256)\n• Acceso restringido y controlado\n• Monitoreo continuo de sistemas\n• Formación regular del personal\n• Auditorías de seguridad periódicas"
+          },
+          transfers: {
+            title: "9. Transferencias Internacionales",
+            content: "Algunos datos pueden ser transferidos a países terceros con garantías apropiadas (cláusulas contractuales tipo, decisiones de adecuación de la Comisión Europea)."
+          },
+          contact: {
+            title: "10. Contacto",
+            content: "Para cualquier pregunta sobre esta política:\nEmail: privacy@aurex-kpital.de\nCorreo: Aurex K-pital - DPO, Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania\nTambién tiene derecho a presentar una reclamación ante la autoridad de control competente (CNIL en Francia, BfDI en Alemania)."
+          }
+        }
       },
       terms: {
         title: "Términos y Condiciones de Uso",
@@ -3176,7 +3218,49 @@ const translations = {
         title: "Politica sulla Privacy",
         description: "Protezione e trattamento dei vostri dati personali",
         lastUpdate: "Ultimo aggiornamento: 1 dicembre 2024",
-        compliance: "Questa politica è conforme al GDPR e alle normative europee in vigore."
+        compliance: "Questa politica è conforme al GDPR e alle normative europee in vigore.",
+        sections: {
+          controller: {
+            title: "1. Responsabile del Trattamento",
+            content: "Aurex K-pital GmbH, società iscritta sotto il numero HRB 147852 nel registro delle imprese di Amburgo, con sede sociale in Irma-Keilhack-Ring 24, 22145 Amburgo, Germania.\nDelegato alla Protezione dei Dati: privacy@aurex-kpital.de"
+          },
+          dataCollected: {
+            title: "2. Dati Raccolti",
+            content: "Raccogliamo le seguenti categorie di dati:\n• Dati di identificazione: nome, cognome, data di nascita, nazionalità\n• Dati di contatto: indirizzo postale, email, telefono\n• Dati finanziari: redditi, patrimonio, storico bancario\n• Dati di connessione: indirizzo IP, cookies, log di navigazione\n• Dati comportamentali: interazioni con i nostri servizi"
+          },
+          purposes: {
+            title: "3. Finalità del Trattamento",
+            content: "I vostri dati sono trattati per:\n• L'esecuzione dei nostri servizi finanziari\n• La valutazione della vostra solvibilità\n• La prevenzione delle frodi e del riciclaggio\n• Il rispetto dei nostri obblighi legali\n• Il miglioramento dei nostri servizi\n• La comunicazione commerciale (con il vostro consenso)"
+          },
+          legalBasis: {
+            title: "4. Base Legale",
+            content: "I nostri trattamenti si basano su:\n• Esecuzione contrattuale: per la fornitura dei nostri servizi\n• Obbligo legale: conformità normativa (KYC, AML)\n• Interesse legittimo: prevenzione frodi, miglioramento servizi\n• Consenso: comunicazioni marketing, cookies non essenziali"
+          },
+          dataSharing: {
+            title: "5. Condivisione dei Dati",
+            content: "I vostri dati possono essere condivisi con:\n• I nostri partner bancari e finanziari\n• Gli organismi di credito e assicurazione\n• Le autorità di regolamentazione (BaFin, ACPR)\n• I nostri fornitori tecnici (sotto contratto rigoroso)\n• Le autorità giudiziarie su richiesta"
+          },
+          retention: {
+            title: "6. Conservazione dei Dati",
+            content: "Conserviamo i vostri dati:\n• Dati cliente attivo: durata del rapporto + 5 anni\n• Dati finanziari: 10 anni dopo la fine del contratto\n• Dati di connessione: massimo 13 mesi\n• Dati marketing: 3 anni dopo l'ultimo contatto"
+          },
+          rights: {
+            title: "7. I Vostri Diritti",
+            content: "Conformemente al GDPR, disponete dei seguenti diritti:\n• Diritto di accesso: ottenere una copia dei vostri dati\n• Diritto di rettifica: correggere i vostri dati inesatti\n• Diritto alla cancellazione: eliminare i vostri dati (sotto condizioni)\n• Diritto di limitazione: limitare il trattamento\n• Diritto di portabilità: recuperare i vostri dati\n• Diritto di opposizione: opporsi al trattamento\n• Diritto di revoca del consenso\nPer esercitare i vostri diritti: privacy@aurex-kpital.de"
+          },
+          security: {
+            title: "8. Sicurezza",
+            content: "Mettiamo in atto misure tecniche e organizzative appropriate:\n• Crittografia dei dati (AES-256)\n• Accesso limitato e controllato\n• Monitoraggio continuo dei sistemi\n• Formazione regolare del personale\n• Audit di sicurezza periodici"
+          },
+          transfers: {
+            title: "9. Trasferimenti Internazionali",
+            content: "Alcuni dati possono essere trasferiti verso paesi terzi con garanzie appropriate (clausole contrattuali tipo, decisioni di adeguatezza della Commissione europea)."
+          },
+          contact: {
+            title: "10. Contatto",
+            content: "Per qualsiasi domanda relativa a questa politica:\nEmail: privacy@aurex-kpital.de\nIndirizzo: Aurex K-pital - DPO, Irma-Keilhack-Ring 24, 22145 Amburgo, Germania\nAvete anche il diritto di presentare un reclamo presso l'autorità di controllo competente (CNIL in Francia, BfDI in Germania)."
+          }
+        }
       },
       terms: {
         title: "Termini e Condizioni d'Uso",
@@ -3836,7 +3920,49 @@ const translations = {
         title: "Polityka Prywatności",
         description: "Ochrona i przetwarzanie danych osobowych",
         lastUpdate: "Ostatnia aktualizacja: 1 grudnia 2024",
-        compliance: "Ta polityka jest zgodna z RODO i obowiązującymi przepisami europejskimi."
+        compliance: "Ta polityka jest zgodna z RODO i obowiązującymi przepisami europejskimi.",
+        sections: {
+          controller: {
+            title: "1. Administrator Danych",
+            content: "Aurex K-pital GmbH, spółka wpisana pod numerem HRB 147852 do rejestru handlowego w Hamburgu, z siedzibą przy Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy.\nInspektor Ochrony Danych: privacy@aurex-kpital.de"
+          },
+          dataCollected: {
+            title: "2. Zbierane Dane",
+            content: "Zbieramy następujące kategorie danych:\n• Dane identyfikacyjne: imię, nazwisko, data urodzenia, narodowość\n• Dane kontaktowe: adres pocztowy, email, telefon\n• Dane finansowe: dochody, majątek, historia bankowa\n• Dane połączenia: adres IP, cookies, logi nawigacji\n• Dane behawioralne: interakcje z naszymi usługami"
+          },
+          purposes: {
+            title: "3. Cele Przetwarzania",
+            content: "Twoje dane są przetwarzane w celu:\n• Wykonywania naszych usług finansowych\n• Oceny Twojej zdolności kredytowej\n• Zapobiegania oszustwom i praniu pieniędzy\n• Wypełniania naszych obowiązków prawnych\n• Ulepszania naszych usług\n• Komunikacji handlowej (za Twoją zgodą)"
+          },
+          legalBasis: {
+            title: "4. Podstawa Prawna",
+            content: "Nasze przetwarzanie opiera się na:\n• Wykonaniu umowy: dla świadczenia naszych usług\n• Obowiązku prawnym: zgodność regulacyjna (KYC, AML)\n• Prawnie uzasadnionym interesie: zapobieganie oszustwom, ulepszanie usług\n• Zgodzie: komunikacja marketingowa, nieistotne pliki cookie"
+          },
+          dataSharing: {
+            title: "5. Udostępnianie Danych",
+            content: "Twoje dane mogą być udostępniane:\n• Naszym partnerom bankowym i finansowym\n• Organizacjom kredytowym i ubezpieczeniowym\n• Organom regulacyjnym (BaFin, ACPR)\n• Naszym dostawcom technicznym (pod ścisłą umową)\n• Organom sądowym na żądanie"
+          },
+          retention: {
+            title: "6. Przechowywanie Danych",
+            content: "Przechowujemy Twoje dane:\n• Dane aktywnego klienta: czas trwania relacji + 5 lat\n• Dane finansowe: 10 lat po zakończeniu umowy\n• Dane połączenia: maksymalnie 13 miesięcy\n• Dane marketingowe: 3 lata po ostatnim kontakcie"
+          },
+          rights: {
+            title: "7. Twoje Prawa",
+            content: "Zgodnie z RODO masz następujące prawa:\n• Prawo dostępu: uzyskanie kopii swoich danych\n• Prawo sprostowania: poprawienie nieprawidłowych danych\n• Prawo do usunięcia: usunięcie danych (pod warunkami)\n• Prawo ograniczenia: ograniczenie przetwarzania\n• Prawo przenośności: odzyskanie swoich danych\n• Prawo sprzeciwu: sprzeciw wobec przetwarzania\n• Prawo cofnięcia zgody\nAby skorzystać z praw: privacy@aurex-kpital.de"
+          },
+          security: {
+            title: "8. Bezpieczeństwo",
+            content: "Wdrażamy odpowiednie środki techniczne i organizacyjne:\n• Szyfrowanie danych (AES-256)\n• Ograniczony i kontrolowany dostęp\n• Ciągłe monitorowanie systemów\n• Regularne szkolenia personelu\n• Okresowe audyty bezpieczeństwa"
+          },
+          transfers: {
+            title: "9. Transfery Międzynarodowe",
+            content: "Niektóre dane mogą być przekazywane do krajów trzecich z odpowiednimi gwarancjami (standardowe klauzule umowne, decyzje o adekwatności Komisji Europejskiej)."
+          },
+          contact: {
+            title: "10. Kontakt",
+            content: "W sprawie pytań dotyczących tej polityki:\nEmail: privacy@aurex-kpital.de\nAdres: Aurex K-pital - DPO, Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy\nMasz również prawo złożyć skargę do właściwego organu nadzorczego (CNIL we Francji, BfDI w Niemczech)."
+          }
+        }
       },
       terms: {
         title: "Regulamin Użytkowania",
