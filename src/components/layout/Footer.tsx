@@ -22,15 +22,6 @@ const Footer = () => {
         { name: t('footer.links.faq'), href: "/faq" },
         { name: t('footer.links.contact'), href: "/contact" }
       ]
-    },
-    {
-      title: t('footer.legal'),
-      links: [
-        { name: t('footer.links.legal'), href: "/mentions-legales" },
-        { name: t('footer.links.privacy'), href: "/mentions-legales#privacy" },
-        { name: t('footer.links.terms'), href: "/mentions-legales#terms" },
-        { name: t('footer.links.gdpr'), href: "/mentions-legales#gdpr" }
-      ]
     }
   ];
 
