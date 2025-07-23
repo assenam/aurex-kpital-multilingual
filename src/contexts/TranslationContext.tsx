@@ -1403,32 +1403,6 @@ const translations = {
         description: "Diese Seite wird in Kürze verfügbar sein."
       }
     },
-    footer: {
-      services: "Dienstleistungen",
-      tools: "Werkzeuge",
-      legal: "Rechtliche Hinweise",
-      privacyPolicy: "Datenschutzrichtlinie",
-      terms: "Allgemeine Geschäftsbedingungen",
-      gdpr: "Datenschutz",
-      description: "Ihr vertrauenswürdiger Partner für alle Ihre Finanzprojekte. Aurex K-pital begleitet Sie mit Expertise und Transparenz.",
-      copyright: "© 2024 Aurex K-pital. Alle Rechte vorbehalten.",
-      establishment: "Lizenzierte Finanzinstitution in Europa",
-      links: {
-        personalLoans: "Privatkredite",
-        proFinancing: "Unternehmensfinanzierung",
-        investments: "Investitionen",
-        insurance: "Versicherungen",
-        simulator: "Kreditrechner",
-        request: "Finanzierungsanfrage",
-        faq: "FAQ",
-        contact: "Kontakt",
-        about: "Über uns",
-        legal: "Impressum",
-        privacy: "Datenschutzrichtlinie",
-        terms: "Allgemeine Geschäftsbedingungen",
-        gdpr: "DSGVO"
-      }
-    },
     partners: {
       title: "Unsere Vertrauenspartner",
       description: "Ein europäisches Exzellenznetzwerk für die besten Finanzlösungen",
@@ -2123,32 +2097,6 @@ const translations = {
       gdpr: {
         title: "Protección de datos",
         description: "Esta página estará disponible pronto."
-      }
-    },
-    footer: {
-      services: "Servicios",
-      tools: "Herramientas",
-      legal: "Aviso legal",
-      privacyPolicy: "Política de privacidad",
-      terms: "Términos y condiciones",
-      gdpr: "Protección de datos",
-      description: "Su socio de confianza para todos sus proyectos financieros. Aurex K-pital le acompaña con experiencia y transparencia.",
-      copyright: "© 2024 Aurex K-pital. Todos los derechos reservados.",
-      establishment: "Institución financiera autorizada en Europa",
-      links: {
-        personalLoans: "Préstamos personales",
-        proFinancing: "Financiación empresarial",
-        investments: "Inversiones",
-        insurance: "Seguros",
-        simulator: "Simulador de préstamos",
-        request: "Solicitud de financiación",
-        faq: "FAQ",
-        contact: "Contacto",
-        about: "Sobre nosotros",
-        legal: "Aviso legal",
-        privacy: "Política de privacidad",
-        terms: "Términos y condiciones",
-        gdpr: "RGPD"
       }
     },
     partners: {
@@ -2911,20 +2859,6 @@ const translations = {
             maybe: "A discutir"
           }
         },
-    footer: {
-      tools: "Strumenti",
-      
-      legal: "Legale",
-      privacyPolicy: "Politica sulla privacy",
-      terms: "Termini e condizioni",
-      mentions: "Note legali",
-      gdpr: "GDPR",
-      rights: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
-      description: "Il vostro partner finanziario di fiducia dal 1997. Eccellenza, innovazione ed esperienza per tutti i vostri progetti finanziari in Europa.",
-      services: "Servizi",
-      copyright: "© 2024 Aurex K-pital. Tutti i diritti riservati.",
-      establishment: "Istituzione finanziaria autorizzata in Europa"
-    },
     page: {
       legal: {
         title: "Avviso legale",
@@ -3674,32 +3608,6 @@ const translations = {
         description: "Ta strona będzie wkrótce dostępna."
       }
     },
-    footer: {
-      services: "Usługi",
-      tools: "Narzędzia",
-      legal: "Informacje prawne",
-      privacyPolicy: "Polityka prywatności",
-      terms: "Warunki i zasady",
-      gdpr: "Ochrona danych",
-      description: "Wasz zaufany partner we wszystkich projektach finansowych. Aurex K-pital towarzyszy Wam z doświadczeniem i przejrzystością.",
-      copyright: "© 2024 Aurex K-pital. Wszelkie prawa zastrzeżone.",
-      establishment: "Licencjonowana instytucja finansowa w Europie",
-      links: {
-        personalLoans: "Kredyty osobiste",
-        proFinancing: "Finansowanie biznesu",
-        investments: "Inwestycje",
-        insurance: "Ubezpieczenia",
-        simulator: "Symulator kredytu",
-        request: "Wniosek o finansowanie",
-        faq: "FAQ",
-        contact: "Kontakt",
-        about: "O nas",
-        legal: "Informacje prawne",
-        privacy: "Polityka prywatności",
-        terms: "Regulamin",
-        gdpr: "RODO"
-      }
-    },
     partners: {
       title: "Nasi Zaufani Partnerzy",
       description: "Europejska sieć doskonałości, aby zapewnić najlepsze rozwiązania finansowe",
@@ -4339,32 +4247,6 @@ const translations = {
         description: "Tämä sivu on pian saatavilla."
       }
     },
-    footer: {
-      services: "Palvelut",
-      tools: "Työkalut",
-      legal: "Laillinen huomautus",
-      privacyPolicy: "Tietosuojakäytäntö",
-      terms: "Käyttöehdot",
-      gdpr: "Tietosuoja",
-      description: "Luotettava kumppanini kaikissa rahoitusprojekteissanne. Aurex K-pital seuraa teitä asiantuntemuksella ja läpinäkyvyydellä.",
-      copyright: "© 2024 Aurex K-pital. Kaikki oikeudet pidätetään.",
-      establishment: "Lisensoitu rahoituslaitos Euroopassa",
-      links: {
-        personalLoans: "Henkilökohtaiset lainat",
-        proFinancing: "Yritysrahoitus",
-        investments: "Sijoitukset",
-        insurance: "Vakuutukset",
-        simulator: "Lainasimulator",
-        request: "Rahoitushakemus",
-        faq: "UKK",
-        contact: "Yhteystiedot",
-        about: "Tietoa meistä",
-        legal: "Oikeudellinen ilmoitus",
-        privacy: "Tietosuojakäytäntö",
-        terms: "Käyttöehdot",
-        gdpr: "GDPR"
-      }
-    },
     partners: {
       title: "Luotettavat Kumppanimme",
       description: "Eurooppalainen huippuosaamisen verkosto parhaimpia rahoitusratkaisuja varten",
@@ -4963,32 +4845,6 @@ const translations = {
       gdpr: {
         title: "Proteção de dados",
         description: "Esta página estará disponível em breve."
-      }
-    },
-    footer: {
-      services: "Serviços",
-      tools: "Ferramentas",
-      legal: "Aviso legal",
-      privacyPolicy: "Política de privacidade",
-      terms: "Termos e condições",
-      gdpr: "Proteção de dados",
-      description: "Vosso parceiro de confiança para todos os vossos projetos financeiros. Aurex K-pital acompanha-vos com competência e transparência.",
-      copyright: "© 2024 Aurex K-pital. Todos os direitos reservados.",
-      establishment: "Instituição financeira licenciada na Europa",
-      links: {
-        personalLoans: "Empréstimos pessoais",
-        proFinancing: "Financiamento empresarial",
-        investments: "Investimentos",
-        insurance: "Seguros",
-        simulator: "Simulador de empréstimo",
-        request: "Pedido de financiamento",
-        faq: "FAQ",
-        contact: "Contacto",
-        about: "Sobre nós",
-        legal: "Informações legais",
-        privacy: "Política de privacidade",
-        terms: "Termos e condições",
-        gdpr: "RGPD"
       }
     },
     partners: {
@@ -5594,32 +5450,6 @@ const translations = {
       gdpr: {
         title: "Προστασία δεδομένων",
         description: "Αυτή η σελίδα θα είναι σύντομα διαθέσιμη."
-      }
-    },
-    footer: {
-      services: "Υπηρεσίες",
-      tools: "Εργαλεία",
-      legal: "Νομική σημείωση",
-      privacyPolicy: "Πολιτική απορρήτου",
-      terms: "Όροι και προϋποθέσεις",
-      gdpr: "Προστασία δεδομένων",
-      description: "Ο αξιόπιστος εταίρος σας για όλα τα χρηματοοικονομικά σας έργα. Η Aurex K-pital σας συνοδεύει με εμπειρία και διαφάνεια.",
-      copyright: "© 2024 Aurex K-pital. Με την επιφύλαξη παντός δικαιώματος.",
-      establishment: "Αδειοδοτημένο χρηματοπιστωτικό ίδρυμα στην Ευρώπη",
-      links: {
-        personalLoans: "Προσωπικά δάνεια",
-        proFinancing: "Επιχειρηματική χρηματοδότηση",
-        investments: "Επενδύσεις",
-        insurance: "Ασφάλειες",
-        simulator: "Προσομοιωτής δανείου",
-        request: "Αίτηση χρηματοδότησης",
-        faq: "Συχνές ερωτήσεις",
-        contact: "Επικοινωνία",
-        about: "Σχετικά με εμάς",
-        legal: "Νομική ειδοποίηση",
-        privacy: "Πολιτική απορρήτου",
-        terms: "Όροι χρήσης",
-        gdpr: "GDPR"
       }
     },
     partners: {
