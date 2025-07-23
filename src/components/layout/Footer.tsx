@@ -19,7 +19,6 @@ const Footer = () => {
       links: [
         { name: t('footer.links.simulator'), href: "/simulateur" },
         { name: t('footer.links.request'), href: "/demande" },
-        { name: t('footer.links.faq'), href: "/faq" },
         { name: t('footer.links.contact'), href: "/contact" }
       ]
     },
