@@ -3,32 +3,32 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Footer = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const footerSections = [
     {
       title: t('footer.services'),
       links: [
-        { name: t('footer.links.personalLoans'), href: "/services#prets" },
-        { name: t('footer.links.proFinancing'), href: "/services#pro" },
-        { name: t('footer.links.investments'), href: "/services#investissements" },
-        { name: t('footer.links.insurance'), href: "/services#assurances" }
+        { name: t('footer.links.personalLoans'), href: `/${language}/services#prets` },
+        { name: t('footer.links.proFinancing'), href: `/${language}/services#pro` },
+        { name: t('footer.links.investments'), href: `/${language}/services#investissements` },
+        { name: t('footer.links.insurance'), href: `/${language}/services#assurances` }
       ]
     },
     {
       title: t('footer.tools'),
       links: [
-        { name: t('footer.links.simulator'), href: "/simulateur" },
-        { name: t('footer.links.request'), href: "/demande" },
-        { name: t('footer.links.contact'), href: "/contact" }
+        { name: t('footer.links.simulator'), href: `/${language}/simulateur` },
+        { name: t('footer.links.request'), href: `/${language}/demande` },
+        { name: t('footer.links.contact'), href: `/${language}/contact` }
       ]
     },
     {
       title: t('footer.legal'),
       links: [
-        { name: t('footer.mentions'), href: "/mentions-legales" },
-        { name: t('footer.privacyPolicy'), href: "/mentions-legales#privacy" },
-        { name: t('footer.terms'), href: "/mentions-legales#terms" },
-        { name: t('footer.gdpr'), href: "/mentions-legales#gdpr" }
+        { name: t('footer.mentions'), href: `/${language}/mentions-legales` },
+        { name: t('footer.privacyPolicy'), href: `/${language}/mentions-legales#privacy` },
+        { name: t('footer.terms'), href: `/${language}/mentions-legales#terms` },
+        { name: t('footer.gdpr'), href: `/${language}/mentions-legales#gdpr` }
       ]
     }
   ];

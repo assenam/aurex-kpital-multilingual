@@ -6,7 +6,7 @@ import { Gem, Building2, TrendingUp, Shield, Sparkles, Target } from 'lucide-rea
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Services = memo(() => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
 
   const services = useMemo(() => [
     {
@@ -114,7 +114,7 @@ const Services = memo(() => {
                   </ul>
                   
                   <Button className="w-full" asChild>
-                    <Link to="/services">
+                    <Link to={`/${language}/services`}>
                       {service.cta}
                     </Link>
                   </Button>
@@ -127,7 +127,7 @@ const Services = memo(() => {
         {/* CTA */}
         <div className="text-center">
           <Button size="lg" asChild>
-            <Link to="/services" className="flex items-center gap-2">
+            <Link to={`/${language}/services`} className="flex items-center gap-2">
               <Target className="h-5 w-5" />
               {t('services.explore')}
             </Link>

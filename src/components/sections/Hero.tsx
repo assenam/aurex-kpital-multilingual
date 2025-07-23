@@ -7,7 +7,7 @@ import { useState, useEffect, useMemo, memo } from 'react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Hero = memo(() => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const offsetY = useParallax();
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
@@ -85,7 +85,7 @@ const Hero = memo(() => {
                   className="btn-magnetic hover-glow bg-gradient-gold hover:shadow-gold text-primary font-bold px-10 py-6 text-xl transition-all duration-500 hover:scale-110 rounded-2xl"
                   asChild
                 >
-                  <Link to="/simulateur" className="flex items-center gap-2">
+                  <Link to={`/${language}/simulateur`} className="flex items-center gap-2">
                     <Sparkles className="h-5 w-5" />
                     {t('home.hero.simulateBtn')}
                   </Link>
@@ -96,7 +96,7 @@ const Hero = memo(() => {
                   className="glass-card hover-lift text-primary-foreground font-semibold px-10 py-6 text-xl rounded-2xl border-2 border-primary-foreground/30"
                   asChild
                 >
-                  <Link to="/demande" className="flex items-center gap-2">
+                  <Link to={`/${language}/demande`} className="flex items-center gap-2">
                     <TrendingUp className="h-5 w-5" />
                     {t('home.hero.ctaBtn')}
                   </Link>

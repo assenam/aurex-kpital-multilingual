@@ -24,7 +24,7 @@ import { CreditCard } from 'lucide-react';
 import { Home } from 'lucide-react';
 
 const Services = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const mainServices = useMemo(() => [
     {
       title: t('services.personalLoan.title'),
@@ -181,13 +181,13 @@ const Services = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
-                <Link to="/simulateur">
+                <Link to={`/${language}/simulateur`}>
                   <Calculator className="h-5 w-5 mr-2" />
                   {t('home.cta.buttons.simulate')}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
-                <Link to="/demande">
+                <Link to={`/${language}/demande`}>
                   <FileText className="h-5 w-5 mr-2" />
                   {t('home.cta.buttons.request')}
                 </Link>
@@ -255,7 +255,7 @@ const Services = () => {
                     </div>
 
                     <Button className={`w-full bg-gradient-to-r ${service.gradient} hover:shadow-lg`} asChild>
-                      <Link to="/demande">
+                      <Link to={`/${language}/demande`}>
                         {t('home.cta.buttons.request')}
                         <ArrowRight className="h-4 w-4 ml-2" />
                       </Link>
@@ -293,7 +293,7 @@ const Services = () => {
                 <CardContent>
                   <div className="text-2xl font-bold text-accent mb-4">{product.rate}</div>
                   <Button variant="outline" size="sm" className="w-full" asChild>
-                    <Link to="/demande">{t('services.discover')}</Link>
+                    <Link to={`/${language}/demande`}>{t('services.discover')}</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -348,13 +348,13 @@ const Services = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4" asChild>
-                <Link to="/demande">
+                <Link to={`/${language}/demande`}>
                   <Users className="h-5 w-5 mr-2" />
                   {t('home.cta.buttons.request')}
                 </Link>
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10" asChild>
-                <Link to="/contact">
+                <Link to={`/${language}/contact`}>
                   <Clock className="h-5 w-5 mr-2" />
                   {t('home.cta.buttons.contact')}
                 </Link>

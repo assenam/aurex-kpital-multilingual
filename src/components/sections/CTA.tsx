@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const CTA = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   
   return (
     <section className="py-20 bg-gradient-primary relative overflow-hidden">
@@ -33,7 +33,7 @@ const CTA = () => {
                 className="bg-gradient-gold hover:shadow-gold text-primary font-semibold px-8 py-4 text-lg transition-all duration-300 hover:scale-105"
                 asChild
               >
-                <Link to="/demande">{t('home.cta.buttons.request')}</Link>
+                <Link to={`/${language}/demande`}>{t('home.cta.buttons.request')}</Link>
               </Button>
               
               <Button 
@@ -42,7 +42,7 @@ const CTA = () => {
                 className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 text-lg backdrop-blur btn-magnetic"
                 asChild
               >
-                <Link to="/simulateur">{t('home.cta.buttons.simulate')}</Link>
+                <Link to={`/${language}/simulateur`}>{t('home.cta.buttons.simulate')}</Link>
               </Button>
               
               <Button 
@@ -51,7 +51,7 @@ const CTA = () => {
                 className="text-primary-foreground hover:bg-primary-foreground/10 px-8 py-4 text-lg hover-glow"
                 asChild
               >
-                <Link to="/contact">{t('home.cta.buttons.contact')}</Link>
+                <Link to={`/${language}/contact`}>{t('home.cta.buttons.contact')}</Link>
               </Button>
             </div>
 

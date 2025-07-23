@@ -9,7 +9,7 @@ import { useMemo } from 'react';
 const AboutPreview = () => {
   const { visibleElements } = useScrollAnimation();
   const offsetY = useParallax();
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
 
   const stats = useMemo(() => [
     { value: "1997", label: t('home.about.stats.founded'), icon: Calendar, gradient: "from-blue-500 to-indigo-600" },
@@ -72,7 +72,7 @@ const AboutPreview = () => {
                 className="btn-magnetic hover-glow bg-gradient-primary hover:shadow-hover text-white font-bold px-8 py-4 text-lg transition-all duration-500 hover:scale-105 rounded-xl"
                 asChild
               >
-                <Link to="/contact" className="flex items-center gap-2">
+                <Link to={`/${language}/contact`} className="flex items-center gap-2">
                   <Target className="h-5 w-5" />
                   {t('home.about.buttons.contact')}
                 </Link>
@@ -83,7 +83,7 @@ const AboutPreview = () => {
                 className="glass-card hover-lift text-primary border-primary/20 font-semibold px-8 py-4 text-lg rounded-xl"
                 asChild
               >
-                <Link to="/contact" className="flex items-center gap-2">
+                <Link to={`/${language}/contact`} className="flex items-center gap-2">
                   <MessageCircle className="h-5 w-5" />
                   {t('home.about.buttons.contact')}
                 </Link>
