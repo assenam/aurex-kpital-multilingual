@@ -394,9 +394,10 @@ const translations = {
         faq: "FAQ",
         contact: "Contact",
         about: "À propos",
-        
+        legal: "Mentions légales",
         privacy: "Politique de confidentialité",
-        terms: "Conditions générales"
+        terms: "Conditions générales",
+        gdpr: "Protection des données (RGPD)"
       }
     },
     home: {
