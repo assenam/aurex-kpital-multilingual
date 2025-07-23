@@ -31,10 +31,15 @@ const Hero = memo(() => {
 
   return (
     <section className="relative min-h-screen w-full overflow-hidden pt-20">
-      {/* Moving Background Image */}
+      {/* Moving Background Image - Responsive */}
       <div className="absolute inset-0 w-full h-full">
         <div 
-          className="absolute w-[200%] h-full bg-cover bg-center animate-scroll-bg"
+          className="absolute 
+            w-[300%] sm:w-[250%] md:w-[200%] lg:w-[180%] xl:w-[150%]
+            h-full 
+            bg-cover bg-center 
+            animate-scroll-bg
+            bg-[center_20%] sm:bg-[center_30%] md:bg-center lg:bg-[center_40%]"
           style={{
             backgroundImage: `url('/lovable-uploads/1c67119d-ec8e-4012-9732-890e885d44a1.png')`
           }}
