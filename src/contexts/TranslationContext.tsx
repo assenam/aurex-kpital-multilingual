@@ -374,7 +374,7 @@ const translations = {
     footer: {
       tools: "Outils",
       
-      legal: "Légal",
+      contact: "Contact",
       privacyPolicy: "Politique de confidentialité",
       terms: "Conditions générales",
       mentions: "Mentions légales",
@@ -394,10 +394,9 @@ const translations = {
         faq: "FAQ",
         contact: "Contact",
         about: "À propos",
-        legal: "Mentions légales",
+        
         privacy: "Politique de confidentialité",
-        terms: "Conditions générales",
-        gdpr: "RGPD"
+        terms: "Conditions générales"
       }
     },
     home: {
