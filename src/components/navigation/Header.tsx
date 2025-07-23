@@ -8,7 +8,6 @@ import { useTranslation } from '@/contexts/TranslationContext';
 import { useMemo } from 'react';
 
 const Header = () => {
-  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -20,11 +19,13 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const { t, language } = useTranslation();
+  
   const navigation = [
-    { name: t('menu.home'), href: '/' },
-    { name: t('menu.services'), href: '/services' },
-    { name: t('menu.simulator'), href: '/simulateur' },
-    { name: t('menu.contact'), href: '/contact' }
+    { name: t('menu.home'), href: `/${language}` },
+    { name: t('menu.services'), href: `/${language}/services` },
+    { name: t('menu.simulator'), href: `/${language}/simulateur` },
+    { name: t('menu.contact'), href: `/${language}/contact` }
   ];
 
   return (
@@ -71,7 +72,7 @@ const Header = () => {
               className="hidden sm:inline-flex bg-gradient-primary hover:shadow-elegant transition-all duration-300"
               asChild
             >
-              <Link to="/demande">{t('menu.request')}</Link>
+              <Link to={`/${language}/demande`}>{t('menu.request')}</Link>
             </Button>
 
             {/* Mobile menu */}
@@ -104,7 +105,7 @@ const Header = () => {
                       className="w-full bg-gradient-primary"
                       asChild
                     >
-                      <Link to="/demande" onClick={() => setIsOpen(false)}>
+                      <Link to={`/${language}/demande`} onClick={() => setIsOpen(false)}>
                         {t('menu.request')}
                       </Link>
                     </Button>

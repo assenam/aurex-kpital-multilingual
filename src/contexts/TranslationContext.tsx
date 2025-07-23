@@ -43,6 +43,15 @@ const populateCache = () => {
 
 export const TranslationProvider: React.FC<TranslationProviderProps> = ({ children }) => {
   const [language, setLanguage] = useState<Language>(() => {
+    // Détection de la langue depuis l'URL
+    const pathLanguage = window.location.pathname.split('/')[1] as Language;
+    const validLanguages: Language[] = ['fr', 'de', 'pl', 'fi', 'es', 'pt', 'el', 'it'];
+    
+    if (validLanguages.includes(pathLanguage)) {
+      localStorage.setItem('preferredLanguage', pathLanguage);
+      return pathLanguage;
+    }
+    
     return (localStorage.getItem('preferredLanguage') as Language) || 'fr';
   });
   const [isLoading] = useState(false);
@@ -56,6 +65,20 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
 
   const changeLanguage = useCallback((newLanguage: Language) => {
     if (newLanguage === language) return;
+    
+    // Navigation vers la nouvelle langue
+    const currentPath = window.location.pathname;
+    const pathSegments = currentPath.split('/');
+    
+    // Remplacer le code langue dans l'URL
+    if (pathSegments[1] && ['fr', 'de', 'pl', 'fi', 'es', 'pt', 'el', 'it'].includes(pathSegments[1])) {
+      pathSegments[1] = newLanguage;
+    } else {
+      pathSegments.splice(1, 0, newLanguage);
+    }
+    
+    const newPath = pathSegments.join('/');
+    window.history.pushState({}, '', newPath);
     
     // Use requestAnimationFrame to ensure smooth transition
     requestAnimationFrame(() => {
