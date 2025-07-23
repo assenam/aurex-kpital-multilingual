@@ -1,15 +1,14 @@
-import { useState, useEffect, useMemo, useCallback } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, ChevronDown } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
 import { useTranslation } from '@/contexts/TranslationContext';
-import type { Language } from '@/contexts/TranslationContext';
+import { useMemo } from 'react';
 
 const Header = () => {
-  const { t, language } = useTranslation();
-  const location = useLocation();
+  const { t } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -21,18 +20,12 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  // Helper function to create language-aware URLs
-  const createLocalizedUrl = useCallback((path: string) => {
-    const cleanPath = path.startsWith('/') ? path.substring(1) : path;
-    return `/${language}${cleanPath ? '/' + cleanPath : ''}`;
-  }, [language]);
-
-  const navigation = useMemo(() => [
-    { name: t('menu.home'), href: createLocalizedUrl('') },
-    { name: t('menu.services'), href: createLocalizedUrl('services') },
-    { name: t('menu.simulator'), href: createLocalizedUrl('simulateur') },
-    { name: t('menu.contact'), href: createLocalizedUrl('contact') }
-  ], [t, createLocalizedUrl]);
+  const navigation = [
+    { name: t('menu.home'), href: '/' },
+    { name: t('menu.services'), href: '/services' },
+    { name: t('menu.simulator'), href: '/simulateur' },
+    { name: t('menu.contact'), href: '/contact' }
+  ];
 
   return (
     <header className={`
@@ -46,7 +39,7 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to={createLocalizedUrl('')} className="flex items-center space-x-3">
+            <Link to="/" className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/1d79ff42-26c3-4b9b-bab8-3c9b2d1e8db2.png" 
                 alt="Aurex K-pital" 
@@ -78,7 +71,7 @@ const Header = () => {
               className="hidden sm:inline-flex bg-gradient-primary hover:shadow-elegant transition-all duration-300"
               asChild
             >
-              <Link to={createLocalizedUrl('demande')}>{t('menu.request')}</Link>
+              <Link to="/demande">{t('menu.request')}</Link>
             </Button>
 
             {/* Mobile menu */}
@@ -111,7 +104,7 @@ const Header = () => {
                       className="w-full bg-gradient-primary"
                       asChild
                     >
-                      <Link to={createLocalizedUrl('demande')} onClick={() => setIsOpen(false)}>
+                      <Link to="/demande" onClick={() => setIsOpen(false)}>
                         {t('menu.request')}
                       </Link>
                     </Button>
