@@ -1737,7 +1737,65 @@ const translations = {
       },
       terms: {
         title: "Allgemeine Geschäftsbedingungen",
-        description: "Nutzungsregeln für unsere Dienste und Plattform"
+        description: "Nutzungsregeln für unsere Dienste und Plattform",
+        sections: {
+          article1: {
+            title: "Artikel 1 - Gegenstand",
+            content: "Diese Allgemeinen Geschäftsbedingungen (AGB) regeln den Zugang und die Nutzung der von Aurex K-pital GmbH über ihre digitale Plattform und Vertriebskanäle angebotenen Dienste."
+          },
+          article2: {
+            title: "Artikel 2 - Annahme der Bedingungen",
+            content: "Die Nutzung unserer Dienste impliziert die vollständige Annahme dieser AGB. Wenn Sie diese Bedingungen nicht akzeptieren, dürfen Sie unsere Dienste nicht nutzen."
+          },
+          article3: {
+            title: "Artikel 3 - Angebotene Dienste",
+            content: "Aurex K-pital bietet folgende Dienste an:\n• Vermittlung von Bankgeschäften\n• Beratung bei Finanzinvestitionen\n• Versicherungsvermittlung\n• Vermögensverwaltung\n• Simulations- und Analysetools"
+          },
+          article4: {
+            title: "Artikel 4 - Zugangsvoraussetzungen",
+            content: "Um unsere Dienste zu nutzen, müssen Sie:\n• Volljährig und geschäftsfähig sein\n• In der Europäischen Union wohnen\n• Genaue und vollständige Informationen bereitstellen\n• Geltende Gesetze und Vorschriften beachten"
+          },
+          article5: {
+            title: "Artikel 5 - Benutzerkonto",
+            content: "Die Kontoerstellung erfordert:\n• Bereitstellung wahrheitsgemäßer Informationen\n• Erstellung eines sicheren Passworts\n• Validierung Ihrer Identität (KYC)\n• Annahme unserer Richtlinien\nSie sind für die Vertraulichkeit Ihrer Zugangsdaten und alle unter Ihrem Konto durchgeführten Aktivitäten verantwortlich."
+          },
+          article6: {
+            title: "Artikel 6 - Pflichten des Nutzers",
+            content: "Bei der Nutzung unserer Dienste verpflichten Sie sich:\n• Genaue Informationen bereitzustellen und aktuell zu halten\n• Die Dienste bestimmungsgemäß zu nutzen\n• Die Sicherheit der Systeme nicht zu beeinträchtigen\n• Rechte an geistigem Eigentum zu respektieren\n• Die Dienste nicht für illegale Zwecke zu nutzen"
+          },
+          article7: {
+            title: "Artikel 7 - Verantwortung von Aurex K-pital",
+            content: "Aurex K-pital verpflichtet sich:\n• Dienste mit Sorgfalt und Professionalität zu erbringen\n• Geltende Finanzvorschriften zu beachten\n• Ihre persönlichen Daten zu schützen\n• Die Sicherheit seiner Systeme aufrechtzuerhalten\nUnsere Haftung ist auf direkte und vorhersehbare Schäden begrenzt. Wir können nicht für finanzielle Verluste aus Ihren Investitionsentscheidungen haftbar gemacht werden."
+          },
+          article8: {
+            title: "Artikel 8 - Geistiges Eigentum",
+            content: "Alle Elemente der Plattform (Texte, Bilder, Logos, Software) sind durch Rechte an geistigem Eigentum geschützt. Jede unbefugte Nutzung ist untersagt."
+          },
+          article9: {
+            title: "Artikel 9 - Verfügbarkeit des Dienstes",
+            content: "Wir bemühen uns, maximale Verfügbarkeit unserer Dienste zu gewährleisten. Unterbrechungen können jedoch für Wartung, Updates oder höhere Gewalt auftreten."
+          },
+          article10: {
+            title: "Artikel 10 - Änderung der AGB",
+            content: "Diese AGB können jederzeit geändert werden. Änderungen treten mit ihrer Veröffentlichung auf der Plattform in Kraft. Es liegt in Ihrer Verantwortung, diese Bedingungen regelmäßig zu konsultieren."
+          },
+          article11: {
+            title: "Artikel 11 - Kündigung",
+            content: "Sie können Ihr Konto jederzeit kündigen. Wir behalten uns das Recht vor, ein Konto bei Verletzung dieser AGB zu sperren oder zu schließen."
+          },
+          article12: {
+            title: "Artikel 12 - Anwendbares Recht und Gerichtsstand",
+            content: "Diese AGB unterliegen deutschem Recht. Bei Streitigkeiten sind ausschließlich die Gerichte in Hamburg zuständig, sofern nicht gesetzlich anders bestimmt."
+          },
+          article13: {
+            title: "Artikel 13 - Mediation",
+            content: "Bei Streitigkeiten können Sie vor einer gerichtlichen Klage eine Mediation beim Mediator des Bundesverbandes deutscher Banken in Anspruch nehmen."
+          },
+          contact: {
+            title: "Kontakt",
+            content: "Für Fragen zu den AGB:\nE-Mail: legal@aurex-kpital.de\nAdresse: Aurex K-pital GmbH, Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland"
+          }
+        }
       },
       gdpr: {
         title: "DSGVO-Konformität",
@@ -2433,7 +2491,65 @@ const translations = {
       },
       terms: {
         title: "Términos y Condiciones de Uso",
-        description: "Reglas de uso de nuestros servicios y plataforma"
+        description: "Reglas de uso de nuestros servicios y plataforma",
+        sections: {
+          article1: {
+            title: "Artículo 1 - Objeto",
+            content: "Estos Términos y Condiciones de Uso (TCU) regulan el acceso y uso de los servicios ofrecidos por Aurex K-pital GmbH a través de su plataforma digital y canales de distribución."
+          },
+          article2: {
+            title: "Artículo 2 - Aceptación de las Condiciones",
+            content: "El uso de nuestros servicios implica la aceptación completa de estos TCU. Si no acepta estas condiciones, no debe utilizar nuestros servicios."
+          },
+          article3: {
+            title: "Artículo 3 - Servicios Ofrecidos",
+            content: "Aurex K-pital ofrece los siguientes servicios:\n• Intermediación en operaciones bancarias\n• Asesoramiento en inversiones financieras\n• Intermediación en seguros\n• Gestión de patrimonio\n• Herramientas de simulación y análisis"
+          },
+          article4: {
+            title: "Artículo 4 - Condiciones de Acceso",
+            content: "Para acceder a nuestros servicios, debe:\n• Ser mayor de edad y tener capacidad jurídica\n• Residir en la Unión Europea\n• Proporcionar información exacta y completa\n• Respetar las leyes y regulaciones aplicables"
+          },
+          article5: {
+            title: "Artículo 5 - Cuenta de Usuario",
+            content: "La creación de una cuenta requiere:\n• Proporcionar información veraz\n• Crear una contraseña segura\n• Validar su identidad (KYC)\n• Aceptar nuestras políticas\nUsted es responsable de la confidencialidad de sus credenciales y de todas las actividades realizadas bajo su cuenta."
+          },
+          article6: {
+            title: "Artículo 6 - Obligaciones del Usuario",
+            content: "Al usar nuestros servicios, se compromete a:\n• Proporcionar información exacta y mantenerla actualizada\n• Usar los servicios conforme a su destino\n• No comprometer la seguridad de los sistemas\n• Respetar los derechos de propiedad intelectual\n• No usar los servicios para fines ilegales"
+          },
+          article7: {
+            title: "Artículo 7 - Responsabilidad de Aurex K-pital",
+            content: "Aurex K-pital se compromete a:\n• Proporcionar servicios con diligencia y profesionalismo\n• Respetar la regulación financiera vigente\n• Proteger sus datos personales\n• Mantener la seguridad de sus sistemas\nNuestra responsabilidad está limitada a daños directos y previsibles. No podemos ser responsables de pérdidas financieras resultantes de sus decisiones de inversión."
+          },
+          article8: {
+            title: "Artículo 8 - Propiedad Intelectual",
+            content: "Todos los elementos de la plataforma (textos, imágenes, logos, software) están protegidos por derechos de propiedad intelectual. Cualquier uso no autorizado está prohibido."
+          },
+          article9: {
+            title: "Artículo 9 - Disponibilidad del Servicio",
+            content: "Nos esforzamos por asegurar la máxima disponibilidad de nuestros servicios. Sin embargo, pueden ocurrir interrupciones por mantenimiento, actualizaciones o fuerza mayor."
+          },
+          article10: {
+            title: "Artículo 10 - Modificación de los TCU",
+            content: "Estos TCU pueden modificarse en cualquier momento. Las modificaciones entran en vigor tras su publicación en la plataforma. Es su responsabilidad consultar regularmente estas condiciones."
+          },
+          article11: {
+            title: "Artículo 11 - Terminación",
+            content: "Puede terminar su cuenta en cualquier momento. Nos reservamos el derecho de suspender o cerrar una cuenta en caso de violación de estos TCU."
+          },
+          article12: {
+            title: "Artículo 12 - Derecho Aplicable y Jurisdicción",
+            content: "Estos TCU se rigen por el derecho alemán. En caso de disputa, los tribunales de Hamburgo son los únicos competentes, salvo disposición legal contraria."
+          },
+          article13: {
+            title: "Artículo 13 - Mediación",
+            content: "En caso de disputa, puede recurrir a la mediación ante el mediador de la Asociación de Bancos Alemanes (Bankenverband) antes de cualquier acción judicial."
+          },
+          contact: {
+            title: "Contacto",
+            content: "Para cualquier pregunta sobre los TCU:\nEmail: legal@aurex-kpital.de\nDirección: Aurex K-pital GmbH, Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+          }
+        }
       },
       gdpr: {
         title: "Cumplimiento RGPD",
@@ -3064,7 +3180,65 @@ const translations = {
       },
       terms: {
         title: "Termini e Condizioni d'Uso",
-        description: "Regole di utilizzo dei nostri servizi e piattaforma"
+        description: "Regole di utilizzo dei nostri servizi e piattaforma",
+        sections: {
+          article1: {
+            title: "Articolo 1 - Oggetto",
+            content: "Questi Termini e Condizioni d'Uso (TCU) regolano l'accesso e l'utilizzo dei servizi offerti da Aurex K-pital GmbH tramite la sua piattaforma digitale e i canali di distribuzione."
+          },
+          article2: {
+            title: "Articolo 2 - Accettazione delle Condizioni",
+            content: "L'uso dei nostri servizi implica l'accettazione completa di questi TCU. Se non accetta queste condizioni, non deve utilizzare i nostri servizi."
+          },
+          article3: {
+            title: "Articolo 3 - Servizi Offerti",
+            content: "Aurex K-pital offre i seguenti servizi:\n• Intermediazione in operazioni bancarie\n• Consulenza in investimenti finanziari\n• Intermediazione assicurativa\n• Gestione patrimoniale\n• Strumenti di simulazione e analisi"
+          },
+          article4: {
+            title: "Articolo 4 - Condizioni di Accesso",
+            content: "Per accedere ai nostri servizi, deve:\n• Essere maggiorenne e avere capacità giuridica\n• Risiedere nell'Unione Europea\n• Fornire informazioni esatte e complete\n• Rispettare le leggi e regolamentazioni applicabili"
+          },
+          article5: {
+            title: "Articolo 5 - Account Utente",
+            content: "La creazione di un account richiede:\n• Fornire informazioni veritiere\n• Creare una password sicura\n• Validare la sua identità (KYC)\n• Accettare le nostre politiche\nÈ responsabile della riservatezza delle sue credenziali e di tutte le attività svolte sotto il suo account."
+          },
+          article6: {
+            title: "Articolo 6 - Obblighi dell'Utente",
+            content: "Utilizzando i nostri servizi, si impegna a:\n• Fornire informazioni accurate e mantenerle aggiornate\n• Utilizzare i servizi secondo la loro destinazione\n• Non compromettere la sicurezza dei sistemi\n• Rispettare i diritti di proprietà intellettuale\n• Non utilizzare i servizi per scopi illegali"
+          },
+          article7: {
+            title: "Articolo 7 - Responsabilità di Aurex K-pital",
+            content: "Aurex K-pital si impegna a:\n• Fornire servizi con diligenza e professionalità\n• Rispettare la regolamentazione finanziaria vigente\n• Proteggere i suoi dati personali\n• Mantenere la sicurezza dei suoi sistemi\nLa nostra responsabilità è limitata ai danni diretti e prevedibili. Non possiamo essere ritenuti responsabili delle perdite finanziarie risultanti dalle sue decisioni di investimento."
+          },
+          article8: {
+            title: "Articolo 8 - Proprietà Intellettuale",
+            content: "Tutti gli elementi della piattaforma (testi, immagini, loghi, software) sono protetti dai diritti di proprietà intellettuale. Qualsiasi uso non autorizzato è vietato."
+          },
+          article9: {
+            title: "Articolo 9 - Disponibilità del Servizio",
+            content: "Ci sforziamo di assicurare la massima disponibilità dei nostri servizi. Tuttavia, possono verificarsi interruzioni per manutenzione, aggiornamenti o forza maggiore."
+          },
+          article10: {
+            title: "Articolo 10 - Modifica dei TCU",
+            content: "Questi TCU possono essere modificati in qualsiasi momento. Le modifiche entrano in vigore dopo la loro pubblicazione sulla piattaforma. È sua responsabilità consultare regolarmente queste condizioni."
+          },
+          article11: {
+            title: "Articolo 11 - Risoluzione",
+            content: "Può risolvere il suo account in qualsiasi momento. Ci riserviamo il diritto di sospendere o chiudere un account in caso di violazione di questi TCU."
+          },
+          article12: {
+            title: "Articolo 12 - Diritto Applicabile e Giurisdizione",
+            content: "Questi TCU sono regolati dal diritto tedesco. In caso di controversia, i tribunali di Amburgo sono i soli competenti, salvo disposizione legale contraria."
+          },
+          article13: {
+            title: "Articolo 13 - Mediazione",
+            content: "In caso di controversia, può ricorrere alla mediazione presso il mediatore dell'Associazione delle Banche Tedesche (Bankenverband) prima di qualsiasi azione giudiziaria."
+          },
+          contact: {
+            title: "Contatto",
+            content: "Per qualsiasi domanda relativa ai TCU:\nEmail: legal@aurex-kpital.de\nIndirizzo: Aurex K-pital GmbH, Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+          }
+        }
       },
       gdpr: {
         title: "Conformità GDPR",
