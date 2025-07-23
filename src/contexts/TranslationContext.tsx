@@ -1093,10 +1093,148 @@ const translations = {
           availability: "Disponible maintenant"
         }
       }
+    },
+    faq: {
+      hero: {
+        badge: "Hilfe und Support",
+        title: "Häufig gestellte",
+        titleHighlight: "Fragen",
+        description: "Finden Sie schnell Antworten auf Ihre häufigsten Fragen zu unseren Finanzdienstleistungen.",
+        searchPlaceholder: "Frage suchen..."
+      },
+      stats: {
+        questions: "Bearbeitete Fragen",
+        satisfaction: "Kundenzufriedenheit",
+        responseTime: "Durchschnittliche Antwortzeit"
+      },
+      categories: {
+        personalLoans: {
+          title: "Privatkredite",
+          questions: {
+            amounts: {
+              question: "Wie hoch sind die Mindest- und Höchstbeträge für einen Privatkredit?",
+              answer: "Unsere Privatkredite reichen von 1.000€ bis 75.000€ mit Laufzeiten von 12 bis 84 Monaten. Der gewährte Betrag hängt von Ihrem Finanzprofil, Ihren Einkünften und Ihrer Rückzahlungsfähigkeit ab."
+            },
+            rates: {
+              question: "Welcher Zinssatz wird angewendet?",
+              answer: "Unsere Zinssätze werden individuell nach Ihrem Profil angepasst. Sie variieren von 2,9% bis 9,9% fester effektiver Jahreszins. Nach Prüfung Ihres Antrags erhalten Sie ein personalisiertes Angebot ohne Verpflichtung."
+            },
+            justification: {
+              question: "Kann ich einen Kredit ohne Verwendungsnachweis erhalten?",
+              answer: "Ja, unsere Privatkredite sind zweckfreie Kredite. Sie müssen uns nicht mitteilen, wofür Sie die Mittel verwenden möchten. Wir bitten Sie jedoch, sie verantwortungsvoll zu nutzen."
+            },
+            timing: {
+              question: "Wie lange dauert es, bis ich die Mittel erhalte?",
+              answer: "Nach Validierung Ihres Antrags und elektronischer Unterzeichnung werden die Mittel normalerweise innerhalb von 48 Werktagen auf Ihr Bankkonto überwiesen. Bei begründeter Dringlichkeit kann eine Überweisung am selben Tag organisiert werden."
+            }
+          }
+        },
+        mortgage: {
+          title: "Immobilienkredite",
+          questions: {
+            downPayment: {
+              question: "Ist ein Eigenkapital zwingend erforderlich?",
+              answer: "Nein, Aurex K-pital bietet 110%-Finanzierungen an, die sowohl den Erwerb als auch die Nebenkosten abdecken. Eigenkapital verbessert jedoch die Kreditkonditionen und reduziert die Gesamtkosten."
+            },
+            propertyTypes: {
+              question: "Welche Arten von Immobilien kann ich finanzieren?",
+              answer: "Wir finanzieren alle Arten von Immobilien: Hauptwohnsitz, Zweitwohnsitz, Mietobjekte, Gewerbeimmobilien, Bauland und Bauprojekte. Jedes Projekt wird individuell geprüft."
+            },
+            duration: {
+              question: "Welche Laufzeiten sind für Immobilienkredite verfügbar?",
+              answer: "Unsere Immobilienkredite haben Laufzeiten von 7 bis 30 Jahren. Die optimale Laufzeit wird entsprechend Ihrer finanziellen Situation und Ihren Zielen bestimmt."
+            },
+            rates: {
+              question: "Wie werden die Zinssätze für Immobilienkredite berechnet?",
+              answer: "Die Zinssätze variieren je nach Laufzeit, Finanzierungsanteil, Art der Immobilie und Ihrem Profil. Derzeit liegen unsere Zinssätze zwischen 3,2% und 4,8% effektiver Jahreszins."
+            }
+          }
+        },
+        investment: {
+          title: "Investitionen",
+          questions: {
+            minimum: {
+              question: "Wie hoch ist die Mindestanlage?",
+              answer: "Unsere Mindestanlage beträgt 10.000€. Dieser Betrag ermöglicht eine angemessene Diversifikation und Zugang zu unseren besten Anlagestrategien."
+            },
+            recommendations: {
+              question: "Wie erstellen Sie Ihre Anlageempfehlungen?",
+              answer: "Unsere Empfehlungen basieren auf einer gründlichen Analyse Ihres Profils, Ihrer Ziele, Ihrer Risikobereitschaft und des Marktumfelds. Unser Expertenteam überwacht die Märkte kontinuierlich."
+            },
+            guarantee: {
+              question: "Gibt es Garantien für die Renditen?",
+              answer: "Investitionen bergen naturgemäß Risiken und vergangene Performances garantieren keine zukünftigen Ergebnisse. Wir konzentrieren uns jedoch auf Risikomanagement und Portfoliodiversifikation."
+            },
+            tracking: {
+              question: "Wie kann ich meine Investitionen verfolgen?",
+              answer: "Sie haben Zugang zu einer Online-Plattform, auf der Sie Ihre Portfolios in Echtzeit verfolgen, detaillierte Berichte erhalten und mit Ihrem Berater kommunizieren können."
+            }
+          }
+        },
+        business: {
+          title: "Unternehmensfinanzierung",
+          questions: {
+            amounts: {
+              question: "Welche Beträge sind für die Unternehmensfinanzierung verfügbar?",
+              answer: "Wir bieten Unternehmensfinanzierungen von 25.000€ bis 5.000.000€ je nach Art des Projekts, der Größe Ihres Unternehmens und Ihrer Finanzlage."
+            },
+            projects: {
+              question: "Welche Arten von Projekten finanzieren Sie?",
+              answer: "Wir finanzieren Unternehmensgründungen, Expansionen, Ausrüstungskäufe, Betriebsmittel, Übernahmen und Immobilienprojekte. Jedes Projekt wird individuell geprüft."
+            },
+            guarantees: {
+              question: "Welche Garantien werden für Unternehmenskredite benötigt?",
+              answer: "Die Garantien variieren je nach Betrag und Projekt: persönliche Bürgschaft, Hypothek, Sicherungsübereignung von Ausrüstung oder Warenlager. Wir suchen nach angepassten Lösungen."
+            },
+            timeline: {
+              question: "Wie lange dauert die Bearbeitung eines Unternehmensfinanzierungsantrags?",
+              answer: "Die Bearbeitung dauert normalerweise 2 bis 6 Wochen je nach Komplexität des Projekts. Für dringende Fälle können wir beschleunigte Verfahren anbieten."
+            }
+          }
+        },
+        account: {
+          title: "Konto und Dienstleistungen",
+          questions: {
+            create: {
+              question: "Wie erstelle ich ein Konto?",
+              answer: "Die Kontoerstellung ist kostenlos und einfach. Klicken Sie auf 'Registrieren', füllen Sie das Formular aus und bestätigen Sie Ihre E-Mail-Adresse. Ein Berater wird Sie dann kontaktieren."
+            },
+            documents: {
+              question: "Welche Dokumente sind für eine Finanzierungsanfrage erforderlich?",
+              answer: "Grundsätzlich: Ausweis, Einkommensnachweise der letzten 3 Monate, Kontoauszüge, Steuerbescheid. Je nach Projekt können zusätzliche Dokumente erforderlich sein."
+            },
+            security: {
+              question: "Wie sicher sind meine persönlichen Daten?",
+              answer: "Ihre Daten werden mit modernster Verschlüsselung geschützt und nur für die Bearbeitung Ihrer Anfragen verwendet. Wir sind DSGVO-konform und verkaufen niemals Ihre Daten."
+            },
+            support: {
+              question: "Wie kann ich den Kundendienst kontaktieren?",
+              answer: "Unser Kundendienst ist per Telefon unter +33759282004, per E-Mail unter contact@aurex-kpital.com oder über den Live-Chat verfügbar. Montag bis Freitag von 8 bis 19 Uhr."
+            }
+          }
+        }
+      },
+      support: {
+        title: "Benötigen Sie weitere Hilfe?",
+        description: "Unser Expertenteam steht Ihnen zur Verfügung, um alle Ihre Fragen zu beantworten.",
+        phone: {
+          title: "Telefon",
+          description: "Sprechen Sie direkt mit einem Berater",
+          hours: "Mo-Fr 8-19 Uhr, Sa 9-17 Uhr"
+        },
+        email: {
+          title: "E-Mail",
+          description: "Senden Sie uns Ihre detaillierten Fragen",
+          response: "Antwort in weniger als 2 Stunden"
+        },
+        chat: {
+          title: "Live-Chat",
+          description: "Chatten Sie sofort mit unseren Beratern",
+          availability: "Jetzt verfügbar"
+        }
+      }
     }
   },
-  de: {
-    // ... keep existing code (all existing German translations)
     request: {
       hero: {
         badge: "Finanzierungsantrag",
@@ -1848,6 +1986,146 @@ const translations = {
         responsibility: {
           title: "Haftung",
           description: "Aurex K-pital bemüht sich, genaue und aktuelle Informationen bereitzustellen. Das Unternehmen kann jedoch nicht die Richtigkeit, Vollständigkeit oder Aktualität der auf dieser Website verbreiteten Informationen garantieren. Die Nutzung der Informationen erfolgt ausschließlich auf eigene Verantwortung des Nutzers."
+        }
+      }
+    },
+    faq: {
+      hero: {
+        badge: "Ayuda y Soporte",
+        title: "Preguntas",
+        titleHighlight: "Frecuentes",
+        description: "Encuentre rápidamente respuestas a sus preguntas más comunes sobre nuestros servicios financieros.",
+        searchPlaceholder: "Buscar una pregunta..."
+      },
+      stats: {
+        questions: "Preguntas procesadas",
+        satisfaction: "Satisfacción del cliente",
+        responseTime: "Tiempo de respuesta promedio"
+      },
+      categories: {
+        personalLoans: {
+          title: "Préstamos personales",
+          questions: {
+            amounts: {
+              question: "¿Cuáles son los importes mínimo y máximo para un préstamo personal?",
+              answer: "Nuestros préstamos personales van de 1.000€ a 75.000€, con duraciones de reembolso de 12 a 84 meses. El importe concedido depende de su perfil financiero, sus ingresos y su capacidad de reembolso."
+            },
+            rates: {
+              question: "¿Cuál es el tipo de interés aplicado?",
+              answer: "Nuestros tipos están personalizados según su perfil. Varían del 2,9% al 9,9% TAE fijo. Se le propondrá un presupuesto personalizado tras el estudio de su expediente, sin compromiso por su parte."
+            },
+            justification: {
+              question: "¿Puedo obtener un préstamo sin justificar su uso?",
+              answer: "Sí, nuestros préstamos personales son créditos sin justificativo. No necesita indicarnos el uso previsto de los fondos. Sin embargo, le pedimos que los utilice de manera responsable."
+            },
+            timing: {
+              question: "¿Cuánto tiempo se necesita para obtener los fondos?",
+              answer: "Tras la validación de su expediente y firma electrónica, los fondos se transfieren generalmente en 48h laborables a su cuenta bancaria. En caso de urgencia justificada, se puede organizar una transferencia el mismo día."
+            }
+          }
+        },
+        mortgage: {
+          title: "Préstamos hipotecarios",
+          questions: {
+            downPayment: {
+              question: "¿Es obligatorio un aporte personal?",
+              answer: "No, Aurex K-pital propone financiaciones al 110% permitiendo cubrir la adquisición y los gastos anexos. Sin embargo, un aporte personal mejora las condiciones del préstamo y reduce el coste total."
+            },
+            propertyTypes: {
+              question: "¿Qué tipos de bienes puedo financiar?",
+              answer: "Financiamos todos los tipos de inmuebles: residencia principal, residencia secundaria, inversión locativa, locales comerciales, terrenos y proyectos de construcción. Cada proyecto es estudiado individualmente."
+            },
+            duration: {
+              question: "¿Qué duraciones están disponibles para los préstamos hipotecarios?",
+              answer: "Nuestros préstamos hipotecarios tienen duraciones de 7 a 30 años. La duración óptima se determina según su situación financiera y sus objetivos."
+            },
+            rates: {
+              question: "¿Cómo se calculan los tipos de interés para los préstamos hipotecarios?",
+              answer: "Los tipos varían según la duración, el porcentaje de financiación, el tipo de bien y su perfil. Actualmente, nuestros tipos oscilan entre el 3,2% y el 4,8% TAE."
+            }
+          }
+        },
+        investment: {
+          title: "Inversiones",
+          questions: {
+            minimum: {
+              question: "¿Cuál es la inversión mínima?",
+              answer: "Nuestra inversión mínima es de 10.000€. Este importe permite una diversificación adecuada y el acceso a nuestras mejores estrategias de inversión."
+            },
+            recommendations: {
+              question: "¿Cómo elaboran sus recomendaciones de inversión?",
+              answer: "Nuestras recomendaciones se basan en un análisis profundo de su perfil, sus objetivos, su tolerancia al riesgo y el entorno de mercado. Nuestro equipo de expertos supervisa los mercados continuamente."
+            },
+            guarantee: {
+              question: "¿Hay garantías sobre los rendimientos?",
+              answer: "Las inversiones conllevan riesgos inherentes y los rendimientos pasados no garantizan resultados futuros. Sin embargo, nos centramos en la gestión de riesgos y la diversificación de carteras."
+            },
+            tracking: {
+              question: "¿Cómo puedo seguir mis inversiones?",
+              answer: "Tiene acceso a una plataforma en línea donde puede seguir sus carteras en tiempo real, recibir informes detallados y comunicarse con su consejero."
+            }
+          }
+        },
+        business: {
+          title: "Financiación empresarial",
+          questions: {
+            amounts: {
+              question: "¿Qué importes están disponibles para la financiación empresarial?",
+              answer: "Ofrecemos financiaciones empresariales de 25.000€ a 5.000.000€ según el tipo de proyecto, el tamaño de su empresa y su situación financiera."
+            },
+            projects: {
+              question: "¿Qué tipos de proyectos financian?",
+              answer: "Financiamos creaciones de empresas, expansiones, compras de equipos, necesidades de tesorería, adquisiciones y proyectos inmobiliarios. Cada proyecto es estudiado individualmente."
+            },
+            guarantees: {
+              question: "¿Qué garantías se requieren para los créditos empresariales?",
+              answer: "Las garantías varían según el importe y el proyecto: aval personal, hipoteca, prenda sobre equipos o stock. Buscamos soluciones adaptadas."
+            },
+            timeline: {
+              question: "¿Cuál es el plazo de tramitación de una solicitud de financiación empresarial?",
+              answer: "La tramitación dura normalmente de 2 a 6 semanas según la complejidad del proyecto. Para casos urgentes, podemos proponer procedimientos acelerados."
+            }
+          }
+        },
+        account: {
+          title: "Cuenta y servicios",
+          questions: {
+            create: {
+              question: "¿Cómo crear una cuenta?",
+              answer: "La creación de cuenta es gratuita y sencilla. Haga clic en 'Registrarse', complete el formulario y confirme su dirección de correo electrónico. Un consejero se pondrá en contacto con usted."
+            },
+            documents: {
+              question: "¿Qué documentos se requieren para una solicitud de financiación?",
+              answer: "Básicamente: documento de identidad, justificantes de ingresos de los últimos 3 meses, extractos bancarios, declaración de impuestos. Según el proyecto, pueden ser necesarios documentos adicionales."
+            },
+            security: {
+              question: "¿Qué seguridad tienen mis datos personales?",
+              answer: "Sus datos están protegidos por cifrado de última generación y solo se utilizan para tratar sus solicitudes. Cumplimos con el RGPD y nunca vendemos sus datos."
+            },
+            support: {
+              question: "¿Cómo contactar con el servicio de atención al cliente?",
+              answer: "Nuestro servicio de atención al cliente está disponible por teléfono en +33759282004, por correo electrónico en contact@aurex-kpital.com o a través del chat en vivo. De lunes a viernes de 8h a 19h."
+            }
+          }
+        }
+      },
+      support: {
+        title: "¿Necesita más ayuda?",
+        description: "Nuestro equipo de expertos está disponible para responder a todas sus preguntas.",
+        phone: {
+          title: "Teléfono",
+          description: "Hable directamente con un consejero",
+          hours: "L-V 8h-19h, S 9h-17h"
+        },
+        email: {
+          title: "Correo electrónico",
+          description: "Envíenos sus preguntas detalladas",
+          response: "Respuesta en menos de 2 horas"
+        },
+        chat: {
+          title: "Chat en vivo",
+          description: "Chatee instantáneamente con nuestros consejeros",
+          availability: "Disponible ahora"
         }
       }
     }
@@ -2646,6 +2924,146 @@ const translations = {
           description: "Aurex K-pital se esfuerza por proporcionar información precisa y actualizada. Sin embargo, la empresa no puede garantizar la exactitud, integridad o actualidad de la información difundida en este sitio. El uso de la información se hace bajo la responsabilidad exclusiva del usuario."
         }
       }
+    },
+    faq: {
+      hero: {
+        badge: "Aiuto e Supporto",
+        title: "Domande",
+        titleHighlight: "Frequenti",
+        description: "Trova rapidamente le risposte alle tue domande più comuni sui nostri servizi finanziari.",
+        searchPlaceholder: "Cerca una domanda..."
+      },
+      stats: {
+        questions: "Domande elaborate",
+        satisfaction: "Soddisfazione del cliente",
+        responseTime: "Tempo di risposta medio"
+      },
+      categories: {
+        personalLoans: {
+          title: "Prestiti personali",
+          questions: {
+            amounts: {
+              question: "Quali sono gli importi minimo e massimo per un prestito personale?",
+              answer: "I nostri prestiti personali vanno da 1.000€ a 75.000€, con durate di rimborso da 12 a 84 mesi. L'importo concesso dipende dal vostro profilo finanziario, dai vostri redditi e dalla vostra capacità di rimborso."
+            },
+            rates: {
+              question: "Qual è il tasso di interesse applicato?",
+              answer: "I nostri tassi sono personalizzati secondo il vostro profilo. Variano dal 2,9% al 9,9% TAEG fisso. Vi sarà proposto un preventivo personalizzato dopo lo studio del vostro dossier, senza impegno da parte vostra."
+            },
+            justification: {
+              question: "Posso ottenere un prestito senza giustificare l'uso?",
+              answer: "Sì, i nostri prestiti personali sono crediti senza giustificativo. Non dovete indicarci l'uso previsto dei fondi. Tuttavia, vi chiediamo di utilizzarli in modo responsabile."
+            },
+            timing: {
+              question: "Quanto tempo serve per ottenere i fondi?",
+              answer: "Dopo la validazione del vostro dossier e la firma elettronica, i fondi sono generalmente trasferiti entro 48h lavorative sul vostro conto bancario. In caso di urgenza giustificata, può essere organizzato un bonifico in giornata."
+            }
+          }
+        },
+        mortgage: {
+          title: "Prestiti immobiliari",
+          questions: {
+            downPayment: {
+              question: "È obbligatorio un apporto personale?",
+              answer: "No, Aurex K-pital propone finanziamenti al 110% permettendo di coprire l'acquisizione e le spese accessorie. Tuttavia, un apporto personale migliora le condizioni del prestito e riduce il costo totale."
+            },
+            propertyTypes: {
+              question: "Che tipi di immobili posso finanziare?",
+              answer: "Finanziamo tutti i tipi di immobili: residenza principale, residenza secondaria, investimento locativo, locali commerciali, terreni e progetti di costruzione. Ogni progetto è studiato individualmente."
+            },
+            duration: {
+              question: "Quali durate sono disponibili per i prestiti immobiliari?",
+              answer: "I nostri prestiti immobiliari hanno durate da 7 a 30 anni. La durata ottimale è determinata secondo la vostra situazione finanziaria e i vostri obiettivi."
+            },
+            rates: {
+              question: "Come si calcolano i tassi di interesse per i prestiti immobiliari?",
+              answer: "I tassi variano secondo la durata, la percentuale di finanziamento, il tipo di bene e il vostro profilo. Attualmente, i nostri tassi oscillano tra il 3,2% e il 4,8% TAEG."
+            }
+          }
+        },
+        investment: {
+          title: "Investimenti",
+          questions: {
+            minimum: {
+              question: "Qual è l'investimento minimo?",
+              answer: "Il nostro investimento minimo è di 10.000€. Questo importo permette una diversificazione adeguata e l'accesso alle nostre migliori strategie di investimento."
+            },
+            recommendations: {
+              question: "Come elaborate le vostre raccomandazioni di investimento?",
+              answer: "Le nostre raccomandazioni si basano su un'analisi approfondita del vostro profilo, dei vostri obiettivi, della vostra tolleranza al rischio e dell'ambiente di mercato. Il nostro team di esperti supervisiona i mercati continuamente."
+            },
+            guarantee: {
+              question: "Ci sono garanzie sui rendimenti?",
+              answer: "Gli investimenti comportano rischi inerenti e i rendimenti passati non garantiscono risultati futuri. Tuttavia, ci concentriamo sulla gestione dei rischi e sulla diversificazione dei portafogli."
+            },
+            tracking: {
+              question: "Come posso seguire i miei investimenti?",
+              answer: "Avete accesso a una piattaforma online dove potete seguire i vostri portafogli in tempo reale, ricevere rapporti dettagliati e comunicare con il vostro consulente."
+            }
+          }
+        },
+        business: {
+          title: "Finanziamento aziendale",
+          questions: {
+            amounts: {
+              question: "Quali importi sono disponibili per il finanziamento aziendale?",
+              answer: "Offriamo finanziamenti aziendali da 25.000€ a 5.000.000€ secondo il tipo di progetto, la dimensione della vostra azienda e la vostra situazione finanziaria."
+            },
+            projects: {
+              question: "Che tipi di progetti finanziate?",
+              answer: "Finanziamo creazioni di aziende, espansioni, acquisti di attrezzature, fabbisogni di tesoreria, acquisizioni e progetti immobiliari. Ogni progetto è studiato individualmente."
+            },
+            guarantees: {
+              question: "Che garanzie sono richieste per i crediti aziendali?",
+              answer: "Le garanzie variano secondo l'importo e il progetto: fideiussione personale, ipoteca, pegno su attrezzature o stock. Cerchiamo soluzioni adatte."
+            },
+            timeline: {
+              question: "Qual è il tempo di elaborazione di una richiesta di finanziamento aziendale?",
+              answer: "L'elaborazione dura normalmente da 2 a 6 settimane secondo la complessità del progetto. Per casi urgenti, possiamo proporre procedure accelerate."
+            }
+          }
+        },
+        account: {
+          title: "Account e servizi",
+          questions: {
+            create: {
+              question: "Come creare un account?",
+              answer: "La creazione dell'account è gratuita e semplice. Cliccate su 'Registrarsi', completate il modulo e confermate il vostro indirizzo email. Un consulente vi contatterà."
+            },
+            documents: {
+              question: "Che documenti sono richiesti per una richiesta di finanziamento?",
+              answer: "Fondamentalmente: documento d'identità, giustificativi di reddito degli ultimi 3 mesi, estratti bancari, dichiarazione dei redditi. Secondo il progetto, possono essere necessari documenti aggiuntivi."
+            },
+            security: {
+              question: "Che sicurezza hanno i miei dati personali?",
+              answer: "I vostri dati sono protetti da crittografia di ultima generazione e utilizzati solo per trattare le vostre richieste. Siamo conformi al GDPR e non vendiamo mai i vostri dati."
+            },
+            support: {
+              question: "Come contattare il servizio clienti?",
+              answer: "Il nostro servizio clienti è disponibile per telefono al +33759282004, per email a contact@aurex-kpital.com o tramite la chat dal vivo. Da lunedì a venerdì dalle 8h alle 19h."
+            }
+          }
+        }
+      },
+      support: {
+        title: "Avete bisogno di ulteriore aiuto?",
+        description: "Il nostro team di esperti è disponibile per rispondere a tutte le vostre domande.",
+        phone: {
+          title: "Telefono",
+          description: "Parlate direttamente con un consulente",
+          hours: "L-V 8h-19h, S 9h-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Inviateci le vostre domande dettagliate",
+          response: "Risposta in meno di 2 ore"
+        },
+        chat: {
+          title: "Chat dal vivo",
+          description: "Chattate istantaneamente con i nostri consulenti",
+          availability: "Disponibile ora"
+        }
+      }
     }
   },
   it: {
@@ -3377,6 +3795,146 @@ const translations = {
           description: "Aurex K-pital si impegna a fornire informazioni accurate e aggiornate. Tuttavia, la società non può garantire l'accuratezza, la completezza o l'attualità delle informazioni diffuse su questo sito. L'uso delle informazioni avviene sotto la responsabilità esclusiva dell'utente."
         }
       }
+    },
+    faq: {
+      hero: {
+        badge: "Pomoc i Wsparcie",
+        title: "Najczęściej zadawane",
+        titleHighlight: "Pytania",
+        description: "Znajdź szybko odpowiedzi na najczęstsze pytania dotyczące naszych usług finansowych.",
+        searchPlaceholder: "Szukaj pytania..."
+      },
+      stats: {
+        questions: "Przetworzonych pytań",
+        satisfaction: "Zadowolenie klientów",
+        responseTime: "Średni czas odpowiedzi"
+      },
+      categories: {
+        personalLoans: {
+          title: "Pożyczki osobiste",
+          questions: {
+            amounts: {
+              question: "Jakie są minimalne i maksymalne kwoty dla pożyczki osobistej?",
+              answer: "Nasze pożyczki osobiste wynoszą od 1 000€ do 75 000€, z okresami spłaty od 12 do 84 miesięcy. Przyznana kwota zależy od Twojego profilu finansowego, dochodów i zdolności spłaty."
+            },
+            rates: {
+              question: "Jaka jest stosowana stopa procentowa?",
+              answer: "Nasze stopy są spersonalizowane według Twojego profilu. Wahają się od 2,9% do 9,9% stałego RRSO. Spersonalizowana oferta zostanie zaproponowana po analizie Twojego wniosku, bez zobowiązań z Twojej strony."
+            },
+            justification: {
+              question: "Czy mogę otrzymać pożyczkę bez uzasadnienia przeznaczenia?",
+              answer: "Tak, nasze pożyczki osobiste to kredyty bez uzasadnienia. Nie musisz nam wskazywać planowanego przeznaczenia środków. Prosimy jednak o odpowiedzialne ich wykorzystanie."
+            },
+            timing: {
+              question: "Ile czasu zajmuje otrzymanie środków?",
+              answer: "Po walidacji Twojego wniosku i podpisie elektronicznym środki są zazwyczaj przekazywane w ciągu 48h roboczych na Twoje konto bankowe. W przypadku uzasadnionej pilności można zorganizować przelew tego samego dnia."
+            }
+          }
+        },
+        mortgage: {
+          title: "Kredyty hipoteczne",
+          questions: {
+            downPayment: {
+              question: "Czy wkład własny jest obowiązkowy?",
+              answer: "Nie, Aurex K-pital oferuje finansowanie 110% pozwalające pokryć nabycie i koszty dodatkowe. Jednak wkład własny poprawia warunki kredytu i zmniejsza całkowity koszt."
+            },
+            propertyTypes: {
+              question: "Jakie rodzaje nieruchomości mogę finansować?",
+              answer: "Finansujemy wszystkie rodzaje nieruchomości: mieszkanie główne, dom letniskowy, inwestycje wynajmu, lokale handlowe, działki i projekty budowlane. Każdy projekt jest analizowany indywidualnie."
+            },
+            duration: {
+              question: "Jakie okresy są dostępne dla kredytów hipotecznych?",
+              answer: "Nasze kredyty hipoteczne mają okresy od 7 do 30 lat. Optymalny okres jest określany zgodnie z Twoją sytuacją finansową i celami."
+            },
+            rates: {
+              question: "Jak obliczane są stopy procentowe dla kredytów hipotecznych?",
+              answer: "Stopy różnią się w zależności od okresu, procentu finansowania, rodzaju nieruchomości i Twojego profilu. Obecnie nasze stopy wahają się od 3,2% do 4,8% RRSO."
+            }
+          }
+        },
+        investment: {
+          title: "Inwestycje",
+          questions: {
+            minimum: {
+              question: "Jaka jest minimalna inwestycja?",
+              answer: "Nasza minimalna inwestycja to 10 000€. Ta kwota pozwala na odpowiednią dywersyfikację i dostęp do naszych najlepszych strategii inwestycyjnych."
+            },
+            recommendations: {
+              question: "Jak opracowujecie swoje rekomendacje inwestycyjne?",
+              answer: "Nasze rekomendacje opierają się na dogłębnej analizie Twojego profilu, celów, tolerancji ryzyka i otoczenia rynkowego. Nasz zespół ekspertów stale monitoruje rynki."
+            },
+            guarantee: {
+              question: "Czy są gwarancje na zwroty?",
+              answer: "Inwestycje niosą ze sobą nieodłączne ryzyko, a wyniki z przeszłości nie gwarantują przyszłych rezultatów. Skupiamy się jednak na zarządzaniu ryzykiem i dywersyfikacji portfeli."
+            },
+            tracking: {
+              question: "Jak mogę śledzić moje inwestycje?",
+              answer: "Masz dostęp do platformy online, gdzie możesz śledzić swoje portfele w czasie rzeczywistym, otrzymywać szczegółowe raporty i komunikować się ze swoim doradcą."
+            }
+          }
+        },
+        business: {
+          title: "Finansowanie biznesowe",
+          questions: {
+            amounts: {
+              question: "Jakie kwoty są dostępne dla finansowania biznesowego?",
+              answer: "Oferujemy finansowanie biznesowe od 25 000€ do 5 000 000€ w zależności od rodzaju projektu, wielkości Twojej firmy i sytuacji finansowej."
+            },
+            projects: {
+              question: "Jakie rodzaje projektów finansujecie?",
+              answer: "Finansujemy tworzenie firm, ekspansje, zakupy wyposażenia, potrzeby gotówkowe, przejęcia i projekty nieruchomościowe. Każdy projekt jest analizowany indywidualnie."
+            },
+            guarantees: {
+              question: "Jakie gwarancje są wymagane dla kredytów biznesowych?",
+              answer: "Gwarancje różnią się w zależności od kwoty i projektu: poręczenie osobiste, hipoteka, zastaw na wyposażeniu lub zapasach. Szukamy dopasowanych rozwiązań."
+            },
+            timeline: {
+              question: "Jaki jest czas rozpatrzenia wniosku o finansowanie biznesowe?",
+              answer: "Rozpatrywanie trwa normalnie od 2 do 6 tygodni w zależności od złożoności projektu. W pilnych przypadkach możemy zaproponować przyspieszone procedury."
+            }
+          }
+        },
+        account: {
+          title: "Konto i usługi",
+          questions: {
+            create: {
+              question: "Jak utworzyć konto?",
+              answer: "Tworzenie konta jest bezpłatne i proste. Kliknij 'Zarejestruj się', wypełnij formularz i potwierdź swój adres email. Doradca skontaktuje się z Tobą."
+            },
+            documents: {
+              question: "Jakie dokumenty są wymagane do wniosku o finansowanie?",
+              answer: "Podstawowo: dokument tożsamości, zaświadczenia o dochodach z ostatnich 3 miesięcy, wyciągi bankowe, zeznanie podatkowe. W zależności od projektu mogą być potrzebne dodatkowe dokumenty."
+            },
+            security: {
+              question: "Jakie bezpieczeństwo mają moje dane osobowe?",
+              answer: "Twoje dane są chronione najnowocześniejszym szyfrowaniem i używane tylko do obsługi Twoich wniosków. Jesteśmy zgodny z RODO i nigdy nie sprzedajemy Twoich danych."
+            },
+            support: {
+              question: "Jak skontaktować się z obsługą klienta?",
+              answer: "Nasza obsługa klienta jest dostępna telefonicznie pod +33759282004, emailem na contact@aurex-kpital.com lub przez czat na żywo. Od poniedziałku do piątku od 8h do 19h."
+            }
+          }
+        }
+      },
+      support: {
+        title: "Potrzebujesz dodatkowej pomocy?",
+        description: "Nasz zespół ekspertów jest dostępny, aby odpowiedzieć na wszystkie Twoje pytania.",
+        phone: {
+          title: "Telefon",
+          description: "Rozmawiaj bezpośrednio z doradcą",
+          hours: "Pn-Pt 8h-19h, Sob 9h-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Wyślij nam swoje szczegółowe pytania",
+          response: "Odpowiedź w mniej niż 2 godziny"
+        },
+        chat: {
+          title: "Czat na żywo",
+          description: "Chatuj natychmiast z naszymi doradcami",
+          availability: "Dostępny teraz"
+        }
+      }
     }
   },
   pl: {
@@ -4021,6 +4579,146 @@ const translations = {
           description: "Aurex K-pital stara się dostarczać dokładne i aktualne informacje. Jednak firma nie może zagwarantować dokładności, kompletności lub aktualności informacji rozpowszechnianych na tej stronie. Korzystanie z informacji odbywa się na wyłączną odpowiedzialność użytkownika."
         }
       }
+    },
+    faq: {
+      hero: {
+        badge: "Apu ja Tuki",
+        title: "Usein kysytyt",
+        titleHighlight: "Kysymykset",
+        description: "Löydä nopeasti vastaukset yleisimpiin kysymyksiisi rahoituspalveluistamme.",
+        searchPlaceholder: "Etsi kysymys..."
+      },
+      stats: {
+        questions: "Käsiteltyjä kysymyksiä",
+        satisfaction: "Asiakastyytyväisyys",
+        responseTime: "Keskimääräinen vastausaika"
+      },
+      categories: {
+        personalLoans: {
+          title: "Henkilökohtaiset lainat",
+          questions: {
+            amounts: {
+              question: "Mitkä ovat henkilökohtaisen lainan minimi- ja maksimimäärät?",
+              answer: "Henkilökohtaiset lainamme ovat 1 000€:sta 75 000€:oon, takaisinmaksuajoilla 12-84 kuukautta. Myönnetty määrä riippuu taloudellisesta profiiliisi, tuloistasi ja takaisinmaksukyvystäsi."
+            },
+            rates: {
+              question: "Mikä on sovellettu korko?",
+              answer: "Korkomme on mukautettu profiiliisi mukaan. Ne vaihtelevat 2,9%:sta 9,9%:iin kiinteänä todellisena vuosikorkona. Henkilökohtainen tarjous ehdotetaan hakemuksesi tutkimisen jälkeen, ilman sitoumusta puoleltasi."
+            },
+            justification: {
+              question: "Voinko saada lainan ilman käyttötarkoituksen perustelua?",
+              answer: "Kyllä, henkilökohtaiset lainamme ovat luottoja ilman perustelua. Sinun ei tarvitse kertoa meille varojen suunniteltua käyttöä. Pyydämme kuitenkin käyttämään niitä vastuullisesti."
+            },
+            timing: {
+              question: "Kuinka kauan kestää saada varat?",
+              answer: "Hakemuksesi validoinnin ja sähköisen allekirjoituksen jälkeen varat siirretään yleensä 48 tunnin kuluessa pankkitilillesi. Perustellun kiireellisyyden tapauksessa voidaan järjestää saman päivän siirto."
+            }
+          }
+        },
+        mortgage: {
+          title: "Asuntolainat",
+          questions: {
+            downPayment: {
+              question: "Onko oma panos pakollinen?",
+              answer: "Ei, Aurex K-pital tarjoaa 110% rahoitusta, joka kattaa hankinnan ja liitännäiskustannukset. Oma panos kuitenkin parantaa lainan ehtoja ja vähentää kokonaiskustannuksia."
+            },
+            propertyTypes: {
+              question: "Millaisia kiinteistöjä voin rahoittaa?",
+              answer: "Rahoitamme kaikentyyppisiä kiinteistöjä: pääasunto, loma-asunto, vuokrasijoitus, liiketilat, tontit ja rakennusprojektit. Jokainen projekti tutkitaan yksilöllisesti."
+            },
+            duration: {
+              question: "Mitä laina-aikoja on saatavilla asuntolainoille?",
+              answer: "Asuntolainojemme laina-ajat ovat 7-30 vuotta. Optimaalinen laina-aika määritetään taloudellisen tilanteesi ja tavoitteidesi mukaan."
+            },
+            rates: {
+              question: "Miten asuntolainojen korot lasketaan?",
+              answer: "Korot vaihtelevat laina-ajan, rahoitusosuuden, kiinteistötyypin ja profiilisi mukaan. Tällä hetkellä korkomme vaihtelevat 3,2%:n ja 4,8%:n välillä todellisena vuosikorkona."
+            }
+          }
+        },
+        investment: {
+          title: "Sijoitukset",
+          questions: {
+            minimum: {
+              question: "Mikä on vähimmäissijoitus?",
+              answer: "Vähimmäissijoituksemme on 10 000€. Tämä määrä mahdollistaa asianmukaisen hajauttamisen ja pääsyn parhaisiin sijoitusstrategioihimme."
+            },
+            recommendations: {
+              question: "Miten laaditte sijoitussuosituksenne?",
+              answer: "Suosituksemme perustuvat syvälliseen analyysiin profiiliistasi, tavoitteistasi, riskinsietokyvystäsi ja markkinaympäristöstä. Asiantuntijatiimimme seuraa markkinoita jatkuvasti."
+            },
+            guarantee: {
+              question: "Onko tuotoille takuita?",
+              answer: "Sijoitukset sisältävät luontaisia riskejä, eivätkä menneet tuotot takaa tulevia tuloksia. Keskitymme kuitenkin riskinhallintaan ja salkun hajauttamiseen."
+            },
+            tracking: {
+              question: "Miten voin seurata sijoituksiani?",
+              answer: "Sinulla on pääsy online-alustalle, jossa voit seurata salkkujasi reaaliajassa, saada yksityiskohtaisia raportteja ja kommunikoida neuvonantajasi kanssa."
+            }
+          }
+        },
+        business: {
+          title: "Yritysrahoitus",
+          questions: {
+            amounts: {
+              question: "Mitä määriä on saatavilla yritysrahoitukseen?",
+              answer: "Tarjoamme yritysrahoitusta 25 000€:sta 5 000 000€:oon projektin tyypin, yrityksesi koon ja taloudellisen tilanteesi mukaan."
+            },
+            projects: {
+              question: "Millaisia projekteja rahoitatte?",
+              answer: "Rahoitamme yritysten perustamisia, laajentumisia, laiteostoja, kassavirtatarpeita, yritysostoja ja kiinteistöprojekteja. Jokainen projekti tutkitaan yksilöllisesti."
+            },
+            guarantees: {
+              question: "Mitä vakuuksia vaaditaan yrityslainoihin?",
+              answer: "Vakuudet vaihtelevat määrän ja projektin mukaan: henkilökohtainen takaus, kiinnitys, pantti laitteisiin tai varastoon. Etsimme sopivia ratkaisuja."
+            },
+            timeline: {
+              question: "Mikä on yritysrahoitushakemuksen käsittelyaika?",
+              answer: "Käsittely kestää tavallisesti 2-6 viikkoa projektin monimutkaisuudesta riippuen. Kiireellisissä tapauksissa voimme tarjota nopeutettuja menettelyjä."
+            }
+          }
+        },
+        account: {
+          title: "Tili ja palvelut",
+          questions: {
+            create: {
+              question: "Miten luon tilin?",
+              answer: "Tilin luominen on ilmaista ja helppoa. Klikkaa 'Rekisteröidy', täytä lomake ja vahvista sähköpostiosoitteesi. Neuvonantaja ottaa sinuun yhteyttä."
+            },
+            documents: {
+              question: "Mitä asiakirjoja rahoitushakemukseen tarvitaan?",
+              answer: "Periaatteessa: henkilöllisyystodistus, tulotodistukset viimeisiltä 3 kuukaudelta, tiliotteet, veroilmoitus. Projektista riippuen voidaan tarvita lisäasiakirjoja."
+            },
+            security: {
+              question: "Miten turvalliset henkilötietoni ovat?",
+              answer: "Tietosi suojataan uusimmalla salauksella ja niitä käytetään vain hakemustesi käsittelyyn. Olemme GDPR-yhteensopivia emmekä koskaan myy tietojasi."
+            },
+            support: {
+              question: "Miten otan yhteyttä asiakaspalveluun?",
+              answer: "Asiakaspalvelumme on saatavilla puhelimitse numerossa +33759282004, sähköpostitse osoitteessa contact@aurex-kpital.com tai live-chatin kautta. Maanantaista perjantaihin klo 8-19."
+            }
+          }
+        }
+      },
+      support: {
+        title: "Tarvitsetko lisää apua?",
+        description: "Asiantuntijatiimimme on käytettävissä vastaamaan kaikkiin kysymyksiisi.",
+        phone: {
+          title: "Puhelin",
+          description: "Puhu suoraan neuvonantajan kanssa",
+          hours: "Ma-Pe 8-19, La 9-17"
+        },
+        email: {
+          title: "Sähköposti",
+          description: "Lähetä meille yksityiskohtaiset kysymyksesi",
+          response: "Vastaus alle 2 tunnissa"
+        },
+        chat: {
+          title: "Live-chat",
+          description: "Keskustele välittömästi neuvonantajiemme kanssa",
+          availability: "Saatavilla nyt"
+        }
+      }
     }
   },
   fi: {
@@ -4613,6 +5311,146 @@ const translations = {
         responsibility: {
           title: "Vastuu",
           description: "Aurex K-pital pyrkii tarjoamaan tarkkoja ja ajantasaisia tietoja. Yritys ei kuitenkaan voi taata tällä sivustolla levitettyjen tietojen tarkkuutta, täydellisyyttä tai ajantasaisuutta. Tietojen käyttö tapahtuu käyttäjän omalla vastuulla."
+        }
+      }
+    },
+    faq: {
+      hero: {
+        badge: "Ajuda e Suporte",
+        title: "Perguntas",
+        titleHighlight: "Frequentes",
+        description: "Encontre rapidamente respostas às suas perguntas mais comuns sobre os nossos serviços financeiros.",
+        searchPlaceholder: "Procurar uma pergunta..."
+      },
+      stats: {
+        questions: "Perguntas processadas",
+        satisfaction: "Satisfação do cliente",
+        responseTime: "Tempo de resposta médio"
+      },
+      categories: {
+        personalLoans: {
+          title: "Empréstimos pessoais",
+          questions: {
+            amounts: {
+              question: "Quais são os valores mínimo e máximo para um empréstimo pessoal?",
+              answer: "Os nossos empréstimos pessoais vão de 1.000€ a 75.000€, com prazos de reembolso de 12 a 84 meses. O valor concedido depende do seu perfil financeiro, os seus rendimentos e a sua capacidade de reembolso."
+            },
+            rates: {
+              question: "Qual é a taxa de juro aplicada?",
+              answer: "As nossas taxas são personalizadas segundo o seu perfil. Variam de 2,9% a 9,9% TAEG fixo. Ser-lhe-á proposto um orçamento personalizado após estudo do seu processo, sem compromisso da sua parte."
+            },
+            justification: {
+              question: "Posso obter um empréstimo sem justificar o uso?",
+              answer: "Sim, os nossos empréstimos pessoais são créditos sem justificativo. Não precisa de nos indicar o uso previsto dos fundos. No entanto, pedimos que os utilize de forma responsável."
+            },
+            timing: {
+              question: "Quanto tempo é necessário para obter os fundos?",
+              answer: "Após validação do seu processo e assinatura eletrónica, os fundos são geralmente transferidos em 48h úteis para a sua conta bancária. Em caso de urgência justificada, pode ser organizada uma transferência no mesmo dia."
+            }
+          }
+        },
+        mortgage: {
+          title: "Empréstimos imobiliários",
+          questions: {
+            downPayment: {
+              question: "É obrigatório um aporte pessoal?",
+              answer: "Não, a Aurex K-pital propõe financiamentos a 110% permitindo cobrir a aquisição e as despesas anexas. No entanto, um aporte pessoal melhora as condições do empréstimo e reduz o custo total."
+            },
+            propertyTypes: {
+              question: "Que tipos de imóveis posso financiar?",
+              answer: "Financiamos todos os tipos de imóveis: residência principal, residência secundária, investimento de arrendamento, locais comerciais, terrenos e projetos de construção. Cada projeto é estudado individualmente."
+            },
+            duration: {
+              question: "Que prazos estão disponíveis para empréstimos imobiliários?",
+              answer: "Os nossos empréstimos imobiliários têm prazos de 7 a 30 anos. O prazo ótimo é determinado segundo a sua situação financeira e os seus objetivos."
+            },
+            rates: {
+              question: "Como se calculam as taxas de juro para empréstimos imobiliários?",
+              answer: "As taxas variam segundo o prazo, a percentagem de financiamento, o tipo de imóvel e o seu perfil. Atualmente, as nossas taxas oscilam entre 3,2% e 4,8% TAEG."
+            }
+          }
+        },
+        investment: {
+          title: "Investimentos",
+          questions: {
+            minimum: {
+              question: "Qual é o investimento mínimo?",
+              answer: "O nosso investimento mínimo é de 10.000€. Este valor permite uma diversificação adequada e o acesso às nossas melhores estratégias de investimento."
+            },
+            recommendations: {
+              question: "Como elaboram as suas recomendações de investimento?",
+              answer: "As nossas recomendações baseiam-se numa análise aprofundada do seu perfil, dos seus objetivos, da sua tolerância ao risco e do ambiente de mercado. A nossa equipa de especialistas supervisiona os mercados continuamente."
+            },
+            guarantee: {
+              question: "Há garantias sobre os rendimentos?",
+              answer: "Os investimentos comportam riscos inerentes e os rendimentos passados não garantem resultados futuros. No entanto, focamo-nos na gestão de riscos e na diversificação de carteiras."
+            },
+            tracking: {
+              question: "Como posso acompanhar os meus investimentos?",
+              answer: "Tem acesso a uma plataforma online onde pode acompanhar as suas carteiras em tempo real, receber relatórios detalhados e comunicar com o seu consultor."
+            }
+          }
+        },
+        business: {
+          title: "Financiamento empresarial",
+          questions: {
+            amounts: {
+              question: "Que valores estão disponíveis para o financiamento empresarial?",
+              answer: "Oferecemos financiamentos empresariais de 25.000€ a 5.000.000€ segundo o tipo de projeto, o tamanho da sua empresa e a sua situação financeira."
+            },
+            projects: {
+              question: "Que tipos de projetos financiam?",
+              answer: "Financiamos criações de empresas, expansões, compras de equipamentos, necessidades de tesouraria, aquisições e projetos imobiliários. Cada projeto é estudado individualmente."
+            },
+            guarantees: {
+              question: "Que garantias são exigidas para os créditos empresariais?",
+              answer: "As garantias variam segundo o valor e o projeto: aval pessoal, hipoteca, penhor sobre equipamentos ou stock. Procuramos soluções adaptadas."
+            },
+            timeline: {
+              question: "Qual é o prazo de tratamento de um pedido de financiamento empresarial?",
+              answer: "O tratamento dura normalmente de 2 a 6 semanas segundo a complexidade do projeto. Para casos urgentes, podemos propor procedimentos acelerados."
+            }
+          }
+        },
+        account: {
+          title: "Conta e serviços",
+          questions: {
+            create: {
+              question: "Como criar uma conta?",
+              answer: "A criação de conta é gratuita e simples. Clique em 'Registar-se', complete o formulário e confirme o seu endereço de email. Um consultor contactá-lo-á."
+            },
+            documents: {
+              question: "Que documentos são exigidos para um pedido de financiamento?",
+              answer: "Basicamente: documento de identidade, comprovativos de rendimentos dos últimos 3 meses, extratos bancários, declaração de impostos. Segundo o projeto, podem ser necessários documentos adicionais."
+            },
+            security: {
+              question: "Que segurança têm os meus dados pessoais?",
+              answer: "Os seus dados estão protegidos por encriptação de última geração e utilizados apenas para tratar os seus pedidos. Somos conformes com o RGPD e nunca vendemos os seus dados."
+            },
+            support: {
+              question: "Como contactar o serviço de apoio ao cliente?",
+              answer: "O nosso serviço de apoio ao cliente está disponível por telefone em +33759282004, por email em contact@aurex-kpital.com ou através do chat ao vivo. De segunda a sexta das 8h às 19h."
+            }
+          }
+        }
+      },
+      support: {
+        title: "Precisa de mais ajuda?",
+        description: "A nossa equipa de especialistas está disponível para responder a todas as suas perguntas.",
+        phone: {
+          title: "Telefone",
+          description: "Fale diretamente com um consultor",
+          hours: "2ª-6ª 8h-19h, Sáb 9h-17h"
+        },
+        email: {
+          title: "Email",
+          description: "Envie-nos as suas perguntas detalhadas",
+          response: "Resposta em menos de 2 horas"
+        },
+        chat: {
+          title: "Chat ao vivo",
+          description: "Converse instantaneamente com os nossos consultores",
+          availability: "Disponível agora"
         }
       }
     }
@@ -5210,6 +6048,146 @@ const translations = {
         responsibility: {
           title: "Responsabilidade",
           description: "A Aurex K-pital esforça-se por fornecer informações precisas e atualizadas. No entanto, a empresa não pode garantir a exatidão, integridade ou atualidade das informações divulgadas neste site. O uso das informações é feito sob a responsabilidade exclusiva do utilizador."
+        }
+      }
+    },
+    faq: {
+      hero: {
+        badge: "Βοήθεια και Υποστήριξη",
+        title: "Συχνές",
+        titleHighlight: "Ερωτήσεις",
+        description: "Βρείτε γρήγορα απαντήσεις στις πιο συνηθισμένες ερωτήσεις σας για τις χρηματοοικονομικές μας υπηρεσίες.",
+        searchPlaceholder: "Αναζήτηση ερώτησης..."
+      },
+      stats: {
+        questions: "Ερωτήσεις που επεξεργάστηκαν",
+        satisfaction: "Ικανοποίηση πελατών",
+        responseTime: "Μέσος χρόνος απόκρισης"
+      },
+      categories: {
+        personalLoans: {
+          title: "Προσωπικά δάνεια",
+          questions: {
+            amounts: {
+              question: "Ποια είναι τα ελάχιστα και μέγιστα ποσά για ένα προσωπικό δάνειο;",
+              answer: "Τα προσωπικά μας δάνεια κυμαίνονται από 1.000€ έως 75.000€, με διάρκεια αποπληρωμής από 12 έως 84 μήνες. Το ποσό που χορηγείται εξαρτάται από το χρηματοοικονομικό σας προφίλ, τα εισοδήματά σας και την ικανότητα αποπληρωμής σας."
+            },
+            rates: {
+              question: "Ποιο είναι το επιτόκιο που εφαρμόζεται;",
+              answer: "Τα επιτόκιά μας είναι εξατομικευμένα σύμφωνα με το προφίλ σας. Κυμαίνονται από 2,9% έως 9,9% σταθερό ΕΠΣ. Θα σας προταθεί μια εξατομικευμένη προσφορά μετά τη μελέτη του φακέλου σας, χωρίς δέσμευση από μέρους σας."
+            },
+            justification: {
+              question: "Μπορώ να πάρω δάνειο χωρίς να δικαιολογήσω τη χρήση;",
+              answer: "Ναι, τα προσωπικά μας δάνεια είναι πιστώσεις χωρίς δικαιολογητικό. Δεν χρειάζεται να μας υποδείξετε την προβλεπόμενη χρήση των κεφαλαίων. Ωστόσο, σας ζητάμε να τα χρησιμοποιείτε υπεύθυνα."
+            },
+            timing: {
+              question: "Πόσος χρόνος χρειάζεται για να λάβω τα κεφάλαια;",
+              answer: "Μετά την επικύρωση του φακέλου σας και την ηλεκτρονική υπογραφή, τα κεφάλαια μεταφέρονται συνήθως εντός 48ω σε εργάσιμες ημέρες στον τραπεζικό σας λογαριασμό. Σε περίπτωση δικαιολογημένης επείγουσας ανάγκης, μπορεί να οργανωθεί μεταφορά την ίδια μέρα."
+            }
+          }
+        },
+        mortgage: {
+          title: "Στεγαστικά δάνεια",
+          questions: {
+            downPayment: {
+              question: "Είναι υποχρεωτική η προσωπική συμμετοχή;",
+              answer: "Όχι, η Aurex K-pital προτείνει χρηματοδοτήσεις 110% που επιτρέπουν την κάλυψη της απόκτησης και των παρεπόμενων εξόδων. Ωστόσο, μια προσωπική συμμετοχή βελτιώνει τους όρους του δανείου και μειώνει το συνολικό κόστος."
+            },
+            propertyTypes: {
+              question: "Τι είδους ακίνητα μπορώ να χρηματοδοτήσω;",
+              answer: "Χρηματοδοτούμε όλα τα είδη ακινήτων: κύρια κατοικία, δευτερεύουσα κατοικία, επενδυτική ενοικίαση, εμπορικούς χώρους, οικόπεδα και κατασκευαστικά έργα. Κάθε έργο μελετάται ξεχωριστά."
+            },
+            duration: {
+              question: "Ποιες διάρκειες είναι διαθέσιμες για στεγαστικά δάνεια;",
+              answer: "Τα στεγαστικά μας δάνεια έχουν διάρκεια από 7 έως 30 χρόνια. Η βέλτιστη διάρκεια καθορίζεται σύμφωνα με την οικονομική σας κατάσταση και τους στόχους σας."
+            },
+            rates: {
+              question: "Πώς υπολογίζονται τα επιτόκια για τα στεγαστικά δάνεια;",
+              answer: "Τα επιτόκια διαφέρουν ανάλογα με τη διάρκεια, το ποσοστό χρηματοδότησης, τον τύπο του ακινήτου και το προφίλ σας. Επί του παρόντος, τα επιτόκιά μας κυμαίνονται μεταξύ 3,2% και 4,8% ΕΠΣ."
+            }
+          }
+        },
+        investment: {
+          title: "Επενδύσεις",
+          questions: {
+            minimum: {
+              question: "Ποια είναι η ελάχιστη επένδυση;",
+              answer: "Η ελάχιστη επένδυσή μας είναι 10.000€. Αυτό το ποσό επιτρέπει την κατάλληλη διαφοροποίηση και την πρόσβαση στις καλύτερες επενδυτικές μας στρατηγικές."
+            },
+            recommendations: {
+              question: "Πώς εκπονείτε τις επενδυτικές σας συστάσεις;",
+              answer: "Οι συστάσεις μας βασίζονται σε μια εις βάθος ανάλυση του προφίλ σας, των στόχων σας, της ανοχής σας στον κίνδυνο και του περιβάλλοντος της αγοράς. Η ομάδα των ειδικών μας παρακολουθεί συνεχώς τις αγορές."
+            },
+            guarantee: {
+              question: "Υπάρχουν εγγυήσεις για τις αποδόσεις;",
+              answer: "Οι επενδύσεις συνεπάγονται εγγενείς κινδύνους και οι παλαιότερες αποδόσεις δεν εγγυώνται μελλοντικά αποτελέσματα. Ωστόσο, εστιάζουμε στη διαχείριση κινδύνων και τη διαφοροποίηση χαρτοφυλακίων."
+            },
+            tracking: {
+              question: "Πώς μπορώ να παρακολουθήσω τις επενδύσεις μου;",
+              answer: "Έχετε πρόσβαση σε μια διαδικτυακή πλατφόρμα όπου μπορείτε να παρακολουθείτε τα χαρτοφυλάκιά σας σε πραγματικό χρόνο, να λαμβάνετε λεπτομερείς αναφορές και να επικοινωνείτε με τον σύμβουλό σας."
+            }
+          }
+        },
+        business: {
+          title: "Επιχειρηματική χρηματοδότηση",
+          questions: {
+            amounts: {
+              question: "Ποια ποσά είναι διαθέσιμα για επιχειρηματική χρηματοδότηση;",
+              answer: "Προσφέρουμε επιχειρηματικές χρηματοδοτήσεις από 25.000€ έως 5.000.000€ ανάλογα με τον τύπο του έργου, το μέγεθος της εταιρείας σας και την οικονομική σας κατάσταση."
+            },
+            projects: {
+              question: "Τι είδους έργα χρηματοδοτείτε;",
+              answer: "Χρηματοδοτούμε δημιουργίες εταιρειών, επεκτάσεις, αγορές εξοπλισμού, ανάγκες ταμείου, εξαγορές και ακίνητα έργα. Κάθε έργο μελετάται ξεχωριστά."
+            },
+            guarantees: {
+              question: "Τι εγγυήσεις απαιτούνται για επιχειρηματικά δάνεια;",
+              answer: "Οι εγγυήσεις διαφέρουν ανάλογα με το ποσό και το έργο: προσωπική εγγύηση, υποθήκη, ενέχυρο επί εξοπλισμού ή αποθέματος. Αναζητούμε προσαρμοσμένες λύσεις."
+            },
+            timeline: {
+              question: "Ποιος είναι ο χρόνος επεξεργασίας μιας αίτησης επιχειρηματικής χρηματοδότησης;",
+              answer: "Η επεξεργασία διαρκεί συνήθως από 2 έως 6 εβδομάδες ανάλογα με την πολυπλοκότητα του έργου. Για επείγουσες περιπτώσεις, μπορούμε να προτείνουμε επιταχυνόμενες διαδικασίες."
+            }
+          }
+        },
+        account: {
+          title: "Λογαριασμός και υπηρεσίες",
+          questions: {
+            create: {
+              question: "Πώς να δημιουργήσω έναν λογαριασμό;",
+              answer: "Η δημιουργία λογαριασμού είναι δωρεάν και απλή. Κάντε κλικ στο 'Εγγραφή', συμπληρώστε τη φόρμα και επιβεβαιώστε τη διεύθυνση email σας. Ένας σύμβουλος θα επικοινωνήσει μαζί σας."
+            },
+            documents: {
+              question: "Τι έγγραφα απαιτούνται για μια αίτηση χρηματοδότησης;",
+              answer: "Βασικά: ταυτότητα, αποδεικτικά εισοδημάτων των τελευταίων 3 μηνών, τραπεζικά αντίγραφα, φορολογική δήλωση. Ανάλογα με το έργο, μπορεί να χρειαστούν επιπλέον έγγραφα."
+            },
+            security: {
+              question: "Τι ασφάλεια έχουν τα προσωπικά μου δεδομένα;",
+              answer: "Τα δεδομένα σας προστατεύονται με κρυπτογράφηση τελευταίας γενιάς και χρησιμοποιούνται μόνο για την επεξεργασία των αιτήσεών σας. Συμμορφωνόμαστε με τον GDPR και δεν πουλάμε ποτέ τα δεδομένα σας."
+            },
+            support: {
+              question: "Πώς να επικοινωνήσω με την εξυπηρέτηση πελατών;",
+              answer: "Η εξυπηρέτηση πελατών μας είναι διαθέσιμη τηλεφωνικά στο +33759282004, μέσω email στο contact@aurex-kpital.com ή μέσω ζωντανής συνομιλίας. Δευτέρα έως Παρασκευή από 8π.μ. έως 7μ.μ."
+            }
+          }
+        }
+      },
+      support: {
+        title: "Χρειάζεστε περισσότερη βοήθεια;",
+        description: "Η ομάδα ειδικών μας είναι διαθέσιμη για να απαντήσει σε όλες τις ερωτήσεις σας.",
+        phone: {
+          title: "Τηλέφωνο",
+          description: "Μιλήστε απευθείας με έναν σύμβουλο",
+          hours: "Δε-Πα 8π.μ.-7μ.μ., Σάβ 9π.μ.-5μ.μ."
+        },
+        email: {
+          title: "Email",
+          description: "Στείλτε μας τις λεπτομερείς ερωτήσεις σας",
+          response: "Απάντηση σε λιγότερο από 2 ώρες"
+        },
+        chat: {
+          title: "Ζωντανή συνομιλία",
+          description: "Συνομιλήστε άμεσα με τους συμβούλους μας",
+          availability: "Διαθέσιμο τώρα"
         }
       }
     }
