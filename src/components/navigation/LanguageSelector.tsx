@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { useTranslation } from '@/contexts/TranslationContext';
+import { useNavigate, useLocation } from 'react-router-dom';
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -21,7 +22,9 @@ const languages = [
 ];
 
 export const LanguageSelector = () => {
-  const { language, changeLanguage } = useTranslation();
+  const { language } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
   const [currentLang, setCurrentLang] = useState(() => {
     return languages.find(lang => lang.code === language) || languages[0];
   });
@@ -33,7 +36,12 @@ export const LanguageSelector = () => {
 
   const handleLanguageChange = (selectedLanguage: typeof languages[0]) => {
     setCurrentLang(selectedLanguage);
-    changeLanguage(selectedLanguage.code as any);
+    // Replace the current language in the URL with the new language
+    const currentPath = location.pathname;
+    const pathSegments = currentPath.split('/');
+    pathSegments[1] = selectedLanguage.code; // Replace language segment
+    const newPath = pathSegments.join('/');
+    navigate(newPath);
   };
 
   return (

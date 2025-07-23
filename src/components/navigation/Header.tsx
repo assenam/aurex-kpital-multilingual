@@ -1,14 +1,13 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { Menu, ChevronDown } from 'lucide-react';
 import { LanguageSelector } from './LanguageSelector';
 import { useTranslation } from '@/contexts/TranslationContext';
-import { useMemo } from 'react';
 
 const Header = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -21,10 +20,10 @@ const Header = () => {
   }, []);
 
   const navigation = [
-    { name: t('menu.home'), href: '/' },
-    { name: t('menu.services'), href: '/services' },
-    { name: t('menu.simulator'), href: '/simulateur' },
-    { name: t('menu.contact'), href: '/contact' }
+    { name: t('menu.home'), href: `/${language}` },
+    { name: t('menu.services'), href: `/${language}/services` },
+    { name: t('menu.simulator'), href: `/${language}/simulateur` },
+    { name: t('menu.contact'), href: `/${language}/contact` }
   ];
 
   return (
@@ -39,7 +38,7 @@ const Header = () => {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center space-x-3">
+            <Link to={`/${language}`} className="flex items-center space-x-3">
               <img 
                 src="/lovable-uploads/1d79ff42-26c3-4b9b-bab8-3c9b2d1e8db2.png" 
                 alt="Aurex K-pital" 
@@ -71,7 +70,7 @@ const Header = () => {
               className="hidden sm:inline-flex bg-gradient-primary hover:shadow-elegant transition-all duration-300"
               asChild
             >
-              <Link to="/demande">{t('menu.request')}</Link>
+              <Link to={`/${language}/demande`}>{t('menu.request')}</Link>
             </Button>
 
             {/* Mobile menu */}
@@ -104,7 +103,7 @@ const Header = () => {
                       className="w-full bg-gradient-primary"
                       asChild
                     >
-                      <Link to="/demande" onClick={() => setIsOpen(false)}>
+                      <Link to={`/${language}/demande`} onClick={() => setIsOpen(false)}>
                         {t('menu.request')}
                       </Link>
                     </Button>
