@@ -137,37 +137,187 @@ const Legal = () => {
                     </div>
                   </div>
 
-                  {t('legal.privacy.sections.controller.title') && (
+                  {/* Section 1 - Responsable du Traitement */}
+                  {t('legal.privacy.sections.controller.title') ? (
                     <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.controller.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.controller.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">1. Responsable du Traitement</h3>
+                      <p>Aurex K-pital GmbH, société immatriculée sous le numéro HRB 147852 au registre du commerce de Hamburg, dont le siège social est situé Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne.</p>
+                      <p><strong>Délégué à la Protection des Données :</strong> privacy@aurex-kpital.de</p>
+                    </>
+                  )}
 
+                  {/* Section 2 - Données Collectées */}
+                  {t('legal.privacy.sections.dataCollected.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.dataCollected.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.dataCollected.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">2. Données Collectées</h3>
+                      <p>Nous collectons les catégories de données suivantes :</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li><strong>Données d'identification :</strong> nom, prénom, date de naissance, nationalité</li>
+                        <li><strong>Coordonnées :</strong> adresse postale, email, téléphone</li>
+                        <li><strong>Données financières :</strong> revenus, patrimoine, historique bancaire</li>
+                        <li><strong>Données de connexion :</strong> adresse IP, cookies, logs de navigation</li>
+                        <li><strong>Données comportementales :</strong> interactions avec nos services</li>
+                      </ul>
+                    </>
+                  )}
 
+                  {/* Section 3 - Finalités du Traitement */}
+                  {t('legal.privacy.sections.purposes.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.purposes.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.purposes.content')}</div>
-
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">3. Finalités du Traitement</h3>
+                      <p>Vos données sont traitées pour :</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li>L'exécution de nos services financiers</li>
+                        <li>L'évaluation de votre solvabilité</li>
+                        <li>La prévention de la fraude et le blanchiment</li>
+                        <li>Le respect de nos obligations légales</li>
+                        <li>L'amélioration de nos services</li>
+                        <li>La communication commerciale (avec votre consentement)</li>
+                      </ul>
+                    </>
+                  )}
+                  {/* Section 4 - Base Légale */}
+                  {t('legal.privacy.sections.legalBasis.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.legalBasis.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.legalBasis.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">4. Base Légale</h3>
+                      <p>Nos traitements sont fondés sur :</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li><strong>Exécution contractuelle :</strong> pour la fourniture de nos services</li>
+                        <li><strong>Obligation légale :</strong> conformité réglementaire (KYC, AML)</li>
+                        <li><strong>Intérêt légitime :</strong> prévention de la fraude, amélioration des services</li>
+                        <li><strong>Consentement :</strong> communications marketing, cookies non essentiels</li>
+                      </ul>
+                    </>
+                  )}
 
+                  {/* Section 5 - Partage des Données */}
+                  {t('legal.privacy.sections.dataSharing.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.dataSharing.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.dataSharing.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">5. Partage des Données</h3>
+                      <p>Vos données peuvent être partagées avec :</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li>Nos partenaires bancaires et financiers</li>
+                        <li>Les organismes de crédit et d'assurance</li>
+                        <li>Les autorités de régulation (BaFin, ACPR)</li>
+                        <li>Nos prestataires techniques (sous contrat strict)</li>
+                        <li>Les autorités judiciaires sur réquisition</li>
+                      </ul>
+                    </>
+                  )}
 
+                  {/* Section 6 - Conservation des Données */}
+                  {t('legal.privacy.sections.retention.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.retention.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.retention.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">6. Conservation des Données</h3>
+                      <p>Nous conservons vos données :</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li><strong>Données client actif :</strong> durée de la relation + 5 ans</li>
+                        <li><strong>Données financières :</strong> 10 ans après la fin du contrat</li>
+                        <li><strong>Données de connexion :</strong> 13 mois maximum</li>
+                        <li><strong>Données marketing :</strong> 3 ans après le dernier contact</li>
+                      </ul>
+                    </>
+                  )}
 
+                  {/* Section 7 - Vos Droits */}
+                  {t('legal.privacy.sections.rights.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.rights.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.rights.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">7. Vos Droits</h3>
+                      <p>Conformément au RGPD, vous disposez des droits suivants :</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li><strong>Droit d'accès :</strong> obtenir une copie de vos données</li>
+                        <li><strong>Droit de rectification :</strong> corriger vos données inexactes</li>
+                        <li><strong>Droit à l'effacement :</strong> supprimer vos données (sous conditions)</li>
+                        <li><strong>Droit de limitation :</strong> restreindre le traitement</li>
+                        <li><strong>Droit de portabilité :</strong> récupérer vos données</li>
+                        <li><strong>Droit d'opposition :</strong> vous opposer au traitement</li>
+                        <li><strong>Droit de retrait du consentement</strong></li>
+                      </ul>
+                      <p><strong>Pour exercer vos droits :</strong> privacy@aurex-kpital.de</p>
+                    </>
+                  )}
 
+                  {/* Section 8 - Sécurité */}
+                  {t('legal.privacy.sections.security.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.security.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.security.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">8. Sécurité</h3>
+                      <p>Nous mettons en place des mesures techniques et organisationnelles appropriées :</p>
+                      <ul className="list-disc pl-6 space-y-2">
+                        <li>Chiffrement des données (AES-256)</li>
+                        <li>Accès restreint et contrôlé</li>
+                        <li>Surveillance continue des systèmes</li>
+                        <li>Formation régulière du personnel</li>
+                        <li>Audits de sécurité périodiques</li>
+                      </ul>
+                    </>
+                  )}
 
+                  {/* Section 9 - Transferts Internationaux */}
+                  {t('legal.privacy.sections.transfers.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.transfers.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.transfers.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">9. Transferts Internationaux</h3>
+                      <p>Certaines données peuvent être transférées vers des pays tiers avec des garanties appropriées (clauses contractuelles types, décisions d'adéquation de la Commission européenne).</p>
+                    </>
+                  )}
 
+                  {/* Section 10 - Contact */}
+                  {t('legal.privacy.sections.contact.title') ? (
+                    <>
                       <h3 className="text-xl font-bold text-primary mb-4">{t('legal.privacy.sections.contact.title')}</h3>
                       <div className="whitespace-pre-line mb-6">{t('legal.privacy.sections.contact.content')}</div>
+                    </>
+                  ) : (
+                    <>
+                      <h3 className="text-xl font-bold text-primary mb-4">10. Contact</h3>
+                      <p>Pour toute question relative à cette politique :</p>
+                      <p><strong>Email :</strong> privacy@aurex-kpital.de<br />
+                      <strong>Courrier :</strong> Aurex K-pital - DPO, Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne</p>
+                      <p>Vous avez également le droit d'introduire une réclamation auprès de l'autorité de contrôle compétente (CNIL en France, BfDI en Allemagne).</p>
                     </>
                   )}
                 </CardContent>
