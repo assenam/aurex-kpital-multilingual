@@ -115,7 +115,6 @@ export const useTranslation = () => {
 
 const translations = {
   fr: {
-    // ... keep existing code (all existing translations)
     request: {
       hero: {
         badge: "Demande de Financement",
