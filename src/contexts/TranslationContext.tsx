@@ -755,20 +755,19 @@ const translations = {
         description: "Informations sur la société et responsabilités légales",
         company: {
           title: "Identification de la Société",
-          name: "Dénomination sociale",
-          type: "Forme juridique",
-          typeValue: "Société à responsabilité limitée (GmbH)",
-          capital: "Capital social",
-          address: "Siège social",
-          register: "Registre du commerce",
-          vat: "Numéro de TVA",
-          siren: "Numéro SIREN"
+          name: "Dénomination sociale: Aurex K-pital GmbH",
+          type: "Forme juridique: Société à responsabilité limitée (GmbH)",
+          capital: "Capital social: 2 500 000 €",
+          address: "Siège social: Irma-Keilhack-Ring 24, 22145 Hamburg, Allemagne",
+          register: "Registre du commerce: Hamburg HRB 147852",
+          vat: "Numéro de TVA: DE 312 456 789",
+          siren: "Numéro SIREN: 523 456 789"
         },
         management: {
           title: "Direction",
-          ceo: "Directeur Général",
-          cio: "Directrice Innovation",
-          cro: "Directeur des Risques"
+          ceo: "Directeur Général: Dr. Klaus Müller",
+          cio: "Directrice Innovation: Sophie Laurent",
+          cro: "Directeur des Risques: Marco Antonelli"
         },
         activity: {
           title: "Activité",
@@ -782,10 +781,9 @@ const translations = {
         },
         contact: {
           title: "Contact",
-          phone: "Téléphone",
-          email: "Email",
-          hours: "Horaires",
-          schedule: "Lundi-Vendredi 8h-19h, Samedi 9h-17h",
+          phone: "Téléphone: +33759282004",
+          email: "Email: contact@aurex-kpital.de",
+          hours: "Horaires: Lundi-Vendredi 8h-19h, Samedi 9h-17h",
           hero: {
             badge: "Support Excellence",
             title: "Contactez Nos",
@@ -929,7 +927,8 @@ const translations = {
         },
         hosting: {
           title: "Hébergement",
-          description: "Ce site est hébergé par :"
+          description: "Ce site est hébergé par :",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxembourg\nTéléphone: +33759282004"
         },
         intellectual: {
           title: "Propriété Intellectuelle",
@@ -1701,6 +1700,55 @@ const translations = {
       gdpr: {
         title: "DSGVO-Konformität",
         description: "Unser Engagement für den Schutz Ihrer persönlichen Daten"
+      },
+      mentions: {
+        title: "Impressum",
+        description: "Informationen über das Unternehmen und rechtliche Verantwortlichkeiten",
+        company: {
+          title: "Unternehmensidentifikation",
+          name: "Firmenname: Aurex K-pital GmbH",
+          type: "Rechtsform: Gesellschaft mit beschränkter Haftung (GmbH)",
+          capital: "Stammkapital: 2.500.000 €",
+          address: "Hauptsitz: Irma-Keilhack-Ring 24, 22145 Hamburg, Deutschland",
+          register: "Handelsregister: Hamburg HRB 147852",
+          vat: "USt-IdNr.: DE 312 456 789",
+          siren: "SIREN-Nummer: 523 456 789"
+        },
+        management: {
+          title: "Geschäftsführung",
+          ceo: "Geschäftsführer: Dr. Klaus Müller",
+          cio: "Innovationsdirektorin: Sophie Laurent",
+          cro: "Risikodirektor: Marco Antonelli"
+        },
+        activity: {
+          title: "Tätigkeit",
+          description: "Aurex K-pital ist ein von der BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) unter der Zulassungsnummer 147-FS-2015 zugelassenes Finanzinstitut. Unsere Tätigkeiten umfassen:",
+          services: {
+            banking: "Vermittlung von Bankgeschäften und Zahlungsdienstleistungen",
+            investment: "Anlageberatung",
+            insurance: "Versicherungsvermittlung",
+            wealth: "Vermögensverwaltungsdienstleistungen"
+          }
+        },
+        contact: {
+          title: "Kontakt",
+          phone: "Telefon: +33759282004",
+          email: "E-Mail: contact@aurex-kpital.de",
+          hours: "Öffnungszeiten: Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
+        },
+        hosting: {
+          title: "Hosting",
+          description: "Diese Website wird gehostet von:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nTelefon: +33759282004"
+        },
+        intellectual: {
+          title: "Geistiges Eigentum",
+          description: "Alle auf dieser Website enthaltenen Inhalte (Texte, Bilder, Logos, Grafiken usw.) sind urheberrechtlich geschützt und gehören Aurex K-pital oder seinen Partnern. Jede Vervielfältigung, auch auszugsweise, ist ohne vorherige schriftliche Genehmigung untersagt."
+        },
+        responsibility: {
+          title: "Haftung",
+          description: "Aurex K-pital bemüht sich, genaue und aktuelle Informationen bereitzustellen. Das Unternehmen kann jedoch nicht die Richtigkeit, Vollständigkeit oder Aktualität der auf dieser Website verbreiteten Informationen garantieren. Die Nutzung der Informationen erfolgt ausschließlich auf eigene Verantwortung des Nutzers."
+        }
       }
     }
   },
@@ -2348,6 +2396,55 @@ const translations = {
       gdpr: {
         title: "Cumplimiento RGPD",
         description: "Nuestro compromiso con la protección de sus datos personales"
+      },
+      mentions: {
+        title: "Aviso Legal",
+        description: "Información sobre la empresa y responsabilidades legales",
+        company: {
+          title: "Identificación de la Empresa",
+          name: "Denominación social: Aurex K-pital GmbH",
+          type: "Forma jurídica: Sociedad de responsabilidad limitada (GmbH)",
+          capital: "Capital social: 2.500.000 €",
+          address: "Sede social: Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania",
+          register: "Registro mercantil: Hamburg HRB 147852",
+          vat: "Número de IVA: DE 312 456 789",
+          siren: "Número SIREN: 523 456 789"
+        },
+        management: {
+          title: "Dirección",
+          ceo: "Director General: Dr. Klaus Müller",
+          cio: "Directora de Innovación: Sophie Laurent",
+          cro: "Director de Riesgos: Marco Antonelli"
+        },
+        activity: {
+          title: "Actividad",
+          description: "Aurex K-pital es una entidad financiera autorizada por la BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) bajo el número de autorización 147-FS-2015. Nuestras actividades incluyen:",
+          services: {
+            banking: "Intermediación en operaciones bancarias y servicios de pago",
+            investment: "Asesoramiento en inversiones financieras",
+            insurance: "Intermediación en seguros",
+            wealth: "Servicios de gestión de patrimonio"
+          }
+        },
+        contact: {
+          title: "Contacto",
+          phone: "Teléfono: +33759282004",
+          email: "Email: contact@aurex-kpital.de",
+          hours: "Horarios: Lunes-Viernes 8h-19h, Sábado 9h-17h"
+        },
+        hosting: {
+          title: "Alojamiento",
+          description: "Este sitio está alojado por:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTeléfono: +33759282004"
+        },
+        intellectual: {
+          title: "Propiedad Intelectual",
+          description: "Todos los contenidos presentes en este sitio (textos, imágenes, logotipos, gráficos, etc.) están protegidos por derechos de autor y pertenecen a Aurex K-pital o a sus socios. Cualquier reproducción, incluso parcial, está prohibida sin autorización escrita previa."
+        },
+        responsibility: {
+          title: "Responsabilidad",
+          description: "Aurex K-pital se esfuerza por proporcionar información precisa y actualizada. Sin embargo, la empresa no puede garantizar la exactitud, integridad o actualidad de la información difundida en este sitio. El uso de la información se hace bajo la responsabilidad exclusiva del usuario."
+        }
       }
     }
   },
@@ -2930,6 +3027,55 @@ const translations = {
       gdpr: {
         title: "Conformità GDPR",
         description: "Il nostro impegno per la protezione dei vostri dati personali"
+      },
+      mentions: {
+        title: "Note Legali",
+        description: "Informazioni sulla società e responsabilità legali",
+        company: {
+          title: "Identificazione della Società",
+          name: "Denominazione sociale: Aurex K-pital GmbH",
+          type: "Forma giuridica: Società a responsabilità limitata (GmbH)",
+          capital: "Capitale sociale: 2.500.000 €",
+          address: "Sede sociale: Irma-Keilhack-Ring 24, 22145 Amburgo, Germania",
+          register: "Registro delle imprese: Hamburg HRB 147852",
+          vat: "Partita IVA: DE 312 456 789",
+          siren: "Numero SIREN: 523 456 789"
+        },
+        management: {
+          title: "Direzione",
+          ceo: "Direttore Generale: Dr. Klaus Müller",
+          cio: "Direttrice Innovazione: Sophie Laurent",
+          cro: "Direttore dei Rischi: Marco Antonelli"
+        },
+        activity: {
+          title: "Attività",
+          description: "Aurex K-pital è un istituto finanziario autorizzato dalla BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) sotto il numero di autorizzazione 147-FS-2015. Le nostre attività includono:",
+          services: {
+            banking: "Intermediazione in operazioni bancarie e servizi di pagamento",
+            investment: "Consulenza in investimenti finanziari",
+            insurance: "Intermediazione assicurativa",
+            wealth: "Servizi di gestione patrimoniale"
+          }
+        },
+        contact: {
+          title: "Contatto",
+          phone: "Telefono: +33759282004",
+          email: "Email: contact@aurex-kpital.de",
+          hours: "Orari: Lunedì-Venerdì 8h-19h, Sabato 9h-17h"
+        },
+        hosting: {
+          title: "Hosting",
+          description: "Questo sito è ospitato da:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Lussemburgo\nTelefono: +33759282004"
+        },
+        intellectual: {
+          title: "Proprietà Intellettuale",
+          description: "Tutti i contenuti presenti su questo sito (testi, immagini, loghi, grafici, ecc.) sono protetti dal diritto d'autore e appartengono a Aurex K-pital o ai suoi partner. Qualsiasi riproduzione, anche parziale, è vietata senza autorizzazione scritta preventiva."
+        },
+        responsibility: {
+          title: "Responsabilità",
+          description: "Aurex K-pital si impegna a fornire informazioni accurate e aggiornate. Tuttavia, la società non può garantire l'accuratezza, la completezza o l'attualità delle informazioni diffuse su questo sito. L'uso delle informazioni avviene sotto la responsabilità esclusiva dell'utente."
+        }
       }
     }
   },
@@ -3483,6 +3629,55 @@ const translations = {
       gdpr: {
         title: "Zgodność z RODO",
         description: "Nasze zobowiązanie do ochrony danych osobowych"
+      },
+      mentions: {
+        title: "Informacje Prawne",
+        description: "Informacje o firmie i odpowiedzialności prawnej",
+        company: {
+          title: "Identyfikacja Firmy",
+          name: "Nazwa firmy: Aurex K-pital GmbH",
+          type: "Forma prawna: Spółka z ograniczoną odpowiedzialnością (GmbH)",
+          capital: "Kapitał społeczny: 2.500.000 €",
+          address: "Siedziba: Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy",
+          register: "Rejestr handlowy: Hamburg HRB 147852",
+          vat: "Numer VAT: DE 312 456 789",
+          siren: "Numer SIREN: 523 456 789"
+        },
+        management: {
+          title: "Zarząd",
+          ceo: "Dyrektor Generalny: Dr. Klaus Müller",
+          cio: "Dyrektor ds. Innowacji: Sophie Laurent",
+          cro: "Dyrektor ds. Ryzyka: Marco Antonelli"
+        },
+        activity: {
+          title: "Działalność",
+          description: "Aurex K-pital to instytucja finansowa autoryzowana przez BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) pod numerem autoryzacji 147-FS-2015. Nasza działalność obejmuje:",
+          services: {
+            banking: "Pośrednictwo w operacjach bankowych i usługach płatniczych",
+            investment: "Doradztwo w zakresie inwestycji finansowych",
+            insurance: "Pośrednictwo ubezpieczeniowe",
+            wealth: "Usługi zarządzania majątkiem"
+          }
+        },
+        contact: {
+          title: "Kontakt",
+          phone: "Telefon: +33759282004",
+          email: "Email: contact@aurex-kpital.de",
+          hours: "Godziny: Poniedziałek-Piątek 8-19, Sobota 9-17"
+        },
+        hosting: {
+          title: "Hosting",
+          description: "Ta strona jest hostowana przez:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luksemburg\nTelefon: +33759282004"
+        },
+        intellectual: {
+          title: "Własność Intelektualna",
+          description: "Wszystkie treści obecne na tej stronie (teksty, obrazy, loga, grafiki itp.) są chronione prawem autorskim i należą do Aurex K-pital lub jego partnerów. Wszelkie powielanie, nawet częściowe, jest zabronione bez wcześniejszego pisemnego upoważnienia."
+        },
+        responsibility: {
+          title: "Odpowiedzialność",
+          description: "Aurex K-pital stara się dostarczać dokładne i aktualne informacje. Jednak firma nie może zagwarantować dokładności, kompletności lub aktualności informacji rozpowszechnianych na tej stronie. Korzystanie z informacji odbywa się na wyłączną odpowiedzialność użytkownika."
+        }
       }
     }
   },
@@ -4028,6 +4223,55 @@ const translations = {
       gdpr: {
         title: "GDPR-yhteensopivuus",
         description: "Sitoutumisemme henkilötietojenne suojaamiseen"
+      },
+      mentions: {
+        title: "Oikeudelliset Tiedot",
+        description: "Tiedot yrityksestä ja oikeudellisista vastuista",
+        company: {
+          title: "Yrityksen Tunnistaminen",
+          name: "Yrityksen nimi: Aurex K-pital GmbH",
+          type: "Oikeudellinen muoto: Osakeyhtiö (GmbH)",
+          capital: "Osakepääoma: 2.500.000 €",
+          address: "Pääkonttori: Irma-Keilhack-Ring 24, 22145 Hamburg, Saksa",
+          register: "Kaupparekisteri: Hamburg HRB 147852",
+          vat: "ALV-numero: DE 312 456 789",
+          siren: "SIREN-numero: 523 456 789"
+        },
+        management: {
+          title: "Johto",
+          ceo: "Toimitusjohtaja: Dr. Klaus Müller",
+          cio: "Innovaatiojohtaja: Sophie Laurent",
+          cro: "Riskipäällikkö: Marco Antonelli"
+        },
+        activity: {
+          title: "Toiminta",
+          description: "Aurex K-pital on BaFin:n (Bundesanstalt für Finanzdienstleistungsaufsicht) valtuuttama rahoituslaitos luvalla numero 147-FS-2015. Toimintaamme kuuluu:",
+          services: {
+            banking: "Pankkitoimintojen ja maksupalvelujen välitys",
+            investment: "Sijoitusneuvonta",
+            insurance: "Vakuutusvälitys",
+            wealth: "Varallisuudenhallintapalvelut"
+          }
+        },
+        contact: {
+          title: "Yhteystiedot",
+          phone: "Puhelin: +33759282004",
+          email: "Sähköposti: contact@aurex-kpital.de",
+          hours: "Aukioloajat: Maanantai-Perjantai 8-19, Lauantai 9-17"
+        },
+        hosting: {
+          title: "Hosting",
+          description: "Tämä sivusto on isännöity:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nPuhelin: +33759282004"
+        },
+        intellectual: {
+          title: "Immateriaaliomaisuus",
+          description: "Kaikki tällä sivustolla olevat sisällöt (tekstit, kuvat, logot, grafiikat jne.) ovat tekijänoikeudella suojattuja ja kuuluvat Aurex K-pitalille tai sen kumppaneille. Kaikenlainen jäljentäminen, myös osittainen, on kielletty ilman ennakkolupaa kirjallisesti."
+        },
+        responsibility: {
+          title: "Vastuu",
+          description: "Aurex K-pital pyrkii tarjoamaan tarkkoja ja ajantasaisia tietoja. Yritys ei kuitenkaan voi taata tällä sivustolla levitettyjen tietojen tarkkuutta, täydellisyyttä tai ajantasaisuutta. Tietojen käyttö tapahtuu käyttäjän omalla vastuulla."
+        }
       }
     }
   },
@@ -4576,6 +4820,55 @@ const translations = {
       gdpr: {
         title: "Conformidade RGPD",
         description: "Nosso compromisso com a proteção dos seus dados pessoais"
+      },
+      mentions: {
+        title: "Informações Legais",
+        description: "Informações sobre a empresa e responsabilidades legais",
+        company: {
+          title: "Identificação da Empresa",
+          name: "Denominação social: Aurex K-pital GmbH",
+          type: "Forma jurídica: Sociedade por quotas (GmbH)",
+          capital: "Capital social: 2.500.000 €",
+          address: "Sede social: Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha",
+          register: "Registo comercial: Hamburg HRB 147852",
+          vat: "Número de IVA: DE 312 456 789",
+          siren: "Número SIREN: 523 456 789"
+        },
+        management: {
+          title: "Direção",
+          ceo: "Diretor Geral: Dr. Klaus Müller",
+          cio: "Diretora de Inovação: Sophie Laurent",
+          cro: "Diretor de Riscos: Marco Antonelli"
+        },
+        activity: {
+          title: "Atividade",
+          description: "A Aurex K-pital é uma instituição financeira autorizada pela BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) sob o número de autorização 147-FS-2015. As nossas atividades incluem:",
+          services: {
+            banking: "Mediação em operações bancárias e serviços de pagamento",
+            investment: "Consultoria em investimentos financeiros",
+            insurance: "Mediação em seguros",
+            wealth: "Serviços de gestão de patrimônio"
+          }
+        },
+        contact: {
+          title: "Contacto",
+          phone: "Telefone: +33759282004",
+          email: "Email: contact@aurex-kpital.de",
+          hours: "Horários: Segunda-Sexta 8h-19h, Sábado 9h-17h"
+        },
+        hosting: {
+          title: "Hospedagem",
+          description: "Este site é hospedado por:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTelefone: +33759282004"
+        },
+        intellectual: {
+          title: "Propriedade Intelectual",
+          description: "Todos os conteúdos presentes neste site (textos, imagens, logotipos, gráficos, etc.) estão protegidos por direitos de autor e pertencem à Aurex K-pital ou aos seus parceiros. Qualquer reprodução, mesmo parcial, é proibida sem autorização escrita prévia."
+        },
+        responsibility: {
+          title: "Responsabilidade",
+          description: "A Aurex K-pital esforça-se por fornecer informações precisas e atualizadas. No entanto, a empresa não pode garantir a exatidão, integridade ou atualidade das informações divulgadas neste site. O uso das informações é feito sob a responsabilidade exclusiva do utilizador."
+        }
       }
     }
   },
@@ -5187,6 +5480,55 @@ const translations = {
       gdpr: {
         title: "Συμμόρφωση GDPR",
         description: "Η δέσμευσή μας για την προστασία των προσωπικών σας δεδομένων"
+      },
+      mentions: {
+        title: "Νομικές Πληροφορίες",
+        description: "Πληροφορίες για την εταιρεία και νομικές ευθύνες",
+        company: {
+          title: "Ταυτοποίηση της Εταιρείας",
+          name: "Εταιρική επωνυμία: Aurex K-pital GmbH",
+          type: "Νομική μορφή: Εταιρεία περιορισμένης ευθύνης (GmbH)",
+          capital: "Εταιρικό κεφάλαιο: 2.500.000 €",
+          address: "Έδρα: Irma-Keilhack-Ring 24, 22145 Αμβούργο, Γερμανία",
+          register: "Εμπορικό μητρώο: Hamburg HRB 147852",
+          vat: "Αριθμός ΦΠΑ: DE 312 456 789",
+          siren: "Αριθμός SIREN: 523 456 789"
+        },
+        management: {
+          title: "Διοίκηση",
+          ceo: "Γενικός Διευθυντής: Dr. Klaus Müller",
+          cio: "Διευθύντρια Καινοτομίας: Sophie Laurent",
+          cro: "Διευθυντής Κινδύνων: Marco Antonelli"
+        },
+        activity: {
+          title: "Δραστηριότητα",
+          description: "Η Aurex K-pital είναι χρηματοπιστωτικός οργανισμός εγκεκριμένος από την BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht) υπό τον αριθμό άδειας 147-FS-2015. Οι δραστηριότητές μας περιλαμβάνουν:",
+          services: {
+            banking: "Μεσιτεία σε τραπεζικές εργασίες και υπηρεσίες πληρωμών",
+            investment: "Συμβουλευτική χρηματοοικονομικών επενδύσεων",
+            insurance: "Ασφαλιστική μεσιτεία",
+            wealth: "Υπηρεσίες διαχείρισης περιουσίας"
+          }
+        },
+        contact: {
+          title: "Επικοινωνία",
+          phone: "Τηλέφωνο: +33759282004",
+          email: "Email: contact@aurex-kpital.de",
+          hours: "Ώρες: Δευτέρα-Παρασκευή 8π.μ.-7μ.μ., Σάββατο 9π.μ.-5μ.μ."
+        },
+        hosting: {
+          title: "Φιλοξενία",
+          description: "Αυτός ο ιστότοπος φιλοξενείται από:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Λουξεμβούργο\nΤηλέφωνο: +33759282004"
+        },
+        intellectual: {
+          title: "Πνευματική Ιδιοκτησία",
+          description: "Όλα τα περιεχόμενα που υπάρχουν σε αυτόν τον ιστότοπο (κείμενα, εικόνες, λογότυπα, γραφικά κ.λπ.) προστατεύονται από πνευματικά δικαιώματα και ανήκουν στην Aurex K-pital ή στους συνεργάτες της. Οποιαδήποτε αναπαραγωγή, ακόμη και μερική, απαγορεύεται χωρίς προηγούμενη γραπτή άδεια."
+        },
+        responsibility: {
+          title: "Ευθύνη",
+          description: "Η Aurex K-pital προσπαθεί να παρέχει ακριβείς και ενημερωμένες πληροφορίες. Ωστόσο, η εταιρεία δεν μπορεί να εγγυηθεί την ακρίβεια, πληρότητα ή επικαιρότητα των πληροφοριών που διαδίδονται σε αυτόν τον ιστότοπο. Η χρήση των πληροφοριών γίνεται με αποκλειστική ευθύνη του χρήστη."
+        }
       }
     }
   }
