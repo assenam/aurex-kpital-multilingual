@@ -24,17 +24,21 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://ijmyzfuiexjufconojed.supabase.co/functions/v1/send-contact-email', {
+      const response = await fetch('https://formspree.io/f/xpwzgbor', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          _replyto: formData.email,
+          _subject: `Nouveau message de ${formData.name} - Aurex Kpital`
+        }),
       });
 
-      const result = await response.json();
-
-      if (result.success) {
+      if (response.ok) {
         alert(t('contact.form.successMessage'));
         setFormData({ name: '', email: '', message: '' });
       } else {
