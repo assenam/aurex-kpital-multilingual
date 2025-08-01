@@ -17,10 +17,35 @@ const Contact = () => {
     message: ''
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    alert(t('contact.form.successMessage'));
-    setFormData({ name: '', email: '', message: '' });
+    setIsSubmitting(true);
+
+    try {
+      const response = await fetch('https://ijmyzfuiexjufconojed.supabase.co/functions/v1/send-contact-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (result.success) {
+        alert(t('contact.form.successMessage'));
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        alert(t('contact.form.errorMessage') || 'Une erreur est survenue. Veuillez réessayer.');
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+      alert(t('contact.form.errorMessage') || 'Une erreur est survenue. Veuillez réessayer.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -178,10 +203,11 @@ const Contact = () => {
 
                     <Button 
                       type="submit" 
-                      className="w-full h-12 bg-gradient-primary hover:shadow-lg transition-all duration-300 text-lg font-medium"
+                      disabled={isSubmitting}
+                      className="w-full h-12 bg-gradient-primary hover:shadow-lg transition-all duration-300 text-lg font-medium disabled:opacity-50"
                     >
                       <Send className="h-5 w-5 mr-2" />
-                      {t('contact.form.submitButton')}
+                      {isSubmitting ? 'Envoi en cours...' : t('contact.form.submitButton')}
                     </Button>
 
                     <div className="text-center text-sm text-muted-foreground">
