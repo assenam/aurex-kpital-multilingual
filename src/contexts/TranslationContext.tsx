@@ -1493,18 +1493,18 @@ const translations = {
       },
       clients: [
         {
-          name: "Jean-Marc Rousseau",
-          location: "Lyon, Frankreich", 
+          name: "Klaus Weber",
+          location: "Berlin, Deutschland",
           feedback: "Schneller und zuverlässiger Service. Mein Kredit wurde in 48 Stunden genehmigt! Danke Aurex K-pital."
         },
         {
-          name: "Marie Dupont",
-          location: "Paris, Frankreich",
+          name: "Maria Schmidt",
+          location: "Hamburg, Deutschland",
           feedback: "Professioneller Service und sehr wettbewerbsfähige Zinssätze. Ich empfehle!"
         },
         {
-          name: "Thomas Weber",
-          location: "Munich, Deutschland",
+          name: "Thomas Müller",
+          location: "München, Deutschland",
           feedback: "Ausgezeichnete Beratung und transparente Prozesse. Sehr zufrieden mit meiner Erfahrung."
         }
       ]
@@ -2179,18 +2179,18 @@ const translations = {
       },
       clients: [
         {
-          name: "Jean-Marc Rousseau",
-          location: "Lyon, Francia",
+          name: "Carlos Rodríguez",
+          location: "Madrid, España",
           feedback: "Servicio rápido y confiable. ¡Mi crédito fue aprobado en 48 horas! Gracias Aurex K-pital."
         },
         {
-          name: "Amélie Blanchard",
-          location: "París, Francia",
+          name: "Ana García",
+          location: "Barcelona, España",
           feedback: "Equipo profesional, plataforma clara y una atención realmente personalizada."
         },
         {
-          name: "Thomas Bonnet",
-          location: "Toulouse, Francia",
+          name: "Miguel Fernández",
+          location: "Sevilla, España",
           feedback: "El simulador fue muy claro y obtuve mejores condiciones que en mi banco."
         }
       ]
@@ -2937,18 +2937,18 @@ const translations = {
       },
       clients: [
         {
-          name: "Jean-Marc Rousseau",
-          location: "Lione, Francia",
+          name: "Marco Rossi",
+          location: "Roma, Italia",
           feedback: "Servizio veloce e professionale. Il mio prestito è stato approvato in 48 ore. Grazie Aurex K-pital!"
         },
         {
-          name: "Amélie Blanchard",
-          location: "Parigi, Francia",
+          name: "Giulia Bianchi",
+          location: "Milano, Italia",
           feedback: "Team competente, interfaccia semplice e assistenza davvero personalizzata."
         },
         {
-          name: "Thomas Bonnet",
-          location: "Tolosa, Francia",
+          name: "Alessandro Ferrari",
+          location: "Firenze, Italia",
           feedback: "Il simulatore è chiaro e ho ottenuto condizioni migliori rispetto alla mia banca."
         }
       ]
@@ -4868,18 +4868,18 @@ const translations = {
       },
       clients: [
         {
-          name: "Jean-Marc Rousseau",
-          location: "Lyon, França",
+          name: "João Silva",
+          location: "Lisboa, Portugal",
           feedback: "Serviço rápido e sério. O meu crédito foi aprovado em 48h! Obrigado Aurex K-pital."
         },
         {
-          name: "Amélie Blanchard",
-          location: "Paris, França",
+          name: "Ana Santos",
+          location: "Porto, Portugal",
           feedback: "Equipa profissional, plataforma clara e um acompanhamento verdadeiramente personalizado."
         },
         {
-          name: "Thomas Bonnet",
-          location: "Toulouse, França",
+          name: "Pedro Costa",
+          location: "Coimbra, Portugal",
           feedback: "O simulador foi muito claro e obtive melhores condições que no meu banco."
         }
       ]
