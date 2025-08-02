@@ -332,10 +332,10 @@ const translations = {
           loanOptions: {
             personal: "Prêt personnel",
             auto: "Prêt automobile",
-            realEstate: "Prêt immobilier",
+            real_estate: "Prêt immobilier",
             professional: "Prêt professionnel",
             student: "Prêt étudiant",
-            consolidation: "Rachat de crédit"
+            debt_consolidation: "Rachat de crédit"
           },
           guaranteeOptions: {
             yes: "Oui",
@@ -1171,10 +1171,10 @@ const translations = {
           loanOptions: {
             personal: "Privatkredit",
             auto: "Autokredit",
-            realEstate: "Immobilienkredit",
+            real_estate: "Immobilienkredit",
             professional: "Geschäftskredit",
             student: "Studentenkredit",
-            consolidation: "Kreditumschuldung"
+            debt_consolidation: "Kreditumschuldung"
           },
           guaranteeOptions: {
             yes: "Ja",
