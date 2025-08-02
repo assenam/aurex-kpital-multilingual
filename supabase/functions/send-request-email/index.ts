@@ -53,8 +53,8 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send notification email to company
     const notificationResponse = await resend.emails.send({
-      from: "Aurex Kpital <onboarding@resend.dev>",
-      to: ["infos@aurex-kpital.com"],
+      from: "Aurex Kpital <infos@aurexk-pital.com>",
+      to: ["infos@aurexk-pital.com"],
       subject: `Nouvelle demande de financement - ${formData.personalInfo.firstName} ${formData.personalInfo.lastName}`,
       html: `
         <h2>Nouvelle demande de financement</h2>
@@ -96,7 +96,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send confirmation email to client
     const confirmationResponse = await resend.emails.send({
-      from: "Aurex Kpital <onboarding@resend.dev>",
+      from: "Aurex Kpital <infos@aurexk-pital.com>",
       to: [formData.personalInfo.email],
       subject: "Nous avons bien reçu votre demande de financement !",
       html: `
@@ -116,7 +116,7 @@ const handler = async (req: Request): Promise<Response> => {
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
             <p><strong>Aurex Kpital</strong><br>
             📞 +33759282004<br>
-            ✉️ infos@aurex-kpital.com<br>
+            ✉️ infos@aurexk-pital.com<br>
             🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h</p>
           </div>
         </div>
