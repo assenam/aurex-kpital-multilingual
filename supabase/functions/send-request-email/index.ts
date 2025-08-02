@@ -53,7 +53,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send notification email to company
     const notificationResponse = await resend.emails.send({
-      from: "Aurex Kpital <infos@aurex-kpital.com>",
+      from: "Aurex Kpital <onboarding@resend.dev>",
       to: ["infos@aurex-kpital.com"],
       subject: `Nouvelle demande de financement - ${formData.personalInfo.firstName} ${formData.personalInfo.lastName}`,
       html: `
@@ -96,7 +96,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send confirmation email to client
     const confirmationResponse = await resend.emails.send({
-      from: "Aurex Kpital <infos@aurex-kpital.com>",
+      from: "Aurex Kpital <onboarding@resend.dev>",
       to: [formData.personalInfo.email],
       subject: "Nous avons bien reçu votre demande de financement !",
       html: `
