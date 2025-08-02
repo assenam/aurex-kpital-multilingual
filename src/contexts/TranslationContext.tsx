@@ -353,7 +353,8 @@ const translations = {
           submitButton: "Envoyer ma demande",
           qualityCommitment: "Engagement qualité : Nous nous engageons à vous contacter sous 24h pour étudier votre demande et vous proposer une solution adaptée.",
           emailMismatchAlert: "Les adresses email ne correspondent pas. Veuillez vérifier.",
-          successAlert: "Votre demande a été envoyée avec succès ! Nous vous contacterons sous 24h."
+          successAlert: "Votre demande a été envoyée avec succès ! Nous vous contacterons sous 24h.",
+          errorAlert: "Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer."
         }
       },
       sidebar: {
@@ -1193,7 +1194,8 @@ const translations = {
           submitButton: "Antrag senden",
           qualityCommitment: "Qualitätsverpflichtung: Wir verpflichten uns, Sie innerhalb von 24 Stunden zu kontaktieren, um Ihren Antrag zu prüfen und Ihnen eine geeignete Lösung vorzuschlagen.",
           emailMismatchAlert: "Die E-Mail-Adressen stimmen nicht überein. Bitte überprüfen Sie sie.",
-          successAlert: "Ihr Antrag wurde erfolgreich gesendet! Wir werden Sie innerhalb von 24 Stunden kontaktieren."
+          successAlert: "Ihr Antrag wurde erfolgreich gesendet! Wir werden Sie innerhalb von 24 Stunden kontaktieren.",
+          errorAlert: "Beim Senden Ihres Antrags ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
         }
       },
       sidebar: {
@@ -1885,7 +1887,8 @@ const translations = {
           submitButton: "Enviar mi solicitud",
           qualityCommitment: "Compromiso de calidad: Nos comprometemos a contactarte en 24h para estudiar tu solicitud y proponerte una solución adaptada.",
           emailMismatchAlert: "Las direcciones de correo no coinciden. Por favor, verifica.",
-          successAlert: "¡Tu solicitud se ha enviado con éxito! Te contactaremos en 24h."
+          successAlert: "¡Tu solicitud se ha enviado con éxito! Te contactaremos en 24h.",
+          errorAlert: "Se ha producido un error al enviar su solicitud. Por favor, inténtelo de nuevo."
         }
       },
       sidebar: {

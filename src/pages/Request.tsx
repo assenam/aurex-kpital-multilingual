@@ -15,6 +15,8 @@ import {
   AlertCircle, Sparkles, Users, Target
 } from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
+import { supabase } from '@/integrations/supabase/client';
+import { useToast } from '@/hooks/use-toast';
 
 const Request = () => {
   const { t } = useTranslation();
@@ -64,17 +66,85 @@ const Request = () => {
     acceptsMarketing: false
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const { toast } = useToast();
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     
     // Vérification que les emails correspondent
     if (formData.email !== formData.emailConfirmation) {
-      alert(t('request.form.validation.emailMismatchAlert'));
+      toast({
+        title: "Erreur",
+        description: t('request.form.validation.emailMismatchAlert'),
+        variant: "destructive",
+      });
       return;
     }
     
-    // Ici on traiterait la soumission du formulaire
-    alert(t('request.form.validation.successAlert'));
+    try {
+      // Préparer les données pour l'email
+      const emailData = {
+        personalInfo: {
+          firstName: formData.firstName,
+          lastName: formData.lastName,
+          email: formData.email,
+          phone: formData.phone,
+          dateOfBirth: formData.birthDate,
+          nationality: formData.nationality,
+          maritalStatus: formData.maritalStatus,
+          dependents: formData.dependents,
+        },
+        professionalInfo: {
+          employmentStatus: formData.employmentStatus,
+          employer: formData.employer,
+          position: formData.profession,
+          workDuration: formData.employmentDuration,
+          monthlyIncome: formData.monthlyIncome,
+          otherIncome: formData.additionalIncome,
+        },
+        financingRequest: {
+          loanType: formData.loanType,
+          amount: formData.amount,
+          duration: formData.duration,
+          purpose: formData.purpose,
+          guarantee: formData.hasGuarantee,
+        }
+      };
+
+      // Envoyer l'email via l'edge function
+      const { data, error } = await supabase.functions.invoke('send-request-email', {
+        body: emailData
+      });
+
+      if (error) {
+        throw error;
+      }
+
+      toast({
+        title: "Succès !",
+        description: t('request.form.validation.successAlert'),
+      });
+
+      // Reset du formulaire après succès
+      setFormData({
+        firstName: '', lastName: '', email: '', emailConfirmation: '', phone: '',
+        birthDate: '', nationality: '', otherNationality: '', maritalStatus: '', dependents: '',
+        address: '', city: '', postalCode: '', country: '', housingType: '',
+        employmentStatus: '', profession: '', employer: '', employmentDuration: '',
+        monthlyIncome: '', additionalIncome: '', loanType: '', amount: '',
+        duration: '', purpose: '', hasGuarantee: '', bankName: '',
+        hasOtherLoans: '', monthlyExpenses: '', hasRequiredDocs: false,
+        acceptsTerms: false, acceptsMarketing: false
+      });
+
+    } catch (error) {
+      console.error('Error sending request:', error);
+      toast({
+        title: "Erreur",
+        description: t('request.form.validation.errorAlert'),
+        variant: "destructive",
+      });
+    }
   };
 
   const updateFormData = (field: string, value: string | boolean) => {

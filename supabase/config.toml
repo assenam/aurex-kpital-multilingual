@@ -33,3 +33,6 @@ enable_signup = true
 
 [functions.send-contact-email]
 verify_jwt = false
+
+[functions.send-request-email]
+verify_jwt = false
