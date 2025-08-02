@@ -500,7 +500,7 @@ const Request = () => {
                             <SelectItem value="real-estate">{t('request.form.financingRequest.loanOptions.real_estate')}</SelectItem>
                             <SelectItem value="professional">{t('request.form.financingRequest.loanOptions.professional')}</SelectItem>
                             <SelectItem value="student">{t('request.form.financingRequest.loanOptions.student')}</SelectItem>
-                            <SelectItem value="consolidation">{t('request.form.financingRequest.loanOptions.debt_consolidation')}</SelectItem>
+                            <SelectItem value="consolidation">{t('request.form.financingRequest.loanOptions.debt_consolid')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
