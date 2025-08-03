@@ -74,7 +74,7 @@ const Request = () => {
     // Vérification que les emails correspondent
     if (formData.email !== formData.emailConfirmation) {
       toast({
-        title: "Erreur",
+        title: t('request.form.validation.errorTitle'),
         description: t('request.form.validation.emailMismatchAlert'),
         variant: "destructive",
       });
@@ -122,7 +122,7 @@ const Request = () => {
       }
 
       toast({
-        title: "Succès !",
+        title: t('request.form.validation.successTitle'),
         description: t('request.form.validation.successAlert'),
       });
 
@@ -141,7 +141,7 @@ const Request = () => {
     } catch (error) {
       console.error('Error sending request:', error);
       toast({
-        title: "Erreur",
+        title: t('request.form.validation.errorTitle'),
         description: t('request.form.validation.errorAlert'),
         variant: "destructive",
       });

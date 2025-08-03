@@ -354,7 +354,9 @@ const translations = {
           qualityCommitment: "Engagement qualité : Nous nous engageons à vous contacter sous 24h pour étudier votre demande et vous proposer une solution adaptée.",
           emailMismatchAlert: "Les adresses email ne correspondent pas. Veuillez vérifier.",
           successAlert: "Votre demande a été envoyée avec succès ! Nous vous contacterons sous 24h.",
-          errorAlert: "Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer."
+          errorAlert: "Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer.",
+          errorTitle: "Erreur",
+          successTitle: "Succès"
         }
       },
       sidebar: {
@@ -1195,7 +1197,9 @@ const translations = {
           qualityCommitment: "Qualitätsverpflichtung: Wir verpflichten uns, Sie innerhalb von 24 Stunden zu kontaktieren, um Ihren Antrag zu prüfen und Ihnen eine geeignete Lösung vorzuschlagen.",
           emailMismatchAlert: "Die E-Mail-Adressen stimmen nicht überein. Bitte überprüfen Sie sie.",
           successAlert: "Ihr Antrag wurde erfolgreich gesendet! Wir werden Sie innerhalb von 24 Stunden kontaktieren.",
-          errorAlert: "Beim Senden Ihres Antrags ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+          errorAlert: "Beim Senden Ihres Antrags ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+          errorTitle: "Fehler",
+          successTitle: "Erfolg"
         }
       },
       sidebar: {
@@ -1888,7 +1892,9 @@ const translations = {
           qualityCommitment: "Compromiso de calidad: Nos comprometemos a contactarte en 24h para estudiar tu solicitud y proponerte una solución adaptada.",
           emailMismatchAlert: "Las direcciones de correo no coinciden. Por favor, verifica.",
           successAlert: "¡Tu solicitud se ha enviado con éxito! Te contactaremos en 24h.",
-          errorAlert: "Se ha producido un error al enviar su solicitud. Por favor, inténtelo de nuevo."
+          errorAlert: "Se ha producido un error al enviar su solicitud. Por favor, inténtelo de nuevo.",
+          errorTitle: "Error",
+          successTitle: "Éxito"
         }
       },
       sidebar: {
@@ -2645,7 +2651,12 @@ const translations = {
             acceptsMarketing: "Accetto di ricevere informazioni commerciali"
           },
           submitButton: "Invia la mia richiesta",
-          qualityCommitment: "Impegno di qualità: Ci impegniamo a contattarvi entro 24 ore per studiare la vostra richiesta e proporvi una soluzione adeguata."
+          qualityCommitment: "Impegno di qualità: Ci impegniamo a contattarvi entro 24 ore per studiare la vostra richiesta e proporvi una soluzione adeguata.",
+          emailMismatchAlert: "Gli indirizzi email non corrispondono. Controlla gli indirizzi.",
+          successAlert: "La tua richiesta è stata inviata con successo! Ti contatteremo entro 24h.",
+          errorAlert: "Si è verificato un errore nell'invio della richiesta. Riprova.",
+          errorTitle: "Errore",
+          successTitle: "Successo"
         }
       },
       sidebar: {
@@ -3374,7 +3385,12 @@ const translations = {
             acceptsMarketing: "Zgadzam się na otrzymywanie informacji marketingowych"
           },
           submitButton: "Wyślij mój wniosek",
-          qualityCommitment: "Zobowiązanie jakościowe: Zobowiązujemy się skontaktować z Państwem w ciągu 24 godzin w celu zbadania Państwa wniosku i zaproponowania odpowiedniego rozwiązania."
+          qualityCommitment: "Zobowiązanie jakościowe: Zobowiązujemy się skontaktować z Państwem w ciągu 24 godzin w celu zbadania Państwa wniosku i zaproponowania odpowiedniego rozwiązania.",
+          emailMismatchAlert: "Adresy e-mail nie są zgodne. Proszę sprawdzić.",
+          successAlert: "Twój wniosek został pomyślnie wysłany! Skontaktujemy się w ciągu 24h.",
+          errorAlert: "Wystąpił błąd podczas wysyłania wniosku. Proszę spróbować ponownie.",
+          errorTitle: "Błąd",
+          successTitle: "Sukces"
         }
       },
       sidebar: {
@@ -4008,7 +4024,12 @@ const translations = {
             acceptsMarketing: "Hyväksyn markkinointitietojen vastaanoton"
           },
           submitButton: "Lähetä hakemukseni",
-          qualityCommitment: "Laatusitoumus: Sitoudumme ottamaan yhteyttä 24 tunnin sisällä arvioidaksemme hakemuksenne ja ehdottaaksemme sopivaa ratkaisua."
+          qualityCommitment: "Laatusitoumus: Sitoudumme ottamaan yhteyttä 24 tunnin sisällä arvioidaksemme hakemuksenne ja ehdottaaksemme sopivaa ratkaisua.",
+          emailMismatchAlert: "Sähköpostiosoitteet eivät täsmää. Tarkista osoitteet.",
+          successAlert: "Hakemuksesi on lähetetty onnistuneesti! Otamme yhteyttä 24h sisällä.",
+          errorAlert: "Hakemuksen lähettämisessä tapahtui virhe. Yritä uudelleen.",
+          errorTitle: "Virhe",
+          successTitle: "Onnistui"
         }
       },
       sidebar: {
@@ -4604,7 +4625,12 @@ const translations = {
             acceptsMarketing: "Aceito receber informações comerciais"
           },
           submitButton: "Enviar o meu pedido",
-          qualityCommitment: "Compromisso de qualidade: Comprometemo-nos a contactá-lo em 24h para estudar o seu pedido e propor-lhe uma solução adequada."
+          qualityCommitment: "Compromisso de qualidade: Comprometemo-nos a contactá-lo em 24h para estudar o seu pedido e propor-lhe uma solução adequada.",
+          emailMismatchAlert: "Os endereços de e-mail não coincidem. Por favor, verifique.",
+          successAlert: "O seu pedido foi enviado com sucesso! Entraremos em contacto em 24h.",
+          errorAlert: "Ocorreu um erro ao enviar o seu pedido. Tente novamente.",
+          errorTitle: "Erro",
+          successTitle: "Sucesso"
         }
       },
       sidebar: {
@@ -5205,7 +5231,12 @@ const translations = {
             acceptsMarketing: "Αποδέχομαι τη λήψη εμπορικών πληροφοριών"
           },
           submitButton: "Αποστολή αίτησης",
-          qualityCommitment: "Δέσμευση ποιότητας: Δεσμευόμαστε να επικοινωνήσουμε μαζί σας εντός 24 ωρών για να μελετήσουμε την αίτησή σας και να σας προτείνουμε μια κατάλληλη λύση."
+          qualityCommitment: "Δέσμευση ποιότητας: Δεσμευόμαστε να επικοινωνήσουμε μαζί σας εντός 24 ωρών για να μελετήσουμε την αίτησή σας και να σας προτείνουμε μια κατάλληλη λύση.",
+          emailMismatchAlert: "Οι διευθύνσεις email δεν ταιριάζουν. Παρακαλώ ελέγξτε.",
+          successAlert: "Η αίτησή σας στάλθηκε με επιτυχία! Θα επικοινωνήσουμε σε 24ω.",
+          errorAlert: "Παρουσιάστηκε σφάλμα κατά την αποστολή της αίτησης. Δοκιμάστε ξανά.",
+          errorTitle: "Σφάλμα",
+          successTitle: "Επιτυχία"
         }
       },
       sidebar: {
