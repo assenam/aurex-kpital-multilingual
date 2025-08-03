@@ -19,7 +19,7 @@ import { supabase } from '@/integrations/supabase/client';
 import { useToast } from '@/hooks/use-toast';
 
 const Request = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const [formData, setFormData] = useState({
     // Informations personnelles
     firstName: '',
@@ -108,7 +108,8 @@ const Request = () => {
           duration: formData.duration,
           purpose: formData.purpose,
           guarantee: formData.hasGuarantee,
-        }
+        },
+        language: language // Ajouter la langue actuelle
       };
 
       // Envoyer l'email via l'edge function
