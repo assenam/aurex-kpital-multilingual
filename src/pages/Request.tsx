@@ -300,7 +300,6 @@ const Request = () => {
                           onPaste={(e) => e.preventDefault()}
                           onDrop={(e) => e.preventDefault()}
                           onDragOver={(e) => e.preventDefault()}
-                          placeholder={t('request.form.personalInfo.fields.emailConfirmationPlaceholder')}
                           required
                         />
                         {formData.email && formData.emailConfirmation && formData.email !== formData.emailConfirmation && (
@@ -345,8 +344,8 @@ const Request = () => {
                       <div>
                         <Label htmlFor="nationality">{t('request.form.personalInfo.fields.nationality')}</Label>
                         <Select value={formData.nationality} onValueChange={(value) => updateFormData('nationality', value)}>
-                          <SelectTrigger>
-                            <SelectValue placeholder={t('request.form.personalInfo.fields.nationalityPlaceholder')} />
+          <SelectTrigger>
+            <SelectValue />
                           </SelectTrigger>
                           <SelectContent className="max-h-60 overflow-y-auto bg-background z-50">
                             <div className="px-2 py-1 text-xs font-semibold text-muted-foreground bg-muted">{t('request.form.personalInfo.nationalityGroups.europe')}</div>
@@ -432,7 +431,6 @@ const Request = () => {
                               id="otherNationality"
                               value={formData.otherNationality}
                               onChange={(e) => updateFormData('otherNationality', e.target.value)}
-                              placeholder={t('request.form.personalInfo.fields.otherNationalityPlaceholder')}
                               required={formData.nationality === 'autre'}
                             />
                           </div>
@@ -441,8 +439,8 @@ const Request = () => {
                       <div>
                         <Label htmlFor="maritalStatus">{t('request.form.personalInfo.fields.maritalStatus')}</Label>
                         <Select value={formData.maritalStatus} onValueChange={(value) => updateFormData('maritalStatus', value)}>
-                          <SelectTrigger>
-                            <SelectValue placeholder={t('request.form.personalInfo.fields.maritalStatusPlaceholder')} />
+          <SelectTrigger>
+            <SelectValue />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="single">{t('request.form.personalInfo.maritalOptions.single')}</SelectItem>
@@ -473,8 +471,8 @@ const Request = () => {
                       <div>
                         <Label htmlFor="employmentStatus">{t('request.form.professionalInfo.fields.employmentStatus')} *</Label>
                         <Select value={formData.employmentStatus} onValueChange={(value) => updateFormData('employmentStatus', value)}>
-                          <SelectTrigger>
-                            <SelectValue placeholder={t('request.form.professionalInfo.fields.employmentStatusPlaceholder')} />
+          <SelectTrigger>
+            <SelectValue />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="employee">{t('request.form.professionalInfo.employmentOptions.employee')}</SelectItem>
@@ -491,10 +489,9 @@ const Request = () => {
                         <Input
                           id="profession"
                           value={formData.profession}
-                          onChange={(e) => updateFormData('profession', e.target.value)}
-                          placeholder={t('request.form.professionalInfo.fields.positionPlaceholder')}
-                        />
-                      </div>
+          onChange={(e) => updateFormData('profession', e.target.value)}
+        />
+      </div>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -503,8 +500,7 @@ const Request = () => {
                         <Input
                           id="employer"
                           value={formData.employer}
-                          onChange={(e) => updateFormData('employer', e.target.value)}
-                          placeholder={t('request.form.professionalInfo.fields.companyPlaceholder')}
+          onChange={(e) => updateFormData('employer', e.target.value)}
                         />
                       </div>
                       <div>
@@ -513,8 +509,7 @@ const Request = () => {
                           id="employmentDuration"
                           type="number"
                           value={formData.employmentDuration}
-                          onChange={(e) => updateFormData('employmentDuration', e.target.value)}
-                          placeholder={t('request.form.professionalInfo.fields.workExperiencePlaceholder')}
+          onChange={(e) => updateFormData('employmentDuration', e.target.value)}
                         />
                       </div>
                     </div>
@@ -526,8 +521,7 @@ const Request = () => {
                           id="monthlyIncome"
                           type="number"
                           value={formData.monthlyIncome}
-                          onChange={(e) => updateFormData('monthlyIncome', e.target.value)}
-                          placeholder={t('request.form.professionalInfo.fields.monthlyIncomePlaceholder')}
+          onChange={(e) => updateFormData('monthlyIncome', e.target.value)}
                           required
                         />
                       </div>
@@ -537,8 +531,7 @@ const Request = () => {
                           id="additionalIncome"
                           type="number"
                           value={formData.additionalIncome}
-                          onChange={(e) => updateFormData('additionalIncome', e.target.value)}
-                          placeholder={t('request.form.professionalInfo.fields.additionalIncomePlaceholder')}
+          onChange={(e) => updateFormData('additionalIncome', e.target.value)}
                         />
                       </div>
                     </div>
@@ -562,9 +555,9 @@ const Request = () => {
                       <div>
                         <Label htmlFor="loanType">{t('request.form.financingRequest.fields.loanType')} *</Label>
                         <Select value={formData.loanType} onValueChange={(value) => updateFormData('loanType', value)}>
-                          <SelectTrigger>
-                            <SelectValue placeholder={t('request.form.financingRequest.fields.loanTypePlaceholder')} />
-                          </SelectTrigger>
+          <SelectTrigger>
+            <SelectValue />
+          </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="personal">{t('request.form.financingRequest.loanOptions.personal')}</SelectItem>
                             <SelectItem value="auto">{t('request.form.financingRequest.loanOptions.auto')}</SelectItem>
@@ -581,8 +574,7 @@ const Request = () => {
                           id="amount"
                           type="number"
                           value={formData.amount}
-                          onChange={(e) => updateFormData('amount', e.target.value)}
-                          placeholder={t('request.form.financingRequest.fields.amountPlaceholder')}
+          onChange={(e) => updateFormData('amount', e.target.value)}
                           required
                         />
                       </div>
@@ -596,14 +588,13 @@ const Request = () => {
                           type="number"
                           value={formData.duration}
                           onChange={(e) => updateFormData('duration', e.target.value)}
-                          placeholder={t('request.form.financingRequest.fields.durationPlaceholder')}
                         />
                       </div>
                       <div>
                         <Label htmlFor="hasGuarantee">{t('request.form.financingRequest.fields.hasGuarantee')}</Label>
                         <Select value={formData.hasGuarantee} onValueChange={(value) => updateFormData('hasGuarantee', value)}>
                           <SelectTrigger>
-                            <SelectValue placeholder={t('request.form.financingRequest.fields.guaranteePlaceholder')} />
+                            <SelectValue />
                           </SelectTrigger>
                           <SelectContent>
                             <SelectItem value="yes">{t('request.form.financingRequest.guaranteeOptions.yes')}</SelectItem>
@@ -619,9 +610,8 @@ const Request = () => {
                       <Textarea
                         id="purpose"
                         value={formData.purpose}
-                        onChange={(e) => updateFormData('purpose', e.target.value)}
-                        placeholder={t('request.form.financingRequest.fields.purposePlaceholder')}
-                        rows={4}
+        onChange={(e) => updateFormData('purpose', e.target.value)}
+        rows={4}
                         required
                       />
                     </div>
