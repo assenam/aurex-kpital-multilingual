@@ -181,7 +181,7 @@ const translations = {
             emailMismatch: "Les adresses email ne correspondent pas",
             emailConfirmed: "Adresses email confirmées"
           },
-          maritalOptions: {
+          maritalStatusOptions: {
             single: "Célibataire",
             married: "Marié(e)",
             divorced: "Divorcé(e)",
@@ -1023,7 +1023,7 @@ const translations = {
             emailMismatch: "E-Mail-Adressen stimmen nicht überein",
             emailConfirmed: "E-Mail-Adressen bestätigt"
           },
-          maritalOptions: {
+          maritalStatusOptions: {
             single: "Ledig",
             married: "Verheiratet",
             divorced: "Geschieden",
@@ -1780,7 +1780,7 @@ const translations = {
             emailConfirmed: "Direcciones de correo confirmadas"
           },
           otherNationalityPlaceholder: "Especifica tu nacionalidad",
-          maritalOptions: {
+          maritalStatusOptions: {
             single: "Soltero/a",
             married: "Casado/a",
             divorced: "Divorciado/a",
@@ -2582,6 +2582,16 @@ const translations = {
             divorced: "Divorziato/a",
             widowed: "Vedovo/a",
             partnership: "Convivenza"
+          },
+          nationalityGroups: {
+            europe: "Europa",
+            northAmerica: "Nord America",
+            centralAmerica: "Centro America",
+            southAmerica: "Sud America",
+            other: "Altro"
+          },
+          nationalities: {
+            german: "Tedesca", austrian: "Austriaca", belgian: "Belga", bulgarian: "Bulgara", cypriot: "Cipriota", croatian: "Croata", danish: "Danese", spanish: "Spagnola", estonian: "Estone", finnish: "Finlandese", french: "Francese", greek: "Greca", hungarian: "Ungherese", irish: "Irlandese", italian: "Italiana", latvian: "Lettone", lithuanian: "Lituana", luxembourgish: "Lussemburghese", maltese: "Maltese", dutch: "Olandese", polish: "Polacca", portuguese: "Portoghese", romanian: "Rumena", slovak: "Slovacca", slovenian: "Slovena", swedish: "Svedese", czech: "Ceca", british: "Britannica", swiss: "Svizzera", norwegian: "Norvegese", icelandic: "Islandese", serbian: "Serba", montenegrin: "Montenegrina", bosnian: "Bosniaca", albanian: "Albanese", macedonian: "Macedone", moldovan: "Moldava", ukrainian: "Ucraina", belarusian: "Bielorussa", russian: "Russa", american: "Americana", canadian: "Canadese", mexican: "Messicana", guatemalan: "Guatemalteca", belizean: "Beliziana", salvadoran: "Salvadoregna", honduran: "Honduregna", nicaraguan: "Nicaraguense", costarican: "Costaricana", panamanian: "Panamense", argentine: "Argentina", bolivian: "Boliviana", brazilian: "Brasiliana", chilean: "Cilena", colombian: "Colombiana", ecuadorian: "Ecuadoriana", guyanese: "Guianese", paraguayan: "Paraguaiana", peruvian: "Peruviana", surinamese: "Surinamese", uruguayan: "Uruguaiana", venezuelan: "Venezuelana", other: "Altra nazionalità"
           }
         },
         professionalInfo: {
@@ -3316,6 +3326,16 @@ const translations = {
             divorced: "Rozwiedziony/a",
             widowed: "Wdowiec/Wdowa",
             partnership: "Związek partnerski"
+          },
+          nationalityGroups: {
+            europe: "Europa",
+            northAmerica: "Ameryka Północna",
+            centralAmerica: "Ameryka Środkowa",
+            southAmerica: "Ameryka Południowa",
+            other: "Inne"
+          },
+          nationalities: {
+            german: "Niemiecka", austrian: "Austriacka", belgian: "Belgijska", bulgarian: "Bułgarska", cypriot: "Cypryjska", croatian: "Chorwacka", danish: "Duńska", spanish: "Hiszpańska", estonian: "Estońska", finnish: "Fińska", french: "Francuska", greek: "Grecka", hungarian: "Węgierska", irish: "Irlandzka", italian: "Włoska", latvian: "Łotewska", lithuanian: "Litewska", luxembourgish: "Luksemburska", maltese: "Maltańska", dutch: "Holenderska", polish: "Polska", portuguese: "Portugalska", romanian: "Rumuńska", slovak: "Słowacka", slovenian: "Słoweńska", swedish: "Szwedzka", czech: "Czeska", british: "Brytyjska", swiss: "Szwajcarska", norwegian: "Norweska", icelandic: "Islandzka", serbian: "Serbska", montenegrin: "Czarnogórska", bosnian: "Bośniacka", albanian: "Albańska", macedonian: "Macedońska", moldovan: "Mołdawska", ukrainian: "Ukraińska", belarusian: "Białoruska", russian: "Rosyjska", american: "Amerykańska", canadian: "Kanadyjska", mexican: "Meksykańska", guatemalan: "Gwatemalska", belizean: "Belijska", salvadoran: "Salwadorska", honduran: "Honduraska", nicaraguan: "Nikaraguańska", costarican: "Kostarykańska", panamanian: "Panamska", argentine: "Argentyńska", bolivian: "Boliwijska", brazilian: "Brazylijska", chilean: "Chilijska", colombian: "Kolumbijska", ecuadorian: "Ekwadorska", guyanese: "Gujańska", paraguayan: "Paragwajska", peruvian: "Peruwiańska", surinamese: "Surinamska", uruguayan: "Urugwajska", venezuelan: "Wenezuelska", other: "Inna narodowość"
           }
         },
         professionalInfo: {
@@ -3963,6 +3983,16 @@ const translations = {
             divorced: "Eronnut",
             widowed: "Leski",
             partnership: "Avoliitto"
+          },
+          nationalityGroups: {
+            europe: "Eurooppa",
+            northAmerica: "Pohjois-Amerikka",
+            centralAmerica: "Keski-Amerikka",
+            southAmerica: "Etelä-Amerikka",
+            other: "Muu"
+          },
+          nationalities: {
+            german: "Saksalainen", austrian: "Itävaltalainen", belgian: "Belgialainen", bulgarian: "Bulgarialainen", cypriot: "Kyproslainen", croatian: "Kroatialainen", danish: "Tanskalainen", spanish: "Espanjalainen", estonian: "Virolainen", finnish: "Suomalainen", french: "Ranskalainen", greek: "Kreikkalainen", hungarian: "Unkarilainen", irish: "Irlantilainen", italian: "Italialainen", latvian: "Latvialainen", lithuanian: "Liettualalainen", luxembourgish: "Luxemburgilainen", maltese: "Maltalainen", dutch: "Hollantilainen", polish: "Puolalainen", portuguese: "Portugalilainen", romanian: "Romanialainen", slovak: "Slovakialainen", slovenian: "Slovenialainen", swedish: "Ruotsalainen", czech: "Tšekkiläinen", british: "Brittläinen", swiss: "Sveitsiläinen", norwegian: "Norjalainen", icelandic: "Islantilainen", serbian: "Serbialainen", montenegrin: "Montenegrolainen", bosnian: "Bosnialainen", albanian: "Albanialainen", macedonian: "Makedonialainen", moldovan: "Moldovalainen", ukrainian: "Ukrainalainen", belarusian: "Valkovenäläinen", russian: "Venäläinen", american: "Amerikkalainen", canadian: "Kanadalainen", mexican: "Meksikolainen", guatemalan: "Guatemalalainen", belizean: "Belizelainen", salvadoran: "Salvadorilainen", honduran: "Honduraslainen", nicaraguan: "Nicaragualainen", costarican: "Costaricanlainen", panamanian: "Panamalainen", argentine: "Argentiinalainen", bolivian: "Bolivialainen", brazilian: "Brasilialainen", chilean: "Chileläinen", colombian: "Kolumbialainen", ecuadorian: "Ecuadorilainen", guyanese: "Guyanalainen", paraguayan: "Paraguaylainen", peruvian: "Perulainen", surinamese: "Surinamelainen", uruguayan: "Uruguaylainen", venezuelan: "Venezuelalainen", other: "Muu kansallisuus"
           }
         },
         professionalInfo: {
@@ -4561,6 +4591,16 @@ const translations = {
             divorced: "Divorciado/a",
             widowed: "Viúvo/a",
             partnership: "União de facto"
+          },
+          nationalityGroups: {
+            europe: "Europa",
+            northAmerica: "América do Norte",
+            centralAmerica: "América Central",
+            southAmerica: "América do Sul",
+            other: "Outra"
+          },
+          nationalities: {
+            german: "Alemã", austrian: "Austríaca", belgian: "Belga", bulgarian: "Búlgara", cypriot: "Cipriota", croatian: "Croata", danish: "Dinamarquesa", spanish: "Espanhola", estonian: "Estónia", finnish: "Finlandesa", french: "Francesa", greek: "Grega", hungarian: "Húngara", irish: "Irlandesa", italian: "Italiana", latvian: "Letónia", lithuanian: "Lituana", luxembourgish: "Luxemburguesa", maltese: "Maltesa", dutch: "Holandesa", polish: "Polaca", portuguese: "Portuguesa", romanian: "Romena", slovak: "Eslovaca", slovenian: "Eslovena", swedish: "Sueca", czech: "Checa", british: "Britânica", swiss: "Suíça", norwegian: "Norueguesa", icelandic: "Islandesa", serbian: "Sérvia", montenegrin: "Montenegrina", bosnian: "Bósnia", albanian: "Albanesa", macedonian: "Macedónia", moldovan: "Moldava", ukrainian: "Ucraniana", belarusian: "Bielorrussa", russian: "Russa", american: "Americana", canadian: "Canadense", mexican: "Mexicana", guatemalan: "Guatemalteca", belizean: "Belizenha", salvadoran: "Salvadorenha", honduran: "Hondurenha", nicaraguan: "Nicaraguense", costarican: "Costarriquenha", panamanian: "Panamenha", argentine: "Argentina", bolivian: "Boliviana", brazilian: "Brasileira", chilean: "Chilena", colombian: "Colombiana", ecuadorian: "Equatoriana", guyanese: "Guianense", paraguayan: "Paraguaia", peruvian: "Peruana", surinamese: "Surinamesa", uruguayan: "Uruguaia", venezuelan: "Venezuelana", other: "Outra nacionalidade"
           }
         },
         professionalInfo: {
@@ -5162,6 +5202,16 @@ const translations = {
             divorced: "Διαζευγμένος/η",
             widowed: "Χήρος/α",
             partnership: "Συμβίωση"
+          },
+          nationalityGroups: {
+            europe: "Ευρώπη",
+            northAmerica: "Βόρεια Αμερική",
+            centralAmerica: "Κεντρική Αμερική",
+            southAmerica: "Νότια Αμερική",
+            other: "Άλλη"
+          },
+          nationalities: {
+            german: "Γερμανική", austrian: "Αυστριακή", belgian: "Βελγική", bulgarian: "Βουλγαρική", cypriot: "Κυπριακή", croatian: "Κροατική", danish: "Δανική", spanish: "Ισπανική", estonian: "Εσθονική", finnish: "Φινλανδική", french: "Γαλλική", greek: "Ελληνική", hungarian: "Ουγγρική", irish: "Ιρλανδική", italian: "Ιταλική", latvian: "Λετονική", lithuanian: "Λιθουανική", luxembourgish: "Λουξεμβουργιανή", maltese: "Μαλτέζικη", dutch: "Ολλανδική", polish: "Πολωνική", portuguese: "Πορτογαλική", romanian: "Ρουμανική", slovak: "Σλοβακική", slovenian: "Σλοβενική", swedish: "Σουηδική", czech: "Τσεχική", british: "Βρετανική", swiss: "Ελβετική", norwegian: "Νορβηγική", icelandic: "Ισλανδική", serbian: "Σερβική", montenegrin: "Μαυροβουνιακή", bosnian: "Βοσνιακή", albanian: "Αλβανική", macedonian: "Μακεδονική", moldovan: "Μολδαβική", ukrainian: "Ουκρανική", belarusian: "Λευκορωσική", russian: "Ρωσική", american: "Αμερικανική", canadian: "Καναδική", mexican: "Μεξικανική", guatemalan: "Γουατεμαλτέκικη", belizean: "Μπελιζιανή", salvadoran: "Σαλβαδοριανή", honduran: "Ονδουρανή", nicaraguan: "Νικαραγουανή", costarican: "Κοσταρικανή", panamanian: "Παναμαϊκή", argentine: "Αργεντινή", bolivian: "Βολιβιανή", brazilian: "Βραζιλιάνικη", chilean: "Χιλιανή", colombian: "Κολομβιανή", ecuadorian: "Εκουαδοριανή", guyanese: "Γουιανή", paraguayan: "Παραγουαϊκή", peruvian: "Περουβιανή", surinamese: "Σουριναμική", uruguayan: "Ουρουγουαϊκή", venezuelan: "Βενεζουελάνικη", other: "Άλλη εθνικότητα"
           }
         },
         professionalInfo: {

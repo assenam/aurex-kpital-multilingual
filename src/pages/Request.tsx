@@ -443,10 +443,10 @@ const Request = () => {
             <SelectValue />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="single">{t('request.form.personalInfo.maritalOptions.single')}</SelectItem>
-                            <SelectItem value="married">{t('request.form.personalInfo.maritalOptions.married')}</SelectItem>
-                            <SelectItem value="divorced">{t('request.form.personalInfo.maritalOptions.divorced')}</SelectItem>
-                            <SelectItem value="widowed">{t('request.form.personalInfo.maritalOptions.widowed')}</SelectItem>
+                            <SelectItem value="single">{t('request.form.personalInfo.maritalStatusOptions.single')}</SelectItem>
+                            <SelectItem value="married">{t('request.form.personalInfo.maritalStatusOptions.married')}</SelectItem>
+                            <SelectItem value="divorced">{t('request.form.personalInfo.maritalStatusOptions.divorced')}</SelectItem>
+                            <SelectItem value="widowed">{t('request.form.personalInfo.maritalStatusOptions.widowed')}</SelectItem>
                           </SelectContent>
                         </Select>
                       </div>
