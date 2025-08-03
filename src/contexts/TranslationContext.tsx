@@ -739,7 +739,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Écrivez-nous, nous répondons rapidement",
-          value: "infos@aurex-kpital.com",
+          value: "contact@aurexk-pital.com",
           hours: "Réponse sous 2h en moyenne"
         },
         address: {
@@ -806,7 +806,7 @@ const translations = {
         contact: {
           title: "Contact",
           phone: "Téléphone: +33759282004",
-          email: "Email: infos@aurex-kpital.com",
+          email: "Email: contact@aurexk-pital.com",
           hours: "Horaires: Lundi-Vendredi 8h-19h, Samedi 9h-17h",
           hero: {
             badge: "Support Excellence",
@@ -831,7 +831,7 @@ const translations = {
             email: {
               title: "Email",
               description: "Envoyez-nous vos questions",
-              value: "infos@aurex-kpital.com",
+              value: "contact@aurexk-pital.com",
               hours: "Réponse sous 4h en moyenne"
             },
             address: {
@@ -1537,7 +1537,7 @@ const translations = {
         email: {
           title: "E-Mail",
           description: "Schreiben Sie uns, wir antworten schnell",
-          value: "infos@aurex-kpital.com",
+          value: "contact@aurexk-pital.com",
           hours: "Antwort binnen 2h im Durchschnitt"
         },
         address: {
@@ -1718,7 +1718,7 @@ const translations = {
         contact: {
           title: "Kontakt",
           phone: "Telefon: +33759282004",
-          email: "E-Mail: infos@aurex-kpital.com",
+          email: "E-Mail: contact@aurexk-pital.com",
           hours: "Öffnungszeiten: Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
         },
         hosting: {
@@ -2334,7 +2334,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Escríbanos, respondemos rápidamente",
-          value: "infos@aurex-kpital.com",
+          value: "contact@aurexk-pital.com",
           hours: "Respuesta en 2h en promedio"
         },
         address: {
@@ -2515,7 +2515,7 @@ const translations = {
         contact: {
           title: "Contacto",
           phone: "Teléfono: +33759282004",
-          email: "Email: infos@aurex-kpital.com",
+          email: "Email: contact@aurexk-pital.com",
           hours: "Horarios: Lunes-Viernes 8h-19h, Sábado 9h-17h"
         },
         hosting: {
@@ -3078,7 +3078,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Scrivici, rispondiamo velocemente",
-          value: "infos@aurex-kpital.com",
+          value: "contact@aurexk-pital.com",
           hours: "Risposta in 2h in media"
         },
         address: {
