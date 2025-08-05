@@ -3676,18 +3676,18 @@ const translations = {
       },
       clients: [
         {
-          name: "Jean-Marc Rousseau",
-          location: "Lyon, Francja",
+          name: "Janusz Kowalski",
+          location: "Warszawa, Polska",
           feedback: "Szybka i rzetelna obsługa. Mój kredyt został zatwierdzony w 48 godzin. Dziękuję Aurex K-pital!"
         },
         {
-          name: "Amélie Blanchard",
-          location: "Paryż, Francja",
+          name: "Anna Nowak",
+          location: "Kraków, Polska",
           feedback: "Profesjonalny zespół, przejrzysty interfejs i naprawdę spersonalizowane wsparcie."
         },
         {
-          name: "Thomas Bonnet",
-          location: "Tuluza, Francja",
+          name: "Piotr Wiśniewski",
+          location: "Gdańsk, Polska",
           feedback: "Symulator był bardzo przejrzysty, a warunki lepsze niż w moim banku."
         }
       ]
@@ -4326,18 +4326,18 @@ const translations = {
       },
       clients: [
         {
-          name: "Jean-Marc Rousseau",
-          location: "Lyon, Ranska",
+          name: "Mikko Virtanen",
+          location: "Helsinki, Suomi",
           feedback: "Nopea ja luotettava palvelu. Lainani hyväksyttiin 48 tunnissa. Kiitos Aurex K-pital!"
         },
         {
-          name: "Amélie Blanchard",
-          location: "Pariisi, Ranska",
+          name: "Liisa Mäkinen",
+          location: "Tampere, Suomi",
           feedback: "Ammattimainen tiimi, helppo käyttöliittymä ja yksilöllinen tuki."
         },
         {
-          name: "Thomas Bonnet",
-          location: "Toulouse, Ranska",
+          name: "Jari Nieminen",
+          location: "Turku, Suomi",
           feedback: "Laskuri oli selkeä ja sain paremmat ehdot kuin pankistani."
         }
       ]
@@ -5611,18 +5611,18 @@ const translations = {
       },
       clients: [
         {
-          name: "Jean-Marc Rousseau",
-          location: "Λυών, Γαλλία",
+          name: "Νικόλαος Παπαδόπουλος",
+          location: "Αθήνα, Ελλάδα",
           feedback: "Γρήγορη και αξιόπιστη εξυπηρέτηση. Το δάνειό μου εγκρίθηκε σε 48 ώρες. Ευχαριστώ Aurex K-pital!"
         },
         {
-          name: "Amélie Blanchard",
-          location: "Παρίσι, Γαλλία",
+          name: "Μαρία Γεωργίου",
+          location: "Θεσσαλονίκη, Ελλάδα",
           feedback: "Επαγγελματική ομάδα, απλό περιβάλλον και πραγματικά εξατομικευμένη υποστήριξη."
         },
         {
-          name: "Thomas Bonnet",
-          location: "Τουλούζη, Γαλλία",
+          name: "Δημήτριος Κωνσταντίνου",
+          location: "Πάτρα, Ελλάδα",
           feedback: "Ο υπολογιστής ήταν ξεκάθαρος και πήρα καλύτερους όρους από την τράπεζά μου."
         }
       ]
