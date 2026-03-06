@@ -263,16 +263,16 @@ const Simulator = () => {
 
                   <div className="space-y-3">
                     <Button className="w-full bg-gradient-primary hover:shadow-lg text-lg py-3" asChild>
-                      <a href="/demande">
+                      <Link to={`/${language}/demande`}>
                         <Sparkles className="h-5 w-5 mr-2" />
                         {t('simulator.cta.buttons.request')}
-                      </a>
+                      </Link>
                     </Button>
                     
                     <Button variant="outline" className="w-full" asChild>
-                      <a href="/contact">
+                      <Link to={`/${language}/contact`}>
                         {t('simulator.cta.buttons.consultant')}
-                      </a>
+                      </Link>
                     </Button>
                   </div>
 
