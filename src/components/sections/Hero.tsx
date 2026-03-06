@@ -109,22 +109,22 @@ const Hero = memo(() => {
                 data-scroll-id="hero-stats"
                 style={{ transform: `translateY(${offsetY * 0.1}px)` }}
               >
-                <Card className="glass-card hover-lift tilt-card p-8 text-center group cursor-pointer">
-                  <div className="text-5xl font-bold gradient-text mb-3 group-hover:animate-glow transition-all duration-300">25+</div>
-                  <div className="text-primary-foreground/90 text-lg font-medium">{t('home.hero.stats.experience.title')}</div>
-                  <div className="text-primary-foreground/60 text-sm mt-2">{t('home.hero.stats.experience.subtitle')}</div>
+                <Card className="hover-lift tilt-card p-8 text-center group cursor-pointer bg-primary/80 backdrop-blur-md border border-gold/20 shadow-xl">
+                  <div className="text-5xl font-bold text-gold mb-3 group-hover:animate-glow transition-all duration-300">25+</div>
+                  <div className="text-white text-lg font-medium">{t('home.hero.stats.experience.title')}</div>
+                  <div className="text-white/70 text-sm mt-2">{t('home.hero.stats.experience.subtitle')}</div>
                 </Card>
                 
-                <Card className="glass-card hover-lift tilt-card p-8 text-center group cursor-pointer">
-                  <div className="text-5xl font-bold gradient-text mb-3 group-hover:animate-glow transition-all duration-300">50K+</div>
-                  <div className="text-primary-foreground/90 text-lg font-medium">{t('home.hero.stats.clients.title')}</div>
-                  <div className="text-primary-foreground/60 text-sm mt-2">{t('home.hero.stats.clients.subtitle')}</div>
+                <Card className="hover-lift tilt-card p-8 text-center group cursor-pointer bg-primary/80 backdrop-blur-md border border-gold/20 shadow-xl">
+                  <div className="text-5xl font-bold text-gold mb-3 group-hover:animate-glow transition-all duration-300">50K+</div>
+                  <div className="text-white text-lg font-medium">{t('home.hero.stats.clients.title')}</div>
+                  <div className="text-white/70 text-sm mt-2">{t('home.hero.stats.clients.subtitle')}</div>
                 </Card>
                 
-                <Card className="glass-card hover-lift tilt-card p-8 text-center group cursor-pointer">
-                  <div className="text-5xl font-bold gradient-text mb-3 group-hover:animate-glow transition-all duration-300">€5B+</div>
-                  <div className="text-primary-foreground/90 text-lg font-medium">{t('home.hero.stats.funding.title')}</div>
-                  <div className="text-primary-foreground/60 text-sm mt-2">{t('home.hero.stats.funding.subtitle')}</div>
+                <Card className="hover-lift tilt-card p-8 text-center group cursor-pointer bg-primary/80 backdrop-blur-md border border-gold/20 shadow-xl">
+                  <div className="text-5xl font-bold text-gold mb-3 group-hover:animate-glow transition-all duration-300">€5B+</div>
+                  <div className="text-white text-lg font-medium">{t('home.hero.stats.funding.title')}</div>
+                  <div className="text-white/70 text-sm mt-2">{t('home.hero.stats.funding.subtitle')}</div>
                 </Card>
               </div>
             </div>
