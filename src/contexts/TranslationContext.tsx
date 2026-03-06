@@ -978,6 +978,11 @@ const translations = {
         description: "Notre engagement pour la protection de vos données personnelles"
       }
     },
+    partners: {
+      title: "Nos Partenaires de Confiance",
+      description: "Un réseau européen d'excellence pour les meilleures solutions financières",
+      stats: "Plus de 25 partenaires européens • 27 pays couverts • 2,5Md€ de volume traité"
+    },
     partners_page: {
       hero: { badge: "Réseau d'Excellence", title: "Nos Partenaires", titleHighlight: "Stratégiques", description: "Un écosystème de partenaires de premier plan pour vous offrir les meilleures solutions financières européennes." },
       achievements: { partners: "Partenaires actifs", countries: "Pays couverts", volume: "Volume traité", clients: "Clients bénéficiaires" },
