@@ -8,11 +8,12 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Slider } from '@/components/ui/slider';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Calculator, TrendingUp, CheckCircle, Info, Sparkles, Euro, Calendar, Percent } from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Simulator = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const [loanAmount, setLoanAmount] = useState([25000]);
   const [duration, setDuration] = useState([60]);
   const [loanType, setLoanType] = useState('');
@@ -263,16 +264,16 @@ const Simulator = () => {
 
                   <div className="space-y-3">
                     <Button className="w-full bg-gradient-primary hover:shadow-lg text-lg py-3" asChild>
-                      <a href="/demande">
+                      <Link to={`/${language}/demande`}>
                         <Sparkles className="h-5 w-5 mr-2" />
                         {t('simulator.cta.buttons.request')}
-                      </a>
+                      </Link>
                     </Button>
                     
                     <Button variant="outline" className="w-full" asChild>
-                      <a href="/contact">
+                      <Link to={`/${language}/contact`}>
                         {t('simulator.cta.buttons.consultant')}
-                      </a>
+                      </Link>
                     </Button>
                   </div>
 
@@ -280,7 +281,7 @@ const Simulator = () => {
                     <div className="flex items-start gap-2">
                       <Info className="h-5 w-5 text-amber-600 mt-0.5 flex-shrink-0" />
                       <div className="text-sm text-amber-800">
-                        <strong>Information :</strong> {t('simulator.result.disclaimer')}
+                        <strong>{t('common.infoLabel')} :</strong> {t('simulator.result.disclaimer')}
                       </div>
                     </div>
                   </div>
@@ -326,16 +327,16 @@ const Simulator = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-primary hover:shadow-lg font-bold px-8 py-4" asChild>
-                <a href="/demande">
+                <Link to={`/${language}/demande`}>
                   <Euro className="h-5 w-5 mr-2" />
                   {t('simulator.cta.buttons.officialRequest')}
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="/services">
+                <Link to={`/${language}/services`}>
                   <Calculator className="h-5 w-5 mr-2" />
                   {t('simulator.cta.buttons.allServices')}
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

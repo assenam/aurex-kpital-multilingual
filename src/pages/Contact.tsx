@@ -211,7 +211,7 @@ const Contact = () => {
                       className="w-full h-12 bg-gradient-primary hover:shadow-lg transition-all duration-300 text-lg font-medium disabled:opacity-50"
                     >
                       <Send className="h-5 w-5 mr-2" />
-                      {isSubmitting ? 'Envoi en cours...' : t('contact.form.submitButton')}
+                      {isSubmitting ? t('common.sending') : t('contact.form.submitButton')}
                     </Button>
 
                     <div className="text-center text-sm text-muted-foreground">
