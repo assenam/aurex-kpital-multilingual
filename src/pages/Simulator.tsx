@@ -13,7 +13,7 @@ import { Calculator, TrendingUp, CheckCircle, Info, Sparkles, Euro, Calendar, Pe
 import { useTranslation } from '@/contexts/TranslationContext';
 
 const Simulator = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
   const [loanAmount, setLoanAmount] = useState([25000]);
   const [duration, setDuration] = useState([60]);
   const [loanType, setLoanType] = useState('');
