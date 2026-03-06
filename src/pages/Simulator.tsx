@@ -326,16 +326,16 @@ const Simulator = () => {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gradient-primary hover:shadow-lg font-bold px-8 py-4" asChild>
-                <a href="/demande">
+                <Link to={`/${language}/demande`}>
                   <Euro className="h-5 w-5 mr-2" />
                   {t('simulator.cta.buttons.officialRequest')}
-                </a>
+                </Link>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="/services">
+                <Link to={`/${language}/services`}>
                   <Calculator className="h-5 w-5 mr-2" />
                   {t('simulator.cta.buttons.allServices')}
-                </a>
+                </Link>
               </Button>
             </div>
           </div>

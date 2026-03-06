@@ -56,10 +56,10 @@ const Footer = () => {
               <div className="space-y-2 text-sm text-primary-foreground/70">
                 <p><strong>Aurex K-pital</strong></p>
                 <p>Irma-Keilhack-Ring 24</p>
-                <p>22145 Hamburg, Allemagne</p>
-                <p>Tél: +33759282004</p>
-                <p>Tél: +4915781095078</p>
-                <p>Registre: HRB 80635</p>
+                <p>22145 Hamburg, {t('footer.addressCountry')}</p>
+                <p>{t('footer.phoneLabel')}: +33759282004</p>
+                <p>{t('footer.phoneLabel')}: +4915781095078</p>
+                <p>{t('footer.registerLabel')}: HRB 80635</p>
                 <p>Safe-Nummer: DE00976259</p>
               </div>
             </div>
