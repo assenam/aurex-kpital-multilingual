@@ -4608,6 +4608,101 @@ const translations = {
       description: "Eurooppalainen huippuosaamisen verkosto parhaimpia rahoitusratkaisuja varten",
       stats: "Yli 25 eurooppalaista kumppania • 27 maata katettu • 2,5 miljardia € käsitelty volyymi"
     },
+    partners_page: {
+      hero: { badge: "Huippuverkosto", title: "Kumppanimme", titleHighlight: "Strategiset", description: "Ensiluokkainen kumppaniekosysteemi tarjoamaan teille parhaat eurooppalaiset rahoitusratkaisut." },
+      achievements: { partners: "Aktiiviset kumppanit", countries: "Katetut maat", volume: "Käsitelty volyymi", clients: "Hyötyvät asiakkaat" },
+      benefits: { title: "Verkostomme Edut", subtitle: "Strategiset kumppanuudet, jotka hyödyttävät teitä suoraan",
+        rates: { title: "Etukorot", description: "Kumppanuutemme mahdollistavat parhaiden markkinakorkojen neuvottelun asiakkaillemme" },
+        expertise: { title: "Yhdistetty Asiantuntemus", description: "Hyödy kaikkien erikoistuneiden kumppaneidemme kumuloituneesta osaamisesta" },
+        coverage: { title: "Eurooppalainen Kattavuus", description: "Verkosto, joka kattaa kaikki 27 EU-maata" },
+        security: { title: "Vahvistettu Turvallisuus", description: "Korkeimmat turvallisuusstandardit sertifioitujen kumppaneidemme ansiosta" }
+      },
+      ecosystem: { title: "Kumppaniekosysteemimme", subtitle: "Strategiset liittoumat jokaisen alan johtajien kanssa" },
+      categories: {
+        banks: { title: "Kumppanipankit", description: "Ensiluokkaiset eurooppalaiset pankkiinstituutiot" },
+        insurance: { title: "Vakuuttajat ja Suoja", description: "Eurooppalaiset vakuutus- ja suoja-alan johtajat" },
+        fintech: { title: "Fintech ja Innovaatio", description: "Huipputason teknologiakumppanit" },
+        consulting: { title: "Neuvonta ja Asiantuntemus", description: "Tunnustetut neuvonta- ja asiantuntijayritykset" }
+      },
+      partnerDesc: {
+        deutscheBank: "Strateginen kumppanuus premium-kiinteistörahoituksessa",
+        bnp: "Yhteistyö henkilö- ja yrityslainoissa",
+        ing: "Innovatiiviset säästö- ja sijoitusratkaisut",
+        socGen: "Asiantuntemus varallisuudenhoidossa ja sijoituksissa",
+        allianz: "Lainavakuutukset ja kattava oikeusturva",
+        axa: "Räätälöidyt henkivakuutus- ja varautumisratkaisut",
+        generali: "Räätälöity perhe- ja ammattisuoja",
+        klarna: "Joustavat ja innovatiiviset maksuratkaisut",
+        revolut: "Uuden sukupolven digitaaliset pankkipalvelut",
+        n26: "Optimoitu mobiilipankkikokemus",
+        ey: "Tilintarkastus ja rahoitusstrategianeuvonta",
+        pwc: "Eurooppalainen vero- ja sääntely-asiantuntemus",
+        kpmg: "Due diligence ja varallisuuden optimointi"
+      },
+      specialties: {
+        deutscheBank: "Premium-asuntolainat", bnp: "Yritysrahoitus", ing: "Digitaalinen säästäminen",
+        socGen: "Varallisuudenhoito", allianz: "Lainavakuutus", axa: "Henkivakuutus",
+        generali: "Perhevarautuminen", klarna: "Osamaksut", revolut: "Digitaalinen pankkitoiminta",
+        n26: "Mobiilipankki", ey: "Tilintarkastus ja neuvonta", pwc: "Kansainvälinen verotus", kpmg: "Due diligence"
+      },
+      countries: { germany: "Saksa", france: "Ranska", netherlands: "Alankomaat", italy: "Italia", sweden: "Ruotsi", uk: "Yhdistynyt kuningaskunta", international: "Kansainvälinen" },
+      since: "Vuodesta",
+      becomePartner: {
+        title: "Ryhdy Kumppaniksi", subtitle: "Liity eurooppalaiseen huippuverkostoomme",
+        criteriaTitle: "Kumppanuuskriteerit",
+        excellence: { title: "Operatiivinen Erinomaisuus", description: "Laatusertifikaatit ja eurooppalaiset standardit" },
+        financial: { title: "Taloudellinen Vakaus", description: "Vähintään A-luottoluokitus tunnustetulta luokittajalta" },
+        innovation: { title: "Teknologinen Innovaatio", description: "Modernit ja turvalliset järjestelmät" },
+        values: { title: "Yhteiset Arvot", description: "Asiakassitoutuminen ja läpinäkyvyys" },
+        contactTitle: "Kumppanuusyhteystiedot", contactSubtitle: "Keskustellaan yhteistyömahdollisuuksista",
+        phone: "Puhelin", team: "Omistettu tiimi", teamMember: "Dr. Klaus Müller - Kumppanuusjohtaja",
+        button: "Ehdota Kumppanuutta"
+      }
+    },
+    careers_page: {
+      hero: { badge: "Liity joukkoomme", title: "Rakennetaan Tulevaisuus", titleHighlight: "Rahoitusalalla",
+        description: "Liity intohimoiseen tiimiin, joka mullistaa rahoituspalvelut Euroopassa innovaatiolla, erinomaisuudella ja hyväntahtoisuudella.",
+        stats: { employees: "Työntekijät", positions: "Avoimet paikat", growth: "Vuosikasvu", satisfaction: "Tiimityytyväisyys" }
+      },
+      positions: { title: "Avoimet Paikat", subtitle: "Tutustu mahdollisuuksiin, jotka odottavat sinua Aurex K-pitalissa", apply: "Hae", urgent: "Kiireellinen" },
+      jobs: {
+        dataScientist: { title: "Senior Data Scientist", department: "Innovaatio ja tekoäly", description: "Ennustavien algoritmien kehittäminen riskianalyysiin ja salkkujen optimointiin." },
+        financialAdvisor: { title: "Vanhempi Rahoitusneuvoja", department: "Asiakassuhde", description: "Premium-asiakkaiden henkilökohtainen tuki sijoitus- ja rahoitusprojekteissa." },
+        developer: { title: "Full-Stack-kehittäjä", department: "Technology", description: "Digitaalisen asiakasalustan ja sisäisten työkalujen kehitys ja ylläpito." },
+        riskAnalyst: { title: "Riskianalyytikko", department: "Riskienhallinta", description: "Luottoriskien analysointi ja arviointi, pisteytysmallienteh kehittäminen." },
+        marketingManager: { title: "Digital Marketing Manager", department: "Markkinointi", description: "Digitaalinen strategia, online-asiakashankinta, konversio-optimointi." },
+        complianceOfficer: { title: "Compliance Officer", department: "Compliance", description: "Sääntelynmukaisuuden valvonta, GDPR- ja AML-menettelyjen toteuttaminen." }
+      },
+      departments: { title: "Tiimimme", subtitle: "Tutustu eri osastoihin ja niiden tehtäviin", collaborators: "työntekijät",
+        tech: { name: "Technology", description: "Tuotekehitys ja infrastruktuuri" },
+        finance: { name: "Finance & Risk", description: "Talousanalyysi ja riskienhallinta" },
+        customer: { name: "Customer Success", description: "Asiakassuhde ja tuki" },
+        compliance: { name: "Compliance", description: "Compliance ja sääntely" },
+        operations: { name: "Operations", description: "Toiminnot ja hallinto" }
+      },
+      benefits: { title: "Etusi", subtitle: "Kokonaisvaltainen paketti ammatilliseen ja henkilökohtaiseen kehitykseesi",
+        salary: { title: "Houkutteleva Palkka", description: "Kilpailukykyinen palkka + tulospalkkiot + voitonjako", details: ["Taattu 13. kuukausipalkka", "Neljännesvuosittaiset tavoitepalkkiot", "Osakeoptiot senioreille"] },
+        flexibility: { title: "Maksimaalinen Joustavuus", description: "Joustavat työajat ja etätyö jopa 3 päivää viikossa", details: ["Vapaat työajat 7-20", "Etätyö jopa 60%", "Workation 4 viikkoa/vuosi"] },
+        training: { title: "Jatkuva Koulutus", description: "Koulutusbudjetti 3000€/vuosi + sertifioinnit katettu", details: ["Tekniset koulutukset", "Ammatilliset sertifioinnit", "Kansainväliset konferenssit"] },
+        wellbeing: { title: "Työhyvinvointi", description: "Premium-vakuutus + urheilu + tiimitapahtumat", details: ["Perhevakuutus 100%", "Kuntosali tiloissa", "Kuukausittainen tiimirakennus"] },
+        mobility: { title: "Liikkuvuus", description: "Työsuhdeauto tai kuljetustuki", details: ["Auto tai sähköpyörä", "Ilmainen pysäköinti", "Julkinen liikenne korvataan"] },
+        vacation: { title: "Runsaat Lomat", description: "30 lomapäivää + lisävapaapäivät", details: ["5 viikkoa peruslomat", "Joustavat vapaapäivät", "Senioriteettiloma"] }
+      },
+      culture: { title: "Kulttuurimme", subtitle: "Aurex K-pital -henki arjessa",
+        innovation: { title: "Jatkuva Innovointi", description: "Investoimme 15% ajastamme tutkimukseen ja uusien ideoiden tutkimiseen" },
+        teamwork: { title: "Tiimihenki", description: "Poikkitiiminen yhteistyö, keskinäinen apu ja yhteisten onnistumisten juhlinta" },
+        conviviality: { title: "Yhteisöllisyys", description: "Tiimiaamiaiset, afterworkit, perhetapahtumat ja tiimirakennus-retket" },
+        balance: { title: "Työ-elämätasapaino", description: "Pelitila, rentoutumistilat, kunnioitettu irrottautumispolitiikka" }
+      },
+      cta: { title: "Valmis Liittymään?", subtitle: "Avoin hakemus tai hae suoraan avoimeen paikkaan",
+        spontaneous: "Avoin Hakemus", viewAll: "Näytä Kaikki Paikat", contact: "HR-yhteydenotto" }
+    },
+    common: {
+      phoneLabel: "Puh.",
+      registerLabel: "Rekisteri",
+      sending: "Lähetetään...",
+      infoLabel: "Tiedoksi"
+    },
     home: {
       hero: {
         title: "Rahoituskumppanisi",
