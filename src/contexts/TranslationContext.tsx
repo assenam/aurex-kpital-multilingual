@@ -5314,6 +5314,101 @@ const translations = {
       description: "Uma rede europeia de excelência para oferecer as melhores soluções financeiras",
       stats: "Mais de 25 parceiros europeus • 27 países cobertos • 2,5 mil milhões € de volume tratado"
     },
+    partners_page: {
+      hero: { badge: "Rede de Excelência", title: "Os Nossos Parceiros", titleHighlight: "Estratégicos", description: "Um ecossistema de parceiros de primeira linha para oferecer as melhores soluções financeiras europeias." },
+      achievements: { partners: "Parceiros ativos", countries: "Países cobertos", volume: "Volume tratado", clients: "Clientes beneficiários" },
+      benefits: { title: "As Vantagens da Nossa Rede", subtitle: "Parcerias estratégicas que o beneficiam diretamente",
+        rates: { title: "Taxas Preferenciais", description: "As nossas parcerias permitem-nos negociar as melhores taxas de mercado para os nossos clientes" },
+        expertise: { title: "Experiência Combinada", description: "Beneficie da experiência acumulada de todos os nossos parceiros especializados" },
+        coverage: { title: "Cobertura Europeia", description: "Uma rede que cobre os 27 países da União Europeia" },
+        security: { title: "Segurança Reforçada", description: "Os mais elevados padrões de segurança graças aos nossos parceiros certificados" }
+      },
+      ecosystem: { title: "O Nosso Ecossistema de Parceiros", subtitle: "Alianças estratégicas com os líderes de cada setor" },
+      categories: {
+        banks: { title: "Bancos Parceiros", description: "Instituições bancárias europeias de primeira linha" },
+        insurance: { title: "Seguradoras e Proteção", description: "Líderes europeus em seguros e proteção" },
+        fintech: { title: "Fintechs e Inovação", description: "Parceiros tecnológicos de vanguarda" },
+        consulting: { title: "Consultoria e Especialização", description: "Empresas de consultoria e especialização reconhecidas" }
+      },
+      partnerDesc: {
+        deutscheBank: "Parceria estratégica para financiamentos imobiliários de alto nível",
+        bnp: "Colaboração para empréstimos pessoais e profissionais",
+        ing: "Soluções inovadoras de poupança e investimento",
+        socGen: "Especialização em gestão de património e investimentos",
+        allianz: "Seguros de empréstimos e proteção jurídica completa",
+        axa: "Soluções personalizadas de seguros de vida e previdência",
+        generali: "Proteção familiar e profissional sob medida",
+        klarna: "Soluções de pagamento flexíveis e inovadoras",
+        revolut: "Serviços bancários digitais de nova geração",
+        n26: "Experiência bancária móvel otimizada",
+        ey: "Auditoria e consultoria em estratégia financeira",
+        pwc: "Especialização fiscal e regulatória europeia",
+        kpmg: "Due diligence e otimização patrimonial"
+      },
+      specialties: {
+        deutscheBank: "Empréstimos imobiliários premium", bnp: "Financiamento empresarial", ing: "Poupança digital",
+        socGen: "Gestão patrimonial", allianz: "Seguro de empréstimo", axa: "Seguro de vida",
+        generali: "Previdência familiar", klarna: "Pagamentos parcelados", revolut: "Banca digital",
+        n26: "Banca móvel", ey: "Auditoria e consultoria", pwc: "Fiscalidade internacional", kpmg: "Due diligence"
+      },
+      countries: { germany: "Alemanha", france: "França", netherlands: "Países Baixos", italy: "Itália", sweden: "Suécia", uk: "Reino Unido", international: "Internacional" },
+      since: "Desde",
+      becomePartner: {
+        title: "Tornar-se Parceiro", subtitle: "Junte-se à nossa rede europeia de excelência",
+        criteriaTitle: "Critérios de Parceria",
+        excellence: { title: "Excelência Operacional", description: "Certificações de qualidade e padrões europeus" },
+        financial: { title: "Solidez Financeira", description: "Rating mínimo A- por uma agência reconhecida" },
+        innovation: { title: "Inovação Tecnológica", description: "Sistemas modernos e seguros" },
+        values: { title: "Valores Partilhados", description: "Compromisso com o cliente e transparência" },
+        contactTitle: "Contacto de Parcerias", contactSubtitle: "Vamos falar sobre oportunidades de colaboração",
+        phone: "Telefone", team: "Equipa dedicada", teamMember: "Dr. Klaus Müller - Diretor de Parcerias",
+        button: "Propor uma Parceria"
+      }
+    },
+    careers_page: {
+      hero: { badge: "Junte-se a nós", title: "Construamos o Futuro", titleHighlight: "das Finanças",
+        description: "Junte-se a uma equipa apaixonada que revoluciona os serviços financeiros na Europa com inovação, excelência e benevolência.",
+        stats: { employees: "Colaboradores", positions: "Posições abertas", growth: "Crescimento anual", satisfaction: "Satisfação da equipa" }
+      },
+      positions: { title: "Posições Abertas", subtitle: "Descubra as oportunidades que o esperam na Aurex K-pital", apply: "Candidatar-se", urgent: "Urgente" },
+      jobs: {
+        dataScientist: { title: "Senior Data Scientist", department: "Inovação e IA", description: "Desenvolvimento de algoritmos preditivos para análise de risco e otimização de carteiras." },
+        financialAdvisor: { title: "Consultor Financeiro Sénior", department: "Relação com o Cliente", description: "Acompanhamento personalizado de clientes premium nos seus projetos de investimento e financiamento." },
+        developer: { title: "Programador Full-Stack", department: "Technology", description: "Desenvolvimento e manutenção da nossa plataforma digital e ferramentas internas." },
+        riskAnalyst: { title: "Analista de Risco", department: "Gestão de Riscos", description: "Análise e avaliação de riscos de crédito, desenvolvimento de modelos de scoring." },
+        marketingManager: { title: "Marketing Digital Manager", department: "Marketing", description: "Estratégia digital, aquisição de clientes online, otimização de conversões." },
+        complianceOfficer: { title: "Compliance Officer", department: "Compliance", description: "Supervisão da conformidade regulatória, implementação de procedimentos RGPD e AML." }
+      },
+      departments: { title: "As Nossas Equipas", subtitle: "Descubra os diferentes departamentos e as suas missões", collaborators: "colaboradores",
+        tech: { name: "Technology", description: "Desenvolvimento de produto e infraestrutura" },
+        finance: { name: "Finance & Risk", description: "Análise financeira e gestão de riscos" },
+        customer: { name: "Customer Success", description: "Relação com o cliente e suporte" },
+        compliance: { name: "Compliance", description: "Compliance e regulamentação" },
+        operations: { name: "Operations", description: "Operações e administração" }
+      },
+      benefits: { title: "Os Seus Benefícios", subtitle: "Um pacote completo para o seu desenvolvimento profissional e pessoal",
+        salary: { title: "Remuneração Atrativa", description: "Salário competitivo + bónus de desempenho + participação nos lucros", details: ["14.º mês garantido", "Bónus trimestrais por objetivos", "Stock-options para seniores"] },
+        flexibility: { title: "Flexibilidade Máxima", description: "Horários flexíveis e teletrabalho até 3 dias por semana", details: ["Horários livres 7h-20h", "Trabalho remoto até 60%", "Workation 4 semanas/ano"] },
+        training: { title: "Formação Contínua", description: "Orçamento formação 3000€/ano + certificações cobertas", details: ["Formações técnicas", "Certificações profissionais", "Conferências internacionais"] },
+        wellbeing: { title: "Bem-estar no Trabalho", description: "Seguro premium + desporto + eventos de equipa", details: ["Seguro familiar 100%", "Ginásio nas instalações", "Team building mensal"] },
+        mobility: { title: "Mobilidade", description: "Viatura de empresa ou subsídio de transporte", details: ["Carro ou bicicleta elétrica", "Estacionamento gratuito", "Transporte público reembolsado"] },
+        vacation: { title: "Férias Generosas", description: "30 dias de férias + dias adicionais", details: ["5 semanas base", "Dias flexíveis", "Férias por antiguidade"] }
+      },
+      culture: { title: "A Nossa Cultura", subtitle: "O espírito Aurex K-pital no dia a dia",
+        innovation: { title: "Inovação Permanente", description: "Investimos 15% do nosso tempo em I&D e na exploração de novas ideias" },
+        teamwork: { title: "Espírito de Equipa", description: "Colaboração transversal, entreajuda e celebração de sucessos coletivos" },
+        conviviality: { title: "Convivialidade", description: "Pequenos-almoços de equipa, afterworks, eventos familiares e saídas de team building" },
+        balance: { title: "Equilíbrio Vida-Trabalho", description: "Sala de jogos, espaços de descanso, política de desconexão respeitada" }
+      },
+      cta: { title: "Pronto para Se Juntar?", subtitle: "Candidatura espontânea ou candidate-se diretamente a uma posição aberta",
+        spontaneous: "Candidatura Espontânea", viewAll: "Ver Todas as Posições", contact: "Contacto RH" }
+    },
+    common: {
+      phoneLabel: "Tel.",
+      registerLabel: "Registo",
+      sending: "A enviar...",
+      infoLabel: "Informação"
+    },
     home: {
       hero: {
         title: "Seu Parceiro Financeiro",
