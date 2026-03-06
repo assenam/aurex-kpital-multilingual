@@ -8,6 +8,7 @@ import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Slider } from '@/components/ui/slider';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Calculator, TrendingUp, CheckCircle, Info, Sparkles, Euro, Calendar, Percent } from 'lucide-react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
