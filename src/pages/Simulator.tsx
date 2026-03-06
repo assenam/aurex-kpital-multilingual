@@ -281,7 +281,7 @@ const Simulator = () => {
                     <div className="flex items-start gap-2">
                       <Info className="h-5 w-5 text-amber-600 mt-0.5 flex-shrink-0" />
                       <div className="text-sm text-amber-800">
-                        <strong>{t('simulator.result.infoLabel')} :</strong> {t('simulator.result.disclaimer')}
+                        <strong>{t('common.infoLabel')} :</strong> {t('simulator.result.disclaimer')}
                       </div>
                     </div>
                   </div>

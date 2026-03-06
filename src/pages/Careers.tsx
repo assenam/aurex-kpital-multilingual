@@ -12,139 +12,68 @@ import {
 
 const Careers = () => {
   const { t } = useTranslation();
+
   const openPositions = [
     {
-      title: "Senior Data Scientist",
-      department: "Innovation & IA",
-      location: "Hamburg, Allemagne",
+      jobKey: 'dataScientist',
+      location: "Hamburg",
       type: "CDI",
-      experience: "5+ ans",
+      experience: "5+",
       salary: "75-95K€",
-      description: "Développement d'algorithmes prédictifs pour l'analyse de risque et l'optimisation des portefeuilles clients.",
       skills: ["Python", "Machine Learning", "SQL", "TensorFlow", "Finance"],
       urgent: true
     },
     {
-      title: "Conseiller Financier Senior",
-      department: "Relation Client",
+      jobKey: 'financialAdvisor',
       location: "Hamburg / Remote",
       type: "CDI",
-      experience: "3+ ans",
-      salary: "50-65K€ + primes",
-      description: "Accompagnement personnalisé de clients premium dans leurs projets d'investissement et de financement.",
-      skills: ["Conseil financier", "Gestion patrimoniale", "Relation client", "Allemand", "Anglais"]
+      experience: "3+",
+      salary: "50-65K€",
+      skills: ["Finance", "CRM", "Communication"],
     },
     {
-      title: "Développeur Full-Stack",
-      department: "Technology",
+      jobKey: 'developer',
       location: "Hamburg",
       type: "CDI",
-      experience: "3+ ans",
+      experience: "3+",
       salary: "60-80K€",
-      description: "Développement et maintenance de notre plateforme digitale clients et outils internes.",
-      skills: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"]
+      skills: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"],
     },
     {
-      title: "Risk Analyst",
-      department: "Gestion des Risques",
+      jobKey: 'riskAnalyst',
       location: "Hamburg",
       type: "CDI",
-      experience: "2+ ans",
+      experience: "2+",
       salary: "45-60K€",
-      description: "Analyse et évaluation des risques de crédit, développement de modèles de scoring.",
-      skills: ["Analyse quantitative", "Excel avancé", "R/Python", "Réglementation bancaire"]
+      skills: ["R/Python", "Excel", "SQL"],
     },
     {
-      title: "Marketing Digital Manager",
-      department: "Marketing",
+      jobKey: 'marketingManager',
       location: "Hamburg / Remote",
       type: "CDI",
-      experience: "4+ ans",
+      experience: "4+",
       salary: "55-70K€",
-      description: "Stratégie digitale, acquisition client online, optimisation des conversions.",
-      skills: ["SEO/SEA", "Analytics", "CRM", "Content Marketing", "Growth Hacking"]
+      skills: ["SEO/SEA", "Analytics", "CRM", "Content Marketing"],
     },
     {
-      title: "Compliance Officer",
-      department: "Conformité",
+      jobKey: 'complianceOfficer',
       location: "Hamburg",
       type: "CDI",
-      experience: "5+ ans",
+      experience: "5+",
       salary: "65-85K€",
-      description: "Supervision de la conformité réglementaire, mise en place des procédures RGPD et AML.",
-      skills: ["Droit bancaire", "RGPD", "AML", "Audit", "Réglementation UE"]
+      skills: ["GDPR", "AML", "Audit"],
     }
   ];
 
-  const benefits = [
-    {
-      icon: Euro,
-      title: "Rémunération Attractive",
-      description: "Salaire compétitif + primes de performance + intéressement aux bénéfices",
-      details: ["13ème mois garanti", "Primes objectives trimestrielles", "Stock-options pour les seniors"]
-    },
-    {
-      icon: Clock,
-      title: "Flexibilité Maximale",
-      description: "Horaires flexibles et télétravail jusqu'à 3 jours par semaine",
-      details: ["Horaires libres 7h-20h", "Remote work jusqu'à 60%", "Workation possible 4 semaines/an"]
-    },
-    {
-      icon: GraduationCap,
-      title: "Formation Continue",
-      description: "Budget formation 3000€/an + certifications prises en charge",
-      details: ["Formations techniques", "Certifications professionnelles", "Conférences internationales"]
-    },
-    {
-      icon: Heart,
-      title: "Bien-être au Travail",
-      description: "Mutuelle premium + sport + événements équipe",
-      details: ["Mutuelle famille 100%", "Salle de sport sur site", "Team building mensuel"]
-    },
-    {
-      icon: Car,
-      title: "Mobilité",
-      description: "Véhicule de fonction ou allocation transport",
-      details: ["Voiture ou vélo électrique", "Parking gratuit", "Transports publics remboursés"]
-    },
-    {
-      icon: Plane,
-      title: "Congés Généreux",
-      description: "30 jours de congés + RTT + congés exceptionnels",
-      details: ["5 semaines de base", "RTT négociables", "Congés ancienneté"]
-    }
-  ];
+  const benefitKeys = ['salary', 'flexibility', 'training', 'wellbeing', 'mobility', 'vacation'] as const;
+  const benefitIcons = { salary: Euro, flexibility: Clock, training: GraduationCap, wellbeing: Heart, mobility: Car, vacation: Plane };
 
-  const culture = [
-    {
-      icon: TrendingUp,
-      title: "Innovation Permanente",
-      description: "Nous investissons 15% de notre temps dans la R&D et l'exploration de nouvelles idées"
-    },
-    {
-      icon: Users,
-      title: "Esprit d'Équipe",
-      description: "Collaboration transversale, entraide et célébration des succès collectifs"
-    },
-    {
-      icon: Coffee,
-      title: "Convivialité",
-      description: "Petit-déjeuners d'équipe, afterworks, événements familiaux et sorties team building"
-    },
-    {
-      icon: Gamepad2,
-      title: "Work-Life Balance",
-      description: "Salle de jeux, espaces détente, politique de déconnexion respectée"
-    }
-  ];
+  const cultureKeys = ['innovation', 'teamwork', 'conviviality', 'balance'] as const;
+  const cultureIcons = { innovation: TrendingUp, teamwork: Users, conviviality: Coffee, balance: Gamepad2 };
 
-  const departments = [
-    { name: "Technology", icon: Code, count: 12, description: "Développement produit et infrastructure" },
-    { name: "Finance & Risk", icon: BarChart, count: 8, description: "Analyse financière et gestion des risques" },
-    { name: "Customer Success", icon: Headphones, count: 15, description: "Relation client et support" },
-    { name: "Compliance", icon: Shield, count: 4, description: "Conformité et réglementation" },
-    { name: "Operations", icon: Building, count: 6, description: "Opérations et administration" }
-  ];
+  const departmentKeys = ['tech', 'finance', 'customer', 'compliance', 'operations'] as const;
+  const departmentIcons = { tech: Code, finance: BarChart, customer: Headphones, compliance: Shield, operations: Building };
+  const departmentCounts = { tech: 12, finance: 8, customer: 15, compliance: 4, operations: 6 };
 
   return (
     <div className="min-h-screen">
@@ -160,40 +89,39 @@ const Careers = () => {
             <div className="inline-block mb-6">
               <Badge className="px-6 py-2 bg-gold text-primary font-semibold text-sm">
                 <Users className="h-4 w-4 mr-2" />
-                Rejoignez-nous
+                {t('careers_page.hero.badge')}
               </Badge>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Construisons l'Avenir
-              <span className="text-gold block">de la Finance</span>
+              {t('careers_page.hero.title')}
+              <span className="text-gold block">{t('careers_page.hero.titleHighlight')}</span>
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-3xl mx-auto">
-              Rejoignez une équipe passionnée qui révolutionne les services financiers 
-              en Europe avec innovation, excellence et bienveillance.
+              {t('careers_page.hero.description')}
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
               <div className="text-center">
                 <Users className="h-8 w-8 text-gold mx-auto mb-3" />
                 <div className="font-bold text-2xl">45+</div>
-                <div className="text-sm opacity-90">Collaborateurs</div>
+                <div className="text-sm opacity-90">{t('careers_page.hero.stats.employees')}</div>
               </div>
               <div className="text-center">
                 <Briefcase className="h-8 w-8 text-gold mx-auto mb-3" />
                 <div className="font-bold text-2xl">12</div>
-                <div className="text-sm opacity-90">Postes ouverts</div>
+                <div className="text-sm opacity-90">{t('careers_page.hero.stats.positions')}</div>
               </div>
               <div className="text-center">
                 <TrendingUp className="h-8 w-8 text-gold mx-auto mb-3" />
                 <div className="font-bold text-2xl">25%</div>
-                <div className="text-sm opacity-90">Croissance annuelle</div>
+                <div className="text-sm opacity-90">{t('careers_page.hero.stats.growth')}</div>
               </div>
               <div className="text-center">
                 <Heart className="h-8 w-8 text-gold mx-auto mb-3" />
                 <div className="font-bold text-2xl">4.8/5</div>
-                <div className="text-sm opacity-90">Satisfaction équipe</div>
+                <div className="text-sm opacity-90">{t('careers_page.hero.stats.satisfaction')}</div>
               </div>
             </div>
           </div>
@@ -205,27 +133,27 @@ const Careers = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Postes Ouverts
+              {t('careers_page.positions.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Découvrez les opportunités qui vous attendent chez Aurex K-pital
+              {t('careers_page.positions.subtitle')}
             </p>
           </div>
 
           <div className="grid gap-6">
-            {openPositions.map((job, index) => (
-              <Card key={job.title} className="hover-lift border-0 shadow-lg">
+            {openPositions.map((job) => (
+              <Card key={job.jobKey} className="hover-lift border-0 shadow-lg">
                 <CardHeader>
                   <div className="flex items-start justify-between">
                     <div className="flex-1">
                       <div className="flex items-center gap-3 mb-2">
-                        <CardTitle className="text-xl text-primary">{job.title}</CardTitle>
-                        {job.urgent && <Badge className="bg-accent text-accent-foreground">Urgent</Badge>}
+                        <CardTitle className="text-xl text-primary">{t(`careers_page.jobs.${job.jobKey}.title`)}</CardTitle>
+                        {job.urgent && <Badge className="bg-accent text-accent-foreground">{t('careers_page.positions.urgent')}</Badge>}
                       </div>
                       <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground mb-3">
                         <div className="flex items-center gap-1">
                           <Building className="h-4 w-4" />
-                          {job.department}
+                          {t(`careers_page.jobs.${job.jobKey}.department`)}
                         </div>
                         <div className="flex items-center gap-1">
                           <MapPin className="h-4 w-4" />
@@ -244,7 +172,7 @@ const Careers = () => {
                           {job.salary}
                         </div>
                       </div>
-                      <CardDescription className="mb-4">{job.description}</CardDescription>
+                      <CardDescription className="mb-4">{t(`careers_page.jobs.${job.jobKey}.description`)}</CardDescription>
                       <div className="flex flex-wrap gap-2">
                         {job.skills.map((skill, skillIndex) => (
                           <Badge key={skillIndex} variant="outline" className="text-xs">
@@ -254,7 +182,7 @@ const Careers = () => {
                       </div>
                     </div>
                     <Button className="ml-4 bg-gradient-primary hover:shadow-lg">
-                      Postuler
+                      {t('careers_page.positions.apply')}
                     </Button>
                   </div>
                 </CardHeader>
@@ -269,29 +197,32 @@ const Careers = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Nos Équipes
+              {t('careers_page.departments.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Découvrez les différents départements et leurs missions
+              {t('careers_page.departments.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {departments.map((dept, index) => (
-              <Card key={dept.name} className="text-center hover-lift border-0 shadow-md">
-                <CardHeader>
-                  <div className="mx-auto mb-4 p-4 bg-gradient-primary rounded-xl">
-                    <dept.icon className="h-8 w-8 text-primary-foreground" />
-                  </div>
-                  <CardTitle className="text-lg text-primary">{dept.name}</CardTitle>
-                  <CardDescription>{dept.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-2xl font-bold text-accent mb-2">{dept.count}</div>
-                  <div className="text-sm text-muted-foreground">collaborateurs</div>
-                </CardContent>
-              </Card>
-            ))}
+            {departmentKeys.map((key) => {
+              const Icon = departmentIcons[key];
+              return (
+                <Card key={key} className="text-center hover-lift border-0 shadow-md">
+                  <CardHeader>
+                    <div className="mx-auto mb-4 p-4 bg-gradient-primary rounded-xl">
+                      <Icon className="h-8 w-8 text-primary-foreground" />
+                    </div>
+                    <CardTitle className="text-lg text-primary">{t(`careers_page.departments.${key}.name`)}</CardTitle>
+                    <CardDescription>{t(`careers_page.departments.${key}.description`)}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="text-2xl font-bold text-accent mb-2">{departmentCounts[key]}</div>
+                    <div className="text-sm text-muted-foreground">{t('careers_page.departments.collaborators')}</div>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -301,37 +232,42 @@ const Careers = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Vos Avantages
+              {t('careers_page.benefits.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Un package complet pour votre épanouissement professionnel et personnel
+              {t('careers_page.benefits.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {benefits.map((benefit, index) => (
-              <Card key={benefit.title} className="hover-lift border-0 shadow-md">
-                <CardHeader>
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="p-3 bg-gradient-primary rounded-xl">
-                      <benefit.icon className="h-6 w-6 text-primary-foreground" />
+            {benefitKeys.map((key) => {
+              const Icon = benefitIcons[key];
+              const details = t(`careers_page.benefits.${key}.details`);
+              const detailsList = typeof details === 'string' ? [] : [];
+              return (
+                <Card key={key} className="hover-lift border-0 shadow-md">
+                  <CardHeader>
+                    <div className="flex items-center gap-3 mb-4">
+                      <div className="p-3 bg-gradient-primary rounded-xl">
+                        <Icon className="h-6 w-6 text-primary-foreground" />
+                      </div>
+                      <CardTitle className="text-lg text-primary">{t(`careers_page.benefits.${key}.title`)}</CardTitle>
                     </div>
-                    <CardTitle className="text-lg text-primary">{benefit.title}</CardTitle>
-                  </div>
-                  <CardDescription>{benefit.description}</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-2">
-                    {benefit.details.map((detail, detailIndex) => (
-                      <li key={detailIndex} className="text-sm text-muted-foreground flex items-center gap-2">
-                        <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
-                        {detail}
-                      </li>
-                    ))}
-                  </ul>
-                </CardContent>
-              </Card>
-            ))}
+                    <CardDescription>{t(`careers_page.benefits.${key}.description`)}</CardDescription>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-2">
+                      {[0, 1, 2].map((i) => (
+                        <li key={i} className="text-sm text-muted-foreground flex items-center gap-2">
+                          <div className="w-1.5 h-1.5 bg-accent rounded-full flex-shrink-0"></div>
+                          {t(`careers_page.benefits.${key}.details.${i}`)}
+                        </li>
+                      ))}
+                    </ul>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -341,31 +277,34 @@ const Careers = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold text-primary mb-6">
-              Notre Culture
+              {t('careers_page.culture.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              L'esprit Aurex K-pital au quotidien
+              {t('careers_page.culture.subtitle')}
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {culture.map((value, index) => (
-              <Card key={value.title} className="hover-lift border-0 shadow-md">
-                <CardHeader>
-                  <div className="flex items-center gap-4">
-                    <div className="p-3 bg-gradient-primary rounded-xl">
-                      <value.icon className="h-8 w-8 text-primary-foreground" />
+            {cultureKeys.map((key) => {
+              const Icon = cultureIcons[key];
+              return (
+                <Card key={key} className="hover-lift border-0 shadow-md">
+                  <CardHeader>
+                    <div className="flex items-center gap-4">
+                      <div className="p-3 bg-gradient-primary rounded-xl">
+                        <Icon className="h-8 w-8 text-primary-foreground" />
+                      </div>
+                      <div>
+                        <CardTitle className="text-xl text-primary">{t(`careers_page.culture.${key}.title`)}</CardTitle>
+                      </div>
                     </div>
-                    <div>
-                      <CardTitle className="text-xl text-primary">{value.title}</CardTitle>
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground">{value.description}</p>
-                </CardContent>
-              </Card>
-            ))}
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground">{t(`careers_page.culture.${key}.description`)}</p>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -375,25 +314,25 @@ const Careers = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center text-primary-foreground">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Prêt à Nous Rejoindre ?
+              {t('careers_page.cta.title')}
             </h2>
             <p className="text-xl mb-12 text-primary-foreground/90">
-              Candidature spontanée ou postulez directement sur un poste ouvert
+              {t('careers_page.cta.subtitle')}
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" className="bg-gold hover:bg-gold/90 text-primary font-bold px-8 py-4">
                 <Briefcase className="h-5 w-5 mr-2" />
-                Candidature Spontanée
+                {t('careers_page.cta.spontaneous')}
               </Button>
               <Button size="lg" variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
                 <Users className="h-5 w-5 mr-2" />
-                Voir Tous les Postes
+                {t('careers_page.cta.viewAll')}
               </Button>
             </div>
 
             <div className="mt-12 text-sm text-primary-foreground/80">
-              <p>Contact RH : <strong>careers@aurex-kpital.de</strong> | +33759282004</p>
+              <p>{t('careers_page.cta.contact')} : <strong>careers@aurex-kpital.de</strong> | +33759282004</p>
             </div>
           </div>
         </div>
