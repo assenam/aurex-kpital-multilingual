@@ -241,7 +241,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     const notificationResponse = await resend.emails.send({
       from: "Aurex Kpital <contact@aurexkpital.com>",
-      to: ["contact@aurexkpital.com"],
+      to: ["contact@aurexk-pital.com"],
       subject: template.notificationSubject(formData.personalInfo.firstName, formData.personalInfo.lastName),
       html: `
         <h2>${template.notificationTitle}</h2>
