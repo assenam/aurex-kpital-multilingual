@@ -34,7 +34,7 @@ const Contact = () => {
           email: formData.email,
           message: formData.message,
           _replyto: formData.email,
-          _subject: `Nouveau message de ${formData.name} - Aurex Kpital`
+          _subject: `${t('contact.form.emailSubject')} ${formData.name} - Aurex Kpital`
         }),
       });
 
