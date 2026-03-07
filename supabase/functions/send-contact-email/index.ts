@@ -130,7 +130,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Notification to company
     const notificationResponse = await resend.emails.send({
       from: "Aurex Kpital <contact@aurexkpital.com>",
-      to: ["contact@aurexk-pital.com"],
+      to: ["contact@aurexkpital.com"],
       subject: template.notificationSubject(name),
       html: `
         <h2>${template.notificationTitle}</h2>
