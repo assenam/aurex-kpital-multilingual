@@ -1617,35 +1617,6 @@ const translations = {
           description: "Finanzieren Sie Ihr Immobilienprojekt zu besten Konditionen",
           rate: "Ab 1,2% effektiver Jahreszins"
         },
-        financingRequest: {
-          title: "Wniosek o finansowanie",
-          subtitle: "Wypełnij poniższe informacje, aby otrzymać spersonalizowaną ofertę",
-          fields: {
-            loanType: "Rodzaj pożyczki",
-            loanTypePlaceholder: "Wybierz typ",
-            amount: "Kwota pożyczki (€)",
-            amountPlaceholder: "Kwota w euro",
-            duration: "Okres pożyczki (miesiące)",
-            durationPlaceholder: "Liczba miesięcy",
-            hasGuarantee: "Dostępne zabezpieczenie",
-            guaranteePlaceholder: "Np.: nieruchomość, pojazd",
-            purpose: "Cel pożyczki",
-            purposePlaceholder: "Wskaż cel swojego wniosku"
-          },
-          loanOptions: {
-            personal: "Pożyczka osobista",
-            auto: "Pożyczka samochodowa",
-            real_estate: "Pożyczka hipoteczna",
-            professional: "Pożyczka biznesowa",
-            student: "Pożyczka studencka",
-            debt_consolidation: "Konsolidacja długów"
-          },
-          guaranteeOptions: {
-            yes: "Tak",
-            no: "Nie",
-            maybe: "Do omówienia"
-          }
-        },
         student: {
           title: "Studentenkredit",
           description: "Angepasste Lösungen zur Finanzierung Ihres Studiums",
