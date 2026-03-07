@@ -3890,7 +3890,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Rejestr",
       sending: "Wysyłanie...",
-      infoLabel: "Informacja"
+      infoLabel: "Informacja",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Otwórz menu"
     },
     home: {
       hero: {
