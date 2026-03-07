@@ -807,7 +807,7 @@ const translations = {
         },
         contact: {
           title: "Contact",
-          phone: "Téléphone: +33759282004",
+          phone: "Téléphone: +49 1521 4946940",
           email: "Email: contact@aurexk-pital.com",
           hours: "Horaires: Lundi-Vendredi 8h-19h, Samedi 9h-17h",
           hero: {
