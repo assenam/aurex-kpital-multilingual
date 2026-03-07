@@ -3163,6 +3163,11 @@ const translations = {
           simulate: "Simulare un prestito",
           contact: "Contattaci"
         },
+        contact: {
+          phone: "Telefono",
+          address: "Indirizzo",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+        }
       }
     },
     services: {
