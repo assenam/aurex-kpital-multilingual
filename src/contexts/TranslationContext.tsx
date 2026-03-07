@@ -2233,7 +2233,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Registro",
       sending: "Enviando...",
-      infoLabel: "Información"
+      infoLabel: "Información",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Abrir menú"
     },
     home: {
       hero: {
