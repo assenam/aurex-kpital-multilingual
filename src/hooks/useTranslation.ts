@@ -726,7 +726,7 @@ const translations = {
         contactBtn: "Contáctanos",
         phone: "Teléfono:",
         address: "Dirección:",
-        phoneNumber: "+33759282004",
+        phoneNumber: "+49 1521 4946940",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
       }
     },
