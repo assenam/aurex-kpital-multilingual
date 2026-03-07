@@ -15,7 +15,7 @@ const CTA = () => {
       <div className="absolute bottom-10 right-20 w-32 h-32 bg-primary-foreground/10 rounded-full blur-2xl float" style={{ animationDelay: '2s' }}></div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <Card className="glass-card border-primary-foreground/30 max-w-4xl mx-auto shadow-hover hover-lift">
+        <Card className="bg-primary/95 backdrop-blur-md border-gold/20 max-w-4xl mx-auto shadow-hover hover-lift">
           <CardContent className="p-8 md:p-12 text-center">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-foreground mb-6">
               {t('home.cta.title')} 
