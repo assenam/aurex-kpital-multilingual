@@ -138,8 +138,14 @@ const Request = () => {
         acceptsTerms: false, acceptsMarketing: false
       });
 
-    } catch (error) {
-      console.error('Error sending request:', error);
+    } catch (error: any) {
+      console.error('Error sending request:', JSON.stringify(error, Object.getOwnPropertyNames(error)));
+      console.error('Error details:', {
+        message: error?.message,
+        context: error?.context,
+        status: error?.status,
+        name: error?.name,
+      });
       toast({
         title: t('request.form.validation.errorTitle'),
         description: t('request.form.validation.errorAlert'),
