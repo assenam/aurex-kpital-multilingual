@@ -27,7 +27,7 @@ const emailTemplates = {
     confirmationContent: "Nous avons bien reçu votre demande et notre équipe vous répondra dans les plus brefs délais.",
     yourMessage: "Votre message :",
     responseTime: "Notre équipe d'experts vous contactera généralement sous 2 heures pendant nos heures d'ouverture.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexkal.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexkl.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
   },
   de: {
     notificationSubject: (name: string) => `Neue Kontaktnachricht - ${name}`,
@@ -39,7 +39,7 @@ const emailTemplates = {
     confirmationContent: "Wir haben Ihre Anfrage erhalten und unser Team wird Ihnen so schnell wie möglich antworten.",
     yourMessage: "Ihre Nachricht:",
     responseTime: "Unser Expertenteam wird Sie normalerweise innerhalb von 2 Stunden während unserer Öffnungszeiten kontaktieren.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-ia.com<br>🕒 Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-ia.om<br>🕒 Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
   },
   pl: {
     notificationSubject: (name: string) => `Nowa wiadomość kontaktowa - ${name}`,
@@ -51,7 +51,7 @@ const emailTemplates = {
     confirmationContent: "Otrzymaliśmy Twoje zapytanie i nasz zespół odpowie jak najszybciej.",
     yourMessage: "Twoja wiadomość:",
     responseTime: "Nasz zespół ekspertów skontaktuje się z Tobą zazwyczaj w ciągu 2 godzin w godzinach naszej pracy.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pta.com<br>🕒 Poniedziałek-Piątek 8-19, Sobota 9-17"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pta.cm<br>🕒 Poniedziałek-Piątek 8-19, Sobota 9-17"
   },
   fi: {
     notificationSubject: (name: string) => `Uusi yhteydenottopyyntö - ${name}`,
@@ -63,7 +63,7 @@ const emailTemplates = {
     confirmationContent: "Olemme vastaanottaneet kyselysi ja tiimimme vastaa sinulle mahdollisimman pian.",
     yourMessage: "Viestisi:",
     responseTime: "Asiantuntijatiimimme ottaa sinuun yhteyttä yleensä 2 tunnin kuluessa aukioloaikojemme sisällä.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pial.com<br>🕒 Maanantai-Perjantai 8-19, Lauantai 9-17"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pial.om<br>🕒 Maanantai-Perjantai 8-19, Lauantai 9-17"
   },
   es: {
     notificationSubject: (name: string) => `Nuevo mensaje de contacto - ${name}`,
@@ -75,7 +75,7 @@ const emailTemplates = {
     confirmationContent: "Hemos recibido su consulta y nuestro equipo le responderá lo antes posible.",
     yourMessage: "Su mensaje:",
     responseTime: "Nuestro equipo de expertos se pondrá en contacto con usted generalmente en 2 horas durante nuestro horario de oficina.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lunes-Viernes 8h-19h, Sábado 9h-17h"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pitl.com<br>🕒 Lunes-Viernes 8h-19h, Sábado 9h-17h"
   },
   pt: {
     notificationSubject: (name: string) => `Nova mensagem de contato - ${name}`,
