@@ -4973,7 +4973,7 @@ const translations = {
         email: {
           title: "Sähköposti",
           description: "Lähetä meille kysymyksesi",
-          value: "contact@aurex-kpital.com",
+          value: "contact@aurexkpital.com",
           hours: "Vastaus 4h:ssa keskimäärin"
         },
         address: {
