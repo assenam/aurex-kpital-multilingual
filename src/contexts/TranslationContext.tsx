@@ -6194,7 +6194,7 @@ const translations = {
             phone: {
               title: "Τηλέφωνο",
               description: "Μιλήστε απευθείας με τους συμβούλους μας",
-              value: "+33759282004",
+              value: "+49 1521 4946940",
               hours: "Δευ-Παρ: 8h-19h, Σάβ: 9h-17h"
             },
             email: {

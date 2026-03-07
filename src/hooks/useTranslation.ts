@@ -1008,7 +1008,7 @@ const translations = {
         contactBtn: "Contattaci",
         phone: "Telefono:",
         address: "Indirizzo:",
-        phoneNumber: "+33759282004",
+        phoneNumber: "+49 1521 4946940",
         addressText: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
       }
     },
