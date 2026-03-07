@@ -62,7 +62,7 @@ const handler = async (req: Request): Promise<Response> => {
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
             <p><strong>Aurex Kpital</strong><br>
             📞 +49 1521 4946940<br>
-            ✉️ contact@aurexk-pital.com<br>
+            ✉️ contact@aurexkpital.com<br>
             🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h</p>
           </div>
         </div>
