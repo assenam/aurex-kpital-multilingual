@@ -6455,7 +6455,7 @@ const translations = {
         phone: {
           title: "Τηλέφωνο",
           description: "Καλέστε μας για άμεση συμβουλή",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Δευ-Παρ 8π-19μ, Σαβ 9π-17μ"
         },
         email: {
