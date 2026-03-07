@@ -2086,7 +2086,7 @@ const translations = {
         help: {
           title: "¿Necesitas ayuda?",
           subtitle: "Nuestros expertos están aquí para acompañarte",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Lun-Vie 8h-19h",
           contactButton: "Contáctanos"
         },
