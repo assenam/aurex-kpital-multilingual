@@ -4639,7 +4639,9 @@ const translations = {
       phoneLabel: "Puh.",
       registerLabel: "Rekisteri",
       sending: "Lähetetään...",
-      infoLabel: "Tiedoksi"
+      infoLabel: "Tiedoksi",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Avaa valikko"
     },
     home: {
       hero: {
