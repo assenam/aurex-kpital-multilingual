@@ -4505,7 +4505,7 @@ const translations = {
         help: {
           title: "Tarvitsetko apua?",
           subtitle: "Asiantuntijamme ovat täällä auttamassa sinua",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Ma-Pe 8-19",
           contactButton: "Ota yhteyttä"
         },
