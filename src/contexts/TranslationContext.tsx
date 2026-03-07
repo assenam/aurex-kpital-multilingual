@@ -6544,7 +6544,7 @@ const translations = {
         contact: {
           title: "Επικοινωνία",
           phone: "Τηλέφωνο: +49 1521 4946940",
-          email: "Email: contact@aurex-kpital.com",
+          email: "Email: contact@aurexkpital.com",
           hours: "Ώρες: Δευτέρα-Παρασκευή 8π.μ.-7μ.μ., Σάββατο 9π.μ.-5μ.μ."
         },
         hosting: {
