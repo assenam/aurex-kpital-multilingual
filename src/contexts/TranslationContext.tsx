@@ -2763,7 +2763,7 @@ const translations = {
         },
         contact: {
           title: "Contacto",
-          phone: "Teléfono: +33759282004",
+          phone: "Teléfono: +49 1521 4946940",
           email: "Email: contact@aurexk-pital.com",
           hours: "Horarios: Lunes-Viernes 8h-19h, Sábado 9h-17h"
         },
