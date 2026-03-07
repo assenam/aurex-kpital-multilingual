@@ -5056,7 +5056,7 @@ const translations = {
         contact: {
           title: "Yhteystiedot",
           phone: "Puhelin: +49 1521 4946940",
-          email: "Sähköposti: contact@aurex-kpital.com",
+          email: "Sähköposti: contact@aurexkpital.com",
           hours: "Aukioloajat: Maanantai-Perjantai 8-19, Lauantai 9-17"
         },
         hosting: {
