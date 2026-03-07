@@ -1891,7 +1891,7 @@ const translations = {
         },
         contact: {
           title: "Kontakt",
-          phone: "Telefon: +33759282004",
+          phone: "Telefon: +49 1521 4946940",
           email: "E-Mail: contact@aurexk-pital.com",
           hours: "Öffnungszeiten: Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
         },
