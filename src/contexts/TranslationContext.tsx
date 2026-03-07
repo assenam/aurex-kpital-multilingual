@@ -2315,6 +2315,11 @@ const translations = {
           simulate: "Simular un préstamo",
           contact: "Contáctanos"
         },
+        contact: {
+          phone: "Teléfono",
+          address: "Dirección",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+        }
       }
     },
     services: {
@@ -3158,6 +3163,11 @@ const translations = {
           simulate: "Simulare un prestito",
           contact: "Contattaci"
         },
+        contact: {
+          phone: "Telefono",
+          address: "Indirizzo",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Amburgo, Germania"
+        }
       }
     },
     services: {
@@ -3972,6 +3982,11 @@ const translations = {
           simulate: "Symulować kredyt",
           contact: "Skontaktuj się"
         },
+        contact: {
+          phone: "Telefon",
+          address: "Adres",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
+        }
       }
     },
     services: {
@@ -4721,6 +4736,11 @@ const translations = {
           simulate: "Simuloida laina",
           contact: "Ota yhteyttä"
         },
+        contact: {
+          phone: "Puhelin",
+          address: "Osoite",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hampuri, Saksa"
+        }
       }
     },
     services: {
@@ -5431,6 +5451,11 @@ const translations = {
           simulate: "Simular um empréstimo",
           contact: "Contactar-nos"
         },
+        contact: {
+          phone: "Telefone",
+          address: "Morada",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
+        }
       }
     },
     services: {
