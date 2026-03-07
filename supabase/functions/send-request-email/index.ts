@@ -58,7 +58,7 @@ const emailTemplates = {
     confirmationContent: "Nous avons bien reçu votre demande de financement et notre équipe d'experts l'examine actuellement.",
     confirmationSummary: "Récapitulatif de votre demande :",
     confirmationResponse: "Notre équipe d'experts vous contactera généralement sous 2 heures pendant nos heures d'ouverture pour discuter de votre projet et vous accompagner dans votre demande.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexkl.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
   },
   de: {
     notificationSubject: (firstName: string, lastName: string) => `Neue Finanzierungsanfrage - ${firstName} ${lastName}`,
@@ -78,7 +78,7 @@ const emailTemplates = {
     confirmationContent: "Wir haben Ihre Finanzierungsanfrage erhalten und unser Expertenteam prüft sie derzeit.",
     confirmationSummary: "Zusammenfassung Ihrer Anfrage:",
     confirmationResponse: "Unser Expertenteam wird Sie normalerweise innerhalb von 2 Stunden während unserer Öffnungszeiten kontaktieren, um Ihr Projekt zu besprechen und Sie bei Ihrer Anfrage zu unterstützen.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-ia.om<br>🕒 Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-ia.o<br>🕒 Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
   },
   pl: {
     notificationSubject: (firstName: string, lastName: string) => `Nowy wniosek o finansowanie - ${firstName} ${lastName}`,
@@ -98,7 +98,7 @@ const emailTemplates = {
     confirmationContent: "Otrzymaliśmy Twój wniosek o finansowanie i nasz zespół ekspertów obecnie go analizuje.",
     confirmationSummary: "Podsumowanie Twojego wniosku:",
     confirmationResponse: "Nasz zespół ekspertów skontaktuje się z Tobą zazwyczaj w ciągu 2 godzin w godzinach naszej pracy, aby omówić Twój projekt i pomóc w realizacji wniosku.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pta.cm<br>🕒 Poniedziałek-Piątek 8-19, Sobota 9-17"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pta.cm<r>🕒 Poniedziałek-Piątek 8-19, Sobota 9-17"
   },
   fi: {
     notificationSubject: (firstName: string, lastName: string) => `Uusi rahoitushakemus - ${firstName} ${lastName}`,
@@ -118,7 +118,7 @@ const emailTemplates = {
     confirmationContent: "Olemme vastaanottaneet rahoitushakemuksesi ja asiantuntijatiimimme käsittelee sitä parhaillaan.",
     confirmationSummary: "Hakemuksesi yhteenveto:",
     confirmationResponse: "Asiantuntijatiimimme ottaa sinuun yhteyttä yleensä 2 tunnin kuluessa aukioloaikojemme sisällä keskustellaksemme projektistasi ja auttaaksemme hakemuksessasi.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pial.om<br>🕒 Maanantai-Perjantai 8-19, Lauantai 9-17"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pial.om<r>🕒 Maanantai-Perjantai 8-19, Lauantai 9-17"
   },
   es: {
     notificationSubject: (firstName: string, lastName: string) => `Nueva solicitud de financiación - ${firstName} ${lastName}`,
@@ -138,7 +138,7 @@ const emailTemplates = {
     confirmationContent: "Hemos recibido su solicitud de financiación y nuestro equipo de expertos la está examinando actualmente.",
     confirmationSummary: "Resumen de su solicitud:",
     confirmationResponse: "Nuestro equipo de expertos se pondrá en contacto con usted generalmente en 2 horas durante nuestro horario de oficina para discutir su proyecto y ayudarle con su solicitud.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pitl.com<br>🕒 Lunes-Viernes 8h-19h, Sábado 9h-17h"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pitl.co<br>🕒 Lunes-Viernes 8h-19h, Sábado 9h-17h"
   },
   pt: {
     notificationSubject: (firstName: string, lastName: string) => `Nova solicitação de financiamento - ${firstName} ${lastName}`,
@@ -158,7 +158,7 @@ const emailTemplates = {
     confirmationContent: "Recebemos sua solicitação de financiamento e nossa equipe de especialistas está examinando-a atualmente.",
     confirmationSummary: "Resumo da sua solicitação:",
     confirmationResponse: "Nossa equipe de especialistas entrará em contato com você geralmente em 2 horas durante nosso horário de funcionamento para discutir seu projeto e ajudá-lo com sua solicitação.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Segunda-Sexta 8h-19h, Sábado 9h-17h"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pita.com<br>🕒 Segunda-Sexta 8h-19h, Sábado 9h-17h"
   },
   el: {
     notificationSubject: (firstName: string, lastName: string) => `Νέο αίτημα χρηματοδότησης - ${firstName} ${lastName}`,
