@@ -1728,6 +1728,8 @@ const translations = {
         },
         submitButton: "Nachricht senden",
         successMessage: "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir antworten Ihnen schnellstmöglich.",
+        errorMessage: "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+        emailSubject: "Neue Nachricht von",
         commitment: "Wir verpflichten uns, innerhalb von 2 Stunden während unserer Öffnungszeiten zu antworten."
       }
     },
