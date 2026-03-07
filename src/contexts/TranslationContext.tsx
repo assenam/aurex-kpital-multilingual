@@ -2575,7 +2575,7 @@ const translations = {
         phone: {
           title: "Teléfono",
           description: "Llámenos para un consejo inmediato",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Lun-Vie 8h-19h, Sáb 9h-17h"
         },
         email: {
