@@ -903,7 +903,7 @@ const translations = {
               name: "Support Technique",
               description: "Assistance plateforme et outils",
               contact: "support@aurex-kpital.de",
-              phone: "+33759282004"
+              phone: "+49 1521 4946940"
             },
             management: {
               name: "Direction",
