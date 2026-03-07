@@ -3972,6 +3972,11 @@ const translations = {
           simulate: "Symulować kredyt",
           contact: "Skontaktuj się"
         },
+        contact: {
+          phone: "Telefon",
+          address: "Adres",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Niemcy"
+        }
       }
     },
     services: {
