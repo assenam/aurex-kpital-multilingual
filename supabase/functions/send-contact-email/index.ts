@@ -44,7 +44,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send confirmation email to client
     const confirmationResponse = await resend.emails.send({
-      from: "Aurex Kpital <contact@aurexk-pital.com>",
+      from: "Aurex Kpital <contact@aurexkpital.com>",
       to: [email],
       subject: "Nous avons bien reçu votre message !",
       html: `
