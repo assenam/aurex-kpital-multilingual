@@ -4343,7 +4343,7 @@ const translations = {
         },
         contact: {
           title: "Kontakt",
-          phone: "Telefon: +33759282004",
+          phone: "Telefon: +49 1521 4946940",
           email: "Email: contact@aurex-kpital.com",
           hours: "Godziny: Poniedziałek-Piątek 8-19, Sobota 9-17"
         },
