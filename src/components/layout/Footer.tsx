@@ -57,7 +57,7 @@ const Footer = () => {
                 <p><strong>Aurex K-pital</strong></p>
                 <p>Irma-Keilhack-Ring 24</p>
                 <p>22145 Hamburg, {t('partners_page.countries.germany')}</p>
-                <p>{t('common.phoneLabel')}: +33759282004</p>
+                <p>{t('common.phoneLabel')}: +49 1521 4946940</p>
                 <p>{t('common.phoneLabel')}: +4915781095078</p>
                 <p>{t('common.registerLabel')}: HRB 80635</p>
                 <p>{t('common.safeNumber')}: DE00976259</p>

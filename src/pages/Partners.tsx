@@ -269,7 +269,7 @@ const Partners = () => {
                         <Phone className="h-5 w-5 text-accent" />
                         <div>
                           <div className="font-semibold text-primary">{t('partners_page.becomePartner.phone')}</div>
-                          <div className="text-sm text-muted-foreground">+33759282004</div>
+                          <div className="text-sm text-muted-foreground">+49 1521 4946940</div>
                         </div>
                       </div>
 

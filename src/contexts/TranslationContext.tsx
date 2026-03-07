@@ -374,7 +374,7 @@ const translations = {
         help: {
           title: "Besoin d'aide ?",
           subtitle: "Nos experts sont là pour vous accompagner",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Lun-Ven 8h-19h",
           contactButton: "Nous contacter"
         },
@@ -733,7 +733,7 @@ const translations = {
         phone: {
           title: "Téléphone",
           description: "Appelez-nous pour un conseil immédiat",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Lun-Ven 8h-19h, Sam 9h-17h"
         },
         email: {
@@ -807,7 +807,7 @@ const translations = {
         },
         contact: {
           title: "Contact",
-          phone: "Téléphone: +33759282004",
+          phone: "Téléphone: +49 1521 4946940",
           email: "Email: contact@aurexk-pital.com",
           hours: "Horaires: Lundi-Vendredi 8h-19h, Samedi 9h-17h",
           hero: {
@@ -827,7 +827,7 @@ const translations = {
             phone: {
               title: "Téléphone",
               description: "Parlez directement à nos conseillers",
-              value: "+33759282004",
+              value: "+49 1521 4946940",
               hours: "Lun-Ven: 8h-19h, Sam: 9h-17h"
             },
             email: {
@@ -891,25 +891,25 @@ const translations = {
               name: "Service Commercial",
               description: "Nouvelles demandes et informations",
               contact: "commercial@aurex-kpital.de",
-              phone: "+33759282004"
+              phone: "+49 1521 4946940"
             },
             client: {
               name: "Service Client",
               description: "Suivi de dossiers existants",
               contact: "client@aurex-kpital.de",
-              phone: "+33759282004"
+              phone: "+49 1521 4946940"
             },
             support: {
               name: "Support Technique",
               description: "Assistance plateforme et outils",
               contact: "support@aurex-kpital.de",
-              phone: "+33759282004"
+              phone: "+49 1521 4946940"
             },
             management: {
               name: "Direction",
               description: "Réclamations et suggestions",
               contact: "direction@aurex-kpital.de",
-              phone: "+33759282004"
+              phone: "+49 1521 4946940"
             }
           },
           schedules: {
@@ -954,7 +954,7 @@ const translations = {
         hosting: {
           title: "Hébergement",
           description: "Ce site est hébergé par :",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxembourg\nTéléphone: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxembourg\nTéléphone: +49 1521 4946940"
         },
         intellectual: {
           title: "Propriété Intellectuelle",
@@ -1321,7 +1321,7 @@ const translations = {
         help: {
           title: "Brauchen Sie Hilfe?",
           subtitle: "Unsere Experten begleiten Sie",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Mo-Fr 8-19 Uhr",
           contactButton: "Kontakt aufnehmen"
         },
@@ -1703,7 +1703,7 @@ const translations = {
         phone: {
           title: "Telefon",
           description: "Rufen Sie uns für sofortige Beratung an",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Mo-Fr 8-19 Uhr, Sa 9-17 Uhr"
         },
         email: {
@@ -1891,14 +1891,14 @@ const translations = {
         },
         contact: {
           title: "Kontakt",
-          phone: "Telefon: +33759282004",
+          phone: "Telefon: +49 1521 4946940",
           email: "E-Mail: contact@aurexk-pital.com",
           hours: "Öffnungszeiten: Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
         },
         hosting: {
           title: "Hosting",
           description: "Diese Website wird gehostet von:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nTelefon: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nTelefon: +49 1521 4946940"
         },
         intellectual: {
           title: "Geistiges Eigentum",
@@ -2086,7 +2086,7 @@ const translations = {
         help: {
           title: "¿Necesitas ayuda?",
           subtitle: "Nuestros expertos están aquí para acompañarte",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Lun-Vie 8h-19h",
           contactButton: "Contáctanos"
         },
@@ -2575,7 +2575,7 @@ const translations = {
         phone: {
           title: "Teléfono",
           description: "Llámenos para un consejo inmediato",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Lun-Vie 8h-19h, Sáb 9h-17h"
         },
         email: {
@@ -2763,14 +2763,14 @@ const translations = {
         },
         contact: {
           title: "Contacto",
-          phone: "Teléfono: +33759282004",
+          phone: "Teléfono: +49 1521 4946940",
           email: "Email: contact@aurexk-pital.com",
           hours: "Horarios: Lunes-Viernes 8h-19h, Sábado 9h-17h"
         },
         hosting: {
           title: "Alojamiento",
           description: "Este sitio está alojado por:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTeléfono: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTeléfono: +49 1521 4946940"
         },
         intellectual: {
           title: "Propiedad Intelectual",
@@ -2933,7 +2933,7 @@ const translations = {
         help: {
           title: "Hai bisogno di aiuto?",
           subtitle: "I nostri esperti sono qui per accompagnarti",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Lun-Ven 8-19",
           contactButton: "Contattaci"
         },
@@ -3394,7 +3394,7 @@ const translations = {
         phone: {
           title: "Telefono",
           description: "Chiamaci per un consiglio immediato",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Lun-Ven 8-19, Sab 9-17"
         },
         email: {
@@ -3582,14 +3582,14 @@ const translations = {
         },
         contact: {
           title: "Contatto",
-          phone: "Telefono: +33759282004",
+          phone: "Telefono: +49 1521 4946940",
           email: "Email: contact@aurex-kpital.com",
           hours: "Orari: Lunedì-Venerdì 8h-19h, Sabato 9h-17h"
         },
         hosting: {
           title: "Hosting",
           description: "Questo sito è ospitato da:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Lussemburgo\nTelefono: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Lussemburgo\nTelefono: +49 1521 4946940"
         },
         intellectual: {
           title: "Proprietà Intellettuale",
@@ -3752,7 +3752,7 @@ const translations = {
         help: {
           title: "Potrzebujesz pomocy?",
           subtitle: "Nasi eksperci są tutaj, aby Ci towarzyszyć",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Pon-Pt 8-19",
           contactButton: "Skontaktuj się z nami"
         },
@@ -4213,7 +4213,7 @@ const translations = {
         phone: {
           title: "Telefon",
           description: "Zadzwoń do nas po natychmiastową poradę",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Pon-Pt 8-19, Sob 9-17"
         },
         email: {
@@ -4343,14 +4343,14 @@ const translations = {
         },
         contact: {
           title: "Kontakt",
-          phone: "Telefon: +33759282004",
+          phone: "Telefon: +49 1521 4946940",
           email: "Email: contact@aurex-kpital.com",
           hours: "Godziny: Poniedziałek-Piątek 8-19, Sobota 9-17"
         },
         hosting: {
           title: "Hosting",
           description: "Ta strona jest hostowana przez:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luksemburg\nTelefon: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luksemburg\nTelefon: +49 1521 4946940"
         },
         intellectual: {
           title: "Własność Intelektualna",
@@ -4505,7 +4505,7 @@ const translations = {
         help: {
           title: "Tarvitsetko apua?",
           subtitle: "Asiantuntijamme ovat täällä auttamassa sinua",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Ma-Pe 8-19",
           contactButton: "Ota yhteyttä"
         },
@@ -4967,7 +4967,7 @@ const translations = {
         phone: {
           title: "Puhelin",
           description: "Keskustele suoraan konsulttiemme kanssa",
-          value: "+33759282004",
+              value: "+49 1521 4946940",
           hours: "Ma-Pe: 8h-19h, La: 9h-17h"
         },
         email: {
@@ -5055,14 +5055,14 @@ const translations = {
         },
         contact: {
           title: "Yhteystiedot",
-          phone: "Puhelin: +33759282004",
+          phone: "Puhelin: +49 1521 4946940",
           email: "Sähköposti: contact@aurex-kpital.com",
           hours: "Aukioloajat: Maanantai-Perjantai 8-19, Lauantai 9-17"
         },
         hosting: {
           title: "Hosting",
           description: "Tämä sivusto on isännöity:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nPuhelin: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nPuhelin: +49 1521 4946940"
         },
         intellectual: {
           title: "Immateriaaliomaisuus",
@@ -5220,7 +5220,7 @@ const translations = {
         help: {
           title: "Precisa de ajuda?",
           subtitle: "Os nossos especialistas estão aqui para o acompanhar",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Seg-Sex 8h-19h",
           contactButton: "Entre em contato"
         },
@@ -5682,7 +5682,7 @@ const translations = {
         phone: {
           title: "Telefone",
           description: "Ligue-nos para um conselho imediato",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Seg-Sex 8h-19h, Sáb 9h-17h"
         },
         email: {
@@ -5770,14 +5770,14 @@ const translations = {
         },
         contact: {
           title: "Contacto",
-          phone: "Telefone: +33759282004",
+          phone: "Telefone: +49 1521 4946940",
           email: "Email: contact@aurex-kpital.com",
           hours: "Horários: Segunda-Sexta 8h-19h, Sábado 9h-17h"
         },
         hosting: {
           title: "Hospedagem",
           description: "Este site é hospedado por:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTelefone: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTelefone: +49 1521 4946940"
         },
         intellectual: {
           title: "Propriedade Intelectual",
@@ -5940,7 +5940,7 @@ const translations = {
         help: {
           title: "Χρειάζεστε βοήθεια;",
           subtitle: "Οι ειδικοί μας είναι εδώ για να σας συνοδεύσουν",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Δευ-Παρ 8-19",
           contactButton: "Επικοινωνήστε μαζί μας"
         },
@@ -6194,7 +6194,7 @@ const translations = {
             phone: {
               title: "Τηλέφωνο",
               description: "Μιλήστε απευθείας με τους συμβούλους μας",
-              value: "+33759282004",
+              value: "+49 1521 4946940",
               hours: "Δευ-Παρ: 8h-19h, Σάβ: 9h-17h"
             },
             email: {
@@ -6455,7 +6455,7 @@ const translations = {
         phone: {
           title: "Τηλέφωνο",
           description: "Καλέστε μας για άμεση συμβουλή",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Δευ-Παρ 8π-19μ, Σαβ 9π-17μ"
         },
         email: {
@@ -6543,14 +6543,14 @@ const translations = {
         },
         contact: {
           title: "Επικοινωνία",
-          phone: "Τηλέφωνο: +33759282004",
+          phone: "Τηλέφωνο: +49 1521 4946940",
           email: "Email: contact@aurex-kpital.com",
           hours: "Ώρες: Δευτέρα-Παρασκευή 8π.μ.-7μ.μ., Σάββατο 9π.μ.-5μ.μ."
         },
         hosting: {
           title: "Φιλοξενία",
           description: "Αυτός ο ιστότοπος φιλοξενείται από:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Λουξεμβούργο\nΤηλέφωνο: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Λουξεμβούργο\nΤηλέφωνο: +49 1521 4946940"
         },
         intellectual: {
           title: "Πνευματική Ιδιοκτησία",
