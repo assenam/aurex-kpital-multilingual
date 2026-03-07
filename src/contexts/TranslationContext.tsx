@@ -5062,7 +5062,7 @@ const translations = {
         hosting: {
           title: "Hosting",
           description: "Tämä sivusto on isännöity:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nPuhelin: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburg\nPuhelin: +49 1521 4946940"
         },
         intellectual: {
           title: "Immateriaaliomaisuus",
