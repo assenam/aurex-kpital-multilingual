@@ -3076,7 +3076,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Registro",
       sending: "Invio in corso...",
-      infoLabel: "Informazione"
+      infoLabel: "Informazione",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Apri menu"
     },
     home: {
       hero: {
