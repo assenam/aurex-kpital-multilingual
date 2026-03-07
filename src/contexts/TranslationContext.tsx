@@ -374,7 +374,7 @@ const translations = {
         help: {
           title: "Besoin d'aide ?",
           subtitle: "Nos experts sont là pour vous accompagner",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Lun-Ven 8h-19h",
           contactButton: "Nous contacter"
         },
