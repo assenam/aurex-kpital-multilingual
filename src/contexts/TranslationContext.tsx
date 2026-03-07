@@ -758,6 +758,8 @@ const translations = {
         },
         submitButton: "Envoyer le message",
         successMessage: "Merci ! Votre message a été envoyé avec succès. Nous vous répondrons rapidement.",
+        errorMessage: "Une erreur est survenue. Veuillez réessayer.",
+        emailSubject: "Nouveau message de",
         commitment: "Nous nous engageons à répondre dans les 2 heures pendant nos horaires d'ouverture."
       }
     },
