@@ -4967,7 +4967,7 @@ const translations = {
         phone: {
           title: "Puhelin",
           description: "Keskustele suoraan konsulttiemme kanssa",
-          value: "+33759282004",
+              value: "+49 1521 4946940",
           hours: "Ma-Pe: 8h-19h, La: 9h-17h"
         },
         email: {
