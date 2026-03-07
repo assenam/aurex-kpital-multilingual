@@ -35,7 +35,7 @@ interface RequestEmailData {
     purpose: string;
     guarantee: string;
   };
-  language?: string; // Optional language parameter
+  language?: string;
 }
 
 // Email templates by language
@@ -58,7 +58,7 @@ const emailTemplates = {
     confirmationContent: "Nous avons bien reçu votre demande de financement et notre équipe d'experts l'examine actuellement.",
     confirmationSummary: "Récapitulatif de votre demande :",
     confirmationResponse: "Notre équipe d'experts vous contactera généralement sous 2 heures pendant nos heures d'ouverture pour discuter de votre projet et vous accompagner dans votre demande.",
-    contactInfo: "📞 +49 1521 49469406940694069406940694069406940<br>✉️ contact@aurexk-pital.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
   },
   de: {
     notificationSubject: (firstName: string, lastName: string) => `Neue Finanzierungsanfrage - ${firstName} ${lastName}`,
@@ -77,7 +77,8 @@ const emailTemplates = {
     confirmationTitle: (firstName: string) => `Vielen Dank für Ihre Anfrage, ${firstName}!`,
     confirmationContent: "Wir haben Ihre Finanzierungsanfrage erhalten und unser Expertenteam prüft sie derzeit.",
     confirmationSummary: "Zusammenfassung Ihrer Anfrage:",
-    confirmationResponse: "Unser Expertenteam wird Sie normalerweise innerhalb von 2 Stunden während unserer Öffnungszeiten kontaktieren, um Ihr Projekt zu besprechen und Sie bei Ihrer Anfrage zu unterstützen49 1521 4946940 4946940 4946940 4946940 4946940 4946940 49469402004<br>✉️ contact@aurexk-pital.com<br>🕒 Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
+    confirmationResponse: "Unser Expertenteam wird Sie normalerweise innerhalb von 2 Stunden während unserer Öffnungszeiten kontaktieren, um Ihr Projekt zu besprechen und Sie bei Ihrer Anfrage zu unterstützen.",
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
   },
   pl: {
     notificationSubject: (firstName: string, lastName: string) => `Nowy wniosek o finansowanie - ${firstName} ${lastName}`,
@@ -97,7 +98,7 @@ const emailTemplates = {
     confirmationContent: "Otrzymaliśmy Twój wniosek o finansowanie i nasz zespół ekspertów obecnie go analizuje.",
     confirmationSummary: "Podsumowanie Twojego wniosku:",
     confirmationResponse: "Nasz zespół ekspertów skontaktuje się z Tobą zazwyczaj w ciągu 2 godzin w godzinach naszej pracy, aby omówić Twój projekt i pomóc w realizacji wniosku.",
-    contactInfo: "📞 +33759282004<br>✉️ contact@aurexk-pital.com<br>🕒 Poniedziałek-Piątek 8-19, Sobota 9-17"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Poniedziałek-Piątek 8-19, Sobota 9-17"
   },
   fi: {
     notificationSubject: (firstName: string, lastName: string) => `Uusi rahoitushakemus - ${firstName} ${lastName}`,
@@ -116,7 +117,8 @@ const emailTemplates = {
     confirmationTitle: (firstName: string) => `Kiitos hakemuksestasi, ${firstName}!`,
     confirmationContent: "Olemme vastaanottaneet rahoitushakemuksesi ja asiantuntijatiimimme käsittelee sitä parhaillaan.",
     confirmationSummary: "Hakemuksesi yhteenveto:",
-    confirmationResponse: "Asiantuntijatiimimme ottaa sinuun yhteyttä yleensä 2 tunnin kuluessa aukioloaikojemme sisällä keskustellaksemme projektistasi ja auttaaksemme ha49 1521 49469401521 49469401521 49469401521 49469401521 494694059282004<br>✉️ contact@aurexk-pital.com<br>🕒 Maanantai-Perjantai 8-19, Lauantai 9-17"
+    confirmationResponse: "Asiantuntijatiimimme ottaa sinuun yhteyttä yleensä 2 tunnin kuluessa aukioloaikojemme sisällä keskustellaksemme projektistasi ja auttaaksemme hakemuksessasi.",
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Maanantai-Perjantai 8-19, Lauantai 9-17"
   },
   es: {
     notificationSubject: (firstName: string, lastName: string) => `Nueva solicitud de financiación - ${firstName} ${lastName}`,
@@ -135,8 +137,8 @@ const emailTemplates = {
     confirmationTitle: (firstName: string) => `¡Gracias por su solicitud, ${firstName}!`,
     confirmationContent: "Hemos recibido su solicitud de financiación y nuestro equipo de expertos la está examinando actualmente.",
     confirmationSummary: "Resumen de su solicitud:",
-    confirmationResponse: "Nuestro equipo de expertos se pondrá en contacto con usted generalmente en 2 horas durante nuestro horario de oficina para discutir su proyecto y ayuda49 1521 4946940s49 1521 4946940
-49 1521 4946940I49 1521 4946940+33759282004<br>✉️ contact@aurexk-pital.com<br>🕒 Lunes-Viernes 8h-19h, Sábado 9h-17h"
+    confirmationResponse: "Nuestro equipo de expertos se pondrá en contacto con usted generalmente en 2 horas durante nuestro horario de oficina para discutir su proyecto y ayudarle con su solicitud.",
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lunes-Viernes 8h-19h, Sábado 9h-17h"
   },
   pt: {
     notificationSubject: (firstName: string, lastName: string) => `Nova solicitação de financiamento - ${firstName} ${lastName}`,
@@ -155,7 +157,8 @@ const emailTemplates = {
     confirmationTitle: (firstName: string) => `Obrigado pela sua solicitação, ${firstName}!`,
     confirmationContent: "Recebemos sua solicitação de financiamento e nossa equipe de especialistas está examinando-a atualmente.",
     confirmationSummary: "Resumo da sua solicitação:",
-    confirmationResponse: "Nossa equipe de especialistas entrará em contato com você geralmente em 2 horas durante nosso horário de funcionamento para discutir seu projeto e ajudá-lo c49 1521 4946940cita�49 1521 4946940 cont49 1521 4946940��� +33759282004<br>✉️ contact@aurexk-pital.com<br>🕒 Segunda-Sexta 8h-19h, Sábado 9h-17h"
+    confirmationResponse: "Nossa equipe de especialistas entrará em contato com você geralmente em 2 horas durante nosso horário de funcionamento para discutir seu projeto e ajudá-lo com sua solicitação.",
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Segunda-Sexta 8h-19h, Sábado 9h-17h"
   },
   el: {
     notificationSubject: (firstName: string, lastName: string) => `Νέο αίτημα χρηματοδότησης - ${firstName} ${lastName}`,
@@ -175,7 +178,7 @@ const emailTemplates = {
     confirmationContent: "Λάβαμε το αίτημά σας για χρηματοδότηση και η ομάδα των ειδικών μας το εξετάζει αυτή τη στιγμή.",
     confirmationSummary: "Περίληψη του αιτήματός σας:",
     confirmationResponse: "Η ομάδα των ειδικών μας θα επικοινωνήσει μαζί σας συνήθως εντός 2 ωρών κατά τις ώρες λειτουργίας μας για να συζητήσουμε το έργο σας και να σας βοηθήσουμε με το αίτημά σας.",
-    contactInfo: "📞 +33759282004<br>✉️ contact@aurexk-pital.com<br>🕒 Δευτέρα-Παρασκευή 8-19, Σάββατο 9-17"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Δευτέρα-Παρασκευή 8-19, Σάββατο 9-17"
   },
   it: {
     notificationSubject: (firstName: string, lastName: string) => `Nuova richiesta di finanziamento - ${firstName} ${lastName}`,
@@ -195,11 +198,10 @@ const emailTemplates = {
     confirmationContent: "Abbiamo ricevuto la sua richiesta di finanziamento e il nostro team di esperti la sta esaminando attualmente.",
     confirmationSummary: "Riepilogo della sua richiesta:",
     confirmationResponse: "Il nostro team di esperti la contatterà generalmente entro 2 ore durante i nostri orari di ufficio per discutere il suo progetto e aiutarla con la sua richiesta.",
-    contactInfo: "📞 +33759282004<br>✉️ contact@aurexk-pital.com<br>🕒 Lunedì-Venerdì 8-19, Sabato 9-17"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lunedì-Venerdì 8-19, Sabato 9-17"
   }
 };
 
-// Helper function for "No income" text
 const getNoIncomeText = (lang: string): string => {
   const noIncomeTexts: { [key: string]: string } = {
     fr: 'Aucun',
@@ -214,7 +216,6 @@ const getNoIncomeText = (lang: string): string => {
   return noIncomeTexts[lang] || 'Aucun';
 };
 
-// Helper function for form submission text
 const getFormSubmissionText = (lang: string): string => {
   const formTexts: { [key: string]: string } = {
     fr: 'Demande reçue via le formulaire de demande du site web.',
@@ -230,15 +231,12 @@ const getFormSubmissionText = (lang: string): string => {
 };
 
 const handler = async (req: Request): Promise<Response> => {
-  // Handle CORS preflight requests
   if (req.method === "OPTIONS") {
     return new Response(null, { headers: corsHeaders });
   }
 
   try {
     const formData: RequestEmailData = await req.json();
-
-    // Get language (default to French for backward compatibility)
     const lang = (formData.language && formData.language in emailTemplates) ? formData.language as keyof typeof emailTemplates : 'fr';
     const template = emailTemplates[lang];
 
@@ -248,14 +246,12 @@ const handler = async (req: Request): Promise<Response> => {
       language: lang
     });
 
-    // Send notification email to company
     const notificationResponse = await resend.emails.send({
       from: "Aurex Kpital <contact@aurexk-pital.com>",
       to: ["contact@aurexk-pital.com"],
       subject: template.notificationSubject(formData.personalInfo.firstName, formData.personalInfo.lastName),
       html: `
         <h2>${template.notificationTitle}</h2>
-        
         <h3>${template.personalInfoTitle}</h3>
         <ul>
           <li><strong>${template.fields.name} :</strong> ${formData.personalInfo.firstName} ${formData.personalInfo.lastName}</li>
@@ -266,7 +262,6 @@ const handler = async (req: Request): Promise<Response> => {
           <li><strong>${template.fields.maritalStatus} :</strong> ${formData.personalInfo.maritalStatus}</li>
           <li><strong>${template.fields.dependents} :</strong> ${formData.personalInfo.dependents}</li>
         </ul>
-
         <h3>${template.professionalInfoTitle}</h3>
         <ul>
           <li><strong>${template.fields.employmentStatus} :</strong> ${formData.professionalInfo.employmentStatus}</li>
@@ -276,7 +271,6 @@ const handler = async (req: Request): Promise<Response> => {
           <li><strong>${template.fields.monthlyIncome} :</strong> ${formData.professionalInfo.monthlyIncome}</li>
           <li><strong>${template.fields.otherIncome} :</strong> ${formData.professionalInfo.otherIncome || getNoIncomeText(lang)}</li>
         </ul>
-
         <h3>${template.financingRequestTitle}</h3>
         <ul>
           <li><strong>${template.fields.loanType} :</strong> ${formData.financingRequest.loanType}</li>
@@ -285,13 +279,11 @@ const handler = async (req: Request): Promise<Response> => {
           <li><strong>${template.fields.purpose} :</strong> ${formData.financingRequest.purpose}</li>
           <li><strong>${template.fields.guarantee} :</strong> ${formData.financingRequest.guarantee}</li>
         </ul>
-
         <hr>
         <p><small>${getFormSubmissionText(lang)}</small></p>
       `,
     });
 
-    // Send confirmation email to client
     const confirmationResponse = await resend.emails.send({
       from: "Aurex Kpital <contact@aurexk-pital.com>",
       to: [formData.personalInfo.email],
@@ -300,16 +292,13 @@ const handler = async (req: Request): Promise<Response> => {
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h1 style="color: #1e40af;">${template.confirmationTitle(formData.personalInfo.firstName)}</h1>
           <p>${template.confirmationContent}</p>
-          
           <div style="background-color: #f3f4f6; padding: 20px; border-radius: 8px; margin: 20px 0;">
             <h3>${template.confirmationSummary}</h3>
             <p><strong>${template.fields.loanType} :</strong> ${formData.financingRequest.loanType}</p>
             <p><strong>${template.fields.amount} :</strong> ${formData.financingRequest.amount}</p>
             <p><strong>${template.fields.duration} :</strong> ${formData.financingRequest.duration}</p>
           </div>
-          
           <p>${template.confirmationResponse}</p>
-          
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
             <p><strong>Aurex Kpital</strong><br>
             ${template.contactInfo}</p>
