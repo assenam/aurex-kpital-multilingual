@@ -3400,7 +3400,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Scrivici, rispondiamo velocemente",
-          value: "contact@aurexk-pital.com",
+          value: "contact@aurexkpital.com",
           hours: "Risposta in 2h in media"
         },
         address: {
