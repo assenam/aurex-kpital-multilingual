@@ -28,8 +28,8 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send notification email to company
     const notificationResponse = await resend.emails.send({
-      from: "Aurex Kpital <contact@aurexk-pital.com>",
-      to: ["contact@aurexk-pital.com"],
+      from: "Aurex Kpital <contact@aurexkpital.com>",
+      to: ["contact@aurexkpital.com"],
       subject: `Nouveau message de contact - ${name}`,
       html: `
         <h2>Nouveau message de contact</h2>
