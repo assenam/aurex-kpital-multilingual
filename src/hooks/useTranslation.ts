@@ -820,7 +820,7 @@ const translations = {
         contactBtn: "Entre em contato",
         phone: "Telefone:",
         address: "Endereço:",
-        phoneNumber: "+33759282004",
+        phoneNumber: "+49 1521 4946940",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
       }
     },
