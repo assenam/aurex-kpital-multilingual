@@ -954,7 +954,7 @@ const translations = {
         hosting: {
           title: "Hébergement",
           description: "Ce site est hébergé par :",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxembourg\nTéléphone: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxembourg\nTéléphone: +49 1521 4946940"
         },
         intellectual: {
           title: "Propriété Intellectuelle",
