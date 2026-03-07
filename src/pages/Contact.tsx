@@ -12,7 +12,8 @@ import { supabase } from '@/integrations/supabase/client';
 import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
