@@ -5451,6 +5451,11 @@ const translations = {
           simulate: "Simular um empréstimo",
           contact: "Contactar-nos"
         },
+        contact: {
+          phone: "Telefone",
+          address: "Morada",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemanha"
+        }
       }
     },
     services: {
