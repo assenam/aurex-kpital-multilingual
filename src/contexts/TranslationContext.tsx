@@ -2933,7 +2933,7 @@ const translations = {
         help: {
           title: "Hai bisogno di aiuto?",
           subtitle: "I nostri esperti sono qui per accompagnarti",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Lun-Ven 8-19",
           contactButton: "Contattaci"
         },
