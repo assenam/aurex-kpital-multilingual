@@ -6064,7 +6064,9 @@ const translations = {
       phoneLabel: "Τηλ.",
       registerLabel: "Μητρώο",
       sending: "Αποστολή...",
-      infoLabel: "Πληροφορία"
+      infoLabel: "Πληροφορία",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Άνοιγμα μενού"
     },
     home: {
       hero: {
