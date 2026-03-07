@@ -8,6 +8,8 @@ import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
 import { useTranslation } from '@/contexts/TranslationContext';
 import { Phone, Mail, MapPin, MessageCircle, Send, Sparkles } from 'lucide-react';
+import { supabase } from '@/integrations/supabase/client';
+import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
   const { t } = useTranslation();
