@@ -112,33 +112,14 @@ const Request = () => {
         language: language // Ajouter la langue actuelle
       };
 
-      // Envoyer l'email via fetch direct pour meilleur debug
-      const supabaseUrl = 'https://ijmyzfuiexjufconojed.supabase.co';
-      const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlqbXl6ZnVpZXhqdWZjb25vamVkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMyNjkxNjIsImV4cCI6MjA2ODg0NTE2Mn0.cNqr7DGkvMfGBpyQt8WLLEV-vNosK8scVHTZB0fofak';
-      
-      console.log('Calling edge function with data:', JSON.stringify(emailData));
-      
-      const response = await fetch(`${supabaseUrl}/functions/v1/send-request-email`, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'apikey': supabaseKey,
-          'Authorization': `Bearer ${supabaseKey}`,
-        },
-        body: JSON.stringify(emailData),
+      // Envoyer l'email via l'edge function
+      const { data, error } = await supabase.functions.invoke('send-request-email', {
+        body: emailData
       });
 
-      const responseText = await response.text();
-      console.log('Edge function response status:', response.status);
-      console.log('Edge function response body:', responseText);
-
-      if (!response.ok) {
-        throw new Error(`Edge function error (${response.status}): ${responseText}`);
-      }
-
-      const result = JSON.parse(responseText);
-      if (!result.success) {
-        throw new Error(result.error || 'Unknown error');
+      if (error) {
+        console.error('Edge function error:', error);
+        throw error;
       }
 
       toast({
@@ -159,7 +140,7 @@ const Request = () => {
       });
 
     } catch (error: any) {
-      console.error('DETAILED ERROR:', error.message);
+      console.error('Error sending request:', error);
       toast({
         title: t('request.form.validation.errorTitle'),
         description: error.message || t('request.form.validation.errorAlert'),
