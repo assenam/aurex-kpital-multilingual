@@ -758,6 +758,8 @@ const translations = {
         },
         submitButton: "Envoyer le message",
         successMessage: "Merci ! Votre message a été envoyé avec succès. Nous vous répondrons rapidement.",
+        errorMessage: "Une erreur est survenue. Veuillez réessayer.",
+        emailSubject: "Nouveau message de",
         commitment: "Nous nous engageons à répondre dans les 2 heures pendant nos horaires d'ouverture."
       }
     },
@@ -1076,7 +1078,9 @@ const translations = {
       phoneLabel: "Tél",
       registerLabel: "Registre",
       sending: "Envoi en cours...",
-      infoLabel: "Information"
+      infoLabel: "Information",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Ouvrir le menu"
     }
   },
   de: {
@@ -1465,7 +1469,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Register",
       sending: "Wird gesendet...",
-      infoLabel: "Hinweis"
+      infoLabel: "Hinweis",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Menü öffnen"
     },
     home: {
       hero: {
@@ -1617,35 +1623,6 @@ const translations = {
           description: "Finanzieren Sie Ihr Immobilienprojekt zu besten Konditionen",
           rate: "Ab 1,2% effektiver Jahreszins"
         },
-        financingRequest: {
-          title: "Wniosek o finansowanie",
-          subtitle: "Wypełnij poniższe informacje, aby otrzymać spersonalizowaną ofertę",
-          fields: {
-            loanType: "Rodzaj pożyczki",
-            loanTypePlaceholder: "Wybierz typ",
-            amount: "Kwota pożyczki (€)",
-            amountPlaceholder: "Kwota w euro",
-            duration: "Okres pożyczki (miesiące)",
-            durationPlaceholder: "Liczba miesięcy",
-            hasGuarantee: "Dostępne zabezpieczenie",
-            guaranteePlaceholder: "Np.: nieruchomość, pojazd",
-            purpose: "Cel pożyczki",
-            purposePlaceholder: "Wskaż cel swojego wniosku"
-          },
-          loanOptions: {
-            personal: "Pożyczka osobista",
-            auto: "Pożyczka samochodowa",
-            real_estate: "Pożyczka hipoteczna",
-            professional: "Pożyczka biznesowa",
-            student: "Pożyczka studencka",
-            debt_consolidation: "Konsolidacja długów"
-          },
-          guaranteeOptions: {
-            yes: "Tak",
-            no: "Nie",
-            maybe: "Do omówienia"
-          }
-        },
         student: {
           title: "Studentenkredit",
           description: "Angepasste Lösungen zur Finanzierung Ihres Studiums",
@@ -1751,6 +1728,8 @@ const translations = {
         },
         submitButton: "Nachricht senden",
         successMessage: "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir antworten Ihnen schnellstmöglich.",
+        errorMessage: "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+        emailSubject: "Neue Nachricht von",
         commitment: "Wir verpflichten uns, innerhalb von 2 Stunden während unserer Öffnungszeiten zu antworten."
       }
     },
@@ -2254,7 +2233,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Registro",
       sending: "Enviando...",
-      infoLabel: "Información"
+      infoLabel: "Información",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Abrir menú"
     },
     home: {
       hero: {
@@ -2362,36 +2343,7 @@ const translations = {
           "Tesorería",
           "Compra de participaciones"
         ]
-        },
-        financingRequest: {
-          title: "Richiesta di finanziamento",
-          subtitle: "Compila le seguenti informazioni per ottenere un'offerta personalizzata",
-          fields: {
-            loanType: "Tipo di prestito",
-            loanTypePlaceholder: "Seleziona un tipo",
-            amount: "Importo del prestito (€)",
-            amountPlaceholder: "Importo in euro",
-            duration: "Durata del prestito (mesi)",
-            durationPlaceholder: "Numero di mesi",
-            hasGuarantee: "Garanzia disponibile",
-            guaranteePlaceholder: "Es.: immobile, veicolo",
-            purpose: "Scopo del prestito",
-            purposePlaceholder: "Indica il motivo della tua richiesta"
-          },
-          loanOptions: {
-            personal: "Prestito personale",
-            auto: "Prestito auto",
-            real_estate: "Mutuo immobiliare",
-            professional: "Prestito professionale",
-            student: "Prestito studentesco",
-            debt_consolidation: "Consolidamento debiti"
-          },
-          guaranteeOptions: {
-            yes: "Sì",
-            no: "No",
-            maybe: "Da discutere"
-          }
-        },
+      },
       investment: {
         title: "Inversiones inteligentes",
         description: "Optimización patrimonial con inteligencia artificial y experiencia humana.",
@@ -2643,6 +2595,8 @@ const translations = {
         },
         submitButton: "Enviar mensaje",
         successMessage: "¡Gracias! Su mensaje ha sido enviado con éxito. Le responderemos rápidamente.",
+        errorMessage: "Se ha producido un error. Inténtelo de nuevo.",
+        emailSubject: "Nuevo mensaje de",
         commitment: "Nos comprometemos a responder en 2 horas durante nuestro horario de oficina."
       }
     },
@@ -2995,36 +2949,7 @@ const translations = {
       request: "Richiesta",
       about: "Chi siamo",
       contact: "Contatto",
-        },
-        financingRequest: {
-          title: "Pedido de financiamento",
-          subtitle: "Preencha as seguintes informações para obter uma oferta personalizada",
-          fields: {
-            loanType: "Tipo de empréstimo",
-            loanTypePlaceholder: "Selecione um tipo",
-            amount: "Valor do empréstimo (€)",
-            amountPlaceholder: "Valor em euros",
-            duration: "Duração do empréstimo (meses)",
-            durationPlaceholder: "Número de meses",
-            hasGuarantee: "Garantia disponível",
-            guaranteePlaceholder: "Ex.: imóvel, veículo",
-            purpose: "Finalidade do empréstimo",
-            purposePlaceholder: "Indique o objetivo do seu pedido"
-          },
-          loanOptions: {
-            personal: "Empréstimo pessoal",
-            auto: "Empréstimo automóvel",
-            real_estate: "Empréstimo imobiliário",
-            professional: "Empréstimo profissional",
-            student: "Empréstimo estudantil",
-            debt_consolidation: "Consolidação de créditos"
-          },
-          guaranteeOptions: {
-            yes: "Sim",
-            no: "Não",
-            maybe: "A discutir"
-          }
-        },
+    },
     footer: {
       tools: "Strumenti",
       
@@ -3151,7 +3076,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Registro",
       sending: "Invio in corso...",
-      infoLabel: "Informazione"
+      infoLabel: "Informazione",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Apri menu"
     },
     home: {
       hero: {
@@ -3482,6 +3409,8 @@ const translations = {
         },
         submitButton: "Invia messaggio",
         successMessage: "Grazie! Il tuo messaggio è stato inviato con successo. Ti risponderemo rapidamente.",
+        errorMessage: "Si è verificato un errore. Riprova.",
+        emailSubject: "Nuovo messaggio da",
         commitment: "Ci impegniamo a rispondere entro 2 ore durante i nostri orari di ufficio."
       }
     },
@@ -3961,7 +3890,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Rejestr",
       sending: "Wysyłanie...",
-      infoLabel: "Informacja"
+      infoLabel: "Informacja",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Otwórz menu"
     },
     home: {
       hero: {
@@ -4292,6 +4223,8 @@ const translations = {
         },
         submitButton: "Wyślij wiadomość",
         successMessage: "Dziękujemy! Twoja wiadomość została wysłana pomyślnie. Odpowiemy szybko.",
+        errorMessage: "Wystąpił błąd. Spróbuj ponownie.",
+        emailSubject: "Nowa wiadomość od",
         commitment: "Zobowiązujemy się odpowiedzieć w ciągu 2 godzin w czasie naszych godzin pracy."
       }
     },
@@ -4706,7 +4639,9 @@ const translations = {
       phoneLabel: "Puh.",
       registerLabel: "Rekisteri",
       sending: "Lähetetään...",
-      infoLabel: "Tiedoksi"
+      infoLabel: "Tiedoksi",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Avaa valikko"
     },
     home: {
       hero: {
@@ -5037,6 +4972,8 @@ const translations = {
         },
         submitButton: "Lähetä viesti",
         successMessage: "Viestisi on lähetetty onnistuneesti! Otamme yhteyttä nopeasti.",
+        errorMessage: "Tapahtui virhe. Yritä uudelleen.",
+        emailSubject: "Uusi viesti käyttäjältä",
         commitment: "Sitoudumme vastaamaan 24h sisällä"
       }
     },
@@ -5412,7 +5349,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Registo",
       sending: "A enviar...",
-      infoLabel: "Informação"
+      infoLabel: "Informação",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Abrir menu"
     },
     home: {
       hero: {
@@ -5743,6 +5682,8 @@ const translations = {
         },
         submitButton: "Enviar mensagem",
         successMessage: "Obrigado! A sua mensagem foi enviada com sucesso. Responderemos rapidamente.",
+        errorMessage: "Ocorreu um erro. Tente novamente.",
+        emailSubject: "Nova mensagem de",
         commitment: "Comprometemo-nos a responder em 2 horas durante o nosso horário de funcionamento."
       }
     },
@@ -6123,7 +6064,9 @@ const translations = {
       phoneLabel: "Τηλ.",
       registerLabel: "Μητρώο",
       sending: "Αποστολή...",
-      infoLabel: "Πληροφορία"
+      infoLabel: "Πληροφορία",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Άνοιγμα μενού"
     },
     home: {
       hero: {
@@ -6512,6 +6455,8 @@ const translations = {
         },
         submitButton: "Αποστολή μηνύματος",
         successMessage: "Το μήνυμά σας στάλθηκε με επιτυχία! Θα απαντήσουμε γρήγορα.",
+        errorMessage: "Παρουσιάστηκε σφάλμα. Δοκιμάστε ξανά.",
+        emailSubject: "Νέο μήνυμα από",
         commitment: "Δεσμευόμαστε να απαντήσουμε εντός 2 ωρών κατά τη διάρκεια των ωραρίων μας."
       }
     },

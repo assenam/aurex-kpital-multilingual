@@ -60,7 +60,7 @@ const Footer = () => {
                 <p>{t('common.phoneLabel')}: +33759282004</p>
                 <p>{t('common.phoneLabel')}: +4915781095078</p>
                 <p>{t('common.registerLabel')}: HRB 80635</p>
-                <p>Safe-Nummer: DE00976259</p>
+                <p>{t('common.safeNumber')}: DE00976259</p>
               </div>
             </div>
 

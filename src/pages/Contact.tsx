@@ -34,7 +34,7 @@ const Contact = () => {
           email: formData.email,
           message: formData.message,
           _replyto: formData.email,
-          _subject: `Nouveau message de ${formData.name} - Aurex Kpital`
+          _subject: `${t('contact.form.emailSubject')} ${formData.name} - Aurex Kpital`
         }),
       });
 
@@ -42,11 +42,11 @@ const Contact = () => {
         alert(t('contact.form.successMessage'));
         setFormData({ name: '', email: '', message: '' });
       } else {
-        alert(t('contact.form.errorMessage') || 'Une erreur est survenue. Veuillez réessayer.');
+        alert(t('contact.form.errorMessage'));
       }
     } catch (error) {
       console.error('Error sending email:', error);
-      alert(t('contact.form.errorMessage') || 'Une erreur est survenue. Veuillez réessayer.');
+      alert(t('contact.form.errorMessage'));
     } finally {
       setIsSubmitting(false);
     }
