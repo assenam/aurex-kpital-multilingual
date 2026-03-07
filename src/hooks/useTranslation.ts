@@ -632,7 +632,7 @@ const translations = {
         contactBtn: "Ota meihin yhteyttä",
         phone: "Puhelin:",
         address: "Osoite:",
-        phoneNumber: "+33759282004",
+        phoneNumber: "+49 1521 4946940",
         addressText: "Irma-Keilhack-Ring 24, 22145 Hampuri, Saksa"
       }
     },
