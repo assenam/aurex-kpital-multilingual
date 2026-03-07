@@ -3589,7 +3589,7 @@ const translations = {
         hosting: {
           title: "Hosting",
           description: "Questo sito è ospitato da:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Lussemburgo\nTelefono: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Lussemburgo\nTelefono: +49 1521 4946940"
         },
         intellectual: {
           title: "Proprietà Intellettuale",
