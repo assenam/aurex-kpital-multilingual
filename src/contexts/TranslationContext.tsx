@@ -2937,36 +2937,7 @@ const translations = {
       request: "Richiesta",
       about: "Chi siamo",
       contact: "Contatto",
-        },
-        financingRequest: {
-          title: "Pedido de financiamento",
-          subtitle: "Preencha as seguintes informações para obter uma oferta personalizada",
-          fields: {
-            loanType: "Tipo de empréstimo",
-            loanTypePlaceholder: "Selecione um tipo",
-            amount: "Valor do empréstimo (€)",
-            amountPlaceholder: "Valor em euros",
-            duration: "Duração do empréstimo (meses)",
-            durationPlaceholder: "Número de meses",
-            hasGuarantee: "Garantia disponível",
-            guaranteePlaceholder: "Ex.: imóvel, veículo",
-            purpose: "Finalidade do empréstimo",
-            purposePlaceholder: "Indique o objetivo do seu pedido"
-          },
-          loanOptions: {
-            personal: "Empréstimo pessoal",
-            auto: "Empréstimo automóvel",
-            real_estate: "Empréstimo imobiliário",
-            professional: "Empréstimo profissional",
-            student: "Empréstimo estudantil",
-            debt_consolidation: "Consolidação de créditos"
-          },
-          guaranteeOptions: {
-            yes: "Sim",
-            no: "Não",
-            maybe: "A discutir"
-          }
-        },
+    },
     footer: {
       tools: "Strumenti",
       

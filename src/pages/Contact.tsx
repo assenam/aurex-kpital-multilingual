@@ -42,11 +42,11 @@ const Contact = () => {
         alert(t('contact.form.successMessage'));
         setFormData({ name: '', email: '', message: '' });
       } else {
-        alert(t('contact.form.errorMessage') || 'Une erreur est survenue. Veuillez réessayer.');
+        alert(t('contact.form.errorMessage'));
       }
     } catch (error) {
       console.error('Error sending email:', error);
-      alert(t('contact.form.errorMessage') || 'Une erreur est survenue. Veuillez réessayer.');
+      alert(t('contact.form.errorMessage'));
     } finally {
       setIsSubmitting(false);
     }
