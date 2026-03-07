@@ -5349,7 +5349,9 @@ const translations = {
       phoneLabel: "Tel.",
       registerLabel: "Registo",
       sending: "A enviar...",
-      infoLabel: "Informação"
+      infoLabel: "Informação",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Abrir menu"
     },
     home: {
       hero: {
