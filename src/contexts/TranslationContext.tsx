@@ -2333,36 +2333,7 @@ const translations = {
           "Tesorería",
           "Compra de participaciones"
         ]
-        },
-        financingRequest: {
-          title: "Richiesta di finanziamento",
-          subtitle: "Compila le seguenti informazioni per ottenere un'offerta personalizzata",
-          fields: {
-            loanType: "Tipo di prestito",
-            loanTypePlaceholder: "Seleziona un tipo",
-            amount: "Importo del prestito (€)",
-            amountPlaceholder: "Importo in euro",
-            duration: "Durata del prestito (mesi)",
-            durationPlaceholder: "Numero di mesi",
-            hasGuarantee: "Garanzia disponibile",
-            guaranteePlaceholder: "Es.: immobile, veicolo",
-            purpose: "Scopo del prestito",
-            purposePlaceholder: "Indica il motivo della tua richiesta"
-          },
-          loanOptions: {
-            personal: "Prestito personale",
-            auto: "Prestito auto",
-            real_estate: "Mutuo immobiliare",
-            professional: "Prestito professionale",
-            student: "Prestito studentesco",
-            debt_consolidation: "Consolidamento debiti"
-          },
-          guaranteeOptions: {
-            yes: "Sì",
-            no: "No",
-            maybe: "Da discutere"
-          }
-        },
+      },
       investment: {
         title: "Inversiones inteligentes",
         description: "Optimización patrimonial con inteligencia artificial y experiencia humana.",
