@@ -739,7 +739,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Écrivez-nous, nous répondons rapidement",
-          value: "contact@aurexk-pital.com",
+          value: "contact@aurexkpital.com",
           hours: "Réponse sous 2h en moyenne"
         },
         address: {
