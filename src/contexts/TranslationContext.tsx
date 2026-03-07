@@ -891,7 +891,7 @@ const translations = {
               name: "Service Commercial",
               description: "Nouvelles demandes et informations",
               contact: "commercial@aurex-kpital.de",
-              phone: "+33759282004"
+              phone: "+49 1521 4946940"
             },
             client: {
               name: "Service Client",
