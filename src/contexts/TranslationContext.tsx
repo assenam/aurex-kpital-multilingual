@@ -3409,6 +3409,8 @@ const translations = {
         },
         submitButton: "Invia messaggio",
         successMessage: "Grazie! Il tuo messaggio è stato inviato con successo. Ti risponderemo rapidamente.",
+        errorMessage: "Si è verificato un errore. Riprova.",
+        emailSubject: "Nuovo messaggio da",
         commitment: "Ci impegniamo a rispondere entro 2 ore durante i nostri orari di ufficio."
       }
     },
