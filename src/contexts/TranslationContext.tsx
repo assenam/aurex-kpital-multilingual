@@ -2581,7 +2581,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Escríbanos, respondemos rápidamente",
-          value: "contact@aurexk-pital.com",
+          value: "contact@aurexkpital.com",
           hours: "Respuesta en 2h en promedio"
         },
         address: {
