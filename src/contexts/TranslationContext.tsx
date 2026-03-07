@@ -2315,6 +2315,11 @@ const translations = {
           simulate: "Simular un préstamo",
           contact: "Contáctanos"
         },
+        contact: {
+          phone: "Teléfono",
+          address: "Dirección",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburgo, Alemania"
+        }
       }
     },
     services: {
