@@ -4213,7 +4213,7 @@ const translations = {
         phone: {
           title: "Telefon",
           description: "Zadzwoń do nas po natychmiastową poradę",
-          value: "+33759282004",
+          value: "+49 1521 4946940",
           hours: "Pon-Pt 8-19, Sob 9-17"
         },
         email: {
