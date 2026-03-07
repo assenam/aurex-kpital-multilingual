@@ -27,7 +27,7 @@ const emailTemplates = {
     confirmationContent: "Nous avons bien reçu votre demande et notre équipe vous répondra dans les plus brefs délais.",
     yourMessage: "Votre message :",
     responseTime: "Notre équipe d'experts vous contactera généralement sous 2 heures pendant nos heures d'ouverture.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexkpital.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
   },
   de: {
     notificationSubject: (name: string) => `Neue Kontaktnachricht - ${name}`,
