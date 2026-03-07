@@ -1076,7 +1076,9 @@ const translations = {
       phoneLabel: "Tél",
       registerLabel: "Registre",
       sending: "Envoi en cours...",
-      infoLabel: "Information"
+      infoLabel: "Information",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Ouvrir le menu"
     }
   },
   de: {
