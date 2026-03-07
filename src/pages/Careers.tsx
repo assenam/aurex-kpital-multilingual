@@ -332,7 +332,7 @@ const Careers = () => {
             </div>
 
             <div className="mt-12 text-sm text-primary-foreground/80">
-              <p>{t('careers_page.cta.contact')} : <strong>careers@aurex-kpital.de</strong> | +33759282004</p>
+              <p>{t('careers_page.cta.contact')} : <strong>careers@aurex-kpital.de</strong> | +49 1521 4946940</p>
             </div>
           </div>
         </div>
