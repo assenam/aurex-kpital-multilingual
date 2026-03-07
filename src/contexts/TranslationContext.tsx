@@ -5770,7 +5770,7 @@ const translations = {
         },
         contact: {
           title: "Contacto",
-          phone: "Telefone: +33759282004",
+          phone: "Telefone: +49 1521 4946940",
           email: "Email: contact@aurex-kpital.com",
           hours: "Horários: Segunda-Sexta 8h-19h, Sábado 9h-17h"
         },
