@@ -909,7 +909,7 @@ const translations = {
               name: "Direction",
               description: "Réclamations et suggestions",
               contact: "direction@aurex-kpital.de",
-              phone: "+33759282004"
+              phone: "+49 1521 4946940"
             }
           },
           schedules: {
