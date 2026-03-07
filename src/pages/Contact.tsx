@@ -8,9 +8,12 @@ import { Textarea } from '@/components/ui/textarea';
 import { useState } from 'react';
 import { useTranslation } from '@/contexts/TranslationContext';
 import { Phone, Mail, MapPin, MessageCircle, Send, Sparkles } from 'lucide-react';
+import { supabase } from '@/integrations/supabase/client';
+import { useToast } from '@/hooks/use-toast';
 
 const Contact = () => {
-  const { t } = useTranslation();
+  const { t, language } = useTranslation();
+  const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -24,29 +27,29 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('https://formspree.io/f/mpwlpyzz', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
+      const { data, error } = await supabase.functions.invoke('send-contact-email', {
+        body: {
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          _replyto: formData.email,
-          _subject: `${t('contact.form.emailSubject')} ${formData.name} - Aurex Kpital`
-        }),
+          language: language
+        }
       });
 
-      if (response.ok) {
-        alert(t('contact.form.successMessage'));
-        setFormData({ name: '', email: '', message: '' });
-      } else {
-        alert(t('contact.form.errorMessage'));
-      }
+      if (error) throw error;
+
+      toast({
+        title: t('contact.form.successTitle') || '✅',
+        description: t('contact.form.successMessage'),
+      });
+      setFormData({ name: '', email: '', message: '' });
     } catch (error) {
       console.error('Error sending email:', error);
-      alert(t('contact.form.errorMessage'));
+      toast({
+        title: t('contact.form.errorTitle') || '❌',
+        description: t('contact.form.errorMessage'),
+        variant: "destructive",
+      });
     } finally {
       setIsSubmitting(false);
     }
