@@ -2770,7 +2770,7 @@ const translations = {
         hosting: {
           title: "Alojamiento",
           description: "Este sitio está alojado por:",
-          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTeléfono: +33759282004"
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxemburgo\nTeléfono: +49 1521 4946940"
         },
         intellectual: {
           title: "Propiedad Intelectual",
