@@ -28,8 +28,8 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send notification email to company
     const notificationResponse = await resend.emails.send({
-      from: "Aurex Kpital <contact@aurexk-pital.com>",
-      to: ["contact@aurexk-pital.com"],
+      from: "Aurex Kpital <contact@aurexkpital.com>",
+      to: ["contact@aurexkpital.com"],
       subject: `Nouveau message de contact - ${name}`,
       html: `
         <h2>Nouveau message de contact</h2>
@@ -44,7 +44,7 @@ const handler = async (req: Request): Promise<Response> => {
 
     // Send confirmation email to client
     const confirmationResponse = await resend.emails.send({
-      from: "Aurex Kpital <contact@aurexk-pital.com>",
+      from: "Aurex Kpital <contact@aurexkpital.com>",
       to: [email],
       subject: "Nous avons bien reçu votre message !",
       html: `
@@ -62,7 +62,7 @@ const handler = async (req: Request): Promise<Response> => {
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb;">
             <p><strong>Aurex Kpital</strong><br>
             📞 +49 1521 4946940<br>
-            ✉️ contact@aurexk-pital.com<br>
+            ✉️ contact@aurexkpital.com<br>
             🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h</p>
           </div>
         </div>

@@ -739,7 +739,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Écrivez-nous, nous répondons rapidement",
-          value: "contact@aurexk-pital.com",
+          value: "contact@aurexkpital.com",
           hours: "Réponse sous 2h en moyenne"
         },
         address: {
@@ -808,7 +808,7 @@ const translations = {
         contact: {
           title: "Contact",
           phone: "Téléphone: +49 1521 4946940",
-          email: "Email: contact@aurexk-pital.com",
+          email: "Email: contact@aurexkpital.com",
           hours: "Horaires: Lundi-Vendredi 8h-19h, Samedi 9h-17h",
           hero: {
             badge: "Support Excellence",
@@ -833,7 +833,7 @@ const translations = {
             email: {
               title: "Email",
               description: "Envoyez-nous vos questions",
-              value: "contact@aurexk-pital.com",
+              value: "contact@aurexkpital.com",
               hours: "Réponse sous 4h en moyenne"
             },
             address: {
@@ -1709,7 +1709,7 @@ const translations = {
         email: {
           title: "E-Mail",
           description: "Schreiben Sie uns, wir antworten schnell",
-          value: "contact@aurexk-pital.com",
+          value: "contact@aurexkpital.com",
           hours: "Antwort binnen 2h im Durchschnitt"
         },
         address: {
@@ -1892,7 +1892,7 @@ const translations = {
         contact: {
           title: "Kontakt",
           phone: "Telefon: +49 1521 4946940",
-          email: "E-Mail: contact@aurexk-pital.com",
+          email: "E-Mail: contact@aurexkpital.com",
           hours: "Öffnungszeiten: Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
         },
         hosting: {
@@ -2581,7 +2581,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Escríbanos, respondemos rápidamente",
-          value: "contact@aurexk-pital.com",
+          value: "contact@aurexkpital.com",
           hours: "Respuesta en 2h en promedio"
         },
         address: {
@@ -2764,7 +2764,7 @@ const translations = {
         contact: {
           title: "Contacto",
           phone: "Teléfono: +49 1521 4946940",
-          email: "Email: contact@aurexk-pital.com",
+          email: "Email: contact@aurexkpital.com",
           hours: "Horarios: Lunes-Viernes 8h-19h, Sábado 9h-17h"
         },
         hosting: {
@@ -3400,7 +3400,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Scrivici, rispondiamo velocemente",
-          value: "contact@aurexk-pital.com",
+          value: "contact@aurexkpital.com",
           hours: "Risposta in 2h in media"
         },
         address: {
@@ -3583,7 +3583,7 @@ const translations = {
         contact: {
           title: "Contatto",
           phone: "Telefono: +49 1521 4946940",
-          email: "Email: contact@aurex-kpital.com",
+          email: "Email: contact@aurexkpital.com",
           hours: "Orari: Lunedì-Venerdì 8h-19h, Sabato 9h-17h"
         },
         hosting: {
@@ -4219,7 +4219,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Napisz do nas, szybko odpowiadamy",
-          value: "contact@aurex-kpital.com",
+          value: "contact@aurexkpital.com",
           hours: "Odpowiedź w 2h średnio"
         },
         address: {
@@ -4344,7 +4344,7 @@ const translations = {
         contact: {
           title: "Kontakt",
           phone: "Telefon: +49 1521 4946940",
-          email: "Email: contact@aurex-kpital.com",
+          email: "Email: contact@aurexkpital.com",
           hours: "Godziny: Poniedziałek-Piątek 8-19, Sobota 9-17"
         },
         hosting: {
@@ -4973,7 +4973,7 @@ const translations = {
         email: {
           title: "Sähköposti",
           description: "Lähetä meille kysymyksesi",
-          value: "contact@aurex-kpital.com",
+          value: "contact@aurexkpital.com",
           hours: "Vastaus 4h:ssa keskimäärin"
         },
         address: {
@@ -5056,7 +5056,7 @@ const translations = {
         contact: {
           title: "Yhteystiedot",
           phone: "Puhelin: +49 1521 4946940",
-          email: "Sähköposti: contact@aurex-kpital.com",
+          email: "Sähköposti: contact@aurexkpital.com",
           hours: "Aukioloajat: Maanantai-Perjantai 8-19, Lauantai 9-17"
         },
         hosting: {
@@ -5688,7 +5688,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Escreva-nos, respondemos rapidamente",
-          value: "contact@aurex-kpital.com",
+          value: "contact@aurexkpital.com",
           hours: "Resposta em 2h em média"
         },
         address: {
@@ -5771,7 +5771,7 @@ const translations = {
         contact: {
           title: "Contacto",
           phone: "Telefone: +49 1521 4946940",
-          email: "Email: contact@aurex-kpital.com",
+          email: "Email: contact@aurexkpital.com",
           hours: "Horários: Segunda-Sexta 8h-19h, Sábado 9h-17h"
         },
         hosting: {
@@ -6200,7 +6200,7 @@ const translations = {
             email: {
               title: "Email",
               description: "Στείλτε μας τις ερωτήσεις σας",
-              value: "contact@aurex-kpital.com",
+              value: "contact@aurexkpital.com",
               hours: "Απάντηση σε 4h κατά μέσο όρο"
             },
             address: {
@@ -6461,7 +6461,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Γράψτε μας, απαντάμε γρήγορα",
-          value: "contact@aurex-kpital.com",
+          value: "contact@aurexkpital.com",
           hours: "Απάντηση σε 2ω κατά μέσο όρο"
         },
         address: {
@@ -6544,7 +6544,7 @@ const translations = {
         contact: {
           title: "Επικοινωνία",
           phone: "Τηλέφωνο: +49 1521 4946940",
-          email: "Email: contact@aurex-kpital.com",
+          email: "Email: contact@aurexkpital.com",
           hours: "Ώρες: Δευτέρα-Παρασκευή 8π.μ.-7μ.μ., Σάββατο 9π.μ.-5μ.μ."
         },
         hosting: {
