@@ -4736,6 +4736,11 @@ const translations = {
           simulate: "Simuloida laina",
           contact: "Ota yhteyttä"
         },
+        contact: {
+          phone: "Puhelin",
+          address: "Osoite",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hampuri, Saksa"
+        }
       }
     },
     services: {
