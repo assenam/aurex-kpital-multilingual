@@ -3752,7 +3752,7 @@ const translations = {
         help: {
           title: "Potrzebujesz pomocy?",
           subtitle: "Nasi eksperci są tutaj, aby Ci towarzyszyć",
-          phone: "+33759282004",
+          phone: "+49 1521 4946940",
           schedule: "Pon-Pt 8-19",
           contactButton: "Skontaktuj się z nami"
         },
