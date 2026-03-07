@@ -6200,7 +6200,7 @@ const translations = {
             email: {
               title: "Email",
               description: "Στείλτε μας τις ερωτήσεις σας",
-              value: "contact@aurex-kpital.com",
+              value: "contact@aurexkpital.com",
               hours: "Απάντηση σε 4h κατά μέσο όρο"
             },
             address: {
