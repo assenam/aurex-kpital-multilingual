@@ -4972,6 +4972,8 @@ const translations = {
         },
         submitButton: "Lähetä viesti",
         successMessage: "Viestisi on lähetetty onnistuneesti! Otamme yhteyttä nopeasti.",
+        errorMessage: "Tapahtui virhe. Yritä uudelleen.",
+        emailSubject: "Uusi viesti käyttäjältä",
         commitment: "Sitoudumme vastaamaan 24h sisällä"
       }
     },
