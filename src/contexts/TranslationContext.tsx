@@ -5682,6 +5682,8 @@ const translations = {
         },
         submitButton: "Enviar mensagem",
         successMessage: "Obrigado! A sua mensagem foi enviada com sucesso. Responderemos rapidamente.",
+        errorMessage: "Ocorreu um erro. Tente novamente.",
+        emailSubject: "Nova mensagem de",
         commitment: "Comprometemo-nos a responder em 2 horas durante o nosso horário de funcionamento."
       }
     },
