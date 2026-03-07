@@ -4219,7 +4219,7 @@ const translations = {
         email: {
           title: "Email",
           description: "Napisz do nas, szybko odpowiadamy",
-          value: "contact@aurex-kpital.com",
+          value: "contact@aurexkpital.com",
           hours: "Odpowiedź w 2h średnio"
         },
         address: {
