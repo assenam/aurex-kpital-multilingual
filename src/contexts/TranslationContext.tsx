@@ -4223,6 +4223,8 @@ const translations = {
         },
         submitButton: "Wyślij wiadomość",
         successMessage: "Dziękujemy! Twoja wiadomość została wysłana pomyślnie. Odpowiemy szybko.",
+        errorMessage: "Wystąpił błąd. Spróbuj ponownie.",
+        emailSubject: "Nowa wiadomość od",
         commitment: "Zobowiązujemy się odpowiedzieć w ciągu 2 godzin w czasie naszych godzin pracy."
       }
     },
