@@ -21,85 +21,85 @@ const emailTemplates = {
     notificationSubject: (name: string) => `Nouveau message de contact - ${name}`,
     notificationTitle: "Nouveau message de contact",
     fields: { name: "Nom", email: "Email", message: "Message" },
-    formNote: "Message reçu via le formulaire de contact du site web.",
-    confirmationSubject: "Nous avons bien reçu votre message !",
+    formNote: "Message recu via le formulaire de contact du site web.",
+    confirmationSubject: "Nous avons bien recu votre message !",
     confirmationTitle: (name: string) => `Merci pour votre message, ${name} !`,
-    confirmationContent: "Nous avons bien reçu votre demande et notre équipe vous répondra dans les plus brefs délais.",
+    confirmationContent: "Nous avons bien recu votre demande et notre equipe vous repondra dans les plus brefs delais.",
     yourMessage: "Votre message :",
-    responseTime: "Notre équipe d'experts vous contactera généralement sous 2 heures pendant nos heures d'ouverture.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lundi-Vendredi 8h-19h, Samedi 9h-17h"
+    responseTime: "Notre equipe d'experts vous contactera generalement sous 2 heures pendant nos heures d'ouverture.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Lundi-Vendredi 8h-19h, Samedi 9h-17h"
   },
   de: {
     notificationSubject: (name: string) => `Neue Kontaktnachricht - ${name}`,
     notificationTitle: "Neue Kontaktnachricht",
     fields: { name: "Name", email: "E-Mail", message: "Nachricht" },
-    formNote: "Nachricht über das Kontaktformular der Website erhalten.",
+    formNote: "Nachricht ueber das Kontaktformular der Website erhalten.",
     confirmationSubject: "Ihre Nachricht ist eingegangen!",
-    confirmationTitle: (name: string) => `Vielen Dank für Ihre Nachricht, ${name}!`,
-    confirmationContent: "Wir haben Ihre Anfrage erhalten und unser Team wird Ihnen so schnell wie möglich antworten.",
+    confirmationTitle: (name: string) => `Vielen Dank fuer Ihre Nachricht, ${name}!`,
+    confirmationContent: "Wir haben Ihre Anfrage erhalten und unser Team wird Ihnen so schnell wie moeglich antworten.",
     yourMessage: "Ihre Nachricht:",
-    responseTime: "Unser Expertenteam wird Sie normalerweise innerhalb von 2 Stunden während unserer Öffnungszeiten kontaktieren.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
+    responseTime: "Unser Expertenteam wird Sie normalerweise innerhalb von 2 Stunden waehrend unserer Oeffnungszeiten kontaktieren.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Montag-Freitag 8-19 Uhr, Samstag 9-17 Uhr"
   },
   pl: {
-    notificationSubject: (name: string) => `Nowa wiadomość kontaktowa - ${name}`,
-    notificationTitle: "Nowa wiadomość kontaktowa",
-    fields: { name: "Imię i nazwisko", email: "E-mail", message: "Wiadomość" },
-    formNote: "Wiadomość otrzymana za pośrednictwem formularza kontaktowego na stronie.",
-    confirmationSubject: "Otrzymaliśmy Twoją wiadomość!",
-    confirmationTitle: (name: string) => `Dziękujemy za wiadomość, ${name}!`,
-    confirmationContent: "Otrzymaliśmy Twoje zapytanie i nasz zespół odpowie jak najszybciej.",
-    yourMessage: "Twoja wiadomość:",
-    responseTime: "Nasz zespół ekspertów skontaktuje się z Tobą zazwyczaj w ciągu 2 godzin w godzinach naszej pracy.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Poniedziałek-Piątek 8-19, Sobota 9-17"
+    notificationSubject: (name: string) => `Nowa wiadomosc kontaktowa - ${name}`,
+    notificationTitle: "Nowa wiadomosc kontaktowa",
+    fields: { name: "Imie i nazwisko", email: "E-mail", message: "Wiadomosc" },
+    formNote: "Wiadomosc otrzymana za posrednictwem formularza kontaktowego na stronie.",
+    confirmationSubject: "Otrzymalismy Twoja wiadomosc!",
+    confirmationTitle: (name: string) => `Dziekujemy za wiadomosc, ${name}!`,
+    confirmationContent: "Otrzymalismy Twoje zapytanie i nasz zespol odpowie jak najszybciej.",
+    yourMessage: "Twoja wiadomosc:",
+    responseTime: "Nasz zespol ekspertow skontaktuje sie z Toba zazwyczaj w ciagu 2 godzin w godzinach naszej pracy.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Poniedzialek-Piatek 8-19, Sobota 9-17"
   },
   fi: {
-    notificationSubject: (name: string) => `Uusi yhteydenottopyyntö - ${name}`,
-    notificationTitle: "Uusi yhteydenottopyyntö",
-    fields: { name: "Nimi", email: "Sähköposti", message: "Viesti" },
+    notificationSubject: (name: string) => `Uusi yhteydenottopyynto - ${name}`,
+    notificationTitle: "Uusi yhteydenottopyynto",
+    fields: { name: "Nimi", email: "Sahkoposti", message: "Viesti" },
     formNote: "Viesti vastaanotettu verkkosivuston yhteydenottolomakkeelta.",
     confirmationSubject: "Viestisi on vastaanotettu!",
-    confirmationTitle: (name: string) => `Kiitos viestistäsi, ${name}!`,
+    confirmationTitle: (name: string) => `Kiitos viestistasi, ${name}!`,
     confirmationContent: "Olemme vastaanottaneet kyselysi ja tiimimme vastaa sinulle mahdollisimman pian.",
     yourMessage: "Viestisi:",
-    responseTime: "Asiantuntijatiimimme ottaa sinuun yhteyttä yleensä 2 tunnin kuluessa aukioloaikojemme sisällä.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Maanantai-Perjantai 8-19, Lauantai 9-17"
+    responseTime: "Asiantuntijatiimimme ottaa sinuun yhteytta yleensa 2 tunnin kuluessa aukioloaikojemme sisalla.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Maanantai-Perjantai 8-19, Lauantai 9-17"
   },
   es: {
     notificationSubject: (name: string) => `Nuevo mensaje de contacto - ${name}`,
     notificationTitle: "Nuevo mensaje de contacto",
-    fields: { name: "Nombre", email: "Correo electrónico", message: "Mensaje" },
-    formNote: "Mensaje recibido a través del formulario de contacto del sitio web.",
-    confirmationSubject: "¡Hemos recibido su mensaje!",
-    confirmationTitle: (name: string) => `¡Gracias por su mensaje, ${name}!`,
-    confirmationContent: "Hemos recibido su consulta y nuestro equipo le responderá lo antes posible.",
+    fields: { name: "Nombre", email: "Correo electronico", message: "Mensaje" },
+    formNote: "Mensaje recibido a traves del formulario de contacto del sitio web.",
+    confirmationSubject: "Hemos recibido su mensaje!",
+    confirmationTitle: (name: string) => `Gracias por su mensaje, ${name}!`,
+    confirmationContent: "Hemos recibido su consulta y nuestro equipo le respondera lo antes posible.",
     yourMessage: "Su mensaje:",
-    responseTime: "Nuestro equipo de expertos se pondrá en contacto con usted generalmente en 2 horas durante nuestro horario de oficina.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lunes-Viernes 8h-19h, Sábado 9h-17h"
+    responseTime: "Nuestro equipo de expertos se pondra en contacto con usted generalmente en 2 horas durante nuestro horario de oficina.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Lunes-Viernes 8h-19h, Sabado 9h-17h"
   },
   pt: {
     notificationSubject: (name: string) => `Nova mensagem de contato - ${name}`,
     notificationTitle: "Nova mensagem de contato",
     fields: { name: "Nome", email: "E-mail", message: "Mensagem" },
-    formNote: "Mensagem recebida através do formulário de contato do site.",
+    formNote: "Mensagem recebida atraves do formulario de contato do site.",
     confirmationSubject: "Recebemos sua mensagem!",
     confirmationTitle: (name: string) => `Obrigado pela sua mensagem, ${name}!`,
-    confirmationContent: "Recebemos sua consulta e nossa equipe responderá o mais rápido possível.",
+    confirmationContent: "Recebemos sua consulta e nossa equipe respondera o mais rapido possivel.",
     yourMessage: "Sua mensagem:",
-    responseTime: "Nossa equipe de especialistas entrará em contato com você geralmente em 2 horas durante nosso horário de funcionamento.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Segunda-Sexta 8h-19h, Sábado 9h-17h"
+    responseTime: "Nossa equipe de especialistas entrara em contato com voce geralmente em 2 horas durante nosso horario de funcionamento.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Segunda-Sexta 8h-19h, Sabado 9h-17h"
   },
   el: {
-    notificationSubject: (name: string) => `Νέο μήνυμα επικοινωνίας - ${name}`,
-    notificationTitle: "Νέο μήνυμα επικοινωνίας",
-    fields: { name: "Όνομα", email: "Email", message: "Μήνυμα" },
-    formNote: "Μήνυμα παραλήφθηκε μέσω της φόρμας επικοινωνίας του ιστότοπου.",
-    confirmationSubject: "Λάβαμε το μήνυμά σας!",
-    confirmationTitle: (name: string) => `Ευχαριστούμε για το μήνυμά σας, ${name}!`,
-    confirmationContent: "Λάβαμε το αίτημά σας και η ομάδα μας θα σας απαντήσει το συντομότερο δυνατό.",
-    yourMessage: "Το μήνυμά σας:",
-    responseTime: "Η ομάδα των ειδικών μας θα επικοινωνήσει μαζί σας συνήθως εντός 2 ωρών κατά τις ώρες λειτουργίας μας.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Δευτέρα-Παρασκευή 8-19, Σάββατο 9-17"
+    notificationSubject: (name: string) => `Neo minima epikinonias - ${name}`,
+    notificationTitle: "Neo minima epikinonias",
+    fields: { name: "Onoma", email: "Email", message: "Minima" },
+    formNote: "Minima paralifthike meso tis formas epikinonias tou istotopou.",
+    confirmationSubject: "Lavame to minimasa sas!",
+    confirmationTitle: (name: string) => `Efcharistoume gia to minimasa sas, ${name}!`,
+    confirmationContent: "Lavame to aitimasa sas kai i omada mas tha sas apantisei to syntomotero dynato.",
+    yourMessage: "To minimasa sas:",
+    responseTime: "I omada ton eidikon mas tha epikinonisi mazi sas synithoss entos 2 oron kata tis ores leitourgias mas.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Deutera-Paraskevi 8-19, Savvato 9-17"
   },
   it: {
     notificationSubject: (name: string) => `Nuovo messaggio di contatto - ${name}`,
@@ -108,10 +108,10 @@ const emailTemplates = {
     formNote: "Messaggio ricevuto tramite il modulo di contatto del sito web.",
     confirmationSubject: "Abbiamo ricevuto il suo messaggio!",
     confirmationTitle: (name: string) => `Grazie per il suo messaggio, ${name}!`,
-    confirmationContent: "Abbiamo ricevuto la sua richiesta e il nostro team le risponderà il prima possibile.",
+    confirmationContent: "Abbiamo ricevuto la sua richiesta e il nostro team le rispondera il prima possibile.",
     yourMessage: "Il suo messaggio:",
-    responseTime: "Il nostro team di esperti la contatterà generalmente entro 2 ore durante i nostri orari di ufficio.",
-    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexk-pital.com<br>🕒 Lunedì-Venerdì 8-19, Sabato 9-17"
+    responseTime: "Il nostro team di esperti la contattera generalmente entro 2 ore durante i nostri orari di ufficio.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Lunedi-Venerdi 8-19, Sabato 9-17"
   }
 };
 
@@ -127,10 +127,9 @@ const handler = async (req: Request): Promise<Response> => {
 
     console.log("Sending contact email for:", { name, email, language: lang });
 
-    // Notification to company
     const notificationResponse = await resend.emails.send({
       from: "Aurex Kpital <contact@aurexkpital.com>",
-      to: ["contact@aurexk-pital.com"],
+      to: ["contact@aurexkpital.com"],
       subject: template.notificationSubject(name),
       html: `
         <h2>${template.notificationTitle}</h2>
@@ -143,7 +142,6 @@ const handler = async (req: Request): Promise<Response> => {
       `,
     });
 
-    // Confirmation to client in their language
     const confirmationResponse = await resend.emails.send({
       from: "Aurex Kpital <contact@aurexkpital.com>",
       to: [email],
