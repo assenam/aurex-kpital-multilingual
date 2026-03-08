@@ -198,6 +198,26 @@ const emailTemplates = {
     confirmationSummary: "Riepilogo della sua richiesta:",
     confirmationResponse: "Il nostro team di esperti la contatterà generalmente entro 2 ore durante i nostri orari di ufficio per discutere il suo progetto e aiutarla con la sua richiesta.",
     contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexkpital.com<br>🕒 Lunedì-Venerdì 8-19, Sabato 9-17"
+  },
+  hr: {
+    notificationSubject: (firstName: string, lastName: string) => `Novi zahtjev za financiranje - ${firstName} ${lastName}`,
+    notificationTitle: "Novi zahtjev za financiranje",
+    personalInfoTitle: "Osobni podaci",
+    professionalInfoTitle: "Profesionalna situacija",
+    financingRequestTitle: "Zahtjev za financiranje",
+    fields: {
+      name: "Ime i prezime", email: "E-mail", phone: "Telefon", dateOfBirth: "Datum rodenja",
+      nationality: "Drzavljanstvo", maritalStatus: "Bracni status", dependents: "Uzdrzavane osobe",
+      employmentStatus: "Profesionalni status", employer: "Poslodavac", position: "Radno mjesto",
+      workDuration: "Staz na radnom mjestu", monthlyIncome: "Mjesecni prihod", otherIncome: "Ostali prihodi",
+      loanType: "Vrsta kredita", amount: "Iznos", duration: "Trajanje", purpose: "Svrha", guarantee: "Jamstvo"
+    },
+    confirmationSubject: "Primili smo vas zahtjev za financiranje!",
+    confirmationTitle: (firstName: string) => `Hvala na zahtjevu, ${firstName}!`,
+    confirmationContent: "Primili smo vas zahtjev za financiranje i nas tim strucnjaka ga trenutno pregledava.",
+    confirmationSummary: "Sazetak vaseg zahtjeva:",
+    confirmationResponse: "Nas tim strucnjaka ce vas kontaktirati obicno unutar 2 sata tijekom naseg radnog vremena kako bismo razgovarali o vasem projektu i pomogli vam s zahtjevom.",
+    contactInfo: "📞 +49 1521 4946940<br>✉️ contact@aurexkpital.com<br>🕒 Ponedjeljak-Petak 8-19h, Subota 9-17h"
   }
 };
 
