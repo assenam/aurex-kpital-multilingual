@@ -6562,6 +6562,826 @@ const translations = {
         }
       }
     }
+  },
+  hr: {
+    request: {
+      hero: {
+        badge: "Zahtjev za Financiranje",
+        title: "Vaš projekt zaslužuje",
+        titleHighlight: "najbolje financiranje",
+        subtitle: "Dobijte personalizirani odgovor u 24h zahvaljujući našoj naprednoj AI tehnologiji i stručnosti naših savjetnika",
+        stats: {
+          responseTime: { value: "24h", label: "Zajamčen odgovor" },
+          security: { value: "100%", label: "GDPR sigurnost" },
+          expert: { value: "24/7", label: "Stručna podrška" }
+        }
+      },
+      steps: [
+        { title: "Informacije", description: "Vaši osobni podaci" },
+        { title: "Projekt", description: "Detalji financiranja" },
+        { title: "Analiza", description: "Personalizirana studija" },
+        { title: "Odgovor", description: "Prilagođena ponuda" }
+      ],
+      form: {
+        personalInfo: {
+          title: "Osobni podaci",
+          subtitle: "Unesite svoje osnovne podatke za početak zahtjeva",
+          fields: {
+            firstName: "Ime",
+            lastName: "Prezime",
+            email: "E-mail adresa",
+            emailConfirmation: "Potvrdite e-mail",
+            emailConfirmationPlaceholder: "Ponovno unesite svoju e-mail adresu",
+            phone: "Telefon",
+            birthDate: "Datum rođenja",
+            nationality: "Državljanstvo",
+            nationalityPlaceholder: "Odaberite svoje državljanstvo",
+            otherNationality: "Drugo državljanstvo",
+            otherNationalityPlaceholder: "Navedite svoje državljanstvo",
+            maritalStatus: "Bračni status",
+            maritalStatusPlaceholder: "Odaberite svoj status",
+            dependents: "Broj uzdržavanih osoba"
+          },
+          validation: {
+            emailMismatch: "E-mail adrese se ne podudaraju",
+            emailConfirmed: "E-mail adrese potvrđene"
+          },
+          maritalStatusOptions: {
+            single: "Neoženjen/Neudana",
+            married: "Oženjen/Udana",
+            divorced: "Razveden/a",
+            widowed: "Udovac/Udovica",
+            partnership: "Izvanbračna zajednica"
+          },
+          nationalityGroups: {
+            europe: "Europa",
+            northAmerica: "Sjeverna Amerika",
+            centralAmerica: "Srednja Amerika",
+            southAmerica: "Južna Amerika",
+            other: "Ostalo"
+          },
+          nationalities: {
+            german: "Njemačka", austrian: "Austrijska", belgian: "Belgijska", bulgarian: "Bugarska", cypriot: "Ciparska", croatian: "Hrvatska", danish: "Danska", spanish: "Španjolska", estonian: "Estonska", finnish: "Finska", french: "Francuska", greek: "Grčka", hungarian: "Mađarska", irish: "Irska", italian: "Talijanska", latvian: "Latvijska", lithuanian: "Litavska", luxembourgish: "Luksemburška", maltese: "Malteška", dutch: "Nizozemska", polish: "Poljska", portuguese: "Portugalska", romanian: "Rumunjska", slovak: "Slovačka", slovenian: "Slovenska", swedish: "Švedska", czech: "Češka", british: "Britanska", swiss: "Švicarska", norwegian: "Norveška", icelandic: "Islandska", serbian: "Srpska", montenegrin: "Crnogorska", bosnian: "Bosanska", albanian: "Albanska", macedonian: "Makedonska", moldovan: "Moldavska", ukrainian: "Ukrajinska", belarusian: "Bjeloruska", russian: "Ruska", american: "Američka", canadian: "Kanadska", mexican: "Meksička", guatemalan: "Gvatemalska", belizean: "Belizejska", salvadoran: "Salvadorska", honduran: "Honduraška", nicaraguan: "Nikaragvanska", costarican: "Kostarikanska", panamanian: "Panamska", argentine: "Argentinska", bolivian: "Bolivijska", brazilian: "Brazilska", chilean: "Čileanska", colombian: "Kolumbijska", ecuadorian: "Ekvadorska", guyanese: "Gvajanska", paraguayan: "Paragvajska", peruvian: "Peruanska", surinamese: "Surinamska", uruguayan: "Urugvajska", venezuelan: "Venezuelska", other: "Drugo državljanstvo"
+          }
+        },
+        professionalInfo: {
+          title: "Profesionalna situacija",
+          subtitle: "Informacije o vašoj profesionalnoj djelatnosti i prihodima",
+          fields: {
+            employmentStatus: "Profesionalni status",
+            employmentStatusPlaceholder: "Vaša profesionalna situacija",
+            profession: "Zanimanje",
+            employer: "Poslodavac",
+            employmentDuration: "Staž na radnom mjestu",
+            monthlyIncome: "Mjesečni neto prihod (€)",
+            monthlyIncomePlaceholder: "Iznos u eurima",
+            additionalIncome: "Ostali mjesečni prihodi (€)",
+            additionalIncomePlaceholder: "Iznos u eurima",
+            company: "Naziv tvrtke",
+            companyPlaceholder: "Naziv tvrtke",
+            position: "Radno mjesto",
+            positionPlaceholder: "Vaše radno mjesto",
+            workExperience: "Radno iskustvo (godine)",
+            workExperiencePlaceholder: "Broj godina"
+          },
+          employmentOptions: {
+            employee: "Zaposlenik",
+            selfEmployed: "Samozaposlena osoba",
+            business: "Poduzetnik",
+            retired: "Umirovljenik",
+            student: "Student",
+            unemployed: "Nezaposlen"
+          }
+        },
+        financingRequest: {
+          title: "Zahtjev za financiranje",
+          subtitle: "Ispunite sljedeće podatke za personaliziranu ponudu",
+          fields: {
+            loanType: "Vrsta kredita",
+            loanTypePlaceholder: "Odaberite vrstu",
+            amount: "Iznos kredita (€)",
+            amountPlaceholder: "Iznos u eurima",
+            duration: "Trajanje kredita (mjeseci)",
+            durationPlaceholder: "Broj mjeseci",
+            hasGuarantee: "Dostupno jamstvo",
+            guaranteePlaceholder: "Npr.: nekretnina, vozilo",
+            purpose: "Svrha kredita",
+            purposePlaceholder: "Navedite razlog vašeg zahtjeva"
+          },
+          loanOptions: {
+            personal: "Osobni kredit",
+            auto: "Auto kredit",
+            real_estate: "Stambeni kredit",
+            professional: "Poslovni kredit",
+            student: "Studentski kredit",
+            debt_consolidation: "Konsolidacija dugova"
+          },
+          guaranteeOptions: {
+            yes: "Da",
+            no: "Ne",
+            maybe: "Za dogovor"
+          }
+        },
+        validation: {
+          title: "Potvrda i dokumenti",
+          subtitle: "Završite svoj zahtjev",
+          fields: {
+            hasRequiredDocs: "Potvrđujem da posjedujem potrebne dokumente",
+            acceptsTerms: "Prihvaćam uvjete korištenja i politiku privatnosti",
+            acceptsMarketing: "Prihvaćam primanje komercijalnih ponuda"
+          },
+          submitButton: "Pošalji zahtjev",
+          qualityCommitment: "Jamstvo kvalitete: Obvezujemo se kontaktirati vas u roku od 24 sata kako bismo proučili vaš zahtjev i predložili prilagođeno rješenje.",
+          emailMismatchAlert: "E-mail adrese se ne podudaraju. Molimo provjerite.",
+          successAlert: "Vaš zahtjev je uspješno poslan! Kontaktirat ćemo vas u roku od 24h.",
+          errorAlert: "Došlo je do pogreške pri slanju zahtjeva. Molimo pokušajte ponovno.",
+          errorTitle: "Greška",
+          successTitle: "Uspjeh"
+        }
+      },
+      sidebar: {
+        documents: {
+          title: "Potrebni dokumenti",
+          subtitle: "Pripremite ove dokumente za ubrzanje vašeg zahtjeva",
+          list: [
+            "Važeća osobna iskaznica",
+            "Dokazi o prihodima (zadnje 3 platne liste)",
+            "Bankovni izvodi (zadnja 3 mjeseca)",
+            "Potvrda o prebivalištu",
+            "Kupoprodajni ugovor (za nekretnine)"
+          ]
+        },
+        help: {
+          title: "Trebate pomoć?",
+          subtitle: "Naši stručnjaci su tu da vam pomognu",
+          phone: "+49 1521 4946940",
+          schedule: "Pon-Pet 8-19h",
+          contactButton: "Kontaktirajte nas"
+        },
+        security: {
+          title: "Zajamčena sigurnost",
+          features: [
+            "SSL 256-bitna enkripcija",
+            "GDPR sukladnost",
+            "Zaštićeni podaci"
+          ]
+        }
+      }
+    },
+    menu: {
+      home: "Početna",
+      services: "Usluge",
+      simulator: "Simulator",
+      request: "Zahtjev",
+      about: "O nama",
+      contact: "Kontakt",
+    },
+    footer: {
+      tools: "Alati",
+      legal: "Pravne informacije",
+      contact: "Kontakt",
+      privacyPolicy: "Politika privatnosti",
+      terms: "Uvjeti korištenja",
+      mentions: "Pravne napomene",
+      gdpr: "GDPR",
+      rights: "© 2024 Aurex K-pital. Sva prava pridržana.",
+      description: "Vaš pouzdani financijski partner od 1997. Izvrsnost, inovacije i stručnost za sve vaše financijske projekte u Europi.",
+      services: "Usluge",
+      copyright: "© 2024 Aurex K-pital. Sva prava pridržana.",
+      establishment: "Ovlaštena financijska institucija u Europi",
+      links: {
+        personalLoans: "Osobni krediti",
+        proFinancing: "Poslovno financiranje",
+        investments: "Ulaganja",
+        insurance: "Osiguranje",
+        simulator: "Simulator kredita",
+        request: "Zahtjev za financiranje",
+        contact: "Kontakt",
+        about: "O nama",
+        legal: "Pravne napomene",
+        privacy: "Politika privatnosti",
+        terms: "Uvjeti korištenja",
+        gdpr: "GDPR"
+      }
+    },
+    partners: {
+      title: "Naši Pouzdani Partneri",
+      description: "Europska mreža izvrsnosti za pružanje najboljih financijskih rješenja",
+      stats: "Više od 25 europskih partnera • 27 pokrivenih zemalja • 2,5 milijardi € obrađenog volumena"
+    },
+    partners_page: {
+      hero: { badge: "Mreža Izvrsnosti", title: "Naši Partneri", titleHighlight: "Strateški", description: "Ekosustav prvorazrednih partnera za pružanje najboljih europskih financijskih rješenja." },
+      achievements: { partners: "Aktivni partneri", countries: "Pokrivene zemlje", volume: "Obrađeni volumen", clients: "Korisnici" },
+      benefits: { title: "Prednosti Naše Mreže", subtitle: "Strateška partnerstva koja vam izravno koriste",
+        rates: { title: "Povlaštene Kamate", description: "Naša partnerstva nam omogućuju pregovaranje najboljih tržišnih kamata za naše klijente" },
+        expertise: { title: "Kombinirana Stručnost", description: "Iskoristite akumuliranu stručnost svih naših specijaliziranih partnera" },
+        coverage: { title: "Europska Pokrivenost", description: "Mreža koja pokriva svih 27 zemalja Europske unije" },
+        security: { title: "Pojačana Sigurnost", description: "Najviši standardi sigurnosti zahvaljujući našim certificiranim partnerima" }
+      },
+      ecosystem: { title: "Naš Ekosustav Partnera", subtitle: "Strateški savezi s liderima u svakom sektoru" },
+      categories: {
+        banks: { title: "Bankovni Partneri", description: "Prvorazredne europske bankovne institucije" },
+        insurance: { title: "Osiguranje i Zaštita", description: "Europski lideri u osiguranju i zaštiti" },
+        fintech: { title: "Fintech i Inovacije", description: "Napredni tehnološki partneri" },
+        consulting: { title: "Savjetovanje i Stručnost", description: "Priznate savjetodavne tvrtke" }
+      },
+      partnerDesc: {
+        deutscheBank: "Strateško partnerstvo za prvorazredna nekretninska financiranja",
+        bnp: "Suradnja za osobne i poslovne kredite",
+        ing: "Inovativna rješenja za štednju i ulaganja",
+        socGen: "Stručnost u upravljanju imovinom i ulaganjima",
+        allianz: "Osiguranje kredita i sveobuhvatna pravna zaštita",
+        axa: "Personalizirana rješenja životnog osiguranja i mirovine",
+        generali: "Obiteljska i profesionalna zaštita po mjeri",
+        klarna: "Fleksibilna i inovativna platna rješenja",
+        revolut: "Bankovne usluge nove generacije",
+        n26: "Optimizirano mobilno bankarstvo",
+        ey: "Revizija i strateško financijsko savjetovanje",
+        pwc: "Europska porezna i regulatorna stručnost",
+        kpmg: "Due diligence i optimizacija imovine"
+      },
+      specialties: {
+        deutscheBank: "Premium nekretninski krediti", bnp: "Poslovno financiranje", ing: "Digitalna štednja",
+        socGen: "Upravljanje imovinom", allianz: "Osiguranje kredita", axa: "Životno osiguranje",
+        generali: "Obiteljska zaštita", klarna: "Plaćanje na rate", revolut: "Digitalno bankarstvo",
+        n26: "Mobilno bankarstvo", ey: "Revizija i savjetovanje", pwc: "Međunarodno oporezivanje", kpmg: "Due diligence"
+      },
+      countries: { germany: "Njemačka", france: "Francuska", netherlands: "Nizozemska", italy: "Italija", sweden: "Švedska", uk: "Ujedinjeno Kraljevstvo", international: "Međunarodno" },
+      since: "Od",
+      becomePartner: {
+        title: "Postanite Partner", subtitle: "Pridružite se našoj europskoj mreži izvrsnosti",
+        criteriaTitle: "Kriteriji Partnerstva",
+        excellence: { title: "Operativna Izvrsnost", description: "Certifikati kvalitete i europski standardi" },
+        financial: { title: "Financijska Stabilnost", description: "Minimalni rating A- od priznate agencije" },
+        innovation: { title: "Tehnološka Inovacija", description: "Moderni i sigurni sustavi" },
+        values: { title: "Zajedničke Vrijednosti", description: "Posvećenost klijentu i transparentnost" },
+        contactTitle: "Kontakt za Partnerstvo", contactSubtitle: "Razgovarajmo o mogućnostima suradnje",
+        phone: "Telefon", team: "Posvećeni tim", teamMember: "Dr. Klaus Müller - Direktor Partnerstava",
+        button: "Predložite Partnerstvo"
+      }
+    },
+    careers_page: {
+      hero: { badge: "Pridružite nam se", title: "Gradimo Budućnost", titleHighlight: "Financija",
+        description: "Pridružite se strastvenom timu koji revolucionira financijske usluge u Europi inovacijama, izvrsnošću i dobrotom.",
+        stats: { employees: "Suradnici", positions: "Otvorene pozicije", growth: "Godišnji rast", satisfaction: "Zadovoljstvo tima" }
+      },
+      positions: { title: "Otvorene Pozicije", subtitle: "Otkrijte prilike koje vas čekaju u Aurex K-pital", apply: "Prijavite se", urgent: "Hitno" },
+      jobs: {
+        dataScientist: { title: "Senior Data Scientist", department: "Inovacije i AI", description: "Razvoj prediktivnih algoritama za analizu rizika i optimizaciju portfelja." },
+        financialAdvisor: { title: "Viši Financijski Savjetnik", department: "Odnosi s Klijentima", description: "Personalizirano praćenje premium klijenata u njihovim investicijskim i financijskim projektima." },
+        developer: { title: "Full-Stack Razvojni Inženjer", department: "Tehnologija", description: "Razvoj i održavanje naše digitalne platforme i internih alata." },
+        riskAnalyst: { title: "Analitičar Rizika", department: "Upravljanje Rizicima", description: "Analiza i procjena kreditnog rizika, razvoj modela bodovanja." },
+        marketingManager: { title: "Digital Marketing Menadžer", department: "Marketing", description: "Digitalna strategija, online akvizicija klijenata, optimizacija konverzija." },
+        complianceOfficer: { title: "Compliance Officer", department: "Usklađenost", description: "Nadzor regulatorne usklađenosti, implementacija GDPR i AML procedura." }
+      },
+      departments: { title: "Naši Timovi", subtitle: "Otkrijte različite odjele i njihove misije", collaborators: "suradnici",
+        tech: { name: "Tehnologija", description: "Razvoj proizvoda i infrastruktura" },
+        finance: { name: "Financije i Rizik", description: "Financijska analiza i upravljanje rizicima" },
+        customer: { name: "Uspjeh Klijenata", description: "Odnosi s klijentima i podrška" },
+        compliance: { name: "Usklađenost", description: "Usklađenost i regulativa" },
+        operations: { name: "Operacije", description: "Operacije i administracija" }
+      },
+      benefits: { title: "Vaše Pogodnosti", subtitle: "Potpuni paket za vaš profesionalni i osobni razvoj",
+        salary: { title: "Atraktivna Plaća", description: "Konkurentna plaća + bonusi za učinak + sudjelovanje u dobiti", details: ["Zajamčena 13. plaća", "Tromjesečni bonusi za ciljeve", "Dioničke opcije za seniore"] },
+        flexibility: { title: "Maksimalna Fleksibilnost", description: "Fleksibilno radno vrijeme i rad od kuće do 3 dana tjedno", details: ["Slobodno radno vrijeme 7-20h", "Rad na daljinu do 60%", "Workation moguć 4 tjedna/godišnje"] },
+        training: { title: "Kontinuirano Obrazovanje", description: "Budžet za edukaciju 3000€/godišnje + pokrivene certifikacije", details: ["Tehničke obuke", "Profesionalne certifikacije", "Međunarodne konferencije"] },
+        wellbeing: { title: "Dobrobit na Radu", description: "Premium osiguranje + sport + timski događaji", details: ["Obiteljsko osiguranje 100%", "Teretana u uredu", "Mjesečni team building"] },
+        mobility: { title: "Mobilnost", description: "Službeni automobil ili naknada za prijevoz", details: ["Automobil ili električni bicikl", "Besplatan parking", "Nadoknadjen javni prijevoz"] },
+        vacation: { title: "Velikodušan Godišnji Odmor", description: "30 dana godišnjeg odmora + dodatni dani", details: ["5 tjedana osnova", "Fleksibilni slobodni dani", "Odmor prema stažu"] }
+      },
+      culture: { title: "Naša Kultura", subtitle: "Duh Aurex K-pital u svakodnevici",
+        innovation: { title: "Trajna Inovacija", description: "Ulažemo 15% našeg vremena u istraživanje i razvoj te istraživanje novih ideja" },
+        teamwork: { title: "Timski Duh", description: "Međuodjelna suradnja, uzajamna pomoć i proslava kolektivnih uspjeha" },
+        conviviality: { title: "Ugodna Atmosfera", description: "Timski doručci, druženja nakon posla, obiteljski događaji i team building izleti" },
+        balance: { title: "Ravnoteža Posla i Života", description: "Soba za igre, prostori za opuštanje, poštovana politika odspajanja" }
+      },
+      cta: { title: "Spremni Pridružiti Nam Se?", subtitle: "Spontana prijava ili se prijavite izravno na otvorenu poziciju",
+        spontaneous: "Spontana Prijava", viewAll: "Pogledajte Sve Pozicije", contact: "Kontakt HR" }
+    },
+    common: {
+      phoneLabel: "Tel.",
+      registerLabel: "Registar",
+      sending: "Slanje u tijeku...",
+      infoLabel: "Informacija",
+      safeNumber: "Safe-Nummer",
+      openMenu: "Otvori izbornik"
+    },
+    home: {
+      hero: {
+        title: "Vaš Financijski Partner",
+        subtitle: "od 1997.",
+        description: "Izvrsnost, inovacije i povjerenje za sve vaše financijske projekte",
+        ctaBtn: "Otkrijte naša rješenja",
+        simulateBtn: "Simulirajte kredit",
+        scrollText: "Otkrijte",
+        carousel: {
+          text1: "Pokrenite svoj projekt s Aurex K-pital",
+          text2: "Dobijte financiranje bez predujma",
+          text3: "Uložite danas u svoju budućnost"
+        },
+        stats: {
+          experience: {
+            title: "Godina izvrsnosti",
+            subtitle: "Kontinuirana inovacija"
+          },
+          clients: {
+            title: "Zadovoljnih klijenata",
+            subtitle: "Zajamčeno zadovoljstvo"
+          },
+          funding: {
+            title: "Ostvarenih financiranja",
+            subtitle: "Transformativni utjecaj"
+          }
+        }
+      },
+      services: {
+        badge: "Usluge",
+        title: "Rješenja",
+        subtitle: "Inovativna",
+        description: "Otkrijte naša financijska rješenja",
+        description2: "revolucionarna",
+        description3: "za vaše projekte"
+      },
+      about: {
+        badge: "O nama",
+        title: "Vaš partner",
+        subtitle: "financijski",
+        subtitle2: "od povjerenja",
+        description1: {
+          highlight: "Od 1997.,",
+          text: " Aurex K-pital prati pojedince i tvrtke u njihovim financijskim projektima pristupom koji kombinira",
+          expertise: "ljudsku stručnost",
+          and: "i",
+          technology: "tehnološku inovaciju"
+        },
+        description2: {
+          text: "Naša misija: demokratizirati pristup financiranju zahvaljujući rješenjima",
+          highlight: "brzim, transparentnim i prilagođenim",
+          success: "za ostvarivanje vaših ambicija"
+        },
+        stats: {
+          founded: "Godina osnivanja",
+          location: "Sjedište",
+          certified: "Registar",
+          security: "Safe-Nummer"
+        },
+        trust: {
+          title: "Vaše povjerenje, naš prioritet",
+          description: "Certificirani i regulirani od europskih vlasti"
+        },
+        buttons: {
+          history: "Naša povijest",
+          contact: "Kontaktirajte nas"
+        }
+      },
+      cta: {
+        title: "Spremni pretvoriti",
+        titleHighlight: "vaše projekte",
+        titleEnd: "u stvarnost?",
+        description: "Naši stručnjaci vas prate u svakom koraku za ostvarivanje vaših financijskih ambicija.",
+        buttons: {
+          request: "Podnijeti zahtjev",
+          simulate: "Simulirati kredit",
+          contact: "Kontaktirajte nas"
+        },
+        contact: {
+          phone: "Telefon",
+          address: "Adresa",
+          addressValue: "Irma-Keilhack-Ring 24, 22145 Hamburg, Njemačka"
+        }
+      }
+    },
+    services: {
+      personalLoan: {
+        title: "Osobni krediti",
+        description: "Prilagođena financijska rješenja s revolucionarnim uvjetima.",
+        points: ["AI za optimalne kamate", "Odgovor u 2h", "Maksimalna fleksibilnost"],
+        cta: "Otkrijte",
+        useCases: [
+          "Renovacija",
+          "Putovanje iz snova",
+          "Vjenčanje",
+          "Studije",
+          "Kupnja vozila"
+        ]
+      },
+      businessLoan: {
+        title: "Poslovno financiranje",
+        description: "Unaprijedite svoju tvrtku našim inovativnim rješenjima.",
+        points: ["Ekspresno financiranje", "Stručna pratnja", "Prilagođena rješenja"],
+        cta: "Otkrijte",
+        useCases: [
+          "Osnivanje tvrtke",
+          "Komercijalna ekspanzija",
+          "Kupnja opreme",
+          "Likvidnost",
+          "Otkup udjela"
+        ]
+      },
+      investment: {
+        title: "Pametna ulaganja",
+        description: "Optimizacija imovine umjetnom inteligencijom i ljudskom stručnošću.",
+        points: ["Inteligentni portfelj", "Premium savjetovanje", "Optimizirani prinosi"],
+        cta: "Otkrijte",
+        useCases: [
+          "Nekretninska ulaganja",
+          "Diversifikacija imovine",
+          "Priprema za mirovinu",
+          "Porezna optimizacija",
+          "ESG ulaganja"
+        ]
+      },
+      insurance: {
+        title: "Osiguranje 360°",
+        description: "Potpuna i inovativna zaštita za sve vaše životne i poslovne projekte.",
+        points: ["Sveobuhvatna pokrivenost", "Upravljanje štetama 24h", "Premium podrška"],
+        cta: "Otkrijte",
+        useCases: [
+          "Zaštita obitelji",
+          "Profesionalno osiguranje",
+          "Jamstvo za kredit",
+          "Građanska odgovornost",
+          "Zdravstvena zaštita"
+        ]
+      },
+      explore: "Istražite sve naše usluge",
+      features: "Značajke",
+      useCases: "Slučajevi korištenja",
+      discover: "Otkrijte",
+      specialized: {
+        title: "Specijalizirani proizvodi",
+        description: "Stručna rješenja za vaše specifične potrebe",
+        mortgage: {
+          title: "Stambeni kredit",
+          description: "Financirajte svoj nekretninski projekt pod najboljim uvjetima",
+          rate: "Od 1,2% EKS"
+        },
+        student: {
+          title: "Studentski kredit",
+          description: "Prilagođena rješenja za financiranje studija",
+          rate: "0% tijekom studija"
+        },
+        savings: {
+          title: "Štedni račun+",
+          description: "Kamatna štednja uvijek dostupna",
+          rate: "Do 4% neto"
+        },
+        premium: {
+          title: "Premium kartica",
+          description: "Ekskluzivne pogodnosti i usluge visoke klase",
+          rate: "Bez naknada prvu godinu"
+        }
+      },
+      process: {
+        title: "Naš proces",
+        description: "Pojednostavljeni put za ostvarivanje vaših projekata",
+        step1: {
+          title: "Analiza vašeg projekta",
+          description: "Personalizirana studija vaših potreba i financijskih mogućnosti"
+        },
+        step2: {
+          title: "Prilagođena ponuda",
+          description: "Rješenja prilagođena s uvjetima optimiziranim AI-jem"
+        },
+        step3: {
+          title: "Ekspresna validacija",
+          description: "Načelni odgovor u manje od 2 radna sata"
+        },
+        step4: {
+          title: "Isplata sredstava",
+          description: "Brza dostupnost i kontinuirana podrška"
+        }
+      }
+    },
+    testimonials: {
+      title: "Vjeruju nam",
+      subtitle: "Što kažu naši zadovoljni klijenti",
+      stats: {
+        satisfaction: "Zadovoljstvo klijenata",
+        clients: "Zadovoljnih klijenata",
+        funding: "Odobrenih financiranja",
+        experience: "Godina iskustva"
+      },
+      clients: [
+        {
+          name: "Marko Horvat",
+          location: "Zagreb, Hrvatska",
+          feedback: "Brza i profesionalna usluga. Moj kredit odobren je u 48 sati. Hvala Aurex K-pital!"
+        },
+        {
+          name: "Ana Kovačević",
+          location: "Split, Hrvatska",
+          feedback: "Kompetentan tim, jednostavno sučelje i zaista personalizirana podrška."
+        },
+        {
+          name: "Ivan Novak",
+          location: "Rijeka, Hrvatska",
+          feedback: "Simulator je jasan i dobio sam bolje uvjete nego u svojoj banci."
+        }
+      ]
+    },
+    simulator: {
+      title: "Kalkulator Kredita",
+      titleSecond: "Inteligentni",
+      subtitle: "Dobijte personaliziranu procjenu vašeg financiranja u stvarnom vremenu",
+      form: {
+        loanType: "Vrsta financiranja",
+        amount: "Željeni iznos (€)",
+        duration: "Rok otplate (mjeseci)",
+        income: "Mjesečni neto prihod (neobavezno)",
+        incomeHelper: "Informacija korištena za optimizaciju vaše kamate",
+        guarantee: "Imate li jamstvo ili garanciju?",
+        guaranteeOptions: {
+          yes: "Da, imam jamstvo",
+          no: "Ne, nemam jamstvo",
+          maybe: "Za procjenu prema ponudi"
+        },
+        loanTypes: {
+          personal: {
+            label: "Osobni Kredit",
+            description: "Za sve vaše osobne projekte"
+          },
+          auto: {
+            label: "Auto Kredit",
+            description: "Financiranje novog ili rabljenog vozila"
+          },
+          realEstate: {
+            label: "Stambeni Kredit",
+            description: "Kupnja, gradnja ili renovacija"
+          },
+          professional: {
+            label: "Poslovno Financiranje",
+            description: "Profesionalno ulaganje"
+          },
+          student: {
+            label: "Studentski Kredit",
+            description: "Financiranje visokog obrazovanja"
+          },
+          consolidation: {
+            label: "Konsolidacija Kredita",
+            description: "Objedinjavanje postojećih dugova"
+          }
+        }
+      },
+      configuration: {
+        title: "Konfiguracija vašeg kredita",
+        description: "Prilagodite parametre prema vašim potrebama"
+      },
+      result: {
+        title: "Vaša procjena",
+        monthlyPayment: "Mjesečna rata",
+        interestRate: "Kamatna stopa",
+        totalCost: "Ukupni trošak kredita",
+        totalRepayment: "Ukupni iznos za otplatu",
+        units: {
+          months: "mjeseci",
+          years: "godina"
+        },
+        disclaimer: "Ova procjena je indikativna i može varirati prema vašem konačnom profilu. Ponuda podliježe odobrenju."
+      },
+      advantages: {
+        title: "Vaše pogodnosti Aurex K-pital",
+        items: {
+          rates: "Pregovorene povlaštene kamate",
+          earlyRepayment: "Prijevremena otplata bez naknada",
+          response: "Zajamčen odgovor u 24h",
+          support: "Personalizirana podrška"
+        }
+      },
+      cta: {
+        title: "Spremni ostvariti svoj projekt?",
+        description: "Naši stručni savjetnici vas prate da ovu simulaciju pretvorite u stvarnost",
+        buttons: {
+          request: "Podnijeti zahtjev",
+          consultant: "Razgovarajte sa savjetnikom",
+          officialRequest: "Podnijeti službeni zahtjev",
+          allServices: "Pogledajte sve naše usluge"
+        }
+      }
+    },
+    contact: {
+      hero: {
+        title: "Kontaktirajte naše",
+        titleSpan: "Stručnjake",
+        subtitle: "Posvećeni tim za praćenje svih vaših financijskih projekata",
+        stats: {
+          responseTime: "Odgovor u 2h",
+          experts: "Dostupni stručnjaci"
+        }
+      },
+      methods: {
+        title: "Načini kontakta",
+        subtitle: "Odaberite kanal koji vam najbolje odgovara za razgovor s našim savjetnicima",
+        phone: {
+          title: "Telefon",
+          description: "Nazovite nas za neposredan savjet",
+          value: "+49 1521 4946940",
+          hours: "Pon-Pet 8-19h, Sub 9-17h"
+        },
+        email: {
+          title: "E-mail",
+          description: "Pišite nam, brzo odgovaramo",
+          value: "contact@aurexkpital.com",
+          hours: "Odgovor u prosjeku 2h"
+        },
+        address: {
+          title: "Adresa",
+          description: "Posjetite nas u našim uredima",
+          value: "Ulica Grada Vukovara 271, 10000 Zagreb",
+          hours: "Samo prema dogovoru"
+        }
+      },
+      form: {
+        title: "Pošaljite nam poruku",
+        fields: {
+          name: "Ime i prezime",
+          email: "E-mail adresa",
+          message: "Vaša poruka"
+        },
+        submitButton: "Pošalji poruku",
+        successMessage: "Hvala! Vaša poruka je uspješno poslana. Odgovorit ćemo vam što prije.",
+        errorMessage: "Došlo je do pogreške. Molimo pokušajte ponovno.",
+        emailSubject: "Nova poruka od",
+        commitment: "Obvezujemo se odgovoriti u roku od 2 sata tijekom radnog vremena."
+      }
+    },
+    legal: {
+      badge: "Pravne Informacije",
+      title: {
+        main: "Pravne",
+        subtitle: "Informacije"
+      },
+      description: "Sve pravne i regulatorne informacije o Aurex K-pital i korištenju naših usluga.",
+      tabs: {
+        mentions: "Pravne Napomene",
+        privacy: "Privatnost",
+        terms: "Uvjeti",
+        gdpr: "GDPR"
+      },
+      privacy: {
+        title: "Politika Privatnosti",
+        description: "Zaštita i obrada vaših osobnih podataka",
+        lastUpdate: "Posljednje ažuriranje: 1. prosinca 2024.",
+        compliance: "Ova politika je u skladu s GDPR-om i važećim europskim propisima.",
+        sections: {
+          controller: {
+            title: "1. Voditelj Obrade",
+            content: "Aurex K-pital GmbH, društvo upisano pod brojem HRB 147852 u trgovačkom registru Hamburga, sa sjedištem na adresi Irma-Keilhack-Ring 24, 22145 Hamburg, Njemačka.\nSlužbenik za zaštitu podataka: privacy@aurex-kpital.de"
+          },
+          dataCollected: {
+            title: "2. Prikupljeni Podaci",
+            content: "Prikupljamo sljedeće kategorije podataka:\n• Identifikacijski podaci: ime, prezime, datum rođenja, državljanstvo\n• Kontakt podaci: poštanska adresa, e-mail, telefon\n• Financijski podaci: prihodi, imovina, bankovni podaci\n• Podaci o povezivanju: IP adresa, kolačići, zapisnici pregledavanja\n• Podaci o ponašanju: interakcije s našim uslugama"
+          },
+          purposes: {
+            title: "3. Svrhe Obrade",
+            content: "Vaši podaci se obrađuju za:\n• Izvršenje naših financijskih usluga\n• Procjenu vaše kreditne sposobnosti\n• Sprječavanje prijevara i pranja novca\n• Poštivanje naših zakonskih obveza\n• Poboljšanje naših usluga\n• Komercijalnu komunikaciju (uz vaš pristanak)"
+          },
+          legalBasis: {
+            title: "4. Pravna Osnova",
+            content: "Naše obrade temelje se na:\n• Izvršenju ugovora: za pružanje naših usluga\n• Zakonskoj obvezi: regulatorna usklađenost (KYC, AML)\n• Legitimnom interesu: sprječavanje prijevara, poboljšanje usluga\n• Pristanku: marketinške komunikacije, nebitni kolačići"
+          },
+          dataSharing: {
+            title: "5. Dijeljenje Podataka",
+            content: "Vaši podaci mogu biti dijeljeni s:\n• Našim bankovnim i financijskim partnerima\n• Kreditnim i osiguravajućim tijelima\n• Regulatornim tijelima (BaFin, ACPR)\n• Našim tehničkim dobavljačima (pod strogim ugovorom)\n• Pravosudnim tijelima na zahtjev"
+          },
+          retention: {
+            title: "6. Čuvanje Podataka",
+            content: "Vaše podatke čuvamo:\n• Podaci aktivnog klijenta: trajanje odnosa + 5 godina\n• Financijski podaci: 10 godina nakon završetka ugovora\n• Podaci o povezivanju: najviše 13 mjeseci\n• Marketinški podaci: 3 godine nakon zadnjeg kontakta"
+          },
+          rights: {
+            title: "7. Vaša Prava",
+            content: "Sukladno GDPR-u, imate sljedeća prava:\n• Pravo pristupa: dobiti kopiju vaših podataka\n• Pravo ispravka: ispraviti netočne podatke\n• Pravo brisanja: obrisati vaše podatke (pod uvjetima)\n• Pravo ograničenja: ograničiti obradu\n• Pravo prenosivosti: preuzeti vaše podatke\n• Pravo prigovora: prigovoriti obradi\n• Pravo povlačenja pristanka\nZa ostvarivanje vaših prava: privacy@aurex-kpital.de"
+          },
+          security: {
+            title: "8. Sigurnost",
+            content: "Primjenjujemo odgovarajuće tehničke i organizacijske mjere:\n• Enkripcija podataka (AES-256)\n• Ograničen i kontroliran pristup\n• Kontinuirani nadzor sustava\n• Redovita edukacija osoblja\n• Periodičke sigurnosne revizije"
+          },
+          transfers: {
+            title: "9. Međunarodni Prijenosi",
+            content: "Neki podaci mogu biti preneseni u treće zemlje uz odgovarajuća jamstva (standardne ugovorne klauzule, odluke o adekvatnosti Europske komisije)."
+          },
+          contact: {
+            title: "10. Kontakt",
+            content: "Za sva pitanja u vezi ove politike:\nE-mail: privacy@aurex-kpital.de\nAdresa: Aurex K-pital - DPO, Irma-Keilhack-Ring 24, 22145 Hamburg, Njemačka\nTakođer imate pravo podnijeti pritužbu nadležnom nadzornom tijelu (AZOP u Hrvatskoj, BfDI u Njemačkoj)."
+          }
+        }
+      },
+      terms: {
+        title: "Uvjeti Korištenja",
+        description: "Pravila korištenja naših usluga i platforme",
+        sections: {
+          article1: {
+            title: "Članak 1 - Predmet",
+            content: "Ovi Uvjeti Korištenja (UK) reguliraju pristup i korištenje usluga koje nudi Aurex K-pital GmbH putem svoje digitalne platforme i distribucijskih kanala."
+          },
+          article2: {
+            title: "Članak 2 - Prihvaćanje Uvjeta",
+            content: "Korištenje naših usluga podrazumijeva potpuno prihvaćanje ovih UK. Ako ne prihvaćate ove uvjete, ne smijete koristiti naše usluge."
+          },
+          article3: {
+            title: "Članak 3 - Ponuđene Usluge",
+            content: "Aurex K-pital nudi sljedeće usluge:\n• Posredovanje u bankovnim operacijama\n• Savjetovanje o financijskim ulaganjima\n• Posredovanje u osiguranju\n• Upravljanje imovinom\n• Alati za simulaciju i analizu"
+          },
+          article4: {
+            title: "Članak 4 - Uvjeti Pristupa",
+            content: "Za pristup našim uslugama morate:\n• Biti punoljetni i pravno sposobni\n• Imati prebivalište u Europskoj uniji\n• Pružiti točne i potpune informacije\n• Poštovati primjenjive zakone i propise"
+          },
+          article5: {
+            title: "Članak 5 - Korisnički Račun",
+            content: "Stvaranje računa zahtijeva:\n• Pružanje istinitih informacija\n• Stvaranje sigurne lozinke\n• Potvrdu identiteta (KYC)\n• Prihvaćanje naših politika\nOdgovorni ste za povjerljivost svojih pristupnih podataka i sve aktivnosti obavljene pod vašim računom."
+          },
+          article6: {
+            title: "Članak 6 - Obveze Korisnika",
+            content: "Korištenjem naših usluga obvezujete se:\n• Pružiti točne informacije i održavati ih ažurnima\n• Koristiti usluge u skladu s njihovom namjenom\n• Ne ugrožavati sigurnost sustava\n• Poštovati prava intelektualnog vlasništva\n• Ne koristiti usluge u nezakonite svrhe"
+          },
+          article7: {
+            title: "Članak 7 - Odgovornost Aurex K-pital",
+            content: "Aurex K-pital se obvezuje:\n• Pružati usluge s dužnom pažnjom i profesionalizmom\n• Poštovati važeću financijsku regulativu\n• Štititi vaše osobne podatke\n• Održavati sigurnost svojih sustava\nNaša odgovornost ograničena je na izravne i predvidive štete. Ne možemo biti odgovorni za financijske gubitke koji proizlaze iz vaših investicijskih odluka."
+          },
+          article8: {
+            title: "Članak 8 - Intelektualno Vlasništvo",
+            content: "Svi elementi platforme (tekstovi, slike, logotipi, softver) zaštićeni su pravima intelektualnog vlasništva. Svako neovlašteno korištenje je zabranjeno."
+          },
+          article9: {
+            title: "Članak 9 - Dostupnost Usluge",
+            content: "Nastojimo osigurati maksimalnu dostupnost naših usluga. Međutim, prekidi mogu nastati zbog održavanja, ažuriranja ili više sile."
+          },
+          article10: {
+            title: "Članak 10 - Izmjena UK",
+            content: "Ovi UK mogu biti izmijenjeni u bilo kojem trenutku. Izmjene stupaju na snagu nakon objave na platformi. Vaša je odgovornost redovito pregledavati ove uvjete."
+          },
+          article11: {
+            title: "Članak 11 - Raskid",
+            content: "Možete raskinuti svoj račun u bilo kojem trenutku. Zadržavamo pravo suspendirati ili zatvoriti račun u slučaju kršenja ovih UK."
+          },
+          article12: {
+            title: "Članak 12 - Primjenjivo Pravo i Nadležnost",
+            content: "Ovi UK regulirani su njemačkim pravom. U slučaju spora, sudovi u Hamburgu su jedini nadležni, osim ako zakon ne propisuje drugačije."
+          },
+          article13: {
+            title: "Članak 13 - Medijacija",
+            content: "U slučaju spora, možete se obratiti medijatoru pri Udruzi njemačkih banaka (Bankenverband) prije pokretanja sudskog postupka."
+          },
+          contact: {
+            title: "Kontakt",
+            content: "Za sva pitanja u vezi UK:\nE-mail: legal@aurex-kpital.de\nAdresa: Aurex K-pital GmbH, Irma-Keilhack-Ring 24, 22145 Hamburg, Njemačka"
+          }
+        }
+      },
+      gdpr: {
+        title: "GDPR Sukladnost",
+        description: "Naša posvećenost zaštiti vaših osobnih podataka"
+      },
+      mentions: {
+        title: "Pravne Napomene",
+        description: "Informacije o tvrtki i pravne odgovornosti",
+        company: {
+          title: "Identifikacija Tvrtke",
+          name: "Naziv tvrtke: Aurex K-pital GmbH",
+          type: "Pravni oblik: Društvo s ograničenom odgovornošću (GmbH)",
+          capital: "Temeljni kapital: 2.500.000 €",
+          address: "Sjedište: Irma-Keilhack-Ring 24, 22145 Hamburg, Njemačka",
+          register: "Trgovački registar: Hamburg HRB 147852",
+          vat: "PDV broj: DE 312 456 789",
+          siren: "SIREN broj: 523 456 789"
+        },
+        management: {
+          title: "Uprava",
+          ceo: "Generalni direktor: Dr. Klaus Müller",
+          cio: "Direktorica inovacija: Sophie Laurent",
+          cro: "Direktor rizika: Marco Antonelli"
+        },
+        activity: {
+          title: "Djelatnost",
+          description: "Aurex K-pital je financijska institucija ovlaštena od BaFin-a (Bundesanstalt für Finanzdienstleistungsaufsicht) pod brojem odobrenja 147-FS-2015. Naše djelatnosti uključuju:",
+          services: {
+            banking: "Posredovanje u bankovnim operacijama i platnim uslugama",
+            investment: "Savjetovanje o financijskim ulaganjima",
+            insurance: "Posredovanje u osiguranju",
+            wealth: "Usluge upravljanja imovinom"
+          }
+        },
+        contact: {
+          title: "Kontakt",
+          phone: "Telefon: +49 1521 4946940",
+          email: "E-mail: contact@aurexkpital.com",
+          hours: "Radno vrijeme: Ponedjeljak-Petak 8h-19h, Subota 9h-17h"
+        },
+        hosting: {
+          title: "Hosting",
+          description: "Ova web stranica hostirana je od:",
+          company: "Amazon Web Services EMEA SARL\n38 Avenue John F. Kennedy, L-1855 Luxembourg\nTelefon: +49 1521 4946940"
+        },
+        intellectual: {
+          title: "Intelektualno Vlasništvo",
+          description: "Svi sadržaji na ovoj web stranici (tekstovi, slike, logotipi, grafike itd.) zaštićeni su autorskim pravima i pripadaju Aurex K-pital ili njegovim partnerima. Svaka reprodukcija, čak i djelomična, zabranjena je bez prethodnog pisanog odobrenja."
+        },
+        responsibility: {
+          title: "Odgovornost",
+          description: "Aurex K-pital nastoji pružiti točne i ažurirane informacije. Međutim, tvrtka ne može jamčiti točnost, potpunost ili aktualnost informacija objavljenih na ovoj web stranici. Korištenje informacija na isključivu je odgovornost korisnika."
+        }
+      }
+    }
   }
 };
 
