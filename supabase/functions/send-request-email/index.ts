@@ -224,7 +224,7 @@ const emailTemplates = {
 const getNoIncomeText = (lang: string): string => {
   const noIncomeTexts: { [key: string]: string } = {
     fr: 'Aucun', de: 'Keine', pl: 'Brak', fi: 'Ei ole',
-    es: 'Ninguno', pt: 'Nenhum', el: 'Κανένα', it: 'Nessuno'
+    es: 'Ninguno', pt: 'Nenhum', el: 'Κανένα', it: 'Nessuno', hr: 'Nema'
   };
   return noIncomeTexts[lang] || 'Aucun';
 };
