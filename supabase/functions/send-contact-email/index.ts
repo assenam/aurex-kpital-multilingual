@@ -112,6 +112,18 @@ const emailTemplates = {
     yourMessage: "Il suo messaggio:",
     responseTime: "Il nostro team di esperti la contattera generalmente entro 2 ore durante i nostri orari di ufficio.",
     contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Lunedi-Venerdi 8-19, Sabato 9-17"
+  },
+  hr: {
+    notificationSubject: (name: string) => `Nova kontakt poruka - ${name}`,
+    notificationTitle: "Nova kontakt poruka",
+    fields: { name: "Ime i prezime", email: "E-mail", message: "Poruka" },
+    formNote: "Poruka primljena putem kontakt obrasca na web stranici.",
+    confirmationSubject: "Primili smo vasu poruku!",
+    confirmationTitle: (name: string) => `Hvala na vasoj poruci, ${name}!`,
+    confirmationContent: "Primili smo vas upit i nas tim ce vam odgovoriti sto je prije moguce.",
+    yourMessage: "Vasa poruka:",
+    responseTime: "Nas tim strucnjaka ce vas kontaktirati obicno unutar 2 sata tijekom naseg radnog vremena.",
+    contactInfo: "tel: +49 1521 4946940 | email: contact@aurexkpital.com | Ponedjeljak-Petak 8-19h, Subota 9-17h"
   }
 };
 
