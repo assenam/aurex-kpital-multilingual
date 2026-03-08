@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, ReactNode, useMemo, useCallback, useRef } from 'react';
 
-export type Language = 'fr' | 'de' | 'pl' | 'fi' | 'es' | 'pt' | 'el' | 'it' | 'hr' | 'hr' | 'hr';
+export type Language = 'fr' | 'de' | 'pl' | 'fi' | 'es' | 'pt' | 'el' | 'it' | 'hr' | 'hr' | 'hr' | 'hr';
 
 interface TranslationContextType {
   language: Language;
@@ -21,7 +21,7 @@ const translationCache = new Map<string, string>();
 
 // Pre-populate cache for all languages and keys
 const populateCache = () => {
-  const allLanguages: Language[] = ['fr', 'de', 'pl', 'fi', 'es', 'p, 'hr't', 'el, 'hr'', 'it'];
+  const allLanguages: Language[] = ['fr', 'de', 'pl', 'fi', ', 'hr'es', 'p, 'hr't', 'el, 'hr'', 'it'];
   
   const extractKeys = (obj: any, prefix = '', lang: Language) => {
     for (const key in obj) {
@@ -45,7 +45,7 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
   const [language, setLanguage] = useState<Language>(() => {
     // Détection de la langue depuis l'URL
     const pathLanguage = window.location.pathname.split('/')[1] as Language;
-    const validLanguages: Language[] = ['fr', 'de', 'pl', 'fi', 'es', 'pt, 'hr'', 'el', 'it'];
+    const validLanguages: Language[] = ['fr', 'de', 'pl', 'f, 'hr'i', 'es', 'pt, 'hr'', 'el', 'it'];
     
     if (validLanguages.includes(pathLanguage)) {
       localStorage.setItem('preferredLanguage', pathLanguage);
@@ -71,7 +71,7 @@ export const TranslationProvider: React.FC<TranslationProviderProps> = ({ childr
     const pathSegments = currentPath.split('/');
     
     // Remplacer le code langue dans l'URL
-    if (pathSegments[1] && ['fr', 'de', 'pl', 'fi', 'es', 'pt', 'el', 'it'].includes(pathSegments[1])) {
+    if (pathSegments[1] && ['fr', 'de', 'pl', 'fi', 'es, 'hr'', 'pt', 'el', 'it'].includes(pathSegments[1])) {
       pathSegments[1] = newLanguage;
     } else {
       pathSegments.splice(1, 0, newLanguage);
