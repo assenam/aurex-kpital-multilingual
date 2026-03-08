@@ -21,7 +21,7 @@ const translationCache = new Map<string, string>();
 
 // Pre-populate cache for all languages and keys
 const populateCache = () => {
-  const allLanguages: Language[] = ['fr', 'de', 'pl', 'fi', ', 'hr'es', 'p, 'hr't', 'el, 'hr'', 'it'];
+  const allLanguages: Language[] = ['fr', 'de', 'pl', 'fi', 'es', 'pt', 'el', 'it', 'hr'];
   
   const extractKeys = (obj: any, prefix = '', lang: Language) => {
     for (const key in obj) {
