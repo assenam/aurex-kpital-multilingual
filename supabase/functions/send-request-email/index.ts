@@ -238,7 +238,8 @@ const getFormSubmissionText = (lang: string): string => {
     es: 'Solicitud recibida a través del formulario de solicitud del sitio web.',
     pt: 'Solicitação recebida através do formulário de solicitação do site.',
     el: 'Αίτηση παραλήφθηκε μέσω της φόρμας αίτησης του ιστότοπου.',
-    it: 'Richiesta ricevuta tramite il modulo di richiesta del sito web.'
+    it: 'Richiesta ricevuta tramite il modulo di richiesta del sito web.',
+    hr: 'Zahtjev primljen putem obrasca za zahtjev na web stranici.'
   };
   return formTexts[lang] || 'Demande reçue via le formulaire de demande du site web.';
 };
